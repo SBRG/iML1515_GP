@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:55:35
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b1679/b1679_protein/sequences/P76194_1mzg-B.needle
+#    -asequence asis::MALLPDKEKLLRNFLRCANWEEKYLYIIELGQRLPELRDEDRSPQNSIQGCQSQVWIVMRQNAQGIIELQGDSDAAIVKGLIAVVFILYDQMTPQDIVNFDVRPWFEKMALTQHLTPSRSQGLEAMIRAIRAKAAALS
+#    -bsequence asis::XALLPDKEKLLRNFLRCANWEEKYLYIIELGQRLPELRDEDRSPQNSIQGCQSQVWIVXRQNAQGIIELQGDSDAAIVKGLIAVVFILYDQXTPQDIVNFDVRPWFEKXALTQHLTPSRSQGLEAXIRAIRAKAAALSLEHHHH
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b1679/b1679_protein/sequences/P76194_1mzg-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 144
+# Identity:     133/144 (92.4%)
+# Similarity:   133/144 (92.4%)
+# Gaps:           6/144 ( 4.2%)
+# Score: 675.0
+# 
+#
+#=======================================
+
+asis               1 MALLPDKEKLLRNFLRCANWEEKYLYIIELGQRLPELRDEDRSPQNSIQG     50
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XALLPDKEKLLRNFLRCANWEEKYLYIIELGQRLPELRDEDRSPQNSIQG     50
+
+asis              51 CQSQVWIVMRQNAQGIIELQGDSDAAIVKGLIAVVFILYDQMTPQDIVNF    100
+                     ||||||||.||||||||||||||||||||||||||||||||.||||||||
+asis              51 CQSQVWIVXRQNAQGIIELQGDSDAAIVKGLIAVVFILYDQXTPQDIVNF    100
+
+asis             101 DVRPWFEKMALTQHLTPSRSQGLEAMIRAIRAKAAALS------    138
+                     ||||||||.||||||||||||||||.||||||||||||      
+asis             101 DVRPWFEKXALTQHLTPSRSQGLEAXIRAIRAKAAALSLEHHHH    144
+
+
+#---------------------------------------
+#---------------------------------------

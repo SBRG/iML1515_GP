@@ -1,0 +1,287 @@
+ID   NAPA_ECOLI              Reviewed;         828 AA.
+AC   P33937; P78087;
+DT   01-FEB-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 3.
+DT   15-MAR-2017, entry version 160.
+DE   RecName: Full=Periplasmic nitrate reductase;
+DE            EC=1.7.99.4;
+DE   Flags: Precursor;
+GN   Name=napA; Synonyms=yojC, yojD, yojE; OrderedLocusNames=b2206, JW2194;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / BHB2600;
+RA   Richterich P., Lakey N., Gryan G., Jaehn L., Mintz L., Robison K.,
+RA   Church G.M.;
+RT   "Automated multiplex sequencing of the E.coli genome.";
+RL   Submitted (OCT-1993) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   SEQUENCE REVISION.
+RA   Robison K.;
+RL   Submitted (FEB-1994) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA] OF 1-757.
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=9097040; DOI=10.1093/dnares/3.6.379;
+RA   Itoh T., Aiba H., Baba T., Fujita K., Hayashi K., Inada T., Isono K.,
+RA   Kasai H., Kimura S., Kitakawa M., Kitagawa M., Makino K., Miki T.,
+RA   Mizobuchi K., Mori H., Mori T., Motomura K., Nakade S., Nakamura Y.,
+RA   Nashimoto H., Nishio Y., Oshima T., Saito N., Sampei G., Seki Y.,
+RA   Sivasundaram S., Tagami H., Takeda J., Takemoto K., Wada C.,
+RA   Yamamoto Y., Horiuchi T.;
+RT   "A 460-kb DNA sequence of the Escherichia coli K-12 genome
+RT   corresponding to the 40.1-50.0 min region on the linkage map.";
+RL   DNA Res. 3:379-392(1996).
+RN   [6]
+RP   PROTEIN SEQUENCE OF 37-43, AND SUBCELLULAR LOCATION.
+RX   PubMed=10234835; DOI=10.1111/j.1574-6968.1999.tb13564.x;
+RA   Thomas G., Potter L., Cole J.A.;
+RT   "The periplasmic nitrate reductase from Escherichia coli: a
+RT   heterodimeric molybdoprotein with a double-arginine signal sequence
+RT   and an unusual leader peptide cleavage site.";
+RL   FEMS Microbiol. Lett. 174:167-171(1999).
+RN   [7]
+RP   EXPORT VIA THE TAT-SYSTEM.
+RX   PubMed=17218314; DOI=10.1074/jbc.M610507200;
+RA   Tullman-Ercek D., DeLisa M.P., Kawarasaki Y., Iranpour P.,
+RA   Ribnicky B., Palmer T., Georgiou G.;
+RT   "Export pathway selectivity of Escherichia coli twin arginine
+RT   translocation signal peptides.";
+RL   J. Biol. Chem. 282:8309-8316(2007).
+CC   -!- FUNCTION: Catalytic subunit of the periplasmic nitrate reductase
+CC       (NAP). Only expressed at high levels during aerobic growth. NapAB
+CC       complex receives electrons from the membrane-anchored tetraheme
+CC       protein NapC, thus allowing electron flow between membrane and
+CC       periplasm. Essential function for nitrate assimilation and may
+CC       have a role in anaerobic metabolism (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Nitrite + acceptor = nitrate + reduced
+CC       acceptor.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000250};
+CC       Note=Binds 1 [4Fe-4S] cluster. {ECO:0000250};
+CC   -!- COFACTOR:
+CC       Name=Mo-bis(molybdopterin guanine dinucleotide);
+CC         Xref=ChEBI:CHEBI:60539; Evidence={ECO:0000250};
+CC       Note=Binds 1 molybdenum-bis(molybdopterin guanine dinucleotide)
+CC       (Mo-bis-MGD) cofactor per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Interacts with NapB. {ECO:0000250}.
+CC   -!- INTERACTION:
+CC       P0A9I5:napD; NbExp=8; IntAct=EBI-554952, EBI-554985;
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000269|PubMed:10234835}.
+CC   -!- PTM: Exported by the Tat system. The position of the signal
+CC       peptide cleavage has been experimentally proven.
+CC   -!- SIMILARITY: Belongs to the prokaryotic molybdopterin-containing
+CC       oxidoreductase family. NasA/NapA/NarB subfamily. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA16399.1; Type=Frameshift; Positions=19, 27; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U00008; AAA16399.1; ALT_FRAME; Genomic_DNA.
+DR   EMBL; U00096; AAC75266.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAA15989.2; -; Genomic_DNA.
+DR   PIR; D64990; D64990.
+DR   RefSeq; NP_416710.1; NC_000913.3.
+DR   RefSeq; WP_000778061.1; NZ_LN832404.1.
+DR   PDB; 2NYA; X-ray; 2.50 A; A/F=37-828.
+DR   PDB; 2PQ4; NMR; -; B=1-35.
+DR   PDBsum; 2NYA; -.
+DR   PDBsum; 2PQ4; -.
+DR   ProteinModelPortal; P33937; -.
+DR   SMR; P33937; -.
+DR   BioGrid; 4262221; 119.
+DR   DIP; DIP-10304N; -.
+DR   IntAct; P33937; 12.
+DR   MINT; MINT-1243254; -.
+DR   STRING; 511145.b2206; -.
+DR   PaxDb; P33937; -.
+DR   PRIDE; P33937; -.
+DR   EnsemblBacteria; AAC75266; AAC75266; b2206.
+DR   EnsemblBacteria; BAA15989; BAA15989; BAA15989.
+DR   GeneID; 947093; -.
+DR   KEGG; ecj:JW2194; -.
+DR   KEGG; eco:b2206; -.
+DR   PATRIC; 32119771; VBIEscCol129921_2295.
+DR   EchoBASE; EB1994; -.
+DR   EcoGene; EG12067; napA.
+DR   eggNOG; ENOG4107QIW; Bacteria.
+DR   eggNOG; COG0243; LUCA.
+DR   HOGENOM; HOG000031441; -.
+DR   InParanoid; P33937; -.
+DR   KO; K02567; -.
+DR   OMA; EEYDLWM; -.
+DR   PhylomeDB; P33937; -.
+DR   BioCyc; EcoCyc:NAPA-MONOMER; -.
+DR   BioCyc; MetaCyc:NAPA-MONOMER; -.
+DR   BRENDA; 1.9.6.1; 2165.
+DR   EvolutionaryTrace; P33937; -.
+DR   PRO; PR:P33937; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0030288; C:outer membrane-bounded periplasmic space; IDA:CACAO.
+DR   GO; GO:0042597; C:periplasmic space; IDA:EcoCyc.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IDA:EcoCyc.
+DR   GO; GO:0030151; F:molybdenum ion binding; IDA:EcoCyc.
+DR   GO; GO:0008940; F:nitrate reductase activity; IDA:CACAO.
+DR   GO; GO:0009061; P:anaerobic respiration; IGI:EcoliWiki.
+DR   GO; GO:0042128; P:nitrate assimilation; IEA:UniProtKB-KW.
+DR   HAMAP; MF_01630; Nitrate_reduct; 1.
+DR   InterPro; IPR009010; Asp_de-COase-like_dom.
+DR   InterPro; IPR006657; MoPterin_dinucl-bd_dom.
+DR   InterPro; IPR006656; Mopterin_OxRdtase.
+DR   InterPro; IPR006963; Mopterin_OxRdtase_4Fe-4S_dom.
+DR   InterPro; IPR027467; MopterinOxRdtase_cofactor_BS.
+DR   InterPro; IPR010051; Periplasm_NO3_reductase_lsu.
+DR   InterPro; IPR006311; TAT_signal.
+DR   InterPro; IPR019546; TAT_signal_bac_arc.
+DR   PANTHER; PTHR11615:SF199; PTHR11615:SF199; 1.
+DR   Pfam; PF04879; Molybdop_Fe4S4; 1.
+DR   Pfam; PF00384; Molybdopterin; 1.
+DR   Pfam; PF01568; Molydop_binding; 1.
+DR   SMART; SM00926; Molybdop_Fe4S4; 1.
+DR   SUPFAM; SSF50692; SSF50692; 1.
+DR   TIGRFAMs; TIGR01706; NAPA; 1.
+DR   TIGRFAMs; TIGR01409; TAT_signal_seq; 1.
+DR   PROSITE; PS51669; 4FE4S_MOW_BIS_MGD; 1.
+DR   PROSITE; PS00551; MOLYBDOPTERIN_PROK_1; 1.
+DR   PROSITE; PS51318; TAT; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; 4Fe-4S; Complete proteome; Direct protein sequencing;
+KW   Electron transport; Iron; Iron-sulfur; Metal-binding; Molybdenum;
+KW   Nitrate assimilation; Oxidoreductase; Periplasm; Reference proteome;
+KW   Signal; Transport.
+FT   SIGNAL        1     36       Tat-type signal.
+FT                                {ECO:0000269|PubMed:10234835}.
+FT   CHAIN        37    828       Periplasmic nitrate reductase.
+FT                                /FTId=PRO_0000019170.
+FT   DOMAIN       39     95       4Fe-4S Mo/W bis-MGD-type.
+FT   METAL        46     46       Iron-sulfur (4Fe-4S). {ECO:0000250}.
+FT   METAL        49     49       Iron-sulfur (4Fe-4S). {ECO:0000250}.
+FT   METAL        53     53       Iron-sulfur (4Fe-4S). {ECO:0000250}.
+FT   METAL        81     81       Iron-sulfur (4Fe-4S). {ECO:0000250}.
+FT   CONFLICT     98     98       T -> R (in Ref. 1; AAA16399).
+FT                                {ECO:0000305}.
+FT   HELIX         6     21       {ECO:0000244|PDB:2PQ4}.
+FT   STRAND       26     29       {ECO:0000244|PDB:2PQ4}.
+FT   STRAND       40     45       {ECO:0000244|PDB:2NYA}.
+FT   STRAND       47     49       {ECO:0000244|PDB:2NYA}.
+FT   STRAND       54     60       {ECO:0000244|PDB:2NYA}.
+FT   STRAND       63     69       {ECO:0000244|PDB:2NYA}.
+FT   TURN         74     78       {ECO:0000244|PDB:2NYA}.
+FT   HELIX        82     85       {ECO:0000244|PDB:2NYA}.
+FT   HELIX        86     89       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      101    109       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      114    117       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       120    137       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       140    142       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      143    147       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       153    164       {ECO:0000244|PDB:2NYA}.
+FT   TURN        165    167       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      172    174       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       175    177       {ECO:0000244|PDB:2NYA}.
+FT   TURN        178    180       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       181    190       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       200    205       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      207    213       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       216    219       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       221    232       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      238    246       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       248    252       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      254    258       {ECO:0000244|PDB:2NYA}.
+FT   TURN        261    263       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       264    277       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       283    289       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      290    295       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       308    311       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      321    323       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       326    334       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       338    345       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       349    360       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      366    371       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       372    375       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       380    394       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      402    406       {ECO:0000244|PDB:2NYA}.
+FT   TURN        411    416       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       417    420       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       436    446       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       461    469       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      475    480       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       483    486       {ECO:0000244|PDB:2NYA}.
+FT   TURN        490    493       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       494    499       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      504    511       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       514    517       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      519    525       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       528    530       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      533    536       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      540    545       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       558    565       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       566    568       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       571    574       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       577    580       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       584    586       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       591    595       {ECO:0000244|PDB:2NYA}.
+FT   TURN        599    602       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       606    608       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       616    621       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       625    637       {ECO:0000244|PDB:2NYA}.
+FT   TURN        638    641       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       647    650       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      656    658       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      667    671       {ECO:0000244|PDB:2NYA}.
+FT   TURN        672    674       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      694    698       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      710    712       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      714    719       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       731    733       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       735    738       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      745    747       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       750    754       {ECO:0000244|PDB:2NYA}.
+FT   TURN        755    757       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      763    768       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      771    782       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      789    793       {ECO:0000244|PDB:2NYA}.
+FT   HELIX       801    803       {ECO:0000244|PDB:2NYA}.
+FT   TURN        811    813       {ECO:0000244|PDB:2NYA}.
+FT   STRAND      821    826       {ECO:0000244|PDB:2NYA}.
+SQ   SEQUENCE   828 AA;  93042 MW;  CE2D7AB000FEAFCA CRC64;
+     MKLSRRSFMK ANAVAAAAAA AGLSVPGVAR AVVGQQEAIK WDKAPCRFCG TGCGVLVGTQ
+     QGRVVACQGD PDAPVNRGLN CIKGYFLPKI MYGKDRLTQP LLRMKNGKYD KEGEFTPITW
+     DQAFDVMEEK FKTALKEKGP ESIGMFGSGQ WTIWEGYAAS KLFKAGFRSN NIDPNARHCM
+     ASAVVGFMRT FGMDEPMGCY DDIEQADAFV LWGANMAEMH PILWSRITNR RLSNQNVTVA
+     VLSTYQHRSF ELADNGIIFT PQSDLVILNY IANYIIQNNA INQDFFSKHV NLRKGATDIG
+     YGLRPTHPLE KAAKNPGSDA SEPMSFEDYK AFVAEYTLEK TAEMTGVPKD QLEQLAQLYA
+     DPNKKVISYW TMGFNQHTRG VWANNLVYNL HLLTGKISQP GCGPFSLTGQ PSACGTAREV
+     GTFAHRLPAD MVVTNEKHRD ICEKKWNIPS GTIPAKIGLH AVAQDRALKD GKLNVYWTMC
+     TNNMQAGPNI NEERMPGWRD PRNFIIVSDP YPTVSALAAD LILPTAMWVE KEGAYGNAER
+     RTQFWRQQVQ APGEAKSDLW QLVQFSRRFK TEEVWPEDLL AKKPELRGKT LYEVLYATPE
+     VSKFPVSELA EDQLNDESRE LGFYLQKGLF EEYAWFGRGH GHDLAPFDDY HKARGLRWPV
+     VNGKETQWRY SEGNDPYVKA GEGYKFYGKP DGKAVIFALP FEPAAEAPDE EYDLWLSTGR
+     VLEHWHTGSM TRRVPELHRA FPEAVLFIHP LDAKARDLRR GDKVKVVSRR GEVISIVETR
+     GRNRPPQGLV YMPFFDAAQL VNKLTLDATD PLSKETDFKK CAVKLEKV
+//

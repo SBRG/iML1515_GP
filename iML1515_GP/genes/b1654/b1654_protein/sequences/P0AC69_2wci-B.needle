@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:50:18
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b1654/b1654_protein/sequences/P0AC69_2wci-B.needle
+#    -asequence asis::MSTTIEKIQRQIAENPILLYMKGSPKLPSCGFSAQAVQALAACGERFAYVDILQNPDIRAELPKYANWPTFPQLWVDGELVGGCDIVIEMYQRGELQQLIKETAAKYKSEEPDAE
+#    -bsequence asis::XXTTIEKIQRQIAENPILLYMKGSPKLPSCGFSAQAVQALAACGERFAYVDILQNPDIRAELPKYANWPTFPQLWVDGELVGGCDIVIEMYQRGELQQLIKETAAKYKSEEPDA
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b1654/b1654_protein/sequences/P0AC69_2wci-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 115
+# Identity:     112/115 (97.4%)
+# Similarity:   112/115 (97.4%)
+# Gaps:           1/115 ( 0.9%)
+# Score: 587.0
+# 
+#
+#=======================================
+
+asis               1 MSTTIEKIQRQIAENPILLYMKGSPKLPSCGFSAQAVQALAACGERFAYV     50
+                     ..||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXTTIEKIQRQIAENPILLYMKGSPKLPSCGFSAQAVQALAACGERFAYV     50
+
+asis              51 DILQNPDIRAELPKYANWPTFPQLWVDGELVGGCDIVIEMYQRGELQQLI    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 DILQNPDIRAELPKYANWPTFPQLWVDGELVGGCDIVIEMYQRGELQQLI    100
+
+asis             101 KETAAKYKSEEPDAE    115
+                     |||||||||||||| 
+asis             101 KETAAKYKSEEPDA-    114
+
+
+#---------------------------------------
+#---------------------------------------

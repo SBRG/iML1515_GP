@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:56:13
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b0783/b0783_protein/sequences/P0A738_1ekr-A.needle
+#    -asequence asis::MSQLTHINAAGEAHMVDVSAKAETVREARAEAFVTMRSETLAMIIDGRHHKGDVFATARIAGIQAAKRTWDLIPLCHPLMLSKVEVNLQAEPEHNRVRIETLCRLTGKTGVEMEALTAASVAALTIYDMCKAVQKDMVIGPVRLLAKSGGKSGDFKVEADD
+#    -bsequence asis::XXXXXXXXXXGEAHMVDVSAKAETVREARAEAFVTMRSETLAMIIDGRHHKGDVFATARIAGIQAAKRTWDLIPLCHPLMLSKVEVNLQAEPEHNRVRIETLCRLTGKTGVEMEALTAASVAALTIYDMCKAVQKDMVIGPVRLLAKSXXXSGDFK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b0783/b0783_protein/sequences/P0A738_1ekr-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 161
+# Identity:     143/161 (88.8%)
+# Similarity:   143/161 (88.8%)
+# Gaps:           5/161 ( 3.1%)
+# Score: 710.0
+# 
+#
+#=======================================
+
+asis               1 MSQLTHINAAGEAHMVDVSAKAETVREARAEAFVTMRSETLAMIIDGRHH     50
+                     ..........||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXGEAHMVDVSAKAETVREARAEAFVTMRSETLAMIIDGRHH     50
+
+asis              51 KGDVFATARIAGIQAAKRTWDLIPLCHPLMLSKVEVNLQAEPEHNRVRIE    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 KGDVFATARIAGIQAAKRTWDLIPLCHPLMLSKVEVNLQAEPEHNRVRIE    100
+
+asis             101 TLCRLTGKTGVEMEALTAASVAALTIYDMCKAVQKDMVIGPVRLLAKSGG    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||..
+asis             101 TLCRLTGKTGVEMEALTAASVAALTIYDMCKAVQKDMVIGPVRLLAKSXX    150
+
+asis             151 KSGDFKVEADD    161
+                     .|||||     
+asis             151 XSGDFK-----    156
+
+
+#---------------------------------------
+#---------------------------------------

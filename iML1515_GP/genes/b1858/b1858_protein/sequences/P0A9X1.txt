@@ -1,0 +1,163 @@
+ID   ZNUC_ECOLI              Reviewed;         251 AA.
+AC   P0A9X1; P52648; P76285;
+DT   19-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   19-JUL-2005, sequence version 1.
+DT   15-FEB-2017, entry version 98.
+DE   RecName: Full=Zinc import ATP-binding protein ZnuC {ECO:0000255|HAMAP-Rule:MF_01725};
+DE            EC=3.6.3.- {ECO:0000255|HAMAP-Rule:MF_01725};
+GN   Name=znuC {ECO:0000255|HAMAP-Rule:MF_01725}; Synonyms=yebM;
+GN   OrderedLocusNames=b1858, JW1847;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=K12 / EMG2;
+RA   Robison K., O'Keeffe T., Church G.M.;
+RL   Submitted (OCT-1995) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=9097040; DOI=10.1093/dnares/3.6.379;
+RA   Itoh T., Aiba H., Baba T., Fujita K., Hayashi K., Inada T., Isono K.,
+RA   Kasai H., Kimura S., Kitakawa M., Kitagawa M., Makino K., Miki T.,
+RA   Mizobuchi K., Mori H., Mori T., Motomura K., Nakade S., Nakamura Y.,
+RA   Nashimoto H., Nishio Y., Oshima T., Saito N., Sampei G., Seki Y.,
+RA   Sivasundaram S., Tagami H., Takeda J., Takemoto K., Wada C.,
+RA   Yamamoto Y., Horiuchi T.;
+RT   "A 460-kb DNA sequence of the Escherichia coli K-12 genome
+RT   corresponding to the 40.1-50.0 min region on the linkage map.";
+RL   DNA Res. 3:379-392(1996).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [5]
+RP   FUNCTION IN ZINC TRANSPORT, INDUCTION, ATPASE ACTIVITY, AND ENZYME
+RP   REGULATION.
+RC   STRAIN=K12;
+RX   PubMed=9680209; DOI=10.1046/j.1365-2958.1998.00883.x;
+RA   Patzer S.I., Hantke K.;
+RT   "The ZnuABC high-affinity zinc uptake system and its regulator Zur in
+RT   Escherichia coli.";
+RL   Mol. Microbiol. 28:1199-1210(1998).
+RN   [6]
+RP   INDUCTION.
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16159766; DOI=10.1128/JB.187.18.6333-6340.2005;
+RA   Yamamoto K., Ishihama A.;
+RT   "Transcriptional response of Escherichia coli to external zinc.";
+RL   J. Bacteriol. 187:6333-6340(2005).
+CC   -!- FUNCTION: Part of the ABC transporter complex ZnuABC involved in
+CC       zinc import. Responsible for energy coupling to the transport
+CC       system. {ECO:0000255|HAMAP-Rule:MF_01725,
+CC       ECO:0000269|PubMed:9680209}.
+CC   -!- ENZYME REGULATION: Inhibited by arsenate.
+CC       {ECO:0000269|PubMed:9680209}.
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins
+CC       (ZnuC), two transmembrane proteins (ZnuB) and a solute-binding
+CC       protein (ZnuA). {ECO:0000255|HAMAP-Rule:MF_01725}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01725}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01725}.
+CC   -!- INDUCTION: Transcriptionally repressed by zur (zinc uptake
+CC       regulator), in response to high extracellular zinc concentrations.
+CC       {ECO:0000269|PubMed:16159766, ECO:0000269|PubMed:9680209}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. Zinc
+CC       importer (TC 3.A.1.15.5) family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01725}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=U38702; Type=Frameshift; Positions=188; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U38702; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; U00096; AAC74928.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAA15666.1; -; Genomic_DNA.
+DR   PIR; B64948; B64948.
+DR   RefSeq; NP_416372.1; NC_000913.3.
+DR   RefSeq; WP_000202996.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P0A9X1; -.
+DR   SMR; P0A9X1; -.
+DR   DIP; DIP-48234N; -.
+DR   IntAct; P0A9X1; 13.
+DR   STRING; 511145.b1858; -.
+DR   TCDB; 3.A.1.15.5; the atp-binding cassette (abc) superfamily.
+DR   PaxDb; P0A9X1; -.
+DR   PRIDE; P0A9X1; -.
+DR   EnsemblBacteria; AAC74928; AAC74928; b1858.
+DR   EnsemblBacteria; BAA15666; BAA15666; BAA15666.
+DR   GeneID; 946374; -.
+DR   KEGG; ecj:JW1847; -.
+DR   KEGG; eco:b1858; -.
+DR   PATRIC; 32119039; VBIEscCol129921_1937.
+DR   EchoBASE; EB2931; -.
+DR   EcoGene; EG13132; znuC.
+DR   eggNOG; ENOG4105FDK; Bacteria.
+DR   eggNOG; COG1121; LUCA.
+DR   InParanoid; P0A9X1; -.
+DR   KO; K09817; -.
+DR   OMA; SNFAMHA; -.
+DR   PhylomeDB; P0A9X1; -.
+DR   BioCyc; EcoCyc:ZNUC-MONOMER; -.
+DR   BioCyc; MetaCyc:ZNUC-MONOMER; -.
+DR   PRO; PR:P0A9X1; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATPase activity; IEA:InterPro.
+DR   GO; GO:0015633; F:zinc-transporting ATPase activity; IEA:InterPro.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR017882; ZnuC.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS51298; ZNUC; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Complete proteome;
+KW   Hydrolase; Ion transport; Membrane; Nucleotide-binding;
+KW   Reference proteome; Transport; Zinc; Zinc transport.
+FT   CHAIN         1    251       Zinc import ATP-binding protein ZnuC.
+FT                                /FTId=PRO_0000093130.
+FT   DOMAIN        5    220       ABC transporter. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01725}.
+FT   NP_BIND      37     44       ATP. {ECO:0000255|HAMAP-Rule:MF_01725}.
+FT   CONFLICT     80     83       TTLP -> STLS (in Ref. 1; U38702).
+FT                                {ECO:0000305}.
+FT   CONFLICT    135    135       L -> W (in Ref. 1; U38702).
+FT                                {ECO:0000305}.
+FT   CONFLICT    143    143       V -> A (in Ref. 1; U38702).
+FT                                {ECO:0000305}.
+FT   CONFLICT    155    155       G -> W (in Ref. 1; U38702).
+FT                                {ECO:0000305}.
+FT   CONFLICT    174    176       VLM -> ALL (in Ref. 1; U38702).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   251 AA;  27867 MW;  F4BF845AC3C7904C CRC64;
+     MTSLVSLENV SVSFGQRRVL SDVSLELKPG KILTLLGPNG AGKSTLVRVV LGLVTPDEGV
+     IKRNGKLRIG YVPQKLYLDT TLPLTVNRFL RLRPGTHKED ILPALKRVQA GHLINAPMQK
+     LSGGETQRVL LARALLNRPQ LLVLDEPTQG VDVNGQVALY DLIDQLRREL DCGVLMVSHD
+     LHLVMAKTDE VLCLNHHICC SGTPEVVSLH PEFISMFGPR GAEQLGIYRH HHNHRHDLQG
+     RIVLRRGNDR S
+//

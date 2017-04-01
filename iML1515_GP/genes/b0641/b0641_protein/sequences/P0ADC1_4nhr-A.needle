@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:55:00
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b0641/b0641_protein/sequences/P0ADC1_4nhr-A.needle
+#    -asequence asis::MRYLATLLLSLAVLITAGCGWHLRDTTQVPSTMKVMILDSGDPNGPLSRAVRNQLRLNGVELLDKETTRKDVPSLRLGKVSIAKDTASVFRNGQTAEYQMIMTVNATVLIPGRDIYPISAKVFRSFFDNPQMALAKDNEQDMIVKEMYDRAAEQLIRKLPSIRAADIRSDEEQTSTTTDTPATPARVSTTLGN
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMKVMILDSGDPNGPLSRAVRNQLRLNGVELLDKETTRKDVPSLRLGKVSIAKDTASVFRNGQTAEYQMIMTVNATVLIPGRDIYPISAKVFRSFFDNPQMALAKDNEQDMIVKEMYDRAAEQLIRKLPSIRAADIRS
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b0641/b0641_protein/sequences/P0ADC1_4nhr-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 223
+# Identity:     137/223 (61.4%)
+# Similarity:   137/223 (61.4%)
+# Gaps:          84/223 (37.7%)
+# Score: 655.5
+# 
+#
+#=======================================
+
+asis               1 MRYLATLLLSLAVLITAGCGWHLRDTTQVP--------------------     30
+                                                                       
+asis               1 ------------------------------XXXXXXXXXXXXXXXXXXXX     20
+
+asis              31 ----------STMKVMILDSGDPNGPLSRAVRNQLRLNGVELLDKETTRK     70
+                               ..||||||||||||||||||||||||||||||||||||||
+asis              21 XXXXXXXXXXXXMKVMILDSGDPNGPLSRAVRNQLRLNGVELLDKETTRK     70
+
+asis              71 DVPSLRLGKVSIAKDTASVFRNGQTAEYQMIMTVNATVLIPGRDIYPISA    120
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              71 DVPSLRLGKVSIAKDTASVFRNGQTAEYQMIMTVNATVLIPGRDIYPISA    120
+
+asis             121 KVFRSFFDNPQMALAKDNEQDMIVKEMYDRAAEQLIRKLPSIRAADIRSD    170
+                     ||||||||||||||||||||||||||||||||||||||||||||||||| 
+asis             121 KVFRSFFDNPQMALAKDNEQDMIVKEMYDRAAEQLIRKLPSIRAADIRS-    169
+
+asis             171 EEQTSTTTDTPATPARVSTTLGN    193
+                                            
+asis             169 -----------------------    169
+
+
+#---------------------------------------
+#---------------------------------------

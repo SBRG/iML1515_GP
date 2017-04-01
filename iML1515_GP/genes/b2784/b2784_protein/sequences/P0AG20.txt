@@ -1,0 +1,200 @@
+ID   RELA_ECOLI              Reviewed;         744 AA.
+AC   P0AG20; P11585; Q2MA48;
+DT   20-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   20-DEC-2005, sequence version 1.
+DT   15-FEB-2017, entry version 96.
+DE   RecName: Full=GTP pyrophosphokinase;
+DE            EC=2.7.6.5;
+DE   AltName: Full=(p)ppGpp synthase;
+DE   AltName: Full=ATP:GTP 3'-pyrophosphotransferase;
+DE   AltName: Full=ppGpp synthase I;
+GN   Name=relA; OrderedLocusNames=b2784, JW2755;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=K12;
+RX   PubMed=2844820;
+RA   Metzger S., Dror I.B., Aizenman E., Schreiber G., Toone M.,
+RA   Friesen J.D., Cashel M., Glaser G.;
+RT   "The nucleotide sequence and characterization of the relA gene of
+RT   Escherichia coli.";
+RL   J. Biol. Chem. 263:15699-15704(1988).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [4]
+RP   FUNCTION IN PERSISTENCE, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=14622409; DOI=10.1046/j.1365-2958.2003.03779.x;
+RA   Korch S.B., Henderson T.A., Hill T.M.;
+RT   "Characterization of the hipA7 allele of Escherichia coli and evidence
+RT   that high persistence is governed by (p)ppGpp synthesis.";
+RL   Mol. Microbiol. 50:1199-1213(2003).
+RN   [5]
+RP   FUNCTION IN BIOFILM FORMATION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=K12 / MG1655 / AB400;
+RX   PubMed=19460094; DOI=10.1111/j.1365-2958.2009.06739.x;
+RA   Boehm A., Steiner S., Zaehringer F., Casanova A., Hamburger F.,
+RA   Ritz D., Keck W., Ackermann M., Schirmer T., Jenal U.;
+RT   "Second messenger signalling governs Escherichia coli biofilm
+RT   induction upon ribosomal stress.";
+RL   Mol. Microbiol. 72:1500-1516(2009).
+RN   [6]
+RP   FUNCTION IN PERSISTENCE, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=K12 / BW25113;
+RX   PubMed=26051177; DOI=10.1016/j.molcel.2015.05.011;
+RA   Verstraeten N., Knapen W.J., Kint C.I., Liebens V., Van den Bergh B.,
+RA   Dewachter L., Michiels J.E., Fu Q., David C.C., Fierro A.C.,
+RA   Marchal K., Beirlant J., Versees W., Hofkens J., Jansen M.,
+RA   Fauvart M., Michiels J.;
+RT   "Obg and membrane depolarization are part of a microbial bet-hedging
+RT   strategy that leads to antibiotic tolerance.";
+RL   Mol. Cell 59:9-21(2015).
+CC   -!- FUNCTION: In eubacteria ppGpp (guanosine 3'-diphosphate 5-'
+CC       diphosphate) is a mediator of the stringent response that
+CC       coordinates a variety of cellular activities in response to
+CC       changes in nutritional abundance. This enzyme catalyzes the
+CC       formation of pppGpp which is then hydrolyzed to form ppGpp.
+CC       {ECO:0000269|PubMed:14622409, ECO:0000269|PubMed:19460094,
+CC       ECO:0000269|PubMed:26051177}.
+CC   -!- CATALYTIC ACTIVITY: ATP + GTP = AMP + guanosine 3'-diphosphate 5'-
+CC       triphosphate.
+CC   -!- PATHWAY: Purine metabolism; ppGpp biosynthesis; ppGpp from GTP:
+CC       step 1/2.
+CC   -!- DISRUPTION PHENOTYPE: A slight increase in biofilm formation in a
+CC       csrA-disrupted background; when combined with a spoT disruption (a
+CC       ppGpp0 mutant) there is a very large increase in biofilm formation
+CC       (PubMed:19460094). Deletion of relA alone decreases persister cell
+CC       formation in a hipA7 mutant; the double relA/spoT deletion
+CC       obviates persister cell formation (PubMed:14622409,
+CC       PubMed:26051177). {ECO:0000269|PubMed:14622409,
+CC       ECO:0000269|PubMed:19460094, ECO:0000269|PubMed:26051177}.
+CC   -!- SIMILARITY: Belongs to the RelA/SpoT family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; J04039; AAA03237.1; -; Unassigned_DNA.
+DR   EMBL; U29580; AAA69294.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC75826.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE76858.1; -; Genomic_DNA.
+DR   PIR; D65060; KIECG.
+DR   RefSeq; NP_417264.1; NC_000913.3.
+DR   RefSeq; WP_000226815.1; NZ_LN832404.1.
+DR   PDB; 5IQR; EM; 3.00 A; 8=1-744.
+DR   PDB; 5KPS; EM; 3.90 A; A=2-744.
+DR   PDB; 5KPV; EM; 4.10 A; 33=2-744.
+DR   PDB; 5KPW; EM; 3.90 A; 33=2-744.
+DR   PDB; 5KPX; EM; 3.90 A; 33=2-744.
+DR   PDB; 5L3P; EM; 3.70 A; z=1-744.
+DR   PDBsum; 5IQR; -.
+DR   PDBsum; 5KPS; -.
+DR   PDBsum; 5KPV; -.
+DR   PDBsum; 5KPW; -.
+DR   PDBsum; 5KPX; -.
+DR   PDBsum; 5L3P; -.
+DR   ProteinModelPortal; P0AG20; -.
+DR   SMR; P0AG20; -.
+DR   BioGrid; 4259226; 67.
+DR   DIP; DIP-10658N; -.
+DR   IntAct; P0AG20; 15.
+DR   STRING; 511145.b2784; -.
+DR   ChEMBL; CHEMBL1163114; -.
+DR   EPD; P0AG20; -.
+DR   PaxDb; P0AG20; -.
+DR   PRIDE; P0AG20; -.
+DR   EnsemblBacteria; AAC75826; AAC75826; b2784.
+DR   EnsemblBacteria; BAE76858; BAE76858; BAE76858.
+DR   GeneID; 947244; -.
+DR   KEGG; ecj:JW2755; -.
+DR   KEGG; eco:b2784; -.
+DR   PATRIC; 32120984; VBIEscCol129921_2884.
+DR   EchoBASE; EB0828; -.
+DR   EcoGene; EG10835; relA.
+DR   eggNOG; ENOG4105CWR; Bacteria.
+DR   eggNOG; COG0317; LUCA.
+DR   HOGENOM; HOG000018300; -.
+DR   InParanoid; P0AG20; -.
+DR   KO; K00951; -.
+DR   OMA; TEIGHNC; -.
+DR   PhylomeDB; P0AG20; -.
+DR   BioCyc; EcoCyc:RELA-MONOMER; -.
+DR   BioCyc; MetaCyc:RELA-MONOMER; -.
+DR   UniPathway; UPA00908; UER00884.
+DR   PRO; PR:P0AG20; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005618; C:cell wall; IBA:GO_Central.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0016597; F:amino acid binding; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008728; F:GTP diphosphokinase activity; IDA:EcoCyc.
+DR   GO; GO:0008893; F:guanosine-3',5'-bis(diphosphate) 3'-diphosphatase activity; IBA:GO_Central.
+DR   GO; GO:0016301; F:kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0015970; P:guanosine tetraphosphate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0015969; P:guanosine tetraphosphate metabolic process; IMP:EcoCyc.
+DR   GO; GO:0015949; P:nucleobase-containing small molecule interconversion; IDA:EcoCyc.
+DR   GO; GO:0042594; P:response to starvation; IBA:GO_Central.
+DR   CDD; cd05399; NT_Rel-Spo_like; 1.
+DR   CDD; cd01668; TGS_RelA_SpoT; 1.
+DR   Gene3D; 3.10.20.30; -; 1.
+DR   InterPro; IPR002912; ACT_dom.
+DR   InterPro; IPR012675; Beta-grasp_dom.
+DR   InterPro; IPR003607; HD/PDEase_dom.
+DR   InterPro; IPR004811; RelA/Spo_fam.
+DR   InterPro; IPR007685; RelA_SpoT.
+DR   InterPro; IPR004095; TGS.
+DR   InterPro; IPR012676; TGS-like.
+DR   InterPro; IPR033655; TGS_RelA.
+DR   Pfam; PF13291; ACT_4; 1.
+DR   Pfam; PF13328; HD_4; 1.
+DR   Pfam; PF04607; RelA_SpoT; 1.
+DR   Pfam; PF02824; TGS; 1.
+DR   SMART; SM00954; RelA_SpoT; 1.
+DR   SUPFAM; SSF81271; SSF81271; 1.
+DR   TIGRFAMs; TIGR00691; spoT_relA; 1.
+DR   PROSITE; PS51671; ACT; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Complete proteome; GTP-binding; Kinase;
+KW   Nucleotide-binding; Reference proteome; Transferase.
+FT   CHAIN         1    744       GTP pyrophosphokinase.
+FT                                /FTId=PRO_0000166546.
+FT   DOMAIN      668    743       ACT. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU01007}.
+FT   CONFLICT    307    307       F -> K (in Ref. 1; AAA03237).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   744 AA;  83876 MW;  FA269709F15E1F25 CRC64;
+     MVAVRSAHIN KAGEFDPEKW IASLGITSQK SCECLAETWA YCLQQTQGHP DASLLLWRGV
+     EMVEILSTLS MDIDTLRAAL LFPLADANVV SEDVLRESVG KSVVNLIHGV RDMAAIRQLK
+     ATHTDSVSSE QVDNVRRMLL AMVDDFRCVV IKLAERIAHL REVKDAPEDE RVLAAKECTN
+     IYAPLANRLG IGQLKWELED YCFRYLHPTE YKRIAKLLHE RRLDREHYIE EFVGHLRAEM
+     KAEGVKAEVY GRPKHIYSIW RKMQKKNLAF DELFDVRAVR IVAERLQDCY AALGIVHTHY
+     RHLPDEFDDY VANPKPNGYQ SIHTVVLGPG GKTVEIQIRT KQMHEDAELG VAAHWKYKEG
+     AAAGGARSGH EDRIAWLRKL IAWQEEMADS GEMLDEVRSQ VFDDRVYVFT PKGDVVDLPA
+     GSTPLDFAYH IHSDVGHRCI GAKIGGRIVP FTYQLQMGDQ IEIITQKQPN PSRDWLNPNL
+     GYVTTSRGRS KIHAWFRKQD RDKNILAGRQ ILDDELEHLG ISLKEAEKHL LPRYNFNDVD
+     ELLAAIGGGD IRLNQMVNFL QSQFNKPSAE EQDAAALKQL QQKSYTPQNR SKDNGRVVVE
+     GVGNLMHHIA RCCQPIPGDE IVGFITQGRG ISVHRADCEQ LAELRSHAPE RIVDAVWGES
+     YSAGYSLVVR VVANDRSGLL RDITTILANE KVNVLGVASR SDTKQQLATI DMTIEIYNLQ
+     VLGRVLGKLN QVPDVIDARR LHGS
+//

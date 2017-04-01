@@ -1,0 +1,236 @@
+ID   FDNH_ECOLI              Reviewed;         294 AA.
+AC   P0AAJ3; P24184; P77166;
+DT   11-OCT-2005, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2005, sequence version 1.
+DT   15-MAR-2017, entry version 108.
+DE   RecName: Full=Formate dehydrogenase, nitrate-inducible, iron-sulfur subunit;
+DE   AltName: Full=Anaerobic formate dehydrogenase iron-sulfur subunit;
+DE   AltName: Full=Formate dehydrogenase-N subunit beta;
+DE            Short=FDH-N subunit beta;
+GN   Name=fdnH; OrderedLocusNames=b1475, JW1471;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=K12;
+RX   PubMed=1834669;
+RA   Berg B.L., Li J., Heider J., Stewart V.;
+RT   "Nitrate-inducible formate dehydrogenase in Escherichia coli K-12. I.
+RT   Nucleotide sequence of the fdnGHI operon and evidence that opal (UGA)
+RT   encodes selenocysteine.";
+RL   J. Biol. Chem. 266:22380-22385(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=9097039; DOI=10.1093/dnares/3.6.363;
+RA   Aiba H., Baba T., Fujita K., Hayashi K., Inada T., Isono K., Itoh T.,
+RA   Kasai H., Kashimoto K., Kimura S., Kitakawa M., Kitagawa M.,
+RA   Makino K., Miki T., Mizobuchi K., Mori H., Mori T., Motomura K.,
+RA   Nakade S., Nakamura Y., Nashimoto H., Nishio Y., Oshima T., Saito N.,
+RA   Sampei G., Seki Y., Sivasundaram S., Tagami H., Takeda J.,
+RA   Takemoto K., Takeuchi Y., Wada C., Yamamoto Y., Horiuchi T.;
+RT   "A 570-kb DNA sequence of the Escherichia coli K-12 genome
+RT   corresponding to the 28.0-40.1 min region on the linkage map.";
+RL   DNA Res. 3:363-377(1996).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [5]
+RP   INDUCTION.
+RC   STRAIN=K12;
+RX   PubMed=2168848;
+RA   Berg B.L., Stewart V.;
+RT   "Structural genes for nitrate-inducible formate dehydrogenase in
+RT   Escherichia coli K-12.";
+RL   Genetics 125:691-702(1990).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (1.6 ANGSTROMS) IN COMPLEX WITH ALPHA AND GAMMA
+RP   SUBUNITS AND [4FE-4S] CLUSTERS, FUNCTION, COFACTOR, ELECTRON TRANSFER
+RP   CHAIN, SUBCELLULAR LOCATION, AND SUBUNIT.
+RX   PubMed=11884747; DOI=10.1126/science.1068186;
+RA   Jormakka M., Tornroth S., Byrne B., Iwata S.;
+RT   "Molecular basis of proton motive force generation: structure of
+RT   formate dehydrogenase-N.";
+RL   Science 295:1863-1868(2002).
+CC   -!- FUNCTION: Formate dehydrogenase allows E.coli to use formate as
+CC       major electron donor during anaerobic respiration, when nitrate is
+CC       used as electron acceptor. The beta subunit FdnH is an electron
+CC       transfer unit containing 4 iron-sulfur clusters; it serves as a
+CC       conduit for electrons that are transferred from the formate
+CC       oxidation site in the alpha subunit (FdnG) to the menaquinone
+CC       associated with the gamma subunit (FdnI) of formate dehydrogenase-
+CC       N. Formate dehydrogenase-N is part of a system that generates
+CC       proton motive force, together with the dissimilatory nitrate
+CC       reductase (Nar). {ECO:0000269|PubMed:11884747}.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000269|PubMed:11884747};
+CC       Note=Binds 4 [4Fe-4S] clusters per subunit.
+CC       {ECO:0000269|PubMed:11884747};
+CC   -!- SUBUNIT: Trimer of heterotrimers, consisting of subunits alpha,
+CC       beta and gamma. {ECO:0000269|PubMed:11884747}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane
+CC       {ECO:0000269|PubMed:11884747}; Single-pass membrane protein
+CC       {ECO:0000269|PubMed:11884747}.
+CC   -!- INDUCTION: By nitrate under anaerobic conditions.
+CC       {ECO:0000269|PubMed:2168848}.
+CC   -!- MISCELLANEOUS: The 4Fe-4S clusters from PubMed:11884747 are
+CC       renumbered in standard order.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M75029; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; U00096; AAD13439.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAA15124.1; -; Genomic_DNA.
+DR   PIR; F64900; JS0629.
+DR   RefSeq; NP_415992.1; NC_000913.3.
+DR   RefSeq; WP_001240582.1; NZ_LN832404.1.
+DR   PDB; 1KQF; X-ray; 1.60 A; B=1-294.
+DR   PDB; 1KQG; X-ray; 2.80 A; B=1-294.
+DR   PDBsum; 1KQF; -.
+DR   PDBsum; 1KQG; -.
+DR   ProteinModelPortal; P0AAJ3; -.
+DR   SMR; P0AAJ3; -.
+DR   BioGrid; 4262901; 8.
+DR   DIP; DIP-35836N; -.
+DR   IntAct; P0AAJ3; 18.
+DR   MINT; MINT-1286317; -.
+DR   STRING; 511145.b1475; -.
+DR   DrugBank; DB07918; 2-HEPTYL-4-HYDROXY QUINOLINE N-OXIDE.
+DR   TCDB; 5.A.3.2.1; the prokaryotic molybdopterin-containing oxidoreductase (pmo) family.
+DR   PaxDb; P0AAJ3; -.
+DR   PRIDE; P0AAJ3; -.
+DR   EnsemblBacteria; AAD13439; AAD13439; b1475.
+DR   EnsemblBacteria; BAA15124; BAA15124; BAA15124.
+DR   GeneID; 948794; -.
+DR   KEGG; ecj:JW1471; -.
+DR   KEGG; eco:b1475; -.
+DR   PATRIC; 32118242; VBIEscCol129921_1541.
+DR   EchoBASE; EB1210; -.
+DR   EcoGene; EG11228; fdnH.
+DR   eggNOG; ENOG4105QA4; Bacteria.
+DR   eggNOG; COG0437; LUCA.
+DR   HOGENOM; HOG000163382; -.
+DR   InParanoid; P0AAJ3; -.
+DR   KO; K08349; -.
+DR   OMA; QQDNCIG; -.
+DR   PhylomeDB; P0AAJ3; -.
+DR   BioCyc; EcoCyc:FDNH-MONOMER; -.
+DR   BioCyc; MetaCyc:FDNH-MONOMER; -.
+DR   BRENDA; 1.1.5.6; 2026.
+DR   EvolutionaryTrace; P0AAJ3; -.
+DR   PRO; PR:P0AAJ3; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0009326; C:formate dehydrogenase complex; IDA:EcoCyc.
+DR   GO; GO:0071575; C:integral component of external side of plasma membrane; IDA:EcoCyc.
+DR   GO; GO:0016020; C:membrane; IDA:UniProtKB.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IDA:EcoCyc.
+DR   GO; GO:0009055; F:electron carrier activity; IDA:EcoCyc.
+DR   GO; GO:0036397; F:formate dehydrogenase (quinone) activity; IDA:EcoCyc.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009061; P:anaerobic respiration; IEP:EcoCyc.
+DR   GO; GO:0015944; P:formate oxidation; IDA:EcoCyc.
+DR   InterPro; IPR017896; 4Fe4S_Fe-S-bd.
+DR   InterPro; IPR017900; 4Fe4S_Fe_S_CS.
+DR   InterPro; IPR006470; Formate_DH_bsu_Proteobacteria.
+DR   InterPro; IPR014603; Formate_DH_Fe-S_su.
+DR   InterPro; IPR015246; Formate_DH_TM.
+DR   PANTHER; PTHR43545:SF3; PTHR43545:SF3; 1.
+DR   Pfam; PF13247; Fer4_11; 1.
+DR   Pfam; PF12800; Fer4_4; 1.
+DR   Pfam; PF09163; Form-deh_trans; 1.
+DR   PIRSF; PIRSF036298; FDH_4Fe4S; 1.
+DR   TIGRFAMs; TIGR01582; FDH-beta; 1.
+DR   PROSITE; PS00198; 4FE4S_FER_1; 1.
+DR   PROSITE; PS51379; 4FE4S_FER_2; 4.
+PE   1: Evidence at protein level;
+KW   3D-structure; 4Fe-4S; Cell inner membrane; Cell membrane;
+KW   Complete proteome; Electron transport; Iron; Iron-sulfur; Membrane;
+KW   Metal-binding; Reference proteome; Repeat; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN         1    294       Formate dehydrogenase, nitrate-inducible,
+FT                                iron-sulfur subunit.
+FT                                /FTId=PRO_0000159247.
+FT   TOPO_DOM      1    256       Periplasmic.
+FT   TRANSMEM    257    279       Helical.
+FT   TOPO_DOM    280    294       Cytoplasmic.
+FT   DOMAIN       30     58       4Fe-4S ferredoxin-type 1.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00711}.
+FT   DOMAIN       91    123       4Fe-4S ferredoxin-type 2.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00711}.
+FT   DOMAIN      124    153       4Fe-4S ferredoxin-type 3.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00711}.
+FT   DOMAIN      158    189       4Fe-4S ferredoxin-type 4.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00711}.
+FT   METAL        39     39       Iron-sulfur 1 (4Fe-4S).
+FT   METAL        42     42       Iron-sulfur 1 (4Fe-4S).
+FT   METAL        45     45       Iron-sulfur 1 (4Fe-4S).
+FT   METAL        49     49       Iron-sulfur 2 (4Fe-4S).
+FT   METAL       100    100       Iron-sulfur 3 (4Fe-4S).
+FT   METAL       103    103       Iron-sulfur 3 (4Fe-4S).
+FT   METAL       108    108       Iron-sulfur 3 (4Fe-4S).
+FT   METAL       112    112       Iron-sulfur 4 (4Fe-4S).
+FT   METAL       133    133       Iron-sulfur 4 (4Fe-4S).
+FT   METAL       136    136       Iron-sulfur 4 (4Fe-4S).
+FT   METAL       139    139       Iron-sulfur 4 (4Fe-4S).
+FT   METAL       143    143       Iron-sulfur 3 (4Fe-4S).
+FT   METAL       160    160       Iron-sulfur 2 (4Fe-4S).
+FT   METAL       163    163       Iron-sulfur 2 (4Fe-4S).
+FT   METAL       175    175       Iron-sulfur 2 (4Fe-4S).
+FT   METAL       179    179       Iron-sulfur 1 (4Fe-4S).
+FT   CONFLICT    101    102       MH -> ID (in Ref. 1). {ECO:0000305}.
+FT   STRAND        8     11       {ECO:0000244|PDB:1KQF}.
+FT   STRAND       30     35       {ECO:0000244|PDB:1KQF}.
+FT   TURN         36     38       {ECO:0000244|PDB:1KQF}.
+FT   HELIX        44     53       {ECO:0000244|PDB:1KQF}.
+FT   STRAND       63     66       {ECO:0000244|PDB:1KQF}.
+FT   STRAND       69     71       {ECO:0000244|PDB:1KQF}.
+FT   STRAND       79     85       {ECO:0000244|PDB:1KQF}.
+FT   STRAND       92     99       {ECO:0000244|PDB:1KQF}.
+FT   STRAND      103    105       {ECO:0000244|PDB:1KQF}.
+FT   HELIX       107    111       {ECO:0000244|PDB:1KQF}.
+FT   STRAND      117    121       {ECO:0000244|PDB:1KQF}.
+FT   STRAND      126    128       {ECO:0000244|PDB:1KQF}.
+FT   HELIX       130    132       {ECO:0000244|PDB:1KQF}.
+FT   HELIX       138    142       {ECO:0000244|PDB:1KQF}.
+FT   TURN        152    154       {ECO:0000244|PDB:1KQF}.
+FT   HELIX       164    167       {ECO:0000244|PDB:1KQF}.
+FT   TURN        168    170       {ECO:0000244|PDB:1KQF}.
+FT   HELIX       174    178       {ECO:0000244|PDB:1KQF}.
+FT   STRAND      184    188       {ECO:0000244|PDB:1KQF}.
+FT   HELIX       189    205       {ECO:0000244|PDB:1KQF}.
+FT   STRAND      212    214       {ECO:0000244|PDB:1KQF}.
+FT   HELIX       217    219       {ECO:0000244|PDB:1KQF}.
+FT   STRAND      222    228       {ECO:0000244|PDB:1KQF}.
+FT   TURN        229    232       {ECO:0000244|PDB:1KQF}.
+FT   HELIX       234    236       {ECO:0000244|PDB:1KQF}.
+FT   TURN        237    239       {ECO:0000244|PDB:1KQF}.
+FT   HELIX       248    254       {ECO:0000244|PDB:1KQF}.
+FT   HELIX       257    279       {ECO:0000244|PDB:1KQF}.
+SQ   SEQUENCE   294 AA;  32239 MW;  44F361F4AC0AEF36 CRC64;
+     MAMETQDIIK RSATNSITPP SQVRDYKAEV AKLIDVSTCI GCKACQVACS EWNDIRDEVG
+     HCVGVYDNPA DLSAKSWTVM RFSETEQNGK LEWLIRKDGC MHCEDPGCLK ACPSAGAIIQ
+     YANGIVDFQS ENCIGCGYCI AGCPFNIPRL NKEDNRVYKC TLCVDRVSVG QEPACVKTCP
+     TGAIHFGTKK EMLELAEQRV AKLKARGYEH AGVYNPEGVG GTHVMYVLHH ADQPELYHGL
+     PKDPKIDTSV SLWKGALKPL AAAGFIATFA GLIFHYIGIG PNKEVDDDEE DHHE
+//

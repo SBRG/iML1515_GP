@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:55:41
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b1010/b1010_protein/sequences/P0AFQ5_3v4d-B.needle
+#    -asequence asis::MPKSVIIPAGSSAPLAPFVPGTLADGVVYVSGTLAFDQHNNVLFADDPKAQTRHVLETIRKVIETAGGTMADVTFNSIFITDWKNYAAINEIYAEFFPGDKPARFCIQCGLVKPDALVEIATIAHIAK
+#    -bsequence asis::HXPKSVIIPAGSSAXXAPFVPGTLADGVVYVSGTLAFDQHNNVLFADDPKAQTRHVLETIRKVIETAGGTXADVTFNSIFITDWKNYAAINEIYAEFFPGDKPARFCIQCGLVKPDALVEIATIAHI
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b1010/b1010_protein/sequences/P0AFQ5_3v4d-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 129
+# Identity:     122/129 (94.6%)
+# Similarity:   122/129 (94.6%)
+# Gaps:           3/129 ( 2.3%)
+# Score: 629.0
+# 
+#
+#=======================================
+
+asis               1 -MPKSVIIPAGSSAPLAPFVPGTLADGVVYVSGTLAFDQHNNVLFADDPK     49
+                      .||||||||||||..||||||||||||||||||||||||||||||||||
+asis               1 HXPKSVIIPAGSSAXXAPFVPGTLADGVVYVSGTLAFDQHNNVLFADDPK     50
+
+asis              50 AQTRHVLETIRKVIETAGGTMADVTFNSIFITDWKNYAAINEIYAEFFPG     99
+                     ||||||||||||||||||||.|||||||||||||||||||||||||||||
+asis              51 AQTRHVLETIRKVIETAGGTXADVTFNSIFITDWKNYAAINEIYAEFFPG    100
+
+asis             100 DKPARFCIQCGLVKPDALVEIATIAHIAK    128
+                     |||||||||||||||||||||||||||  
+asis             101 DKPARFCIQCGLVKPDALVEIATIAHI--    127
+
+
+#---------------------------------------
+#---------------------------------------

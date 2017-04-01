@@ -1,0 +1,96 @@
+ENTRY       b0116             CDS       T00007
+NAME        lpd
+DEFINITION  (RefSeq) lipoamide dehydrogenase, E3 component is part of three enzyme complexes
+ORTHOLOGY   K00382  dihydrolipoamide dehydrogenase [EC:1.8.1.4]
+ORGANISM    eco  Escherichia coli K-12 MG1655
+PATHWAY     eco00010  Glycolysis / Gluconeogenesis
+            eco00020  Citrate cycle (TCA cycle)
+            eco00260  Glycine, serine and threonine metabolism
+            eco00280  Valine, leucine and isoleucine degradation
+            eco00620  Pyruvate metabolism
+            eco00630  Glyoxylate and dicarboxylate metabolism
+            eco00640  Propanoate metabolism
+            eco01100  Metabolic pathways
+            eco01110  Biosynthesis of secondary metabolites
+            eco01120  Microbial metabolism in diverse environments
+            eco01130  Biosynthesis of antibiotics
+            eco01200  Carbon metabolism
+MODULE      eco_M00009  Citrate cycle (TCA cycle, Krebs cycle)
+            eco_M00011  Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate
+            eco_M00307  Pyruvate oxidation, pyruvate => acetyl-CoA
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             Metabolism
+              Overview
+               01200 Carbon metabolism
+                b0116 (lpd)
+              Carbohydrate metabolism
+               00010 Glycolysis / Gluconeogenesis
+                b0116 (lpd)
+               00020 Citrate cycle (TCA cycle)
+                b0116 (lpd)
+               00620 Pyruvate metabolism
+                b0116 (lpd)
+               00630 Glyoxylate and dicarboxylate metabolism
+                b0116 (lpd)
+               00640 Propanoate metabolism
+                b0116 (lpd)
+              Amino acid metabolism
+               00260 Glycine, serine and threonine metabolism
+                b0116 (lpd)
+               00280 Valine, leucine and isoleucine degradation
+                b0116 (lpd)
+            Enzymes [BR:eco01000]
+             1. Oxidoreductases
+              1.8  Acting on a sulfur group of donors
+               1.8.1  With NAD+ or NADP+ as acceptor
+                1.8.1.4  dihydrolipoyl dehydrogenase
+                 b0116 (lpd)
+            Exosome [BR:eco04147]
+             Exosomal proteins
+              Exosomal proteins of breast cancer cells
+               b0116 (lpd)
+POSITION    127912..129336
+MOTIF       Pfam: Pyr_redox_2 Pyr_redox_dim Pyr_redox FAD_oxidored GIDA Pyr_redox_3 FAD_binding_2 HI0933_like AlaDh_PNT_C Thi4 FAD_binding_3 NAD_binding_8 Lycopene_cycl FMO-like
+DBLINKS     NCBI-ProteinID: NP_414658
+            NCBI-GeneID: 944854
+            Pasteur: lpd
+            EcoGene: EG10543
+            ECOCYC: EG10543
+            ASAP: ABE-0000404
+            UniProt: P0A9P0
+STRUCTURE   PDB: 4JQ9 4JDR
+AASEQ       474
+            MSTEIKTQVVVLGAGPAGYSAAFRCADLGLETVIVERYNTLGGVCLNVGCIPSKALLHVA
+            KVIEEAKALAEHGIVFGEPKTDIDKIRTWKEKVINQLTGGLAGMAKGRKVKVVNGLGKFT
+            GANTLEVEGENGKTVINFDNAIIAAGSRPIQLPFIPHEDPRIWDSTDALELKEVPERLLV
+            MGGGIIGLEMGTVYHALGSQIDVVEMFDQVIPAADKDIVKVFTKRISKKFNLMLETKVTA
+            VEAKEDGIYVTMEGKKAPAEPQRYDAVLVAIGRVPNGKNLDAGKAGVEVDDRGFIRVDKQ
+            LRTNVPHIFAIGDIVGQPMLAHKGVHEGHVAAEVIAGKKHYFDPKVIPSIAYTEPEVAWV
+            GLTEKEAKEKGISYETATFPWAASGRAIASDCADGMTKLIFDKESHRVIGGAIVGTNGGE
+            LLGEIGLAIEMGCDAEDIALTIHAHPTLHESVGLAAEVFEGSITDLPNPKAKKK
+NTSEQ       1425
+            atgagtactgaaatcaaaactcaggtcgtggtacttggggcaggccccgcaggttactcc
+            gctgccttccgttgcgctgatttaggtctggaaaccgtaatcgtagaacgttacaacacc
+            cttggcggtgtttgcctgaacgtcggctgtatcccttctaaagcactgctgcacgtagca
+            aaagttatcgaagaagccaaagcgctggctgaacacggtatcgtcttcggcgaaccgaaa
+            accgatatcgacaagattcgtacctggaaagagaaagtgatcaatcagctgaccggtggt
+            ctggctggtatggcgaaaggccgcaaagtcaaagtggtcaacggtctgggtaaattcacc
+            ggggctaacaccctggaagttgaaggtgagaacggcaaaaccgtgatcaacttcgacaac
+            gcgatcattgcagcgggttctcgcccgatccaactgccgtttattccgcatgaagatccg
+            cgtatctgggactccactgacgcgctggaactgaaagaagtaccagaacgcctgctggta
+            atgggtggcggtatcatcggtctggaaatgggcaccgtttaccacgcgctgggttcacag
+            attgacgtggttgaaatgttcgaccaggttatcccggcagctgacaaagacatcgttaaa
+            gtcttcaccaagcgtatcagcaagaaattcaacctgatgctggaaaccaaagttaccgcc
+            gttgaagcgaaagaagacggcatttatgtgacgatggaaggcaaaaaagcacccgctgaa
+            ccgcagcgttacgacgccgtgctggtagcgattggtcgtgtgccgaacggtaaaaacctc
+            gacgcaggcaaagcaggcgtggaagttgacgaccgtggtttcatccgcgttgacaaacag
+            ctgcgtaccaacgtaccgcacatctttgctatcggcgatatcgtcggtcaaccgatgctg
+            gcacacaaaggtgttcacgaaggtcacgttgccgctgaagttatcgccggtaagaaacac
+            tacttcgatccgaaagttatcccgtccatcgcctataccgaaccagaagttgcatgggtg
+            ggtctgactgagaaagaagcgaaagagaaaggcatcagctatgaaaccgccaccttcccg
+            tgggctgcttctggtcgtgctatcgcttccgactgcgcagacggtatgaccaagctgatt
+            ttcgacaaagaatctcaccgtgtgatcggtggtgcgattgtcggtactaacggcggcgag
+            ctgctgggtgaaatcggcctggcaatcgaaatgggttgtgatgctgaagacatcgcactg
+            accatccacgcgcacccgactctgcacgagtctgtgggcctggcggcagaagtgttcgaa
+            ggtagcattaccgacctgccgaacccgaaagcgaagaagaagtaa
+///

@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:41:06
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b2781/b2781_protein/sequences/P0AEY3_3cra-A.needle
+#    -asequence asis::MNQIDRLLTIMQRLRDPENGCPWDKEQTFATIAPYTLEETYEVLDAIAREDFDDLRGELGDLLFQVVFYAQMAQEEGRFDFNDICAAISDKLERRHPHVFADSSAENSSEVLARWEQIKTEERAQKAQHSALDDIPRSLPALMRAQKIQKRCANVGFDWTTLGPVVDKVYEEIDEVMYEARQAVVDQAKLEEEMGDLLFATVNLARHLGTKAEIALQKANEKFERRFREVERIVAARGLEMTGVDLETMEEVWQQVKRQEIDL
+#    -bsequence asis::XNQIDRLLTIMQRLRDPENGCPWDKEQTFATIAPYTLEETYEVLDAIAREDFDDLRGELGDLLFQVVFYAQMAQEEGRFDFNDICAAISDKLERRXXXXXXXXXXXXXXXXLARWEQIKTEERAQKAQHSALDDIPRSLPALMRAQKIQKRCANVGFDWTTLGPVVDKVYEEIDEVMYEARQAVVDQAKLEEEMGDLLFATVNLARHLGTKAEIALQKANEKFERRFREVERIVAARGLEMTXXXXETMEEVWQQVKRQE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b2781/b2781_protein/sequences/P0AEY3_3cra-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 263
+# Identity:     239/263 (90.9%)
+# Similarity:   239/263 (90.9%)
+# Gaps:           3/263 ( 1.1%)
+# Score: 1209.0
+# 
+#
+#=======================================
+
+asis               1 MNQIDRLLTIMQRLRDPENGCPWDKEQTFATIAPYTLEETYEVLDAIARE     50
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XNQIDRLLTIMQRLRDPENGCPWDKEQTFATIAPYTLEETYEVLDAIARE     50
+
+asis              51 DFDDLRGELGDLLFQVVFYAQMAQEEGRFDFNDICAAISDKLERRHPHVF    100
+                     |||||||||||||||||||||||||||||||||||||||||||||.....
+asis              51 DFDDLRGELGDLLFQVVFYAQMAQEEGRFDFNDICAAISDKLERRXXXXX    100
+
+asis             101 ADSSAENSSEVLARWEQIKTEERAQKAQHSALDDIPRSLPALMRAQKIQK    150
+                     ...........|||||||||||||||||||||||||||||||||||||||
+asis             101 XXXXXXXXXXXLARWEQIKTEERAQKAQHSALDDIPRSLPALMRAQKIQK    150
+
+asis             151 RCANVGFDWTTLGPVVDKVYEEIDEVMYEARQAVVDQAKLEEEMGDLLFA    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 RCANVGFDWTTLGPVVDKVYEEIDEVMYEARQAVVDQAKLEEEMGDLLFA    200
+
+asis             201 TVNLARHLGTKAEIALQKANEKFERRFREVERIVAARGLEMTGVDLETME    250
+                     ||||||||||||||||||||||||||||||||||||||||||....||||
+asis             201 TVNLARHLGTKAEIALQKANEKFERRFREVERIVAARGLEMTXXXXETME    250
+
+asis             251 EVWQQVKRQEIDL    263
+                     ||||||||||   
+asis             251 EVWQQVKRQE---    260
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,90 @@
+ENTRY       b0723             CDS       T00007
+NAME        sdhA
+DEFINITION  (RefSeq) succinate dehydrogenase, flavoprotein subunit
+ORTHOLOGY   K00239  succinate dehydrogenase / fumarate reductase, flavoprotein subunit [EC:1.3.5.1 1.3.5.4]
+ORGANISM    eco  Escherichia coli K-12 MG1655
+PATHWAY     eco00020  Citrate cycle (TCA cycle)
+            eco00190  Oxidative phosphorylation
+            eco00650  Butanoate metabolism
+            eco01100  Metabolic pathways
+            eco01110  Biosynthesis of secondary metabolites
+            eco01120  Microbial metabolism in diverse environments
+            eco01130  Biosynthesis of antibiotics
+            eco01200  Carbon metabolism
+MODULE      eco_M00009  Citrate cycle (TCA cycle, Krebs cycle)
+            eco_M00011  Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate
+            eco_M00149  Succinate dehydrogenase, prokaryotes
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             Metabolism
+              Overview
+               01200 Carbon metabolism
+                b0723 (sdhA)
+              Carbohydrate metabolism
+               00020 Citrate cycle (TCA cycle)
+                b0723 (sdhA)
+               00650 Butanoate metabolism
+                b0723 (sdhA)
+              Energy metabolism
+               00190 Oxidative phosphorylation
+                b0723 (sdhA)
+            Enzymes [BR:eco01000]
+             1. Oxidoreductases
+              1.3  Acting on the CH-CH group of donors
+               1.3.5  With a quinone or related compound as acceptor
+                1.3.5.1  succinate dehydrogenase
+                 b0723 (sdhA)
+                1.3.5.4  fumarate reductase (quinol)
+                 b0723 (sdhA)
+POSITION    755907..757673
+MOTIF       Pfam: FAD_binding_2 Succ_DH_flav_C Pyr_redox_2 GIDA HI0933_like DAO Thi4
+DBLINKS     NCBI-ProteinID: NP_415251
+            NCBI-GeneID: 945402
+            Pasteur: sdhA
+            EcoGene: EG10931
+            ECOCYC: EG10931
+            ASAP: ABE-0002466
+            UniProt: P0AC41
+STRUCTURE   PDB: 2WDQ 2WU2 1NEK 2WP9 2WU5 1NEN 2ACZ 2WS3 2WDV 2WDR
+AASEQ       588
+            MKLPVREFDAVVIGAGGAGMRAALQISQSGQTCALLSKVFPTRSHTVSAQGGITVALGNT
+            HEDNWEWHMYDTVKGSDYIGDQDAIEYMCKTGPEAILELEHMGLPFSRLDDGRIYQRPFG
+            GQSKNFGGEQAARTAAAADRTGHALLHTLYQQNLKNHTTIFSEWYALDLVKNQDGAVVGC
+            TALCIETGEVVYFKARATVLATGGAGRIYQSTTNAHINTGDGVGMAIRAGVPVQDMEMWQ
+            FHPTGIAGAGVLVTEGCRGEGGYLLNKHGERFMERYAPNAKDLAGRDVVARSIMIEIREG
+            RGCDGPWGPHAKLKLDHLGKEVLESRLPGILELSRTFAHVDPVKEPIPVIPTCHYMMGGI
+            PTKVTGQALTVNEKGEDVVVPGLFAVGEIACVSVHGANRLGGNSLLDLVVFGRAAGLHLQ
+            ESIAEQGALRDASESDVEASLDRLNRWNNNRNGEDPVAIRKALQECMQHNFSVFREGDAM
+            AKGLEQLKVIRERLKNARLDDTSSEFNTQRVECLELDNLMETAYATAVSANFRTESRGAH
+            SRFDFPDRDDENWLCHSLYLPESESMTRRSVNMEPKLRPAFPPKIRTY
+NTSEQ       1767
+            atgaaattgccagtcagagaatttgatgcagttgtgattggtgccggtggcgcaggtatg
+            cgcgcggcgctgcaaatttcccagagcggccagacctgtgcgctgctctctaaagtcttc
+            ccgacccgttcccataccgtttctgcgcaaggcggcattaccgttgcgctgggtaatacc
+            catgaagataactgggaatggcatatgtacgacaccgtgaaagggtcggactatatcggt
+            gaccaggacgcgattgaatatatgtgtaaaaccgggccggaagcgattctggaactcgaa
+            cacatgggcctgccgttctcgcgtctcgatgatggtcgtatctatcaacgtccgtttggc
+            ggtcagtcgaaaaacttcggcggcgagcaggcggcacgcactgcggcagcagctgaccgt
+            accggtcacgcactgttgcacacgctttatcagcagaacctgaaaaaccacaccaccatt
+            ttctccgagtggtatgcgctggatctggtgaaaaaccaggatggcgcggtggtgggttgt
+            accgcactgtgcatcgaaaccggtgaagtggtttatttcaaagcccgcgctaccgtgctg
+            gcgactggcggagcagggcgtatttatcagtccaccaccaacgcccacattaacaccggc
+            gacggtgtcggcatggctatccgtgccggcgtaccggtgcaggatatggaaatgtggcag
+            ttccacccgaccggcattgccggtgcgggcgtactggtcaccgaaggttgccgtggtgaa
+            ggcggttatctgctgaacaaacatggcgaacgttttatggagcgttatgcgccgaacgcc
+            aaagacctggcgggccgtgacgtggttgcgcgttccatcatgatcgaaatccgtgaaggt
+            cgcggctgtgatggtccgtgggggccacacgcgaaactgaaactcgatcacctgggtaaa
+            gaagttctcgaatcccgtctgccgggtatcctggagctttcccgtaccttcgctcacgtc
+            gatccggtgaaagagccgattccggttatcccaacctgtcactacatgatgggcggtatt
+            ccgaccaaagttaccggtcaggcactgactgtgaatgagaaaggcgaagatgtggttgtt
+            ccgggactgtttgccgttggtgaaatcgcttgtgtatcggtacacggcgctaaccgtctg
+            ggcggcaactcgctgctggacctggtggtctttggtcgcgcggcaggtctgcatctgcaa
+            gagtctatcgccgagcagggcgcactgcgcgatgccagcgagtctgatgttgaagcgtct
+            ctggatcgcctgaaccgctggaacaataatcgtaacggtgaagatccggtggcgatccgt
+            aaagcgctgcaagaatgtatgcagcataacttctcggtcttccgtgaaggtgatgcgatg
+            gcgaaagggcttgagcagttgaaagtgatccgcgagcgtctgaaaaatgcccgtctggat
+            gacacttccagcgagttcaacacccagcgcgttgagtgcctggaactggataacctgatg
+            gaaacggcgtatgcaacggctgtttctgccaacttccgtaccgaaagccgtggcgcgcat
+            agccgcttcgacttcccggatcgtgatgatgaaaactggctgtgccactccctgtatctg
+            ccagagtcggaatccatgacgcgccgaagcgtcaacatggaaccgaaactgcgcccggca
+            ttcccgccgaagattcgtacttactaa
+///

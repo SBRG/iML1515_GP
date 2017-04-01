@@ -1,0 +1,247 @@
+ID   PTTBC_ECOLI             Reviewed;         473 AA.
+AC   P36672; Q2M667;
+DT   01-JUN-1994, integrated into UniProtKB/Swiss-Prot.
+DT   15-JUL-1998, sequence version 4.
+DT   15-MAR-2017, entry version 149.
+DE   RecName: Full=PTS system trehalose-specific EIIBC component {ECO:0000303|PubMed:2160944};
+DE   AltName: Full=EIIBC-Tre {ECO:0000303|PubMed:2160944};
+DE            Short=EII-Tre {ECO:0000303|PubMed:2160944};
+DE   Includes:
+DE     RecName: Full=Trehalose-specific phosphotransferase enzyme IIB component {ECO:0000303|PubMed:2160944};
+DE              EC=2.7.1.201 {ECO:0000269|PubMed:2160944};
+DE     AltName: Full=PTS system trehalose-specific EIIB component {ECO:0000303|PubMed:2160944};
+DE   Includes:
+DE     RecName: Full=Trehalose permease IIC component {ECO:0000303|PubMed:2160944};
+DE     AltName: Full=PTS system trehalose-specific EIIC component {ECO:0000303|PubMed:2160944};
+GN   Name=treB; OrderedLocusNames=b4240, JW4199;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, AND INDUCTION.
+RC   STRAIN=K12;
+RX   PubMed=7608078; DOI=10.1128/jb.177.14.4043-4052.1995;
+RA   Klein W., Horlacher R., Boos W.;
+RT   "Molecular analysis of treB encoding the Escherichia coli enzyme II
+RT   specific for trehalose.";
+RL   J. Bacteriol. 177:4043-4052(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=7610040; DOI=10.1093/nar/23.12.2105;
+RA   Burland V.D., Plunkett G. III, Sofia H.J., Daniels D.L.,
+RA   Blattner F.R.;
+RT   "Analysis of the Escherichia coli genome VI: DNA sequence of the
+RT   region from 92.8 through 100 minutes.";
+RL   Nucleic Acids Res. 23:2105-2119(1995).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA], AND SEQUENCE REVISION
+RP   TO 184-194.
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [5]
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES,
+RP   INDUCTION, AND SUBCELLULAR LOCATION.
+RX   PubMed=2160944; DOI=10.1128/jb.172.6.3450-3461.1990;
+RA   Boos W., Ehmann U., Forkl H., Klein W., Rimmele M., Postma P.;
+RT   "Trehalose transport and metabolism in Escherichia coli.";
+RL   J. Bacteriol. 172:3450-3461(1990).
+RN   [6]
+RP   TOPOLOGY [LARGE SCALE ANALYSIS].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=15919996; DOI=10.1126/science.1109730;
+RA   Daley D.O., Rapp M., Granseth E., Melen K., Drew D., von Heijne G.;
+RT   "Global topology analysis of the Escherichia coli inner membrane
+RT   proteome.";
+RL   Science 308:1321-1323(2005).
+CC   -!- FUNCTION: The phosphoenolpyruvate-dependent sugar
+CC       phosphotransferase system (sugar PTS), a major carbohydrate active
+CC       transport system, catalyzes the phosphorylation of incoming sugar
+CC       substrates concomitantly with their translocation across the cell
+CC       membrane. This system is involved in trehalose transport at low
+CC       osmolarity. {ECO:0000269|PubMed:2160944,
+CC       ECO:0000305|PubMed:7608078}.
+CC   -!- CATALYTIC ACTIVITY: [Protein]-N(pi)-phospho-L-histidine +
+CC       alpha,alpha-trehalose(Side 1) = [protein]-L-histidine +
+CC       alpha,alpha-trehalose 6-phosphate(Side 2).
+CC       {ECO:0000269|PubMed:2160944}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=16 uM for trehalose {ECO:0000269|PubMed:2160944};
+CC         Vmax=9 nmol/min/mg enzyme toward trehalose
+CC         {ECO:0000269|PubMed:2160944};
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|PROSITE-
+CC       ProRule:PRU00426, ECO:0000305|PubMed:2160944}; Multi-pass membrane
+CC       protein {ECO:0000255|PROSITE-ProRule:PRU00426}.
+CC   -!- INDUCTION: At low osmolarity, treB is induced by trehalose-6-
+CC       phosphate, but it becomes uninducible at high osmolarity due to
+CC       induction of trehalose-6-phosphate phosphatase OstB which is part
+CC       of the biosynthetic pathway of trehalose synthesis at high
+CC       osmolarity. Repressed by TreR. {ECO:0000269|PubMed:2160944,
+CC       ECO:0000269|PubMed:7608078}.
+CC   -!- DOMAIN: The PTS EIIB type-1 domain is phosphorylated by phospho-
+CC       EIIA-Glc (EIII-Glc) on a cysteinyl residue. Then, it transfers the
+CC       phosphoryl group to the sugar substrate concomitantly with the
+CC       sugar uptake processed by the PTS EIIC type-1 domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00421,
+CC       ECO:0000305|PubMed:2160944}.
+CC   -!- DOMAIN: The EIIC domain type-1 forms the PTS system translocation
+CC       channel and contains the specific substrate-binding site.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00426}.
+CC   -!- MISCELLANEOUS: E.coli does not possess a trehalose-specific
+CC       phosphotransferase enzyme IIA component, however it seems that it
+CC       use the glucose-specific phosphotransferase enzyme IIA component
+CC       to delivers trehalose-6-phosphate into the cell.
+CC       {ECO:0000305|PubMed:2160944}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U06195; AAC43381.1; -; Genomic_DNA.
+DR   EMBL; U14003; AAA97137.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC77197.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE78239.1; -; Genomic_DNA.
+DR   PIR; C65236; C65236.
+DR   RefSeq; NP_418661.1; NC_000913.3.
+DR   ProteinModelPortal; P36672; -.
+DR   SMR; P36672; -.
+DR   BioGrid; 4262709; 7.
+DR   IntAct; P36672; 1.
+DR   MINT; MINT-6478335; -.
+DR   STRING; 511145.b4240; -.
+DR   TCDB; 4.A.1.2.4; the pts glucose-glucoside (glc) family.
+DR   PaxDb; P36672; -.
+DR   PRIDE; P36672; -.
+DR   EnsemblBacteria; AAC77197; AAC77197; b4240.
+DR   EnsemblBacteria; BAE78239; BAE78239; BAE78239.
+DR   GeneID; 948761; -.
+DR   KEGG; ecj:JW4199; -.
+DR   KEGG; eco:b4240; -.
+DR   PATRIC; 32124055; VBIEscCol129921_4372.
+DR   EchoBASE; EB2048; -.
+DR   EcoGene; EG12127; treB.
+DR   eggNOG; ENOG4105C5Y; Bacteria.
+DR   eggNOG; COG1263; LUCA.
+DR   eggNOG; COG1264; LUCA.
+DR   HOGENOM; HOG000102022; -.
+DR   InParanoid; P36672; -.
+DR   KO; K02818; -.
+DR   KO; K02819; -.
+DR   OMA; VIGDIKM; -.
+DR   PhylomeDB; P36672; -.
+DR   BioCyc; EcoCyc:TREB-MONOMER; -.
+DR   BioCyc; MetaCyc:TREB-MONOMER; -.
+DR   PRO; PR:P36672; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IDA:EcoCyc.
+DR   GO; GO:0016301; F:kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008982; F:protein-N(PI)-phosphohistidine-sugar phosphotransferase activity; IEA:InterPro.
+DR   GO; GO:0090589; F:protein-phosphocysteine-trehalose phosphotransferase system transporter activity; IDA:EcoCyc.
+DR   GO; GO:0015574; F:trehalose transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0009401; P:phosphoenolpyruvate-dependent sugar phosphotransferase system; IDA:EcoCyc.
+DR   GO; GO:0015771; P:trehalose transport; IDA:EcoCyc.
+DR   CDD; cd00212; PTS_IIB_glc; 1.
+DR   Gene3D; 3.30.1360.60; -; 1.
+DR   InterPro; IPR018113; PTrfase_EIIB_Cys.
+DR   InterPro; IPR003352; PTS_EIIC.
+DR   InterPro; IPR013013; PTS_EIIC_1.
+DR   InterPro; IPR001996; PTS_IIB_1.
+DR   InterPro; IPR011296; PTS_IIBC_treh.
+DR   InterPro; IPR004719; PTS_maltose/Glc_sub_IIC.
+DR   Pfam; PF00367; PTS_EIIB; 1.
+DR   Pfam; PF02378; PTS_EIIC; 1.
+DR   SUPFAM; SSF55604; SSF55604; 1.
+DR   TIGRFAMs; TIGR00826; EIIB_glc; 1.
+DR   TIGRFAMs; TIGR00852; pts-Glc; 1.
+DR   TIGRFAMs; TIGR01992; PTS-IIBC-Tre; 1.
+DR   PROSITE; PS51098; PTS_EIIB_TYPE_1; 1.
+DR   PROSITE; PS01035; PTS_EIIB_TYPE_1_CYS; 1.
+DR   PROSITE; PS51103; PTS_EIIC_TYPE_1; 1.
+PE   1: Evidence at protein level;
+KW   Cell inner membrane; Cell membrane; Complete proteome; Kinase;
+KW   Membrane; Phosphoprotein; Phosphotransferase system;
+KW   Reference proteome; Sugar transport; Transferase; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN         1    473       PTS system trehalose-specific EIIBC
+FT                                component.
+FT                                /FTId=PRO_0000186677.
+FT   TOPO_DOM      1    110       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    111    131       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    132    158       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    159    179       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    180    187       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    188    208       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    209    225       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    226    246       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    247    258       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    259    279       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    280    300       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    301    321       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    322    340       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    341    361       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    362    370       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    371    391       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    392    398       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    399    419       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    420    440       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    441    461       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    462    473       Cytoplasmic. {ECO:0000255}.
+FT   DOMAIN        1     89       PTS EIIB type-1. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00421}.
+FT   DOMAIN      109    473       PTS EIIC type-1. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   ACT_SITE     29     29       Phosphocysteine intermediate; for EIIB
+FT                                activity. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00421}.
+FT   MOD_RES      29     29       Phosphocysteine; by EIIA.
+FT                                {ECO:0000305|PubMed:2160944}.
+FT   CONFLICT    126    127       GL -> PF (in Ref. 1; AAC43381).
+FT                                {ECO:0000305}.
+FT   CONFLICT    184    194       GGTPILGIVLG -> AQRRSLVSCLA (in Ref. 2;
+FT                                AAA97137). {ECO:0000305}.
+FT   CONFLICT    187    187       Missing (in Ref. 1; AAC43381).
+FT                                {ECO:0000305}.
+FT   CONFLICT    307    307       A -> Q (in Ref. 1; AAC43381).
+FT                                {ECO:0000305}.
+FT   CONFLICT    429    473       PGILSIQPSYWQVFALAMAIAIIIPIVLTSFIYQRKYRLGT
+FT                                LDIV -> RNSLDSTELLAGVCAGNGYRHHHPDCTHLVYLS
+FT                                AEIPPGHAGHCLIFFGAQLRSHSQE (in Ref. 1;
+FT                                AAC43381). {ECO:0000305}.
+SQ   SEQUENCE   473 AA;  51081 MW;  7437F8822B624944 CRC64;
+     MMSKINQTDI DRLIELVGGR GNIATVSHCI TRLRFVLNQP ANARPKEIEQ LPMVKGCFTN
+     AGQFQVVIGT NVGDYYQALI ASTGQAQVDK EQVKKAARHN MKWHEQLISH FAVIFFPLLP
+     ALISGGLILG FRNVIGDLPM SNGQTLAQMY PSLQTIYDFL WLIGEAIFFY LPVGICWSAV
+     KKMGGTPILG IVLGVTLVSP QLMNAYLLGQ QLPEVWDFGM FSIAKVGYQA QVIPALLAGL
+     ALGVIETRLK RIVPDYLYLV VVPVCSLILA VFLAHALIGP FGRMIGDGVA FAVRHLMTGS
+     FAPIGAALFG FLYAPLVITG VHQTTLAIDL QMIQSMGGTP VWPLIALSNI AQGSAVIGII
+     ISSRKHNERE ISVPAAISAW LGVTEPAMYG INLKYRFPML CAMIGSGLAG LLCGLNGVMA
+     NGIGVGGLPG ILSIQPSYWQ VFALAMAIAI IIPIVLTSFI YQRKYRLGTL DIV
+//

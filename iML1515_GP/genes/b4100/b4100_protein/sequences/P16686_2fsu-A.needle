@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:56:50
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b4100/b4100_protein/sequences/P16686_2fsu-A.needle
+#    -asequence asis::MTLETAFMLPVQDAQHSFRRLLKAMSEPGVIVALHQLKRGWQPLNIATTSVLLTLADNDTPVWLSTPLNNDIVNQSLRFHTNAPLVSQPEQATFAVTDEAISSEQLNALSTGTAVAPEAGATLILQVASLSGGRMLRLTGAGIAEERMIAPQLPECILHELTERPHPFPLGIDLILTCGERLLAIPRTTHVEVC
+#    -bsequence asis::XXXXXXXXXXXQDAQHSFRRLLKAXSEPGVIVALHQLKRGWQPLNIATTSVLLTLADNDTPVWLSTPLNNDIVNQSLRFHTNAPLVSQPEQATFAVTDEAISSEQLNALSXXXXXXXXXGATLILQVASLSGGRXLRLTGXXXXEERXIAPQLPECILHELTERPHPFPLGIDLILTCGERLLAIPRTTHVEVC
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b4100/b4100_protein/sequences/P16686_2fsu-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 194
+# Identity:     167/194 (86.1%)
+# Similarity:   167/194 (86.1%)
+# Gaps:           0/194 ( 0.0%)
+# Score: 835.0
+# 
+#
+#=======================================
+
+asis               1 MTLETAFMLPVQDAQHSFRRLLKAMSEPGVIVALHQLKRGWQPLNIATTS     50
+                     ...........|||||||||||||.|||||||||||||||||||||||||
+asis               1 XXXXXXXXXXXQDAQHSFRRLLKAXSEPGVIVALHQLKRGWQPLNIATTS     50
+
+asis              51 VLLTLADNDTPVWLSTPLNNDIVNQSLRFHTNAPLVSQPEQATFAVTDEA    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 VLLTLADNDTPVWLSTPLNNDIVNQSLRFHTNAPLVSQPEQATFAVTDEA    100
+
+asis             101 ISSEQLNALSTGTAVAPEAGATLILQVASLSGGRMLRLTGAGIAEERMIA    150
+                     ||||||||||.........|||||||||||||||.|||||....|||.||
+asis             101 ISSEQLNALSXXXXXXXXXGATLILQVASLSGGRXLRLTGXXXXEERXIA    150
+
+asis             151 PQLPECILHELTERPHPFPLGIDLILTCGERLLAIPRTTHVEVC    194
+                     ||||||||||||||||||||||||||||||||||||||||||||
+asis             151 PQLPECILHELTERPHPFPLGIDLILTCGERLLAIPRTTHVEVC    194
+
+
+#---------------------------------------
+#---------------------------------------

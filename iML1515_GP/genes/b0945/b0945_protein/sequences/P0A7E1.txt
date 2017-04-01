@@ -1,0 +1,230 @@
+ID   PYRD_ECOLI              Reviewed;         336 AA.
+AC   P0A7E1; P05021;
+DT   13-AUG-1987, integrated into UniProtKB/Swiss-Prot.
+DT   13-AUG-1987, sequence version 1.
+DT   15-MAR-2017, entry version 109.
+DE   RecName: Full=Dihydroorotate dehydrogenase (quinone);
+DE            EC=1.3.5.2;
+DE   AltName: Full=DHOdehase;
+DE            Short=DHOD;
+DE            Short=DHODase;
+DE   AltName: Full=Dihydroorotate oxidase;
+GN   Name=pyrD; OrderedLocusNames=b0945, JW0928;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PROTEIN SEQUENCE OF 1-7.
+RX   PubMed=2992959; DOI=10.1111/j.1432-1033.1985.tb09068.x;
+RA   Larsen N.J., Jensen K.F.;
+RT   "Nucleotide sequence of the pyrD gene of Escherichia coli and
+RT   characterization of the flavoprotein dihydroorotate dehydrogenase.";
+RL   Eur. J. Biochem. 151:59-65(1985).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=8905232; DOI=10.1093/dnares/3.3.137;
+RA   Oshima T., Aiba H., Baba T., Fujita K., Hayashi K., Honjo A.,
+RA   Ikemoto K., Inada T., Itoh T., Kajihara M., Kanai K., Kashimoto K.,
+RA   Kimura S., Kitagawa M., Makino K., Masuda S., Miki T., Mizobuchi K.,
+RA   Mori H., Motomura K., Nakamura Y., Nashimoto H., Nishio Y., Saito N.,
+RA   Sampei G., Seki Y., Tagami H., Takemoto K., Wada C., Yamamoto Y.,
+RA   Yano M., Horiuchi T.;
+RT   "A 718-kb DNA sequence of the Escherichia coli K-12 genome
+RT   corresponding to the 12.7-28.0 min region on the linkage map.";
+RL   DNA Res. 3:137-155(1996).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [5]
+RP   PROTEIN SEQUENCE OF 1-10 AND 183-192, FUNCTION, CATALYTIC ACTIVITY,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, MUTAGENESIS OF SER-175, AND ENZYME
+RP   KINETICS.
+RX   PubMed=10074342; DOI=10.1021/bi982352c;
+RA   Bjoernberg O., Gruener A.-C., Roepstorff P., Jensen K.F.;
+RT   "The activity of Escherichia coli dihydroorotate dehydrogenase is
+RT   dependent on a conserved loop identified by sequence homology,
+RT   mutagenesis, and limited proteolysis.";
+RL   Biochemistry 38:2899-2908(1999).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS) IN COMPLEX WITH FMN AND OROTATE,
+RP   COFACTOR, SUBUNIT, AND REACTION MECHANISM.
+RX   PubMed=12220493; DOI=10.1016/S0969-2126(02)00831-6;
+RA   Noerager S., Jensen K.F., Bjoernberg O., Larsen S.;
+RT   "E. coli dihydroorotate dehydrogenase reveals structural and
+RT   functional distinctions between different classes of dihydroorotate
+RT   dehydrogenases.";
+RL   Structure 10:1211-1223(2002).
+CC   -!- FUNCTION: Catalyzes the conversion of dihydroorotate to orotate
+CC       with quinone as electron acceptor. {ECO:0000269|PubMed:10074342}.
+CC   -!- CATALYTIC ACTIVITY: (S)-dihydroorotate + a quinone = orotate + a
+CC       quinol. {ECO:0000269|PubMed:10074342}.
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210;
+CC         Evidence={ECO:0000269|PubMed:12220493};
+CC       Note=Binds 1 FMN per subunit. {ECO:0000269|PubMed:12220493};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=28.8 uM for dihydroorotate {ECO:0000269|PubMed:10074342};
+CC         Vmax=180 umol/min/mg enzyme {ECO:0000269|PubMed:10074342};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo
+CC       pathway; orotate from (S)-dihydroorotate (quinone route): step
+CC       1/1.
+CC   -!- SUBUNIT: Monomer. {ECO:0000269|PubMed:12220493}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane; Peripheral membrane protein.
+CC   -!- SIMILARITY: Belongs to the dihydroorotate dehydrogenase family.
+CC       Type 2 subfamily. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X02826; CAA26594.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC74031.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAA35700.1; -; Genomic_DNA.
+DR   PIR; A23109; DEECDO.
+DR   RefSeq; NP_415465.1; NC_000913.3.
+DR   RefSeq; WP_001295352.1; NZ_LN832404.1.
+DR   PDB; 1F76; X-ray; 2.50 A; A/B/D/E=1-336.
+DR   PDBsum; 1F76; -.
+DR   ProteinModelPortal; P0A7E1; -.
+DR   SMR; P0A7E1; -.
+DR   BioGrid; 4259440; 19.
+DR   BioGrid; 849930; 1.
+DR   DIP; DIP-35945N; -.
+DR   IntAct; P0A7E1; 6.
+DR   STRING; 511145.b0945; -.
+DR   DrugBank; DB01942; Formic Acid.
+DR   DrugBank; DB02262; Orotic Acid.
+DR   DrugBank; DB03247; Riboflavin Monophosphate.
+DR   SWISS-2DPAGE; P0A7E1; -.
+DR   PaxDb; P0A7E1; -.
+DR   PRIDE; P0A7E1; -.
+DR   EnsemblBacteria; AAC74031; AAC74031; b0945.
+DR   EnsemblBacteria; BAA35700; BAA35700; BAA35700.
+DR   GeneID; 945556; -.
+DR   KEGG; ecj:JW0928; -.
+DR   KEGG; eco:b0945; -.
+DR   PATRIC; 32117109; VBIEscCol129921_0979.
+DR   EchoBASE; EB0800; -.
+DR   EcoGene; EG10807; pyrD.
+DR   eggNOG; ENOG4107QYT; Bacteria.
+DR   eggNOG; COG0167; LUCA.
+DR   HOGENOM; HOG000225103; -.
+DR   InParanoid; P0A7E1; -.
+DR   KO; K00254; -.
+DR   OMA; ERIKMGA; -.
+DR   PhylomeDB; P0A7E1; -.
+DR   BioCyc; EcoCyc:DIHYDROOROTOX-MONOMER; -.
+DR   BioCyc; MetaCyc:DIHYDROOROTOX-MONOMER; -.
+DR   BRENDA; 1.3.5.2; 2026.
+DR   SABIO-RK; P0A7E1; -.
+DR   UniPathway; UPA00070; UER00946.
+DR   EvolutionaryTrace; P0A7E1; -.
+DR   PRO; PR:P0A7E1; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IDA:EcoCyc.
+DR   GO; GO:0016020; C:membrane; IDA:EcoCyc.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004152; F:dihydroorotate dehydrogenase activity; IDA:EcoCyc.
+DR   GO; GO:0010181; F:FMN binding; IDA:EcoCyc.
+DR   GO; GO:0006207; P:'de novo' pyrimidine nucleobase biosynthetic process; IMP:EcoCyc.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd04738; DHOD_2_like; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00225; DHO_dh_type2; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR005720; Dihydroorotate_DH.
+DR   InterPro; IPR012135; Dihydroorotate_DH_1_2.
+DR   InterPro; IPR005719; Dihydroorotate_DH_2.
+DR   InterPro; IPR001295; Dihydroorotate_DH_CS.
+DR   Pfam; PF01180; DHO_dh; 1.
+DR   PIRSF; PIRSF000164; DHO_oxidase; 1.
+DR   TIGRFAMs; TIGR01036; pyrD_sub2; 1.
+DR   PROSITE; PS00911; DHODEHASE_1; 1.
+DR   PROSITE; PS00912; DHODEHASE_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell membrane; Complete proteome;
+KW   Direct protein sequencing; Flavoprotein; FMN; Membrane;
+KW   Oxidoreductase; Pyrimidine biosynthesis; Reference proteome.
+FT   CHAIN         1    336       Dihydroorotate dehydrogenase (quinone).
+FT                                /FTId=PRO_0000148437.
+FT   NP_BIND      62     66       FMN. {ECO:0000269|PubMed:12220493}.
+FT   NP_BIND     318    319       FMN. {ECO:0000269|PubMed:12220493}.
+FT   REGION      111    115       Substrate binding.
+FT   REGION      246    247       Substrate binding.
+FT   ACT_SITE    175    175       Nucleophile.
+FT   BINDING      66     66       Substrate.
+FT   BINDING      86     86       FMN; via amide nitrogen.
+FT                                {ECO:0000269|PubMed:12220493}.
+FT   BINDING     139    139       FMN. {ECO:0000269|PubMed:12220493}.
+FT   BINDING     172    172       FMN. {ECO:0000269|PubMed:12220493}.
+FT   BINDING     172    172       Substrate.
+FT   BINDING     177    177       Substrate.
+FT   BINDING     217    217       FMN. {ECO:0000269|PubMed:12220493}.
+FT   BINDING     245    245       FMN; via carbonyl oxygen.
+FT                                {ECO:0000269|PubMed:12220493}.
+FT   BINDING     268    268       FMN; via amide nitrogen.
+FT                                {ECO:0000269|PubMed:12220493}.
+FT   BINDING     297    297       FMN; via amide nitrogen.
+FT                                {ECO:0000269|PubMed:12220493}.
+FT   MUTAGEN     175    175       S->A: Almost no activity.
+FT                                {ECO:0000269|PubMed:10074342}.
+FT   MUTAGEN     175    175       S->C: 500-fold reduction in activity.
+FT                                {ECO:0000269|PubMed:10074342}.
+FT   HELIX         3     10       {ECO:0000244|PDB:1F76}.
+FT   HELIX        15     29       {ECO:0000244|PDB:1F76}.
+FT   HELIX        33     37       {ECO:0000244|PDB:1F76}.
+FT   STRAND       47     49       {ECO:0000244|PDB:1F76}.
+FT   STRAND       52     60       {ECO:0000244|PDB:1F76}.
+FT   HELIX        71     76       {ECO:0000244|PDB:1F76}.
+FT   STRAND       80     87       {ECO:0000244|PDB:1F76}.
+FT   STRAND      100    103       {ECO:0000244|PDB:1F76}.
+FT   TURN        104    107       {ECO:0000244|PDB:1F76}.
+FT   STRAND      108    111       {ECO:0000244|PDB:1F76}.
+FT   HELIX       120    129       {ECO:0000244|PDB:1F76}.
+FT   STRAND      134    140       {ECO:0000244|PDB:1F76}.
+FT   HELIX       148    151       {ECO:0000244|PDB:1F76}.
+FT   HELIX       152    162       {ECO:0000244|PDB:1F76}.
+FT   HELIX       163    165       {ECO:0000244|PDB:1F76}.
+FT   STRAND      167    172       {ECO:0000244|PDB:1F76}.
+FT   STRAND      176    178       {ECO:0000244|PDB:1F76}.
+FT   HELIX       181    185       {ECO:0000244|PDB:1F76}.
+FT   HELIX       187    208       {ECO:0000244|PDB:1F76}.
+FT   STRAND      214    217       {ECO:0000244|PDB:1F76}.
+FT   HELIX       224    236       {ECO:0000244|PDB:1F76}.
+FT   STRAND      240    244       {ECO:0000244|PDB:1F76}.
+FT   TURN        258    261       {ECO:0000244|PDB:1F76}.
+FT   STRAND      263    268       {ECO:0000244|PDB:1F76}.
+FT   HELIX       269    271       {ECO:0000244|PDB:1F76}.
+FT   HELIX       272    286       {ECO:0000244|PDB:1F76}.
+FT   STRAND      292    297       {ECO:0000244|PDB:1F76}.
+FT   HELIX       301    310       {ECO:0000244|PDB:1F76}.
+FT   STRAND      313    318       {ECO:0000244|PDB:1F76}.
+FT   HELIX       319    324       {ECO:0000244|PDB:1F76}.
+FT   HELIX       326    335       {ECO:0000244|PDB:1F76}.
+SQ   SEQUENCE   336 AA;  36775 MW;  973227EAE6B83622 CRC64;
+     MYYPFVRKAL FQLDPERAHE FTFQQLRRIT GTPFEALVRQ KVPAKPVNCM GLTFKNPLGL
+     AAGLDKDGEC IDALGAMGFG SIEIGTVTPR PQPGNDKPRL FRLVDAEGLI NRMGFNNLGV
+     DNLVENVKKA HYDGVLGINI GKNKDTPVEQ GKDDYLICME KIYAYAGYIA INISSPNTPG
+     LRTLQYGEAL DDLLTAIKNK QNDLQAMHHK YVPIAVKIAP DLSEEELIQV ADSLVRHNID
+     GVIATNTTLD RSLVQGMKNC DQTGGLSGRP LQLKSTEIIR RLSLELNGRL PIIGVGGIDS
+     VIAAREKIAA GASLVQIYSG FIFKGPPLIK EIVTHI
+//

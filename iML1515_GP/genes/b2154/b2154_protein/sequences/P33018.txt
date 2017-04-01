@@ -1,0 +1,192 @@
+ID   SFGH2_ECOLI             Reviewed;         278 AA.
+AC   P33018; Q2MAS5;
+DT   01-FEB-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1994, sequence version 1.
+DT   15-MAR-2017, entry version 116.
+DE   RecName: Full=S-formylglutathione hydrolase YeiG;
+DE            Short=FGH;
+DE            EC=3.1.2.12;
+GN   Name=yeiG; OrderedLocusNames=b2154, JW2141;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / BHB2600;
+RA   Richterich P., Lakey N., Gryan G., Jaehn L., Mintz L., Robison K.,
+RA   Church G.M.;
+RT   "Automated multiplex sequencing of the E.coli genome.";
+RL   Submitted (OCT-1993) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [4]
+RP   FUNCTION.
+RX   PubMed=15808744; DOI=10.1016/j.fmrre.2004.12.006;
+RA   Kuznetsova E., Proudfoot M., Sanders S.A., Reinking J., Savchenko A.,
+RA   Arrowsmith C.H., Edwards A.M., Yakunin A.F.;
+RT   "Enzyme genomics: application of general enzymatic screens to discover
+RT   new enzymes.";
+RL   FEMS Microbiol. Rev. 29:263-279(2005).
+RN   [5]
+RP   FUNCTION, CATALYTIC ACTIVITY, ENZYME REGULATION, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, SUBUNIT, INDUCTION, AND MUTAGENESIS OF CYS-26; CYS-54;
+RP   ASP-80; SER-145; ASP-199; ASP-218; ASP-223; ASP-255 AND HIS-256.
+RX   PubMed=16567800; DOI=10.1074/jbc.M600996200;
+RA   Gonzalez C.F., Proudfoot M., Brown G., Korniyenko Y., Mori H.,
+RA   Savchenko A.V., Yakunin A.F.;
+RT   "Molecular basis of formaldehyde detoxification. Characterization of
+RT   two S-formylglutathione hydrolases from Escherichia coli, FrmB and
+RT   YeiG.";
+RL   J. Biol. Chem. 281:14514-14522(2006).
+CC   -!- FUNCTION: Serine hydrolase involved in the detoxification of
+CC       formaldehyde. Hydrolyzes S-formylglutathione to glutathione and
+CC       formate. Shows also esterase activity against alpha-naphthyl
+CC       acetate, lactoylglutathione, palmitoyl-CoA and several pNP-esters
+CC       of short chain fatty acids. {ECO:0000269|PubMed:15808744,
+CC       ECO:0000269|PubMed:16567800}.
+CC   -!- CATALYTIC ACTIVITY: S-formylglutathione + H(2)O = glutathione +
+CC       formate. {ECO:0000269|PubMed:16567800}.
+CC   -!- ENZYME REGULATION: Inhibited by the sulfhydryl inhibitors (N-
+CC       ethylmaleimide, iodoacetate, ZnCl(2) and CuCl(2)).
+CC       {ECO:0000269|PubMed:16567800}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.43 mM for S-formylglutathione
+CC         {ECO:0000269|PubMed:16567800};
+CC         KM=1.03 mM for alpha-naphthyl acetate
+CC         {ECO:0000269|PubMed:16567800};
+CC         KM=0.45 mM for pNP-acetate {ECO:0000269|PubMed:16567800};
+CC         KM=0.70 mM for pNP-butyrate {ECO:0000269|PubMed:16567800};
+CC         KM=0.95 mM for pNP-caproate {ECO:0000269|PubMed:16567800};
+CC         KM=0.48 mM for pNP-propionate {ECO:0000269|PubMed:16567800};
+CC         KM=0.58 mM for S-lactoylglutathione
+CC         {ECO:0000269|PubMed:16567800};
+CC         Vmax=12.6 umol/min/mg enzyme with S-formylglutathione as
+CC         substrate {ECO:0000269|PubMed:16567800};
+CC         Vmax=9.79 umol/min/mg enzyme with alpha-naphthyl acetate as
+CC         substrate {ECO:0000269|PubMed:16567800};
+CC         Vmax=0.50 umol/min/mg enzyme with pNP-acetate as substrate
+CC         {ECO:0000269|PubMed:16567800};
+CC         Vmax=0.70 umol/min/mg enzyme with pNP-butyrate as substrate
+CC         {ECO:0000269|PubMed:16567800};
+CC         Vmax=0.64 umol/min/mg enzyme with pNP-caproate as substrate
+CC         {ECO:0000269|PubMed:16567800};
+CC         Vmax=0.71 umol/min/mg enzyme with pNP-propionate as substrate
+CC         {ECO:0000269|PubMed:16567800};
+CC         Vmax=1.97 umol/min/mg enzyme with S-lactoylglutathione as
+CC         substrate {ECO:0000269|PubMed:16567800};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:16567800}.
+CC   -!- INDUCTION: Constitutively expressed.
+CC       {ECO:0000269|PubMed:16567800}.
+CC   -!- SIMILARITY: Belongs to the esterase D family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U00007; AAA60510.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC75215.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE76631.1; -; Genomic_DNA.
+DR   PIR; A64984; A64984.
+DR   RefSeq; NP_416659.1; NC_000913.3.
+DR   RefSeq; WP_000425438.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P33018; -.
+DR   SMR; P33018; -.
+DR   BioGrid; 4260472; 8.
+DR   DIP; DIP-11919N; -.
+DR   IntAct; P33018; 5.
+DR   STRING; 511145.b2154; -.
+DR   ESTHER; ecoli-yeiG; A85-EsteraseD-FGH.
+DR   PaxDb; P33018; -.
+DR   PRIDE; P33018; -.
+DR   EnsemblBacteria; AAC75215; AAC75215; b2154.
+DR   EnsemblBacteria; BAE76631; BAE76631; BAE76631.
+DR   GeneID; 949045; -.
+DR   KEGG; ecj:JW2141; -.
+DR   KEGG; eco:b2154; -.
+DR   PATRIC; 32119655; VBIEscCol129921_2238.
+DR   EchoBASE; EB1961; -.
+DR   EcoGene; EG12026; yeiG.
+DR   eggNOG; ENOG4105C4W; Bacteria.
+DR   eggNOG; COG0627; LUCA.
+DR   HOGENOM; HOG000263929; -.
+DR   InParanoid; P33018; -.
+DR   KO; K01070; -.
+DR   OMA; HIKHHAK; -.
+DR   PhylomeDB; P33018; -.
+DR   BioCyc; EcoCyc:EG12026-MONOMER; -.
+DR   BioCyc; MetaCyc:EG12026-MONOMER; -.
+DR   BRENDA; 3.1.2.2; 2026.
+DR   SABIO-RK; P33018; -.
+DR   PRO; PR:P33018; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0052689; F:carboxylic ester hydrolase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004416; F:hydroxyacylglutathione hydrolase activity; IDA:EcoCyc.
+DR   GO; GO:0042802; F:identical protein binding; IDA:EcoCyc.
+DR   GO; GO:0018738; F:S-formylglutathione hydrolase activity; IDA:EcoCyc.
+DR   GO; GO:0046294; P:formaldehyde catabolic process; IMP:EcoCyc.
+DR   GO; GO:0051289; P:protein homotetramerization; IDA:EcoCyc.
+DR   Gene3D; 3.40.50.1820; -; 1.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR000801; Esterase_put.
+DR   InterPro; IPR014186; S-formylglutathione_hydrol.
+DR   PANTHER; PTHR10061; PTHR10061; 1.
+DR   Pfam; PF00756; Esterase; 1.
+DR   SUPFAM; SSF53474; SSF53474; 1.
+DR   TIGRFAMs; TIGR02821; fghA_ester_D; 1.
+PE   1: Evidence at protein level;
+KW   Complete proteome; Hydrolase; Reference proteome; Serine esterase.
+FT   CHAIN         1    278       S-formylglutathione hydrolase YeiG.
+FT                                /FTId=PRO_0000210345.
+FT   ACT_SITE    145    145       Charge relay system. {ECO:0000305}.
+FT   ACT_SITE    223    223       Charge relay system. {ECO:0000305}.
+FT   ACT_SITE    256    256       Charge relay system. {ECO:0000305}.
+FT   MUTAGEN      26     26       C->A: Reduces catalytic efficiency, but
+FT                                has no effect on affinity for substrate.
+FT                                {ECO:0000269|PubMed:16567800}.
+FT   MUTAGEN      54     54       C->A: Reduces affinity for substrate and
+FT                                catalytic efficiency.
+FT                                {ECO:0000269|PubMed:16567800}.
+FT   MUTAGEN      80     80       D->A: Increases affinity for substrate,
+FT                                but reduces catalytic efficiency.
+FT                                {ECO:0000269|PubMed:16567800}.
+FT   MUTAGEN     145    145       S->A: Loss of activity.
+FT                                {ECO:0000269|PubMed:16567800}.
+FT   MUTAGEN     199    199       D->A: Reduces catalytic efficiency, but
+FT                                has no effect on affinity for substrate.
+FT                                {ECO:0000269|PubMed:16567800}.
+FT   MUTAGEN     218    218       D->A: Reduces affinity for substrate and
+FT                                catalytic efficiency.
+FT                                {ECO:0000269|PubMed:16567800}.
+FT   MUTAGEN     223    223       D->A: Loss of activity.
+FT                                {ECO:0000269|PubMed:16567800}.
+FT   MUTAGEN     255    255       D->A: Increases affinity for substrate,
+FT                                but reduces catalytic efficiency.
+FT                                {ECO:0000269|PubMed:16567800}.
+FT   MUTAGEN     256    256       H->A: Loss of activity.
+FT                                {ECO:0000269|PubMed:16567800}.
+SQ   SEQUENCE   278 AA;  31259 MW;  69292AD902EF3E72 CRC64;
+     MEMLEEHRCF EGWQQRWRHD SSTLNCPMTF SIFLPPPRDH TPPPVLYWLS GLTCNDENFT
+     TKAGAQRVAA ELGIVLVMPD TSPRGEKVAN DDGYDLGQGA GFYLNATQPP WATHYRMYDY
+     LRDELPALVQ SQFNVSDRCA ISGHSMGGHG ALIMALKNPG KYTSVSAFAP IVNPCSVPWG
+     IKAFSSYLGE DKNAWLEWDS CALMYASNAQ DAIPTLIDQG DNDQFLADQL QPAVLAEAAR
+     QKAWPMTLRI QPGYDHSYYF IASFIEDHLR FHAQYLLK
+//

@@ -1,0 +1,158 @@
+ID   LSRC_ECOLI              Reviewed;         342 AA.
+AC   P77672;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1997, sequence version 1.
+DT   15-FEB-2017, entry version 120.
+DE   RecName: Full=Autoinducer 2 import system permease protein LsrC;
+DE            Short=AI-2 import system permease protein LsrC;
+GN   Name=lsrC; Synonyms=ydeY; OrderedLocusNames=b1514, JW1507;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=9097039; DOI=10.1093/dnares/3.6.363;
+RA   Aiba H., Baba T., Fujita K., Hayashi K., Inada T., Isono K., Itoh T.,
+RA   Kasai H., Kashimoto K., Kimura S., Kitakawa M., Kitagawa M.,
+RA   Makino K., Miki T., Mizobuchi K., Mori H., Mori T., Motomura K.,
+RA   Nakade S., Nakamura Y., Nashimoto H., Nishio Y., Oshima T., Saito N.,
+RA   Sampei G., Seki Y., Sivasundaram S., Tagami H., Takeda J.,
+RA   Takemoto K., Takeuchi Y., Wada C., Yamamoto Y., Horiuchi T.;
+RT   "A 570-kb DNA sequence of the Escherichia coli K-12 genome
+RT   corresponding to the 28.0-40.1 min region on the linkage map.";
+RL   DNA Res. 3:363-377(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [4]
+RP   FUNCTION IN AI-2 IMPORT, AND INDUCTION.
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=15601708; DOI=10.1128/JB.187.1.238-248.2005;
+RA   Xavier K.B., Bassler B.L.;
+RT   "Regulation of uptake and processing of the quorum-sensing autoinducer
+RT   AI-2 in Escherichia coli.";
+RL   J. Bacteriol. 187:238-248(2005).
+RN   [5]
+RP   INDUCTION.
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=15743955; DOI=10.1128/JB.187.6.2066-2076.2005;
+RA   Wang L., Hashimoto Y., Tsao C.-Y., Valdes J.J., Bentley W.E.;
+RT   "Cyclic AMP (cAMP) and cAMP receptor protein influence both synthesis
+RT   and uptake of extracellular autoinducer 2 in Escherichia coli.";
+RL   J. Bacteriol. 187:2066-2076(2005).
+RN   [6]
+RP   TOPOLOGY [LARGE SCALE ANALYSIS].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=15919996; DOI=10.1126/science.1109730;
+RA   Daley D.O., Rapp M., Granseth E., Melen K., Drew D., von Heijne G.;
+RT   "Global topology analysis of the Escherichia coli inner membrane
+RT   proteome.";
+RL   Science 308:1321-1323(2005).
+CC   -!- FUNCTION: Part of the ABC transporter complex LsrABCD involved in
+CC       autoinducer 2 (AI-2) import. Probably responsible for the
+CC       translocation of the substrate across the membrane (Probable).
+CC       {ECO:0000305|PubMed:15601708}.
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins
+CC       (LsrA), two transmembrane proteins (LsrC and LsrD) and a solute-
+CC       binding protein (LsrB). {ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane; Multi-pass membrane
+CC       protein.
+CC   -!- INDUCTION: In the absence of AI-2, repressed by LsrR. Induced by
+CC       AI-2, via release of the LsrR repressor. In the absence of
+CC       glucose, induced by cAMP-CRP by direct binding to the upstream
+CC       region of the lsr promoter. {ECO:0000269|PubMed:15601708,
+CC       ECO:0000269|PubMed:15743955}.
+CC   -!- SIMILARITY: Belongs to the binding-protein-dependent transport
+CC       system permease family. AraH/RbsC subfamily. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U00096; AAC74587.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAA15201.1; -; Genomic_DNA.
+DR   PIR; E64905; E64905.
+DR   RefSeq; NP_416031.1; NC_000913.3.
+DR   RefSeq; WP_000911184.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P77672; -.
+DR   BioGrid; 4260227; 9.
+DR   DIP; DIP-11689N; -.
+DR   STRING; 511145.b1514; -.
+DR   TCDB; 3.A.1.2.8; the atp-binding cassette (abc) superfamily.
+DR   PaxDb; P77672; -.
+DR   PRIDE; P77672; -.
+DR   EnsemblBacteria; AAC74587; AAC74587; b1514.
+DR   EnsemblBacteria; BAA15201; BAA15201; BAA15201.
+DR   GeneID; 946105; -.
+DR   KEGG; ecj:JW1507; -.
+DR   KEGG; eco:b1514; -.
+DR   PATRIC; 32118324; VBIEscCol129921_1582.
+DR   EchoBASE; EB3568; -.
+DR   EcoGene; EG13807; lsrC.
+DR   eggNOG; ENOG41071MT; Bacteria.
+DR   eggNOG; COG1172; LUCA.
+DR   HOGENOM; HOG000212232; -.
+DR   InParanoid; P77672; -.
+DR   KO; K10556; -.
+DR   OMA; HQRALKY; -.
+DR   PhylomeDB; P77672; -.
+DR   BioCyc; EcoCyc:YDEY-MONOMER; -.
+DR   BioCyc; MetaCyc:YDEY-MONOMER; -.
+DR   PRO; PR:P77672; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IBA:GO_Central.
+DR   GO; GO:0005886; C:plasma membrane; IDA:EcoCyc.
+DR   GO; GO:0015145; F:monosaccharide transmembrane transporter activity; IBA:GO_Central.
+DR   InterPro; IPR001851; ABC_transp_permease.
+DR   Pfam; PF02653; BPD_transp_2; 1.
+PE   1: Evidence at protein level;
+KW   Cell inner membrane; Cell membrane; Complete proteome; Membrane;
+KW   Reference proteome; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN         1    342       Autoinducer 2 import system permease
+FT                                protein LsrC.
+FT                                /FTId=PRO_0000060247.
+FT   TOPO_DOM      1     13       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM     14     34       Helical. {ECO:0000255}.
+FT   TOPO_DOM     35     38       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM     39     59       Helical. {ECO:0000255}.
+FT   TOPO_DOM     60     69       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM     70     90       Helical. {ECO:0000255}.
+FT   TOPO_DOM     91     92       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM     93    113       Helical. {ECO:0000255}.
+FT   TOPO_DOM    114    114       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    115    135       Helical. {ECO:0000255}.
+FT   TOPO_DOM    136    156       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    157    177       Helical. {ECO:0000255}.
+FT   TOPO_DOM    178    212       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    213    233       Helical. {ECO:0000255}.
+FT   TOPO_DOM    234    251       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    252    272       Helical. {ECO:0000255}.
+FT   TOPO_DOM    273    283       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    284    304       Helical. {ECO:0000255}.
+FT   TOPO_DOM    305    342       Cytoplasmic. {ECO:0000255}.
+SQ   SEQUENCE   342 AA;  36395 MW;  419E505026ABDE33 CRC64;
+     MLKFIQNNRE ITALLAVVLL FVLPGFLDRQ YLSVQTLTMV YSSAQILILL AMGATLVMLT
+     RNIDVSVGSI TGMCAVLLGM LLNAGYSLPV ACVATLLLGL LAGFFNGVLV AWLKIPAIVA
+     TLGTLGLYRG IMLLWTGGKW IEGLPAELKQ LSAPLLLGVS AIGWLTIILV AFMAWLLAKT
+     AFGRSFYATG DNLQGARQLG VRTEAIRIVA FSLNGCMAAL AGIVFASQIG FIPNQTGTGL
+     EMKAIAACVL GGISLLGGSG AIIGAVLGAW FLTQIDSVLV LLRIPAWWND FIAGLVLLAV
+     LVFDGRLRCA LERNLRRQKY ARFMTPPPSV KPASSGKKRE AA
+//

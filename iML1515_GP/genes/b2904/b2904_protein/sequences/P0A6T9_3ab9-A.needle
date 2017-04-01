@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:42:07
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b2904/b2904_protein/sequences/P0A6T9_3ab9-A.needle
+#    -asequence asis::MSNVPAELKYSKEHEWLRKEADGTYTVGITEHAQELLGDMVFVDLPEVGATVSAGDDCAVAESVKAASDIYAPVSGEIVAVNDALSDSPELVNSEPYAGGWIFKIKASDESELESLLDATAYEALLEDE
+#    -bsequence asis::XNVPAELKYSKEHEWLRKEADGTYTVGITEHAQELLGDMVFVDLPEVGATVSAGDDCAVAESVXAASDIYAPVSGEIVAVNDALSDSPELVNSEPYAGGWIFKIKASDESELESLLDATAYEALLEDE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b2904/b2904_protein/sequences/P0A6T9_3ab9-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 129
+# Identity:     126/129 (97.7%)
+# Similarity:   126/129 (97.7%)
+# Gaps:           1/129 ( 0.8%)
+# Score: 638.0
+# 
+#
+#=======================================
+
+asis               1 MSNVPAELKYSKEHEWLRKEADGTYTVGITEHAQELLGDMVFVDLPEVGA     50
+                      .||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 -XNVPAELKYSKEHEWLRKEADGTYTVGITEHAQELLGDMVFVDLPEVGA     49
+
+asis              51 TVSAGDDCAVAESVKAASDIYAPVSGEIVAVNDALSDSPELVNSEPYAGG    100
+                     ||||||||||||||.|||||||||||||||||||||||||||||||||||
+asis              50 TVSAGDDCAVAESVXAASDIYAPVSGEIVAVNDALSDSPELVNSEPYAGG     99
+
+asis             101 WIFKIKASDESELESLLDATAYEALLEDE    129
+                     |||||||||||||||||||||||||||||
+asis             100 WIFKIKASDESELESLLDATAYEALLEDE    128
+
+
+#---------------------------------------
+#---------------------------------------

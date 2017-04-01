@@ -1,0 +1,151 @@
+ID   PRET_ECOLI              Reviewed;         412 AA.
+AC   P76440; Q2MAT3;
+DT   16-APR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1997, sequence version 1.
+DT   15-FEB-2017, entry version 133.
+DE   RecName: Full=NAD-dependent dihydropyrimidine dehydrogenase subunit PreT;
+DE            Short=DPD;
+DE            EC=1.3.1.1;
+DE   AltName: Full=Dihydrothymine dehydrogenase;
+DE   AltName: Full=Dihydrouracil dehydrogenase;
+GN   Name=preT; Synonyms=yeiT; OrderedLocusNames=b2146, JW2133;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 1-15, FUNCTION IN PYRIMIDINE METABOLISM,
+RP   INDUCTION, AND NAD.
+RX   PubMed=18482579; DOI=10.1016/j.bbrc.2008.05.019;
+RA   Mihara H., Hidese R., Yamane M., Kurihara T., Esaki N.;
+RT   "The iscS gene deficiency affects the expression of pyrimidine
+RT   metabolism genes.";
+RL   Biochem. Biophys. Res. Commun. 372:407-411(2008).
+RN   [4]
+RP   FUNCTION AS A DIHYDROPYRIMIDINE DEHYDROGENASE, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, NAD BINDING, AND SUBUNIT.
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=21169495; DOI=10.1128/JB.01178-10;
+RA   Hidese R., Mihara H., Kurihara T., Esaki N.;
+RT   "Escherichia coli dihydropyrimidine dehydrogenase is a novel NAD-
+RT   dependent heterotetramer essential for the production of 5,6-
+RT   dihydrouracil.";
+RL   J. Bacteriol. 193:989-993(2011).
+CC   -!- FUNCTION: Involved in pyrimidine base degradation. Catalyzes
+CC       physiologically the reduction of uracil to 5,6-dihydrouracil (DHU)
+CC       by using NADH as a specific cosubstrate. It also catalyzes the
+CC       reverse reaction and the reduction of thymine to 5,6-
+CC       dihydrothymine (DHT). {ECO:0000269|PubMed:18482579,
+CC       ECO:0000269|PubMed:21169495}.
+CC   -!- CATALYTIC ACTIVITY: 5,6-dihydrouracil + NAD(+) = uracil + NADH.
+CC   -!- CATALYTIC ACTIVITY: 5,6-dihydrothymine + NAD(+) = thymine + NADH.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=38 uM for uracil (at pH 6 and 30 degrees Celsius)
+CC         {ECO:0000269|PubMed:21169495};
+CC         KM=87 uM for thymidine (at pH 6 and 30 degrees Celsius)
+CC         {ECO:0000269|PubMed:21169495};
+CC         KM=130 uM for DHT (at pH 11 and 30 degrees Celsius)
+CC         {ECO:0000269|PubMed:21169495};
+CC         KM=160 uM for DHU (at pH 11 and 30 degrees Celsius)
+CC         {ECO:0000269|PubMed:21169495};
+CC         Vmax=0.18 umol/min/mg enzyme toward DHT (at pH 11 and 30 degrees
+CC         Celsius) {ECO:0000269|PubMed:21169495};
+CC         Vmax=0.26 umol/min/mg enzyme toward thymidine (at pH 6 and 30
+CC         degrees Celsius) {ECO:0000269|PubMed:21169495};
+CC         Vmax=0.43 umol/min/mg enzyme toward uracil (at pH 6 and 30
+CC         degrees Celsius) {ECO:0000269|PubMed:21169495};
+CC         Vmax=0.44 umol/min/mg enzyme toward DHU (at pH 11 and 30 degrees
+CC         Celsius) {ECO:0000269|PubMed:21169495};
+CC   -!- SUBUNIT: Heterotetramer of 2 PreA and 2 PreT subunits.
+CC       {ECO:0000269|PubMed:21169495}.
+CC   -!- INDUCTION: Transcriptionally regulated by IscS.
+CC       {ECO:0000269|PubMed:18482579}.
+CC   -!- SIMILARITY: Belongs to the NADH dehydrogenase family.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U00096; AAC75207.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE76623.1; -; Genomic_DNA.
+DR   PIR; A64983; A64983.
+DR   RefSeq; NP_416651.1; NC_000913.3.
+DR   RefSeq; WP_001136389.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P76440; -.
+DR   SMR; P76440; -.
+DR   BioGrid; 4259169; 9.
+DR   DIP; DIP-28055N; -.
+DR   IntAct; P76440; 5.
+DR   STRING; 511145.b2146; -.
+DR   PaxDb; P76440; -.
+DR   PRIDE; P76440; -.
+DR   EnsemblBacteria; AAC75207; AAC75207; b2146.
+DR   EnsemblBacteria; BAE76623; BAE76623; BAE76623.
+DR   GeneID; 949049; -.
+DR   KEGG; ecj:JW2133; -.
+DR   KEGG; eco:b2146; -.
+DR   PATRIC; 32119635; VBIEscCol129921_2228.
+DR   EchoBASE; EB3827; -.
+DR   EcoGene; EG14074; preT.
+DR   eggNOG; ENOG4105BZ8; Bacteria.
+DR   eggNOG; COG0493; LUCA.
+DR   HOGENOM; HOG000031439; -.
+DR   InParanoid; P76440; -.
+DR   KO; K17722; -.
+DR   OMA; RNTINTQ; -.
+DR   PhylomeDB; P76440; -.
+DR   BioCyc; EcoCyc:G7145-MONOMER; -.
+DR   BioCyc; MetaCyc:G7145-MONOMER; -.
+DR   PRO; PR:P76440; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0004159; F:dihydrouracil dehydrogenase (NAD+) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0051536; F:iron-sulfur cluster binding; IDA:EcoCyc.
+DR   GO; GO:0003954; F:NADH dehydrogenase activity; IDA:UniProtKB.
+DR   GO; GO:0006208; P:pyrimidine nucleobase catabolic process; IDA:UniProtKB.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   Gene3D; 3.50.50.60; -; 2.
+DR   InterPro; IPR028261; DPD_II.
+DR   InterPro; IPR023753; FAD/NAD-binding_dom.
+DR   InterPro; IPR009051; Helical_ferredxn.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   Pfam; PF14691; Fer4_20; 1.
+DR   Pfam; PF07992; Pyr_redox_2; 1.
+DR   SUPFAM; SSF46548; SSF46548; 1.
+PE   1: Evidence at protein level;
+KW   Complete proteome; Direct protein sequencing; NAD; Oxidoreductase;
+KW   Reference proteome.
+FT   CHAIN         1    412       NAD-dependent dihydropyrimidine
+FT                                dehydrogenase subunit PreT.
+FT                                /FTId=PRO_0000169156.
+FT   BINDING     286    286       NAD. {ECO:0000305}.
+SQ   SEQUENCE   412 AA;  44329 MW;  6907F20BFAF7AF4E CRC64;
+     MPQQNYLDEL TPAFTSLLAI KEASRCLLCH DAPCSQACPA QTDPGKFIRS IYFRNFKGAA
+     ETIRENNALG AVCARVCPTE KLCQSGCTRA GVDAPIDIGR LQRFVTDFEQ QTGMEIYQPG
+     TKTLGKVAII GAGPAGLQAS VTLTNQGYDV TIYEKEAHPG GWLRNGIPQF RLPQSVLDAE
+     IARIEKMGVT IKCNNEVGNT LTLEQLKAEN RAVLVTVGLS SGSGLPLFEH SDVEIAVDFL
+     QRARQAQGDI SIPQSALIIG GGDVAMDVAS TLKVLGCQAV TCVAREELDE FPASEKEFTS
+     ARELGVSIID GFTPVAVEGN KVTFKHVRLS GELTMAADKI ILAVGQHARL DAFAELEPQR
+     NTIKTQNYQT RDPQVFAAGD IVEGDKTVVY AVKTGKEAAE AIHHYLEGAC SC
+//

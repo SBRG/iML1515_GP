@@ -1,0 +1,82 @@
+ENTRY       b1136             CDS       T00007
+NAME        icd
+DEFINITION  (RefSeq) e14 prophage; isocitrate dehydrogenase, specific for NADP+
+ORTHOLOGY   K00031  isocitrate dehydrogenase [EC:1.1.1.42]
+ORGANISM    eco  Escherichia coli K-12 MG1655
+PATHWAY     eco00020  Citrate cycle (TCA cycle)
+            eco00480  Glutathione metabolism
+            eco01100  Metabolic pathways
+            eco01110  Biosynthesis of secondary metabolites
+            eco01120  Microbial metabolism in diverse environments
+            eco01130  Biosynthesis of antibiotics
+            eco01200  Carbon metabolism
+            eco01210  2-Oxocarboxylic acid metabolism
+            eco01230  Biosynthesis of amino acids
+MODULE      eco_M00009  Citrate cycle (TCA cycle, Krebs cycle)
+            eco_M00010  Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             Metabolism
+              Overview
+               01200 Carbon metabolism
+                b1136 (icd)
+               01210 2-Oxocarboxylic acid metabolism
+                b1136 (icd)
+               01230 Biosynthesis of amino acids
+                b1136 (icd)
+              Carbohydrate metabolism
+               00020 Citrate cycle (TCA cycle)
+                b1136 (icd)
+              Metabolism of other amino acids
+               00480 Glutathione metabolism
+                b1136 (icd)
+            Enzymes [BR:eco01000]
+             1. Oxidoreductases
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.42  isocitrate dehydrogenase (NADP+)
+                 b1136 (icd)
+POSITION    1195123..1196373
+MOTIF       Pfam: Iso_dh tRNA_synt_1c_R1
+DBLINKS     NCBI-ProteinID: NP_415654
+            NCBI-GeneID: 945702
+            Pasteur: icd
+            RegulonDB: ECK120000482
+            EcoGene: EG10489
+            ECOCYC: EG10489
+            ASAP: ABE-0003823
+            UniProt: P08200
+STRUCTURE   PDB: 1PB1 1PB3 4AJS 4AJA 1P8F 4AJB 4AJ3 1AI2 1AI3 1ISO 4BNP
+                 1CW1 1CW4 4AJC 7ICD 1SJS 1BL5 1GRO 1GRP 1IDC 1IDD 1IDE
+                 1IDF 9ICD 5ICD 8ICD 3ICD 4ICD 1CW7 4AJR 1IKA 6ICD 3LCB
+                 4P69 1HJ6
+AASEQ       416
+            MESKVVVPAQGKKITLQNGKLNVPENPIIPYIEGDGIGVDVTPAMLKVVDAAVEKAYKGE
+            RKISWMEIYTGEKSTQVYGQDVWLPAETLDLIREYRVAIKGPLTTPVGGGIRSLNVALRQ
+            ELDLYICLRPVRYYQGTPSPVKHPELTDMVIFRENSEDIYAGIEWKADSADAEKVIKFLR
+            EEMGVKKIRFPEHCGIGIKPCSEEGTKRLVRAAIEYAIANDRDSVTLVHKGNIMKFTEGA
+            FKDWGYQLAREEFGGELIDGGPWLKVKNPNTGKEIVIKDVIADAFLQQILLRPAEYDVIA
+            CMNLNGDYISDALAAQVGGIGIAPGANIGDECALFEATHGTAPKYAGQDKVNPGSIILSA
+            EMMLRHMGWTEAADLIVKGMEGAINAKTVTYDFERLMDGAKLLKCSEFGDAIIENM
+NTSEQ       1251
+            atggaaagtaaagtagttgttccggcacaaggcaagaagatcaccctgcaaaacggcaaa
+            ctcaacgttcctgaaaatccgattatcccttacattgaaggtgatggaatcggtgtagat
+            gtaaccccagccatgctgaaagtggtcgacgctgcagtcgagaaagcctataaaggcgag
+            cgtaaaatctcctggatggaaatttacaccggtgaaaaatccacacaggtttatggtcag
+            gacgtctggctgcctgctgaaactcttgatctgattcgtgaatatcgcgttgccattaaa
+            ggtccgctgaccactccggttggtggcggtattcgctctctgaacgttgccctgcgccag
+            gaactggatctctacatctgcctgcgtccggtacgttactatcagggcactccaagcccg
+            gttaaacaccctgaactgaccgatatggttatcttccgtgaaaactcggaagacatttat
+            gcgggtatcgaatggaaagcagactctgccgacgccgagaaagtgattaaattcctgcgt
+            gaagagatgggggtgaagaaaattcgcttcccggaacattgtggtatcggtattaagccg
+            tgttcggaagaaggcaccaaacgtctggttcgtgcagcgatcgaatacgcaattgctaac
+            gatcgtgactctgtgactctggtgcacaaaggcaacatcatgaagttcaccgaaggagcg
+            tttaaagactggggctaccagctggcgcgtgaagagtttggcggtgaactgatcgacggt
+            ggcccgtggctgaaagttaaaaacccgaacactggcaaagagatcgtcattaaagacgtg
+            attgctgatgcattcctgcaacagatcctgctgcgtccggctgaatatgatgttatcgcc
+            tgtatgaacctgaacggtgactacatttctgacgccctggcagcgcaggttggcggtatc
+            ggtatcgcccctggtgcaaacatcggtgacgaatgcgccctgtttgaagccacccacggt
+            actgcgccgaaatatgccggtcaggacaaagtaaatcctggctctattattctctccgct
+            gagatgatgctgcgccacatgggttggaccgaagcggctgacttaattgttaaaggtatg
+            gaaggcgcaatcaacgcgaaaaccgtaacctatgacttcgagcgtctgatggatggcgct
+            aaactgctgaaatgttcagagtttggtgacgcgatcatcgaaaacatgtaa
+///

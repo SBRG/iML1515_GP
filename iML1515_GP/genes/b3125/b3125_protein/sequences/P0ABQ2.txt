@@ -1,0 +1,153 @@
+ID   GARR_ECOLI              Reviewed;         294 AA.
+AC   P0ABQ2; P23523; Q2M984;
+DT   08-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   08-NOV-2005, sequence version 1.
+DT   15-MAR-2017, entry version 95.
+DE   RecName: Full=2-hydroxy-3-oxopropionate reductase {ECO:0000255|HAMAP-Rule:MF_02032};
+DE            EC=1.1.1.60 {ECO:0000255|HAMAP-Rule:MF_02032, ECO:0000269|PubMed:9772162};
+DE   AltName: Full=Tartronate semialdehyde reductase {ECO:0000255|HAMAP-Rule:MF_02032, ECO:0000303|PubMed:9772162};
+DE            Short=TSAR {ECO:0000255|HAMAP-Rule:MF_02032, ECO:0000303|PubMed:9772162};
+GN   Name=garR {ECO:0000255|HAMAP-Rule:MF_02032,
+GN   ECO:0000303|PubMed:10762278}; Synonyms=yhaE;
+GN   OrderedLocusNames=b3125, JW5526;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=K12;
+RX   PubMed=1705543; DOI=10.1128/jb.173.5.1813-1816.1991;
+RA   Komine Y., Inokuchi H.;
+RT   "Precise mapping of the rnpB gene encoding the RNA component of RNase
+RT   P in Escherichia coli K-12.";
+RL   J. Bacteriol. 173:1813-1816(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND PATHWAY.
+RX   PubMed=9772162; DOI=10.1021/bi981124f;
+RA   Hubbard B.K., Koch M., Palmer D.R., Babbitt P.C., Gerlt J.A.;
+RT   "Evolution of enzymatic activities in the enolase superfamily:
+RT   characterization of the (D)-glucarate/galactarate catabolic pathway in
+RT   Escherichia coli.";
+RL   Biochemistry 37:14369-14375(1998).
+RN   [5]
+RP   GENE NAME, AND INDUCTION.
+RX   PubMed=10762278; DOI=10.1128/JB.182.9.2672-2674.2000;
+RA   Monterrubio R., Baldoma L., Obradors N., Aguilar J., Badia J.;
+RT   "A common regulator for the operons encoding the enzymes involved in
+RT   D-galactarate, D-glucarate, and D-glycerate utilization in Escherichia
+RT   coli.";
+RL   J. Bacteriol. 182:2672-2674(2000).
+CC   -!- FUNCTION: Catalyzes the reduction of tatronate semialdehyde to D-
+CC       glycerate. {ECO:0000255|HAMAP-Rule:MF_02032,
+CC       ECO:0000269|PubMed:9772162}.
+CC   -!- CATALYTIC ACTIVITY: D-glycerate + NAD(P)(+) = 2-hydroxy-3-
+CC       oxopropanoate + NAD(P)H. {ECO:0000255|HAMAP-Rule:MF_02032,
+CC       ECO:0000269|PubMed:9772162}.
+CC   -!- PATHWAY: Carbohydrate acid metabolism; galactarate degradation; D-
+CC       glycerate from galactarate: step 3/3. {ECO:0000255|HAMAP-
+CC       Rule:MF_02032, ECO:0000269|PubMed:9772162}.
+CC   -!- INDUCTION: Induced by D-galactarate, D-glucarate and D-glycerate.
+CC       {ECO:0000269|PubMed:10762278}.
+CC   -!- SIMILARITY: Belongs to the 3-hydroxyisobutyrate dehydrogenase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_02032}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA57928.1; Type=Erroneous initiation; Note=Translation N-terminally shortened.; Evidence={ECO:0000305};
+CC       Sequence=BAA14238.1; Type=Erroneous initiation; Note=Translation N-terminally shortened.; Evidence={ECO:0000305};
+CC       Sequence=BAE77172.1; Type=Erroneous initiation; Note=Translation N-terminally shortened.; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; D90212; BAA14238.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; U18997; AAA57928.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; U00096; AAC76159.3; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE77172.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; NP_417594.3; NC_000913.3.
+DR   ProteinModelPortal; P0ABQ2; -.
+DR   SMR; P0ABQ2; -.
+DR   BioGrid; 4259488; 17.
+DR   DIP; DIP-9742N; -.
+DR   STRING; 511145.b3125; -.
+DR   EPD; P0ABQ2; -.
+DR   PaxDb; P0ABQ2; -.
+DR   PRIDE; P0ABQ2; -.
+DR   EnsemblBacteria; AAC76159; AAC76159; b3125.
+DR   EnsemblBacteria; BAE77172; BAE77172; BAE77172.
+DR   GeneID; 947631; -.
+DR   KEGG; ecj:JW5526; -.
+DR   KEGG; eco:b3125; -.
+DR   PATRIC; 32121664; VBIEscCol129921_3218.
+DR   EchoBASE; EB1163; -.
+DR   EcoGene; EG11176; garR.
+DR   eggNOG; ENOG4105CF3; Bacteria.
+DR   eggNOG; COG2084; LUCA.
+DR   HOGENOM; HOG000219608; -.
+DR   InParanoid; P0ABQ2; -.
+DR   KO; K00042; -.
+DR   OMA; ASREVHD; -.
+DR   PhylomeDB; P0ABQ2; -.
+DR   BioCyc; EcoCyc:TSA-REDUCT-MONOMER; -.
+DR   BioCyc; MetaCyc:TSA-REDUCT-MONOMER; -.
+DR   UniPathway; UPA00565; UER00631.
+DR   PRO; PR:P0ABQ2; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0008679; F:2-hydroxy-3-oxopropionate reductase activity; IDA:EcoCyc.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0004616; F:phosphogluconate dehydrogenase (decarboxylating) activity; IEA:InterPro.
+DR   GO; GO:0042838; P:D-glucarate catabolic process; IDA:EcoCyc.
+DR   GO; GO:0046392; P:galactarate catabolic process; IDA:EcoCyc.
+DR   GO; GO:0046487; P:glyoxylate metabolic process; IEA:InterPro.
+DR   Gene3D; 1.10.1040.10; -; 1.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   HAMAP; MF_02032; Tartronate_sem_reduc; 1.
+DR   InterPro; IPR002204; 3-OH-isobutyrate_DH-rel_CS.
+DR   InterPro; IPR008927; 6-PGluconate_DH_C-like.
+DR   InterPro; IPR013328; 6PGD_dom_2.
+DR   InterPro; IPR006115; 6PGDH_NADP-bd.
+DR   InterPro; IPR015815; HIBADH-related.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   InterPro; IPR029154; NADP-bd.
+DR   InterPro; IPR006398; Tartro_sem_red.
+DR   Pfam; PF14833; NAD_binding_11; 1.
+DR   Pfam; PF03446; NAD_binding_2; 1.
+DR   PIRSF; PIRSF000103; HIBADH; 1.
+DR   SUPFAM; SSF48179; SSF48179; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   TIGRFAMs; TIGR01505; tartro_sem_red; 1.
+DR   PROSITE; PS00895; 3_HYDROXYISOBUT_DH; 1.
+PE   1: Evidence at protein level;
+KW   Complete proteome; NAD; Oxidoreductase; Reference proteome.
+FT   CHAIN         1    294       2-hydroxy-3-oxopropionate reductase.
+FT                                /FTId=PRO_0000173059.
+FT   NP_BIND       4     18       NAD. {ECO:0000255|HAMAP-Rule:MF_02032}.
+FT   ACT_SITE    170    170       {ECO:0000255|HAMAP-Rule:MF_02032}.
+FT   BINDING      95     95       NAD. {ECO:0000255|HAMAP-Rule:MF_02032}.
+FT   BINDING     238    238       NAD. {ECO:0000255|HAMAP-Rule:MF_02032}.
+SQ   SEQUENCE   294 AA;  30427 MW;  17DA392C2253278C CRC64;
+     MKVGFIGLGI MGKPMSKNLL KAGYSLVVAD RNPEAIADVI AAGAETASTA KAIAEQCDVI
+     ITMLPNSPHV KEVALGENGI IEGAKPGTVL IDMSSIAPLA SREISEALKA KGIDMLDAPV
+     SGGEPKAIDG TLSVMVGGDK AIFDKYYDLM KAMAGSVVHT GEIGAGNVTK LANQVIVALN
+     IAAMSEALTL ATKAGVNPDL VYQAIRGGLA GSTVLDAKAP MVMDRNFKPG FRIDLHIKDL
+     ANALDTSHGV GAQLPLTAAV MEMMQALRAD GLGTADHSAL ACYYEKLAKV EVTR
+//

@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:40:28
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b3197/b3197_protein/sequences/P45395_2xhz-C.needle
+#    -asequence asis::MSHVELQPGFDFQQAGKEVLAIERECLAELDQYINQNFTLACEKMFWCKGKVVVMGMGKSGHIGRKMAATFASTGTPSFFVHPGEAAHGDLGMVTPQDVVIAISNSGESSEITALIPVLKRLHVPLICITGRPESSMARAADVHLCVKVAKEACPLGLAPTSSTTATLVMGDALAVALLKARGFTAEDFALSHPGGALGRKLLLRVNDIMHTGDEIPHVKKTASLRDALLEVTRKNLGMTVICDDNMMIEGIFTDGDLRRVFDMGVDVRQLSIADVMTPGGIRVRPGILAVEALNLMQSRHITSVMVADGDHLLGVLHMHDLLRAGVV
+#    -bsequence asis::XXXXXXXXXXDFQQAGKEVLAIERECLAELDQYINQNFTLACEKMFWCKGKVVVMGMGASGHIGRKMAATFASTGTPSFFVHPGEAAHGDLGMVTPQDVVIAISNSGESSEITALIPVLKRLHVPLICITGRPESSMARAADVHLCVKVAKEACPLGLAPTSSTTATLVMGDALAVALLKARG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b3197/b3197_protein/sequences/P45395_2xhz-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 328
+# Identity:     172/328 (52.4%)
+# Similarity:   172/328 (52.4%)
+# Gaps:         145/328 (44.2%)
+# Score: 869.0
+# 
+#
+#=======================================
+
+asis               1 MSHVELQPGFDFQQAGKEVLAIERECLAELDQYINQNFTLACEKMFWCKG     50
+                     ..........||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXDFQQAGKEVLAIERECLAELDQYINQNFTLACEKMFWCKG     50
+
+asis              51 KVVVMGMGKSGHIGRKMAATFASTGTPSFFVHPGEAAHGDLGMVTPQDVV    100
+                     ||||||||.|||||||||||||||||||||||||||||||||||||||||
+asis              51 KVVVMGMGASGHIGRKMAATFASTGTPSFFVHPGEAAHGDLGMVTPQDVV    100
+
+asis             101 IAISNSGESSEITALIPVLKRLHVPLICITGRPESSMARAADVHLCVKVA    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 IAISNSGESSEITALIPVLKRLHVPLICITGRPESSMARAADVHLCVKVA    150
+
+asis             151 KEACPLGLAPTSSTTATLVMGDALAVALLKARGFTAEDFALSHPGGALGR    200
+                     |||||||||||||||||||||||||||||||||                 
+asis             151 KEACPLGLAPTSSTTATLVMGDALAVALLKARG-----------------    183
+
+asis             201 KLLLRVNDIMHTGDEIPHVKKTASLRDALLEVTRKNLGMTVICDDNMMIE    250
+                                                                       
+asis             183 --------------------------------------------------    183
+
+asis             251 GIFTDGDLRRVFDMGVDVRQLSIADVMTPGGIRVRPGILAVEALNLMQSR    300
+                                                                       
+asis             183 --------------------------------------------------    183
+
+asis             301 HITSVMVADGDHLLGVLHMHDLLRAGVV    328
+                                                 
+asis             183 ----------------------------    183
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:48:24
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b0974/b0974_protein/sequences/P0AAM1_4gd3-B.needle
+#    -asequence asis::MQQKSDNVVSHYVFEAPVRIWHWLTVLCMAVLMVTGYFIGKPLPSVSGEATYLFYMGYIRLIHFSAGMVFTVVLLMRIYWAFVGNRYSRELFIVPVWRKSWWQGVWYEIRWYLFLAKRPSADIGHNPIAQAAMFGYFLMSVFMIITGFALYSEHSQYAIFAPFRYVVEFFYWTGGNSMDIHSWHRLGMWLIGAFVIGHVYMALREDIMSDDTVISTMVNGYRSHKFGKISNKERS
+#    -bsequence asis::XXXXXXXVVSHYVFEAPVRIWHWLTVLCMAVLMVTGYFIGKPLPSVSGEATYLFYMGYIRLIHFSAGMVFTVVLLMRIYWAFVGNRYSRXXXXXXXXXXXXXQGVWYEIRWYLFLXXXXXXXXXXXPIAQAAMFGYFLMSVFMIITGFALYSEHSQYAIFAPFRYVVEFFYWTGGNSMDIHSWHRLGMWLIGAFVIGHVYMALREDIMSD
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b0974/b0974_protein/sequences/P0AAM1_4gd3-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 235
+# Identity:     179/235 (76.2%)
+# Similarity:   179/235 (76.2%)
+# Gaps:          25/235 (10.6%)
+# Score: 941.0
+# 
+#
+#=======================================
+
+asis               1 MQQKSDNVVSHYVFEAPVRIWHWLTVLCMAVLMVTGYFIGKPLPSVSGEA     50
+                     .......|||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXXVVSHYVFEAPVRIWHWLTVLCMAVLMVTGYFIGKPLPSVSGEA     50
+
+asis              51 TYLFYMGYIRLIHFSAGMVFTVVLLMRIYWAFVGNRYSRELFIVPVWRKS    100
+                     |||||||||||||||||||||||||||||||||||||||...........
+asis              51 TYLFYMGYIRLIHFSAGMVFTVVLLMRIYWAFVGNRYSRXXXXXXXXXXX    100
+
+asis             101 WWQGVWYEIRWYLFLAKRPSADIGHNPIAQAAMFGYFLMSVFMIITGFAL    150
+                     ..|||||||||||||...........||||||||||||||||||||||||
+asis             101 XXQGVWYEIRWYLFLXXXXXXXXXXXPIAQAAMFGYFLMSVFMIITGFAL    150
+
+asis             151 YSEHSQYAIFAPFRYVVEFFYWTGGNSMDIHSWHRLGMWLIGAFVIGHVY    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 YSEHSQYAIFAPFRYVVEFFYWTGGNSMDIHSWHRLGMWLIGAFVIGHVY    200
+
+asis             201 MALREDIMSDDTVISTMVNGYRSHKFGKISNKERS    235
+                     ||||||||||                         
+asis             201 MALREDIMSD-------------------------    210
+
+
+#---------------------------------------
+#---------------------------------------

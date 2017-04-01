@@ -1,0 +1,181 @@
+ID   LLDD_ECOLI              Reviewed;         396 AA.
+AC   P33232; Q2M7R9;
+DT   01-FEB-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1994, sequence version 1.
+DT   15-MAR-2017, entry version 138.
+DE   RecName: Full=L-lactate dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01559};
+DE            EC=1.1.-.- {ECO:0000255|HAMAP-Rule:MF_01559};
+GN   Name=lldD {ECO:0000255|HAMAP-Rule:MF_01559}; Synonyms=lctD;
+GN   OrderedLocusNames=b3605, JW3580;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, INDUCTION, AND DISRUPTION
+RP   PHENOTYPE.
+RC   STRAIN=K12;
+RX   PubMed=8407843; DOI=10.1128/jb.175.20.6671-6678.1993;
+RA   Dong J.M., Taylor J.S., Latour D.J., Iuchi S., Lin E.C.C.;
+RT   "Three overlapping lct genes involved in L-lactate utilization by
+RT   Escherichia coli.";
+RL   J. Bacteriol. 175:6671-6678(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=8041620; DOI=10.1093/nar/22.13.2576;
+RA   Sofia H.J., Burland V., Daniels D.L., Plunkett G. III, Blattner F.R.;
+RT   "Analysis of the Escherichia coli genome. V. DNA sequence of the
+RT   region from 76.0 to 81.5 minutes.";
+RL   Nucleic Acids Res. 22:2576-2586(1994).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [5]
+RP   FUNCTION, CATALYTIC ACTIVITY, COFACTOR, SUBSTRATE SPECIFICITY,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, INDUCTION, SUBUNIT, AND SUBCELLULAR
+RP   LOCATION.
+RX   PubMed=18473;
+RA   Futai M., Kimura H.;
+RT   "Inducible membrane-bound L-lactate dehydrogenase from Escherichia
+RT   coli. Purification and properties.";
+RL   J. Biol. Chem. 252:5820-5827(1977).
+CC   -!- FUNCTION: Catalyzes the conversion of L-lactate to pyruvate. Seems
+CC       to be a primary dehydrogenase in the respiratory chain. To a
+CC       lesser extent, can also oxidize DL-alpha-hydroxybutyrate, but not
+CC       D-lactate. {ECO:0000269|PubMed:18473, ECO:0000269|PubMed:8407843}.
+CC   -!- CATALYTIC ACTIVITY: (S)-lactate + an oxidized electron acceptor =
+CC       pyruvate + a reduced electron acceptor. {ECO:0000255|HAMAP-
+CC       Rule:MF_01559, ECO:0000269|PubMed:18473}.
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01559,
+CC         ECO:0000269|PubMed:18473};
+CC   -!- ENZYME REGULATION: Is activated by 2-fold in the presence of high
+CC       concentrations of sodium and potassium ions. Is almost completely
+CC       inhibited by a high concentration of pyruvate (10 mM).
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=120 uM for L-lactate {ECO:0000269|PubMed:18473};
+CC         KM=770 uM for DL-alpha-hydroxybutyrate
+CC         {ECO:0000269|PubMed:18473};
+CC       pH dependence:
+CC         Optimum pH is 8-9. {ECO:0000269|PubMed:18473};
+CC   -!- SUBUNIT: Forms homooligomers. {ECO:0000269|PubMed:18473}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01559, ECO:0000269|PubMed:18473}; Peripheral membrane
+CC       protein {ECO:0000255|HAMAP-Rule:MF_01559,
+CC       ECO:0000269|PubMed:18473}.
+CC   -!- INDUCTION: Is induced by aerobic growth on L-lactate, but not by
+CC       aerobic growth on D-lactate or glycerol or by anaerobic growth on
+CC       glucose. {ECO:0000269|PubMed:18473, ECO:0000269|PubMed:8407843}.
+CC   -!- DISRUPTION PHENOTYPE: Cells lacking this gene lose the ability to
+CC       grow on L-lactate as the sole source of carbon and energy, but can
+CC       still utilize D-lactate. {ECO:0000269|PubMed:8407843}.
+CC   -!- SIMILARITY: Belongs to the FMN-dependent alpha-hydroxy acid
+CC       dehydrogenase family. {ECO:0000255|HAMAP-Rule:MF_01559}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L13970; AAA03585.1; -; Unassigned_DNA.
+DR   EMBL; U00039; AAB18582.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC76629.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE77687.1; -; Genomic_DNA.
+DR   PIR; C49904; C49904.
+DR   RefSeq; NP_418062.1; NC_000913.3.
+DR   RefSeq; WP_000586962.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P33232; -.
+DR   SMR; P33232; -.
+DR   BioGrid; 4262561; 46.
+DR   DIP; DIP-10108N; -.
+DR   IntAct; P33232; 15.
+DR   MINT; MINT-6478320; -.
+DR   STRING; 511145.b3605; -.
+DR   EPD; P33232; -.
+DR   PaxDb; P33232; -.
+DR   PRIDE; P33232; -.
+DR   EnsemblBacteria; AAC76629; AAC76629; b3605.
+DR   EnsemblBacteria; BAE77687; BAE77687; BAE77687.
+DR   GeneID; 948121; -.
+DR   KEGG; ecj:JW3580; -.
+DR   KEGG; eco:b3605; -.
+DR   PATRIC; 32122695; VBIEscCol129921_3724.
+DR   EchoBASE; EB1906; -.
+DR   EcoGene; EG11963; lldD.
+DR   eggNOG; ENOG4105DMF; Bacteria.
+DR   eggNOG; COG1304; LUCA.
+DR   HOGENOM; HOG000217464; -.
+DR   InParanoid; P33232; -.
+DR   KO; K00101; -.
+DR   OMA; VAWIKEQ; -.
+DR   PhylomeDB; P33232; -.
+DR   BioCyc; EcoCyc:L-LACTDEHYDROGFMN-MONOMER; -.
+DR   BioCyc; MetaCyc:L-LACTDEHYDROGFMN-MONOMER; -.
+DR   PRO; PR:P33232; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IDA:EcoCyc.
+DR   GO; GO:0010181; F:FMN binding; IDA:EcoCyc.
+DR   GO; GO:0004459; F:L-lactate dehydrogenase activity; IDA:EcoCyc.
+DR   GO; GO:0009060; P:aerobic respiration; IEP:EcoCyc.
+DR   GO; GO:0042355; P:L-fucose catabolic process; IEP:EcoCyc.
+DR   GO; GO:0019516; P:lactate oxidation; IMP:EcoCyc.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_01559; L_lact_dehydr; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR012133; Alpha-hydoxy_acid_DH_FMN.
+DR   InterPro; IPR000262; FMN-dep_DH.
+DR   InterPro; IPR008259; FMN_hydac_DH_AS.
+DR   InterPro; IPR020920; LldD.
+DR   Pfam; PF01070; FMN_dh; 1.
+DR   PIRSF; PIRSF000138; Al-hdrx_acd_dh; 1.
+DR   PROSITE; PS00557; FMN_HYDROXY_ACID_DH_1; 1.
+DR   PROSITE; PS51349; FMN_HYDROXY_ACID_DH_2; 1.
+PE   1: Evidence at protein level;
+KW   Cell inner membrane; Cell membrane; Complete proteome; Flavoprotein;
+KW   FMN; Membrane; Oxidoreductase; Reference proteome.
+FT   CHAIN         1    396       L-lactate dehydrogenase.
+FT                                /FTId=PRO_0000206335.
+FT   DOMAIN        1    380       FMN hydroxy acid dehydrogenase.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01559}.
+FT   NP_BIND     306    330       FMN. {ECO:0000255|HAMAP-Rule:MF_01559}.
+FT   ACT_SITE    275    275       Proton acceptor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01559}.
+FT   BINDING      24     24       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01559}.
+FT   BINDING     106    106       FMN. {ECO:0000255|HAMAP-Rule:MF_01559}.
+FT   BINDING     127    127       FMN. {ECO:0000255|HAMAP-Rule:MF_01559}.
+FT   BINDING     129    129       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01559}.
+FT   BINDING     155    155       FMN. {ECO:0000255|HAMAP-Rule:MF_01559}.
+FT   BINDING     164    164       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01559}.
+FT   BINDING     251    251       FMN. {ECO:0000255|HAMAP-Rule:MF_01559}.
+FT   BINDING     278    278       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01559}.
+SQ   SEQUENCE   396 AA;  42728 MW;  CA0D8E308713BF83 CRC64;
+     MIISAASDYR AAAQRILPPF LFHYMDGGAY SEYTLRRNVE DLSEVALRQR ILKNMSDLSL
+     ETTLFNEKLS MPVALAPVGL CGMYARRGEV QAAKAADAHG IPFTLSTVSV CPIEEVAPAI
+     KRPMWFQLYV LRDRGFMRNA LERAKAAGCS TLVFTVDMPT PGARYRDAHS GMSGPNAAMR
+     RYLQAVTHPQ WAWDVGLNGR PHDLGNISAY LGKPTGLEDY IGWLGNNFDP SISWKDLEWI
+     RDFWDGPMVI KGILDPEDAR DAVRFGADGI VVSNHGGRQL DGVLSSARAL PAIADAVKGD
+     IAILADSGIR NGLDVVRMIA LGADTVLLGR AFLYALATAG QAGVANLLNL IEKEMKVAMT
+     LTGAKSISEI TQDSLVQGLG KELPAALAPM AKGNAA
+//

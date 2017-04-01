@@ -1,0 +1,42 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:50:15
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b3610/b3610_protein/sequences/P0AC62_1fov-A.needle
+#    -asequence asis::MANVEIYTKETCPYCHRAKALLSSKGVSFQELPIDGNAAKREEMIKRSGRTTVPQIFIDAQHIGGCDDLYALDARGGLDPLLK
+#    -bsequence asis::ANVEIYTKETCPYCHRAKALLSSKGVSFQELPIDGNAAKREEMIKRSGRTTVPQIFIDAQHIGGYDDLYALDARGGLDPLLK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b3610/b3610_protein/sequences/P0AC62_1fov-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 83
+# Identity:      81/83 (97.6%)
+# Similarity:    81/83 (97.6%)
+# Gaps:           1/83 ( 1.2%)
+# Score: 419.0
+# 
+#
+#=======================================
+
+asis               1 MANVEIYTKETCPYCHRAKALLSSKGVSFQELPIDGNAAKREEMIKRSGR     50
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 -ANVEIYTKETCPYCHRAKALLSSKGVSFQELPIDGNAAKREEMIKRSGR     49
+
+asis              51 TTVPQIFIDAQHIGGCDDLYALDARGGLDPLLK     83
+                     |||||||||||||||.|||||||||||||||||
+asis              50 TTVPQIFIDAQHIGGYDDLYALDARGGLDPLLK     82
+
+
+#---------------------------------------
+#---------------------------------------

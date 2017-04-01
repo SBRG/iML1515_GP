@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:44:22
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b1584/b1584_protein/sequences/P0A951_4r9m-A.needle
+#    -asequence asis::MPSAHSVKLRPLEREDLRYVHQLDNNASVMRYWFEEPYEAFVELSDLYDKHIHDQSERRFVVECDGEKAGLVELVEINHVHRRAEFQIIISPEYQGKGLATRAAKLAMDYGFTVLNLYKLYLIVDKENEKAIHIYRKLGFSVEGELMHEFFINGQYRNAIRMCIFQHQYLAEHKTPGQTLLKPTAQ
+#    -bsequence asis::MPSAHSVKLRPLEREDLRYVHQLDXXXSVMRYWFEEPYEAFVELSDLYDKHIHDQSERRFVVECDGEKAGLVELVEINHVHRRAEFQIIISPEYQGKGLATRAAKLAMDYGFTVLNLYKLYLIVDKENEKAIHIYRKLGFSVEGELMHEFFINGQYRNAIRMCIFQHQYLAE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b1584/b1584_protein/sequences/P0A951_4r9m-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 186
+# Identity:     169/186 (90.9%)
+# Similarity:   169/186 (90.9%)
+# Gaps:          14/186 ( 7.5%)
+# Score: 886.0
+# 
+#
+#=======================================
+
+asis               1 MPSAHSVKLRPLEREDLRYVHQLDNNASVMRYWFEEPYEAFVELSDLYDK     50
+                     ||||||||||||||||||||||||...|||||||||||||||||||||||
+asis               1 MPSAHSVKLRPLEREDLRYVHQLDXXXSVMRYWFEEPYEAFVELSDLYDK     50
+
+asis              51 HIHDQSERRFVVECDGEKAGLVELVEINHVHRRAEFQIIISPEYQGKGLA    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 HIHDQSERRFVVECDGEKAGLVELVEINHVHRRAEFQIIISPEYQGKGLA    100
+
+asis             101 TRAAKLAMDYGFTVLNLYKLYLIVDKENEKAIHIYRKLGFSVEGELMHEF    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 TRAAKLAMDYGFTVLNLYKLYLIVDKENEKAIHIYRKLGFSVEGELMHEF    150
+
+asis             151 FINGQYRNAIRMCIFQHQYLAEHKTPGQTLLKPTAQ    186
+                     ||||||||||||||||||||||              
+asis             151 FINGQYRNAIRMCIFQHQYLAE--------------    172
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:51:40
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b3028/b3028_protein/sequences/P0AEY5_2b3d-B.needle
+#    -asequence asis::MSNILIINGAKKFAHSNGQLNDTLTEVADGTLRDLGHDVRIVRADSDYDVKAEVQNFLWADVVIWQMPGWWMGAPWTVKKYIDDVFTEGHGTLYASDGRTRKDPSKKYGSGGLVQGKKYMLSLTWNAPMEAFTEKDQFFHGVGVDGVYLPFHKANQFLGMEPLPTFIANDVIKMPDVPRYTEEYRKHLVEIFG
+#    -bsequence asis::XXXXXXXXXXXSSNILIINGAKKFAHSNGQLNDTLTEVADGTLRDLGHDVRIVRADSDYDVKAEVQNFLWADVVIWQMPGWWMGAPWTVKKYIDDVFTEGHGTLYASDGRTXXDPSKKYGSGGLVQGKKYMLSLTWNAPMEAFTEKDQFFHGVGVDGVYLPFHKANQFLGMEPLPTFIANDVIKMPDVPRYTEEYRKHLVEIFG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b3028/b3028_protein/sequences/P0AEY5_2b3d-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 204
+# Identity:     190/204 (93.1%)
+# Similarity:   190/204 (93.1%)
+# Gaps:          11/204 ( 5.4%)
+# Score: 1029.0
+# 
+#
+#=======================================
+
+asis               1 -----------MSNILIINGAKKFAHSNGQLNDTLTEVADGTLRDLGHDV     39
+                                .||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXXSSNILIINGAKKFAHSNGQLNDTLTEVADGTLRDLGHDV     50
+
+asis              40 RIVRADSDYDVKAEVQNFLWADVVIWQMPGWWMGAPWTVKKYIDDVFTEG     89
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 RIVRADSDYDVKAEVQNFLWADVVIWQMPGWWMGAPWTVKKYIDDVFTEG    100
+
+asis              90 HGTLYASDGRTRKDPSKKYGSGGLVQGKKYMLSLTWNAPMEAFTEKDQFF    139
+                     |||||||||||..|||||||||||||||||||||||||||||||||||||
+asis             101 HGTLYASDGRTXXDPSKKYGSGGLVQGKKYMLSLTWNAPMEAFTEKDQFF    150
+
+asis             140 HGVGVDGVYLPFHKANQFLGMEPLPTFIANDVIKMPDVPRYTEEYRKHLV    189
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 HGVGVDGVYLPFHKANQFLGMEPLPTFIANDVIKMPDVPRYTEEYRKHLV    200
+
+asis             190 EIFG    193
+                     ||||
+asis             201 EIFG    204
+
+
+#---------------------------------------
+#---------------------------------------

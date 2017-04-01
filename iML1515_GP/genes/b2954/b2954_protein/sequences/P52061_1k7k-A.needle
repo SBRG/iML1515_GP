@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:51:30
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b2954/b2954_protein/sequences/P52061_1k7k-A.needle
+#    -asequence asis::MQKVVLATGNVGKVRELASLLSDFGLDIVAQTDLGVDSAEETGLTFIENAILKARHAAKVTALPAIADDSGLAVDVLGGAPGIYSARYSGEDATDQKNLQKLLETMKDVPDDQRQARFHCVLVYLRHAEDPTPLVCHGSWPGVITREPAGTGGFGYDPIFFVPSEGKTAAELTREEKSAISHRGQALKLLLDALRNG
+#    -bsequence asis::SSGRENLYFXXHXQKVVLATGNVGKVRELASLLSDFGLDIVAQTDLGVDSAEETGLTFIENAILKARHAAKVTALPAIADDSGLAVDVLGGAPGIYSARYSGEDATDQKNLQKLLETXKDVPDDQRQARFHCVLVYLRHAEDPTPLVCHGSWPGVITREPAGTGGFGYDPIFFVPSEGKTAAELTREEKSAISHRGQALKLLLDALRNG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b2954/b2954_protein/sequences/P52061_1k7k-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 209
+# Identity:     195/209 (93.3%)
+# Similarity:   195/209 (93.3%)
+# Gaps:          12/209 ( 5.7%)
+# Score: 993.0
+# 
+#
+#=======================================
+
+asis               1 ------------MQKVVLATGNVGKVRELASLLSDFGLDIVAQTDLGVDS     38
+                                 .|||||||||||||||||||||||||||||||||||||
+asis               1 SSGRENLYFXXHXQKVVLATGNVGKVRELASLLSDFGLDIVAQTDLGVDS     50
+
+asis              39 AEETGLTFIENAILKARHAAKVTALPAIADDSGLAVDVLGGAPGIYSARY     88
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 AEETGLTFIENAILKARHAAKVTALPAIADDSGLAVDVLGGAPGIYSARY    100
+
+asis              89 SGEDATDQKNLQKLLETMKDVPDDQRQARFHCVLVYLRHAEDPTPLVCHG    138
+                     |||||||||||||||||.||||||||||||||||||||||||||||||||
+asis             101 SGEDATDQKNLQKLLETXKDVPDDQRQARFHCVLVYLRHAEDPTPLVCHG    150
+
+asis             139 SWPGVITREPAGTGGFGYDPIFFVPSEGKTAAELTREEKSAISHRGQALK    188
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 SWPGVITREPAGTGGFGYDPIFFVPSEGKTAAELTREEKSAISHRGQALK    200
+
+asis             189 LLLDALRNG    197
+                     |||||||||
+asis             201 LLLDALRNG    209
+
+
+#---------------------------------------
+#---------------------------------------

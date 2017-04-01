@@ -1,0 +1,171 @@
+ID   SPEB_ECOLI              Reviewed;         306 AA.
+AC   P60651; P16936; Q2M9Q6;
+DT   29-MAR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   29-MAR-2004, sequence version 1.
+DT   15-MAR-2017, entry version 99.
+DE   RecName: Full=Agmatinase;
+DE            EC=3.5.3.11;
+DE   AltName: Full=Agmatine ureohydrolase;
+DE            Short=AUH;
+GN   Name=speB; OrderedLocusNames=b2937, JW2904;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2153656;
+RA   Szumanski M.B.W., Boyle S.M.;
+RT   "Analysis and sequence of the speB gene encoding agmatine
+RT   ureohydrolase, a putrescine biosynthetic enzyme in Escherichia coli.";
+RL   J. Bacteriol. 172:538-547(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-45.
+RX   PubMed=2198270; DOI=10.1128/jb.172.8.4631-4640.1990;
+RA   Moore R.C., Boyle S.M.;
+RT   "Nucleotide sequence and analysis of the speA gene encoding
+RT   biosynthetic arginine decarboxylase in Escherichia coli.";
+RL   J. Bacteriol. 172:4631-4640(1990).
+RN   [5]
+RP   COFACTOR.
+RX   PubMed=10329468; DOI=10.1006/bbrc.1999.0709;
+RA   Carvajal N., Lopez V., Salas M., Uribe E., Herrera P., Cerpa J.;
+RT   "Manganese is essential for catalytic activity of Escherichia coli
+RT   agmatinase.";
+RL   Biochem. Biophys. Res. Commun. 258:808-811(1999).
+RN   [6]
+RP   FUNCTION, AND MUTAGENESIS OF HIS-163.
+RX   PubMed=10527864; DOI=10.1006/bbrc.1999.1505;
+RA   Carvajal N., Olate J., Salas M., Lopez V., Cerpa J., Herrera P.,
+RA   Uribe E.;
+RT   "Evidence that histidine-163 is critical for catalytic activity, but
+RT   not for substrate binding to Escherichia coli agmatinase.";
+RL   Biochem. Biophys. Res. Commun. 264:196-200(1999).
+RN   [7]
+RP   REGULATION.
+RX   PubMed=1310091; DOI=10.1128/jb.174.3.758-764.1992;
+RA   Szumanski M.B.W., Boyle S.M.;
+RT   "Influence of cyclic AMP, agmatine, and a novel protein encoded by a
+RT   flanking gene on speB (agmatine ureohydrolase) in Escherichia coli.";
+RL   J. Bacteriol. 174:758-764(1992).
+CC   -!- FUNCTION: Catalyzes the formation of putrescine from agmatine.
+CC       {ECO:0000269|PubMed:10527864}.
+CC   -!- CATALYTIC ACTIVITY: Agmatine + H(2)O = putrescine + urea.
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000269|PubMed:10329468};
+CC   -!- ENZYME REGULATION: The expression of auh activity is
+CC       antagonistically regulated by cyclic AMP and agmatine. In the
+CC       presence of the cAMP receptor protein, cAMP represses the
+CC       expression of AUH, while agmatine induces it.
+CC   -!- PATHWAY: Amine and polyamine biosynthesis; putrescine biosynthesis
+CC       via agmatine pathway; putrescine from agmatine: step 1/1.
+CC   -!- SIMILARITY: Belongs to the arginase family. Agmatinase subfamily.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M32363; AAA83909.1; -; Genomic_DNA.
+DR   EMBL; U28377; AAA69104.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC75974.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE77000.1; -; Genomic_DNA.
+DR   EMBL; M31770; AAA24647.1; -; Genomic_DNA.
+DR   PIR; C42604; C42604.
+DR   PIR; G85950; G85950.
+DR   RefSeq; NP_417412.1; NC_000913.3.
+DR   RefSeq; WP_000105566.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P60651; -.
+DR   SMR; P60651; -.
+DR   BioGrid; 4260910; 13.
+DR   DIP; DIP-10906N; -.
+DR   IntAct; P60651; 7.
+DR   STRING; 511145.b2937; -.
+DR   SWISS-2DPAGE; P60651; -.
+DR   EPD; P60651; -.
+DR   PaxDb; P60651; -.
+DR   PRIDE; P60651; -.
+DR   EnsemblBacteria; AAC75974; AAC75974; b2937.
+DR   EnsemblBacteria; BAE77000; BAE77000; BAE77000.
+DR   GeneID; 947715; -.
+DR   KEGG; ecj:JW2904; -.
+DR   KEGG; eco:b2937; -.
+DR   PATRIC; 32121286; VBIEscCol129921_3031.
+DR   EchoBASE; EB0953; -.
+DR   EcoGene; EG10960; speB.
+DR   eggNOG; ENOG4105CYW; Bacteria.
+DR   eggNOG; COG0010; LUCA.
+DR   HOGENOM; HOG000204320; -.
+DR   InParanoid; P60651; -.
+DR   KO; K01480; -.
+DR   OMA; YELTTIM; -.
+DR   PhylomeDB; P60651; -.
+DR   BioCyc; EcoCyc:AGMATIN-MONOMER; -.
+DR   BioCyc; MetaCyc:AGMATIN-MONOMER; -.
+DR   UniPathway; UPA00534; UER00287.
+DR   PRO; PR:P60651; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IDA:EcoCyc.
+DR   GO; GO:0008783; F:agmatinase activity; IDA:EcoCyc.
+DR   GO; GO:0030145; F:manganese ion binding; IDA:EcoCyc.
+DR   GO; GO:0009446; P:putrescine biosynthetic process; IDA:EcoCyc.
+DR   GO; GO:0033388; P:putrescine biosynthetic process from arginine; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0008295; P:spermidine biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.800.10; -; 1.
+DR   HAMAP; MF_01418; SpeB; 1.
+DR   InterPro; IPR023694; Agmatinase.
+DR   InterPro; IPR005925; Agmatinase-rel.
+DR   InterPro; IPR006035; Ureohydrolase.
+DR   InterPro; IPR023696; Ureohydrolase_domain.
+DR   InterPro; IPR020855; Ureohydrolase_Mn_BS.
+DR   PANTHER; PTHR11358; PTHR11358; 1.
+DR   Pfam; PF00491; Arginase; 1.
+DR   PIRSF; PIRSF036979; Arginase; 1.
+DR   TIGRFAMs; TIGR01230; agmatinase; 1.
+DR   PROSITE; PS01053; ARGINASE_1; 1.
+DR   PROSITE; PS51409; ARGINASE_2; 1.
+PE   1: Evidence at protein level;
+KW   Complete proteome; Hydrolase; Manganese; Metal-binding;
+KW   Polyamine biosynthesis; Putrescine biosynthesis; Reference proteome;
+KW   Spermidine biosynthesis.
+FT   CHAIN         1    306       Agmatinase.
+FT                                /FTId=PRO_0000173731.
+FT   METAL       126    126       Manganese 1. {ECO:0000250}.
+FT   METAL       149    149       Manganese 1. {ECO:0000250}.
+FT   METAL       149    149       Manganese 2. {ECO:0000250}.
+FT   METAL       151    151       Manganese 2. {ECO:0000250}.
+FT   METAL       153    153       Manganese 1. {ECO:0000250}.
+FT   METAL       230    230       Manganese 1. {ECO:0000250}.
+FT   METAL       230    230       Manganese 2. {ECO:0000250}.
+FT   METAL       232    232       Manganese 2. {ECO:0000250}.
+FT   SITE        163    163       Important for catalytic activity.
+FT   MUTAGEN     163    163       H->F: Loss of activity.
+FT                                {ECO:0000269|PubMed:10527864}.
+SQ   SEQUENCE   306 AA;  33557 MW;  48208BF2CF155570 CRC64;
+     MSTLGHQYDN SLVSNAFGFL RLPMNFQPYD SDADWVITGV PFDMATSGRA GGRHGPAAIR
+     QVSTNLAWEH NRFPWNFDMR ERLNVVDCGD LVYAFGDARE MSEKLQAHAE KLLAAGKRML
+     SFGGDHFVTL PLLRAHAKHF GKMALVHFDA HTDTYANGCE FDHGTMFYTA PKEGLIDPNH
+     SVQIGIRTEF DKDNGFTVLD ACQVNDRSVD DVIAQVKQIV GDMPVYLTFD IDCLDPAFAP
+     GTGTPVIGGL TSDRAIKLVR GLKDLNIVGM DVVEVAPAYD QSEITALAAA TLALEMLYIQ
+     AAKKGE
+//

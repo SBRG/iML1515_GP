@@ -1,0 +1,272 @@
+ID   OXC_ECOLI               Reviewed;         564 AA.
+AC   P0AFI0; P78093; P78194; P78195;
+DT   20-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   20-DEC-2005, sequence version 1.
+DT   15-FEB-2017, entry version 91.
+DE   RecName: Full=Oxalyl-CoA decarboxylase;
+DE            EC=4.1.1.8;
+GN   Name=oxc; Synonyms=yfdU; OrderedLocusNames=b2373, JW2370;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=9205837; DOI=10.1093/dnares/4.2.91;
+RA   Yamamoto Y., Aiba H., Baba T., Hayashi K., Inada T., Isono K.,
+RA   Itoh T., Kimura S., Kitagawa M., Makino K., Miki T., Mitsuhashi N.,
+RA   Mizobuchi K., Mori H., Nakade S., Nakamura Y., Nashimoto H.,
+RA   Oshima T., Oyama S., Saito N., Sampei G., Satoh Y., Sivasundaram S.,
+RA   Tagami H., Takahashi H., Takeda J., Takemoto K., Uehara K., Wada C.,
+RA   Yamagata S., Horiuchi T.;
+RT   "Construction of a contiguous 874-kb sequence of the Escherichia coli-
+RT   K12 genome corresponding to 50.0-68.8 min on the linkage map and
+RT   analysis of its sequence features.";
+RL   DNA Res. 4:91-113(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [4]
+RP   INDUCTION.
+RX   PubMed=23335415; DOI=10.1128/JB.01936-12;
+RA   Fontenot E.M., Ezelle K.E., Gabreski L.N., Giglio E.R., McAfee J.M.,
+RA   Mills A.C., Qureshi M.N., Salmon K.M., Toyota C.G.;
+RT   "YfdW and YfdU are required for oxalate-induced acid tolerance in
+RT   Escherichia coli K-12.";
+RL   J. Bacteriol. 195:1446-1455(2013).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (1.74 ANGSTROMS) IN COMPLEX WITH THIAMINE
+RP   PYROPHOSPHATE; SUBSTRATE ANALOGS; ADP AND MAGNESIUM, FUNCTION,
+RP   CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, ENZYME REGULATION,
+RP   COFACTOR, AND SUBUNIT.
+RX   PubMed=20553497; DOI=10.1111/j.1742-4658.2010.07673.x;
+RA   Werther T., Zimmer A., Wille G., Golbik R., Weiss M.S., Konig S.;
+RT   "New insights into structure-function relationships of oxalyl CoA
+RT   decarboxylase from Escherichia coli.";
+RL   FEBS J. 277:2628-2640(2010).
+CC   -!- FUNCTION: Involved in the catabolism of oxalate and in the
+CC       adapatation to low pH via the induction of the oxalate-dependent
+CC       acid tolerance response (ATR). Catalyzes the decarboxylation of
+CC       oxalyl-CoA to yield carbon dioxide and formyl-CoA.
+CC       {ECO:0000269|PubMed:20553497}.
+CC   -!- CATALYTIC ACTIVITY: Oxalyl-CoA = formyl-CoA + CO(2).
+CC       {ECO:0000269|PubMed:20553497}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000269|PubMed:20553497};
+CC       Note=Binds 1 Mg(2+) ion per subunit.
+CC       {ECO:0000269|PubMed:20553497};
+CC   -!- COFACTOR:
+CC       Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937;
+CC         Evidence={ECO:0000269|PubMed:20553497};
+CC       Note=Binds 1 thiamine pyrophosphate per subunit.
+CC       {ECO:0000269|PubMed:20553497};
+CC   -!- ENZYME REGULATION: Activated by ADP.
+CC       {ECO:0000269|PubMed:20553497}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=3.17 uM for oxalyl-CoA (with 300 uM ADP at pH 6.5 and 30
+CC         degrees Celsius) {ECO:0000269|PubMed:20553497};
+CC         KM=4.8 uM for oxalyl-CoA (at pH 6.5 and 30 degrees Celsius)
+CC         {ECO:0000269|PubMed:20553497};
+CC         Note=Kcat is 69.7 sec(-1) for decarboxylase activity with
+CC         oxalyl-CoA as substrate (with 300 uM ADP at pH 6.5 and 30
+CC         degrees Celsius). Kcat is 60.7 sec(-1) for decarboxylase
+CC         activity with oxalyl-CoA as substrate (at pH 6.5 and 30 degrees
+CC         Celsius).;
+CC       pH dependence:
+CC         Optimum pH is between 5.5 and 7. {ECO:0000269|PubMed:20553497};
+CC   -!- PATHWAY: Metabolic intermediate degradation; oxalate degradation;
+CC       CO(2) and formate from oxalate: step 2/2.
+CC   -!- SUBUNIT: Homotetramer; dimer of dimers.
+CC       {ECO:0000269|PubMed:20553497}.
+CC   -!- INTERACTION:
+CC       Self; NbExp=4; IntAct=EBI-557143, EBI-557143;
+CC   -!- INDUCTION: By the acid response regulator EvgA.
+CC       {ECO:0000269|PubMed:23335415}.
+CC   -!- SIMILARITY: Belongs to the TPP enzyme family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U00096; AAC75432.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAA16245.1; -; Genomic_DNA.
+DR   PIR; B65011; B65011.
+DR   RefSeq; NP_416874.1; NC_000913.3.
+DR   RefSeq; WP_001283490.1; NZ_LN832404.1.
+DR   PDB; 2Q27; X-ray; 2.12 A; A/B=1-564.
+DR   PDB; 2Q28; X-ray; 1.74 A; A/B=1-564.
+DR   PDB; 2Q29; X-ray; 1.82 A; A/B=1-564.
+DR   PDBsum; 2Q27; -.
+DR   PDBsum; 2Q28; -.
+DR   PDBsum; 2Q29; -.
+DR   ProteinModelPortal; P0AFI0; -.
+DR   SMR; P0AFI0; -.
+DR   BioGrid; 4260862; 15.
+DR   DIP; DIP-48075N; -.
+DR   IntAct; P0AFI0; 6.
+DR   MINT; MINT-7717811; -.
+DR   STRING; 511145.b2373; -.
+DR   PaxDb; P0AFI0; -.
+DR   PRIDE; P0AFI0; -.
+DR   EnsemblBacteria; AAC75432; AAC75432; b2373.
+DR   EnsemblBacteria; BAA16245; BAA16245; BAA16245.
+DR   GeneID; 946845; -.
+DR   KEGG; ecj:JW2370; -.
+DR   KEGG; eco:b2373; -.
+DR   PATRIC; 32120125; VBIEscCol129921_2471.
+DR   EchoBASE; EB3895; -.
+DR   EcoGene; EG14143; oxc.
+DR   eggNOG; ENOG4105CFN; Bacteria.
+DR   eggNOG; COG0028; LUCA.
+DR   HOGENOM; HOG000053808; -.
+DR   InParanoid; P0AFI0; -.
+DR   KO; K01577; -.
+DR   OMA; FRHEQHA; -.
+DR   PhylomeDB; P0AFI0; -.
+DR   BioCyc; EcoCyc:G7236-MONOMER; -.
+DR   BioCyc; MetaCyc:G7236-MONOMER; -.
+DR   BRENDA; 4.1.1.8; 2026.
+DR   UniPathway; UPA00540; UER00599.
+DR   EvolutionaryTrace; P0AFI0; -.
+DR   PRO; PR:P0AFI0; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0043531; F:ADP binding; IDA:EcoCyc.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0000287; F:magnesium ion binding; IDA:UniProtKB.
+DR   GO; GO:0008949; F:oxalyl-CoA decarboxylase activity; IDA:EcoCyc.
+DR   GO; GO:0030976; F:thiamine pyrophosphate binding; IDA:EcoCyc.
+DR   GO; GO:0071468; P:cellular response to acidic pH; IMP:EcoCyc.
+DR   GO; GO:0033611; P:oxalate catabolic process; IDA:UniProtKB.
+DR   Gene3D; 3.40.50.1220; -; 1.
+DR   Gene3D; 3.40.50.970; -; 2.
+DR   InterPro; IPR029035; DHS-like_NAD/FAD-binding_dom.
+DR   InterPro; IPR017660; Oxalyl-CoA_decarboxylase.
+DR   InterPro; IPR029061; THDP-binding.
+DR   InterPro; IPR012000; Thiamin_PyroP_enz_cen_dom.
+DR   InterPro; IPR012001; Thiamin_PyroP_enz_TPP-bd_dom.
+DR   InterPro; IPR011766; TPP_enzyme-bd_C.
+DR   Pfam; PF02775; TPP_enzyme_C; 1.
+DR   Pfam; PF00205; TPP_enzyme_M; 1.
+DR   Pfam; PF02776; TPP_enzyme_N; 1.
+DR   SUPFAM; SSF52467; SSF52467; 1.
+DR   SUPFAM; SSF52518; SSF52518; 2.
+DR   TIGRFAMs; TIGR03254; oxalate_oxc; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Complete proteome; Decarboxylase; Lyase; Magnesium;
+KW   Metal-binding; Nucleotide-binding; Reference proteome;
+KW   Thiamine pyrophosphate.
+FT   CHAIN         1    564       Oxalyl-CoA decarboxylase.
+FT                                /FTId=PRO_0000090824.
+FT   REGION      261    265       Substrate binding. {ECO:0000305}.
+FT   REGION      396    398       Thiamine pyrophosphate binding.
+FT   REGION      403    404       Substrate binding.
+FT   REGION      421    423       Thiamine pyrophosphate binding.
+FT   REGION      448    449       Thiamine pyrophosphate binding.
+FT   REGION      550    552       Substrate binding. {ECO:0000250}.
+FT   METAL       447    447       Magnesium. {ECO:0000269|PubMed:20553497}.
+FT   METAL       474    474       Magnesium. {ECO:0000269|PubMed:20553497}.
+FT   METAL       476    476       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000269|PubMed:20553497}.
+FT   BINDING      32     32       Substrate; via amide nitrogen.
+FT                                {ECO:0000250}.
+FT   BINDING     118    118       Substrate. {ECO:0000250}.
+FT   BINDING     158    158       ADP. {ECO:0000269|PubMed:20553497}.
+FT   BINDING     220    220       ADP. {ECO:0000269|PubMed:20553497}.
+FT   BINDING     280    280       ADP. {ECO:0000269|PubMed:20553497}.
+FT   BINDING     302    302       ADP. {ECO:0000269|PubMed:20553497}.
+FT   BINDING     322    322       ADP; via amide nitrogen.
+FT                                {ECO:0000269|PubMed:20553497}.
+FT   BINDING     355    355       Substrate.
+FT   BINDING     372    372       Thiamine pyrophosphate.
+FT                                {ECO:0000269|PubMed:20553497}.
+FT   BINDING     478    478       Thiamine pyrophosphate; via amide
+FT                                nitrogen. {ECO:0000269|PubMed:20553497}.
+FT   STRAND        7      9       {ECO:0000244|PDB:2Q28}.
+FT   HELIX        10     20       {ECO:0000244|PDB:2Q28}.
+FT   STRAND       25     28       {ECO:0000244|PDB:2Q28}.
+FT   TURN         32     34       {ECO:0000244|PDB:2Q28}.
+FT   HELIX        35     43       {ECO:0000244|PDB:2Q28}.
+FT   STRAND       47     50       {ECO:0000244|PDB:2Q28}.
+FT   HELIX        54     68       {ECO:0000244|PDB:2Q28}.
+FT   STRAND       72     76       {ECO:0000244|PDB:2Q28}.
+FT   HELIX        79     95       {ECO:0000244|PDB:2Q28}.
+FT   STRAND       99    105       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       108    112       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       123    127       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       128    130       {ECO:0000244|PDB:2Q28}.
+FT   STRAND      131    136       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       140    142       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       143    155       {ECO:0000244|PDB:2Q28}.
+FT   STRAND      156    158       {ECO:0000244|PDB:2Q28}.
+FT   STRAND      161    167       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       168    172       {ECO:0000244|PDB:2Q28}.
+FT   STRAND      174    176       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       177    182       {ECO:0000244|PDB:2Q28}.
+FT   STRAND      188    191       {ECO:0000244|PDB:2Q29}.
+FT   STRAND      194    196       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       198    210       {ECO:0000244|PDB:2Q28}.
+FT   STRAND      212    218       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       220    225       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       228    238       {ECO:0000244|PDB:2Q28}.
+FT   STRAND      242    244       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       246    248       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       261    263       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       264    270       {ECO:0000244|PDB:2Q28}.
+FT   STRAND      272    278       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       283    288       {ECO:0000244|PDB:2Q28}.
+FT   TURN        289    291       {ECO:0000244|PDB:2Q28}.
+FT   STRAND      297    303       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       305    307       {ECO:0000244|PDB:2Q28}.
+FT   STRAND      310    312       {ECO:0000244|PDB:2Q28}.
+FT   STRAND      315    320       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       322    335       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       342    363       {ECO:0000244|PDB:2Q28}.
+FT   STRAND      368    370       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       372    383       {ECO:0000244|PDB:2Q28}.
+FT   STRAND      390    396       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       397    405       {ECO:0000244|PDB:2Q28}.
+FT   STRAND      410    412       {ECO:0000244|PDB:2Q28}.
+FT   STRAND      414    417       {ECO:0000244|PDB:2Q28}.
+FT   TURN        418    421       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       426    437       {ECO:0000244|PDB:2Q28}.
+FT   STRAND      441    446       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       447    451       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       454    456       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       457    462       {ECO:0000244|PDB:2Q28}.
+FT   STRAND      467    473       {ECO:0000244|PDB:2Q28}.
+FT   STRAND      475    478       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       502    509       {ECO:0000244|PDB:2Q28}.
+FT   STRAND      512    516       {ECO:0000244|PDB:2Q28}.
+FT   HELIX       519    532       {ECO:0000244|PDB:2Q28}.
+FT   STRAND      536    542       {ECO:0000244|PDB:2Q28}.
+SQ   SEQUENCE   564 AA;  60581 MW;  94418B2BE7D40C17 CRC64;
+     MSDQLQMTDG MHIIVEALKQ NNIDTIYGVV GIPVTDMARH AQAEGIRYIG FRHEQSAGYA
+     AAASGFLTQK PGICLTVSAP GFLNGLTALA NATVNGFPMI MISGSSDRAI VDLQQGDYEE
+     LDQMNAAKPY AKAAFRVNQP QDLGIALARA IRVSVSGRPG GVYLDLPANV LAATMEKDEA
+     LTTIVKVENP SPALLPCPKS VTSAISLLAK AERPLIILGK GAAYSQADEQ LREFIESAQI
+     PFLPMSMAKG ILEDTHPLSA AAARSFALAN ADVVMLVGAR LNWLLAHGKK GWAADTQFIQ
+     LDIEPQEIDS NRPIAVPVVG DIASSMQGML AELKQNTFTT PLVWRDILNI HKQQNAQKMH
+     EKLSTDTQPL NYFNALSAVR DVLRENQDIY LVNEGANTLD NARNIIDMYK PRRRLDCGTW
+     GVMGIGMGYA IGASVTSGSP VVAIEGDSAF GFSGMEIETI CRYNLPVTIV IFNNGGIYRG
+     DGVDLSGAGA PSPTDLLHHA RYDKLMDAFR GVGYNVTTTD ELRHALTTGI QSRKPTIINV
+     VIDPAAGTES GHITKLNPKQ VAGN
+//

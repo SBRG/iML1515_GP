@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:41:06
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b0099/b0099_protein/sequences/P08337_3a6s-A.needle
+#    -asequence asis::MKKLQIAVGIIRNENNEIFITRRAADAHMANKLEFPGGKIEMGETPEQAVVRELQEEVGITPQHFSLFEKLEYEFPDRHITLWFWLVERWEGEPWGKEGQPGEWMSLVGLNADDFPPANEPVIAKLKRL
+#    -bsequence asis::MKKLQIAVGIIRNENNEIFITRRAXXXXMANKLEFPGGKIEMGETPEQAVVRELQEEVGITPQHFSLFEKLEYEFPDRHITLWFWLVERWEGEPWGKEGQPGEWMSLVGLNADDFPPANEPVIAKLKRL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b0099/b0099_protein/sequences/P08337_3a6s-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 129
+# Identity:     125/129 (96.9%)
+# Similarity:   125/129 (96.9%)
+# Gaps:           0/129 ( 0.0%)
+# Score: 669.0
+# 
+#
+#=======================================
+
+asis               1 MKKLQIAVGIIRNENNEIFITRRAADAHMANKLEFPGGKIEMGETPEQAV     50
+                     ||||||||||||||||||||||||....||||||||||||||||||||||
+asis               1 MKKLQIAVGIIRNENNEIFITRRAXXXXMANKLEFPGGKIEMGETPEQAV     50
+
+asis              51 VRELQEEVGITPQHFSLFEKLEYEFPDRHITLWFWLVERWEGEPWGKEGQ    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 VRELQEEVGITPQHFSLFEKLEYEFPDRHITLWFWLVERWEGEPWGKEGQ    100
+
+asis             101 PGEWMSLVGLNADDFPPANEPVIAKLKRL    129
+                     |||||||||||||||||||||||||||||
+asis             101 PGEWMSLVGLNADDFPPANEPVIAKLKRL    129
+
+
+#---------------------------------------
+#---------------------------------------

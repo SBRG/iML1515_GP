@@ -1,0 +1,158 @@
+ID   LSRG_ECOLI              Reviewed;          96 AA.
+AC   P64461; P76144; Q2MB98;
+DT   11-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   15-MAR-2017, entry version 90.
+DE   RecName: Full=(4S)-4-hydroxy-5-phosphonooxypentane-2,3-dione isomerase {ECO:0000255|HAMAP-Rule:MF_02051};
+DE            EC=5.3.1.32 {ECO:0000255|HAMAP-Rule:MF_02051, ECO:0000269|PubMed:21454635};
+DE   AltName: Full=Autoinducer 2-degrading protein LsrG {ECO:0000255|HAMAP-Rule:MF_02051};
+DE            Short=AI-2-degrading protein LsrG {ECO:0000255|HAMAP-Rule:MF_02051};
+DE   AltName: Full=Phospho-(S)-4,5-dihydroxy-2,3-pentanedione isomerase {ECO:0000255|HAMAP-Rule:MF_02051, ECO:0000303|PubMed:21454635};
+DE   AltName: Full=Phospho-AI-2 isomerase {ECO:0000255|HAMAP-Rule:MF_02051};
+GN   Name=lsrG {ECO:0000255|HAMAP-Rule:MF_02051}; Synonyms=yneC;
+GN   OrderedLocusNames=b1518, JW1511;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [3]
+RP   INDUCTION.
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=15601708; DOI=10.1128/JB.187.1.238-248.2005;
+RA   Xavier K.B., Bassler B.L.;
+RT   "Regulation of uptake and processing of the quorum-sensing autoinducer
+RT   AI-2 in Escherichia coli.";
+RL   J. Bacteriol. 187:238-248(2005).
+RN   [4]
+RP   INDUCTION.
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=15743955; DOI=10.1128/JB.187.6.2066-2076.2005;
+RA   Wang L., Hashimoto Y., Tsao C.-Y., Valdes J.J., Bentley W.E.;
+RT   "Cyclic AMP (cAMP) and cAMP receptor protein influence both synthesis
+RT   and uptake of extracellular autoinducer 2 in Escherichia coli.";
+RL   J. Bacteriol. 187:2066-2076(2005).
+RN   [5]
+RP   FUNCTION IN PHOSPHO-AI-2 DEGRADATION.
+RX   PubMed=17274596; DOI=10.1021/cb600444h;
+RA   Xavier K.B., Miller S.T., Lu W., Kim J.H., Rabinowitz J., Pelczer I.,
+RA   Semmelhack M.F., Bassler B.L.;
+RT   "Phosphorylation and processing of the quorum-sensing molecule
+RT   autoinducer-2 in enteric bacteria.";
+RL   ACS Chem. Biol. 2:128-136(2007).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (1.80 ANGSTROMS), FUNCTION, CATALYTIC ACTIVITY,
+RP   SUBUNIT, AND MUTAGENESIS OF ASN-25; GLU-54; HIS-65 AND HIS-70.
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=21454635; DOI=10.1074/jbc.M111.230227;
+RA   Marques J.C., Lamosa P., Russell C., Ventura R., Maycock C.,
+RA   Semmelhack M.F., Miller S.T., Xavier K.B.;
+RT   "Processing the interspecies quorum-sensing signal autoinducer-2 (AI-
+RT   2): characterization of phospho-(S)-4,5-dihydroxy-2,3-pentanedione
+RT   isomerization by LsrG protein.";
+RL   J. Biol. Chem. 286:18331-18343(2011).
+CC   -!- FUNCTION: Involved in the degradation of phospho-AI-2, thereby
+CC       terminating induction of the lsr operon and closing the AI-2
+CC       signaling cycle. Catalyzes the conversion of (4S)-4-hydroxy-5-
+CC       phosphonooxypentane-2,3-dione (P-DPD) to 3-hydroxy-5-
+CC       phosphonooxypentane-2,4-dione (P-HPD). {ECO:0000255|HAMAP-
+CC       Rule:MF_02051, ECO:0000269|PubMed:17274596,
+CC       ECO:0000269|PubMed:21454635}.
+CC   -!- CATALYTIC ACTIVITY: (4S)-4-hydroxy-5-phosphonooxypentane-2,3-dione
+CC       = 3-hydroxy-5-phosphonooxypentane-2,4-dione. {ECO:0000255|HAMAP-
+CC       Rule:MF_02051, ECO:0000269|PubMed:21454635}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_02051,
+CC       ECO:0000269|PubMed:21454635}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_02051}.
+CC   -!- INDUCTION: In the absence of AI-2, repressed by LsrR. Induced by
+CC       AI-2, via release of the LsrR repressor. In the absence of
+CC       glucose, induced by cAMP-CRP by direct binding to the upstream
+CC       region of the lsr promoter. {ECO:0000269|PubMed:15601708,
+CC       ECO:0000269|PubMed:15743955}.
+CC   -!- SIMILARITY: Belongs to the LsrG family. {ECO:0000255|HAMAP-
+CC       Rule:MF_02051}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U00096; AAC74591.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE76458.1; -; Genomic_DNA.
+DR   PIR; A64906; A64906.
+DR   RefSeq; NP_416035.1; NC_000913.3.
+DR   RefSeq; WP_000558527.1; NZ_LN832404.1.
+DR   PDB; 3QMQ; X-ray; 1.80 A; A/B/C/D=1-96.
+DR   PDBsum; 3QMQ; -.
+DR   ProteinModelPortal; P64461; -.
+DR   SMR; P64461; -.
+DR   BioGrid; 4260228; 10.
+DR   DIP; DIP-47853N; -.
+DR   IntAct; P64461; 5.
+DR   STRING; 511145.b1518; -.
+DR   PaxDb; P64461; -.
+DR   PRIDE; P64461; -.
+DR   EnsemblBacteria; AAC74591; AAC74591; b1518.
+DR   EnsemblBacteria; BAE76458; BAE76458; BAE76458.
+DR   GeneID; 946073; -.
+DR   KEGG; ecj:JW1511; -.
+DR   KEGG; eco:b1518; -.
+DR   PATRIC; 32118332; VBIEscCol129921_1586.
+DR   EchoBASE; EB3572; -.
+DR   EcoGene; EG13811; lsrG.
+DR   eggNOG; ENOG4105K34; Bacteria.
+DR   eggNOG; COG1359; LUCA.
+DR   HOGENOM; HOG000145619; -.
+DR   InParanoid; P64461; -.
+DR   KO; K11530; -.
+DR   OMA; NIPTRFY; -.
+DR   BioCyc; EcoCyc:G6805-MONOMER; -.
+DR   BioCyc; MetaCyc:G6805-MONOMER; -.
+DR   PRO; PR:P64461; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0016853; F:isomerase activity; IDA:EcoCyc.
+DR   GO; GO:0016491; F:oxidoreductase activity; IBA:GO_Central.
+DR   HAMAP; MF_02051; LsrG; 1.
+DR   InterPro; IPR007138; ABM_dom.
+DR   InterPro; IPR011008; Dimeric_a/b-barrel.
+DR   InterPro; IPR033672; LsrG.
+DR   Pfam; PF03992; ABM; 1.
+DR   SUPFAM; SSF54909; SSF54909; 1.
+DR   PROSITE; PS51725; ABM; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Complete proteome; Cytoplasm; Isomerase;
+KW   Reference proteome.
+FT   CHAIN         1     96       (4S)-4-hydroxy-5-phosphonooxypentane-2,3-
+FT                                dione isomerase.
+FT                                /FTId=PRO_0000168947.
+FT   DOMAIN        2     91       ABM. {ECO:0000255|HAMAP-Rule:MF_02051}.
+FT   MUTAGEN      25     25       N->A: 3-fold lower specific activity.
+FT                                {ECO:0000269|PubMed:21454635}.
+FT   MUTAGEN      54     54       E->A: No activity.
+FT                                {ECO:0000269|PubMed:21454635}.
+FT   MUTAGEN      65     65       H->A: No activity.
+FT                                {ECO:0000269|PubMed:21454635}.
+FT   MUTAGEN      70     70       H->A: 100-fold lower specific activity.
+FT                                {ECO:0000269|PubMed:21454635}.
+SQ   SEQUENCE   96 AA;  11255 MW;  138099193F125EB8 CRC64;
+     MHVTLVEINV HEDKVDEFIE VFRQNHLGSV QEEGNLRFDV LQDPEVNSRF YIYEAYKDED
+     AVAFHKTTPH YKTCVAKLES LMTGPRKKRL FNGLMP
+//

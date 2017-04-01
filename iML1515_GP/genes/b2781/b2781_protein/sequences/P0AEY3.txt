@@ -1,0 +1,257 @@
+ID   MAZG_ECOLI              Reviewed;         263 AA.
+AC   P0AEY3; P33646; Q2MA51;
+DT   20-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   20-DEC-2005, sequence version 1.
+DT   15-FEB-2017, entry version 88.
+DE   RecName: Full=Nucleoside triphosphate pyrophosphohydrolase;
+DE            Short=NTP-PPase;
+DE            EC=3.6.1.8;
+GN   Name=mazG; OrderedLocusNames=b2781, JW2752;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=K12;
+RA   Aizenman E., Glaser G.;
+RL   Submitted (NOV-1993) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [4]
+RP   CATALYTIC ACTIVITY, SUBSTRATE SPECIFICITY, SUBUNIT, AND INTERACTION
+RP   WITH ERA.
+RX   PubMed=12218018; DOI=10.1128/JB.184.19.5323-5329.2002;
+RA   Zhang J., Inouye M.;
+RT   "MazG, a nucleoside triphosphate pyrophosphohydrolase, interacts with
+RT   Era, an essential GTPase in Escherichia coli.";
+RL   J. Bacteriol. 184:5323-5329(2002).
+RN   [5]
+RP   FUNCTION IN NUTRITIONAL STRESS RESPONSE, ENZYME REGULATION, AND OPERON
+RP   STRUCTURE.
+RC   STRAIN=K12 / MC4100 / ATCC 35695 / DSM 6574, and
+RC   K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16390452; DOI=10.1111/j.1365-2958.2005.04956.x;
+RA   Gross M., Marianovsky I., Glaser G.;
+RT   "MazG -- a regulator of programmed cell death in Escherichia coli.";
+RL   Mol. Microbiol. 59:590-601(2006).
+RN   [6]
+RP   FUNCTION AS PYROPHOSPHOHYDROLASE, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=20529853; DOI=10.1074/jbc.M109.088872;
+RA   Lu L.D., Sun Q., Fan X.Y., Zhong Y., Yao Y.F., Zhao G.P.;
+RT   "Mycobacterial MazG is a novel NTP pyrophosphohydrolase involved in
+RT   oxidative stress response.";
+RL   J. Biol. Chem. 285:28076-28085(2010).
+RN   [7]
+RP   X-RAY CRYSTALLOGRAPHY (2.1 ANGSTROMS) OF MUTANT ALA-119/ALA-257 IN
+RP   COMPLEX WITH ATP, FUNCTION IN NUTRITIONAL STRESS RESPONSE, CATALYTIC
+RP   ACTIVITY, MUTAGENESIS OF ARG-95; LYS-119; LYS-168; GLU-171; GLU-172;
+RP   GLU-175; LYS-189; GLU-192; GLU-193; ASP-196; LYS-222; ARG-226; TRP-253
+RP   AND LYS-257, AND SUBUNIT.
+RX   PubMed=18353782; DOI=10.1074/jbc.M800479200;
+RA   Lee S., Kim M.H., Kang B.S., Kim J.S., Kim G.H., Kim Y.G., Kim K.J.;
+RT   "Crystal structure of Escherichia coli MazG, the regulator of
+RT   nutritional stress response.";
+RL   J. Biol. Chem. 283:15232-15240(2008).
+CC   -!- FUNCTION: Involved in the regulation of bacterial cell survival
+CC       under conditions of nutritional stress. Regulates the MazE-MazF
+CC       toxin-antitoxin (TA) module that mediates programmed cell death
+CC       (PCD). This is achieved by lowering the cellular concentration of
+CC       (p)ppGpp produced by RelA under amino acid starvation, thus
+CC       protecting the cell from the toxicity of MazF. Reduction of
+CC       (p)ppGpp can be achieved by direct degradation of (p)ppGpp or by
+CC       degradation of NTPs, which are substrates for (p)ppGpp synthesis
+CC       by RelA. {ECO:0000269|PubMed:16390452,
+CC       ECO:0000269|PubMed:18353782, ECO:0000269|PubMed:20529853}.
+CC   -!- CATALYTIC ACTIVITY: ATP + H(2)O = AMP + diphosphate.
+CC       {ECO:0000269|PubMed:12218018, ECO:0000269|PubMed:18353782}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC   -!- ENZYME REGULATION: Inhibited by the MazE-MazF complex.
+CC       {ECO:0000269|PubMed:16390452}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.34 mM for dATP (at pH 9.6 and at 37 degrees Celsius in the
+CC         presence of 5 mM magnesium) {ECO:0000269|PubMed:20529853};
+CC         KM=0.71 mM for UTP (at pH 9.6 and at 37 degrees Celsius in the
+CC         presence of 5 mM magnesium) {ECO:0000269|PubMed:20529853};
+CC         KM=0.36 mM for 8-oxo-dGTP (at pH 9.6 and at 37 degrees Celsius
+CC         in the presence of 5 mM magnesium)
+CC         {ECO:0000269|PubMed:20529853};
+CC         Vmax=0.23 nmol/min/ug enzyme for 8-oxo-dGTP (at pH 9.6 and at 37
+CC         degrees Celsius in the presence of 5 mM magnesium)
+CC         {ECO:0000269|PubMed:20529853};
+CC         Vmax=1.9 nmol/min/ug enzyme for dATP (at pH 9.6 and at 37
+CC         degrees Celsius in the presence of 5 mM magnesium)
+CC         {ECO:0000269|PubMed:20529853};
+CC         Vmax=1.9 nmol/min/ug enzyme for dUTP (at pH 9.6 and at 37
+CC         degrees Celsius in the presence of 5 mM magnesium)
+CC         {ECO:0000269|PubMed:20529853};
+CC   -!- SUBUNIT: Homodimer. Interacts with Era.
+CC       {ECO:0000269|PubMed:12218018, ECO:0000269|PubMed:18353782}.
+CC   -!- INDUCTION: Part of the relA-mazE-mazF-mazG operon, there is also a
+CC       second mazE-mazF specific promoter which is negatively
+CC       autoregulated.
+CC   -!- SIMILARITY: Belongs to the nucleoside triphosphate
+CC       pyrophosphohydrolase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; J04039; AAA03240.1; -; Unassigned_DNA.
+DR   EMBL; U29580; AAA69291.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC75823.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE76855.1; -; Genomic_DNA.
+DR   PIR; A65060; A65060.
+DR   RefSeq; NP_417261.1; NC_000913.3.
+DR   RefSeq; WP_001071648.1; NZ_LN832404.1.
+DR   PDB; 3CRA; X-ray; 2.10 A; A/B=1-263.
+DR   PDB; 3CRC; X-ray; 3.00 A; A/B=1-263.
+DR   PDBsum; 3CRA; -.
+DR   PDBsum; 3CRC; -.
+DR   ProteinModelPortal; P0AEY3; -.
+DR   SMR; P0AEY3; -.
+DR   BioGrid; 4262299; 19.
+DR   DIP; DIP-48054N; -.
+DR   IntAct; P0AEY3; 7.
+DR   MINT; MINT-1311211; -.
+DR   STRING; 511145.b2781; -.
+DR   PaxDb; P0AEY3; -.
+DR   PRIDE; P0AEY3; -.
+DR   EnsemblBacteria; AAC75823; AAC75823; b2781.
+DR   EnsemblBacteria; BAE76855; BAE76855; BAE76855.
+DR   GeneID; 947254; -.
+DR   KEGG; ecj:JW2752; -.
+DR   KEGG; eco:b2781; -.
+DR   PATRIC; 32120978; VBIEscCol129921_2881.
+DR   EchoBASE; EB0567; -.
+DR   EcoGene; EG10572; mazG.
+DR   eggNOG; ENOG4105DXN; Bacteria.
+DR   eggNOG; COG1694; LUCA.
+DR   HOGENOM; HOG000272340; -.
+DR   InParanoid; P0AEY3; -.
+DR   KO; K04765; -.
+DR   OMA; RVGFDWE; -.
+DR   PhylomeDB; P0AEY3; -.
+DR   BioCyc; EcoCyc:EG10572-MONOMER; -.
+DR   BioCyc; MetaCyc:EG10572-MONOMER; -.
+DR   EvolutionaryTrace; P0AEY3; -.
+DR   PRO; PR:P0AEY3; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0047693; F:ATP diphosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0047429; F:nucleoside-triphosphate diphosphatase activity; IDA:EcoCyc.
+DR   GO; GO:0009267; P:cellular response to starvation; IMP:EcoCyc.
+DR   GO; GO:0046061; P:dATP catabolic process; IBA:GO_Central.
+DR   GO; GO:0006203; P:dGTP catabolic process; IBA:GO_Central.
+DR   GO; GO:0046076; P:dTTP catabolic process; IBA:GO_Central.
+DR   GO; GO:0046081; P:dUTP catabolic process; IBA:GO_Central.
+DR   GO; GO:0046047; P:TTP catabolic process; IBA:GO_Central.
+DR   GO; GO:0046052; P:UTP catabolic process; IBA:GO_Central.
+DR   InterPro; IPR004518; MazG_cat.
+DR   InterPro; IPR011551; NTP_PyrPHydrolase_MazG.
+DR   Pfam; PF03819; MazG; 2.
+DR   TIGRFAMs; TIGR00444; mazG; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Complete proteome; Hydrolase; Magnesium;
+KW   Metal-binding; Nucleotide-binding; Reference proteome.
+FT   CHAIN         1    263       Nucleoside triphosphate
+FT                                pyrophosphohydrolase.
+FT                                /FTId=PRO_0000096248.
+FT   NP_BIND     168    172       ATP 1. {ECO:0000269|PubMed:18353782}.
+FT   NP_BIND     189    192       ATP 1. {ECO:0000269|PubMed:18353782}.
+FT   NP_BIND     222    226       ATP 2. {ECO:0000269|PubMed:18353782}.
+FT   METAL       172    172       Magnesium.
+FT   METAL       175    175       Magnesium.
+FT   METAL       193    193       Magnesium.
+FT   METAL       196    196       Magnesium.
+FT   BINDING     175    175       ATP 1. {ECO:0000269|PubMed:18353782}.
+FT   BINDING     196    196       ATP 1. {ECO:0000269|PubMed:18353782}.
+FT   BINDING     253    253       ATP 2. {ECO:0000269|PubMed:18353782}.
+FT   MUTAGEN      95     95       R->A: Does not affect nucleotide
+FT                                pyrophosphohydrolysis activity.
+FT                                {ECO:0000269|PubMed:18353782}.
+FT   MUTAGEN     119    119       K->A: Does not affect the nucleotide
+FT                                pyrophosphohydrolysis activity.
+FT                                {ECO:0000269|PubMed:18353782}.
+FT   MUTAGEN     168    168       K->A: Does not affect nucleotide
+FT                                pyrophosphohydrolysis activity.
+FT                                {ECO:0000269|PubMed:18353782}.
+FT   MUTAGEN     171    171       E->A: Does not affect nucleotide
+FT                                pyrophosphohydrolysis activity.
+FT                                {ECO:0000269|PubMed:18353782}.
+FT   MUTAGEN     172    172       E->A: Loss of pyrophosphohydrolysis
+FT                                activity against both ATP and dTTP.
+FT                                {ECO:0000269|PubMed:18353782}.
+FT   MUTAGEN     175    175       E->A: Does not affect nucleotide
+FT                                pyrophosphohydrolysis activity.
+FT                                {ECO:0000269|PubMed:18353782}.
+FT   MUTAGEN     189    189       K->A: Does not affect nucleotide
+FT                                pyrophosphohydrolysis activity.
+FT                                {ECO:0000269|PubMed:18353782}.
+FT   MUTAGEN     192    192       E->A: Does not affect nucleotide
+FT                                pyrophosphohydrolysis activity.
+FT                                {ECO:0000269|PubMed:18353782}.
+FT   MUTAGEN     193    193       E->A: Loss of pyrophosphohydrolysis
+FT                                activity against both ATP and dTTP.
+FT                                {ECO:0000269|PubMed:18353782}.
+FT   MUTAGEN     196    196       D->A: Loss of pyrophosphohydrolysis
+FT                                activity against both ATP and dTTP.
+FT                                {ECO:0000269|PubMed:18353782}.
+FT   MUTAGEN     222    222       K->A: Loss of pyrophosphohydrolysis
+FT                                activity against both ATP and dTTP.
+FT                                {ECO:0000269|PubMed:18353782}.
+FT   MUTAGEN     226    226       R->A: Loss of pyrophosphohydrolysis
+FT                                activity against both ATP and dTTP.
+FT                                {ECO:0000269|PubMed:18353782}.
+FT   MUTAGEN     253    253       W->A: Loss of pyrophosphohydrolysis
+FT                                activity against both ATP and dTTP.
+FT                                {ECO:0000269|PubMed:18353782}.
+FT   MUTAGEN     257    257       K->A: Loss of pyrophosphohydrolysis
+FT                                activity against both ATP and dTTP.
+FT                                {ECO:0000269|PubMed:18353782}.
+FT   CONFLICT    226    226       Missing (in Ref. 1; AAA03240).
+FT                                {ECO:0000305}.
+FT   HELIX         3     15       {ECO:0000244|PDB:3CRA}.
+FT   TURN         17     19       {ECO:0000244|PDB:3CRA}.
+FT   HELIX        24     26       {ECO:0000244|PDB:3CRA}.
+FT   HELIX        29     48       {ECO:0000244|PDB:3CRA}.
+FT   HELIX        52     74       {ECO:0000244|PDB:3CRA}.
+FT   TURN         75     77       {ECO:0000244|PDB:3CRA}.
+FT   HELIX        81     93       {ECO:0000244|PDB:3CRA}.
+FT   HELIX       115    123       {ECO:0000244|PDB:3CRA}.
+FT   STRAND      132    134       {ECO:0000244|PDB:3CRC}.
+FT   STRAND      137    139       {ECO:0000244|PDB:3CRC}.
+FT   HELIX       141    153       {ECO:0000244|PDB:3CRA}.
+FT   TURN        154    156       {ECO:0000244|PDB:3CRA}.
+FT   HELIX       162    181       {ECO:0000244|PDB:3CRA}.
+FT   STRAND      182    184       {ECO:0000244|PDB:3CRA}.
+FT   HELIX       187    207       {ECO:0000244|PDB:3CRA}.
+FT   HELIX       212    236       {ECO:0000244|PDB:3CRA}.
+FT   HELIX       249    258       {ECO:0000244|PDB:3CRA}.
+SQ   SEQUENCE   263 AA;  30412 MW;  C396BC3B9378D2BE CRC64;
+     MNQIDRLLTI MQRLRDPENG CPWDKEQTFA TIAPYTLEET YEVLDAIARE DFDDLRGELG
+     DLLFQVVFYA QMAQEEGRFD FNDICAAISD KLERRHPHVF ADSSAENSSE VLARWEQIKT
+     EERAQKAQHS ALDDIPRSLP ALMRAQKIQK RCANVGFDWT TLGPVVDKVY EEIDEVMYEA
+     RQAVVDQAKL EEEMGDLLFA TVNLARHLGT KAEIALQKAN EKFERRFREV ERIVAARGLE
+     MTGVDLETME EVWQQVKRQE IDL
+//

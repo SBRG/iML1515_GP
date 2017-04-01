@@ -1,0 +1,204 @@
+ID   SURE_ECOLI              Reviewed;         253 AA.
+AC   P0A840; P36664; Q2MA85;
+DT   07-JUN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   07-JUN-2005, sequence version 1.
+DT   15-MAR-2017, entry version 92.
+DE   RecName: Full=5'/3'-nucleotidase SurE;
+DE            EC=3.1.3.5;
+DE            EC=3.1.3.6;
+DE   AltName: Full=Exopolyphosphatase;
+DE            EC=3.6.1.11;
+DE   AltName: Full=Nucleoside monophosphate phosphohydrolase;
+DE   AltName: Full=Stationary-phase survival protein SurE;
+GN   Name=surE; Synonyms=ygbC; OrderedLocusNames=b2744, JW2714;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=MP180;
+RX   PubMed=7928962; DOI=10.1128/jb.176.19.6015-6022.1994;
+RA   Li C., Ichikawa J.K., Ravetto J.J., Kuo H.-C., Fu J.C., Clarke S.;
+RT   "A new gene involved in stationary-phase survival located at 59
+RT   minutes on the Escherichia coli chromosome.";
+RL   J. Bacteriol. 176:6015-6022(1994).
+RN   [2]
+RP   SEQUENCE REVISION.
+RA   Ichikawa J.K.;
+RL   Submitted (OCT-1995) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [5]
+RP   FUNCTION, CHARACTERIZATION, COFACTOR, SUBUNIT, AND BIOPHYSICOCHEMICAL
+RP   PROPERTIES.
+RX   PubMed=15489502; DOI=10.1074/jbc.M411023200;
+RA   Proudfoot M., Kuznetsova E., Brown G., Rao N.N., Kitagawa M., Mori H.,
+RA   Savchenko A., Yakunin A.F.;
+RT   "General enzymatic screens identify three new nucleotidases in
+RT   Escherichia coli. Biochemical characterization of SurE, YfbR, and
+RT   YjjG.";
+RL   J. Biol. Chem. 279:54687-54694(2004).
+CC   -!- FUNCTION: Nucleotidase with a broad substrate specificity as it
+CC       can dephosphorylate various ribo- and deoxyribonucleoside 5'-
+CC       monophosphates and ribonucleoside 3'-monophosphates with highest
+CC       affinity to 3'-AMP. Also hydrolyzes polyphosphate
+CC       (exopolyphosphatase activity) with the preference for short-chain-
+CC       length substrates (P20-25). Might be involved in the regulation of
+CC       dNTP and NTP pools, and in the turnover of 3'-mononucleotides
+CC       produced by numerous intracellular RNases (T1, T2, and F) during
+CC       the degradation of various RNAs. Also plays a significant
+CC       physiological role in stress-response and is required for the
+CC       survival of E.coli in stationary growth phase.
+CC       {ECO:0000269|PubMed:15489502}.
+CC   -!- CATALYTIC ACTIVITY: A 5'-ribonucleotide + H(2)O = a ribonucleoside
+CC       + phosphate.
+CC   -!- CATALYTIC ACTIVITY: A 3'-ribonucleotide + H(2)O = a ribonucleoside
+CC       + phosphate.
+CC   -!- CATALYTIC ACTIVITY: (Polyphosphate)(n) + H(2)O =
+CC       (polyphosphate)(n-1) + phosphate.
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000269|PubMed:15489502};
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC         Evidence={ECO:0000269|PubMed:15489502};
+CC       Name=Ni(2+); Xref=ChEBI:CHEBI:49786;
+CC         Evidence={ECO:0000269|PubMed:15489502};
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000269|PubMed:15489502};
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000269|PubMed:15489502};
+CC       Note=Binds 1 divalent metal cation per subunit. Highest
+CC       nucleotidase activity with Mn(2+), followed by Co(2+), Ni(2+) and
+CC       Mg(2+). Highest exopolyphosphatase activity with Mg(2+), followed
+CC       by Co(2+) and Zn(2+). {ECO:0000269|PubMed:15489502};
+CC   -!- ENZYME REGULATION: Inhibited by various ribo- or
+CC       deoxyribonucleoside 5'-triphosphates but is insensitive to
+CC       nucleoside diphosphates.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.32 mM for 5'-AMP {ECO:0000269|PubMed:15489502};
+CC         KM=0.26 mM for 5'-GMP {ECO:0000269|PubMed:15489502};
+CC         KM=0.28 mM for 5'-dGMP {ECO:0000269|PubMed:15489502};
+CC         KM=0.10 mM for 3'-AMP {ECO:0000269|PubMed:15489502};
+CC         KM=0.37 mM for 3'-CMP {ECO:0000269|PubMed:15489502};
+CC         KM=2.49 mM for pNPP {ECO:0000269|PubMed:15489502};
+CC         KM=0.02 mM for polyphosphate {ECO:0000269|PubMed:15489502};
+CC         Vmax=10.0 umol/min/mg enzyme with 5'-AMP as substrate
+CC         {ECO:0000269|PubMed:15489502};
+CC         Vmax=22.4 umol/min/mg enzyme with 5'-GMP as substrate
+CC         {ECO:0000269|PubMed:15489502};
+CC         Vmax=16.4 umol/min/mg enzyme with 5'-dGMP as substrate
+CC         {ECO:0000269|PubMed:15489502};
+CC         Vmax=20.1 umol/min/mg enzyme with 3'-AMP as substrate
+CC         {ECO:0000269|PubMed:15489502};
+CC         Vmax=12.1 umol/min/mg enzyme with 3'-CMP as substrate
+CC         {ECO:0000269|PubMed:15489502};
+CC         Vmax=7.24 umol/min/mg enzyme with pNPP as substrate
+CC         {ECO:0000269|PubMed:15489502};
+CC         Vmax=0.10 umol/min/mg enzyme with polyphosphate as substrate
+CC         {ECO:0000269|PubMed:15489502};
+CC       pH dependence:
+CC         Optimum pH is 7.0-7.2 for nucleotidase activity.
+CC         {ECO:0000269|PubMed:15489502};
+CC   -!- SUBUNIT: Monomer and homooligomer in solution. The oligomeric
+CC       complex consists of at least four subunits.
+CC       {ECO:0000269|PubMed:15489502}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the SurE nucleotidase family.
+CC       {ECO:0000305}.
+CC   -!- CAUTION: Was originally annotated as an acid phosphatase
+CC       (EC 3.1.3.2). {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA69254.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L07942; AAA79839.1; -; Genomic_DNA.
+DR   EMBL; U29579; AAA69254.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; U00096; AAC75786.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE76821.1; -; Genomic_DNA.
+DR   PIR; I69732; I69732.
+DR   RefSeq; NP_417224.1; NC_000913.3.
+DR   RefSeq; WP_001295182.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P0A840; -.
+DR   SMR; P0A840; -.
+DR   BioGrid; 4262277; 12.
+DR   DIP; DIP-47982N; -.
+DR   IntAct; P0A840; 3.
+DR   STRING; 511145.b2744; -.
+DR   EPD; P0A840; -.
+DR   PaxDb; P0A840; -.
+DR   PRIDE; P0A840; -.
+DR   EnsemblBacteria; AAC75786; AAC75786; b2744.
+DR   EnsemblBacteria; BAE76821; BAE76821; BAE76821.
+DR   GeneID; 947211; -.
+DR   KEGG; ecj:JW2714; -.
+DR   KEGG; eco:b2744; -.
+DR   PATRIC; 32120894; VBIEscCol129921_2839.
+DR   EchoBASE; EB1764; -.
+DR   EcoGene; EG11817; surE.
+DR   eggNOG; ENOG4105CV2; Bacteria.
+DR   eggNOG; COG0496; LUCA.
+DR   HOGENOM; HOG000122500; -.
+DR   InParanoid; P0A840; -.
+DR   KO; K03787; -.
+DR   OMA; ANGFYYV; -.
+DR   PhylomeDB; P0A840; -.
+DR   BioCyc; EcoCyc:EG11817-MONOMER; -.
+DR   BioCyc; MetaCyc:EG11817-MONOMER; -.
+DR   BRENDA; 3.1.3.5; 2026.
+DR   BRENDA; 3.1.3.6; 2026.
+DR   BRENDA; 3.6.1.11; 2026.
+DR   SABIO-RK; P0A840; -.
+DR   PRO; PR:P0A840; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008254; F:3'-nucleotidase activity; IDA:EcoCyc.
+DR   GO; GO:0008253; F:5'-nucleotidase activity; IDA:EcoCyc.
+DR   GO; GO:0004309; F:exopolyphosphatase activity; IDA:EcoCyc.
+DR   GO; GO:0030145; F:manganese ion binding; IDA:EcoCyc.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046050; P:UMP catabolic process; IGI:EcoCyc.
+DR   Gene3D; 3.40.1210.10; -; 1.
+DR   HAMAP; MF_00060; SurE; 1.
+DR   InterPro; IPR030048; SurE.
+DR   InterPro; IPR002828; SurE-like_Pase/nucleotidase.
+DR   Pfam; PF01975; SurE; 1.
+DR   SUPFAM; SSF64167; SSF64167; 1.
+DR   TIGRFAMs; TIGR00087; surE; 1.
+PE   1: Evidence at protein level;
+KW   Cobalt; Complete proteome; Cytoplasm; Hydrolase; Magnesium; Manganese;
+KW   Metal-binding; Nickel; Nucleotide-binding; Reference proteome; Zinc.
+FT   CHAIN         1    253       5'/3'-nucleotidase SurE.
+FT                                /FTId=PRO_0000111809.
+FT   METAL         8      8       Divalent metal cation. {ECO:0000250}.
+FT   METAL         9      9       Divalent metal cation. {ECO:0000250}.
+FT   METAL        39     39       Divalent metal cation. {ECO:0000250}.
+FT   METAL        92     92       Divalent metal cation. {ECO:0000250}.
+SQ   SEQUENCE   253 AA;  26900 MW;  33A7CD0AEE13C3DB CRC64;
+     MRILLSNDDG VHAPGIQTLA KALREFADVQ VVAPDRNRSG ASNSLTLESS LRTFTFENGD
+     IAVQMGTPTD CVYLGVNALM RPRPDIVVSG INAGPNLGDD VIYSGTVAAA MEGRHLGFPA
+     LAVSLDGHKH YDTAAAVTCS ILRALCKEPL RTGRILNINV PDLPLDQIKG IRVTRCGTRH
+     PADQVIPQQD PRGNTLYWIG PPGGKCDAGP GTDFAAVDEG YVSITPLHVD LTAHSAQDVV
+     SDWLNSVGVG TQW
+//

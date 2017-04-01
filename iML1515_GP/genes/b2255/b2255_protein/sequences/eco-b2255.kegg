@@ -1,0 +1,89 @@
+ENTRY       b2255             CDS       T00007
+NAME        arnA
+DEFINITION  (RefSeq) fused UDP-L-Ara4N formyltransferase/UDP-GlcA C-4'-decarboxylase
+ORTHOLOGY   K10011  UDP-4-amino-4-deoxy-L-arabinose formyltransferase / UDP-glucuronic acid dehydrogenase (UDP-4-keto-hexauronic acid decarboxylating) [EC:2.1.2.13 1.1.1.305]
+ORGANISM    eco  Escherichia coli K-12 MG1655
+PATHWAY     eco00520  Amino sugar and nucleotide sugar metabolism
+            eco01503  Cationic antimicrobial peptide (CAMP) resistance
+MODULE      eco_M00721  Cationic antimicrobial peptide (CAMP) resistance, arnBCADTEF operon
+            eco_M00761  Undecaprenylphosphate alpha-L-Ara4N biosynthesis, UDP-GlcA => undecaprenyl phosphate alpha-L-Ara4N
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             Metabolism
+              Carbohydrate metabolism
+               00520 Amino sugar and nucleotide sugar metabolism
+                b2255 (arnA)
+             Human Diseases
+              Drug resistance
+               01503 Cationic antimicrobial peptide (CAMP) resistance
+                b2255 (arnA)
+            Enzymes [BR:eco01000]
+             1. Oxidoreductases
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.305  UDP-glucuronic acid dehydrogenase (UDP-4-keto-hexauronic acid decarboxylating)
+                 b2255 (arnA)
+             2. Transferases
+              2.1  Transferring one-carbon groups
+               2.1.2  Hydroxymethyl-, formyl- and related transferases
+                2.1.2.13  UDP-4-amino-4-deoxy-L-arabinose formyltransferase
+                 b2255 (arnA)
+            Lipopolysaccharide biosynthesis proteins [BR:eco01005]
+             Unusual sugar
+              b2255 (arnA)
+POSITION    2368039..2370021
+MOTIF       Pfam: Epimerase GDP_Man_Dehyd Formyl_trans_N Formyl_trans_C 3Beta_HSD NAD_binding_10 NAD_binding_4 RmlD_sub_bind
+DBLINKS     NCBI-ProteinID: NP_416758
+            NCBI-GeneID: 947683
+            EcoGene: EG14091
+            ECOCYC: G7168
+            ASAP: ABE-0007460
+            UniProt: P77398
+STRUCTURE   PDB: 1YRW 1Z7B 1Z75 1U9J 5J63 1Z73 4WKG 1Z74 1Z7E 2BLL 2BLN
+AASEQ       660
+            MKTVVFAYHDMGCLGIEALLAAGYEISAIFTHTDNPGEKAFYGSVARLAAERGIPVYAPD
+            NVNHPLWVERIAQLSPDVIFSFYYRHLIYDEILQLAPAGAFNLHGSLLPKYRGRAPLNWV
+            LVNGETETGVTLHRMVKRADAGAIVAQLRIAIAPDDIAITLHHKLCHAARQLLEQTLPAI
+            KHGNILEIAQRENEATCFGRRTPDDSFLEWHKPASVLHNMVRAVADPWPGAFSYVGNQKF
+            TVWSSRVHPHASKAQPGSVISVAPLLIACGDGALEIVTGQAGDGITMQGSQLAQTLGLVQ
+            GSRLNSQPACTARRRTRVLILGVNGFIGNHLTERLLREDHYEVYGLDIGSDAISRFLNHP
+            HFHFVEGDISIHSEWIEYHVKKCDVVLPLVAIATPIEYTRNPLRVFELDFEENLRIIRYC
+            VKYRKRIIFPSTSEVYGMCSDKYFDEDHSNLIVGPVNKPRWIYSVSKQLLDRVIWAYGEK
+            EGLQFTLFRPFNWMGPRLDNLNAARIGSSRAITQLILNLVEGSPIKLIDGGKQKRCFTDI
+            RDGIEALYRIIENAGNRCDGEIINIGNPENEASIEELGEMLLASFEKHPLRHHFPPFAGF
+            RVVESSSYYGKGYQDVEHRKPSIRNAHRCLDWEPKIDMQETIDETLDFFLRTVDLTDKPS
+NTSEQ       1983
+            atgaaaaccgtcgtttttgcctaccacgatatgggatgcctcggtattgaagccctgctg
+            gctgccggttacgaaattagcgccatttttacccatactgataatcccggtgaaaaagcc
+            ttttatggttcggtggctcgtctggcggcggaaagaggcattccggtttatgcgccggat
+            aacgttaatcatccgctgtgggtggaacgcattgcccaactgtcgccagatgtgattttc
+            tctttttattatcgccatcttatttacgacgaaattttgcagctcgctcccgcaggtgca
+            tttaatctgcatggttcgctgttaccaaaatatcgtggtcgcgcgccgctgaactgggtg
+            ctggtcaacggtgaaacggaaactggcgttacattgcaccgaatggtgaaacgtgccgat
+            gccggggccattgtggcgcaactgcgcattgccattgcgccagacgatatcgctattacg
+            ctgcatcataaattgtgccatgccgcgcgccagctactggaacagacattacccgccatt
+            aaacacggtaatattctggaaatcgcccagcgcgaaaacgaagccacctgttttggtcgc
+            agaacgccggatgacagtttccttgaatggcataaaccggcatccgtactgcacaacatg
+            gtacgtgccgttgccgatccgtggccgggtgccttcagctatgttggcaatcagaaattc
+            accgtctggtcgtcgcgtgttcatcctcatgccagcaaagcacagccggggagcgtgatt
+            tctgttgcgccactgctgattgcctgtggcgatggcgcgctggaaatcgtcaccggacag
+            gcgggcgacggcattactatgcagggctcgcaattagcgcagacgctgggcctggtgcaa
+            ggttcacgcttgaatagccagcctgcctgcaccgcccgacgccgtacccgggtactcatc
+            ctcggggtgaatggctttattggcaaccatctgacagaacgcctgctgcgcgaagatcat
+            tatgaagtttacggtctggatattggcagcgatgcgataagccgttttctgaatcatccg
+            cattttcactttgttgaaggcgatatcagtattcattccgaatggattgagtatcatgtc
+            aaaaaatgtgatgtcgtcttgccgctggtggcgatagccacgccgattgaatatacccgc
+            aacccgctgcgcgtatttgaactcgattttgaagagaatctgcgcattatccgctactgc
+            gtgaagtaccgtaagcgaatcatcttcccgtcaacttcagaagtttatgggatgtgtagc
+            gataaatacttcgatgaggaccattctaatttaatcgtcggcccggtgaataaaccacgc
+            tggatttattcggtatcaaaacaattacttgatcgggtgatctgggcctatggcgaaaaa
+            gagggtttacagttcaccctcttccgcccgtttaactggatgggaccacgactggataac
+            cttaatgcagcgcgaattggcagctcccgcgctattacgcaactcattctcaatctggta
+            gaaggttcaccgattaagctgattgatggcggaaaacaaaaacgctgctttactgatatt
+            cgcgatggtatcgaggcgttataccgcattatcgaaaatgcgggaaatcgctgcgacggt
+            gaaattatcaacattggcaatcctgagaacgaagcgagcattgaggaactgggcgagatg
+            ctgctggcgagcttcgaaaaacatccgctgcgccatcatttcccaccgtttgcgggcttt
+            cgcgttgtcgaaagtagcagctactacggcaaaggatatcaggacgtagagcatcgtaaa
+            ccgagcatccgcaatgcccaccgctgcctggactgggagccgaaaattgatatgcaggaa
+            accatcgacgaaacgctggatttcttcctgcgcaccgttgatcttacggataaaccatca
+            tga
+///

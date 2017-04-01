@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:53:19
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b2914/b2914_protein/sequences/P0A7Z0_1o8b-B.needle
+#    -asequence asis::MTQDELKKAVGWAALQYVQPGTIVGVGTGSTAAHFIDALGTMKGQIEGAVSSSDASTEKLKSLGIHVFDLNEVDSLGIYVDGADEINGHMQMIKGGGAALTREKIIASVAEKFICIADASKQVDILGKFPLPVEVIPMARSAVARQLVKLGGRPEYRQGVVTDNGNVILDVHGMEILDPIAMENAINAIPGVVTVGLFANRGADVALIGTPDGVKTIVK
+#    -bsequence asis::XTQDELKKAVGWAALQYXXXXTIVGVGTGSTAAHFIDALGTXKGQIEGAVSSSDASTEKLKSLGIHVFDLNEVDSLGIYVDGADEINGHXQXIKGGGXALTREKIIASVAEKFICIADASKQVDILGKFPLPVEVIPXARSAVARQLVKLGGRPEYRQGVVTDNGNVILDVHGXEILDPIAXENAINAIPGVVTVGLFANRGADVALIGTPDGVKTIV
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b2914/b2914_protein/sequences/P0A7Z0_1o8b-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 219
+# Identity:     206/219 (94.1%)
+# Similarity:   206/219 (94.1%)
+# Gaps:           1/219 ( 0.5%)
+# Score: 1019.0
+# 
+#
+#=======================================
+
+asis               1 MTQDELKKAVGWAALQYVQPGTIVGVGTGSTAAHFIDALGTMKGQIEGAV     50
+                     .||||||||||||||||....||||||||||||||||||||.||||||||
+asis               1 XTQDELKKAVGWAALQYXXXXTIVGVGTGSTAAHFIDALGTXKGQIEGAV     50
+
+asis              51 SSSDASTEKLKSLGIHVFDLNEVDSLGIYVDGADEINGHMQMIKGGGAAL    100
+                     |||||||||||||||||||||||||||||||||||||||.|.|||||.||
+asis              51 SSSDASTEKLKSLGIHVFDLNEVDSLGIYVDGADEINGHXQXIKGGGXAL    100
+
+asis             101 TREKIIASVAEKFICIADASKQVDILGKFPLPVEVIPMARSAVARQLVKL    150
+                     |||||||||||||||||||||||||||||||||||||.||||||||||||
+asis             101 TREKIIASVAEKFICIADASKQVDILGKFPLPVEVIPXARSAVARQLVKL    150
+
+asis             151 GGRPEYRQGVVTDNGNVILDVHGMEILDPIAMENAINAIPGVVTVGLFAN    200
+                     |||||||||||||||||||||||.|||||||.||||||||||||||||||
+asis             151 GGRPEYRQGVVTDNGNVILDVHGXEILDPIAXENAINAIPGVVTVGLFAN    200
+
+asis             201 RGADVALIGTPDGVKTIVK    219
+                     |||||||||||||||||| 
+asis             201 RGADVALIGTPDGVKTIV-    218
+
+
+#---------------------------------------
+#---------------------------------------

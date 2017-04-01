@@ -1,0 +1,207 @@
+ID   MAO2_ECOLI              Reviewed;         759 AA.
+AC   P76558; P78200; P78201;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1997, sequence version 1.
+DT   15-FEB-2017, entry version 153.
+DE   RecName: Full=NADP-dependent malic enzyme;
+DE            Short=NADP-ME;
+DE            EC=1.1.1.40;
+GN   Name=maeB; Synonyms=ypfF; OrderedLocusNames=b2463, JW2447;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=9205837; DOI=10.1093/dnares/4.2.91;
+RA   Yamamoto Y., Aiba H., Baba T., Hayashi K., Inada T., Isono K.,
+RA   Itoh T., Kimura S., Kitagawa M., Makino K., Miki T., Mitsuhashi N.,
+RA   Mizobuchi K., Mori H., Nakade S., Nakamura Y., Nashimoto H.,
+RA   Oshima T., Oyama S., Saito N., Sampei G., Satoh Y., Sivasundaram S.,
+RA   Tagami H., Takahashi H., Takeda J., Takemoto K., Uehara K., Wada C.,
+RA   Yamagata S., Horiuchi T.;
+RT   "Construction of a contiguous 874-kb sequence of the Escherichia coli-
+RT   K12 genome corresponding to 50.0-68.8 min on the linkage map and
+RT   analysis of its sequence features.";
+RL   DNA Res. 4:91-113(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [4]
+RP   CHARACTERIZATION.
+RC   STRAIN=W / ATCC 11105 / DSM 1900;
+RX   PubMed=36376;
+RA   Iwakura M., Hattori J., Arita Y., Tokushige M., Katsuki H.;
+RT   "Studies on regulatory functions of malic enzymes. VI. Purification
+RT   and molecular properties of NADP-linked malic enzyme from Escherichia
+RT   coli W.";
+RL   J. Biochem. 85:1355-1365(1979).
+RN   [5]
+RP   BIOPHYSICOCHEMICAL PROPERTIES, COFACTOR, ENZYME REGULATION, AND DOMAIN
+RP   STRUCTURE.
+RC   STRAIN=K12;
+RX   PubMed=17557829; DOI=10.1128/JB.00428-07;
+RA   Bologna F.P., Andreo C.S., Drincovich M.F.;
+RT   "Escherichia coli malic enzymes: two isoforms with substantial
+RT   differences in kinetic properties, metabolic regulation, and
+RT   structure.";
+RL   J. Bacteriol. 189:5937-5946(2007).
+RN   [6]
+RP   ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-56, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY.
+RC   STRAIN=K12 / JW1106, and K12 / MG1655 / ATCC 47076;
+RX   PubMed=18723842; DOI=10.1074/mcp.M800187-MCP200;
+RA   Zhang J., Sprung R., Pei J., Tan X., Kim S., Zhu H., Liu C.F.,
+RA   Grishin N.V., Zhao Y.;
+RT   "Lysine acetylation is a highly abundant and evolutionarily conserved
+RT   modification in Escherichia coli.";
+RL   Mol. Cell. Proteomics 8:215-225(2009).
+CC   -!- CATALYTIC ACTIVITY: (S)-malate + NADP(+) = pyruvate + CO(2) +
+CC       NADPH.
+CC   -!- CATALYTIC ACTIVITY: Oxaloacetate = pyruvate + CO(2).
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000269|PubMed:17557829};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000269|PubMed:17557829};
+CC       Note=Divalent metal cations. Prefers magnesium or manganese.
+CC       {ECO:0000269|PubMed:17557829};
+CC   -!- ENZYME REGULATION: Inhibited by 4 mM Mg(2+) and acetyl-CoA,
+CC       competitively inhibited by fumarate and oxaloacetate. Activated by
+CC       glutamate and aspartate, glucose-6-phosphate, acetyl-phosphate and
+CC       2 mM KCl. {ECO:0000269|PubMed:17557829}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=3.41 mM for L-malate {ECO:0000269|PubMed:17557829};
+CC         KM=0.0415 mM for NADP {ECO:0000269|PubMed:17557829};
+CC         KM=6.21 mM for pyruvate {ECO:0000269|PubMed:17557829};
+CC       pH dependence:
+CC         Optimum pH is 7.5 for L-malate. {ECO:0000269|PubMed:17557829};
+CC   -!- SUBUNIT: Homooligomer, possibly an octamer.
+CC   -!- DOMAIN: The-C-terminal phosphate acetyltransferase domain is
+CC       responsible for oligomerization, and is responsible for inhibition
+CC       by acetyl-CoA and activation by glutamate, aspartate, and glucose-
+CC       6-phosphate as shown by its deletion. The isolated domain does not
+CC       catalyze the interconversion of acetyl-CoA and acetyl-phosphate.
+CC       {ECO:0000269|PubMed:17557829}.
+CC   -!- MISCELLANEOUS: Cannot use NAD(+).
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the malic
+CC       enzymes family. {ECO:0000305}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the phosphate
+CC       acetyltransferase and butyryltransferase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U00096; AAC75516.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAA16337.1; -; Genomic_DNA.
+DR   PIR; F65021; F65021.
+DR   RefSeq; NP_416958.1; NC_000913.3.
+DR   RefSeq; WP_000342644.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P76558; -.
+DR   SMR; P76558; -.
+DR   BioGrid; 4260925; 8.
+DR   DIP; DIP-10141N; -.
+DR   IntAct; P76558; 9.
+DR   STRING; 511145.b2463; -.
+DR   BindingDB; P76558; -.
+DR   ChEMBL; CHEMBL1687685; -.
+DR   EPD; P76558; -.
+DR   PaxDb; P76558; -.
+DR   PRIDE; P76558; -.
+DR   EnsemblBacteria; AAC75516; AAC75516; b2463.
+DR   EnsemblBacteria; BAA16337; BAA16337; BAA16337.
+DR   GeneID; 946947; -.
+DR   KEGG; ecj:JW2447; -.
+DR   KEGG; eco:b2463; -.
+DR   PATRIC; 32120309; VBIEscCol129921_2557.
+DR   EchoBASE; EB3945; -.
+DR   EcoGene; EG14193; maeB.
+DR   eggNOG; ENOG4105C6K; Bacteria.
+DR   eggNOG; COG0280; LUCA.
+DR   eggNOG; COG0281; LUCA.
+DR   HOGENOM; HOG000132448; -.
+DR   InParanoid; P76558; -.
+DR   KO; K00029; -.
+DR   OMA; DIMPDSP; -.
+DR   PhylomeDB; P76558; -.
+DR   BioCyc; EcoCyc:MALIC-NADP-MONOMER; -.
+DR   BioCyc; MetaCyc:MALIC-NADP-MONOMER; -.
+DR   BRENDA; 1.1.1.40; 2026.
+DR   PRO; PR:P76558; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IDA:UniProtKB.
+DR   GO; GO:0004471; F:malate dehydrogenase (decarboxylating) (NAD+) activity; IEA:InterPro.
+DR   GO; GO:0004473; F:malate dehydrogenase (decarboxylating) (NADP+) activity; IDA:EcoCyc.
+DR   GO; GO:0030145; F:manganese ion binding; IDA:EcoCyc.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0008948; F:oxaloacetate decarboxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016746; F:transferase activity, transferring acyl groups; IEA:InterPro.
+DR   GO; GO:0006108; P:malate metabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.50.10380; -; 1.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   InterPro; IPR015884; Malic_enzyme_CS.
+DR   InterPro; IPR012301; Malic_N_dom.
+DR   InterPro; IPR012302; Malic_NAD-bd.
+DR   InterPro; IPR012188; ME_PTA.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   InterPro; IPR002505; PTA_PTB.
+DR   Pfam; PF00390; malic; 1.
+DR   Pfam; PF03949; Malic_M; 1.
+DR   Pfam; PF01515; PTA_PTB; 1.
+DR   PIRSF; PIRSF036684; ME_PTA; 1.
+DR   SMART; SM01274; malic; 1.
+DR   SMART; SM00919; Malic_M; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   PROSITE; PS00331; MALIC_ENZYMES; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Complete proteome; Metal-binding; Multifunctional enzyme;
+KW   NADP; Oxidoreductase; Reference proteome.
+FT   CHAIN         1    759       NADP-dependent malic enzyme.
+FT                                /FTId=PRO_0000160242.
+FT   NP_BIND      76     83       NADP. {ECO:0000250}.
+FT   REGION        1    428       Malic enzyme.
+FT   REGION      429    759       Phosphate acetyltransferase; required for
+FT                                oligomerization, inhibition by acetyl-CoA
+FT                                and activation by glutamate, aspartate,
+FT                                and glucose-6-phosphate.
+FT   ACT_SITE     94     94       Proton acceptor. {ECO:0000250}.
+FT   METAL       136    136       Divalent metal cation. {ECO:0000250}.
+FT   METAL       137    137       Divalent metal cation. {ECO:0000250}.
+FT   BINDING     162    162       NAD. {ECO:0000250}.
+FT   BINDING     288    288       NAD. {ECO:0000250}.
+FT   MOD_RES      56     56       N6-acetyllysine.
+FT                                {ECO:0000269|PubMed:18723842}.
+SQ   SEQUENCE   759 AA;  82417 MW;  9A8B67D9635E25BA CRC64;
+     MDDQLKQSAL DFHEFPVPGK IQVSPTKPLA TQRDLALAYS PGVAAPCLEI EKDPLKAYKY
+     TARGNLVAVI SNGTAVLGLG NIGALAGKPV MEGKGVLFKK FAGIDVFDIE VDELDPDKFI
+     EVVAALEPTF GGINLEDIKA PECFYIEQKL RERMNIPVFH DDQHGTAIIS TAAILNGLRV
+     VEKNISDVRM VVSGAGAAAI ACMNLLVALG LQKHNIVVCD SKGVIYQGRE PNMAETKAAY
+     AVVDDGKRTL DDVIEGADIF LGCSGPKVLT QEMVKKMARA PMILALANPE PEILPPLAKE
+     VRPDAIICTG RSDYPNQVNN VLCFPFIFRG ALDVGATAIN EEMKLAAVRA IAELAHAEQS
+     EVVASAYGDQ DLSFGPEYII PKPFDPRLIV KIAPAVAKAA MESGVATRPI ADFDVYIDKL
+     TEFVYKTNLF MKPIFSQARK APKRVVLPEG EEARVLHATQ ELVTLGLAKP ILIGRPNVIE
+     MRIQKLGLQI KAGVDFEIVN NESDPRFKEY WTEYFQIMKR RGVTQEQAQR ALISNPTVIG
+     AIMVQRGEAD AMICGTVGDY HEHFSVVKNV FGYRDGVHTA GAMNALLLPS GNTFIADTYV
+     NDEPDAEELA EITLMAAETV RRFGIEPRVA LLSHSNFGSS DCPSSSKMRQ ALELVRERAP
+     ELMIDGEMHG DAALVEAIRN DRMPDSSLKG SANILVMPNM EAARISYNLL RVSSSEGVTV
+     GPVLMGVAKP VHVLTPIASV RRIVNMVALA VVEAQTQPL
+//

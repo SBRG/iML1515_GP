@@ -1,0 +1,154 @@
+ID   PHNO_ECOLI              Reviewed;         144 AA.
+AC   P16691; Q2M6L0;
+DT   01-AUG-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1990, sequence version 1.
+DT   15-MAR-2017, entry version 120.
+DE   RecName: Full=Aminoalkylphosphonate N-acetyltransferase {ECO:0000303|PubMed:23056305};
+DE            EC=2.3.1.- {ECO:0000269|PubMed:23056305};
+GN   Name=phnO {ECO:0000303|PubMed:23056305};
+GN   OrderedLocusNames=b4093, JW4054;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=B;
+RX   PubMed=2155230;
+RA   Chen C.-M., Ye Q.-Z., Zhu Z., Wanner B.L., Walsh C.T.;
+RT   "Molecular biology of carbon-phosphorus bond cleavage. Cloning and
+RT   sequencing of the phn (psiD) genes involved in alkylphosphonate uptake
+RT   and C-P lyase activity in Escherichia coli B.";
+RL   J. Biol. Chem. 265:4461-4471(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=K12;
+RX   PubMed=1840580; DOI=10.1128/jb.173.8.2665-2672.1991;
+RA   Makino K., Kim S.K., Shinagawa H., Amemura M., Nakata A.;
+RT   "Molecular analysis of the cryptic and functional phn operons for
+RT   phosphonate use in Escherichia coli K-12.";
+RL   J. Bacteriol. 173:2665-2672(1991).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=7610040; DOI=10.1093/nar/23.12.2105;
+RA   Burland V.D., Plunkett G. III, Sofia H.J., Daniels D.L.,
+RA   Blattner F.R.;
+RT   "Analysis of the Escherichia coli genome VI: DNA sequence of the
+RT   region from 92.8 through 100 minutes.";
+RL   Nucleic Acids Res. 23:2105-2119(1995).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [6]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=K12;
+RX   PubMed=23056305; DOI=10.1371/journal.pone.0046416;
+RA   Hove-Jensen B., McSorley F.R., Zechel D.L.;
+RT   "Catabolism and detoxification of 1-aminoalkylphosphonic acids: N-
+RT   acetylation by the phnO gene product.";
+RL   PLoS ONE 7:E46416-E46416(2012).
+CC   -!- FUNCTION: Aminoalkylphosphonate N-acetyltransferase which is able
+CC       to acetylate a range of aminoalkylphosphonic acids, including
+CC       aminomethylphosphonate, (S)-1-aminoethylphosphonate and 2-
+CC       aminoethyl- and 3-aminopropylphosphonate, using acetyl-CoA as
+CC       acetyl donor. Is required for the utilization of
+CC       aminomethylphosphonate and (S)-1-aminoethylphosphonate as a
+CC       phosphate source via the C-P lyase pathway. Is also essential for
+CC       the detoxification of (S)-1-aminoethylphosphonate, a structural
+CC       analog of D-alanine that has bacteriocidal properties due to
+CC       inhibition of cell wall synthesis. {ECO:0000269|PubMed:23056305}.
+CC   -!- CATALYTIC ACTIVITY: Acetyl-CoA + aminomethylphosphonate = CoA + N-
+CC       acetamidomethylphosphonate. {ECO:0000269|PubMed:23056305}.
+CC   -!- CATALYTIC ACTIVITY: Acetyl-CoA + (S)-1-aminoethylphosphonate = CoA
+CC       + N-acetyl-(S)-1-aminoethylphosphonate.
+CC       {ECO:0000269|PubMed:23056305}.
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000250|UniProtKB:Q8ZKE6};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:Q8ZKE6}.
+CC   -!- DISRUPTION PHENOTYPE: Cells lacking this gene have lost the
+CC       ability to utilize aminomethylphosphonate or (S)-1-
+CC       aminoethylphosphonate as the sole source of phosphate for growth,
+CC       but are still able to utilize the other aminoalkylphosphonates 2-
+CC       aminoethyl- and 3-aminopropylphosphonate, and alkylphosphonates.
+CC       They are also much more susceptible to the bacteriocidal effect of
+CC       (S)-1-aminoethylphosphonate, even with phosphate or D-alanine
+CC       present. {ECO:0000269|PubMed:23056305}.
+CC   -!- MISCELLANEOUS: The sequence shown is that of strains K12 and B.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; J05260; AAA24354.1; -; Genomic_DNA.
+DR   EMBL; D90227; BAA14275.1; -; Genomic_DNA.
+DR   EMBL; U14003; AAA96992.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC77054.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE78096.1; -; Genomic_DNA.
+DR   PIR; G35719; G35719.
+DR   RefSeq; NP_418517.1; NC_000913.3.
+DR   RefSeq; WP_001110490.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P16691; -.
+DR   SMR; P16691; -.
+DR   BioGrid; 4262023; 9.
+DR   IntAct; P16691; 1.
+DR   STRING; 511145.b4093; -.
+DR   PaxDb; P16691; -.
+DR   PRIDE; P16691; -.
+DR   EnsemblBacteria; AAC77054; AAC77054; b4093.
+DR   EnsemblBacteria; BAE78096; BAE78096; BAE78096.
+DR   GeneID; 948599; -.
+DR   KEGG; ecj:JW4054; -.
+DR   KEGG; eco:b4093; -.
+DR   PATRIC; 32123745; VBIEscCol129921_4221.
+DR   EchoBASE; EB0718; -.
+DR   EcoGene; EG10724; phnO.
+DR   eggNOG; ENOG410849A; Bacteria.
+DR   eggNOG; ENOG410ZXJ8; LUCA.
+DR   HOGENOM; HOG000078524; -.
+DR   InParanoid; P16691; -.
+DR   KO; K09994; -.
+DR   OMA; GMIGLHM; -.
+DR   PhylomeDB; P16691; -.
+DR   BioCyc; EcoCyc:EG10724-MONOMER; -.
+DR   BioCyc; MetaCyc:EG10724-MONOMER; -.
+DR   PRO; PR:P16691; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0008080; F:N-acetyltransferase activity; IDA:EcoCyc.
+DR   GO; GO:0033051; P:aminophosphonate metabolic process; IMP:EcoCyc.
+DR   Gene3D; 3.40.630.30; -; 1.
+DR   InterPro; IPR016181; Acyl_CoA_acyltransferase.
+DR   InterPro; IPR000182; GNAT_dom.
+DR   Pfam; PF00583; Acetyltransf_1; 1.
+DR   SUPFAM; SSF55729; SSF55729; 1.
+DR   PROSITE; PS51186; GNAT; 1.
+PE   1: Evidence at protein level;
+KW   Acyltransferase; Complete proteome; Reference proteome; Transferase.
+FT   CHAIN         1    144       Aminoalkylphosphonate N-
+FT                                acetyltransferase.
+FT                                /FTId=PRO_0000058401.
+FT   DOMAIN        4    144       N-acetyltransferase.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00532}.
+SQ   SEQUENCE   144 AA;  16570 MW;  B4BCBD253788737B CRC64;
+     MPACELRPAT QYDTDAVYAL ICELKQAEFD HHAFRVGFNA NLRDPNMRYH LALLDGEVVG
+     MIGLHLQFHL HHVNWIGEIQ ELVVMPQARG LNVGSKLLAW AEEEARQAGA EMTELSTNVK
+     RHDAHRFYLR EGYEQSHFRF TKAL
+//

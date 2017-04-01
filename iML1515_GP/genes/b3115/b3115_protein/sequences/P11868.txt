@@ -1,0 +1,193 @@
+ID   TDCD_ECOLI              Reviewed;         402 AA.
+AC   P11868; P76666; Q2M992;
+DT   01-OCT-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 3.
+DT   15-MAR-2017, entry version 149.
+DE   RecName: Full=Propionate kinase {ECO:0000255|HAMAP-Rule:MF_01881};
+DE            EC=2.7.2.15 {ECO:0000255|HAMAP-Rule:MF_01881};
+GN   Name=tdcD {ECO:0000255|HAMAP-Rule:MF_01881}; Synonyms=yhaA;
+GN   OrderedLocusNames=b3115, JW5806;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-331.
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=2660107; DOI=10.1093/nar/17.10.3994;
+RA   Schweizer H., Datta P.;
+RT   "The complete nucleotide sequence of the tdc region of Escherichia
+RT   coli.";
+RL   Nucleic Acids Res. 17:3994-3994(1989).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-331.
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=3053659; DOI=10.1128/jb.170.11.5352-5359.1988;
+RA   Goss T.J., Schweizer H.P., Datta P.;
+RT   "Molecular characterization of the tdc operon of Escherichia coli K-
+RT   12.";
+RL   J. Bacteriol. 170:5352-5359(1988).
+RN   [5]
+RP   IDENTIFICATION.
+RX   PubMed=8226682; DOI=10.1128/jb.175.22.7348-7355.1993;
+RA   Grundy F.J., Waters D.A., Allen S.H.G., Henkin T.M.;
+RT   "Regulation of the Bacillus subtilis acetate kinase gene by CcpA.";
+RL   J. Bacteriol. 175:7348-7355(1993).
+RN   [6]
+RP   FUNCTION AS A PROPIONATE KINASE AND IN THREONINE CATABOLISM, AND
+RP   SUBSTRATE SPECIFICITY.
+RX   PubMed=9484901; DOI=10.1046/j.1365-2958.1998.00696.x;
+RA   Hesslinger C., Fairhurst S.A., Sawers G.;
+RT   "Novel keto acid formate-lyase and propionate kinase enzymes are
+RT   components of an anaerobic pathway in Escherichia coli that degrades
+RT   L-threonine to propionate.";
+RL   Mol. Microbiol. 27:477-492(1998).
+CC   -!- FUNCTION: Catalyzes the conversion of propionyl phosphate and ADP
+CC       to propionate and ATP. It can also use acetyl phosphate as
+CC       phosphate group acceptor. {ECO:0000255|HAMAP-Rule:MF_01881,
+CC       ECO:0000269|PubMed:9484901}.
+CC   -!- CATALYTIC ACTIVITY: ATP + propanoate = ADP + propanoyl phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01881}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01881};
+CC   -!- PATHWAY: Amino-acid degradation; L-threonine degradation via
+CC       propanoate pathway; propanoate from L-threonine: step 4/4.
+CC       {ECO:0000255|HAMAP-Rule:MF_01881}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01881}.
+CC   -!- SIMILARITY: Belongs to the acetokinase family. TdcD subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01881}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA24663.1; Type=Frameshift; Positions=Several; Evidence={ECO:0000305};
+CC       Sequence=AAA57919.1; Type=Erroneous initiation; Note=Translation N-terminally shortened.; Evidence={ECO:0000305};
+CC       Sequence=CAA32595.1; Type=Frameshift; Positions=Several; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U18997; AAA57919.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; U00096; AAC76150.2; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE77164.1; -; Genomic_DNA.
+DR   EMBL; X14430; CAA32595.1; ALT_FRAME; Genomic_DNA.
+DR   EMBL; M23638; AAA24663.1; ALT_FRAME; Genomic_DNA.
+DR   PIR; H65100; Q3ECTD.
+DR   RefSeq; NP_417585.2; NC_000913.3.
+DR   RefSeq; WP_001295545.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P11868; -.
+DR   SMR; P11868; -.
+DR   BioGrid; 4262417; 12.
+DR   DIP; DIP-10971N; -.
+DR   IntAct; P11868; 3.
+DR   MINT; MINT-1273849; -.
+DR   STRING; 511145.b3115; -.
+DR   PaxDb; P11868; -.
+DR   PRIDE; P11868; -.
+DR   EnsemblBacteria; AAC76150; AAC76150; b3115.
+DR   EnsemblBacteria; BAE77164; BAE77164; BAE77164.
+DR   GeneID; 947635; -.
+DR   KEGG; ecj:JW5806; -.
+DR   KEGG; eco:b3115; -.
+DR   PATRIC; 32121646; VBIEscCol129921_3209.
+DR   EchoBASE; EB1159; -.
+DR   EcoGene; EG11172; tdcD.
+DR   eggNOG; ENOG4105C6H; Bacteria.
+DR   eggNOG; COG0282; LUCA.
+DR   HOGENOM; HOG000288399; -.
+DR   InParanoid; P11868; -.
+DR   KO; K00932; -.
+DR   OMA; YKFIAGE; -.
+DR   PhylomeDB; P11868; -.
+DR   BioCyc; EcoCyc:PROPKIN-MONOMER; -.
+DR   BioCyc; MetaCyc:PROPKIN-MONOMER; -.
+DR   UniPathway; UPA00052; UER00510.
+DR   PRO; PR:P11868; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005622; C:intracellular; IEA:InterPro.
+DR   GO; GO:0008776; F:acetate kinase activity; IDA:EcoCyc.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008980; F:propionate kinase activity; IDA:EcoCyc.
+DR   GO; GO:0019665; P:anaerobic amino acid catabolic process; IDA:EcoCyc.
+DR   GO; GO:0070689; P:L-threonine catabolic process to propionate; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006567; P:threonine catabolic process; IDA:EcoCyc.
+DR   HAMAP; MF_00020; Acetate_kinase; 1.
+DR   HAMAP; MF_01881; Propion_kin_subfam1; 1.
+DR   InterPro; IPR004372; Ac/propionate_kinase.
+DR   InterPro; IPR000890; Aliphatic_acid_kin_short-chain.
+DR   InterPro; IPR023865; Aliphatic_acid_kinase_CS.
+DR   InterPro; IPR024917; Propionate_kinase.
+DR   PANTHER; PTHR21060; PTHR21060; 1.
+DR   PANTHER; PTHR21060:SF18; PTHR21060:SF18; 1.
+DR   Pfam; PF00871; Acetate_kinase; 1.
+DR   PIRSF; PIRSF000722; Acetate_prop_kin; 1.
+DR   PRINTS; PR00471; ACETATEKNASE.
+DR   TIGRFAMs; TIGR00016; ackA; 1.
+DR   PROSITE; PS01075; ACETATE_KINASE_1; 1.
+DR   PROSITE; PS01076; ACETATE_KINASE_2; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Complete proteome; Kinase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Reference proteome; Transferase.
+FT   CHAIN         1    402       Propionate kinase.
+FT                                /FTId=PRO_0000107652.
+FT   NP_BIND     203    207       ATP. {ECO:0000255|HAMAP-Rule:MF_01881}.
+FT   NP_BIND     278    280       ATP. {ECO:0000255|HAMAP-Rule:MF_01881}.
+FT   NP_BIND     326    330       ATP. {ECO:0000255|HAMAP-Rule:MF_01881}.
+FT   ACT_SITE    143    143       Proton donor/acceptor.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01881}.
+FT   METAL        11     11       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01881}.
+FT   BINDING      11     11       ATP. {ECO:0000255|HAMAP-Rule:MF_01881}.
+FT   BINDING      18     18       ATP. {ECO:0000255|HAMAP-Rule:MF_01881}.
+FT   BINDING      86     86       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01881}.
+FT   BINDING     175    175       ATP. {ECO:0000255|HAMAP-Rule:MF_01881}.
+FT   SITE        175    175       Transition state stabilizer.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01881}.
+FT   SITE        236    236       Transition state stabilizer.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01881}.
+FT   CONFLICT    121    121       A -> P (in Ref. 3; CAA32595 and 4;
+FT                                AAA24663). {ECO:0000305}.
+FT   CONFLICT    141    141       V -> L (in Ref. 3; CAA32595 and 4;
+FT                                AAA24663). {ECO:0000305}.
+FT   CONFLICT    198    198       G -> A (in Ref. 3; CAA32595 and 4;
+FT                                AAA24663). {ECO:0000305}.
+FT   CONFLICT    244    244       A -> P (in Ref. 3; CAA32595 and 4;
+FT                                AAA24663). {ECO:0000305}.
+FT   CONFLICT    249    250       AS -> RR (in Ref. 3; CAA32595 and 4;
+FT                                AAA24663). {ECO:0000305}.
+FT   CONFLICT    275    275       L -> H (in Ref. 3; CAA32595 and 4;
+FT                                AAA24663). {ECO:0000305}.
+FT   CONFLICT    283    283       E -> G (in Ref. 3; CAA32595 and 4;
+FT                                AAA24663). {ECO:0000305}.
+FT   CONFLICT    396    402       NAPAEFA -> KEGANKRGNSSRLTQSFHFFMFEPIFSPVN
+FT                                ALNQPI (in Ref. 2; BAE77164).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   402 AA;  43384 MW;  2E49756262C77144 CRC64;
+     MNEFPVVLVI NCGSSSIKFS VLDASDCEVL MSGIADGINS ENAFLSVNGG EPAPLAHHSY
+     EGALKAIAFE LEKRNLNDSV ALIGHRIAHG GSIFTESAII TDEVIDNIRR VSPLAPLHNY
+     ANLSGIESAQ QLFPGVTQVA VFDTSFHQTM APEAYLYGLP WKYYEELGVR RYGFHGTSHR
+     YVSQRAHSLL NLAEDDSGLV VAHLGNGASI CAVRNGQSVD TSMGMTPLEG LMMGTRSGDV
+     DFGAMSWVAS QTNQSLGDLE RVVNKESGLL GISGLSSDLR VLEKAWHEGH ERAQLAIKTF
+     VHRIARHIAG HAASLRRLDG IIFTGGIGEN SSLIRRLVME HLAVLGLEID TEMNNRSNSC
+     GERIVSSENA RVICAVIPTN EEKMIALDAI HLGKVNAPAE FA
+//

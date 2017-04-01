@@ -1,0 +1,42 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:53:49
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b1677/b1677_protein/sequences/P69776_1jcc-A.needle
+#    -asequence asis::MKATKLVLGAVILGSTLLAGCSSNAKIDQLSSDVQTLNAKVDQLSNDVNAMRSDVQAAKDDAARANQRLDNMATKYRK
+#    -bsequence asis::SSNAKIDQLSSDAQTANAKADQASNDANAARSDAQAAKDDAARANQRLDNM
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b1677/b1677_protein/sequences/P69776_1jcc-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 78
+# Identity:      44/78 (56.4%)
+# Similarity:    44/78 (56.4%)
+# Gaps:          27/78 (34.6%)
+# Score: 214.0
+# 
+#
+#=======================================
+
+asis               1 MKATKLVLGAVILGSTLLAGCSSNAKIDQLSSDVQTLNAKVDQLSNDVNA     50
+                                          ||||||||||||.||.|||.||.|||.||
+asis               1 ---------------------SSNAKIDQLSSDAQTANAKADQASNDANA     29
+
+asis              51 MRSDVQAAKDDAARANQRLDNMATKYRK     78
+                     .|||.|||||||||||||||||      
+asis              30 ARSDAQAAKDDAARANQRLDNM------     51
+
+
+#---------------------------------------
+#---------------------------------------

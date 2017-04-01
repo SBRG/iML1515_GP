@@ -1,0 +1,199 @@
+ID   PTMCB_ECOLI             Reviewed;         462 AA.
+AC   P69826; P32059; Q2M9R0;
+DT   10-MAY-2005, integrated into UniProtKB/Swiss-Prot.
+DT   10-MAY-2005, sequence version 1.
+DT   15-FEB-2017, entry version 98.
+DE   RecName: Full=PTS system mannitol-specific cryptic EIICB component {ECO:0000303|PubMed:8353127};
+DE   AltName: Full=EIICB-Mtl {ECO:0000250|UniProtKB:P28008};
+DE            Short=EII-Mtl {ECO:0000250|UniProtKB:P28008};
+DE   Includes:
+DE     RecName: Full=Mannitol permease IIC component {ECO:0000250|UniProtKB:P28008};
+DE     AltName: Full=PTS system mannitol-specific EIIC component {ECO:0000250|UniProtKB:P28008};
+DE   Includes:
+DE     RecName: Full=Mannitol-specific phosphotransferase enzyme IIB component {ECO:0000250|UniProtKB:P28008};
+DE              EC=2.7.1.197 {ECO:0000250|UniProtKB:P00550, ECO:0000250|UniProtKB:P28008};
+DE     AltName: Full=PTS system mannitol-specific EIIB component {ECO:0000250|UniProtKB:P28008};
+GN   Name=cmtA {ECO:0000303|PubMed:8353127};
+GN   OrderedLocusNames=b2933, JW2900;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-446.
+RC   STRAIN=K12;
+RX   PubMed=8353127; DOI=10.1016/0304-4165(93)90103-F;
+RA   Sprenger G.A.;
+RT   "Two open reading frames adjacent to the Escherichia coli K-12
+RT   transketolase (tkt) gene show high similarity to the mannitol
+RT   phosphotransferase system enzymes from Escherichia coli and various
+RT   Gram-positive bacteria.";
+RL   Biochim. Biophys. Acta 1158:103-106(1993).
+RN   [2]
+RP   PRESENCE OF VECTOR SEQUENCE CONTAMINATION IN SEQUENCE DESCRIBED IN
+RP   PUBMED:8353127.
+RA   Rudd K.E.;
+RL   Unpublished observations (JUN-1993).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [5]
+RP   SUBCELLULAR LOCATION.
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=15919996; DOI=10.1126/science.1109730;
+RA   Daley D.O., Rapp M., Granseth E., Melen K., Drew D., von Heijne G.;
+RT   "Global topology analysis of the Escherichia coli inner membrane
+RT   proteome.";
+RL   Science 308:1321-1323(2005).
+CC   -!- FUNCTION: The phosphoenolpyruvate-dependent sugar
+CC       phosphotransferase system (sugar PTS), a major carbohydrate active
+CC       transport system, catalyzes the phosphorylation of incoming sugar
+CC       substrates concomitantly with their translocation across the cell
+CC       membrane. The enzyme II CmtAB PTS system is involved in D-mannitol
+CC       transport. {ECO:0000250|UniProtKB:P28008}.
+CC   -!- CATALYTIC ACTIVITY: [Protein]-N(pi)-phospho-L-histidine + D-
+CC       mannitol(Side 1) = [protein]-L-histidine + D-mannitol 1-
+CC       phosphate(Side 2). {ECO:0000250|UniProtKB:P00550}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|PROSITE-
+CC       ProRule:PRU00427, ECO:0000269|PubMed:15919996}; Multi-pass
+CC       membrane protein {ECO:0000255|PROSITE-ProRule:PRU00427,
+CC       ECO:0000269|PubMed:15919996}.
+CC   -!- DOMAIN: The EIIC type-2 domain forms the PTS system translocation
+CC       channel and contains the specific substrate-binding site.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00427}.
+CC   -!- DOMAIN: The PTS EIIB type-2 domain is phosphorylated by phospho-
+CC       EIIA on a cysteinyl residue. Then, it transfers the phosphoryl
+CC       group to the sugar substrate concomitantly with the sugar uptake
+CC       processed by the PTS EIIC type-2 domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00422}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAA51229.1; Type=Miscellaneous discrepancy; Note=Contaminating sequence. Vector contamination at the C-terminus.; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X72677; CAA51229.1; ALT_TERM; Genomic_DNA.
+DR   EMBL; U28377; AAA69100.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC75970.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE76996.1; -; Genomic_DNA.
+DR   PIR; D65078; S36123.
+DR   RefSeq; NP_417408.1; NC_000913.3.
+DR   RefSeq; WP_000428805.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P69826; -.
+DR   SMR; P69826; -.
+DR   BioGrid; 4262068; 76.
+DR   IntAct; P69826; 3.
+DR   STRING; 511145.b2933; -.
+DR   TCDB; 4.A.2.1.24; the pts fructose-mannitol (fru) family.
+DR   PaxDb; P69826; -.
+DR   PRIDE; P69826; -.
+DR   EnsemblBacteria; AAC75970; AAC75970; b2933.
+DR   EnsemblBacteria; BAE76996; BAE76996; BAE76996.
+DR   GeneID; 945256; -.
+DR   KEGG; ecj:JW2900; -.
+DR   KEGG; eco:b2933; -.
+DR   PATRIC; 32121278; VBIEscCol129921_3027.
+DR   EchoBASE; EB1740; -.
+DR   EcoGene; EG11792; cmtA.
+DR   eggNOG; ENOG4105CTS; Bacteria.
+DR   eggNOG; COG2213; LUCA.
+DR   HOGENOM; HOG000252814; -.
+DR   KO; K02799; -.
+DR   KO; K02800; -.
+DR   OMA; DIVVTHE; -.
+DR   PhylomeDB; P69826; -.
+DR   BioCyc; EcoCyc:CMTA-MONOMER; -.
+DR   BioCyc; MetaCyc:CMTA-MONOMER; -.
+DR   PRO; PR:P69826; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IDA:EcoCyc.
+DR   GO; GO:0016301; F:kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0022872; F:protein-N(PI)-phosphohistidine-mannitol phosphotransferase system transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0090563; F:protein-phosphocysteine-sugar phosphotransferase activity; IBA:GO_Central.
+DR   GO; GO:0009401; P:phosphoenolpyruvate-dependent sugar phosphotransferase system; ISA:EcoCyc.
+DR   CDD; cd05567; PTS_IIB_mannitol; 1.
+DR   Gene3D; 3.40.50.10370; -; 1.
+DR   InterPro; IPR013011; PTS_EIIB_2.
+DR   InterPro; IPR003501; PTS_EIIB_2/3.
+DR   InterPro; IPR029503; PTS_EIIB_mannitol.
+DR   InterPro; IPR003352; PTS_EIIC.
+DR   InterPro; IPR013014; PTS_EIIC_2.
+DR   InterPro; IPR004718; PTS_IIC_mtl.
+DR   Pfam; PF02378; PTS_EIIC; 1.
+DR   Pfam; PF02302; PTS_IIB; 1.
+DR   SUPFAM; SSF52794; SSF52794; 1.
+DR   TIGRFAMs; TIGR00851; mtlA; 1.
+DR   PROSITE; PS51099; PTS_EIIB_TYPE_2; 1.
+DR   PROSITE; PS51104; PTS_EIIC_TYPE_2; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Complete proteome; Kinase;
+KW   Membrane; Phosphoprotein; Phosphotransferase system;
+KW   Reference proteome; Sugar transport; Transferase; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN         1    462       PTS system mannitol-specific cryptic
+FT                                EIICB component.
+FT                                /FTId=PRO_0000186679.
+FT   TOPO_DOM      1     24       Cytoplasmic.
+FT                                {ECO:0000250|UniProtKB:P00550}.
+FT   TRANSMEM     25     46       Helical. {ECO:0000250|UniProtKB:P00550}.
+FT   TOPO_DOM     47     50       Periplasmic.
+FT                                {ECO:0000250|UniProtKB:P00550}.
+FT   TRANSMEM     51     71       Helical. {ECO:0000250|UniProtKB:P00550}.
+FT   TOPO_DOM     72    134       Cytoplasmic.
+FT                                {ECO:0000250|UniProtKB:P00550}.
+FT   TRANSMEM    135    156       Helical. {ECO:0000250|UniProtKB:P00550}.
+FT   TOPO_DOM    157    165       Periplasmic.
+FT                                {ECO:0000250|UniProtKB:P00550}.
+FT   TRANSMEM    166    186       Helical. {ECO:0000250|UniProtKB:P00550}.
+FT   TOPO_DOM    187    273       Cytoplasmic.
+FT                                {ECO:0000250|UniProtKB:P00550}.
+FT   TRANSMEM    274    293       Helical. {ECO:0000250|UniProtKB:P00550}.
+FT   TOPO_DOM    294    313       Periplasmic.
+FT                                {ECO:0000250|UniProtKB:P00550}.
+FT   TRANSMEM    314    335       Helical. {ECO:0000250|UniProtKB:P00550}.
+FT   TOPO_DOM    336    462       Cytoplasmic.
+FT                                {ECO:0000250|UniProtKB:P00550}.
+FT   DOMAIN       13    344       PTS EIIC type-2. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00427}.
+FT   DOMAIN      371    461       PTS EIIB type-2. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00422}.
+FT   ACT_SITE    377    377       Phosphocysteine intermediate; for EIIB
+FT                                activity. {ECO:0000250|UniProtKB:P00550,
+FT                                ECO:0000250|UniProtKB:P28008}.
+FT   MOD_RES     377    377       Phosphocysteine; by EIIA.
+FT                                {ECO:0000250|UniProtKB:P00550,
+FT                                ECO:0000250|UniProtKB:P28008,
+FT                                ECO:0000255|PROSITE-ProRule:PRU00422}.
+FT   CONFLICT    274    275       MI -> IEF (in Ref. 1; CAA51229).
+FT                                {ECO:0000305}.
+FT   CONFLICT    415    435       DADIVVTHASLEGRVKRVTDK -> GCRISGRLHPWPRSWK
+FT                                GAVETGVRN (in Ref. 1; CAA51229).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   462 AA;  48971 MW;  83F2D203D9E5A4C4 CRC64;
+     MENKSARAKV QAFGGFLTAM VIPNIGAFIA WGFITALFIP TGWLPNEHFA KIVGPMITYL
+     LPVMIGSTGG HLVGGKRGAV MGGIGTIGVI VGAEIPMFLG SMIMGPLGGL VIKYVDKALE
+     KRIPAGFEMV INNFSLGIAG MLLCLLGFEV IGPAVLIANT FVKECIEALV HAGYLPLLSV
+     INEPAKVLFL NNAIDQGVYY PLGMQQASVN GKSIFFMVAS NPGPGLGLLL AFTLFGKGMS
+     KRSAPGAMII HFLGGIHELY FPYVLMKPLT IIAMIAGGMS GTWMFNLLDG GLVAGPSPGS
+     IFAYLALTPK GSFLATIAGV TVGTLVSFAI TSLILKMEKT VETESEDEFA QSANAVKAMK
+     QEGAFSLSRV KRIAFVCDAG MGSSAMGATT FRKRLEKAGL AIEVKHYAIE NVPADADIVV
+     THASLEGRVK RVTDKPLILI NNYIGDPKLD TLFNQLTAEH KH
+//

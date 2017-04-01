@@ -1,0 +1,120 @@
+ID   SCPC_ECOLI              Reviewed;         492 AA.
+AC   P52043; Q2M9S2;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   15-MAR-2017, entry version 114.
+DE   RecName: Full=Propionyl-CoA:succinate CoA transferase;
+DE            EC=2.8.3.-;
+GN   Name=scpC; Synonyms=ygfH; OrderedLocusNames=b2920, JW2887;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [3]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=10769117; DOI=10.1021/bi992888d;
+RA   Haller T., Buckel T., Retey J., Gerlt J.A.;
+RT   "Discovering new enzymes and metabolic pathways: conversion of
+RT   succinate to propionate by Escherichia coli.";
+RL   Biochemistry 39:4622-4629(2000).
+CC   -!- FUNCTION: Catalyzes the transfer of coenzyme A from propionyl-CoA
+CC       to succinate. Could be part of a pathway that converts succinate
+CC       to propionate. {ECO:0000269|PubMed:10769117}.
+CC   -!- CATALYTIC ACTIVITY: Propanoyl-CoA + succinate = propionate +
+CC       succinyl-CoA. {ECO:0000269|PubMed:10769117}.
+CC   -!- SIMILARITY: Belongs to the acetyl-CoA hydrolase/transferase
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U28377; AAA69087.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC75957.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE76984.1; -; Genomic_DNA.
+DR   PIR; G65076; G65076.
+DR   RefSeq; NP_417395.1; NC_000913.3.
+DR   RefSeq; WP_000449965.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P52043; -.
+DR   SMR; P52043; -.
+DR   BioGrid; 4262329; 6.
+DR   DIP; DIP-12167N; -.
+DR   IntAct; P52043; 9.
+DR   MINT; MINT-1232787; -.
+DR   STRING; 511145.b2920; -.
+DR   PaxDb; P52043; -.
+DR   PRIDE; P52043; -.
+DR   EnsemblBacteria; AAC75957; AAC75957; b2920.
+DR   EnsemblBacteria; BAE76984; BAE76984; BAE76984.
+DR   GeneID; 947402; -.
+DR   KEGG; ecj:JW2887; -.
+DR   KEGG; eco:b2920; -.
+DR   PATRIC; 32121254; VBIEscCol129921_3015.
+DR   EchoBASE; EB2800; -.
+DR   EcoGene; EG12973; scpC.
+DR   eggNOG; ENOG4105CYC; Bacteria.
+DR   eggNOG; COG0427; LUCA.
+DR   HOGENOM; HOG000172597; -.
+DR   InParanoid; P52043; -.
+DR   OMA; QAGIGNI; -.
+DR   PhylomeDB; P52043; -.
+DR   BioCyc; EcoCyc:G7517-MONOMER; -.
+DR   BioCyc; MetaCyc:G7517-MONOMER; -.
+DR   PRO; PR:P52043; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0008775; F:acetate CoA-transferase activity; IBA:GO_Central.
+DR   GO; GO:0003986; F:acetyl-CoA hydrolase activity; IBA:GO_Central.
+DR   GO; GO:0043821; F:propionyl-CoA:succinate CoA-transferase activity; IDA:EcoCyc.
+DR   GO; GO:0006083; P:acetate metabolic process; IBA:GO_Central.
+DR   GO; GO:0006084; P:acetyl-CoA metabolic process; IEA:InterPro.
+DR   GO; GO:0019679; P:propionate metabolic process, methylcitrate cycle; IBA:GO_Central.
+DR   InterPro; IPR026888; AcetylCoA_hyd_C.
+DR   InterPro; IPR003702; ActCoA_hydro.
+DR   InterPro; IPR017821; Succinate_CoA_transferase.
+DR   Pfam; PF13336; AcetylCoA_hyd_C; 1.
+DR   Pfam; PF02550; AcetylCoA_hydro; 1.
+DR   TIGRFAMs; TIGR03458; YgfH_subfam; 1.
+PE   1: Evidence at protein level;
+KW   Complete proteome; Reference proteome; Transferase.
+FT   CHAIN         1    492       Propionyl-CoA:succinate CoA transferase.
+FT                                /FTId=PRO_0000215527.
+FT   REGION      260    264       Coenzyme A binding.
+FT                                {ECO:0000250|UniProtKB:B3EY95}.
+FT   ACT_SITE    286    286       5-glutamyl coenzyme A thioester
+FT                                intermediate.
+FT                                {ECO:0000250|UniProtKB:B3EY95}.
+FT   BINDING     376    376       Coenzyme A.
+FT                                {ECO:0000250|UniProtKB:B3EY95}.
+FT   BINDING     380    380       Coenzyme A; via amide nitrogen.
+FT                                {ECO:0000250|UniProtKB:B3EY95}.
+SQ   SEQUENCE   492 AA;  53824 MW;  4C84C10B91D2CA65 CRC64;
+     METQWTRMTA NEAAEIIQHN DMVAFSGFTP AGSPKALPTA IARRANEQHE AKKPYQIRLL
+     TGASISAAAD DVLSDADAVS WRAPYQTSSG LRKKINQGAV SFVDLHLSEV AQMVNYGFFG
+     DIDVAVIEAS ALAPDGRVWL TSGIGNAPTW LLRAKKVIIE LNHYHDPRVA ELADIVIPGA
+     PPRRNSVSIF HAMDRVGTRY VQIDPKKIVA VVETNLPDAG NMLDKQNPMC QQIADNVVTF
+     LLQEMAHGRI PPEFLPLQSG VGNINNAVMA RLGENPVIPP FMMYSEVLQE SVVHLLETGK
+     ISGASASSLT ISADSLRKIY DNMDYFASRI VLRPQEISNN PEIIRRLGVI ALNVGLEFDI
+     YGHANSTHVA GVDLMNGIGG SGDFERNAYL SIFMAPSIAK EGKISTVVPM CSHVDHSEHS
+     VKVIITEQGI ADLRGLSPLQ RARTIIDNCA HPMYRDYLHR YLENAPGGHI HHDLSHVFDL
+     HRNLIATGSM LG
+//

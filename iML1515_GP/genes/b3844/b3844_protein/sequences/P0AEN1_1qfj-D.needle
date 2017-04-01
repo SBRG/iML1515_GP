@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:43:06
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b3844/b3844_protein/sequences/P0AEN1_1qfj-D.needle
+#    -asequence asis::MTTLSCKVTSVEAITDTVYRVRIVPDAAFSFRAGQYLMVVMDERDKRPFSMASTPDEKGFIELHIGASEINLYAKAVMDRILKDHQIVVDIPHGEAWLRDDEERPMILIAGGTGFSYARSILLTALARNPNRDITIYWGGREEQHLYDLCELEALSLKHPGLQVVPVVEQPEAGWRGRTGTVLTAVLQDHGTLAEHDIYIAGRFEMAKIARDLFCSERNAREDRLFGDAFAFI
+#    -bsequence asis::TTLSCKVTSVEAITDTVYRVRIVPDAAFSFRAGQYLMVVMDERDKRPFSMASTPDEKGFIELHIGXXXXXXYAKAVMDRILKDHQIVVDIPHGEAWLRDDEERPMILIAGGTGFSYARSILLTALARNPNRDITIYWGGREEQHLYDLCELEALSLKHPGLQVVPVVEQPEAGWRGRTGTVLTAVLQDHGTLAEHDIYIAGRFEMAKIARDLFCSERNAREDRLFGDAFAFI
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b3844/b3844_protein/sequences/P0AEN1_1qfj-D.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 233
+# Identity:     226/233 (97.0%)
+# Similarity:   226/233 (97.0%)
+# Gaps:           1/233 ( 0.4%)
+# Score: 1172.0
+# 
+#
+#=======================================
+
+asis               1 MTTLSCKVTSVEAITDTVYRVRIVPDAAFSFRAGQYLMVVMDERDKRPFS     50
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 -TTLSCKVTSVEAITDTVYRVRIVPDAAFSFRAGQYLMVVMDERDKRPFS     49
+
+asis              51 MASTPDEKGFIELHIGASEINLYAKAVMDRILKDHQIVVDIPHGEAWLRD    100
+                     ||||||||||||||||......||||||||||||||||||||||||||||
+asis              50 MASTPDEKGFIELHIGXXXXXXYAKAVMDRILKDHQIVVDIPHGEAWLRD     99
+
+asis             101 DEERPMILIAGGTGFSYARSILLTALARNPNRDITIYWGGREEQHLYDLC    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             100 DEERPMILIAGGTGFSYARSILLTALARNPNRDITIYWGGREEQHLYDLC    149
+
+asis             151 ELEALSLKHPGLQVVPVVEQPEAGWRGRTGTVLTAVLQDHGTLAEHDIYI    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             150 ELEALSLKHPGLQVVPVVEQPEAGWRGRTGTVLTAVLQDHGTLAEHDIYI    199
+
+asis             201 AGRFEMAKIARDLFCSERNAREDRLFGDAFAFI    233
+                     |||||||||||||||||||||||||||||||||
+asis             200 AGRFEMAKIARDLFCSERNAREDRLFGDAFAFI    232
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,195 @@
+ID   LSRF_ECOLI              Reviewed;         291 AA.
+AC   P76143; Q2MB99;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1997, sequence version 1.
+DT   15-FEB-2017, entry version 110.
+DE   RecName: Full=3-hydroxy-5-phosphonooxypentane-2,4-dione thiolase {ECO:0000255|HAMAP-Rule:MF_02052};
+DE            EC=2.3.1.245 {ECO:0000255|HAMAP-Rule:MF_02052, ECO:0000269|PubMed:25225400};
+GN   Name=lsrF {ECO:0000255|HAMAP-Rule:MF_02052}; Synonyms=yneB;
+GN   OrderedLocusNames=b1517, JW1510;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [3]
+RP   INDUCTION.
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=15601708; DOI=10.1128/JB.187.1.238-248.2005;
+RA   Xavier K.B., Bassler B.L.;
+RT   "Regulation of uptake and processing of the quorum-sensing autoinducer
+RT   AI-2 in Escherichia coli.";
+RL   J. Bacteriol. 187:238-248(2005).
+RN   [4]
+RP   INDUCTION.
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=15743955; DOI=10.1128/JB.187.6.2066-2076.2005;
+RA   Wang L., Hashimoto Y., Tsao C.-Y., Valdes J.J., Bentley W.E.;
+RT   "Cyclic AMP (cAMP) and cAMP receptor protein influence both synthesis
+RT   and uptake of extracellular autoinducer 2 in Escherichia coli.";
+RL   J. Bacteriol. 187:2066-2076(2005).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (2.50 ANGSTROMS) OF APOENZYME AND IN COMPLEXES
+RP   WITH D-RIBITOL 5-PHOSPHATE AND D-RIBULOSE 5-PHOSPHATE, AND SUBUNIT.
+RX   PubMed=19714241; DOI=10.1371/journal.pone.0006820;
+RA   Diaz Z., Xavier K.B., Miller S.T.;
+RT   "The crystal structure of the Escherichia coli autoinducer-2
+RT   processing protein LsrF.";
+RL   PLoS ONE 4:E6820-E6820(2009).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (2.51 ANGSTROMS) OF MUTANT ALA-203 IN COMPLEX
+RP   WITH 3-HYDROXY-5-PHOSPHONOOXYPENTANE-2,4-DIONE, FUNCTION, CATALYTIC
+RP   ACTIVITY, MUTAGENESIS OF ASP-57; LYS-203 AND ASP-251,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, AND ACTIVE SITE.
+RX   PubMed=25225400; DOI=10.1073/pnas.1408691111;
+RA   Marques J.C., Oh I.K., Ly D.C., Lamosa P., Ventura M.R., Miller S.T.,
+RA   Xavier K.B.;
+RT   "LsrF, a coenzyme A-dependent thiolase, catalyzes the terminal step in
+RT   processing the quorum sensing signal autoinducer-2.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 111:14235-14240(2014).
+CC   -!- FUNCTION: Involved in the degradation of phospho-AI-2, thereby
+CC       terminating induction of the lsr operon and closing the AI-2
+CC       signaling cycle. Catalyzes the transfer of an acetyl moiety from
+CC       3-hydroxy-5-phosphonooxypentane-2,4-dione to CoA to form glycerone
+CC       phosphate and acetyl-CoA. {ECO:0000255|HAMAP-Rule:MF_02052,
+CC       ECO:0000269|PubMed:25225400}.
+CC   -!- CATALYTIC ACTIVITY: Glycerone phosphate + acetyl-CoA = 3-hydroxy-
+CC       5-phosphonooxypentane-2,4-dione + coenzyme A. {ECO:0000255|HAMAP-
+CC       Rule:MF_02052, ECO:0000269|PubMed:25225400}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         Note=kcat is 127 sec(-1). {ECO:0000269|PubMed:25225400};
+CC   -!- SUBUNIT: Homodecamer. {ECO:0000255|HAMAP-Rule:MF_02052,
+CC       ECO:0000269|PubMed:19714241}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_02052}.
+CC   -!- INDUCTION: In the absence of AI-2, repressed by LsrR. Induced by
+CC       AI-2, via release of the LsrR repressor. In the absence of
+CC       glucose, induced by cAMP-CRP by direct binding to the upstream
+CC       region of the lsr promoter. {ECO:0000269|PubMed:15601708,
+CC       ECO:0000269|PubMed:15743955}.
+CC   -!- SIMILARITY: Belongs to the DeoC/FbaB aldolase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_02052, ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U00096; AAC74590.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE76457.1; -; Genomic_DNA.
+DR   PIR; H64905; H64905.
+DR   RefSeq; NP_416034.1; NC_000913.3.
+DR   RefSeq; WP_000774165.1; NZ_LN832404.1.
+DR   PDB; 3GKF; X-ray; 2.90 A; A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S/T=1-291.
+DR   PDB; 3GLC; X-ray; 2.50 A; A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S/T=1-291.
+DR   PDB; 3GND; X-ray; 2.90 A; A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S/T=1-291.
+DR   PDB; 4P2V; X-ray; 2.51 A; A/B/C/D/E/F/G/H/I/K=1-291.
+DR   PDBsum; 3GKF; -.
+DR   PDBsum; 3GLC; -.
+DR   PDBsum; 3GND; -.
+DR   PDBsum; 4P2V; -.
+DR   ProteinModelPortal; P76143; -.
+DR   SMR; P76143; -.
+DR   BioGrid; 4261350; 7.
+DR   DIP; DIP-12754N; -.
+DR   IntAct; P76143; 5.
+DR   STRING; 511145.b1517; -.
+DR   PaxDb; P76143; -.
+DR   PRIDE; P76143; -.
+DR   EnsemblBacteria; AAC74590; AAC74590; b1517.
+DR   EnsemblBacteria; BAE76457; BAE76457; BAE76457.
+DR   GeneID; 946071; -.
+DR   KEGG; ecj:JW1510; -.
+DR   KEGG; eco:b1517; -.
+DR   PATRIC; 32118330; VBIEscCol129921_1585.
+DR   EchoBASE; EB3571; -.
+DR   EcoGene; EG13810; lsrF.
+DR   eggNOG; ENOG41061GT; Bacteria.
+DR   eggNOG; COG1830; LUCA.
+DR   HOGENOM; HOG000224792; -.
+DR   InParanoid; P76143; -.
+DR   KO; K08321; -.
+DR   OMA; IVRHGHR; -.
+DR   PhylomeDB; P76143; -.
+DR   BioCyc; EcoCyc:G6804-MONOMER; -.
+DR   BioCyc; MetaCyc:G6804-MONOMER; -.
+DR   EvolutionaryTrace; P76143; -.
+DR   PRO; PR:P76143; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016829; F:lyase activity; IEA:InterPro.
+DR   GO; GO:0016747; F:transferase activity, transferring acyl groups other than amino-acyl groups; IDA:EcoCyc.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_02052; LsrF; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR002915; DeoC/FbaB/lacD_aldolase.
+DR   InterPro; IPR033673; LsrF.
+DR   Pfam; PF01791; DeoC; 1.
+DR   PIRSF; PIRSF038992; Aldolase_Ia; 1.
+DR   SMART; SM01133; DeoC; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Complete proteome; Cytoplasm; Reference proteome;
+KW   Schiff base; Transferase.
+FT   CHAIN         1    291       3-hydroxy-5-phosphonooxypentane-2,4-dione
+FT                                thiolase.
+FT                                /FTId=PRO_0000138945.
+FT   ACT_SITE    203    203       Schiff-base intermediate with substrate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_02052,
+FT                                ECO:0000269|PubMed:25225400}.
+FT   MUTAGEN      57     57       D->A: No activity.
+FT                                {ECO:0000269|PubMed:25225400}.
+FT   MUTAGEN     203    203       K->A: No activity.
+FT                                {ECO:0000269|PubMed:25225400}.
+FT   MUTAGEN     251    251       D->A: No activity.
+FT                                {ECO:0000269|PubMed:25225400}.
+FT   HELIX        34     43       {ECO:0000244|PDB:3GLC}.
+FT   TURN         46     48       {ECO:0000244|PDB:3GLC}.
+FT   STRAND       51     55       {ECO:0000244|PDB:3GLC}.
+FT   HELIX        59     62       {ECO:0000244|PDB:3GLC}.
+FT   HELIX        71     74       {ECO:0000244|PDB:3GLC}.
+FT   HELIX        76     81       {ECO:0000244|PDB:3GLC}.
+FT   STRAND       83     87       {ECO:0000244|PDB:3GLC}.
+FT   HELIX        89     95       {ECO:0000244|PDB:3GLC}.
+FT   HELIX        98    100       {ECO:0000244|PDB:3GLC}.
+FT   STRAND      104    107       {ECO:0000244|PDB:3GLC}.
+FT   STRAND      109    111       {ECO:0000244|PDB:4P2V}.
+FT   HELIX       127    132       {ECO:0000244|PDB:3GLC}.
+FT   STRAND      136    142       {ECO:0000244|PDB:3GLC}.
+FT   HELIX       149    164       {ECO:0000244|PDB:3GLC}.
+FT   TURN        165    167       {ECO:0000244|PDB:3GLC}.
+FT   STRAND      170    174       {ECO:0000244|PDB:3GLC}.
+FT   HELIX       184    196       {ECO:0000244|PDB:3GLC}.
+FT   STRAND      200    205       {ECO:0000244|PDB:3GLC}.
+FT   TURN        208    210       {ECO:0000244|PDB:3GLC}.
+FT   HELIX       211    216       {ECO:0000244|PDB:3GLC}.
+FT   STRAND      222    225       {ECO:0000244|PDB:3GLC}.
+FT   HELIX       232    244       {ECO:0000244|PDB:3GLC}.
+FT   STRAND      248    253       {ECO:0000244|PDB:3GLC}.
+FT   HELIX       254    257       {ECO:0000244|PDB:3GLC}.
+FT   STRAND      259    261       {ECO:0000244|PDB:3GLC}.
+FT   HELIX       262    275       {ECO:0000244|PDB:3GLC}.
+FT   HELIX       279    287       {ECO:0000244|PDB:3GLC}.
+SQ   SEQUENCE   291 AA;  31893 MW;  D5CC245A5C709F1C CRC64;
+     MADLDDIKDG KDFRTDQPQK NIPFTLKGCG ALDWGMQSRL SRIFNPKTGK TVMLAFDHGY
+     FQGPTTGLER IDINIAPLFE HADVLMCTRG ILRSVVPPAT NRPVVLRASG ANSILAELSN
+     EAVALSMDDA VRLNSCAVAA QVYIGSEYEH QSIKNIIQLV DAGMKVGMPT MAVTGVGKDM
+     VRDQRYFSLA TRIAAEMGAQ IIKTYYVEKG FERIVAGCPV PIVIAGGKKL PEREALEMCW
+     QAIDQGASGV DMGRNIFQSD HPVAMMKAVQ AVVHHNETAD RAYELYLSEK Q
+//

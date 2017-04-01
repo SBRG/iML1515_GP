@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:43:24
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b3198/b3198_protein/sequences/P0ABZ4_3hyc-D.needle
+#    -asequence asis::MSKAGASLATCYGPVSADVIAKAENIRLLILDVDGVLSDGLIYMGNNGEELKAFNVRDGYGIRCALTSDIEVAIITGRKAKLVEDRCATLGITHLYQGQSNKLIAFSDLLEKLAIAPENVAYVGDDLIDWPVMEKVGLSVAVADAHPLLIPRADYVTRIAGGRGAVREVCDLLLLAQGKLDEAKGQSI
+#    -bsequence asis::XXXXXXXLATCYGPVSADVMAKAENIRLLILDVDGVLSDGLIYMGNNGEELKAFNVRDGYGIRCALTSDIEVAIITGRKAKLVEDRCATLGITHLYQGQSNKLIAFSDLLEKLAIAPENVAYVGDDLIDWPVMEKVGLSVAVADAHPLLIPRADYVTRIAGGRGAVREVCDLLLLAQGKLDEA
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b3198/b3198_protein/sequences/P0ABZ4_3hyc-D.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 188
+# Identity:     175/188 (93.1%)
+# Similarity:   176/188 (93.6%)
+# Gaps:           5/188 ( 2.7%)
+# Score: 882.0
+# 
+#
+#=======================================
+
+asis               1 MSKAGASLATCYGPVSADVIAKAENIRLLILDVDGVLSDGLIYMGNNGEE     50
+                     .......||||||||||||:||||||||||||||||||||||||||||||
+asis               1 XXXXXXXLATCYGPVSADVMAKAENIRLLILDVDGVLSDGLIYMGNNGEE     50
+
+asis              51 LKAFNVRDGYGIRCALTSDIEVAIITGRKAKLVEDRCATLGITHLYQGQS    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 LKAFNVRDGYGIRCALTSDIEVAIITGRKAKLVEDRCATLGITHLYQGQS    100
+
+asis             101 NKLIAFSDLLEKLAIAPENVAYVGDDLIDWPVMEKVGLSVAVADAHPLLI    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 NKLIAFSDLLEKLAIAPENVAYVGDDLIDWPVMEKVGLSVAVADAHPLLI    150
+
+asis             151 PRADYVTRIAGGRGAVREVCDLLLLAQGKLDEAKGQSI    188
+                     |||||||||||||||||||||||||||||||||     
+asis             151 PRADYVTRIAGGRGAVREVCDLLLLAQGKLDEA-----    183
+
+
+#---------------------------------------
+#---------------------------------------

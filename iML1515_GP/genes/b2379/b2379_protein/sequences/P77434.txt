@@ -1,0 +1,155 @@
+ID   ALAC_ECOLI              Reviewed;         412 AA.
+AC   P77434;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1997, sequence version 1.
+DT   15-FEB-2017, entry version 119.
+DE   RecName: Full=Glutamate-pyruvate aminotransferase AlaC;
+DE            EC=2.6.1.2;
+GN   Name=alaC; Synonyms=yfdZ; OrderedLocusNames=b2379, JW2376;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=9205837; DOI=10.1093/dnares/4.2.91;
+RA   Yamamoto Y., Aiba H., Baba T., Hayashi K., Inada T., Isono K.,
+RA   Itoh T., Kimura S., Kitagawa M., Makino K., Miki T., Mitsuhashi N.,
+RA   Mizobuchi K., Mori H., Nakade S., Nakamura Y., Nashimoto H.,
+RA   Oshima T., Oyama S., Saito N., Sampei G., Satoh Y., Sivasundaram S.,
+RA   Tagami H., Takahashi H., Takeda J., Takemoto K., Uehara K., Wada C.,
+RA   Yamagata S., Horiuchi T.;
+RT   "Construction of a contiguous 874-kb sequence of the Escherichia coli-
+RT   K12 genome corresponding to 50.0-68.8 min on the linkage map and
+RT   analysis of its sequence features.";
+RL   DNA Res. 4:91-113(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [4]
+RP   INDUCTION BY SGRR.
+RX   PubMed=17209026; DOI=10.1128/JB.01689-06;
+RA   Vanderpool C.K., Gottesman S.;
+RT   "The novel transcription factor SgrR coordinates the response to
+RT   glucose-phosphate stress.";
+RL   J. Bacteriol. 189:2238-2248(2007).
+RN   [5]
+RP   FUNCTION AS AN AMINOTRANSFERASE AND IN ALANINE BIOSYNTHESIS,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, SUBUNIT, INDUCTION, AND NOMENCLATURE.
+RX   PubMed=20729367; DOI=10.1128/JB.00738-10;
+RA   Kim S.H., Schneider B.L., Reitzer L.;
+RT   "Genetics and regulation of the major enzymes of alanine synthesis in
+RT   Escherichia coli.";
+RL   J. Bacteriol. 192:5304-5311(2010).
+RN   [6]
+RP   FUNCTION IN ALANINE BIOSYNTHESIS.
+RX   PubMed=21597182; DOI=10.1271/bbb.100905;
+RA   Yoneyama H., Hori H., Lim S.J., Murata T., Ando T., Isogai E.,
+RA   Katsumata R.;
+RT   "Isolation of a mutant auxotrophic for L-alanine and identification of
+RT   three major aminotransferases that synthesize L-alanine in Escherichia
+RT   coli.";
+RL   Biosci. Biotechnol. Biochem. 75:930-938(2011).
+CC   -!- FUNCTION: Involved in the biosynthesis of alanine.
+CC       {ECO:0000269|PubMed:20729367, ECO:0000269|PubMed:21597182}.
+CC   -!- CATALYTIC ACTIVITY: L-alanine + 2-oxoglutarate = pyruvate + L-
+CC       glutamate.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000305};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.94 mM for pyruvate (at 37 degrees Celsius and pH 8.5)
+CC         {ECO:0000269|PubMed:20729367};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:20729367}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- INDUCTION: Activated by SgrR and modestly repressed by alanine and
+CC       leucine via Lrp. {ECO:0000269|PubMed:17209026,
+CC       ECO:0000269|PubMed:20729367}.
+CC   -!- SIMILARITY: Belongs to the class-I pyridoxal-phosphate-dependent
+CC       aminotransferase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U00096; AAC75438.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAA16249.1; -; Genomic_DNA.
+DR   PIR; H65011; H65011.
+DR   RefSeq; NP_416880.1; NC_000913.3.
+DR   RefSeq; WP_000785931.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P77434; -.
+DR   SMR; P77434; -.
+DR   BioGrid; 4260931; 19.
+DR   DIP; DIP-12010N; -.
+DR   IntAct; P77434; 8.
+DR   STRING; 511145.b2379; -.
+DR   PaxDb; P77434; -.
+DR   PRIDE; P77434; -.
+DR   EnsemblBacteria; AAC75438; AAC75438; b2379.
+DR   EnsemblBacteria; BAA16249; BAA16249; BAA16249.
+DR   GeneID; 946850; -.
+DR   KEGG; ecj:JW2376; -.
+DR   KEGG; eco:b2379; -.
+DR   PATRIC; 32120137; VBIEscCol129921_2477.
+DR   EchoBASE; EB3950; -.
+DR   EcoGene; EG14198; alaC.
+DR   eggNOG; ENOG4105CHM; Bacteria.
+DR   eggNOG; COG0436; LUCA.
+DR   HOGENOM; HOG000223051; -.
+DR   InParanoid; P77434; -.
+DR   KO; K14261; -.
+DR   OMA; IVCYPSN; -.
+DR   PhylomeDB; P77434; -.
+DR   BioCyc; EcoCyc:G7242-MONOMER; -.
+DR   BioCyc; MetaCyc:G7242-MONOMER; -.
+DR   PRO; PR:P77434; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004021; F:L-alanine:2-oxoglutarate aminotransferase activity; IDA:EcoCyc.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0008483; F:transaminase activity; IGI:EcoliWiki.
+DR   GO; GO:0006523; P:alanine biosynthetic process; IGI:EcoliWiki.
+DR   GO; GO:0030632; P:D-alanine biosynthetic process; IMP:UniProtKB.
+DR   GO; GO:0019272; P:L-alanine biosynthetic process from pyruvate; IMP:EcoCyc.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   InterPro; IPR004839; Aminotransferase_I/II.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major_sub1.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_major_sub2.
+DR   Pfam; PF00155; Aminotran_1_2; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+PE   1: Evidence at protein level;
+KW   Aminotransferase; Complete proteome; Cytoplasm; Pyridoxal phosphate;
+KW   Reference proteome; Transferase.
+FT   CHAIN         1    412       Glutamate-pyruvate aminotransferase AlaC.
+FT                                /FTId=PRO_0000123926.
+FT   MOD_RES     244    244       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   412 AA;  46216 MW;  F0F62F84344E588E CRC64;
+     MADTRPERRF TRIDRLPPYV FNITAELKMA ARRRGEDIID FSMGNPDGAT PPHIVEKLCT
+     VAQRPDTHGY STSRGIPRLR RAISRWYQDR YDVEIDPESE AIVTIGSKEG LAHLMLATLD
+     HGDTVLVPNP SYPIHIYGAV IAGAQVRSVP LVEGVDFFNE LERAIRESYP KPKMMILGFP
+     SNPTAQCVEL EFFEKVVALA KRYDVLVVHD LAYADIVYDG WKAPSIMQVP GARDVAVEFF
+     TLSKSYNMAG WRIGFMVGNK TLVSALARIK SYHDYGTFTP LQVAAIAALE GDQQCVRDIA
+     EQYKRRRDVL VKGLHEAGWM VEMPKASMYV WAKIPEPYAA MGSLEFAKKL LNEAKVCVSP
+     GIGFGDYGDT HVRFALIENR DRIRQAIRGI KAMFRADGLL PASSKHIHEN AE
+//

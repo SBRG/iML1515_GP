@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:40:39
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b1850/b1850_protein/sequences/P0A955_1wbh-B.needle
+#    -asequence asis::MKNWKTSAESILTTGPVVPVIVVKKLEHAVPMAKALVAGGVRVLEVTLRTECAVDAIRAIAKEVPEAIVGAGTVLNPQQLAEVTEAGAQFAISPGLTEPLLKAATEGTIPLIPGISTVSELMLGMDYGLKEFKFFPAEANGGVKALQAIAGPFSQVRFCPTGGISPANYRDYLALKSVLCIGGSWLVPADALEAGDYDRITKLAREAVEGAKL
+#    -bsequence asis::AMKNWKTSAESILTTGPVVPVIVVKKLEHAVPMAKALVAGGVRVLNVTLRTECAVDAIRAIAKEVPEAIVGAGTVLNPQQLAEVTEAGAQFAISPGLTEPLLKAATEGTIPLIPGISTVSELMLGMDYGLKEFKFFPAEANGGVKALQAIAGPFSQVRFCPTGGISPANYRDYLALKSVLCIGGSWLVPADALEAGDYDRITKLAREAVEGAKL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b1850/b1850_protein/sequences/P0A955_1wbh-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 214
+# Identity:     212/214 (99.1%)
+# Similarity:   212/214 (99.1%)
+# Gaps:           1/214 ( 0.5%)
+# Score: 1064.0
+# 
+#
+#=======================================
+
+asis               1 -MKNWKTSAESILTTGPVVPVIVVKKLEHAVPMAKALVAGGVRVLEVTLR     49
+                      ||||||||||||||||||||||||||||||||||||||||||||.||||
+asis               1 AMKNWKTSAESILTTGPVVPVIVVKKLEHAVPMAKALVAGGVRVLNVTLR     50
+
+asis              50 TECAVDAIRAIAKEVPEAIVGAGTVLNPQQLAEVTEAGAQFAISPGLTEP     99
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 TECAVDAIRAIAKEVPEAIVGAGTVLNPQQLAEVTEAGAQFAISPGLTEP    100
+
+asis             100 LLKAATEGTIPLIPGISTVSELMLGMDYGLKEFKFFPAEANGGVKALQAI    149
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 LLKAATEGTIPLIPGISTVSELMLGMDYGLKEFKFFPAEANGGVKALQAI    150
+
+asis             150 AGPFSQVRFCPTGGISPANYRDYLALKSVLCIGGSWLVPADALEAGDYDR    199
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 AGPFSQVRFCPTGGISPANYRDYLALKSVLCIGGSWLVPADALEAGDYDR    200
+
+asis             200 ITKLAREAVEGAKL    213
+                     ||||||||||||||
+asis             201 ITKLAREAVEGAKL    214
+
+
+#---------------------------------------
+#---------------------------------------

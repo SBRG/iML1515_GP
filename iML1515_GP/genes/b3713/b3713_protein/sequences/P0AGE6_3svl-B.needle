@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:41:22
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b3713/b3713_protein/sequences/P0AGE6_3svl-B.needle
+#    -asequence asis::MSEKLQVVTLLGSLRKGSFNGMVARTLPKIAPASMEVNALPSIADIPLYDADVQQEEGFPATVEALAEQIRQADGVVIVTPEYNYSVPGGLKNAIDWLSRLPDQPLAGKPVLIQTSSMGVIGGARCQYHLRQILVFLDAMVMNKPEFMGGVIQNKVDPQTGEVIDQGTLDHLTGQLTAFGEFIQRVKI
+#    -bsequence asis::XXXKLQVVTLLGSLRKGSFNGMVARTLPKIAPASMEVNALPSIADIPLYDADVQQEEGFPATVEALAEQIRQADGVVIVTPEYNYSVPGGLKNAIDWLSRLPDQPLAGKPVLIQTSSMGVIGGARCQYHLRQILVFLDAMVMNKPEFMGGVIQNKVDPQTGEVIDQGTLDHLTGQLTAFGEFIQR
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b3713/b3713_protein/sequences/P0AGE6_3svl-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 188
+# Identity:     182/188 (96.8%)
+# Similarity:   182/188 (96.8%)
+# Gaps:           3/188 ( 1.6%)
+# Score: 924.0
+# 
+#
+#=======================================
+
+asis               1 MSEKLQVVTLLGSLRKGSFNGMVARTLPKIAPASMEVNALPSIADIPLYD     50
+                     ...|||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXKLQVVTLLGSLRKGSFNGMVARTLPKIAPASMEVNALPSIADIPLYD     50
+
+asis              51 ADVQQEEGFPATVEALAEQIRQADGVVIVTPEYNYSVPGGLKNAIDWLSR    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 ADVQQEEGFPATVEALAEQIRQADGVVIVTPEYNYSVPGGLKNAIDWLSR    100
+
+asis             101 LPDQPLAGKPVLIQTSSMGVIGGARCQYHLRQILVFLDAMVMNKPEFMGG    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 LPDQPLAGKPVLIQTSSMGVIGGARCQYHLRQILVFLDAMVMNKPEFMGG    150
+
+asis             151 VIQNKVDPQTGEVIDQGTLDHLTGQLTAFGEFIQRVKI    188
+                     |||||||||||||||||||||||||||||||||||   
+asis             151 VIQNKVDPQTGEVIDQGTLDHLTGQLTAFGEFIQR---    185
+
+
+#---------------------------------------
+#---------------------------------------

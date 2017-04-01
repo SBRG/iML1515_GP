@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:54:58
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b3199/b3199_protein/sequences/P0ADV9_3my2-A.needle
+#    -asequence asis::MSKARRWVIIVLSLAVLVMIGINMAEKDDTAQVVVNNNDPTYKSEHTDTLVYNPEGALSYRLIAQHVEYYSDQAVSWFTQPVLTTFDKDKIPTWSVKADKAKLTNDRMLYLYGHVEVNALVPDSQLRRITTDNAQINLVTQDVTSEDLVTLYGTTFNSSGLKMRGNLRSKNAELIEKVRTSYEIQNKQTQP
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXSYRLIAQHVEYYSDQAVSWFTQPVLTTFDKDKIPTWSVKADKAKLTNDRXLYLYGHVEVNALVPDSQLRRITTDNAQINLVTQDVTSEDLVTLYGTTFNSSGLKXRGNLRSKNAELIEKVRTSYEI
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b3199/b3199_protein/sequences/P0ADV9_3my2-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 247
+# Identity:     124/247 (50.2%)
+# Similarity:   124/247 (50.2%)
+# Gaps:         119/247 (48.2%)
+# Score: 593.5
+# 
+#
+#=======================================
+
+asis               1 MSKARRWVIIVLSLAVLVMIGINMAEKDDTAQVVVNNNDPTYKSEHTDTL     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 VYNPEG--------------------------------------------     56
+                                                                       
+asis               1 ------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     44
+
+asis              57 ------------ALSYRLIAQHVEYYSDQAVSWFTQPVLTTFDKDKIPTW     94
+                                 ..||||||||||||||||||||||||||||||||||||
+asis              45 XXXXXXXXXXXXXXSYRLIAQHVEYYSDQAVSWFTQPVLTTFDKDKIPTW     94
+
+asis              95 SVKADKAKLTNDRMLYLYGHVEVNALVPDSQLRRITTDNAQINLVTQDVT    144
+                     |||||||||||||.||||||||||||||||||||||||||||||||||||
+asis              95 SVKADKAKLTNDRXLYLYGHVEVNALVPDSQLRRITTDNAQINLVTQDVT    144
+
+asis             145 SEDLVTLYGTTFNSSGLKMRGNLRSKNAELIEKVRTSYEIQNKQTQP    191
+                     ||||||||||||||||||.|||||||||||||||||||||       
+asis             145 SEDLVTLYGTTFNSSGLKXRGNLRSKNAELIEKVRTSYEI-------    184
+
+
+#---------------------------------------
+#---------------------------------------

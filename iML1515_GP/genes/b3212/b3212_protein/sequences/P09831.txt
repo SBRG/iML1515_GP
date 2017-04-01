@@ -1,0 +1,220 @@
+ID   GLTB_ECOLI              Reviewed;        1486 AA.
+AC   P09831; Q2M900;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   30-NOV-2010, sequence version 3.
+DT   15-MAR-2017, entry version 154.
+DE   RecName: Full=Glutamate synthase [NADPH] large chain;
+DE            EC=1.4.1.13;
+DE   AltName: Full=Glutamate synthase subunit alpha;
+DE            Short=GLTS alpha chain;
+DE   AltName: Full=NADPH-GOGAT;
+DE   Flags: Precursor;
+GN   Name=gltB; Synonyms=aspB; OrderedLocusNames=b3212, JW3179;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PARTIAL PROTEIN SEQUENCE.
+RC   STRAIN=K12;
+RX   PubMed=3326786; DOI=10.1016/0378-1119(87)90207-1;
+RA   Oliver G., Gosset G., Sanchez-Pescador R., Lozoya E., Ku L.M.,
+RA   Flores N., Becerril B., Valle F., Bolivar F.;
+RT   "Determination of the nucleotide sequence for the glutamate synthase
+RT   structural genes of Escherichia coli K-12.";
+RL   Gene 60:1-11(1987).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-273.
+RX   PubMed=1673677; DOI=10.1128/jb.173.10.3261-3264.1991;
+RA   Velazquez L., Camarena L., Reyes J.L., Bastarrachea F.;
+RT   "Mutations affecting the Shine-Dalgarno sequences of the untranslated
+RT   region of the Escherichia coli gltBDF operon.";
+RL   J. Bacteriol. 173:3261-3264(1991).
+RN   [5]
+RP   DISCUSSION OF SEQUENCE.
+RX   PubMed=2643092;
+RA   Gosset G., Merino E., Recillas F., Oliver G., Becerril B., Bolivar F.;
+RT   "Amino acid sequence analysis of the glutamate synthase enzyme from
+RT   Escherichia coli K-12.";
+RL   Protein Seq. Data Anal. 2:9-16(1989).
+CC   -!- CATALYTIC ACTIVITY: 2 L-glutamate + NADP(+) = L-glutamine + 2-
+CC       oxoglutarate + NADPH.
+CC   -!- COFACTOR:
+CC       Name=[3Fe-4S] cluster; Xref=ChEBI:CHEBI:21137;
+CC       Note=Binds 1 [3Fe-4S] cluster.;
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210;
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-glutamate biosynthesis via GLT
+CC       pathway; L-glutamate from 2-oxoglutarate and L-glutamine (NADP(+)
+CC       route): step 1/1.
+CC   -!- PATHWAY: Energy metabolism; nitrogen metabolism.
+CC   -!- SUBUNIT: Aggregate of 4 catalytic active heterodimers, consisting
+CC       of a large and a small subunit.
+CC   -!- INTERACTION:
+CC       P09832:gltD; NbExp=2; IntAct=EBI-551179, EBI-544293;
+CC   -!- MISCELLANEOUS: Glutamine binds to the large subunit and transfers
+CC       the amido group to 2-oxo-glutamate that apparently binds to the
+CC       small subunit.
+CC   -!- SIMILARITY: Belongs to the glutamate synthase family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA23904.1; Type=Erroneous initiation; Note=Translation N-terminally shortened.; Evidence={ECO:0000305};
+CC       Sequence=AAA23906.1; Type=Erroneous initiation; Note=Translation N-terminally shortened.; Evidence={ECO:0000305};
+CC       Sequence=AAA58014.1; Type=Erroneous initiation; Note=Translation N-terminally shortened.; Evidence={ECO:0000305};
+CC       Sequence=BAE77256.1; Type=Erroneous initiation; Note=Translation N-terminally shortened.; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M18747; AAA23904.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; U18997; AAA58014.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; U00096; AAC76244.2; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE77256.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; M68876; AAA23906.1; ALT_INIT; Genomic_DNA.
+DR   PIR; F65112; F65112.
+DR   RefSeq; NP_417679.2; NC_000913.3.
+DR   RefSeq; WP_001300352.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P09831; -.
+DR   SMR; P09831; -.
+DR   BioGrid; 4263210; 332.
+DR   DIP; DIP-9802N; -.
+DR   IntAct; P09831; 8.
+DR   MINT; MINT-1248755; -.
+DR   STRING; 511145.b3212; -.
+DR   MEROPS; C44.003; -.
+DR   PaxDb; P09831; -.
+DR   PRIDE; P09831; -.
+DR   EnsemblBacteria; AAC76244; AAC76244; b3212.
+DR   EnsemblBacteria; BAE77256; BAE77256; BAE77256.
+DR   GeneID; 947724; -.
+DR   KEGG; ecj:JW3179; -.
+DR   KEGG; eco:b3212; -.
+DR   PATRIC; 32121846; VBIEscCol129921_3307.
+DR   EchoBASE; EB0398; -.
+DR   EcoGene; EG10403; gltB.
+DR   eggNOG; ENOG4105CBC; Bacteria.
+DR   eggNOG; COG0067; LUCA.
+DR   eggNOG; COG0069; LUCA.
+DR   eggNOG; COG0070; LUCA.
+DR   HOGENOM; HOG000031558; -.
+DR   InParanoid; P09831; -.
+DR   KO; K00265; -.
+DR   PhylomeDB; P09831; -.
+DR   BioCyc; EcoCyc:GLUSYNLARGE-MONOMER; -.
+DR   BioCyc; MetaCyc:GLUSYNLARGE-MONOMER; -.
+DR   BRENDA; 1.4.1.13; 2026.
+DR   UniPathway; UPA00045; -.
+DR   UniPathway; UPA00634; UER00689.
+DR   PRO; PR:P09831; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IDA:EcoCyc.
+DR   GO; GO:0051538; F:3 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004355; F:glutamate synthase (NADPH) activity; IDA:EcoCyc.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019676; P:ammonia assimilation cycle; IBA:GO_Central.
+DR   GO; GO:0006537; P:glutamate biosynthetic process; IDA:EcoCyc.
+DR   GO; GO:0097054; P:L-glutamate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd02808; GltS_FMN; 1.
+DR   Gene3D; 2.160.20.60; -; 1.
+DR   Gene3D; 3.20.20.70; -; 2.
+DR   Gene3D; 3.60.20.10; -; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR017932; GATase_2_dom.
+DR   InterPro; IPR002489; Glu_synth_asu_C.
+DR   InterPro; IPR006982; Glu_synth_centr_N.
+DR   InterPro; IPR002932; Glu_synthdom.
+DR   InterPro; IPR029055; Ntn_hydrolases_N.
+DR   Pfam; PF00310; GATase_2; 1.
+DR   Pfam; PF04898; Glu_syn_central; 1.
+DR   Pfam; PF01645; Glu_synthase; 1.
+DR   Pfam; PF01493; GXGXG; 1.
+DR   SUPFAM; SSF56235; SSF56235; 1.
+DR   SUPFAM; SSF69336; SSF69336; 1.
+DR   PROSITE; PS51278; GATASE_TYPE_2; 1.
+PE   1: Evidence at protein level;
+KW   3Fe-4S; Amino-acid biosynthesis; Complete proteome;
+KW   Direct protein sequencing; FAD; Flavoprotein; FMN;
+KW   Glutamate biosynthesis; Glutamine amidotransferase; Iron; Iron-sulfur;
+KW   Metal-binding; NADP; Oxidoreductase; Reference proteome; Zymogen.
+FT   PROPEP        1     11
+FT                                /FTId=PRO_0000011620.
+FT   CHAIN        12   1486       Glutamate synthase [NADPH] large chain.
+FT                                /FTId=PRO_0000011621.
+FT   DOMAIN       12    402       Glutamine amidotransferase type-2.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00609}.
+FT   NP_BIND    1049   1101       FMN. {ECO:0000250}.
+FT   ACT_SITE     12     12       For GATase activity. {ECO:0000250}.
+FT   METAL      1102   1102       Iron-sulfur (3Fe-4S). {ECO:0000250}.
+FT   METAL      1108   1108       Iron-sulfur (3Fe-4S). {ECO:0000250}.
+FT   METAL      1113   1113       Iron-sulfur (3Fe-4S). {ECO:0000250}.
+FT   CONFLICT     74     78       GWRLA -> LAFR (in Ref. 1; AAA23904).
+FT                                {ECO:0000305}.
+FT   CONFLICT    109    109       E -> N (in Ref. 1; AAA23904).
+FT                                {ECO:0000305}.
+FT   CONFLICT    189    209       LCMPTDLPRFYLDLADLRLES -> CVCRRICRVLSGSCGP
+FT                                ASGM (in Ref. 1; AAA23904).
+FT                                {ECO:0000305}.
+FT   CONFLICT    228    251       LAQPFRYLAHNGEINTITGNRQWA -> WRNRSAIWRITVK
+FT                                STPSPVTANG (in Ref. 1; AAA23904 and 4;
+FT                                AAA23906). {ECO:0000305}.
+FT   CONFLICT    429    429       N -> K (in Ref. 1; AAA23904).
+FT                                {ECO:0000305}.
+FT   CONFLICT    543    543       A -> T (in Ref. 1; AAA23904).
+FT                                {ECO:0000305}.
+FT   CONFLICT    832    832       D -> H (in Ref. 1; AAA23904).
+FT                                {ECO:0000305}.
+FT   CONFLICT   1255   1259       THGDQ -> DARRS (in Ref. 1; AAA23904).
+FT                                {ECO:0000305}.
+FT   CONFLICT   1342   1342       G -> A (in Ref. 1; AAA23904).
+FT                                {ECO:0000305}.
+FT   CONFLICT   1345   1345       G -> R (in Ref. 1; AAA23904).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   1486 AA;  163297 MW;  19C1E5B04F94A33D CRC64;
+     MLYDKSLERD NCGFGLIAHI EGEPSHKVVR TAIHALARMQ HRGAILADGK TGDGCGLLLQ
+     KPDRFFRIVA QERGWRLAKN YAVGMLFLNK DPELAAAARR IVEEELQRET LSIVGWRDVP
+     TNEGVLGEIA LSSLPRIEQI FVNAPAGWRP RDMERRLFIA RRRIEKRLEA DKDFYVCSLS
+     NLVNIYKGLC MPTDLPRFYL DLADLRLESA ICLFHQRFST NTVPRWPLAQ PFRYLAHNGE
+     INTITGNRQW ARARTYKFQT PLIPDLHDAA PFVNETGSDS SSMDNMLELL LAGGMDIIRA
+     MRLLVPPAWQ NNPDMDPELR AFFDFNSMHM EPWDGPAGIV MSDGRFAACN LDRNGLRPAR
+     YVITKDKLIT CASEVGIWDY QPDEVVEKGR VGPGELMVID TRSGRILHSA ETDDDLKSRH
+     PYKEWMEKNV RRLVPFEDLP DEEVGSRELD DDTLASYQKQ FNYSAEELDS VIRVLGENGQ
+     EAVGSMGDDT PFAVLSSQPR IIYDYFRQQF AQVTNPPIDP LREAHVMSLA TSIGREMNVF
+     CEAEGQAHRL SFKSPILLYS DFKQLTTMKE EHYRADTLDI TFDVTKTTLE ATVKELCDKA
+     EKMVRSGTVL LVLSDRNIAK DRLPVPAPMA VGAIQTRLVD QSLRCDANII VETASARDPH
+     HFAVLLGFGA TAIYPYLAYE TLGRLVDTHA IAKDYRTVML NYRNGINKGL YKIMSKMGIS
+     TIASYRCSKL FEAVGLHDDV VGLCFQGAVS RIGGASFEDF QQDLLNLSKR AWLARKPISQ
+     GGLLKYVHGG EYHAYNPDVV RTLQQAVQSG EYSDYQEYAK LVNERPATTL RDLLAITPGE
+     NAVNIADVEP ASELFKRFDT AAMSIGALSP EAHEALAEAM NSIGGNSNSG EGGEDPARYG
+     TNKVSRIKQV ASGRFGVTPA YLVNADVIQI KVAQGAKPGE GGQLPGDKVT PYIAKLRYSV
+     PGVTLISPPP HHDIYSIEDL AQLIFDLKQV NPKAMISVKL VSEPGVGTIA TGVAKAYADL
+     ITIAGYDGGT GASPLSSVKY AGCPWELGLV ETQQALVANG LRHKIRLQVD GGLKTGVDII
+     KAAILGAESF GFGTGPMVAL GCKYLRICHL NNCATGVATQ DDKLRKNHYH GLPFKVTNYF
+     EFIARETREL MAQLGVTRLV DLIGRTDLLK ELDGFTAKQQ KLALSKLLET AEPHPGKALY
+     CTENNPPFDN GLLNAQLLQQ AKPFVDERQS KTFWFDIRNT DRSVGASLSG YIAQTHGDQG
+     LAADPIKAYF NGTAGQSFGV WNAGGVELYL TGDANDYVGK GMAGGLIAIR PPVGSAFRSH
+     EASIIGNTCL YGATGGRLYA AGRAGERFGV RNSGAITVVE GIGDNGCEYM TGGIVCILGK
+     TGVNFGAGMT GGFAYVLDES GDFRKRVNPE LVEVLSVDAL AIHEEHLRGL ITEHVQHTGS
+     QRGEEILANW STFATKFALV KPKSSDVKAL LGHRSRSAAE LRVQAQ
+//

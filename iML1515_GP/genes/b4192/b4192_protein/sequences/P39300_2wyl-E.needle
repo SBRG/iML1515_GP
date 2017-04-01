@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:44:52
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b4192/b4192_protein/sequences/P39300_2wyl-E.needle
+#    -asequence asis::MSKVKSITRESWILSTFPEWGSWLNEEIEQEQVAPGTFAMWWLGCTGIWLKSEGGTNVCVDFWCGTGKQSHGNPLMKQGHQMQRMAGVKKLQPNLRTTPFVLDPFAIRQIDAVLATHDHNDHIDVNVAAAVMQNCADDVPFIGPKTCVDLWIGWGVPKERCIVVKPGDVVKVKDIEIHALDAFDRTALITLPADQKAAGVLPDGMDDRAVNYLFKTPGGSLYHSGDSHYSNYYAKHGNEHQIDVALGSYGENPRGITDKMTSADMLRMGEALNAKVVIPFHHDIWSNFQADPQEIRVLWEMKKDRLKYGFKPFIWQVGGKFTWPLDKDNFEYHYPRGFDDCFTIEPDLPFKSFL
+#    -bsequence asis::XSKVKSITRESWILSTFPEWGSWLNEEIEQEQVAPGTFAXWWLGCTGIWLKSEGGTNVCVDFWCGTGKQSHGXXXXXXXXXXXXXXXXXKLQPNLRTTPFVLDPFAIRQIDAVLATHDHNDHIDVNVAAAVXQNCADDVPFIGPKTCVDLWIGWGVPKERCIVVKPGDVVKVKDIEIHALDAFDRXXXXXXXXXXXXXXXXXXXXDDRAVNYLFKTPGGSLYHSGDSHYSNYYAKHGNEHQIDVALGSYGENPRGITDKXTSADXLRXGEALNAKVVIPFHHDIWSNFQADPQEIRVLWEXKKDRLKYGFKPFIWQVGGKFTWPLDKDNFEYHYPRGF
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b4192/b4192_protein/sequences/P39300_2wyl-E.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 354
+# Identity:     294/354 (83.1%)
+# Similarity:   294/354 (83.1%)
+# Gaps:          16/354 ( 4.5%)
+# Score: 1604.0
+# 
+#
+#=======================================
+
+asis               1 MSKVKSITRESWILSTFPEWGSWLNEEIEQEQVAPGTFAMWWLGCTGIWL     50
+                     .||||||||||||||||||||||||||||||||||||||.||||||||||
+asis               1 XSKVKSITRESWILSTFPEWGSWLNEEIEQEQVAPGTFAXWWLGCTGIWL     50
+
+asis              51 KSEGGTNVCVDFWCGTGKQSHGNPLMKQGHQMQRMAGVKKLQPNLRTTPF    100
+                     ||||||||||||||||||||||.................|||||||||||
+asis              51 KSEGGTNVCVDFWCGTGKQSHGXXXXXXXXXXXXXXXXXKLQPNLRTTPF    100
+
+asis             101 VLDPFAIRQIDAVLATHDHNDHIDVNVAAAVMQNCADDVPFIGPKTCVDL    150
+                     |||||||||||||||||||||||||||||||.||||||||||||||||||
+asis             101 VLDPFAIRQIDAVLATHDHNDHIDVNVAAAVXQNCADDVPFIGPKTCVDL    150
+
+asis             151 WIGWGVPKERCIVVKPGDVVKVKDIEIHALDAFDRTALITLPADQKAAGV    200
+                     |||||||||||||||||||||||||||||||||||...............
+asis             151 WIGWGVPKERCIVVKPGDVVKVKDIEIHALDAFDRXXXXXXXXXXXXXXX    200
+
+asis             201 LPDGMDDRAVNYLFKTPGGSLYHSGDSHYSNYYAKHGNEHQIDVALGSYG    250
+                     .....|||||||||||||||||||||||||||||||||||||||||||||
+asis             201 XXXXXDDRAVNYLFKTPGGSLYHSGDSHYSNYYAKHGNEHQIDVALGSYG    250
+
+asis             251 ENPRGITDKMTSADMLRMGEALNAKVVIPFHHDIWSNFQADPQEIRVLWE    300
+                     |||||||||.||||.||.||||||||||||||||||||||||||||||||
+asis             251 ENPRGITDKXTSADXLRXGEALNAKVVIPFHHDIWSNFQADPQEIRVLWE    300
+
+asis             301 MKKDRLKYGFKPFIWQVGGKFTWPLDKDNFEYHYPRGFDDCFTIEPDLPF    350
+                     .|||||||||||||||||||||||||||||||||||||            
+asis             301 XKKDRLKYGFKPFIWQVGGKFTWPLDKDNFEYHYPRGF------------    338
+
+asis             351 KSFL    354
+                         
+asis             338 ----    338
+
+
+#---------------------------------------
+#---------------------------------------

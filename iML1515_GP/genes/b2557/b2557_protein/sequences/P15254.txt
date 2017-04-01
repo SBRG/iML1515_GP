@@ -1,0 +1,210 @@
+ID   PUR4_ECOLI              Reviewed;        1295 AA.
+AC   P15254; P78097; Q2MAH3;
+DT   01-APR-1990, integrated into UniProtKB/Swiss-Prot.
+DT   04-DEC-2007, sequence version 3.
+DT   15-MAR-2017, entry version 163.
+DE   RecName: Full=Phosphoribosylformylglycinamidine synthase {ECO:0000255|HAMAP-Rule:MF_00419};
+DE            Short=FGAM synthase {ECO:0000255|HAMAP-Rule:MF_00419};
+DE            Short=FGAMS {ECO:0000255|HAMAP-Rule:MF_00419};
+DE            EC=6.3.5.3 {ECO:0000255|HAMAP-Rule:MF_00419};
+DE   AltName: Full=Formylglycinamide ribonucleotide amidotransferase {ECO:0000255|HAMAP-Rule:MF_00419};
+DE            Short=FGAR amidotransferase {ECO:0000255|HAMAP-Rule:MF_00419};
+DE            Short=FGAR-AT {ECO:0000255|HAMAP-Rule:MF_00419};
+GN   Name=purL {ECO:0000255|HAMAP-Rule:MF_00419}; Synonyms=purI;
+GN   OrderedLocusNames=b2557, JW2541;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 1-13, FUNCTION,
+RP   CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, SUBCELLULAR
+RP   LOCATION, AND SUBUNIT.
+RX   PubMed=2659070; DOI=10.1021/bi00432a017;
+RA   Schendel F.J., Mueller E., Stubbe J., Shiau A., Smith J.M.;
+RT   "Formylglycinamide ribonucleotide synthetase from Escherichia coli:
+RT   cloning, sequencing, overproduction, isolation, and
+RT   characterization.";
+RL   Biochemistry 28:2459-2471(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2531746;
+RA   Sampei G., Mizobuchi K.;
+RT   "The organization of the purL gene encoding 5'-
+RT   phosphoribosylformylglycinamide amidotransferase of Escherichia
+RT   coli.";
+RL   J. Biol. Chem. 264:21230-21238(1989).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [4]
+RP   SEQUENCE REVISION TO 847.
+RX   PubMed=16397293; DOI=10.1093/nar/gkj405;
+RA   Riley M., Abe T., Arnaud M.B., Berlyn M.K.B., Blattner F.R.,
+RA   Chaudhuri R.R., Glasner J.D., Horiuchi T., Keseler I.M., Kosuge T.,
+RA   Mori H., Perna N.T., Plunkett G. III, Rudd K.E., Serres M.H.,
+RA   Thomas G.H., Thomson N.R., Wishart D., Wanner B.L.;
+RT   "Escherichia coli K-12: a cooperatively developed annotation snapshot
+RT   -- 2005.";
+RL   Nucleic Acids Res. 34:1-9(2006).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+CC   -!- FUNCTION: Phosphoribosylformylglycinamidine synthase involved in
+CC       the purines biosynthetic pathway. Catalyzes the ATP-dependent
+CC       conversion of formylglycinamide ribonucleotide (FGAR) and
+CC       glutamine to yield formylglycinamidine ribonucleotide (FGAM) and
+CC       glutamate. {ECO:0000255|HAMAP-Rule:MF_00419,
+CC       ECO:0000269|PubMed:2659070}.
+CC   -!- CATALYTIC ACTIVITY: ATP + N(2)-formyl-N(1)-(5-phospho-D-
+CC       ribosyl)glycinamide + L-glutamine + H(2)O = ADP + phosphate + 2-
+CC       (formamido)-N(1)-(5-phospho-D-ribosyl)acetamidine + L-glutamate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00419, ECO:0000269|PubMed:2659070}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=64 uM for glutamine (at pH 7.25 and 37 degrees Celsius)
+CC         {ECO:0000269|PubMed:2659070};
+CC         KM=51 uM for ATP (at pH 7.25 and 37 degrees Celsius)
+CC         {ECO:0000269|PubMed:2659070};
+CC         KM=30 uM for FGAR (formylglycinamide ribonucleotide at pH 7.25
+CC         and 37 degrees Celsius) {ECO:0000269|PubMed:2659070};
+CC       pH dependence:
+CC         Optimum pH is 7.2 with only 50% of this activity retains at pH
+CC         6.2 or 8.0. {ECO:0000269|PubMed:2659070};
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway;
+CC       5-amino-1-(5-phospho-D-ribosyl)imidazole from N(2)-formyl-N(1)-(5-
+CC       phospho-D-ribosyl)glycinamide: step 1/2. {ECO:0000255|HAMAP-
+CC       Rule:MF_00419}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00419,
+CC       ECO:0000269|PubMed:2659070}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00419,
+CC       ECO:0000269|PubMed:2659070}.
+CC   -!- PTM: Both N-terminus methionine truncation and retention have been
+CC       observed for this protein. {ECO:0000269|PubMed:2659070}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the FGAMS
+CC       family. {ECO:0000255|HAMAP-Rule:MF_00419}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M19501; AAA24456.1; -; Genomic_DNA.
+DR   EMBL; U36841; AAA79819.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAT48143.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE76733.1; -; Genomic_DNA.
+DR   PIR; D65033; SYECPG.
+DR   RefSeq; WP_000970102.1; NZ_LN832404.1.
+DR   RefSeq; YP_026170.1; NC_000913.3.
+DR   ProteinModelPortal; P15254; -.
+DR   SMR; P15254; -.
+DR   BioGrid; 4259206; 41.
+DR   DIP; DIP-10614N; -.
+DR   IntAct; P15254; 8.
+DR   MINT; MINT-1262623; -.
+DR   STRING; 511145.b2557; -.
+DR   MEROPS; C56.972; -.
+DR   PaxDb; P15254; -.
+DR   PRIDE; P15254; -.
+DR   EnsemblBacteria; AAT48143; AAT48143; b2557.
+DR   EnsemblBacteria; BAE76733; BAE76733; BAE76733.
+DR   GeneID; 947032; -.
+DR   KEGG; ecj:JW2541; -.
+DR   KEGG; eco:b2557; -.
+DR   PATRIC; 32120513; VBIEscCol129921_2659.
+DR   EchoBASE; EB0790; -.
+DR   EcoGene; EG10797; purL.
+DR   eggNOG; ENOG4107QIK; Bacteria.
+DR   eggNOG; COG0046; LUCA.
+DR   eggNOG; COG0047; LUCA.
+DR   HOGENOM; HOG000261359; -.
+DR   InParanoid; P15254; -.
+DR   KO; K01952; -.
+DR   OMA; KAETHNF; -.
+DR   PhylomeDB; P15254; -.
+DR   BioCyc; EcoCyc:FGAMSYN-MONOMER; -.
+DR   BioCyc; MetaCyc:FGAMSYN-MONOMER; -.
+DR   UniPathway; UPA00074; UER00128.
+DR   PRO; PR:P15254; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IDA:EcoliWiki.
+DR   GO; GO:0005829; C:cytosol; IDA:EcoCyc.
+DR   GO; GO:0005524; F:ATP binding; IDA:EcoliWiki.
+DR   GO; GO:0042623; F:ATPase activity, coupled; IDA:EcoliWiki.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004642; F:phosphoribosylformylglycinamidine synthase activity; IDA:EcoCyc.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IC:EcoliWiki.
+DR   GO; GO:0006541; P:glutamine metabolic process; IDA:EcoliWiki.
+DR   Gene3D; 3.30.1330.10; -; 2.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   HAMAP; MF_00419; PurL_1; 1.
+DR   InterPro; IPR010918; AIR_synth_C_dom.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR017926; GATASE.
+DR   InterPro; IPR010073; PRibForGlyAmidine_synth.
+DR   InterPro; IPR016188; PurM-like_N.
+DR   PANTHER; PTHR10099:SF7; PTHR10099:SF7; 1.
+DR   Pfam; PF02769; AIRS_C; 2.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+DR   SUPFAM; SSF56042; SSF56042; 2.
+DR   TIGRFAMs; TIGR01735; FGAM_synt; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Complete proteome; Cytoplasm; Direct protein sequencing;
+KW   Glutamine amidotransferase; Ligase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Purine biosynthesis; Reference proteome.
+FT   CHAIN         1   1295       Phosphoribosylformylglycinamidine
+FT                                synthase.
+FT                                /FTId=PRO_0000100406.
+FT   DOMAIN     1042   1295       Glutamine amidotransferase type-1.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00419}.
+FT   NP_BIND     307    318       ATP. {ECO:0000255|HAMAP-Rule:MF_00419}.
+FT   ACT_SITE   1135   1135       Nucleophile. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00419}.
+FT   ACT_SITE   1260   1260       {ECO:0000255|HAMAP-Rule:MF_00419}.
+FT   ACT_SITE   1262   1262       {ECO:0000255|HAMAP-Rule:MF_00419}.
+FT   METAL       718    718       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00419}.
+FT   METAL       722    722       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00419}.
+FT   METAL       884    884       Magnesium. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00419}.
+FT   BINDING     678    678       ATP; via carbonyl oxygen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00419}.
+FT   BINDING     886    886       ATP. {ECO:0000255|HAMAP-Rule:MF_00419}.
+SQ   SEQUENCE   1295 AA;  141403 MW;  30943AA218D758FE CRC64;
+     MMEILRGSPA LSAFRINKLL ARFQAARLPV HNIYAEYVHF ADLNAPLNDD EHAQLERLLK
+     YGPALASHAP QGKLLLVTPR PGTISPWSSK ATDIAHNCGL QQVNRLERGV AYYIEAGTLT
+     NEQWQQVTAE LHDRMMETVF FALDDAEQLF AHHQPTPVTS VDLLGQGRQA LIDANLRLGL
+     ALAEDEIDYL QDAFTKLGRN PNDIELYMFA QANSEHCRHK IFNADWVIDG EQQPKSLFKM
+     IKNTFETTPD HVLSAYKDNA AVMEGSEVGR YFADHETGRY DFHQEPAHIL MKVETHNHPT
+     AISPWPGAAT GSGGEIRDEG ATGRGAKPKA GLVGFSVSNL RIPGFEQPWE EDFGKPERIV
+     TALDIMTEGP LGGAAFNNEF GRPALNGYFR TYEEKVNSHN GEELRGYHKP IMLAGGIGNI
+     RADHVQKGEI NVGAKLVVLG GPAMNIGLGG GAASSMASGQ SDADLDFASV QRDNPEMERR
+     CQEVIDRCWQ LGDANPILFI HDVGAGGLSN AMPELVSDGG RGGKFELREI LSDEPGMSPL
+     EIWCNESQER YVLAVAADQL PLFDELCKRE RAPYAVIGEA TEELHLSLHD RHFDNQPIDL
+     PLDVLLGKTP KMTRDVQTLK AKGDALAREG ITIADAVKRV LHLPTVAEKT FLVTIGDRSV
+     TGMVARDQMV GPWQVPVANC AVTTASLDSY YGEAMAIGER APVALLDFAA SARLAVGEAL
+     TNIAATQIGD IKRIKLSANW MAAAGHPGED AGLYEAVKAV GEELCPALGL TIPVGKDSMS
+     MKTRWQEGNE EREMTSPLSL VISAFARVED VRHTITPQLS TEDNALLLID LGKGNNALGA
+     TALAQVYRQL GDKPADVRDV AQLKGFYDAI QALVAQRKLL AYHDRSDGGL LVTLAEMAFA
+     GHCGIDADIA TLGDDRLAAL FNEELGAVIQ VRAADREAVE SVLAQHGLAD CVHYVGQAVS
+     GDRFVITANG QTVFSESRTT LRVWWAETTW QMQRLRDNPE CADQEHQAKS NDADPGLNVK
+     LSFDINEDVA APYIATGARP KVAVLREQGV NSHVEMAAAF HRAGFDAIDV HMSDLLTGRT
+     GLEDFHALVA CGGFSYGDVL GAGEGWAKSI LFNDRVRDEF ATFFHRPQTL ALGVCNGCQM
+     MSNLRELIPG SELWPRFVRN TSDRFEARFS LVEVTQSPSL LLQGMVGSQM PIAVSHGEGR
+     VEVRDAAHLA ALESKGLVAL RYVDNFGKVT ETYPANPNGS PNGITAVTTE SGRVTIMMPH
+     PERVFRTVSN SWHPENWGED GPWMRIFRNA RKQLG
+//

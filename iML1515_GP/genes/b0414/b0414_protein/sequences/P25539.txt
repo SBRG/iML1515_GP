@@ -1,0 +1,236 @@
+ID   RIBD_ECOLI              Reviewed;         367 AA.
+AC   P25539; Q2MC12;
+DT   01-MAY-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1992, sequence version 1.
+DT   15-MAR-2017, entry version 148.
+DE   RecName: Full=Riboflavin biosynthesis protein RibD;
+DE   Includes:
+DE     RecName: Full=Diaminohydroxyphosphoribosylaminopyrimidine deaminase;
+DE              Short=DRAP deaminase;
+DE              EC=3.5.4.26;
+DE     AltName: Full=Riboflavin-specific deaminase;
+DE   Includes:
+DE     RecName: Full=5-amino-6-(5-phosphoribosylamino)uracil reductase;
+DE              EC=1.1.1.193;
+DE     AltName: Full=HTP reductase;
+GN   Name=ribD; Synonyms=ribG, ybaE; OrderedLocusNames=b0414, JW0404;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=K12;
+RX   PubMed=1406588; DOI=10.1007/BF00538702;
+RA   Taura T., Ueguchi C., Shiba K., Ito K.;
+RT   "Insertional disruption of the nusB (ssyB) gene leads to cold-
+RT   sensitive growth of Escherichia coli and suppression of the secY24
+RT   mutation.";
+RL   Mol. Gen. Genet. 234:429-432(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RA   Chung E., Allen E., Araujo R., Aparicio A.M., Davis K., Duncan M.,
+RA   Federspiel N., Hyman R., Kalman S., Komp C., Kurdi O., Lew H., Lin D.,
+RA   Namath A., Oefner P., Roberts D., Schramm S., Davis R.W.;
+RT   "Sequence of minutes 4-25 of Escherichia coli.";
+RL   Submitted (JAN-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [5]
+RP   CHARACTERIZATION.
+RX   PubMed=9068650; DOI=10.1128/jb.179.6.2022-2028.1997;
+RA   Richter G., Fischer M., Krieger C., Eberhardt S., Luttgen H.,
+RA   Gerstenschlager I., Bacher A.;
+RT   "Biosynthesis of riboflavin: characterization of the bifunctional
+RT   deaminase-reductase of Escherichia coli and Bacillus subtilis.";
+RL   J. Bacteriol. 179:2022-2028(1997).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (2.6 ANGSTROMS) IN COMPLEXES WITH
+RP   RIBOSE-5-PHOSPHATE AND NADP, AND SUBUNIT.
+RX   PubMed=17765262; DOI=10.1016/j.jmb.2006.12.009;
+RA   Stenmark P., Moche M., Gurmu D., Nordlund P.;
+RT   "The crystal structure of the bifunctional deaminase/reductase RibD of
+RT   the riboflavin biosynthetic pathway in Escherichia coli: implications
+RT   for the reductive mechanism.";
+RL   J. Mol. Biol. 373:48-64(2007).
+CC   -!- FUNCTION: Converts 2,5-diamino-6-(ribosylamino)-4(3h)-pyrimidinone
+CC       5'-phosphate into 5-amino-6-(ribosylamino)-2,4(1h,3h)-
+CC       pyrimidinedione 5'-phosphate.
+CC   -!- CATALYTIC ACTIVITY: 2,5-diamino-6-hydroxy-4-(5-
+CC       phosphoribosylamino)pyrimidine + H(2)O = 5-amino-6-(5-
+CC       phosphoribosylamino)uracil + NH(3).
+CC   -!- CATALYTIC ACTIVITY: 5-amino-6-(5-phospho-D-ribitylamino)uracil +
+CC       NADP(+) = 5-amino-6-(5-phospho-D-ribosylamino)uracil + NADPH.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion. {ECO:0000250};
+CC   -!- PATHWAY: Cofactor biosynthesis; riboflavin biosynthesis; 5-amino-
+CC       6-(D-ribitylamino)uracil from GTP: step 2/4.
+CC   -!- PATHWAY: Cofactor biosynthesis; riboflavin biosynthesis; 5-amino-
+CC       6-(D-ribitylamino)uracil from GTP: step 3/4.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:17765262}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the cytidine and
+CC       deoxycytidylate deaminase family. {ECO:0000305}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the HTP
+CC       reductase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X64395; CAA45735.1; -; Genomic_DNA.
+DR   EMBL; U82664; AAB40170.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC73517.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE76194.1; -; Genomic_DNA.
+DR   PIR; S26201; S26201.
+DR   RefSeq; NP_414948.1; NC_000913.3.
+DR   RefSeq; WP_001150457.1; NZ_LN832404.1.
+DR   PDB; 2G6V; X-ray; 2.60 A; A/B=2-367.
+DR   PDB; 2O7P; X-ray; 3.00 A; A/B=2-367.
+DR   PDB; 2OBC; X-ray; 3.00 A; A/B=2-367.
+DR   PDBsum; 2G6V; -.
+DR   PDBsum; 2O7P; -.
+DR   PDBsum; 2OBC; -.
+DR   ProteinModelPortal; P25539; -.
+DR   SMR; P25539; -.
+DR   BioGrid; 4263249; 17.
+DR   DIP; DIP-10708N; -.
+DR   IntAct; P25539; 34.
+DR   MINT; MINT-1221612; -.
+DR   STRING; 511145.b0414; -.
+DR   PaxDb; P25539; -.
+DR   PRIDE; P25539; -.
+DR   EnsemblBacteria; AAC73517; AAC73517; b0414.
+DR   EnsemblBacteria; BAE76194; BAE76194; BAE76194.
+DR   GeneID; 945620; -.
+DR   KEGG; ecj:JW0404; -.
+DR   KEGG; eco:b0414; -.
+DR   PATRIC; 32115977; VBIEscCol129921_0430.
+DR   EchoBASE; EB1297; -.
+DR   EcoGene; EG11321; ribD.
+DR   eggNOG; ENOG4105D1W; Bacteria.
+DR   eggNOG; COG0117; LUCA.
+DR   eggNOG; COG1985; LUCA.
+DR   HOGENOM; HOG000257442; -.
+DR   InParanoid; P25539; -.
+DR   KO; K11752; -.
+DR   OMA; GHRWRAR; -.
+DR   PhylomeDB; P25539; -.
+DR   BioCyc; EcoCyc:RIBOFLAVINSYNDEAM-MONOMER; -.
+DR   BioCyc; MetaCyc:RIBOFLAVINSYNDEAM-MONOMER; -.
+DR   BRENDA; 1.1.1.193; 2165.
+DR   UniPathway; UPA00275; UER00401.
+DR   UniPathway; UPA00275; UER00402.
+DR   EvolutionaryTrace; P25539; -.
+DR   PRO; PR:P25539; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0008703; F:5-amino-6-(5-phosphoribosylamino)uracil reductase activity; IDA:EcoCyc.
+DR   GO; GO:0008835; F:diaminohydroxyphosphoribosylaminopyrimidine deaminase activity; IDA:EcoCyc.
+DR   GO; GO:0050661; F:NADP binding; IDA:EcoCyc.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0009231; P:riboflavin biosynthetic process; IDA:EcoCyc.
+DR   Gene3D; 3.40.430.10; -; 1.
+DR   InterPro; IPR016192; APOBEC/CMP_deaminase_Zn-bd.
+DR   InterPro; IPR002125; CMP_dCMP_Zn-bd.
+DR   InterPro; IPR016193; Cytidine_deaminase-like.
+DR   InterPro; IPR024072; DHFR-like_dom.
+DR   InterPro; IPR004794; Eubact_RibD.
+DR   InterPro; IPR011549; RibD_C.
+DR   InterPro; IPR002734; RibDG_C.
+DR   Pfam; PF00383; dCMP_cyt_deam_1; 1.
+DR   Pfam; PF01872; RibD_C; 1.
+DR   PIRSF; PIRSF006769; RibD; 1.
+DR   SUPFAM; SSF53597; SSF53597; 1.
+DR   SUPFAM; SSF53927; SSF53927; 1.
+DR   TIGRFAMs; TIGR00326; eubact_ribD; 1.
+DR   TIGRFAMs; TIGR00227; ribD_Cterm; 1.
+DR   PROSITE; PS00903; CYT_DCMP_DEAMINASES_1; 1.
+DR   PROSITE; PS51747; CYT_DCMP_DEAMINASES_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Complete proteome; Hydrolase; Metal-binding;
+KW   Multifunctional enzyme; NADP; Oxidoreductase; Reference proteome;
+KW   Riboflavin biosynthesis; Zinc.
+FT   CHAIN         1    367       Riboflavin biosynthesis protein RibD.
+FT                                /FTId=PRO_0000171721.
+FT   DOMAIN        1    123       CMP/dCMP-type deaminase.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU01083}.
+FT   NP_BIND     161    164       NADP.
+FT   NP_BIND     301    304       NADP.
+FT   REGION        1    145       Deaminase.
+FT   REGION      146    367       Reductase.
+FT   ACT_SITE     52     52       Proton donor. {ECO:0000250}.
+FT   METAL        50     50       Zinc; catalytic. {ECO:0000250}.
+FT   METAL        75     75       Zinc; catalytic. {ECO:0000250}.
+FT   METAL        84     84       Zinc; catalytic. {ECO:0000250}.
+FT   BINDING     168    168       Substrate.
+FT   BINDING     170    170       NADP.
+FT   BINDING     184    184       Substrate.
+FT   BINDING     196    196       NADP.
+FT   BINDING     200    200       NADP.
+FT   BINDING     204    204       Substrate; via amide nitrogen.
+FT   BINDING     207    207       Substrate.
+FT   BINDING     234    234       NADP.
+FT   BINDING     299    299       Substrate.
+FT   HELIX         2     14       {ECO:0000244|PDB:2OBC}.
+FT   HELIX        15     17       {ECO:0000244|PDB:2OBC}.
+FT   TURN         18     20       {ECO:0000244|PDB:2OBC}.
+FT   STRAND       28     33       {ECO:0000244|PDB:2OBC}.
+FT   STRAND       36     42       {ECO:0000244|PDB:2OBC}.
+FT   STRAND       46     48       {ECO:0000244|PDB:2OBC}.
+FT   HELIX        51     59       {ECO:0000244|PDB:2OBC}.
+FT   HELIX        60     63       {ECO:0000244|PDB:2OBC}.
+FT   STRAND       64     66       {ECO:0000244|PDB:2OBC}.
+FT   STRAND       68     72       {ECO:0000244|PDB:2OBC}.
+FT   HELIX        85     91       {ECO:0000244|PDB:2OBC}.
+FT   STRAND       96    100       {ECO:0000244|PDB:2OBC}.
+FT   HELIX       111    117       {ECO:0000244|PDB:2OBC}.
+FT   STRAND      122    124       {ECO:0000244|PDB:2OBC}.
+FT   HELIX       128    134       {ECO:0000244|PDB:2OBC}.
+FT   HELIX       136    143       {ECO:0000244|PDB:2OBC}.
+FT   STRAND      144    146       {ECO:0000244|PDB:2OBC}.
+FT   STRAND      148    156       {ECO:0000244|PDB:2OBC}.
+FT   STRAND      164    166       {ECO:0000244|PDB:2OBC}.
+FT   HELIX       174    185       {ECO:0000244|PDB:2OBC}.
+FT   STRAND      187    193       {ECO:0000244|PDB:2OBC}.
+FT   HELIX       194    200       {ECO:0000244|PDB:2OBC}.
+FT   HELIX       208    210       {ECO:0000244|PDB:2OBC}.
+FT   HELIX       214    217       {ECO:0000244|PDB:2OBC}.
+FT   HELIX       221    223       {ECO:0000244|PDB:2OBC}.
+FT   STRAND      228    232       {ECO:0000244|PDB:2OBC}.
+FT   HELIX       243    245       {ECO:0000244|PDB:2OBC}.
+FT   STRAND      247    249       {ECO:0000244|PDB:2OBC}.
+FT   STRAND      251    257       {ECO:0000244|PDB:2OBC}.
+FT   STRAND      267    271       {ECO:0000244|PDB:2OBC}.
+FT   HELIX       281    290       {ECO:0000244|PDB:2OBC}.
+FT   STRAND      295    298       {ECO:0000244|PDB:2OBC}.
+FT   HELIX       302    311       {ECO:0000244|PDB:2OBC}.
+FT   STRAND      315    323       {ECO:0000244|PDB:2OBC}.
+FT   STRAND      349    356       {ECO:0000244|PDB:2OBC}.
+FT   STRAND      359    365       {ECO:0000244|PDB:2OBC}.
+SQ   SEQUENCE   367 AA;  40338 MW;  B19CEF474D48D14D CRC64;
+     MQDEYYMARA LKLAQRGRFT THPNPNVGCV IVKDGEIVGE GYHQRAGEPH AEVHALRMAG
+     EKAKGATAYV TLEPCSHHGR TPPCCDALIA AGVARVVASM QDPNPQVAGR GLYRLQQAGI
+     DVSHGLMMSE AEQLNKGFLK RMRTGFPYIQ LKLGASLDGR TAMASGESQW ITSPQARRDV
+     QLLRAQSHAI LTSSATVLAD DPALTVRWSE LDEQTQALYP QQNLRQPIRI VIDSQNRVTP
+     VHRIVQQPGE TWFARTQEDS REWPETVRTL LIPEHKGHLD LVVLMMQLGK QQINSIWVEA
+     GPTLAGALLQ AGLVDELIVY IAPKLLGSDA RGLCTLPGLE KLADAPQFKF KEIRHVGPDV
+     CLHLVGA
+//

@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:56:10
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b4209/b4209_protein/sequences/P69506_5fnp-B.needle
+#    -asequence asis::MAYRDQPLGELALSIPRASALFRKYDMDYCCGGKQTLARAAARKELDVEVIEAELAKLAEQPIEKDWRSAPLAEIIDHIIVRYHDRHREQLPELILQATKVERVHADKPSVPKGLTKYLTMLHEELSSHMMKEEQILFPMIKQGMGSQAMGPISVMESEHDEAGELLEVIKHTTNNVTPPPEACTTWKAMYNGINELIDDLMDHISLENNVLFPRALAGE
+#    -bsequence asis::XXYRDQPLGELALSIPRASALFRKYDMDYAAGGKQTLARAAARKELDVEVIEAELXXXXXXXXEKDWRSAPLAEIIDHIIVRYHDRHREQLPELILQATKVERVHADKPSVPKGLTKYLTMLHEELSSHMMKEEQILFPMIKQGMGSQAMGPISVMESEHDEAGELLEVIKHTTNNVTPPPEACTTWKAMYNGINELIDDLMDHISLENNVLFPRALAGE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b4209/b4209_protein/sequences/P69506_5fnp-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 220
+# Identity:     208/220 (94.5%)
+# Similarity:   208/220 (94.5%)
+# Gaps:           0/220 ( 0.0%)
+# Score: 1067.0
+# 
+#
+#=======================================
+
+asis               1 MAYRDQPLGELALSIPRASALFRKYDMDYCCGGKQTLARAAARKELDVEV     50
+                     ..|||||||||||||||||||||||||||..|||||||||||||||||||
+asis               1 XXYRDQPLGELALSIPRASALFRKYDMDYAAGGKQTLARAAARKELDVEV     50
+
+asis              51 IEAELAKLAEQPIEKDWRSAPLAEIIDHIIVRYHDRHREQLPELILQATK    100
+                     |||||........|||||||||||||||||||||||||||||||||||||
+asis              51 IEAELXXXXXXXXEKDWRSAPLAEIIDHIIVRYHDRHREQLPELILQATK    100
+
+asis             101 VERVHADKPSVPKGLTKYLTMLHEELSSHMMKEEQILFPMIKQGMGSQAM    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 VERVHADKPSVPKGLTKYLTMLHEELSSHMMKEEQILFPMIKQGMGSQAM    150
+
+asis             151 GPISVMESEHDEAGELLEVIKHTTNNVTPPPEACTTWKAMYNGINELIDD    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 GPISVMESEHDEAGELLEVIKHTTNNVTPPPEACTTWKAMYNGINELIDD    200
+
+asis             201 LMDHISLENNVLFPRALAGE    220
+                     ||||||||||||||||||||
+asis             201 LMDHISLENNVLFPRALAGE    220
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,200 @@
+ID   GPMI_ECOLI              Reviewed;         514 AA.
+AC   P37689; Q2M7S6;
+DT   01-OCT-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1994, sequence version 1.
+DT   15-FEB-2017, entry version 134.
+DE   RecName: Full=2,3-bisphosphoglycerate-independent phosphoglycerate mutase {ECO:0000303|PubMed:10437801};
+DE            Short=BPG-independent PGAM {ECO:0000303|PubMed:10437801};
+DE            Short=Phosphoglyceromutase {ECO:0000303|PubMed:10437801};
+DE            Short=iPGM {ECO:0000303|PubMed:10437801};
+DE            EC=5.4.2.12 {ECO:0000269|PubMed:10437801};
+GN   Name=gpmI {ECO:0000255|HAMAP-Rule:MF_01038}; Synonyms=pgmI, yibO;
+GN   OrderedLocusNames=b3612, JW3587;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=8041620; DOI=10.1093/nar/22.13.2576;
+RA   Sofia H.J., Burland V., Daniels D.L., Plunkett G. III, Blattner F.R.;
+RT   "Analysis of the Escherichia coli genome. V. DNA sequence of the
+RT   region from 76.0 to 81.5 minutes.";
+RL   Nucleic Acids Res. 22:2576-2586(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [4]
+RP   IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=B / BL21;
+RX   PubMed=10493123;
+RX   DOI=10.1002/(SICI)1522-2683(19990801)20:11<2181::AID-ELPS2181>3.0.CO;2-Q;
+RA   Fountoulakis M., Takacs M.-F., Berndt P., Langen H., Takacs B.;
+RT   "Enrichment of low abundance proteins of Escherichia coli by
+RT   hydroxyapatite chromatography.";
+RL   Electrophoresis 20:2181-2195(1999).
+RN   [5]
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, COFACTOR,
+RP   ENZYME REGULATION, DEVELOPMENTAL STAGE, AND SUBUNIT.
+RX   PubMed=10437801; DOI=10.1016/S0014-5793(99)00910-2;
+RA   Fraser H.I., Kvaratskhelia M., White M.F.;
+RT   "The two analogous phosphoglycerate mutases of Escherichia coli.";
+RL   FEBS Lett. 455:344-348(1999).
+CC   -!- FUNCTION: Catalyzes the interconversion of 2-phosphoglycerate (2-
+CC       PGA) and 3-phosphoglycerate (3-PGA).
+CC       {ECO:0000269|PubMed:10437801}.
+CC   -!- CATALYTIC ACTIVITY: 2-phospho-D-glycerate = 3-phospho-D-glycerate.
+CC       {ECO:0000269|PubMed:10437801}.
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000269|PubMed:10437801};
+CC       Note=Binds 2 manganese ions per subunit.
+CC       {ECO:0000269|PubMed:10437801};
+CC   -!- ENZYME REGULATION: Insensitive to vanadate.
+CC       {ECO:0000269|PubMed:10437801}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=210 uM for 3-PGA (at pH 7 and 30 degrees Celsius)
+CC         {ECO:0000269|PubMed:10437801};
+CC         KM=97 uM for 2-PGA (at pH 7 and 30 degrees Celsius)
+CC         {ECO:0000269|PubMed:10437801};
+CC         Note=Kcat is 22 sec(-1) for mutase with 3-PGA as substrate (at
+CC         pH 7 and 30 degrees Celsius). Kcat is 10 sec(-1) for mutase with
+CC         2-PGA as substrate (at pH 7 and 30 degrees Celsius).
+CC         {ECO:0000269|PubMed:10437801};
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; pyruvate from D-
+CC       glyceraldehyde 3-phosphate: step 3/5. {ECO:0000305}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000269|PubMed:10437801}.
+CC   -!- DEVELOPMENTAL STAGE: Expressed most strongly in early exponential
+CC       growth, with levels falling off as cells reached late log phase
+CC       and stationary phase. {ECO:0000269|PubMed:10437801}.
+CC   -!- MISCELLANEOUS: Inhibition by vanadate is a diagnostic test for
+CC       discrimination between the cofactor-dependent (GpmA) and
+CC       -independent (GpmI) phosphoglycerate mutases.
+CC       {ECO:0000269|PubMed:10437801}.
+CC   -!- SIMILARITY: Belongs to the BPG-independent phosphoglycerate mutase
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U00039; AAB18589.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC76636.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE77680.1; -; Genomic_DNA.
+DR   PIR; S47833; S47833.
+DR   RefSeq; NP_418069.1; NC_000913.3.
+DR   RefSeq; WP_001350558.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P37689; -.
+DR   SMR; P37689; -.
+DR   BioGrid; 4263294; 13.
+DR   DIP; DIP-12425N; -.
+DR   IntAct; P37689; 4.
+DR   STRING; 511145.b3612; -.
+DR   SWISS-2DPAGE; P37689; -.
+DR   PaxDb; P37689; -.
+DR   PRIDE; P37689; -.
+DR   EnsemblBacteria; AAC76636; AAC76636; b3612.
+DR   EnsemblBacteria; BAE77680; BAE77680; BAE77680.
+DR   GeneID; 948130; -.
+DR   KEGG; ecj:JW3587; -.
+DR   KEGG; eco:b3612; -.
+DR   PATRIC; 32122711; VBIEscCol129921_3732.
+DR   EchoBASE; EB2204; -.
+DR   EcoGene; EG12296; gpmI.
+DR   eggNOG; ENOG4105CJI; Bacteria.
+DR   eggNOG; COG0696; LUCA.
+DR   HOGENOM; HOG000223664; -.
+DR   InParanoid; P37689; -.
+DR   KO; K15633; -.
+DR   OMA; LHIATMT; -.
+DR   PhylomeDB; P37689; -.
+DR   BioCyc; EcoCyc:PGMI-MONOMER; -.
+DR   BioCyc; MetaCyc:PGMI-MONOMER; -.
+DR   SABIO-RK; P37689; -.
+DR   UniPathway; UPA00109; UER00186.
+DR   PRO; PR:P37689; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0005829; C:cytosol; IDA:EcoCyc.
+DR   GO; GO:0046537; F:2,3-bisphosphoglycerate-independent phosphoglycerate mutase activity; IDA:EcoCyc.
+DR   GO; GO:0030145; F:manganese ion binding; IDA:EcoCyc.
+DR   GO; GO:0006007; P:glucose catabolic process; IEA:InterPro.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006979; P:response to oxidative stress; IMP:EcoCyc.
+DR   Gene3D; 3.40.1450.10; -; 1.
+DR   Gene3D; 3.40.720.10; -; 2.
+DR   HAMAP; MF_01038; GpmI; 1.
+DR   InterPro; IPR017849; Alkaline_Pase-like_a/b/a.
+DR   InterPro; IPR017850; Alkaline_phosphatase_core.
+DR   InterPro; IPR011258; BPG-indep_PGM_N.
+DR   InterPro; IPR006124; Metalloenzyme.
+DR   InterPro; IPR005995; Pgm_bpd_ind.
+DR   Pfam; PF06415; iPGM_N; 1.
+DR   Pfam; PF01676; Metalloenzyme; 1.
+DR   PIRSF; PIRSF001492; IPGAM; 1.
+DR   SUPFAM; SSF53649; SSF53649; 2.
+DR   SUPFAM; SSF64158; SSF64158; 1.
+DR   TIGRFAMs; TIGR01307; pgm_bpd_ind; 1.
+PE   1: Evidence at protein level;
+KW   Complete proteome; Glycolysis; Isomerase; Manganese; Metal-binding;
+KW   Reference proteome.
+FT   CHAIN         1    514       2,3-bisphosphoglycerate-independent
+FT                                phosphoglycerate mutase.
+FT                                /FTId=PRO_0000212145.
+FT   REGION      155    156       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01038}.
+FT   REGION      263    266       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01038}.
+FT   ACT_SITE     64     64       Phosphoserine intermediate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01038}.
+FT   METAL        14     14       Manganese 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01038}.
+FT   METAL        64     64       Manganese 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01038}.
+FT   METAL       403    403       Manganese 1. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01038}.
+FT   METAL       407    407       Manganese 1. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01038}.
+FT   METAL       444    444       Manganese 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01038}.
+FT   METAL       445    445       Manganese 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01038}.
+FT   METAL       463    463       Manganese 1. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01038}.
+FT   BINDING     125    125       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01038}.
+FT   BINDING     187    187       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01038}.
+FT   BINDING     193    193       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01038}.
+FT   BINDING     336    336       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01038}.
+SQ   SEQUENCE   514 AA;  56194 MW;  BD4173C2BA2CEDD8 CRC64;
+     MLVSKKPMVL VILDGYGYRE EQQDNAIFSA KTPVMDALWA NRPHTLIDAS GLEVGLPDRQ
+     MGNSEVGHVN LGAGRIVYQD LTRLDVEIKD RAFFANPVLT GAVDKAKNAG KAVHIMGLLS
+     AGGVHSHEDH IMAMVELAAE RGAEKIYLHA FLDGRDTPPR SAESSLKKFE EKFAALGKGR
+     VASIIGRYYA MDRDNRWDRV EKAYDLLTLA QGEFQADTAV AGLQAAYARD ENDEFVKATV
+     IRAEGQPDAA MEDGDALIFM NFRADRAREI TRAFVNADFD GFARKKVVNV DFVMLTEYAA
+     DIKTAVAYPP ASLVNTFGEW MAKNDKTQLR ISETEKYAHV TFFFNGGVEE SFKGEDRILI
+     NSPKVATYDL QPEMSSAELT EKLVAAIKSG KYDTIICNYP NGDMVGHTGV MEAAVKAVEA
+     LDHCVEEVAK AVESVGGQLL ITADHGNAEQ MRDPATGQAH TAHTNLPVPL IYVGDKNVKA
+     VEGGKLSDIA PTMLSLMGME IPQEMTGKPL FIVE
+//

@@ -1,0 +1,184 @@
+ID   FADJ_ECOLI              Reviewed;         714 AA.
+AC   P77399; Q6KCX2;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1997, sequence version 1.
+DT   15-FEB-2017, entry version 147.
+DE   RecName: Full=Fatty acid oxidation complex subunit alpha;
+DE   Includes:
+DE     RecName: Full=Enoyl-CoA hydratase/3-hydroxybutyryl-CoA epimerase;
+DE              EC=4.2.1.17;
+DE              EC=5.1.2.3;
+DE   Includes:
+DE     RecName: Full=3-hydroxyacyl-CoA dehydrogenase;
+DE              EC=1.1.1.35;
+GN   Name=fadJ; Synonyms=yfcX; OrderedLocusNames=b2341, JW2338;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=9205837; DOI=10.1093/dnares/4.2.91;
+RA   Yamamoto Y., Aiba H., Baba T., Hayashi K., Inada T., Isono K.,
+RA   Itoh T., Kimura S., Kitagawa M., Makino K., Miki T., Mitsuhashi N.,
+RA   Mizobuchi K., Mori H., Nakade S., Nakamura Y., Nashimoto H.,
+RA   Oshima T., Oyama S., Saito N., Sampei G., Satoh Y., Sivasundaram S.,
+RA   Tagami H., Takahashi H., Takeda J., Takemoto K., Uehara K., Wada C.,
+RA   Yamagata S., Horiuchi T.;
+RT   "Construction of a contiguous 874-kb sequence of the Escherichia coli-
+RT   K12 genome corresponding to 50.0-68.8 min on the linkage map and
+RT   analysis of its sequence features.";
+RL   DNA Res. 4:91-113(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [4]
+RP   FUNCTION.
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=12270828; DOI=10.1128/JB.184.20.5696-5705.2002;
+RA   Snell K.D., Feng F., Zhong L., Martin D., Madison L.L.;
+RT   "YfcX enables medium-chain-length poly(3-hydroxyalkanoate) formation
+RT   from fatty acids in recombinant Escherichia coli fadB strains.";
+RL   J. Bacteriol. 184:5696-5705(2002).
+RN   [5]
+RP   FUNCTION IN ANAEROBIC BETA-OXIDATION PATHWAY.
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=12535077; DOI=10.1046/j.1365-2958.2003.03341.x;
+RA   Campbell J.W., Morgan-Kiss R.M., Cronan J.E. Jr.;
+RT   "A new Escherichia coli metabolic competency: growth on fatty acids by
+RT   a novel anaerobic beta-oxidation pathway.";
+RL   Mol. Microbiol. 47:793-805(2003).
+CC   -!- FUNCTION: Catalyzes the formation of a hydroxyacyl-CoA by addition
+CC       of water on enoyl-CoA. Also exhibits 3-hydroxyacyl-CoA epimerase
+CC       and 3-hydroxyacyl-CoA dehydrogenase activities. Strongly involved
+CC       in the anaerobic degradation of long and medium-chain fatty acids
+CC       in the presence of nitrate and weakly involved in the aerobic
+CC       degradation of long-chain fatty acids.
+CC       {ECO:0000269|PubMed:12270828, ECO:0000269|PubMed:12535077}.
+CC   -!- CATALYTIC ACTIVITY: (3S)-3-hydroxyacyl-CoA = trans-2(or 3)-enoyl-
+CC       CoA + H(2)O.
+CC   -!- CATALYTIC ACTIVITY: (S)-3-hydroxyacyl-CoA + NAD(+) = 3-oxoacyl-CoA
+CC       + NADH.
+CC   -!- CATALYTIC ACTIVITY: (S)-3-hydroxybutanoyl-CoA = (R)-3-
+CC       hydroxybutanoyl-CoA.
+CC   -!- PATHWAY: Lipid metabolism; fatty acid beta-oxidation.
+CC   -!- SUBUNIT: Heterotetramer of two alpha chains (FadJ) and two beta
+CC       chains (FadI). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- INDUCTION: Unlike the aerobic pathway, the anaerobic pathway is
+CC       not strongly repressed by FadR regulatory protein.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the enoyl-CoA
+CC       hydratase/isomerase family. {ECO:0000305}.
+CC   -!- SIMILARITY: In the central section; belongs to the 3-hydroxyacyl-
+CC       CoA dehydrogenase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U00096; AAC75401.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAA16195.1; -; Genomic_DNA.
+DR   PIR; C65007; C65007.
+DR   RefSeq; NP_416843.1; NC_000913.3.
+DR   RefSeq; WP_000426176.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P77399; -.
+DR   SMR; P77399; -.
+DR   BioGrid; 4260533; 252.
+DR   DIP; DIP-11990N; -.
+DR   IntAct; P77399; 8.
+DR   STRING; 511145.b2341; -.
+DR   EPD; P77399; -.
+DR   PaxDb; P77399; -.
+DR   PRIDE; P77399; -.
+DR   EnsemblBacteria; AAC75401; AAC75401; b2341.
+DR   EnsemblBacteria; BAA16195; BAA16195; BAA16195.
+DR   GeneID; 949097; -.
+DR   KEGG; ecj:JW2338; -.
+DR   KEGG; eco:b2341; -.
+DR   PATRIC; 32120055; VBIEscCol129921_2437.
+DR   EchoBASE; EB3879; -.
+DR   EcoGene; EG14127; fadJ.
+DR   eggNOG; ENOG4105DYT; Bacteria.
+DR   eggNOG; COG1024; LUCA.
+DR   eggNOG; COG1250; LUCA.
+DR   HOGENOM; HOG000261346; -.
+DR   InParanoid; P77399; -.
+DR   KO; K01782; -.
+DR   OMA; MMMLNEA; -.
+DR   PhylomeDB; P77399; -.
+DR   BioCyc; EcoCyc:G7212-MONOMER; -.
+DR   BioCyc; MetaCyc:G7212-MONOMER; -.
+DR   UniPathway; UPA00659; -.
+DR   PRO; PR:P77399; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003857; F:3-hydroxyacyl-CoA dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008692; F:3-hydroxybutyryl-CoA epimerase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004300; F:enoyl-CoA hydratase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0006635; P:fatty acid beta-oxidation; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 1.10.1040.10; -; 2.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   Gene3D; 3.90.226.10; -; 1.
+DR   HAMAP; MF_01617; FadJ; 1.
+DR   InterPro; IPR006180; 3-OHacyl-CoA_DH_CS.
+DR   InterPro; IPR006176; 3-OHacyl-CoA_DH_NAD-bd.
+DR   InterPro; IPR006108; 3HC_DH_C.
+DR   InterPro; IPR008927; 6-PGluconate_DH_C-like.
+DR   InterPro; IPR013328; 6PGD_dom_2.
+DR   InterPro; IPR029045; ClpP/crotonase-like_dom.
+DR   InterPro; IPR001753; Crotonase_core_superfam.
+DR   InterPro; IPR012802; FadJ.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   Pfam; PF00725; 3HCDH; 2.
+DR   Pfam; PF02737; 3HCDH_N; 1.
+DR   Pfam; PF00378; ECH_1; 1.
+DR   SUPFAM; SSF48179; SSF48179; 2.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   SUPFAM; SSF52096; SSF52096; 1.
+DR   TIGRFAMs; TIGR02440; FadJ; 1.
+DR   PROSITE; PS00067; 3HCDH; 1.
+PE   1: Evidence at protein level;
+KW   Complete proteome; Cytoplasm; Fatty acid metabolism; Isomerase;
+KW   Lipid degradation; Lipid metabolism; Lyase; Multifunctional enzyme;
+KW   NAD; Oxidoreductase; Reference proteome.
+FT   CHAIN         1    714       Fatty acid oxidation complex subunit
+FT                                alpha.
+FT                                /FTId=PRO_0000109298.
+FT   REGION        1    190       Enoyl-CoA hydratase.
+FT   REGION      306    714       3-hydroxyacyl-CoA dehydrogenase.
+FT   SITE        118    118       Important for catalytic activity.
+FT                                {ECO:0000250}.
+FT   SITE        140    140       Important for catalytic activity.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   714 AA;  77072 MW;  F4E0A75680039A0D CRC64;
+     MEMTSAFTLN VRLDNIAVIT IDVPGEKMNT LKAEFASQVR AIIKQLRENK ELRGVVFVSA
+     KPDNFIAGAD INMIGNCKTA QEAEALARQG QQLMAEIHAL PIQVIAAIHG ACLGGGLELA
+     LACHGRVCTD DPKTVLGLPE VQLGLLPGSG GTQRLPRLIG VSTALEMILT GKQLRAKQAL
+     KLGLVDDVVP HSILLEAAVE LAKKERPSSR PLPVRERILA GPLGRALLFK MVGKKTEHKT
+     QGNYPATERI LEVVETGLAQ GTSSGYDAEA RAFGELAMTP QSQALRSIFF ASTDVKKDPG
+     SDAPPAPLNS VGILGGGLMG GGIAYVTACK AGIPVRIKDI NPQGINHALK YSWDQLEGKV
+     RRRHLKASER DKQLALISGT TDYRGFAHRD LIIEAVFENL ELKQQMVAEV EQNCAAHTIF
+     ASNTSSLPIG DIAAHATRPE QVIGLHFFSP VEKMPLVEII PHAGTSAQTI ATTVKLAKKQ
+     GKTPIVVRDK AGFYVNRILA PYINEAIRML TQGERVEHID AALVKFGFPV GPIQLLDEVG
+     IDTGTKIIPV LEAAYGERFS APANVVSSIL NDDRKGRKNG RGFYLYGQKG RKSKKQVDPA
+     IYPLIGTQGQ GRISAPQVAE RCVMLMLNEA VRCVDEQVIR SVRDGDIGAV FGIGFPPFLG
+     GPFRYIDSLG AGEVVAIMQR LATQYGSRFT PCERLVEMGA RGESFWKTTA TDLQ
+//

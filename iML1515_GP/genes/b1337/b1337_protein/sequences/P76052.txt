@@ -1,0 +1,141 @@
+ID   ABGB_ECOLI              Reviewed;         481 AA.
+AC   P76052; Q2MBF2;
+DT   11-JAN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1997, sequence version 1.
+DT   15-FEB-2017, entry version 118.
+DE   RecName: Full=p-aminobenzoyl-glutamate hydrolase subunit B;
+DE            EC=3.5.1.-;
+DE   AltName: Full=PABA-GLU hydrolase;
+DE            Short=PGH;
+GN   Name=abgB; Synonyms=ydaI; OrderedLocusNames=b1337, JW1331;
+GN   ORFNames=ECK1333;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 1-10, FUNCTION AS A PABA-GLU HYDROLASE,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, SUBUNIT, AND COFACTOR.
+RX   PubMed=20190044; DOI=10.1128/JB.01362-09;
+RA   Green J.M., Hollandsworth R., Pitstick L., Carter E.L.;
+RT   "Purification and characterization of the folate catabolic enzyme p-
+RT   aminobenzoyl-glutamate hydrolase from Escherichia coli.";
+RL   J. Bacteriol. 192:2407-2413(2010).
+RN   [4]
+RP   INDUCTION.
+RX   PubMed=9829935;
+RA   Hussein M.J., Green J.M., Nichols B.P.;
+RT   "Characterization of mutations that allow p-aminobenzoyl-glutamate
+RT   utilization by Escherichia coli.";
+RL   J. Bacteriol. 180:6260-6268(1998).
+RN   [5]
+RP   FUNCTION AS A PABA-GLU HYDROLASE.
+RX   PubMed=17307853; DOI=10.1128/JB.01940-06;
+RA   Carter E.L., Jager L., Gardner L., Hall C.C., Willis S., Green J.M.;
+RT   "Escherichia coli abg genes enable uptake and cleavage of the folate
+RT   catabolite p-aminobenzoyl-glutamate.";
+RL   J. Bacteriol. 189:3329-3334(2007).
+CC   -!- FUNCTION: Component of the p-aminobenzoyl-glutamate hydrolase
+CC       multicomponent enzyme system which catalyzes the cleavage of p-
+CC       aminobenzoyl-glutamate (PABA-GLU) to form p-aminobenzoate (PABA)
+CC       and glutamate. AbgAB does not degrade dipeptides and the
+CC       physiological role of abgABT should be clarified.
+CC       {ECO:0000269|PubMed:17307853, ECO:0000269|PubMed:20190044}.
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000269|PubMed:20190044};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=60 uM for PABA-GLU (at pH 8.5) {ECO:0000269|PubMed:20190044};
+CC   -!- SUBUNIT: Forms a heterodimer with AbgA.
+CC       {ECO:0000269|PubMed:20190044}.
+CC   -!- INTERACTION:
+CC       P77357:abgA; NbExp=2; IntAct=EBI-1123629, EBI-9155452;
+CC   -!- INDUCTION: Could be transcriptionally regulated by AbgR.
+CC       {ECO:0000269|PubMed:9829935}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U00096; AAC74419.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE76404.1; -; Genomic_DNA.
+DR   PIR; D64883; D64883.
+DR   RefSeq; NP_415853.1; NC_000913.3.
+DR   RefSeq; WP_001156451.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P76052; -.
+DR   BioGrid; 4260157; 63.
+DR   IntAct; P76052; 6.
+DR   STRING; 511145.b1337; -.
+DR   EPD; P76052; -.
+DR   PaxDb; P76052; -.
+DR   PRIDE; P76052; -.
+DR   EnsemblBacteria; AAC74419; AAC74419; b1337.
+DR   EnsemblBacteria; BAE76404; BAE76404; BAE76404.
+DR   GeneID; 945950; -.
+DR   KEGG; ecj:JW1331; -.
+DR   KEGG; eco:b1337; -.
+DR   PATRIC; 32117950; VBIEscCol129921_1395.
+DR   EchoBASE; EB3134; -.
+DR   EcoGene; EG13351; abgB.
+DR   eggNOG; ENOG4107RT5; Bacteria.
+DR   eggNOG; COG1473; LUCA.
+DR   HOGENOM; HOG000251262; -.
+DR   InParanoid; P76052; -.
+DR   KO; K12941; -.
+DR   OMA; HYAITDT; -.
+DR   PhylomeDB; P76052; -.
+DR   BioCyc; EcoCyc:G6669-MONOMER; -.
+DR   BioCyc; MetaCyc:G6669-MONOMER; -.
+DR   PRO; PR:P76052; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IDA:EcoliWiki.
+DR   GO; GO:0071713; F:para-aminobenzoyl-glutamate hydrolase activity; IDA:UniProtKB.
+DR   GO; GO:0046982; F:protein heterodimerization activity; IPI:EcoliWiki.
+DR   GO; GO:0046657; P:folic acid catabolic process; IGI:EcoliWiki.
+DR   CDD; cd05673; M20_Acy1L2_AbgB; 1.
+DR   Gene3D; 3.30.70.360; -; 1.
+DR   InterPro; IPR017439; Amidohydrolase.
+DR   InterPro; IPR017145; Aminobenzoyl-glu_utiliz_pB.
+DR   InterPro; IPR002933; Peptidase_M20.
+DR   InterPro; IPR011650; Peptidase_M20_dimer.
+DR   Pfam; PF01546; Peptidase_M20; 1.
+DR   PIRSF; PIRSF037227; Aminobenzoyl-glu_utiliz_pB; 1.
+DR   SUPFAM; SSF55031; SSF55031; 1.
+DR   TIGRFAMs; TIGR01891; amidohydrolases; 1.
+PE   1: Evidence at protein level;
+KW   Complete proteome; Direct protein sequencing; Hydrolase;
+KW   Reference proteome.
+FT   CHAIN         1    481       p-aminobenzoyl-glutamate hydrolase
+FT                                subunit B.
+FT                                /FTId=PRO_0000064421.
+SQ   SEQUENCE   481 AA;  52194 MW;  84B09100A563E07C CRC64;
+     MQEIYRFIDD AIEADRQRYT DIADQIWDHP ETRFEEFWSA EHLASALESA GFTVTRNVGN
+     IPNAFIASFG QGKPVIALLG EYDALAGLSQ QAGCAQPTSV TPGENGHGCG HNLLGTAAFA
+     AAIAVKKWLE QYGQGGTVRF YGCPGEEGGS GKTFMVREGV FDDVDAALTW HPEAFAGMFN
+     TRTLANIQAS WRFKGIAAHA ANSPHLGRSA LDAVTLMTTG TNFLNEHIIE KARVHYAITN
+     SGGISPNVVQ AQAEVLYLIR APEMTDVQHI YDRVAKIAEG AALMTETTVE CRFDKACSSY
+     LPNRTLENAM YQALSHFGTP EWNSEELAFA KQIQATLTSN DRQNSLNNIA ATGGENGKVF
+     ALRHRETVLA NEVAPYAATD NVLAASTDVG DVSWKLPVAQ CFSPCFAVGT PLHTWQLVSQ
+     GRTSIAHKGM LLAAKTMAAT TVNLFLDSGL LQECQQEHQQ VTDTQPYHCP IPKNVTPSPL
+     K
+//

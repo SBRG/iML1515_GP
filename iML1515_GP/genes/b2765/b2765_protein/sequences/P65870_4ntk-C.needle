@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:55:37
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b2765/b2765_protein/sequences/P65870_4ntk-C.needle
+#    -asequence asis::MMSTTLFKDFTFEAAHRLPHVPEGHKCGRLHGHSFMVRLEITGEVDPHTGWIIDFAELKAAFKPTYERLDHHYLNDIPGLENPTSEVLAKWIWDQVKPVVPLLSAVMVKETCTAGCIYRGE
+#    -bsequence asis::XMSTTLFKDFTFEAAHRLPHVPEGHKAGRLHGHSFMVRLEITGEVDPHTGWIIDFAELKAAFKPTYERLDHHYLNDIPGLENPTSEVLAKWIWDQVKPVVPLLSAVMVKETCTAGCIYRG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b2765/b2765_protein/sequences/P65870_4ntk-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 121
+# Identity:     118/121 (97.5%)
+# Similarity:   118/121 (97.5%)
+# Gaps:           1/121 ( 0.8%)
+# Score: 645.0
+# 
+#
+#=======================================
+
+asis               1 MMSTTLFKDFTFEAAHRLPHVPEGHKCGRLHGHSFMVRLEITGEVDPHTG     50
+                     .|||||||||||||||||||||||||.|||||||||||||||||||||||
+asis               1 XMSTTLFKDFTFEAAHRLPHVPEGHKAGRLHGHSFMVRLEITGEVDPHTG     50
+
+asis              51 WIIDFAELKAAFKPTYERLDHHYLNDIPGLENPTSEVLAKWIWDQVKPVV    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 WIIDFAELKAAFKPTYERLDHHYLNDIPGLENPTSEVLAKWIWDQVKPVV    100
+
+asis             101 PLLSAVMVKETCTAGCIYRGE    121
+                     |||||||||||||||||||| 
+asis             101 PLLSAVMVKETCTAGCIYRG-    120
+
+
+#---------------------------------------
+#---------------------------------------

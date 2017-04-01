@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:50:03
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b4071/b4071_protein/sequences/P0ABL1_2ozy-A.needle
+#    -asequence asis::MSVLRSLLTAGVLASGLLWSLNGITATPAAQASDDRYEVTQQRNPDAACLDCHKPDTEGMHGKHASVINPNNKLPVTCTNCHGQPSPQHREGVKDVMRFNEPMYKVGEQNSVCMSCHLPEQLQKAFWPHDVHVTKVACASCHSLHPQQDTMQTLSDKGRIKICVDCHSDQRTNPNFNPASVPLLKEQP
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXNPDAACLDCHKPDTEGMHGKHASVINPNNKLPVTCTNCHGQPSPQHREGVKDVMRFNEPMYKVGEQNSVCMSCHLPEQLQKAFWPHDVHVTKVACASCHSLHPQQDTMQTLSDKGRIKICVDCHSDQRTNPNFNPASVPLLK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b4071/b4071_protein/sequences/P0ABL1_2ozy-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 188
+# Identity:     142/188 (75.5%)
+# Similarity:   142/188 (75.5%)
+# Gaps:          28/188 (14.9%)
+# Score: 795.0
+# 
+#
+#=======================================
+
+asis               1 MSVLRSLLTAGVLASGLLWSLNGITATPAAQASDDRYEVTQQRNPDAACL     50
+                                              ..................|||||||
+asis               1 -------------------------XXXXXXXXXXXXXXXXXXNPDAACL     25
+
+asis              51 DCHKPDTEGMHGKHASVINPNNKLPVTCTNCHGQPSPQHREGVKDVMRFN    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              26 DCHKPDTEGMHGKHASVINPNNKLPVTCTNCHGQPSPQHREGVKDVMRFN     75
+
+asis             101 EPMYKVGEQNSVCMSCHLPEQLQKAFWPHDVHVTKVACASCHSLHPQQDT    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              76 EPMYKVGEQNSVCMSCHLPEQLQKAFWPHDVHVTKVACASCHSLHPQQDT    125
+
+asis             151 MQTLSDKGRIKICVDCHSDQRTNPNFNPASVPLLKEQP    188
+                     |||||||||||||||||||||||||||||||||||   
+asis             126 MQTLSDKGRIKICVDCHSDQRTNPNFNPASVPLLK---    160
+
+
+#---------------------------------------
+#---------------------------------------

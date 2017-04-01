@@ -1,0 +1,364 @@
+ID   ENTF_ECOLI              Reviewed;        1293 AA.
+AC   P11454; P75723; P77095; Q2MBL5;
+DT   01-OCT-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 3.
+DT   15-MAR-2017, entry version 167.
+DE   RecName: Full=Enterobactin synthase component F;
+DE            EC=2.7.7.-;
+DE   AltName: Full=Enterochelin synthase F;
+DE   AltName: Full=Serine-activating enzyme;
+DE   AltName: Full=Seryl-AMP ligase;
+GN   Name=entF; OrderedLocusNames=b0586, JW0578;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PROTEIN SEQUENCE OF 1-12.
+RC   STRAIN=K12;
+RX   PubMed=1826089; DOI=10.1021/bi00225a027;
+RA   Rusnak F., Sakaitani M., Drueckhammer D., Reichert J., Walsh C.T.;
+RT   "Biosynthesis of the Escherichia coli siderophore enterobactin:
+RT   sequence of the entF gene, expression and purification of EntF, and
+RT   analysis of covalent phosphopantetheine.";
+RL   Biochemistry 30:2916-2927(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RA   Chung E., Allen E., Araujo R., Aparicio A.M., Davis K., Duncan M.,
+RA   Federspiel N., Hyman R., Kalman S., Komp C., Kurdi O., Lew H., Lin D.,
+RA   Namath A., Oefner P., Roberts D., Schramm S., Davis R.W.;
+RT   "Sequence of minutes 4-25 of Escherichia coli.";
+RL   Submitted (JAN-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-34.
+RX   PubMed=3040679; DOI=10.1128/jb.169.9.4154-4162.1987;
+RA   Pettis G.S., McIntosh M.A.;
+RT   "Molecular characterization of the Escherichia coli enterobactin
+RT   cistron entF and coupled expression of entF and the fes gene.";
+RL   J. Bacteriol. 169:4154-4162(1987).
+RN   [6]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-34, AND PROTEIN SEQUENCE OF
+RP   1-12.
+RX   PubMed=2974033;
+RA   Pettis G.S., Brickman T.J., McIntosh M.A.;
+RT   "Transcriptional mapping and nucleotide sequence of the Escherichia
+RT   coli fepA-fes enterobactin region. Identification of a unique iron-
+RT   regulated bidirectional promoter.";
+RL   J. Biol. Chem. 263:18857-18863(1988).
+RN   [7]
+RP   IDENTIFICATION BY 2D-GEL.
+RX   PubMed=9298644; DOI=10.1002/elps.1150180805;
+RA   VanBogelen R.A., Abshire K.Z., Moldover B., Olson E.R.,
+RA   Neidhardt F.C.;
+RT   "Escherichia coli proteome analysis using the gene-protein database.";
+RL   Electrophoresis 18:1243-1251(1997).
+RN   [8]
+RP   MUTAGENESIS OF SER-1138.
+RX   PubMed=9485415; DOI=10.1021/bi9726584;
+RA   Gehring A.M., Mori I., Walsh C.T.;
+RT   "Reconstitution and characterization of the Escherichia coli
+RT   enterobactin synthetase from EntB, EntE, and EntF.";
+RL   Biochemistry 37:2648-2659(1998).
+CC   -!- FUNCTION: Activates the carboxylate group of L-serine via ATP-
+CC       dependent PPi exchange reactions to the aminoacyladenylate,
+CC       preparing that molecule for the final stages of enterobactin
+CC       synthesis. Holo-EntF acts as the catalyst for the formation of the
+CC       three amide and three ester bonds present in the cyclic (2,3-
+CC       dihydroxybenzoyl)serine trimer enterobactin, using seryladenylate
+CC       and acyl-holo-EntB (acylated with 2,3-dihydroxybenzoate by EntE).
+CC   -!- CATALYTIC ACTIVITY: ATP + L-serine = diphosphate + L-serine-
+CC       adenylate.
+CC   -!- COFACTOR:
+CC       Name=pantetheine 4'-phosphate; Xref=ChEBI:CHEBI:47942;
+CC       Note=Binds 1 phosphopantetheine covalently.;
+CC   -!- PATHWAY: Siderophore biosynthesis; enterobactin biosynthesis.
+CC   -!- SUBUNIT: EntB, EntD, EntE, and EntF form a multienzyme complex
+CC       called enterobactin synthase. EntF acts as a catalytic monomer.
+CC   -!- INDUCTION: Transcriptionally regulated by iron and the fur
+CC       protein.
+CC   -!- PTM: 4'-phosphopantetheine is transferred from CoA to a specific
+CC       serine of apo-EntF by EntD. Holo-EntF so formed is then acylated
+CC       with seryl-AMP.
+CC   -!- SIMILARITY: Belongs to the ATP-dependent AMP-binding enzyme
+CC       family. EntF subfamily. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAB40785.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M60177; AAA92015.1; -; Genomic_DNA.
+DR   EMBL; U82598; AAB40785.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; U00096; AAC73687.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE76341.1; -; Genomic_DNA.
+DR   EMBL; M17354; AAA23727.1; -; Genomic_DNA.
+DR   EMBL; J04216; AAA23759.1; -; Genomic_DNA.
+DR   PIR; H64791; YGECEF.
+DR   RefSeq; NP_415118.1; NC_000913.3.
+DR   RefSeq; WP_000077805.1; NZ_LN832404.1.
+DR   PDB; 2ROQ; NMR; -; A=960-1293.
+DR   PDB; 3TEJ; X-ray; 1.90 A; A/B=965-1293.
+DR   PDB; 5JA1; X-ray; 3.00 A; A=1-1293.
+DR   PDB; 5JA2; X-ray; 3.00 A; A=1-1293.
+DR   PDB; 5T3D; X-ray; 2.80 A; A=1-1293.
+DR   PDBsum; 2ROQ; -.
+DR   PDBsum; 3TEJ; -.
+DR   PDBsum; 5JA1; -.
+DR   PDBsum; 5JA2; -.
+DR   PDBsum; 5T3D; -.
+DR   ProteinModelPortal; P11454; -.
+DR   SMR; P11454; -.
+DR   BioGrid; 4259895; 295.
+DR   DIP; DIP-9516N; -.
+DR   IntAct; P11454; 10.
+DR   STRING; 511145.b0586; -.
+DR   ESTHER; ecoli-entf; Thioesterase.
+DR   EPD; P11454; -.
+DR   PaxDb; P11454; -.
+DR   PRIDE; P11454; -.
+DR   EnsemblBacteria; AAC73687; AAC73687; b0586.
+DR   EnsemblBacteria; BAE76341; BAE76341; BAE76341.
+DR   GeneID; 945184; -.
+DR   KEGG; ecj:JW0578; -.
+DR   KEGG; eco:b0586; -.
+DR   PATRIC; 32116346; VBIEscCol129921_0613.
+DR   EchoBASE; EB0260; -.
+DR   EcoGene; EG10264; entF.
+DR   eggNOG; ENOG4105C0W; Bacteria.
+DR   eggNOG; COG1020; LUCA.
+DR   eggNOG; COG3319; LUCA.
+DR   HOGENOM; HOG000229993; -.
+DR   InParanoid; P11454; -.
+DR   KO; K02364; -.
+DR   OMA; FSVLARY; -.
+DR   PhylomeDB; P11454; -.
+DR   BioCyc; EcoCyc:ENTF-MONOMER; -.
+DR   BioCyc; MetaCyc:ENTF-MONOMER; -.
+DR   BRENDA; 6.3.2.14; 2026.
+DR   UniPathway; UPA00017; -.
+DR   EvolutionaryTrace; P11454; -.
+DR   PRO; PR:P11454; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IDA:EcoCyc.
+DR   GO; GO:0009366; C:enterobactin synthetase complex; IDA:EcoCyc.
+DR   GO; GO:0005886; C:plasma membrane; IDA:EcoCyc.
+DR   GO; GO:0047527; F:2,3-dihydroxybenzoate-serine ligase activity; IDA:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016788; F:hydrolase activity, acting on ester bonds; IEA:InterPro.
+DR   GO; GO:0016779; F:nucleotidyltransferase activity; IDA:UniProtKB.
+DR   GO; GO:0031177; F:phosphopantetheine binding; IDA:EcoCyc.
+DR   GO; GO:0043041; P:amino acid activation for nonribosomal peptide biosynthetic process; IDA:EcoCyc.
+DR   GO; GO:0009239; P:enterobactin biosynthetic process; IMP:EcoCyc.
+DR   Gene3D; 1.10.1200.10; -; 1.
+DR   Gene3D; 3.40.50.1820; -; 2.
+DR   InterPro; IPR010071; AA_adenyl_domain.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR020845; AMP-binding_CS.
+DR   InterPro; IPR000873; AMP-dep_Synth/Lig.
+DR   InterPro; IPR001242; Condensatn.
+DR   InterPro; IPR020806; PKS_PP-bd.
+DR   InterPro; IPR020802; PKS_thioesterase.
+DR   InterPro; IPR009081; PP-bd_ACP.
+DR   InterPro; IPR006162; Ppantetheine_attach_site.
+DR   InterPro; IPR001031; Thioesterase.
+DR   Pfam; PF00501; AMP-binding; 1.
+DR   Pfam; PF00668; Condensation; 1.
+DR   Pfam; PF00550; PP-binding; 1.
+DR   Pfam; PF00975; Thioesterase; 1.
+DR   SMART; SM00823; PKS_PP; 1.
+DR   SMART; SM00824; PKS_TE; 1.
+DR   SUPFAM; SSF47336; SSF47336; 1.
+DR   SUPFAM; SSF53474; SSF53474; 1.
+DR   TIGRFAMs; TIGR01733; AA-adenyl-dom; 1.
+DR   PROSITE; PS00455; AMP_BINDING; 1.
+DR   PROSITE; PS50075; CARRIER; 1.
+DR   PROSITE; PS00012; PHOSPHOPANTETHEINE; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Complete proteome;
+KW   Direct protein sequencing; Enterobactin biosynthesis; Ligase;
+KW   Multifunctional enzyme; Nucleotide-binding; Phosphopantetheine;
+KW   Phosphoprotein; Reference proteome; Transferase.
+FT   CHAIN         1   1293       Enterobactin synthase component F.
+FT                                /FTId=PRO_0000193077.
+FT   DOMAIN      971   1046       Carrier. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00258}.
+FT   REGION        1    301       Elongation/condensation.
+FT   REGION      482    887       Adenylation.
+FT   REGION     1066   1293       Thioesterase.
+FT   MOD_RES    1006   1006       O-(pantetheine 4'-phosphoryl)serine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00258}.
+FT   MUTAGEN    1138   1138       S->A: No enterobactin synthase activity.
+FT                                This mutant holo-EntF is still able to
+FT                                adenylate serine and to autoacylate
+FT                                itself with serine.
+FT                                {ECO:0000269|PubMed:9485415}.
+FT   CONFLICT    441    442       QL -> HV (in Ref. 1; AAA92015).
+FT                                {ECO:0000305}.
+FT   HELIX        11     20       {ECO:0000244|PDB:5T3D}.
+FT   STRAND       23     25       {ECO:0000244|PDB:5T3D}.
+FT   STRAND       28     37       {ECO:0000244|PDB:5T3D}.
+FT   HELIX        41     54       {ECO:0000244|PDB:5T3D}.
+FT   HELIX        56     59       {ECO:0000244|PDB:5T3D}.
+FT   STRAND       60     65       {ECO:0000244|PDB:5T3D}.
+FT   STRAND       68     73       {ECO:0000244|PDB:5T3D}.
+FT   STRAND       83     85       {ECO:0000244|PDB:5T3D}.
+FT   STRAND       88     92       {ECO:0000244|PDB:5T3D}.
+FT   HELIX        95    104       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       111    113       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      117    123       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      126    128       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      130    137       {ECO:0000244|PDB:5T3D}.
+FT   TURN        138    140       {ECO:0000244|PDB:5T3D}.
+FT   TURN        143    145       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       146    161       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       174    185       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       188    203       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      210    213       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      224    231       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       235    243       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       249    264       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      267    275       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       282    285       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      292    299       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       306    322       {ECO:0000244|PDB:5T3D}.
+FT   TURN        323    325       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       328    334       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      346    350       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      367    371       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      376    384       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      390    397       {ECO:0000244|PDB:5T3D}.
+FT   TURN        398    400       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       403    422       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       428    430       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       438    445       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       457    467       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      471    475       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      480    482       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       483    499       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      507    510       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       516    527       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      531    534       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       541    551       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      554    558       {ECO:0000244|PDB:5T3D}.
+FT   TURN        560    564       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       565    568       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      569    571       {ECO:0000244|PDB:5JA1}.
+FT   STRAND      574    576       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      596    603       {ECO:0000244|PDB:5T3D}.
+FT   TURN        606    608       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      611    616       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       617    630       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      638    641       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       650    660       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      663    666       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       671    673       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       675    684       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      689    692       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       694    702       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       706    712       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       713    715       {ECO:0000244|PDB:5JA1}.
+FT   STRAND      718    724       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       728    738       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      742    746       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      751    753       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      755    759       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       762    766       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      770    772       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      776    778       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      782    787       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      800    806       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      811    814       {ECO:0000244|PDB:5JA1}.
+FT   HELIX       817    823       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      824    826       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      834    844       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      850    862       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      865    868       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       869    877       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      882    890       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       894    896       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      898    900       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      904    915       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       919    929       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       932    934       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      937    941       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      951    953       {ECO:0000244|PDB:5T3D}.
+FT   HELIX       955    957       {ECO:0000244|PDB:5T3D}.
+FT   STRAND      968    971       {ECO:0000244|PDB:2ROQ}.
+FT   HELIX       976    988       {ECO:0000244|PDB:3TEJ}.
+FT   STRAND      994    996       {ECO:0000244|PDB:5JA1}.
+FT   TURN        999   1003       {ECO:0000244|PDB:3TEJ}.
+FT   HELIX      1006   1020       {ECO:0000244|PDB:3TEJ}.
+FT   HELIX      1026   1031       {ECO:0000244|PDB:3TEJ}.
+FT   HELIX      1035   1043       {ECO:0000244|PDB:3TEJ}.
+FT   TURN       1050   1053       {ECO:0000244|PDB:3TEJ}.
+FT   STRAND     1054   1061       {ECO:0000244|PDB:3TEJ}.
+FT   STRAND     1063   1065       {ECO:0000244|PDB:2ROQ}.
+FT   STRAND     1067   1071       {ECO:0000244|PDB:3TEJ}.
+FT   HELIX      1079   1086       {ECO:0000244|PDB:3TEJ}.
+FT   STRAND     1093   1097       {ECO:0000244|PDB:3TEJ}.
+FT   TURN       1101   1103       {ECO:0000244|PDB:3TEJ}.
+FT   HELIX      1105   1108       {ECO:0000244|PDB:3TEJ}.
+FT   HELIX      1112   1126       {ECO:0000244|PDB:3TEJ}.
+FT   STRAND     1128   1130       {ECO:0000244|PDB:3TEJ}.
+FT   STRAND     1132   1137       {ECO:0000244|PDB:3TEJ}.
+FT   HELIX      1139   1153       {ECO:0000244|PDB:3TEJ}.
+FT   STRAND     1158   1165       {ECO:0000244|PDB:3TEJ}.
+FT   HELIX      1170   1173       {ECO:0000244|PDB:3TEJ}.
+FT   HELIX      1174   1180       {ECO:0000244|PDB:2ROQ}.
+FT   HELIX      1186   1199       {ECO:0000244|PDB:3TEJ}.
+FT   TURN       1200   1203       {ECO:0000244|PDB:5JA1}.
+FT   HELIX      1208   1224       {ECO:0000244|PDB:3TEJ}.
+FT   STRAND     1232   1241       {ECO:0000244|PDB:3TEJ}.
+FT   HELIX      1242   1244       {ECO:0000244|PDB:3TEJ}.
+FT   TURN       1248   1250       {ECO:0000244|PDB:5JA2}.
+FT   HELIX      1251   1255       {ECO:0000244|PDB:3TEJ}.
+FT   TURN       1256   1258       {ECO:0000244|PDB:3TEJ}.
+FT   STRAND     1259   1269       {ECO:0000244|PDB:3TEJ}.
+FT   HELIX      1271   1275       {ECO:0000244|PDB:3TEJ}.
+FT   TURN       1277   1279       {ECO:0000244|PDB:3TEJ}.
+FT   HELIX      1280   1291       {ECO:0000244|PDB:3TEJ}.
+SQ   SEQUENCE   1293 AA;  141991 MW;  F3FCBD3836A39358 CRC64;
+     MSQHLPLVAA QPGIWMAEKL SELPSAWSVA HYVELTGEVD SPLLARAVVA GLAQADTLRM
+     RFTEDNGEVW QWVDDALTFE LPEIIDLRTN IDPHGTAQAL MQADLQQDLR VDSGKPLVFH
+     QLIQVADNRW YWYQRYHHLL VDGFSFPAIT RQIANIYCTW LRGEPTPASP FTPFADVVEE
+     YQQYRESEAW QRDAAFWAEQ RRQLPPPASL SPAPLPGRSA SADILRLKLE FTDGEFRQLA
+     TQLSGVQRTD LALALAALWL GRLCNRMDYA AGFIFMRRLG SAALTATGPV LNVLPLGIHI
+     AAQETLPELA TRLAAQLKKM RRHQRYDAEQ IVRDSGRAAG DEPLFGPVLN IKVFDYQLDI
+     PDVQAQTHTL ATGPVNDLEL ALFPDVHGDL SIEILANKQR YDEPTLIQHA ERLKMLIAQF
+     AADPALLCGD VDIMLPGEYA QLAQLNATQV EIPETTLSAL VAEQAAKTPD APALADARYL
+     FSYREMREQV VALANLLRER GVKPGDSVAV ALPRSVFLTL ALHAIVEAGA AWLPLDTGYP
+     DDRLKMMLED ARPSLLITTD DQLPRFSDVP NLTSLCYNAP LTPQGSAPLQ LSQPHHTAYI
+     IFTSGSTGRP KGVMVGQTAI VNRLLWMQNH YPLTGEDVVA QKTPCSFDVS VWEFFWPFIA
+     GAKLVMAEPE AHRDPLAMQQ FFAEYGVTTT HFVPSMLAAF VASLTPQTAR QSCATLKQVF
+     CSGEALPADL CREWQQLTGA PLHNLYGPTE AAVDVSWYPA FGEELAQVRG SSVPIGYPVW
+     NTGLRILDAM MHPVPPGVAG DLYLTGIQLA QGYLGRPDLT ASRFIADPFA PGERMYRTGD
+     VARWLDNGAV EYLGRSDDQL KIRGQRIELG EIDRVMQALP DVEQAVTHAC VINQAAATGG
+     DARQLVGYLV SQSGLPLDTS ALQAQLRETL PPHMVPVVLL QLPQLPLSAN GKLDRKALPL
+     PELKAQAPGR APKAGSETII AAAFSSLLGC DVQDADADFF ALGGHSLLAM KLAAQLSRQV
+     ARQVTPGQVM VASTVAKLAT IIDAEEDSTR RMGFETILPL REGNGPTLFC FHPASGFAWQ
+     FSVLSRYLDP QWSIIGIQSP RPNGPMQTAA NLDEVCEAHL ATLLEQQPHG PYYLLGYSLG
+     GTLAQGIAAR LRARGEQVAF LGLLDTWPPE TQNWQEKEAN GLDPEVLAEI NREREAFLAA
+     QQGSTSTELF TTIEGNYADA VRLLTTAHSV PFDGKATLFV AERTLQEGMS PERAWSPWIA
+     ELDIYRQDCA HVDIISPGTF EKIGPIIRAT LNR
+//

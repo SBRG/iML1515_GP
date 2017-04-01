@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:46:42
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b1646/b1646_protein/sequences/P0AGD1_1eso-A.needle
+#    -asequence asis::MKRFSLAILALVVATGAQAASEKVEMNLVTSQGVGQSIGSVTITETDKGLEFSPDLKALPPGEHGFHIHAKGSCQPATKDGKASAAESAGGHLDPQNTGKHEGPEGAGHLGDLPALVVNNDGKATDAVIAPRLKSLDEIKDKALMVHVGGDNMSDQPKPLGGGGERYACGVIK
+#    -bsequence asis::XASEKVEMNLVTSQGVGQSIGSVTITETDKGLEFSPDLKALPPGEHGFHIHAKGSCQPATKDGKASAAESAGGHLDPQNTGKHEGPXEGAGHLGDLPALVVNNDGKATDAVIAPRLKSLXXDEIKDKALMVHVGGDNMSXXXXDQPKPLGGGGERYACGVIK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b1646/b1646_protein/sequences/P0AGD1_1eso-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 180
+# Identity:     154/180 (85.6%)
+# Similarity:   154/180 (85.6%)
+# Gaps:          25/180 (13.9%)
+# Score: 777.0
+# 
+#
+#=======================================
+
+asis               1 MKRFSLAILALVVATGAQAASEKVEMNLVTSQGVGQSIGSVTITETDKGL     50
+                                       .|||||||||||||||||||||||||||||||
+asis               1 ------------------XASEKVEMNLVTSQGVGQSIGSVTITETDKGL     32
+
+asis              51 EFSPDLKALPPGEHGFHIHAKGSCQPATKDGKASAAESAGGHLDPQNTGK    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              33 EFSPDLKALPPGEHGFHIHAKGSCQPATKDGKASAAESAGGHLDPQNTGK     82
+
+asis             101 HEGP-EGAGHLGDLPALVVNNDGKATDAVIAPRLKSL--DEIKDKALMVH    147
+                     |||| ||||||||||||||||||||||||||||||||  |||||||||||
+asis              83 HEGPXEGAGHLGDLPALVVNNDGKATDAVIAPRLKSLXXDEIKDKALMVH    132
+
+asis             148 VGGDNMS----DQPKPLGGGGERYACGVIK    173
+                     |||||||    |||||||||||||||||||
+asis             133 VGGDNMSXXXXDQPKPLGGGGERYACGVIK    162
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,242 @@
+ID   PTV3B_ECOLI             Reviewed;         625 AA.
+AC   P08722; Q2M840;
+DT   01-AUG-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1988, sequence version 1.
+DT   15-MAR-2017, entry version 161.
+DE   RecName: Full=PTS system beta-glucoside-specific EIIBCA component;
+DE   AltName: Full=EIIBCA-Bgl;
+DE            Short=EII-Bgl;
+DE   Includes:
+DE     RecName: Full=Beta-glucoside-specific phosphotransferase enzyme IIB component;
+DE              EC=2.7.1.-;
+DE     AltName: Full=PTS system beta-glucoside-specific EIIB component;
+DE   Includes:
+DE     RecName: Full=Beta-glucoside permease IIC component;
+DE     AltName: Full=PTS system beta-glucoside-specific EIIC component;
+DE   Includes:
+DE     RecName: Full=Beta-glucoside-specific phosphotransferase enzyme IIA component;
+DE     AltName: Full=PTS system beta-glucoside-specific EIIA component;
+GN   Name=bglF; Synonyms=bglC, bglS; OrderedLocusNames=b3722, JW3700;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=K12;
+RX   PubMed=3309161; DOI=10.1099/00221287-133-3-563;
+RA   Bramley H.F., Kornberg H.L.;
+RT   "Nucleotide sequence of bglC, the gene specifying enzymeIIbgl of the
+RT   PEP:sugar phosphotransferase system in Escherichia coli K12, and
+RT   overexpression of the gene product.";
+RL   J. Gen. Microbiol. 133:563-573(1987).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=K12;
+RX   PubMed=3034860; DOI=10.1128/jb.169.6.2579-2590.1987;
+RA   Schnetz K., Toloczyki C., Rak B.;
+RT   "Beta-glucoside (bgl) operon of Escherichia coli K-12: nucleotide
+RT   sequence, genetic organization, and possible evolutionary relationship
+RT   to regulatory components of two Bacillus subtilis genes.";
+RL   J. Bacteriol. 169:2579-2590(1987).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=7686882; DOI=10.1006/geno.1993.1230;
+RA   Burland V.D., Plunkett G. III, Daniels D.L., Blattner F.R.;
+RT   "DNA sequence and analysis of 136 kilobases of the Escherichia coli
+RT   genome: organizational symmetry around the origin of replication.";
+RL   Genomics 16:551-561(1993).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [6]
+RP   TOPOLOGY [LARGE SCALE ANALYSIS].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=15919996; DOI=10.1126/science.1109730;
+RA   Daley D.O., Rapp M., Granseth E., Melen K., Drew D., von Heijne G.;
+RT   "Global topology analysis of the Escherichia coli inner membrane
+RT   proteome.";
+RL   Science 308:1321-1323(2005).
+CC   -!- FUNCTION: The phosphoenolpyruvate-dependent sugar
+CC       phosphotransferase system (sugar PTS), a major carbohydrate active
+CC       -transport system, catalyzes the phosphorylation of incoming sugar
+CC       substrates concomitantly with their translocation across the cell
+CC       membrane. This system is involved in beta-glucoside transport.
+CC   -!- FUNCTION: Acts as both a kinase and a phosphatase on BglG.
+CC   -!- CATALYTIC ACTIVITY: Protein EIIA N(pi)-phospho-L-histidine +
+CC       protein EIIB = protein EIIA + protein EIIB N(pi)-phospho-L-
+CC       histidine/cysteine. {ECO:0000255|PROSITE-ProRule:PRU00416}.
+CC   -!- CATALYTIC ACTIVITY: Protein EIIB N(pi)-phospho-L-
+CC       histidine/cysteine + sugar = protein EIIB + sugar phosphate.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00421}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane; Multi-pass membrane
+CC       protein.
+CC   -!- DOMAIN: The EIIB domain is phosphorylated by phospho-EIIA on a
+CC       cysteinyl or histidyl residue, depending on the transported sugar.
+CC       Then, it transfers the phosphoryl group to the sugar substrate
+CC       concomitantly with the sugar uptake processed by the EIIC domain.
+CC   -!- DOMAIN: The EIIC domain forms the PTS system translocation channel
+CC       and contains the specific substrate-binding site.
+CC   -!- DOMAIN: The EIIA domain is phosphorylated by phospho-HPr on a
+CC       histidyl residue. Then, it transfers the phosphoryl group to the
+CC       EIIB domain.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M15746; AAA83837.1; -; Genomic_DNA.
+DR   EMBL; M16487; AAA23510.1; -; Genomic_DNA.
+DR   EMBL; L10328; AAA62073.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC76745.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE77566.1; -; Genomic_DNA.
+DR   PIR; C25977; C25977.
+DR   RefSeq; NP_418178.1; NC_000913.3.
+DR   RefSeq; WP_000137296.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P08722; -.
+DR   SMR; P08722; -.
+DR   BioGrid; 4262137; 5.
+DR   DIP; DIP-9215N; -.
+DR   IntAct; P08722; 1.
+DR   STRING; 511145.b3722; -.
+DR   TCDB; 4.A.1.2.2; the pts glucose-glucoside (glc) family.
+DR   PaxDb; P08722; -.
+DR   PRIDE; P08722; -.
+DR   EnsemblBacteria; AAC76745; AAC76745; b3722.
+DR   EnsemblBacteria; BAE77566; BAE77566; BAE77566.
+DR   GeneID; 948236; -.
+DR   KEGG; ecj:JW3700; -.
+DR   KEGG; eco:b3722; -.
+DR   PATRIC; 32122939; VBIEscCol129921_3845.
+DR   EchoBASE; EB0113; -.
+DR   EcoGene; EG10115; bglF.
+DR   eggNOG; ENOG4105C5Y; Bacteria.
+DR   eggNOG; COG1263; LUCA.
+DR   eggNOG; COG1264; LUCA.
+DR   eggNOG; COG2190; LUCA.
+DR   HOGENOM; HOG000102023; -.
+DR   InParanoid; P08722; -.
+DR   KO; K02755; -.
+DR   KO; K02756; -.
+DR   KO; K02757; -.
+DR   OMA; KIWFAAS; -.
+DR   PhylomeDB; P08722; -.
+DR   BioCyc; EcoCyc:BGLF-MONOMER; -.
+DR   BioCyc; MetaCyc:BGLF-MONOMER; -.
+DR   PRO; PR:P08722; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IDA:EcoCyc.
+DR   GO; GO:0016301; F:kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008982; F:protein-N(PI)-phosphohistidine-sugar phosphotransferase activity; IEA:InterPro.
+DR   GO; GO:0090563; F:protein-phosphocysteine-sugar phosphotransferase activity; IBA:GO_Central.
+DR   GO; GO:0034219; P:carbohydrate transmembrane transport; IBA:GO_Central.
+DR   GO; GO:0009401; P:phosphoenolpyruvate-dependent sugar phosphotransferase system; IBA:GO_Central.
+DR   CDD; cd00212; PTS_IIB_glc; 1.
+DR   Gene3D; 3.30.1360.60; -; 1.
+DR   InterPro; IPR011055; Dup_hybrid_motif.
+DR   InterPro; IPR018113; PTrfase_EIIB_Cys.
+DR   InterPro; IPR001127; PTS_EIIA_1_perm.
+DR   InterPro; IPR003352; PTS_EIIC.
+DR   InterPro; IPR013013; PTS_EIIC_1.
+DR   InterPro; IPR011297; PTS_IIABC_b_glu.
+DR   InterPro; IPR001996; PTS_IIB_1.
+DR   InterPro; IPR004719; PTS_maltose/Glc_sub_IIC.
+DR   Pfam; PF00358; PTS_EIIA_1; 1.
+DR   Pfam; PF00367; PTS_EIIB; 1.
+DR   Pfam; PF02378; PTS_EIIC; 1.
+DR   SUPFAM; SSF51261; SSF51261; 1.
+DR   SUPFAM; SSF55604; SSF55604; 1.
+DR   TIGRFAMs; TIGR00826; EIIB_glc; 1.
+DR   TIGRFAMs; TIGR00830; PTBA; 1.
+DR   TIGRFAMs; TIGR00852; pts-Glc; 1.
+DR   TIGRFAMs; TIGR01995; PTS-II-ABC-beta; 1.
+DR   PROSITE; PS51093; PTS_EIIA_TYPE_1; 1.
+DR   PROSITE; PS00371; PTS_EIIA_TYPE_1_HIS; 1.
+DR   PROSITE; PS51098; PTS_EIIB_TYPE_1; 1.
+DR   PROSITE; PS01035; PTS_EIIB_TYPE_1_CYS; 1.
+DR   PROSITE; PS51103; PTS_EIIC_TYPE_1; 1.
+PE   1: Evidence at protein level;
+KW   Cell inner membrane; Cell membrane; Complete proteome; Kinase;
+KW   Membrane; Phosphotransferase system; Reference proteome;
+KW   Sugar transport; Transferase; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   CHAIN         1    625       PTS system beta-glucoside-specific EIIBCA
+FT                                component.
+FT                                /FTId=PRO_0000186481.
+FT   TOPO_DOM      1     99       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    100    120       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    121    140       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    141    161       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    162    166       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    167    187       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    188    202       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    203    223       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    224    244       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    245    265       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    266    284       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    285    305       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    306    324       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    325    345       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    346    353       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    354    374       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    375    380       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    381    401       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    402    403       Cytoplasmic. {ECO:0000255}.
+FT   TRANSMEM    404    424       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    425    431       Periplasmic. {ECO:0000255}.
+FT   TRANSMEM    432    452       Helical. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   TOPO_DOM    453    625       Cytoplasmic. {ECO:0000255}.
+FT   DOMAIN        1     84       PTS EIIB type-1. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00421}.
+FT   DOMAIN      102    465       PTS EIIC type-1. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00426}.
+FT   DOMAIN      495    599       PTS EIIA type-1. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00416}.
+FT   ACT_SITE     24     24       Phosphocysteine intermediate; for EIIB
+FT                                activity. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00421}.
+FT   ACT_SITE    547    547       Tele-phosphohistidine intermediate; for
+FT                                EIIA activity. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00416}.
+SQ   SEQUENCE   625 AA;  66483 MW;  9E12A2207125C4E6 CRC64;
+     MTELARKIVA GVGGADNIVS LMHCATRLRF KLKDESKAQA EVLKKTPGII MVVESGGQFQ
+     VVIGNHVADV FLAVNSVAGL DEKAQQAPEN DDKGNLLNRF VYVISGIFTP LIGLMAATGI
+     LKGMLALALT FQWTTEQSGT YLILFSASDA LFWFFPIILG YTAGKRFGGN PFTAMVIGGA
+     LVHPLILTAF ENGQKADALG LDFLGIPVTL LNYSSSVIPI IFSAWLCSIL ERRLNAWLPS
+     AIKNFFTPLL CLMVITPVTF LLVGPLSTWI SELIAAGYLW LYQAVPAFAG AVMGGFWQIF
+     VMFGLHWGLV PLCINNFTVL GYDTMIPLLM PAIMAQVGAA LGVFLCERDA QKKVVAGSAA
+     LTSLFGITEP AVYGVNLPRK YPFVIACISG ALGATIIGYA QTKVYSFGLP SIFTFMQTIP
+     STGIDFTVWA SVIGGVIAIG CAFVGTVMLH FITAKRQPAQ GAPQEKTPEV ITPPEQGGIC
+     SPMTGEIVPL IHVADTTFAS GLLGKGIAIL PSVGEVRSPV AGRIASLFAT LHAIGIESDD
+     GVEILIHVGI DTVKLDGKFF SAHVNVGDKV NTGDRLISFD IPAIREAGFD LTTPVLISNS
+     DDFTDVLPHG TAQISAGEPL LSIIR
+//

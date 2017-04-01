@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:55:15
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b0009/b0009_protein/sequences/P0AF03_1di6-A.needle
+#    -asequence asis::MNTLRIGLVSISDRASSGVYQDKGIPALEEWLTSALTTPFELETRLIPDEQAIIEQTLCELVDEMSCHLVLTTGGTGPARRDVTPDATLAVADREMPGFGEQMRQISLHFVPTAILSRQVGVIRKQALILNLPGQPKSIKETLEGVKDAEGNVVVHGIFASVPYCIQLLEGPYVETAPEVVAAFRPKSARRDVSE
+#    -bsequence asis::XATLRIGLVSISDRXXXXXXXDKGIPALEEWLTSALTTPFELETRLIPDEQAIIEQTLCELVDEMSCHLVLTTGGTGPARRDVTPDATLAVADREMPGFGEQMRQISLHFVPTAILSRQVGVIRKQALILNLPGQPKSIKETLEGVKDAEGNVVVHGIFASVPYCIQLLEGPYVETAPEVVAAFRPKSARR
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b0009/b0009_protein/sequences/P0AF03_1di6-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 195
+# Identity:     182/195 (93.3%)
+# Similarity:   182/195 (93.3%)
+# Gaps:           4/195 ( 2.1%)
+# Score: 915.0
+# 
+#
+#=======================================
+
+asis               1 MNTLRIGLVSISDRASSGVYQDKGIPALEEWLTSALTTPFELETRLIPDE     50
+                     ..||||||||||||.......|||||||||||||||||||||||||||||
+asis               1 XATLRIGLVSISDRXXXXXXXDKGIPALEEWLTSALTTPFELETRLIPDE     50
+
+asis              51 QAIIEQTLCELVDEMSCHLVLTTGGTGPARRDVTPDATLAVADREMPGFG    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 QAIIEQTLCELVDEMSCHLVLTTGGTGPARRDVTPDATLAVADREMPGFG    100
+
+asis             101 EQMRQISLHFVPTAILSRQVGVIRKQALILNLPGQPKSIKETLEGVKDAE    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 EQMRQISLHFVPTAILSRQVGVIRKQALILNLPGQPKSIKETLEGVKDAE    150
+
+asis             151 GNVVVHGIFASVPYCIQLLEGPYVETAPEVVAAFRPKSARRDVSE    195
+                     |||||||||||||||||||||||||||||||||||||||||    
+asis             151 GNVVVHGIFASVPYCIQLLEGPYVETAPEVVAAFRPKSARR----    191
+
+
+#---------------------------------------
+#---------------------------------------

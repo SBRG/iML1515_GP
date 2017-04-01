@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:40:48
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b2418/b2418_protein/sequences/P40191_2ddm-B.needle
+#    -asequence asis::MSSLLLFNDKSRALQADIVAVQSQVVYGSVGNSIAVPAIKQNGLNVFAVPTVLLSNTPHYDTFYGGAIPDEWFSGYLRALQERDALRQLRAVTTGYMGTASQIKILAEWLTALRKDHPDLLIMVDPVIGDIDSGIYVKPDLPEAYRQYLLPLAQGITPNIFELEILTGKNCRDLDSAIAAAKSLLSDTLKWVVVTSASGNEENQEMQVVVVTADSVNVISHSRVKTDLKGTGDLFCAQLISGLLKGKALTDAVHRAGLRVLEVMRYTQQHESDELILPPLAEA
+#    -bsequence asis::XSSLLLFNDKSRALQADIVAVQSQVVYGSVGNSIAVPAIKQNGLNVFAVPTVLLSNTPHYDTFYGGAIPDEWFSGYLRALQERDALRQLRAVTTGYMGTASQIKILAEWLTALRKDHPDLLIMVDPVIGDIXXXXXXKPDLPEAYRQYLLPLAQGITPNIFELEILTGKNCRDLDSAIAAAKSLLSDTLKWVVVTSASGXXENQEMQVVVVTADSVNVISHSRVKTDLKGTGDLFCAQLISGLLKGKALTDAVHRAGLRVLEVMRYTQQHESDELILPPL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b2418/b2418_protein/sequences/P40191_2ddm-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 283
+# Identity:     271/283 (95.8%)
+# Similarity:   271/283 (95.8%)
+# Gaps:           3/283 ( 1.1%)
+# Score: 1356.0
+# 
+#
+#=======================================
+
+asis               1 MSSLLLFNDKSRALQADIVAVQSQVVYGSVGNSIAVPAIKQNGLNVFAVP     50
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XSSLLLFNDKSRALQADIVAVQSQVVYGSVGNSIAVPAIKQNGLNVFAVP     50
+
+asis              51 TVLLSNTPHYDTFYGGAIPDEWFSGYLRALQERDALRQLRAVTTGYMGTA    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 TVLLSNTPHYDTFYGGAIPDEWFSGYLRALQERDALRQLRAVTTGYMGTA    100
+
+asis             101 SQIKILAEWLTALRKDHPDLLIMVDPVIGDIDSGIYVKPDLPEAYRQYLL    150
+                     |||||||||||||||||||||||||||||||......|||||||||||||
+asis             101 SQIKILAEWLTALRKDHPDLLIMVDPVIGDIXXXXXXKPDLPEAYRQYLL    150
+
+asis             151 PLAQGITPNIFELEILTGKNCRDLDSAIAAAKSLLSDTLKWVVVTSASGN    200
+                     |||||||||||||||||||||||||||||||||||||||||||||||||.
+asis             151 PLAQGITPNIFELEILTGKNCRDLDSAIAAAKSLLSDTLKWVVVTSASGX    200
+
+asis             201 EENQEMQVVVVTADSVNVISHSRVKTDLKGTGDLFCAQLISGLLKGKALT    250
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 XENQEMQVVVVTADSVNVISHSRVKTDLKGTGDLFCAQLISGLLKGKALT    250
+
+asis             251 DAVHRAGLRVLEVMRYTQQHESDELILPPLAEA    283
+                     ||||||||||||||||||||||||||||||   
+asis             251 DAVHRAGLRVLEVMRYTQQHESDELILPPL---    280
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:51:51
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b2175/b2175_protein/sequences/P0AFV4_2k1g-A.needle
+#    -asequence asis::MVKSQPILRYILRGIPAIAVAVLLSACSANNTAKNMHPETRAVGSETSSLQASQDEFENLVRNVDVKSRIMDQYADWKGVRYRLGGSTKKGIDCSGFVQRTFREQFGLELPRSTYEQQEMGKSVSRSNLRTGDLVLFRAGSTGRHVGIYIGNNQFVHASTSSGVIISSMNEPYWKKRYNEARRVLSRS
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMNVDVKSRIMDQYADWKGVRYRLGGSTKKGIDCSGFVQRTFREQFGLELPRSTYEQQEMGKSVSRSNLRTGDLVLFRAGSTGRHVGIYIGNNQFVHASTSSGVIISSMNEPYWKKRYNEARRVLSRSLE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b2175/b2175_protein/sequences/P0AFV4_2k1g-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 190
+# Identity:     126/190 (66.3%)
+# Similarity:   126/190 (66.3%)
+# Gaps:          28/190 (14.7%)
+# Score: 629.0
+# 
+#
+#=======================================
+
+asis               1 MVKSQPILRYILRGIPAIAVAVLLSACSANNTAKNMHPETRAVGSETSSL     50
+                                               ........................
+asis               1 --------------------------XXXXXXXXXXXXXXXXXXXXXXXX     24
+
+asis              51 QASQDEFENLVRNVDVKSRIMDQYADWKGVRYRLGGSTKKGIDCSGFVQR    100
+                     ............||||||||||||||||||||||||||||||||||||||
+asis              25 XXXXXXXXXXXMNVDVKSRIMDQYADWKGVRYRLGGSTKKGIDCSGFVQR     74
+
+asis             101 TFREQFGLELPRSTYEQQEMGKSVSRSNLRTGDLVLFRAGSTGRHVGIYI    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              75 TFREQFGLELPRSTYEQQEMGKSVSRSNLRTGDLVLFRAGSTGRHVGIYI    124
+
+asis             151 GNNQFVHASTSSGVIISSMNEPYWKKRYNEARRVLSRS--    188
+                     ||||||||||||||||||||||||||||||||||||||  
+asis             125 GNNQFVHASTSSGVIISSMNEPYWKKRYNEARRVLSRSLE    164
+
+
+#---------------------------------------
+#---------------------------------------

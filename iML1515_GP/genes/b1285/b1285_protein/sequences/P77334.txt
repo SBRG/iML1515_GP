@@ -1,0 +1,190 @@
+ID   GMR_ECOLI               Reviewed;         661 AA.
+AC   P77334;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1997, sequence version 1.
+DT   15-FEB-2017, entry version 136.
+DE   RecName: Full=Cyclic di-GMP phosphodiesterase Gmr;
+DE            EC=3.1.4.52;
+GN   Name=gmr; Synonyms=yciR; OrderedLocusNames=b1285, JW1278;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=9097039; DOI=10.1093/dnares/3.6.363;
+RA   Aiba H., Baba T., Fujita K., Hayashi K., Inada T., Isono K., Itoh T.,
+RA   Kasai H., Kashimoto K., Kimura S., Kitakawa M., Kitagawa M.,
+RA   Makino K., Miki T., Mizobuchi K., Mori H., Mori T., Motomura K.,
+RA   Nakade S., Nakamura Y., Nashimoto H., Nishio Y., Oshima T., Saito N.,
+RA   Sampei G., Seki Y., Sivasundaram S., Tagami H., Takeda J.,
+RA   Takemoto K., Takeuchi Y., Wada C., Yamamoto Y., Horiuchi T.;
+RT   "A 570-kb DNA sequence of the Escherichia coli K-12 genome
+RT   corresponding to the 28.0-40.1 min region on the linkage map.";
+RL   DNA Res. 3:363-377(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-557.
+RA   Rita Z.R., Arraiano C.A.;
+RL   Submitted (FEB-1996) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   CATALYTIC ACTIVITY, FUNCTION, INDUCTION, RPOS-DEPENDENCE,
+RP   H-NS-REPRESSION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=K12 / MC4100;
+RX   PubMed=17010156; DOI=10.1111/j.1365-2958.2006.05440.x;
+RA   Weber H., Pesavento C., Possling A., Tischendorf G., Hengge R.;
+RT   "Cyclic-di-GMP-mediated signalling within the sigma network of
+RT   Escherichia coli.";
+RL   Mol. Microbiol. 62:1014-1034(2006).
+RN   [6]
+RP   INDUCTION, AND RPOS-DEPENDENCE.
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=19332833; DOI=10.1099/mic.0.024257-0;
+RA   Sommerfeldt N., Possling A., Becker G., Pesavento C., Tschowri N.,
+RA   Hengge R.;
+RT   "Gene expression patterns and differential input into curli fimbriae
+RT   regulation of all GGDEF/EAL domain proteins in Escherichia coli.";
+RL   Microbiology 155:1318-1331(2009).
+CC   -!- FUNCTION: Part of a 2 protein system that seems to be dedicated to
+CC       transcription of csgD. This protein decreases csgD transcription
+CC       and thus decreases expression of adhesive curli fimbriae genes
+CC       csgEFG, csgBAC/ymaD and adrA (yaic). Activity of this protein is
+CC       antagonized by the diguanylate cyclase YdaM. In vitro has c-di-GMP
+CC       phosphodiesterase activity. Cyclic-di-GMP is a second messenger
+CC       which controls cell surface-associated traits in bacteria.
+CC       {ECO:0000269|PubMed:17010156}.
+CC   -!- CATALYTIC ACTIVITY: Cyclic di-3',5'-guanylate + H(2)O = 5'-
+CC       phosphoguanylyl(3'->5')guanosine. {ECO:0000269|PubMed:17010156}.
+CC   -!- INTERACTION:
+CC       P33358:mlrA; NbExp=2; IntAct=EBI-548149, EBI-1127668;
+CC       P77302:ydaM; NbExp=5; IntAct=EBI-548149, EBI-544662;
+CC   -!- INDUCTION: Constitutively expressed at both 28 and 37 degrees
+CC       Celsius, during transition into stationary phase, more highly
+CC       expressed on plates than in liquid medium. Expression is RpoS
+CC       dependent and repressed by H-NS. {ECO:0000269|PubMed:17010156,
+CC       ECO:0000269|PubMed:19332833}.
+CC   -!- DISRUPTION PHENOTYPE: Leads to overproduction of curli fimbrae and
+CC       autoaggregation in cultures grown at 28 degrees Celsius.
+CC       {ECO:0000269|PubMed:17010156}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=L40788; Type=Frameshift; Positions=5, 25, 365, 392, 451; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U00096; AAC74367.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAA14839.1; -; Genomic_DNA.
+DR   EMBL; L40788; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   PIR; H64876; H64876.
+DR   RefSeq; NP_415801.1; NC_000913.3.
+DR   RefSeq; WP_000859945.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P77334; -.
+DR   SMR; P77334; -.
+DR   BioGrid; 4261961; 15.
+DR   DIP; DIP-11590N; -.
+DR   IntAct; P77334; 6.
+DR   MINT; MINT-1265402; -.
+DR   STRING; 511145.b1285; -.
+DR   PaxDb; P77334; -.
+DR   PRIDE; P77334; -.
+DR   EnsemblBacteria; AAC74367; AAC74367; b1285.
+DR   EnsemblBacteria; BAA14839; BAA14839; BAA14839.
+DR   GeneID; 945868; -.
+DR   KEGG; ecj:JW1278; -.
+DR   KEGG; eco:b1285; -.
+DR   PATRIC; 32117836; VBIEscCol129921_1338.
+DR   EchoBASE; EB3191; -.
+DR   EcoGene; EG13415; gmr.
+DR   eggNOG; ENOG4105BZU; Bacteria.
+DR   eggNOG; COG2199; LUCA.
+DR   eggNOG; COG2200; LUCA.
+DR   eggNOG; COG2202; LUCA.
+DR   HOGENOM; HOG000136248; -.
+DR   InParanoid; P77334; -.
+DR   KO; K14051; -.
+DR   OMA; YTGLKEQ; -.
+DR   PhylomeDB; P77334; -.
+DR   BioCyc; EcoCyc:G6639-MONOMER; -.
+DR   BioCyc; MetaCyc:G6639-MONOMER; -.
+DR   PRO; PR:P77334; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0071111; F:cyclic-guanylate-specific phosphodiesterase activity; IDA:EcoCyc.
+DR   GO; GO:0005525; F:GTP binding; IDA:EcoCyc.
+DR   GO; GO:0031280; P:negative regulation of cyclase activity; IDA:EcoCyc.
+DR   GO; GO:0010608; P:posttranscriptional regulation of gene expression; IMP:EcoCyc.
+DR   CDD; cd01948; EAL; 1.
+DR   CDD; cd01949; GGDEF; 1.
+DR   CDD; cd00130; PAS; 1.
+DR   Gene3D; 3.20.20.450; -; 1.
+DR   InterPro; IPR001633; EAL_dom.
+DR   InterPro; IPR000160; GGDEF_dom.
+DR   InterPro; IPR029787; Nucleotide_cyclase.
+DR   InterPro; IPR000014; PAS.
+DR   Pfam; PF00563; EAL; 1.
+DR   Pfam; PF00990; GGDEF; 1.
+DR   Pfam; PF13426; PAS_9; 1.
+DR   SMART; SM00052; EAL; 1.
+DR   SMART; SM00267; GGDEF; 1.
+DR   SMART; SM00091; PAS; 1.
+DR   SUPFAM; SSF141868; SSF141868; 1.
+DR   SUPFAM; SSF55073; SSF55073; 1.
+DR   SUPFAM; SSF55785; SSF55785; 1.
+DR   TIGRFAMs; TIGR00254; GGDEF; 1.
+DR   TIGRFAMs; TIGR00229; sensory_box; 1.
+DR   PROSITE; PS50883; EAL; 1.
+DR   PROSITE; PS50887; GGDEF; 1.
+DR   PROSITE; PS50112; PAS; 1.
+PE   1: Evidence at protein level;
+KW   c-di-GMP; Complete proteome; Hydrolase; Reference proteome.
+FT   CHAIN         1    661       Cyclic di-GMP phosphodiesterase Gmr.
+FT                                /FTId=PRO_0000168885.
+FT   DOMAIN      109    179       PAS. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00140}.
+FT   DOMAIN      265    397       GGDEF. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00095}.
+FT   DOMAIN      406    658       EAL. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00074}.
+FT   CONFLICT      4      4       V -> L (in Ref. 4; L40788).
+FT                                {ECO:0000305}.
+FT   CONFLICT    113    113       A -> P (in Ref. 4; L40788).
+FT                                {ECO:0000305}.
+FT   CONFLICT    175    175       V -> L (in Ref. 4; L40788).
+FT                                {ECO:0000305}.
+FT   CONFLICT    256    256       D -> H (in Ref. 4; L40788).
+FT                                {ECO:0000305}.
+FT   CONFLICT    344    344       P -> G (in Ref. 4; L40788).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   661 AA;  74665 MW;  991D47CDE46A8F01 CRC64;
+     MKTVRESTTL YNFLGSHNPY WRLTESSDVL RFSTTETTEP DRTLQLSAEQ AARIREMTVI
+     TSSLMMSLTV DESDLSVHLV GRKINKREWA GNASAWHDTP AVARDLSHGL SFAEQVVSEA
+     HSAIVILDSR GNIQRFNRLC EDYTGLKEHD VIGQSVFKLF MSRREAAASR RNNRVFFRSG
+     NAYEVELWIP TCKGQRLFLF RNKFVHSGSG KNEIFLICSG TDITEERRAQ ERLRILANTD
+     SITGLPNRNA MQDLIDHAIN HADNNKVGVV YLDLDNFKKV NDAYGHLFGD QLLRDVSLAI
+     LSCLEHDQVL ARPGGDEFLV LASNTSQSAL EAMASRILTR LRLPFRIGLI EVYTSCSVGI
+     ALSPEHGSDS TAIIRHADTA MYTAKEGGRG QFCVFTPEMN QRVFEYLWLD TNLRKALEND
+     QLVIHYQPKI TWRGEVRSLE ALVRWQSPER GLIPPLDFIS YAEESGLIVP LGRWVILDVV
+     RQVAKWRDKG INLRVAVNIS ARQLADQTIF TALKQVLQEL NFEYCPIDVE LTESCLIEND
+     ELALSVIQQF SQLGAQVHLD DFGTGYSSLS QLARFPIDAI KLDQVFVRDI HKQPVSQSLV
+     RAIVAVAQAL NLQVIAEGVE SAKEDAFLTK NGINERQGFL FAKPMPAVAF ERWYKRYLKR
+     A
+//

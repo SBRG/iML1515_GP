@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:54:10
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b4042/b4042_protein/sequences/P0ABN1_3ze3-D.needle
+#    -asequence asis::MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLDVDAITRVLLISSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITWCILLWSHFG
+#    -bsequence asis::XXXXXXXXXXXXXAGYSWKGLRAAWINEAAFRQEGVAVLLCVVIAAWLDVDAVTRVLLISSVMLVMIVELLNSAIEAVVDRIGSEYHELSGRAKDLGSAAVLIAIIDAVITWAILLWSHFG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b4042/b4042_protein/sequences/P0ABN1_3ze3-D.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 122
+# Identity:     101/122 (82.8%)
+# Similarity:   104/122 (85.2%)
+# Gaps:           1/122 ( 0.8%)
+# Score: 497.0
+# 
+#
+#=======================================
+
+asis               1 MANNTTGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIACWLD     50
+                      .............|||||||||||||||||||||||||||.||||.|||
+asis               1 -XXXXXXXXXXXXXAGYSWKGLRAAWINEAAFRQEGVAVLLCVVIAAWLD     49
+
+asis              51 VDAITRVLLISSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSA    100
+                     |||:||||||||||||||||:|||||||||||||||||||||||||:|||
+asis              50 VDAVTRVLLISSVMLVMIVELLNSAIEAVVDRIGSEYHELSGRAKDLGSA     99
+
+asis             101 AVLIAIIVAVITWCILLWSHFG    122
+                     |||||||.|||||.||||||||
+asis             100 AVLIAIIDAVITWAILLWSHFG    121
+
+
+#---------------------------------------
+#---------------------------------------

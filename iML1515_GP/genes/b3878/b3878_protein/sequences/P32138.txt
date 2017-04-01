@@ -1,0 +1,279 @@
+ID   SQASE_ECOLI             Reviewed;         678 AA.
+AC   P32138; P76775; Q2M8H5;
+DT   01-OCT-1993, integrated into UniProtKB/Swiss-Prot.
+DT   15-JUL-1998, sequence version 3.
+DT   15-FEB-2017, entry version 126.
+DE   RecName: Full=Sulfoquinovosidase {ECO:0000303|PubMed:26878550};
+DE            Short=SQase {ECO:0000303|PubMed:26878550};
+DE            EC=3.2.1.199 {ECO:0000269|PubMed:26878550};
+GN   Name=yihQ {ECO:0000303|PubMed:26878550, ECO:0000312|EMBL:AAC76875.1};
+GN   Synonyms=squQ {ECO:0000312|EcoGene:EG11843};
+GN   OrderedLocusNames=b3878, JW3849;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=8346018; DOI=10.1093/nar/21.15.3391;
+RA   Plunkett G. III, Burland V., Daniels D.L., Blattner F.R.;
+RT   "Analysis of the Escherichia coli genome. III. DNA sequence of the
+RT   region from 87.2 to 89.2 minutes.";
+RL   Nucleic Acids Res. 21:3391-3398(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA], AND SEQUENCE REVISION
+RP   TO 358 AND 517.
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [4]
+RP   FUNCTION.
+RX   PubMed=15294295; DOI=10.1016/j.pep.2004.05.008;
+RA   Okuyama M., Mori H., Chiba S., Kimura A.;
+RT   "Overexpression and characterization of two unknown proteins, YicI and
+RT   YihQ, originated from Escherichia coli.";
+RL   Protein Expr. Purif. 37:170-179(2004).
+RN   [5]
+RP   IDENTIFICATION BY MASS SPECTROMETRY, INDUCTION, AND PATHWAY.
+RC   STRAIN=K12;
+RX   PubMed=24463506; DOI=10.1038/nature12947;
+RA   Denger K., Weiss M., Felux A.K., Schneider A., Mayer C., Spiteller D.,
+RA   Huhn T., Cook A.M., Schleheck D.;
+RT   "Sulphoglycolysis in Escherichia coli K-12 closes a gap in the
+RT   biogeochemical sulphur cycle.";
+RL   Nature 507:114-117(2014).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (1.85 ANGSTROMS) OF WILD-TYPE AND MUTANT ASN-472
+RP   IN COMPLEXES WITH THE SUBSTRATE ANALOG
+RP   4-NITROPHENYL-ALPHA-D-SULFOQUINOVOSIDE AND THE INHIBITOR 5FIDOF,
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, ENZYME
+RP   REGULATION, ACTIVE SITE, REACTION MECHANISM, AND MUTAGENESIS OF
+RP   ARG-301; TRP-304; ASP-405 AND ASP-472.
+RC   STRAIN=K12 / DH5-alpha;
+RX   PubMed=26878550; DOI=10.1038/nchembio.2023;
+RA   Speciale G., Jin Y., Davies G.J., Williams S.J., Goddard-Borger E.D.;
+RT   "YihQ is a sulfoquinovosidase that cleaves sulfoquinovosyl
+RT   diacylglyceride sulfolipids.";
+RL   Nat. Chem. Biol. 12:215-217(2016).
+CC   -!- FUNCTION: Catalyzes the hydrolysis of sulfoquinovosyl
+CC       diacylglycerides (SQDG) to sulfoquinovose (SQ), which is then
+CC       degraded by E.coli through the SQ Embden-Meyerhof-Parnas (SQ-EMP)
+CC       sulfoglycolysis pathway as a source of carbon and sulfur.
+CC       Therefore, is likely involved in the utilization of the
+CC       sulfoquinovose headgroup found in ubiquitous plant sulfolipids. Is
+CC       also able to hydrolyze simple sulfoquinovosides such as 1-
+CC       sulfoquinovosylglycerol (SQGro). Is a retaining glycoside
+CC       hydrolase, since it forms the alpha anomer of SQ
+CC       (PubMed:26878550). Also exhibits some alpha-glucosidase activity
+CC       against alpha-glucosyl fluoride in vitro, although natural
+CC       substrates, such as alpha-glucobioses are scarcely hydrolyzed
+CC       (PubMed:15294295). {ECO:0000269|PubMed:15294295,
+CC       ECO:0000269|PubMed:26878550}.
+CC   -!- CATALYTIC ACTIVITY: A 6-sulfo-alpha-D-quinovosyl diacylglycerol +
+CC       H(2)O = 6-sulfo-D-quinovose + a 1,2-diacylglycerol.
+CC       {ECO:0000269|PubMed:26878550}.
+CC   -!- ENZYME REGULATION: Is inactivated in vitro by the mechanism-based
+CC       inactivator 5-fluoro-beta-L-idopyranosyl fluoride (5FIdoF) that
+CC       yields a covalent glycosyl-enzyme complex with the active site
+CC       nucleophile Asp-405. {ECO:0000269|PubMed:26878550}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.22 mM for para-nitrophenyl alpha-sulfoquinovoside
+CC         {ECO:0000269|PubMed:26878550};
+CC         Note=kcat is 14.3 sec(-1) with para-nitrophenyl alpha-
+CC         sulfoquinovoside as substrate. {ECO:0000269|PubMed:26878550};
+CC       pH dependence:
+CC         Optimum pH is 6. {ECO:0000269|PubMed:26878550};
+CC   -!- PATHWAY: Glycolipid metabolism. {ECO:0000305|PubMed:24463506}.
+CC   -!- INDUCTION: Induced during growth with sulfoquinovose.
+CC       {ECO:0000269|PubMed:24463506}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 31 family.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; L19201; AAB03011.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC76875.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE77431.1; -; Genomic_DNA.
+DR   PIR; A65193; A65193.
+DR   RefSeq; NP_418314.1; NC_000913.3.
+DR   RefSeq; WP_000380843.1; NZ_LN832404.1.
+DR   PDB; 5AED; X-ray; 1.91 A; A/B=1-678.
+DR   PDB; 5AEE; X-ray; 1.85 A; A/B=1-678.
+DR   PDB; 5AEG; X-ray; 1.85 A; A/B=1-678.
+DR   PDBsum; 5AED; -.
+DR   PDBsum; 5AEE; -.
+DR   PDBsum; 5AEG; -.
+DR   ProteinModelPortal; P32138; -.
+DR   SMR; P32138; -.
+DR   BioGrid; 4260866; 11.
+DR   DIP; DIP-12498N; -.
+DR   IntAct; P32138; 1.
+DR   MINT; MINT-1249337; -.
+DR   STRING; 511145.b3878; -.
+DR   CAZy; GH31; Glycoside Hydrolase Family 31.
+DR   PaxDb; P32138; -.
+DR   PRIDE; P32138; -.
+DR   EnsemblBacteria; AAC76875; AAC76875; b3878.
+DR   EnsemblBacteria; BAE77431; BAE77431; BAE77431.
+DR   GeneID; 948376; -.
+DR   KEGG; ecj:JW3849; -.
+DR   KEGG; eco:b3878; -.
+DR   PATRIC; 32123259; VBIEscCol129921_3990.
+DR   EchoBASE; EB1789; -.
+DR   EcoGene; EG11843; yihQ.
+DR   eggNOG; ENOG4105CJQ; Bacteria.
+DR   eggNOG; COG1501; LUCA.
+DR   HOGENOM; HOG000064244; -.
+DR   InParanoid; P32138; -.
+DR   KO; K15922; -.
+DR   OMA; HYEDDAR; -.
+DR   PhylomeDB; P32138; -.
+DR   BioCyc; EcoCyc:EG11843-MONOMER; -.
+DR   BioCyc; MetaCyc:EG11843-MONOMER; -.
+DR   PRO; PR:P32138; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0030246; F:carbohydrate binding; IEA:InterPro.
+DR   GO; GO:0004553; F:hydrolase activity, hydrolyzing O-glycosyl compounds; IEA:InterPro.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   InterPro; IPR011013; Gal_mutarotase_SF_dom.
+DR   InterPro; IPR000322; Glyco_hydro_31.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   Pfam; PF01055; Glyco_hydro_31; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF74650; SSF74650; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Complete proteome; Glycosidase; Hydrolase;
+KW   Reference proteome.
+FT   CHAIN         1    678       Sulfoquinovosidase.
+FT                                /FTId=PRO_0000185372.
+FT   REGION      301    304       Substrate binding.
+FT                                {ECO:0000305|PubMed:26878550}.
+FT   ACT_SITE    405    405       Nucleophile.
+FT                                {ECO:0000269|PubMed:26878550}.
+FT   ACT_SITE    408    408       {ECO:0000250|UniProtKB:P31434}.
+FT   ACT_SITE    472    472       Proton donor.
+FT                                {ECO:0000305|PubMed:26878550}.
+FT   BINDING     288    288       Substrate. {ECO:0000305|PubMed:26878550}.
+FT   BINDING     537    537       Substrate. {ECO:0000305|PubMed:26878550}.
+FT   MUTAGEN     288    288       Q->E: Loss of catalytic activity against
+FT                                para-nitrophenyl alpha-sulfoquinovoside,
+FT                                but in contrast to wild-type, possesses a
+FT                                very weak alpha-glucosidase activity
+FT                                against para-nitrophenyl alpha-D-
+FT                                glucopyranoside.
+FT                                {ECO:0000269|PubMed:26878550}.
+FT   MUTAGEN     301    301       R->A,E: Loss of catalytic activity.
+FT                                {ECO:0000269|PubMed:26878550}.
+FT   MUTAGEN     301    301       R->K: Almost complete loss of catalytic
+FT                                activity. {ECO:0000269|PubMed:26878550}.
+FT   MUTAGEN     301    301       R->Q: 13-fold decrease in substrate
+FT                                affinity and 4600-fold decrease in
+FT                                catalytic activity.
+FT                                {ECO:0000269|PubMed:26878550}.
+FT   MUTAGEN     304    304       W->F: Loss of catalytic activity.
+FT                                {ECO:0000269|PubMed:26878550}.
+FT   MUTAGEN     405    405       D->A,N: Loss of catalytic activity.
+FT                                {ECO:0000269|PubMed:26878550}.
+FT   MUTAGEN     472    472       D->A,N: Loss of catalytic activity.
+FT                                {ECO:0000269|PubMed:26878550}.
+FT   CONFLICT    358    358       A -> R (in Ref. 1; AAB03011).
+FT                                {ECO:0000305}.
+FT   CONFLICT    517    517       S -> T (in Ref. 1; AAB03011).
+FT                                {ECO:0000305}.
+FT   STRAND        9     12       {ECO:0000244|PDB:5AEG}.
+FT   STRAND       13     16       {ECO:0000244|PDB:5AEE}.
+FT   STRAND       19     24       {ECO:0000244|PDB:5AEE}.
+FT   STRAND       27     32       {ECO:0000244|PDB:5AEE}.
+FT   STRAND       34     36       {ECO:0000244|PDB:5AEE}.
+FT   STRAND       38     51       {ECO:0000244|PDB:5AEE}.
+FT   STRAND       54     66       {ECO:0000244|PDB:5AEE}.
+FT   STRAND       69     75       {ECO:0000244|PDB:5AEE}.
+FT   STRAND       78     86       {ECO:0000244|PDB:5AEE}.
+FT   STRAND       89     97       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      103    111       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      116    122       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      129    133       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      144    148       {ECO:0000244|PDB:5AEE}.
+FT   HELIX       162    171       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      183    189       {ECO:0000244|PDB:5AEE}.
+FT   TURN        190    192       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      193    197       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      203    209       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      212    228       {ECO:0000244|PDB:5AEE}.
+FT   HELIX       232    243       {ECO:0000244|PDB:5AEE}.
+FT   HELIX       251    255       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      256    260       {ECO:0000244|PDB:5AEE}.
+FT   HELIX       265    277       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      282    286       {ECO:0000244|PDB:5AEE}.
+FT   HELIX       288    291       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      293    295       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      300    302       {ECO:0000244|PDB:5AEE}.
+FT   TURN        310    312       {ECO:0000244|PDB:5AEE}.
+FT   HELIX       316    325       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      329    334       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      336    339       {ECO:0000244|PDB:5AEE}.
+FT   HELIX       343    351       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      360    362       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      364    367       {ECO:0000244|PDB:5AEG}.
+FT   STRAND      368    375       {ECO:0000244|PDB:5AEE}.
+FT   HELIX       380    393       {ECO:0000244|PDB:5AEE}.
+FT   TURN        394    398       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      400    404       {ECO:0000244|PDB:5AEE}.
+FT   HELIX       422    443       {ECO:0000244|PDB:5AEE}.
+FT   TURN        447    449       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      451    455       {ECO:0000244|PDB:5AEE}.
+FT   HELIX       461    464       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      474    476       {ECO:0000244|PDB:5AEE}.
+FT   TURN        479    481       {ECO:0000244|PDB:5AEE}.
+FT   HELIX       483    485       {ECO:0000244|PDB:5AEE}.
+FT   HELIX       486    495       {ECO:0000244|PDB:5AEE}.
+FT   HELIX       518    528       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      534    536       {ECO:0000244|PDB:5AEE}.
+FT   HELIX       542    544       {ECO:0000244|PDB:5AEE}.
+FT   HELIX       552    567       {ECO:0000244|PDB:5AEE}.
+FT   HELIX       569    582       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      586    588       {ECO:0000244|PDB:5AEE}.
+FT   HELIX       590    592       {ECO:0000244|PDB:5AEE}.
+FT   HELIX       598    602       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      607    609       {ECO:0000244|PDB:5AEE}.
+FT   TURN        610    612       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      613    615       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      624    630       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      635    637       {ECO:0000244|PDB:5AEE}.
+FT   TURN        638    640       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      646    652       {ECO:0000244|PDB:5AEE}.
+FT   STRAND      659    663       {ECO:0000244|PDB:5AEE}.
+FT   HELIX       669    673       {ECO:0000244|PDB:5AEE}.
+FT   HELIX       674    677       {ECO:0000244|PDB:5AEE}.
+SQ   SEQUENCE   678 AA;  77275 MW;  85869F52BB72FEE7 CRC64;
+     MDTPRPQLLD FQFHQNNDSF TLHFQQRLIL THSKDNPCLW IGSGIADIDM FRGNFSIKDK
+     LQEKIALTDA IVSQSPDGWL IHFSRGSDIS ATLNISADDQ GRLLLELQND NLNHNRIWLR
+     LAAQPEDHIY GCGEQFSYFD LRGKPFPLWT SEQGVGRNKQ TYVTWQADCK ENAGGDYYWT
+     FFPQPTFVST QKYYCHVDNS CYMNFDFSAP EYHELALWED KATLRFECAD TYISLLEKLT
+     ALLGRQPELP DWIYDGVTLG IQGGTEVCQK KLDTMRNAGV KVNGIWAQDW SGIRMTSFGK
+     RVMWNWKWNS ENYPQLDSRI KQWNQEGVQF LAYINPYVAS DKDLCEEAAQ HGYLAKDASG
+     GDYLVEFGEF YGGVVDLTNP EAYAWFKEVI KKNMIELGCG GWMADFGEYL PTDTYLHNGV
+     SAEIMHNAWP ALWAKCNYEA LEETGKLGEI LFFMRAGSTG SQKYSTMMWA GDQNVDWSLD
+     DGLASVVPAA LSLAMTGHGL HHSDIGGYTT LFEMKRSKEL LLRWCDFSAF TPMMRTHEGN
+     RPGDNWQFDG DAETIAHFAR MTTVFTTLKP YLKEAVALNA KSGLPVMRPL FLHYEDDAHT
+     YTLKYQYLLG RDILVAPVHE EGRSDWTLYL PEDNWVHAWT GEAFRGGEVT VNAPIGKPPV
+     FYRADSEWAA LFASLKSI
+//

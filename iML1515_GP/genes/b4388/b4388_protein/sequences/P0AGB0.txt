@@ -1,0 +1,170 @@
+ID   SERB_ECOLI              Reviewed;         322 AA.
+AC   P0AGB0; P06862; Q2M5S9;
+DT   01-JAN-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1988, sequence version 1.
+DT   15-MAR-2017, entry version 97.
+DE   RecName: Full=Phosphoserine phosphatase;
+DE            Short=PSP;
+DE            Short=PSPase;
+DE            EC=3.1.3.3;
+DE   AltName: Full=O-phosphoserine phosphohydrolase;
+GN   Name=serB; OrderedLocusNames=b4388, JW4351;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=K12;
+RX   PubMed=2997734; DOI=10.1093/nar/13.19.7025;
+RA   Neuwald A.F., Stauffer G.V.;
+RT   "DNA sequence and characterization of the Escherichia coli serB
+RT   gene.";
+RL   Nucleic Acids Res. 13:7025-7039(1985).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=7610040; DOI=10.1093/nar/23.12.2105;
+RA   Burland V.D., Plunkett G. III, Sofia H.J., Daniels D.L.,
+RA   Blattner F.R.;
+RT   "Analysis of the Escherichia coli genome VI: DNA sequence of the
+RT   region from 92.8 through 100 minutes.";
+RL   Nucleic Acids Res. 23:2105-2119(1995).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [5]
+RP   FUNCTION AS A PHOSPHATASE, BIOPHYSICOCHEMICAL PROPERTIES, SUBSTRATE
+RP   SPECIFICITY, AND COFACTOR.
+RX   PubMed=16990279; DOI=10.1074/jbc.M605449200;
+RA   Kuznetsova E., Proudfoot M., Gonzalez C.F., Brown G., Omelchenko M.V.,
+RA   Borozan I., Carmel L., Wolf Y.I., Mori H., Savchenko A.V.,
+RA   Arrowsmith C.H., Koonin E.V., Edwards A.M., Yakunin A.F.;
+RT   "Genome-wide analysis of substrate specificities of the Escherichia
+RT   coli haloacid dehalogenase-like phosphatase family.";
+RL   J. Biol. Chem. 281:36149-36161(2006).
+CC   -!- FUNCTION: Catalyzes the dephosphorylation of phosphoserine (P-
+CC       Ser). Also catalyzes the hydrolysis of phosphothreonine (P-Thr).
+CC       {ECO:0000269|PubMed:16990279}.
+CC   -!- CATALYTIC ACTIVITY: O-phospho-L(or D)-serine + H(2)O = L(or D)-
+CC       serine + phosphate.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000269|PubMed:16990279};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000269|PubMed:16990279};
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC         Evidence={ECO:0000269|PubMed:16990279};
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000269|PubMed:16990279};
+CC       Note=Binds 1 Mg(2+) ion per subunit. Can also use other divalent
+CC       metal cations as Mn(2+), Co(2+) and Zn(2+).
+CC       {ECO:0000269|PubMed:16990279};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.097 mM for P-Ser (with magnesium ions as cofactor and at pH
+CC         9) {ECO:0000269|PubMed:16990279};
+CC         KM=0.07 mM for imido-diphosphate (with magnesium ions as
+CC         cofactor and at pH 9) {ECO:0000269|PubMed:16990279};
+CC         KM=6.2 mM for acetyl-phosphate (with magnesium ions as cofactor
+CC         and at pH 9) {ECO:0000269|PubMed:16990279};
+CC       pH dependence:
+CC         Optimum pH is between 6 and 7.5. {ECO:0000269|PubMed:16990279};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-serine biosynthesis; L-serine
+CC       from 3-phospho-D-glycerate: step 3/3.
+CC   -!- SIMILARITY: Belongs to the HAD-like hydrolase superfamily. SerB
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X03046; CAA26852.1; -; Genomic_DNA.
+DR   EMBL; U14003; AAA97284.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC77341.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE78377.1; -; Genomic_DNA.
+DR   PIR; A24271; PAECS.
+DR   RefSeq; NP_418805.1; NC_000913.3.
+DR   RefSeq; WP_001132955.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P0AGB0; -.
+DR   SMR; P0AGB0; -.
+DR   BioGrid; 4262789; 113.
+DR   DIP; DIP-48100N; -.
+DR   IntAct; P0AGB0; 3.
+DR   STRING; 511145.b4388; -.
+DR   PaxDb; P0AGB0; -.
+DR   PRIDE; P0AGB0; -.
+DR   EnsemblBacteria; AAC77341; AAC77341; b4388.
+DR   EnsemblBacteria; BAE78377; BAE78377; BAE78377.
+DR   GeneID; 948913; -.
+DR   KEGG; ecj:JW4351; -.
+DR   KEGG; eco:b4388; -.
+DR   PATRIC; 32124392; VBIEscCol129921_4536.
+DR   EchoBASE; EB0938; -.
+DR   EcoGene; EG10945; serB.
+DR   eggNOG; ENOG4105EAC; Bacteria.
+DR   eggNOG; COG0560; LUCA.
+DR   HOGENOM; HOG000231115; -.
+DR   InParanoid; P0AGB0; -.
+DR   KO; K01079; -.
+DR   OMA; AQYKANT; -.
+DR   PhylomeDB; P0AGB0; -.
+DR   BioCyc; EcoCyc:PSERPHOSPHA-MONOMER; -.
+DR   BioCyc; MetaCyc:PSERPHOSPHA-MONOMER; -.
+DR   SABIO-RK; P0AGB0; -.
+DR   UniPathway; UPA00135; UER00198.
+DR   PRO; PR:P0AGB0; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IDA:EcoliWiki.
+DR   GO; GO:0000287; F:magnesium ion binding; IDA:EcoliWiki.
+DR   GO; GO:0016791; F:phosphatase activity; IDA:EcoliWiki.
+DR   GO; GO:0004647; F:phosphoserine phosphatase activity; IDA:EcoliWiki.
+DR   GO; GO:0008652; P:cellular amino acid biosynthetic process; IDA:EcoliWiki.
+DR   GO; GO:0006564; P:L-serine biosynthetic process; IDA:EcoliWiki.
+DR   Gene3D; 1.10.150.210; -; 1.
+DR   Gene3D; 3.40.50.1000; -; 1.
+DR   InterPro; IPR023214; HAD-like_dom.
+DR   InterPro; IPR023190; Pser_Pase_dom_2.
+DR   SUPFAM; SSF56784; SSF56784; 1.
+PE   1: Evidence at protein level;
+KW   Amino-acid biosynthesis; Complete proteome; Hydrolase; Magnesium;
+KW   Metal-binding; Reference proteome; Serine biosynthesis.
+FT   CHAIN         1    322       Phosphoserine phosphatase.
+FT                                /FTId=PRO_0000156886.
+FT   REGION       10     12       Substrate binding. {ECO:0000250}.
+FT   REGION      204    205       Substrate binding. {ECO:0000250}.
+FT   ACT_SITE    116    116       Nucleophile. {ECO:0000250}.
+FT   ACT_SITE    118    118       Proton donor. {ECO:0000250}.
+FT   METAL        12     12       Magnesium. {ECO:0000250}.
+FT   METAL       116    116       Magnesium. {ECO:0000250}.
+FT   METAL       118    118       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000250}.
+FT   METAL       272    272       Magnesium. {ECO:0000250}.
+FT   BINDING     125    125       Substrate. {ECO:0000250}.
+FT   BINDING     161    161       Substrate. {ECO:0000250}.
+FT   BINDING     249    249       Substrate. {ECO:0000250}.
+FT   BINDING     275    275       Substrate. {ECO:0000250}.
+SQ   SEQUENCE   322 AA;  35043 MW;  A09A43BD846B7DE6 CRC64;
+     MPNITWCDLP EDVSLWPGLP LSLSGDEVMP LDYHAGRSGW LLYGRGLDKQ RLTQYQSKLG
+     AAMVIVAAWC VEDYQVIRLA GSLTARATRL AHEAQLDVAP LGKIPHLRTP GLLVMDMDST
+     AIQIECIDEI AKLAGTGEMV AEVTERAMRG ELDFTASLRS RVATLKGADA NILQQVRENL
+     PLMPGLTQLV LKLETLGWKV AIASGGFTFF AEYLRDKLRL TAVVANELEI MDGKFTGNVI
+     GDIVDAQYKA KTLTRLAQEY EIPLAQTVAI GDGANDLPMI KAAGLGIAYH AKPKVNEKAE
+     VTIRHADLMG VFCILSGSLN QK
+//

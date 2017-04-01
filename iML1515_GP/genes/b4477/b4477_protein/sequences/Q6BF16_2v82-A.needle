@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:43:53
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b4477/b4477_protein/sequences/Q6BF16_2v82-A.needle
+#    -asequence asis::MQWQTKLPLIAILRGITPDEALAHVGAVIDAGFDAVEIPLNSPQWEQSIPAIVDAYGDKALIGAGTVLKPEQVDALARMGCQLIVTPNIHSEVIRRAVGYGMTVCPGCATATEAFTALEAGAQALKIFPSSAFGPQYIKALKAVLPSDIAVFAVGGVTPENLAQWIDAGCAGAGLGSDLYRAGQSVERTAQQAAAFVKAYREAVQ
+#    -bsequence asis::XQWQTKLPLIAILRGITPDEALAHVGAVIDAGFDAVEIPLNSPQWEQSIPAIVDAYGDKALIGAGTVLKPEQVDALARXGCQLIVTPNIHSEVIRRAVGYGXTVCPGCATATEAFTALEAGAQALKIFPSSAFGPQYIKALKAVLPSDIAVFAVGGVTPENLAQWIDAGCAGAGLGSDLYRAGQSVERTAQQAAAFVKAYREAVQLH
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b4477/b4477_protein/sequences/Q6BF16_2v82-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 207
+# Identity:     202/207 (97.6%)
+# Similarity:   202/207 (97.6%)
+# Gaps:           2/207 ( 1.0%)
+# Score: 1026.0
+# 
+#
+#=======================================
+
+asis               1 MQWQTKLPLIAILRGITPDEALAHVGAVIDAGFDAVEIPLNSPQWEQSIP     50
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XQWQTKLPLIAILRGITPDEALAHVGAVIDAGFDAVEIPLNSPQWEQSIP     50
+
+asis              51 AIVDAYGDKALIGAGTVLKPEQVDALARMGCQLIVTPNIHSEVIRRAVGY    100
+                     ||||||||||||||||||||||||||||.|||||||||||||||||||||
+asis              51 AIVDAYGDKALIGAGTVLKPEQVDALARXGCQLIVTPNIHSEVIRRAVGY    100
+
+asis             101 GMTVCPGCATATEAFTALEAGAQALKIFPSSAFGPQYIKALKAVLPSDIA    150
+                     |.||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 GXTVCPGCATATEAFTALEAGAQALKIFPSSAFGPQYIKALKAVLPSDIA    150
+
+asis             151 VFAVGGVTPENLAQWIDAGCAGAGLGSDLYRAGQSVERTAQQAAAFVKAY    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 VFAVGGVTPENLAQWIDAGCAGAGLGSDLYRAGQSVERTAQQAAAFVKAY    200
+
+asis             201 REAVQ--    205
+                     |||||  
+asis             201 REAVQLH    207
+
+
+#---------------------------------------
+#---------------------------------------

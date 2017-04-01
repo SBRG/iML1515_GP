@@ -1,0 +1,158 @@
+ID   GHRA_ECOLI              Reviewed;         312 AA.
+AC   P75913; Q9R3M8;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   13-NOV-2007, sequence version 2.
+DT   15-FEB-2017, entry version 123.
+DE   RecName: Full=Glyoxylate/hydroxypyruvate reductase A;
+DE            EC=1.1.1.79;
+DE            EC=1.1.1.81;
+DE   AltName: Full=2-ketoacid reductase;
+GN   Name=ghrA; Synonyms=ycdW; OrderedLocusNames=b1033, JW5146;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=8905232; DOI=10.1093/dnares/3.3.137;
+RA   Oshima T., Aiba H., Baba T., Fujita K., Hayashi K., Honjo A.,
+RA   Ikemoto K., Inada T., Itoh T., Kajihara M., Kanai K., Kashimoto K.,
+RA   Kimura S., Kitagawa M., Makino K., Masuda S., Miki T., Mizobuchi K.,
+RA   Mori H., Motomura K., Nakamura Y., Nashimoto H., Nishio Y., Saito N.,
+RA   Sampei G., Seki Y., Tagami H., Takemoto K., Wada C., Yamamoto Y.,
+RA   Yano M., Horiuchi T.;
+RT   "A 718-kb DNA sequence of the Escherichia coli K-12 genome
+RT   corresponding to the 12.7-28.0 min region on the linkage map.";
+RL   DNA Res. 3:137-155(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 1-10, CATALYTIC ACTIVITY, SUBSTRATE SPECIFICITY,
+RP   INDUCTION, SUBCELLULAR LOCATION, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RC   STRAIN=K12 / MC4100 / ATCC 35695 / DSM 6574;
+RX   PubMed=11237876; DOI=10.1042/0264-6021:3540707;
+RA   Nunez M.F., Pellicer M.T., Badia J., Aguilar J., Baldoma L.;
+RT   "Biochemical characterization of the 2-ketoacid reductases encoded by
+RT   ycdW and yiaE genes in Escherichia coli.";
+RL   Biochem. J. 354:707-715(2001).
+RN   [5]
+RP   IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=B / BL21;
+RX   PubMed=10493123;
+RX   DOI=10.1002/(SICI)1522-2683(19990801)20:11<2181::AID-ELPS2181>3.0.CO;2-Q;
+RA   Fountoulakis M., Takacs M.-F., Berndt P., Langen H., Takacs B.;
+RT   "Enrichment of low abundance proteins of Escherichia coli by
+RT   hydroxyapatite chromatography.";
+RL   Electrophoresis 20:2181-2195(1999).
+CC   -!- FUNCTION: Catalyzes the NADPH-dependent reduction of glyoxylate
+CC       and hydroxypyruvate into glycolate and glycerate, respectively.
+CC       Inactive towards 2-oxo-D-gluconate, 2-oxoglutarate, oxaloacetate
+CC       and pyruvate. Only D- and L-glycerate are involved in the
+CC       oxidative activity with NADP. Activity with NAD is very low.
+CC   -!- CATALYTIC ACTIVITY: Glycolate + NADP(+) = glyoxylate + NADPH.
+CC       {ECO:0000269|PubMed:11237876}.
+CC   -!- CATALYTIC ACTIVITY: D-glycerate + NAD(P)(+) = hydroxypyruvate +
+CC       NAD(P)H. {ECO:0000269|PubMed:11237876}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.6 mM for glyoxylate (at 25 degrees Celsius and pH 7)
+CC         {ECO:0000269|PubMed:11237876};
+CC         KM=1.0 mM for hydroxypyruvate (at 25 degrees Celsius and pH 7)
+CC         {ECO:0000269|PubMed:11237876};
+CC         Vmax=120 umol/min/mg enzyme with glyoxylate as substrate (at 25
+CC         degrees Celsius and pH 7) {ECO:0000269|PubMed:11237876};
+CC         Vmax=20 umol/min/mg enzyme with hydroxypyruvate as substrate (at
+CC         25 degrees Celsius and pH 7) {ECO:0000269|PubMed:11237876};
+CC         Note=The catalytic efficiency is better for glyoxylate than
+CC         hydroxypyruvate with NADPH as electron donor.;
+CC       pH dependence:
+CC         Optimum pH is 7.0. {ECO:0000269|PubMed:11237876};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305|PubMed:11237876}.
+CC   -!- INDUCTION: Constitutively expressed.
+CC       {ECO:0000269|PubMed:11237876}.
+CC   -!- SIMILARITY: Belongs to the D-isomer specific 2-hydroxyacid
+CC       dehydrogenase family. GhrA subfamily. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U00096; AAC74117.2; -; Genomic_DNA.
+DR   EMBL; AP009048; BAA35814.1; -; Genomic_DNA.
+DR   PIR; F64845; F64845.
+DR   RefSeq; NP_415551.2; NC_000913.3.
+DR   RefSeq; WP_000351317.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P75913; -.
+DR   SMR; P75913; -.
+DR   BioGrid; 4260060; 17.
+DR   IntAct; P75913; 1.
+DR   STRING; 511145.b1033; -.
+DR   EPD; P75913; -.
+DR   PaxDb; P75913; -.
+DR   PRIDE; P75913; -.
+DR   EnsemblBacteria; AAC74117; AAC74117; b1033.
+DR   EnsemblBacteria; BAA35814; BAA35814; BAA35814.
+DR   GeneID; 946431; -.
+DR   KEGG; ecj:JW5146; -.
+DR   KEGG; eco:b1033; -.
+DR   PATRIC; 32117297; VBIEscCol129921_1071.
+DR   EchoBASE; EB3628; -.
+DR   EcoGene; EG13869; ghrA.
+DR   eggNOG; ENOG4105JPG; Bacteria.
+DR   eggNOG; COG0111; LUCA.
+DR   HOGENOM; HOG000136694; -.
+DR   InParanoid; P75913; -.
+DR   KO; K12972; -.
+DR   OMA; LLISSHC; -.
+DR   PhylomeDB; P75913; -.
+DR   BioCyc; EcoCyc:G6539-MONOMER; -.
+DR   BioCyc; MetaCyc:G6539-MONOMER; -.
+DR   SABIO-RK; P75913; -.
+DR   PRO; PR:P75913; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IDA:EcoCyc.
+DR   GO; GO:0030267; F:glyoxylate reductase (NADP) activity; IDA:EcoCyc.
+DR   GO; GO:0016618; F:hydroxypyruvate reductase activity; IDA:EcoCyc.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   Gene3D; 3.40.50.720; -; 1.
+DR   HAMAP; MF_01666; 2_Hacid_dh_C_GhrA; 1.
+DR   InterPro; IPR029753; D-isomer_DH_CS.
+DR   InterPro; IPR006140; D-isomer_DH_NAD-bd.
+DR   InterPro; IPR023514; GhrA.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   Pfam; PF02826; 2-Hacid_dh_C; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   PROSITE; PS00671; D_2_HYDROXYACID_DH_3; 1.
+PE   1: Evidence at protein level;
+KW   Complete proteome; Cytoplasm; Direct protein sequencing; NAD; NADP;
+KW   Oxidoreductase; Reference proteome.
+FT   CHAIN         1    312       Glyoxylate/hydroxypyruvate reductase A.
+FT                                /FTId=PRO_0000076028.
+FT   ACT_SITE    227    227       {ECO:0000250}.
+FT   ACT_SITE    275    275       Proton donor. {ECO:0000250}.
+SQ   SEQUENCE   312 AA;  35343 MW;  5B2F966D11DC6B40 CRC64;
+     MDIIFYHPTF DTQWWIEALR KAIPQARVRA WKSGDNDSAD YALVWHPPVE MLAGRDLKAV
+     FALGAGVDSI LSKLQAHPEM LNPSVPLFRL EDTGMGEQMQ EYAVSQVLHW FRRFDDYRIQ
+     QNSSHWQPLP EYHREDFTIG ILGAGVLGSK VAQSLQTWRF PLRCWSRTRK SWPGVQSFAG
+     REELSAFLSQ CRVLINLLPN TPETVGIINQ QLLEKLPDGA YLLNLARGVH VVEDDLLAAL
+     DSGKVKGAML DVFNREPLPP ESPLWQHPRV TITPHVAAIT RPAEAVEYIS RTIAQLEKGE
+     RVCGQVDRAR GY
+//

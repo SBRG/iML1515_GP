@@ -1,0 +1,137 @@
+ENTRY       b2341             CDS       T00007
+NAME        fadJ
+DEFINITION  (RefSeq) fused enoyl-CoA hydratase and epimerase and isomerase/3-hydroxyacyl-CoA dehydrogenase
+ORTHOLOGY   K01782  3-hydroxyacyl-CoA dehydrogenase / enoyl-CoA hydratase / 3-hydroxybutyryl-CoA epimerase [EC:1.1.1.35 4.2.1.17 5.1.2.3]
+ORGANISM    eco  Escherichia coli K-12 MG1655
+PATHWAY     eco00071  Fatty acid degradation
+            eco00280  Valine, leucine and isoleucine degradation
+            eco00281  Geraniol degradation
+            eco00310  Lysine degradation
+            eco00362  Benzoate degradation
+            eco00380  Tryptophan metabolism
+            eco00410  beta-Alanine metabolism
+            eco00640  Propanoate metabolism
+            eco00650  Butanoate metabolism
+            eco00903  Limonene and pinene degradation
+            eco00930  Caprolactam degradation
+            eco01040  Biosynthesis of unsaturated fatty acids
+            eco01100  Metabolic pathways
+            eco01110  Biosynthesis of secondary metabolites
+            eco01120  Microbial metabolism in diverse environments
+            eco01130  Biosynthesis of antibiotics
+            eco01200  Carbon metabolism
+            eco01212  Fatty acid metabolism
+MODULE      eco_M00087  beta-Oxidation
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             Metabolism
+              Overview
+               01200 Carbon metabolism
+                b2341 (fadJ)
+               01212 Fatty acid metabolism
+                b2341 (fadJ)
+              Carbohydrate metabolism
+               00640 Propanoate metabolism
+                b2341 (fadJ)
+               00650 Butanoate metabolism
+                b2341 (fadJ)
+              Lipid metabolism
+               00071 Fatty acid degradation
+                b2341 (fadJ)
+               01040 Biosynthesis of unsaturated fatty acids
+                b2341 (fadJ)
+              Amino acid metabolism
+               00280 Valine, leucine and isoleucine degradation
+                b2341 (fadJ)
+               00310 Lysine degradation
+                b2341 (fadJ)
+               00380 Tryptophan metabolism
+                b2341 (fadJ)
+              Metabolism of other amino acids
+               00410 beta-Alanine metabolism
+                b2341 (fadJ)
+              Metabolism of terpenoids and polyketides
+               00903 Limonene and pinene degradation
+                b2341 (fadJ)
+               00281 Geraniol degradation
+                b2341 (fadJ)
+              Xenobiotics biodegradation and metabolism
+               00362 Benzoate degradation
+                b2341 (fadJ)
+               00930 Caprolactam degradation
+                b2341 (fadJ)
+            Enzymes [BR:eco01000]
+             1. Oxidoreductases
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.35  3-hydroxyacyl-CoA dehydrogenase
+                 b2341 (fadJ)
+             4. Lyases
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.17  enoyl-CoA hydratase
+                 b2341 (fadJ)
+             5. Isomerases
+              5.1  Racemases and epimerases
+               5.1.2  Acting on hydroxy acids and derivatives
+                5.1.2.3  3-hydroxybutyryl-CoA epimerase
+                 b2341 (fadJ)
+POSITION    complement(2457015..2459159)
+MOTIF       Pfam: 3HCDH_N ECH_1 3HCDH ECH_2
+DBLINKS     NCBI-ProteinID: NP_416843
+            NCBI-GeneID: 949097
+            RegulonDB: ECK120003787
+            EcoGene: EG14127
+            ECOCYC: G7212
+            ASAP: ABE-0007723
+            UniProt: P77399
+AASEQ       714
+            MEMTSAFTLNVRLDNIAVITIDVPGEKMNTLKAEFASQVRAIIKQLRENKELRGVVFVSA
+            KPDNFIAGADINMIGNCKTAQEAEALARQGQQLMAEIHALPIQVIAAIHGACLGGGLELA
+            LACHGRVCTDDPKTVLGLPEVQLGLLPGSGGTQRLPRLIGVSTALEMILTGKQLRAKQAL
+            KLGLVDDVVPHSILLEAAVELAKKERPSSRPLPVRERILAGPLGRALLFKMVGKKTEHKT
+            QGNYPATERILEVVETGLAQGTSSGYDAEARAFGELAMTPQSQALRSIFFASTDVKKDPG
+            SDAPPAPLNSVGILGGGLMGGGIAYVTACKAGIPVRIKDINPQGINHALKYSWDQLEGKV
+            RRRHLKASERDKQLALISGTTDYRGFAHRDLIIEAVFENLELKQQMVAEVEQNCAAHTIF
+            ASNTSSLPIGDIAAHATRPEQVIGLHFFSPVEKMPLVEIIPHAGTSAQTIATTVKLAKKQ
+            GKTPIVVRDKAGFYVNRILAPYINEAIRMLTQGERVEHIDAALVKFGFPVGPIQLLDEVG
+            IDTGTKIIPVLEAAYGERFSAPANVVSSILNDDRKGRKNGRGFYLYGQKGRKSKKQVDPA
+            IYPLIGTQGQGRISAPQVAERCVMLMLNEAVRCVDEQVIRSVRDGDIGAVFGIGFPPFLG
+            GPFRYIDSLGAGEVVAIMQRLATQYGSRFTPCERLVEMGARGESFWKTTATDLQ
+NTSEQ       2145
+            atggaaatgacatcagcgtttacccttaatgttcgtctggacaacattgccgttatcacc
+            atcgacgtaccgggtgagaaaatgaataccctgaaggcggagtttgcctcgcaggtgcgc
+            gccattattaagcaactccgtgaaaacaaagagttgcgaggcgtggtgtttgtctccgct
+            aaaccggacaacttcattgctggcgcagacatcaacatgatcggcaactgcaaaacggcg
+            caagaagcggaagctctggcgcggcagggccaacagttgatggcggagattcatgctttg
+            cccattcaggttatcgcggctattcatggcgcttgcctgggtggtgggctggagttggcg
+            ctggcgtgccacggtcgcgtttgtactgacgatcctaaaacggtgctcggtttgcctgaa
+            gtacaacttggattgttacccggttcaggcggcacccagcgtttaccgcgtctgataggc
+            gtcagcacagcattagagatgatcctcaccggaaaacaacttcgggcgaaacaggcatta
+            aagctggggctggtggatgacgttgttccgcactccattctgctggaagccgctgttgag
+            ctggcaaagaaggagcgcccatcttcccgccctctacctgtacgcgagcgtattctggcg
+            gggccgttaggtcgtgcgctgctgttcaaaatggtcggcaagaaaacagaacacaaaact
+            caaggcaattatccggcgacagaacgcatcctggaggttgttgaaacgggattagcgcag
+            ggcaccagcagcggttatgacgccgaagctcgggcgtttggcgaactggcgatgacgcca
+            caatcgcaggcgctgcgtagtatcttttttgccagtacggacgtgaagaaagatcccggc
+            agtgatgcgccgcctgcgccattaaacagcgtggggattttaggtggtggcttgatgggc
+            ggcggtattgcttatgtcactgcttgtaaagcggggattccggtcagaattaaagatatc
+            aacccgcagggcataaatcatgcgctgaagtacagttgggatcagctggagggcaaagtt
+            cgccgtcgtcatctcaaagccagcgaacgtgacaaacagctggcattaatctccggaacg
+            acggactatcgcggctttgcccatcgcgatctgattattgaagcggtgtttgaaaatctc
+            gaattgaaacaacagatggtggcggaagttgagcaaaattgcgccgctcataccatcttt
+            gcttcgaatacgtcatctttaccgattggtgatatcgccgctcacgccacgcgacctgag
+            caagttatcggcctgcatttcttcagtccggtggaaaaaatgccgctggtggagattatt
+            cctcatgcggggacatcggcgcaaaccatcgctaccacagtaaaactggcgaaaaaacag
+            ggtaaaacgccaattgtcgtgcgtgacaaagccggtttttacgtcaatcgcatcttagcg
+            ccttacattaatgaagctatccgcatgttgacccaaggtgaacgggtagagcacattgat
+            gccgcgctagtgaaatttggttttccggtaggcccaatccaacttttggatgaggtagga
+            atcgacaccgggactaaaattattcctgtactggaagccgcttatggagaacgttttagc
+            gcgcctgcaaatgttgtttcttcaattttgaacgacgatcgcaaaggcagaaaaaatggc
+            cggggtttctatctttatggtcagaaagggcgtaaaagcaaaaaacaggtcgatcccgcc
+            atttacccgctgattggcacacaagggcaggggcgaatctccgcaccgcaggttgctgaa
+            cggtgtgtgatgttgatgctgaatgaagcagtacgttgtgttgatgagcaggttatccgt
+            agcgtgcgtgacggggatattggcgcggtatttggcattggttttccgccatttctcggt
+            ggaccgttccgctatatcgattctctcggcgcgggcgaagtggttgcaataatgcaacga
+            cttgccacgcagtatggttcccgttttaccccttgcgagcgtttggtcgagatgggcgcg
+            cgtggggaaagtttttggaaaacaactgcaactgacctgcaataa
+///

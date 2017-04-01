@@ -1,0 +1,254 @@
+ID   GUDD_ECOLI              Reviewed;         446 AA.
+AC   P0AES2; P76637; P78217; Q46914;
+DT   20-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   15-MAR-2017, entry version 95.
+DE   RecName: Full=Glucarate dehydratase;
+DE            Short=GDH;
+DE            Short=GlucD;
+DE            EC=4.2.1.40;
+GN   Name=gudD; Synonyms=ygcX; OrderedLocusNames=b2787, JW2758;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA] OF 315-446.
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=9205837; DOI=10.1093/dnares/4.2.91;
+RA   Yamamoto Y., Aiba H., Baba T., Hayashi K., Inada T., Isono K.,
+RA   Itoh T., Kimura S., Kitagawa M., Makino K., Miki T., Mitsuhashi N.,
+RA   Mizobuchi K., Mori H., Nakade S., Nakamura Y., Nashimoto H.,
+RA   Oshima T., Oyama S., Saito N., Sampei G., Satoh Y., Sivasundaram S.,
+RA   Tagami H., Takahashi H., Takeda J., Takemoto K., Uehara K., Wada C.,
+RA   Yamagata S., Horiuchi T.;
+RT   "Construction of a contiguous 874-kb sequence of the Escherichia coli-
+RT   K12 genome corresponding to 50.0-68.8 min on the linkage map and
+RT   analysis of its sequence features.";
+RL   DNA Res. 4:91-113(1997).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 2-15, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=9772162; DOI=10.1021/bi981124f;
+RA   Hubbard B.K., Koch M., Palmer D.R., Babbitt P.C., Gerlt J.A.;
+RT   "Evolution of enzymatic activities in the enolase superfamily:
+RT   characterization of the (D)-glucarate/galactarate catabolic pathway in
+RT   Escherichia coli.";
+RL   Biochemistry 37:14369-14375(1998).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) IN COMPLEX WITH SUBSTRATE
+RP   ANALOGS AND MAGNESIUM IONS, MUTAGENESIS OF TYR-150; LYS-207; HIS-339
+RP   AND ASP-366, COFACTOR, AND SUBUNIT.
+RX   PubMed=10769114; DOI=10.1021/bi992782i;
+RA   Gulick A.M., Hubbard B.K., Gerlt J.A., Rayment I.;
+RT   "Evolution of enzymatic activities in the enolase superfamily:
+RT   crystallographic and mutagenesis studies of the reaction catalyzed by
+RT   D-glucarate dehydratase from Escherichia coli.";
+RL   Biochemistry 39:4590-4602(2000).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (2.75 ANGSTROMS) IN COMPLEX WITH SUBSTRATE
+RP   ANALOGS AND MAGNESIUM IONS, AND SUBUNIT.
+RX   PubMed=11513584; DOI=10.1021/bi010733b;
+RA   Gulick A.M., Hubbard B.K., Gerlt J.A., Rayment I.;
+RT   "Evolution of enzymatic activities in the enolase superfamily:
+RT   identification of the general acid catalyst in the active site of D-
+RT   glucarate dehydratase from Escherichia coli.";
+RL   Biochemistry 40:10054-10062(2001).
+CC   -!- FUNCTION: Catalyzes the dehydration of glucarate to 5-keto-4-
+CC       deoxy-D-glucarate (5-kdGluc). Also acts on L-idarate.
+CC   -!- CATALYTIC ACTIVITY: D-glucarate = 5-dehydro-4-deoxy-D-glucarate +
+CC       H(2)O.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000269|PubMed:10769114};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=16 uM for idarate {ECO:0000269|PubMed:9772162};
+CC         KM=60 uM for glucarate {ECO:0000269|PubMed:9772162};
+CC   -!- PATHWAY: Carbohydrate acid metabolism; D-glucarate degradation;
+CC       2,5-dioxopentanoate from D-glucarate: step 1/2.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:10769114,
+CC       ECO:0000269|PubMed:11513584}.
+CC   -!- SIMILARITY: Belongs to the mandelate racemase/muconate lactonizing
+CC       enzyme family. GlucD subfamily. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U00096; AAC75829.1; -; Genomic_DNA.
+DR   EMBL; U29581; AAB40437.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAA16572.2; -; Genomic_DNA.
+DR   PIR; G65060; G65060.
+DR   RefSeq; NP_417267.1; NC_000913.3.
+DR   RefSeq; WP_000098255.1; NZ_LN832404.1.
+DR   PDB; 1EC7; X-ray; 1.90 A; A/B/C/D=1-446.
+DR   PDB; 1EC8; X-ray; 1.90 A; A/B/C/D=1-446.
+DR   PDB; 1EC9; X-ray; 2.00 A; A/B/C/D=1-446.
+DR   PDB; 1ECQ; X-ray; 2.00 A; A/B/C/D=1-446.
+DR   PDB; 1JCT; X-ray; 2.75 A; A/B=1-446.
+DR   PDB; 1JDF; X-ray; 2.00 A; A/B/C/D=1-446.
+DR   PDB; 3PWG; X-ray; 2.00 A; A/B/C/D=1-446.
+DR   PDB; 3PWI; X-ray; 2.23 A; A/B=1-446.
+DR   PDB; 4GYP; X-ray; 2.10 A; A/B=1-446.
+DR   PDBsum; 1EC7; -.
+DR   PDBsum; 1EC8; -.
+DR   PDBsum; 1EC9; -.
+DR   PDBsum; 1ECQ; -.
+DR   PDBsum; 1JCT; -.
+DR   PDBsum; 1JDF; -.
+DR   PDBsum; 3PWG; -.
+DR   PDBsum; 3PWI; -.
+DR   PDBsum; 4GYP; -.
+DR   ProteinModelPortal; P0AES2; -.
+DR   SMR; P0AES2; -.
+DR   BioGrid; 4262287; 12.
+DR   IntAct; P0AES2; 3.
+DR   STRING; 511145.b2787; -.
+DR   DrugBank; DB03212; 4-Deoxyglucarate.
+DR   DrugBank; DB03603; Glucarate.
+DR   DrugBank; DB02325; Isopropyl Alcohol.
+DR   DrugBank; DB03734; Xylarohydroxamate.
+DR   PaxDb; P0AES2; -.
+DR   PRIDE; P0AES2; -.
+DR   EnsemblBacteria; AAC75829; AAC75829; b2787.
+DR   EnsemblBacteria; BAA16572; BAA16572; BAA16572.
+DR   GeneID; 947258; -.
+DR   KEGG; ecj:JW2758; -.
+DR   KEGG; eco:b2787; -.
+DR   PATRIC; 32120990; VBIEscCol129921_2887.
+DR   EchoBASE; EB2959; -.
+DR   EcoGene; EG13167; gudD.
+DR   eggNOG; ENOG4105EQX; Bacteria.
+DR   eggNOG; COG4948; LUCA.
+DR   HOGENOM; HOG000238021; -.
+DR   InParanoid; P0AES2; -.
+DR   KO; K01706; -.
+DR   OMA; RVAQMCN; -.
+DR   PhylomeDB; P0AES2; -.
+DR   BioCyc; EcoCyc:GLUCARDEHYDRA-MONOMER; -.
+DR   BioCyc; MetaCyc:GLUCARDEHYDRA-MONOMER; -.
+DR   BRENDA; 4.2.1.40; 2026.
+DR   SABIO-RK; P0AES2; -.
+DR   UniPathway; UPA00564; UER00627.
+DR   EvolutionaryTrace; P0AES2; -.
+DR   PRO; PR:P0AES2; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0008872; F:glucarate dehydratase activity; IDA:UniProtKB.
+DR   GO; GO:0000287; F:magnesium ion binding; IDA:UniProtKB.
+DR   GO; GO:0042838; P:D-glucarate catabolic process; IDA:UniProtKB.
+DR   Gene3D; 3.20.20.120; -; 1.
+DR   Gene3D; 3.30.390.10; -; 1.
+DR   InterPro; IPR029065; Enolase_C-like.
+DR   InterPro; IPR029017; Enolase_N-like.
+DR   InterPro; IPR017653; Glucarate_dehydratase.
+DR   InterPro; IPR013342; Mandelate_racemase_C.
+DR   Pfam; PF13378; MR_MLE_C; 1.
+DR   SMART; SM00922; MR_MLE; 1.
+DR   SUPFAM; SSF51604; SSF51604; 1.
+DR   SUPFAM; SSF54826; SSF54826; 1.
+DR   TIGRFAMs; TIGR03247; glucar-dehydr; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Complete proteome; Direct protein sequencing; Lyase;
+KW   Magnesium; Metal-binding; Reference proteome.
+FT   INIT_MET      1      1       Removed. {ECO:0000269|PubMed:9772162}.
+FT   CHAIN         2    446       Glucarate dehydratase.
+FT                                /FTId=PRO_0000171264.
+FT   REGION      235    237       Substrate binding.
+FT   REGION      339    341       Substrate binding.
+FT   ACT_SITE    207    207       Proton acceptor.
+FT   ACT_SITE    339    339       Proton acceptor.
+FT   METAL       235    235       Magnesium.
+FT   METAL       266    266       Magnesium.
+FT   METAL       289    289       Magnesium.
+FT   BINDING      32     32       Substrate.
+FT   BINDING     103    103       Substrate.
+FT   BINDING     150    150       Substrate.
+FT   BINDING     205    205       Substrate.
+FT   BINDING     289    289       Substrate.
+FT   BINDING     368    368       Substrate.
+FT   BINDING     422    422       Substrate.
+FT   MUTAGEN     150    150       Y->F: Reduces activity 100-fold.
+FT                                {ECO:0000269|PubMed:10769114}.
+FT   MUTAGEN     207    207       K->Q: Reduces activity 1000-fold.
+FT                                {ECO:0000269|PubMed:10769114}.
+FT   MUTAGEN     207    207       K->R: Reduces activity 10000-fold.
+FT                                {ECO:0000269|PubMed:10769114}.
+FT   MUTAGEN     339    339       H->A: Loss of activity.
+FT                                {ECO:0000269|PubMed:10769114}.
+FT   MUTAGEN     339    339       H->N: Reduces activity 10000-fold.
+FT                                {ECO:0000269|PubMed:10769114}.
+FT   MUTAGEN     339    339       H->Q: Reduces activity 1000-fold.
+FT                                {ECO:0000269|PubMed:10769114}.
+FT   MUTAGEN     366    366       D->A,N: Reduces activity over 100-fold.
+FT                                {ECO:0000269|PubMed:10769114}.
+FT   CONFLICT    310    313       PLAD -> RWRI (in Ref. 1; AAB40437).
+FT                                {ECO:0000305}.
+FT   STRAND        9     21       {ECO:0000244|PDB:1EC7}.
+FT   STRAND       25     27       {ECO:0000244|PDB:1EC7}.
+FT   STRAND       34     45       {ECO:0000244|PDB:1EC7}.
+FT   STRAND       50     56       {ECO:0000244|PDB:1EC7}.
+FT   HELIX        59     72       {ECO:0000244|PDB:1EC7}.
+FT   HELIX        77     79       {ECO:0000244|PDB:1EC7}.
+FT   HELIX        80     90       {ECO:0000244|PDB:1EC7}.
+FT   HELIX        92     95       {ECO:0000244|PDB:1EC8}.
+FT   TURN         96     99       {ECO:0000244|PDB:1EC8}.
+FT   STRAND      101    104       {ECO:0000244|PDB:1EC7}.
+FT   HELIX       109    128       {ECO:0000244|PDB:1EC7}.
+FT   STRAND      130    132       {ECO:0000244|PDB:1ECQ}.
+FT   HELIX       133    135       {ECO:0000244|PDB:1EC7}.
+FT   STRAND      143    147       {ECO:0000244|PDB:1EC7}.
+FT   STRAND      149    152       {ECO:0000244|PDB:1EC7}.
+FT   HELIX       157    159       {ECO:0000244|PDB:1EC7}.
+FT   STRAND      160    162       {ECO:0000244|PDB:1EC7}.
+FT   HELIX       173    177       {ECO:0000244|PDB:1EC7}.
+FT   HELIX       185    199       {ECO:0000244|PDB:1EC7}.
+FT   STRAND      202    207       {ECO:0000244|PDB:1EC7}.
+FT   STRAND      209    211       {ECO:0000244|PDB:1EC7}.
+FT   HELIX       213    226       {ECO:0000244|PDB:1EC7}.
+FT   STRAND      230    235       {ECO:0000244|PDB:1EC7}.
+FT   HELIX       242    251       {ECO:0000244|PDB:1EC7}.
+FT   TURN        252    255       {ECO:0000244|PDB:1EC7}.
+FT   STRAND      256    261       {ECO:0000244|PDB:1EC7}.
+FT   HELIX       271    282       {ECO:0000244|PDB:1EC7}.
+FT   STRAND      286    291       {ECO:0000244|PDB:1EC7}.
+FT   HELIX       295    304       {ECO:0000244|PDB:1EC7}.
+FT   STRAND      308    311       {ECO:0000244|PDB:1EC7}.
+FT   HELIX       314    317       {ECO:0000244|PDB:1EC7}.
+FT   HELIX       319    331       {ECO:0000244|PDB:1EC7}.
+FT   HELIX       345    356       {ECO:0000244|PDB:1EC7}.
+FT   HELIX       369    372       {ECO:0000244|PDB:1EC7}.
+FT   TURN        373    375       {ECO:0000244|PDB:1EC7}.
+FT   STRAND      378    381       {ECO:0000244|PDB:1EC7}.
+FT   STRAND      389    391       {ECO:0000244|PDB:1EC7}.
+FT   STRAND      395    397       {ECO:0000244|PDB:1EC7}.
+FT   HELIX       404    416       {ECO:0000244|PDB:1EC7}.
+FT   HELIX       425    429       {ECO:0000244|PDB:1EC7}.
+SQ   SEQUENCE   446 AA;  49141 MW;  DFB07C9CA33F542C CRC64;
+     MSSQFTTPVV TEMQVIPVAG HDSMLMNLSG AHAPFFTRNI VIIKDNSGHT GVGEIPGGEK
+     IRKTLEDAIP LVVGKTLGEY KNVLTLVRNT FADRDAGGRG LQTFDLRTTI HVVTGIEAAM
+     LDLLGQHLGV NVASLLGDGQ QRSEVEMLGY LFFVGNRKAT PLPYQSQPDD SCDWYRLRHE
+     EAMTPDAVVR LAEAAYEKYG FNDFKLKGGV LAGEEEAESI VALAQRFPQA RITLDPNGAW
+     SLNEAIKIGK YLKGSLAYAE DPCGAEQGFS GREVMAEFRR ATGLPTATNM IATDWRQMGH
+     TLSLQSVDIP LADPHFWTMQ GSVRVAQMCH EFGLTWGSHS NNHFDISLAM FTHVAAAAPG
+     KITAIDTHWI WQEGNQRLTK EPFEIKGGLV QVPEKPGLGV EIDMDQVMKA HELYQKHGLG
+     ARDDAMGMQY LIPGWTFDNK RPCMVR
+//

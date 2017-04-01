@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:41:15
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b3781/b3781_protein/sequences/P0AA25_5hr3-B.needle
+#    -asequence asis::MSDKIIHLTDDSFDTDVLKADGAILVDFWAEWCGPCKMIAPILDEIADEYQGKLTVAKLNIDQNPGTAPKYGIRGIPTLLLFKNGEVAATKVGALSKGQLKEFLDANLA
+#    -bsequence asis::XDKIIHLTDDSFDTDVLKADGAILVDFWAEWCGPCKMIAPILDEIADEYQGKLTVAKLNIDQNPGTAPKYGIRGIPTLLLFKNGEVAATKVGALSKGQLKEFLDAALA
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b3781/b3781_protein/sequences/P0AA25_5hr3-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 109
+# Identity:     106/109 (97.2%)
+# Similarity:   106/109 (97.2%)
+# Gaps:           1/109 ( 0.9%)
+# Score: 551.0
+# 
+#
+#=======================================
+
+asis               1 MSDKIIHLTDDSFDTDVLKADGAILVDFWAEWCGPCKMIAPILDEIADEY     50
+                      .||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 -XDKIIHLTDDSFDTDVLKADGAILVDFWAEWCGPCKMIAPILDEIADEY     49
+
+asis              51 QGKLTVAKLNIDQNPGTAPKYGIRGIPTLLLFKNGEVAATKVGALSKGQL    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              50 QGKLTVAKLNIDQNPGTAPKYGIRGIPTLLLFKNGEVAATKVGALSKGQL     99
+
+asis             101 KEFLDANLA    109
+                     ||||||.||
+asis             100 KEFLDAALA    108
+
+
+#---------------------------------------
+#---------------------------------------

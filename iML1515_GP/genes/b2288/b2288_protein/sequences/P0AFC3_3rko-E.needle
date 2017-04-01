@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:54:44
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b2288/b2288_protein/sequences/P0AFC3_3rko-E.needle
+#    -asequence asis::MSMSTSTEVIAHHWAFAIFLIVAIGLCCLMLVGGWFLGGRARARSKNVPFESGIDSVGSARLRLSAKFYLVAMFFVIFDVEALYLFAWSTSIRESGWVGFVEAAIFIFVLLAGLVYLVRIGALDWTPARSRRERMNPETNSIANRQR
+#    -bsequence asis::XXXXXXXXXXXXXXAFAIFLIVAIGLCCLMLVGGWFLGGRARAXXXXXXXXXXXXXXXXXRLRLSAKFYLVAMFFVIFDVEALYLFAWSTSIRESGWVGFVEAAIFIFVLLAGLVYLVRIGALDWT
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b2288/b2288_protein/sequences/P0AFC3_3rko-E.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 147
+# Identity:      95/147 (64.6%)
+# Similarity:    95/147 (64.6%)
+# Gaps:          21/147 (14.3%)
+# Score: 463.0
+# 
+#
+#=======================================
+
+asis               1 MSMSTSTEVIAHHWAFAIFLIVAIGLCCLMLVGGWFLGGRARARSKNVPF     50
+                     ..............|||||||||||||||||||||||||||||.......
+asis               1 XXXXXXXXXXXXXXAFAIFLIVAIGLCCLMLVGGWFLGGRARAXXXXXXX     50
+
+asis              51 ESGIDSVGSARLRLSAKFYLVAMFFVIFDVEALYLFAWSTSIRESGWVGF    100
+                     ..........||||||||||||||||||||||||||||||||||||||||
+asis              51 XXXXXXXXXXRLRLSAKFYLVAMFFVIFDVEALYLFAWSTSIRESGWVGF    100
+
+asis             101 VEAAIFIFVLLAGLVYLVRIGALDWTPARSRRERMNPETNSIANRQR    147
+                     ||||||||||||||||||||||||||                     
+asis             101 VEAAIFIFVLLAGLVYLVRIGALDWT---------------------    126
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,499 @@
+ID   GLMU_ECOLI              Reviewed;         456 AA.
+AC   P0ACC7; P17114; P76746; Q2M848;
+DT   08-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   08-NOV-2005, sequence version 1.
+DT   15-MAR-2017, entry version 109.
+DE   RecName: Full=Bifunctional protein GlmU {ECO:0000255|HAMAP-Rule:MF_01631};
+DE   Includes:
+DE     RecName: Full=UDP-N-acetylglucosamine pyrophosphorylase {ECO:0000255|HAMAP-Rule:MF_01631};
+DE              EC=2.7.7.23 {ECO:0000255|HAMAP-Rule:MF_01631, ECO:0000269|PubMed:10428949, ECO:0000269|PubMed:8083170, ECO:0000269|PubMed:8555230};
+DE     AltName: Full=N-acetylglucosamine-1-phosphate uridyltransferase {ECO:0000255|HAMAP-Rule:MF_01631};
+DE   Includes:
+DE     RecName: Full=Glucosamine-1-phosphate N-acetyltransferase {ECO:0000255|HAMAP-Rule:MF_01631};
+DE              EC=2.3.1.157 {ECO:0000255|HAMAP-Rule:MF_01631, ECO:0000269|PubMed:10428949, ECO:0000269|PubMed:8083170, ECO:0000269|PubMed:8555230};
+GN   Name=glmU {ECO:0000255|HAMAP-Rule:MF_01631}; Synonyms=yieA;
+GN   OrderedLocusNames=b3730, JW3708;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=6395859; DOI=10.1042/bj2240799;
+RA   Walker J.E., Gay N.J., Saraste M., Eberle A.N.;
+RT   "DNA sequence around the Escherichia coli unc operon. Completion of
+RT   the sequence of a 17 kilobase segment containing asnA, oriC, unc, glmS
+RT   and phoS.";
+RL   Biochem. J. 224:799-815(1984).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=7686882; DOI=10.1006/geno.1993.1230;
+RA   Burland V.D., Plunkett G. III, Daniels D.L., Blattner F.R.;
+RT   "DNA sequence and analysis of 136 kilobases of the Escherichia coli
+RT   genome: organizational symmetry around the origin of replication.";
+RL   Genomics 16:551-561(1993).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA], AND SEQUENCE REVISION.
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [5]
+RP   IDENTIFICATION.
+RX   PubMed=8407787; DOI=10.1128/jb.175.19.6150-6157.1993;
+RA   Mengin-Lecreulx D., van Heijenoort J.;
+RT   "Identification of the glmU gene encoding N-acetylglucosamine-1-
+RT   phosphate uridyltransferase in Escherichia coli.";
+RL   J. Bacteriol. 175:6150-6157(1993).
+RN   [6]
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, AND
+RP   ENZYME REGULATION.
+RX   PubMed=8083170; DOI=10.1128/jb.176.18.5788-5795.1994;
+RA   Mengin-Lecreulx D., van Heijenoort J.;
+RT   "Copurification of glucosamine-1-phosphate acetyltransferase and N-
+RT   acetylglucosamine-1-phosphate uridyltransferase activities of
+RT   Escherichia coli: characterization of the glmU gene product as a
+RT   bifunctional enzyme catalyzing two subsequent steps in the pathway for
+RT   UDP-N-acetylglucosamine synthesis.";
+RL   J. Bacteriol. 176:5788-5795(1994).
+RN   [7]
+RP   FUNCTION, CATALYTIC ACTIVITY, SUBSTRATE SPECIFICITY, AND
+RP   BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=8555230; DOI=10.1021/bi952275a;
+RA   Gehring A.M., Lees W.J., Mindiola D.J., Walsh C.T., Brown E.D.;
+RT   "Acetyltransfer precedes uridylyltransfer in the formation of UDP-N-
+RT   acetylglucosamine in separable active sites of the bifunctional GlmU
+RT   protein of Escherichia coli.";
+RL   Biochemistry 35:579-585(1996).
+RN   [8]
+RP   MUTAGENESIS OF CYS-296; CYS-307; CYS-324 AND CYS-385, AND
+RP   BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=9733680;
+RA   Pompeo F., van Heijenoort J., Mengin-Lecreulx D.;
+RT   "Probing the role of cysteine residues in glucosamine-1-phosphate
+RT   acetyltransferase activity of the bifunctional protein glmU from
+RT   Escherichia coli: site-directed mutagenesis and characterization of
+RT   the mutant enzymes.";
+RL   J. Bacteriol. 180:4799-4803(1998).
+RN   [9]
+RP   X-RAY CRYSTALLOGRAPHY (2.25 ANGSTROMS) OF THE TRUNCATED FORM AND IN
+RP   COMPLEX WITH UDP-GLCNAC, FUNCTION, CATALYTIC ACTIVITY,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, MUTAGENESIS OF GLY-14; ARG-18 AND
+RP   LYS-25, SUBCELLULAR LOCATION, AND SUBUNIT.
+RX   PubMed=10428949; DOI=10.1093/emboj/18.15.4096;
+RA   Brown K., Pompeo F., Dixon S., Mengin-Lecreulx D., Cambillau C.,
+RA   Bourne Y.;
+RT   "Crystal structure of the bifunctional N-acetylglucosamine 1-phosphate
+RT   uridyltransferase from Escherichia coli: a paradigm for the related
+RT   pyrophosphorylase superfamily.";
+RL   EMBO J. 18:4096-4107(1999).
+RN   [10]
+RP   X-RAY CRYSTALLOGRAPHY (2.1 ANGSTROMS) IN COMPLEX WITH UDP-GLCNAC; COA
+RP   AND COBALT ION, COFACTOR, AND SUBUNIT.
+RX   PubMed=11329257; DOI=10.1021/bi002503n;
+RA   Olsen L.R., Roderick S.L.;
+RT   "Structure of the Escherichia coli glmU pyrophosphorylase and
+RT   acetyltransferase active sites.";
+RL   Biochemistry 40:1913-1921(2001).
+RN   [11]
+RP   X-RAY CRYSTALLOGRAPHY (2.25 ANGSTROMS) IN COMPLEX WITH UDP-GLCNAC, COA
+RP   AND MAGNESIUM IONS, COFACTOR, AND SUBUNIT.
+RX   PubMed=17473010; DOI=10.1110/ps.072779707;
+RA   Olsen L.R., Vetting M.W., Roderick S.L.;
+RT   "Structure of the E. coli bifunctional GlmU acetyltransferase active
+RT   site with substrates and products.";
+RL   Protein Sci. 16:1230-1235(2007).
+RN   [12]
+RP   X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) OF 233-452 ACETYL-COA ANALOG,
+RP   FUNCTION, ENZYME REGULATION, AND SUBUNIT.
+RX   PubMed=21984832; DOI=10.1074/jbc.M111.274068;
+RA   Buurman E.T., Andrews B., Gao N., Hu J., Keating T.A., Lahiri S.,
+RA   Otterbein L.R., Patten A.D., Stokes S.S., Shapiro A.B.;
+RT   "In vitro validation of acetyltransferase activity of GlmU as an
+RT   antibacterial target in Haemophilus influenzae.";
+RL   J. Biol. Chem. 286:40734-40742(2011).
+RN   [13]
+RP   X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS) OF 227-456, FUNCTION, ENZYME
+RP   REGULATION, AND SUBUNIT.
+RX   PubMed=22297115; DOI=10.1016/j.bmcl.2012.01.016;
+RA   Green O.M., McKenzie A.R., Shapiro A.B., Otterbein L., Ni H.,
+RA   Patten A., Stokes S., Albert R., Kawatkar S., Breed J.;
+RT   "Inhibitors of acetyltransferase domain of N-acetylglucosamine-1-
+RT   phosphate-uridyltransferase/glucosamine-1-phosphate-acetyltransferase
+RT   (GlmU). Part 1: Hit to lead evaluation of a novel arylsulfonamide
+RT   series.";
+RL   Bioorg. Med. Chem. Lett. 22:1510-1519(2012).
+CC   -!- FUNCTION: Catalyzes the last two sequential reactions in the de
+CC       novo biosynthetic pathway for UDP-N-acetylglucosamine (UDP-
+CC       GlcNAc). The C-terminal domain catalyzes the transfer of acetyl
+CC       group from acetyl coenzyme A to glucosamine-1-phosphate (GlcN-1-P)
+CC       to produce N-acetylglucosamine-1-phosphate (GlcNAc-1-P), which is
+CC       converted into UDP-GlcNAc by the transfer of uridine 5-
+CC       monophosphate (from uridine 5-triphosphate), a reaction catalyzed
+CC       by the N-terminal domain. {ECO:0000255|HAMAP-Rule:MF_01631,
+CC       ECO:0000269|PubMed:10428949, ECO:0000269|PubMed:21984832,
+CC       ECO:0000269|PubMed:22297115, ECO:0000269|PubMed:8083170,
+CC       ECO:0000269|PubMed:8555230}.
+CC   -!- CATALYTIC ACTIVITY: Acetyl-CoA + alpha-D-glucosamine 1-phosphate =
+CC       CoA + N-acetyl-alpha-D-glucosamine 1-phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01631, ECO:0000269|PubMed:10428949,
+CC       ECO:0000269|PubMed:8083170, ECO:0000269|PubMed:8555230}.
+CC   -!- CATALYTIC ACTIVITY: UTP + N-acetyl-alpha-D-glucosamine 1-phosphate
+CC       = diphosphate + UDP-N-acetyl-alpha-D-glucosamine.
+CC       {ECO:0000255|HAMAP-Rule:MF_01631, ECO:0000269|PubMed:10428949,
+CC       ECO:0000269|PubMed:8083170, ECO:0000269|PubMed:8555230}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000269|PubMed:17473010};
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC         Evidence={ECO:0000269|PubMed:11329257};
+CC       Note=Binds 1 Mg(2+) ion per subunit (PubMed:17473010). Can also
+CC       use Co(2+) ion to a lesser extent (PubMed:11329257).
+CC       {ECO:0000269|PubMed:11329257, ECO:0000269|PubMed:17473010};
+CC   -!- ENZYME REGULATION: Inhibited by its reaction product N-
+CC       acetylglucosamine-1-phosphate and by UDP-N-acetylmuramic acid,
+CC       which is one of the first precursors specific for the
+CC       peptidoglycan pathway. {ECO:0000269|PubMed:21984832,
+CC       ECO:0000269|PubMed:22297115, ECO:0000269|PubMed:8083170}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.018 mM for N-acetylglucosamine 1-phosphate
+CC         {ECO:0000269|PubMed:8083170, ECO:0000269|PubMed:8555230,
+CC         ECO:0000269|PubMed:9733680};
+CC         KM=0.07 mM for alpha-D-glucosamine 1-phosphate
+CC         {ECO:0000269|PubMed:10428949};
+CC         KM=0.1 mM for UTP {ECO:0000269|PubMed:10428949};
+CC         KM=0.15 mM for alpha-D-glucosamine 1-phosphate
+CC         {ECO:0000269|PubMed:8083170, ECO:0000269|PubMed:8555230,
+CC         ECO:0000269|PubMed:9733680};
+CC         KM=0.25 mM for alpha-D-glucosamine 1-phosphate
+CC         {ECO:0000269|PubMed:8083170, ECO:0000269|PubMed:8555230,
+CC         ECO:0000269|PubMed:9733680};
+CC         KM=0.32 mM for acetyl-CoA {ECO:0000269|PubMed:8083170,
+CC         ECO:0000269|PubMed:8555230, ECO:0000269|PubMed:9733680};
+CC         KM=0.6 mM for acetyl-CoA {ECO:0000269|PubMed:8083170,
+CC         ECO:0000269|PubMed:8555230, ECO:0000269|PubMed:9733680};
+CC         KM=0.84 mM for n-propionyl-CoA {ECO:0000269|PubMed:8083170,
+CC         ECO:0000269|PubMed:8555230, ECO:0000269|PubMed:9733680};
+CC         KM=1.3 mM for UDP-glucosamine {ECO:0000269|PubMed:8083170,
+CC         ECO:0000269|PubMed:8555230, ECO:0000269|PubMed:9733680};
+CC         KM=2 mM for glucose-1-P {ECO:0000269|PubMed:8083170,
+CC         ECO:0000269|PubMed:8555230, ECO:0000269|PubMed:9733680};
+CC         KM=3.7 mM for N-acetylgalactosamine-1-P
+CC         {ECO:0000269|PubMed:8083170, ECO:0000269|PubMed:8555230,
+CC         ECO:0000269|PubMed:9733680};
+CC         KM=15 mM for galactosamine-1-phosphate
+CC         {ECO:0000269|PubMed:8083170, ECO:0000269|PubMed:8555230,
+CC         ECO:0000269|PubMed:9733680};
+CC   -!- PATHWAY: Nucleotide-sugar biosynthesis; UDP-N-acetyl-alpha-D-
+CC       glucosamine biosynthesis; N-acetyl-alpha-D-glucosamine 1-phosphate
+CC       from alpha-D-glucosamine 6-phosphate (route II): step 2/2.
+CC       {ECO:0000255|HAMAP-Rule:MF_01631}.
+CC   -!- PATHWAY: Nucleotide-sugar biosynthesis; UDP-N-acetyl-alpha-D-
+CC       glucosamine biosynthesis; UDP-N-acetyl-alpha-D-glucosamine from N-
+CC       acetyl-alpha-D-glucosamine 1-phosphate: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_01631}.
+CC   -!- PATHWAY: Bacterial outer membrane biogenesis; LPS lipid A
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_01631}.
+CC   -!- SUBUNIT: Homotrimer. In vivo forms a hexameric aggregate.
+CC       {ECO:0000269|PubMed:10428949, ECO:0000269|PubMed:11329257,
+CC       ECO:0000269|PubMed:17473010, ECO:0000269|PubMed:21984832,
+CC       ECO:0000269|PubMed:22297115}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01631,
+CC       ECO:0000269|PubMed:10428949}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the N-
+CC       acetylglucosamine-1-phosphate uridyltransferase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01631, ECO:0000305}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the transferase
+CC       hexapeptide repeat family. {ECO:0000255|HAMAP-Rule:MF_01631,
+CC       ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA62081.1; Type=Frameshift; Positions=179; Note=Produces two ORFs.; Evidence={ECO:0000305};
+CC       Sequence=AAA62082.1; Type=Frameshift; Positions=179; Note=Produces two ORFs.; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X01631; CAA25784.1; -; Genomic_DNA.
+DR   EMBL; L10328; AAA62082.1; ALT_FRAME; Genomic_DNA.
+DR   EMBL; L10328; AAA62081.1; ALT_FRAME; Genomic_DNA.
+DR   EMBL; U00096; AAC76753.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE77558.1; -; Genomic_DNA.
+DR   PIR; C65176; C65176.
+DR   RefSeq; NP_418186.1; NC_000913.3.
+DR   RefSeq; WP_000933736.1; NZ_LN832404.1.
+DR   PDB; 1FWY; X-ray; 2.30 A; A/B=1-331.
+DR   PDB; 1FXJ; X-ray; 2.25 A; A/B=1-331.
+DR   PDB; 1HV9; X-ray; 2.10 A; A/B=1-456.
+DR   PDB; 2OI5; X-ray; 2.25 A; A/B=1-456.
+DR   PDB; 2OI6; X-ray; 2.20 A; A/B=1-456.
+DR   PDB; 2OI7; X-ray; 2.54 A; A/B=1-456.
+DR   PDB; 3TWD; X-ray; 1.90 A; A/B=233-452.
+DR   PDB; 4AA7; X-ray; 2.00 A; A/B=227-456.
+DR   PDBsum; 1FWY; -.
+DR   PDBsum; 1FXJ; -.
+DR   PDBsum; 1HV9; -.
+DR   PDBsum; 2OI5; -.
+DR   PDBsum; 2OI6; -.
+DR   PDBsum; 2OI7; -.
+DR   PDBsum; 3TWD; -.
+DR   PDBsum; 4AA7; -.
+DR   ProteinModelPortal; P0ACC7; -.
+DR   SMR; P0ACC7; -.
+DR   BioGrid; 4262143; 306.
+DR   DIP; DIP-31844N; -.
+DR   IntAct; P0ACC7; 19.
+DR   MINT; MINT-1252604; -.
+DR   STRING; 511145.b3730; -.
+DR   BindingDB; P0ACC7; -.
+DR   ChEMBL; CHEMBL3414415; -.
+DR   DrugBank; DB03814; 2-(N-Morpholino)-Ethanesulfonic Acid.
+DR   DrugBank; DB01992; Coenzyme A.
+DR   DrugBank; DB03397; Uridine-Diphosphate-N-Acetylglucosamine.
+DR   PaxDb; P0ACC7; -.
+DR   PRIDE; P0ACC7; -.
+DR   EnsemblBacteria; AAC76753; AAC76753; b3730.
+DR   EnsemblBacteria; BAE77558; BAE77558; BAE77558.
+DR   GeneID; 948246; -.
+DR   KEGG; ecj:JW3708; -.
+DR   KEGG; eco:b3730; -.
+DR   PATRIC; 32122957; VBIEscCol129921_3854.
+DR   EchoBASE; EB1184; -.
+DR   EcoGene; EG11198; glmU.
+DR   eggNOG; ENOG4105CAJ; Bacteria.
+DR   eggNOG; COG1207; LUCA.
+DR   HOGENOM; HOG000283476; -.
+DR   InParanoid; P0ACC7; -.
+DR   KO; K04042; -.
+DR   OMA; FAHARPK; -.
+DR   PhylomeDB; P0ACC7; -.
+DR   BioCyc; EcoCyc:NAG1P-URIDYLTRANS-MONOMER; -.
+DR   BioCyc; MetaCyc:NAG1P-URIDYLTRANS-MONOMER; -.
+DR   BRENDA; 2.3.1.157; 2026.
+DR   BRENDA; 2.7.7.23; 2026.
+DR   SABIO-RK; P0ACC7; -.
+DR   UniPathway; UPA00113; UER00532.
+DR   UniPathway; UPA00113; UER00533.
+DR   UniPathway; UPA00973; -.
+DR   EvolutionaryTrace; P0ACC7; -.
+DR   PRO; PR:P0ACC7; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IDA:EcoCyc.
+DR   GO; GO:0019134; F:glucosamine-1-phosphate N-acetyltransferase activity; IDA:EcoCyc.
+DR   GO; GO:0042802; F:identical protein binding; IDA:EcoCyc.
+DR   GO; GO:0000287; F:magnesium ion binding; IDA:EcoCyc.
+DR   GO; GO:0003977; F:UDP-N-acetylglucosamine diphosphorylase activity; IDA:EcoCyc.
+DR   GO; GO:0000902; P:cell morphogenesis; IEA:InterPro.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009245; P:lipid A biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0009103; P:lipopolysaccharide biosynthetic process; IEA:InterPro.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   GO; GO:0006048; P:UDP-N-acetylglucosamine biosynthetic process; IMP:EcoCyc.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   HAMAP; MF_01631; GlmU; 1.
+DR   InterPro; IPR005882; Bifunctional_GlmU.
+DR   InterPro; IPR001451; Hexapep.
+DR   InterPro; IPR018357; Hexapep_transf_CS.
+DR   InterPro; IPR025877; MobA-like_NTP_Trfase.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   InterPro; IPR011004; Trimer_LpxA-like.
+DR   Pfam; PF00132; Hexapep; 3.
+DR   Pfam; PF12804; NTP_transf_3; 1.
+DR   SUPFAM; SSF51161; SSF51161; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   TIGRFAMs; TIGR01173; glmU; 1.
+DR   PROSITE; PS00101; HEXAPEP_TRANSFERASES; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acyltransferase; Cell shape;
+KW   Cell wall biogenesis/degradation; Cobalt; Complete proteome;
+KW   Cytoplasm; Magnesium; Metal-binding; Multifunctional enzyme;
+KW   Nucleotidyltransferase; Peptidoglycan synthesis; Reference proteome;
+KW   Repeat; Transferase.
+FT   CHAIN         1    456       Bifunctional protein GlmU.
+FT                                /FTId=PRO_0000068701.
+FT   REGION        1    229       Pyrophosphorylase. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01631,
+FT                                ECO:0000269|PubMed:10428949,
+FT                                ECO:0000269|PubMed:8555230}.
+FT   REGION       11     14       UDP-GlcNAc binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01631,
+FT                                ECO:0000269|PubMed:10428949,
+FT                                ECO:0000269|PubMed:11329257,
+FT                                ECO:0000269|PubMed:17473010}.
+FT   REGION       81     82       UDP-GlcNAc binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01631,
+FT                                ECO:0000269|PubMed:10428949,
+FT                                ECO:0000269|PubMed:11329257,
+FT                                ECO:0000269|PubMed:17473010}.
+FT   REGION      103    105       UDP-GlcNAc binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01631,
+FT                                ECO:0000269|PubMed:10428949,
+FT                                ECO:0000269|PubMed:11329257,
+FT                                ECO:0000269|PubMed:17473010}.
+FT   REGION      230    250       Linker. {ECO:0000255|HAMAP-Rule:MF_01631,
+FT                                ECO:0000269|PubMed:10428949,
+FT                                ECO:0000269|PubMed:8555230}.
+FT   REGION      251    456       N-acetyltransferase. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01631,
+FT                                ECO:0000269|PubMed:10428949,
+FT                                ECO:0000269|PubMed:8555230}.
+FT   REGION      386    387       Acetyl-CoA binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01631}.
+FT   ACT_SITE    363    363       Proton acceptor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01631}.
+FT   METAL       105    105       Magnesium or cobalt.
+FT                                {ECO:0000269|PubMed:11329257,
+FT                                ECO:0000269|PubMed:17473010}.
+FT   METAL       227    227       Magnesium or cobalt.
+FT                                {ECO:0000269|PubMed:11329257,
+FT                                ECO:0000269|PubMed:17473010}.
+FT   BINDING      25     25       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01631}.
+FT   BINDING      76     76       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01631,
+FT                                ECO:0000269|PubMed:10428949,
+FT                                ECO:0000269|PubMed:11329257,
+FT                                ECO:0000269|PubMed:17473010}.
+FT   BINDING     140    140       UDP-GlcNAc; via amide nitrogen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01631,
+FT                                ECO:0000269|PubMed:10428949,
+FT                                ECO:0000269|PubMed:11329257,
+FT                                ECO:0000269|PubMed:17473010}.
+FT   BINDING     154    154       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01631,
+FT                                ECO:0000269|PubMed:10428949,
+FT                                ECO:0000269|PubMed:11329257,
+FT                                ECO:0000269|PubMed:17473010}.
+FT   BINDING     169    169       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01631,
+FT                                ECO:0000269|PubMed:10428949,
+FT                                ECO:0000269|PubMed:11329257,
+FT                                ECO:0000269|PubMed:17473010}.
+FT   BINDING     227    227       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01631}.
+FT   BINDING     333    333       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01631,
+FT                                ECO:0000269|PubMed:11329257,
+FT                                ECO:0000269|PubMed:17473010}.
+FT   BINDING     351    351       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01631,
+FT                                ECO:0000269|PubMed:11329257,
+FT                                ECO:0000269|PubMed:17473010}.
+FT   BINDING     366    366       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01631,
+FT                                ECO:0000269|PubMed:11329257,
+FT                                ECO:0000269|PubMed:17473010}.
+FT   BINDING     377    377       UDP-GlcNAc. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01631,
+FT                                ECO:0000269|PubMed:11329257,
+FT                                ECO:0000269|PubMed:17473010,
+FT                                ECO:0000269|PubMed:21984832}.
+FT   BINDING     380    380       Acetyl-CoA; via amide nitrogen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01631,
+FT                                ECO:0000269|PubMed:17473010,
+FT                                ECO:0000269|PubMed:21984832}.
+FT   BINDING     405    405       Acetyl-CoA. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01631,
+FT                                ECO:0000269|PubMed:11329257,
+FT                                ECO:0000269|PubMed:17473010,
+FT                                ECO:0000269|PubMed:21984832}.
+FT   BINDING     423    423       Acetyl-CoA; via amide nitrogen.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01631,
+FT                                ECO:0000269|PubMed:11329257,
+FT                                ECO:0000269|PubMed:17473010,
+FT                                ECO:0000269|PubMed:21984832}.
+FT   BINDING     440    440       Acetyl-CoA. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01631,
+FT                                ECO:0000269|PubMed:11329257,
+FT                                ECO:0000269|PubMed:17473010,
+FT                                ECO:0000269|PubMed:21984832}.
+FT   MUTAGEN      14     14       G->A: 8-fold decrease in
+FT                                uridyltransferase activity. Creates
+FT                                steric conflict and decreases affinity
+FT                                for UTP. {ECO:0000269|PubMed:10428949}.
+FT   MUTAGEN      18     18       R->A: Dramatically impairs the
+FT                                uridyltransferase activity.
+FT                                {ECO:0000269|PubMed:10428949}.
+FT   MUTAGEN      25     25       K->A: 8-fold decrease in
+FT                                uridyltransferase activity.
+FT                                {ECO:0000269|PubMed:10428949}.
+FT   MUTAGEN     296    296       C->A: No effect.
+FT                                {ECO:0000269|PubMed:9733680}.
+FT   MUTAGEN     307    307       C->A: 1350-fold decrease in
+FT                                acetyltransferase activity.
+FT                                {ECO:0000269|PubMed:9733680}.
+FT   MUTAGEN     324    324       C->A: 8-fold decrease in
+FT                                acetyltransferase activity.
+FT                                {ECO:0000269|PubMed:9733680}.
+FT   MUTAGEN     385    385       C->A: No effect.
+FT                                {ECO:0000269|PubMed:9733680}.
+FT   CONFLICT    186    187       KL -> NV (in Ref. 1; CAA25784).
+FT                                {ECO:0000305}.
+FT   STRAND        6     12       {ECO:0000244|PDB:1HV9}.
+FT   HELIX        17     19       {ECO:0000244|PDB:1HV9}.
+FT   HELIX        25     27       {ECO:0000244|PDB:1HV9}.
+FT   STRAND       28     30       {ECO:0000244|PDB:1HV9}.
+FT   HELIX        35     46       {ECO:0000244|PDB:1HV9}.
+FT   STRAND       51     55       {ECO:0000244|PDB:1HV9}.
+FT   HELIX        59     65       {ECO:0000244|PDB:1HV9}.
+FT   TURN         66     68       {ECO:0000244|PDB:1FXJ}.
+FT   STRAND       71     75       {ECO:0000244|PDB:1HV9}.
+FT   HELIX        82     89       {ECO:0000244|PDB:1HV9}.
+FT   HELIX        90     92       {ECO:0000244|PDB:1HV9}.
+FT   STRAND       97    103       {ECO:0000244|PDB:1HV9}.
+FT   HELIX       111    120       {ECO:0000244|PDB:1HV9}.
+FT   STRAND      125    132       {ECO:0000244|PDB:1HV9}.
+FT   STRAND      141    145       {ECO:0000244|PDB:1HV9}.
+FT   STRAND      148    153       {ECO:0000244|PDB:1HV9}.
+FT   TURN        155    157       {ECO:0000244|PDB:1HV9}.
+FT   HELIX       162    164       {ECO:0000244|PDB:1HV9}.
+FT   STRAND      167    176       {ECO:0000244|PDB:1HV9}.
+FT   HELIX       177    184       {ECO:0000244|PDB:1HV9}.
+FT   STRAND      191    193       {ECO:0000244|PDB:1HV9}.
+FT   HELIX       198    200       {ECO:0000244|PDB:1HV9}.
+FT   HELIX       201    206       {ECO:0000244|PDB:1HV9}.
+FT   TURN        207    209       {ECO:0000244|PDB:1HV9}.
+FT   STRAND      212    215       {ECO:0000244|PDB:1HV9}.
+FT   HELIX       220    223       {ECO:0000244|PDB:1HV9}.
+FT   HELIX       233    249       {ECO:0000244|PDB:3TWD}.
+FT   STRAND      253    255       {ECO:0000244|PDB:3TWD}.
+FT   HELIX       257    259       {ECO:0000244|PDB:3TWD}.
+FT   STRAND      260    268       {ECO:0000244|PDB:3TWD}.
+FT   STRAND      278    286       {ECO:0000244|PDB:3TWD}.
+FT   STRAND      297    300       {ECO:0000244|PDB:3TWD}.
+FT   STRAND      314    317       {ECO:0000244|PDB:3TWD}.
+FT   STRAND      325    327       {ECO:0000244|PDB:1FXJ}.
+FT   STRAND      328    332       {ECO:0000244|PDB:3TWD}.
+FT   STRAND      336    338       {ECO:0000244|PDB:4AA7}.
+FT   STRAND      343    355       {ECO:0000244|PDB:3TWD}.
+FT   STRAND      360    372       {ECO:0000244|PDB:3TWD}.
+FT   STRAND      383    385       {ECO:0000244|PDB:3TWD}.
+FT   STRAND      387    390       {ECO:0000244|PDB:2OI6}.
+FT   STRAND      395    397       {ECO:0000244|PDB:3TWD}.
+FT   STRAND      408    415       {ECO:0000244|PDB:3TWD}.
+SQ   SEQUENCE   456 AA;  49190 MW;  2F3C5C84F673C8A3 CRC64;
+     MLNNAMSVVI LAAGKGTRMY SDLPKVLHTL AGKAMVQHVI DAANELGAAH VHLVYGHGGD
+     LLKQALKDDN LNWVLQAEQL GTGHAMQQAA PFFADDEDIL MLYGDVPLIS VETLQRLRDA
+     KPQGGIGLLT VKLDDPTGYG RITRENGKVT GIVEHKDATD EQRQIQEINT GILIANGADM
+     KRWLAKLTNN NAQGEYYITD IIALAYQEGR EIVAVHPQRL SEVEGVNNRL QLSRLERVYQ
+     SEQAEKLLLA GVMLRDPARF DLRGTLTHGR DVEIDTNVII EGNVTLGHRV KIGTGCVIKN
+     SVIGDDCEIS PYTVVEDANL AAACTIGPFA RLRPGAELLE GAHVGNFVEM KKARLGKGSK
+     AGHLTYLGDA EIGDNVNIGA GTITCNYDGA NKFKTIIGDD VFVGSDTQLV APVTVGKGAT
+     IAAGTTVTRN VGENALAISR VPQTQKEGWR RPVKKK
+//

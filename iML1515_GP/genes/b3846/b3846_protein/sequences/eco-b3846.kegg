@@ -1,0 +1,143 @@
+ENTRY       b3846             CDS       T00007
+NAME        fadB
+DEFINITION  (RefSeq) fused 3-hydroxybutyryl-CoA epimerase/delta(3)-cis-delta(2)-trans-enoyl-CoA isomerase/enoyl-CoA hydratase/3-hydroxyacyl-CoA dehydrogenase
+ORTHOLOGY   K01825  3-hydroxyacyl-CoA dehydrogenase / enoyl-CoA hydratase / 3-hydroxybutyryl-CoA epimerase / enoyl-CoA isomerase [EC:1.1.1.35 4.2.1.17 5.1.2.3 5.3.3.8]
+ORGANISM    eco  Escherichia coli K-12 MG1655
+PATHWAY     eco00071  Fatty acid degradation
+            eco00280  Valine, leucine and isoleucine degradation
+            eco00281  Geraniol degradation
+            eco00310  Lysine degradation
+            eco00362  Benzoate degradation
+            eco00380  Tryptophan metabolism
+            eco00410  beta-Alanine metabolism
+            eco00640  Propanoate metabolism
+            eco00650  Butanoate metabolism
+            eco00903  Limonene and pinene degradation
+            eco00930  Caprolactam degradation
+            eco01040  Biosynthesis of unsaturated fatty acids
+            eco01100  Metabolic pathways
+            eco01110  Biosynthesis of secondary metabolites
+            eco01120  Microbial metabolism in diverse environments
+            eco01130  Biosynthesis of antibiotics
+            eco01200  Carbon metabolism
+            eco01212  Fatty acid metabolism
+MODULE      eco_M00087  beta-Oxidation
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             Metabolism
+              Overview
+               01200 Carbon metabolism
+                b3846 (fadB)
+               01212 Fatty acid metabolism
+                b3846 (fadB)
+              Carbohydrate metabolism
+               00640 Propanoate metabolism
+                b3846 (fadB)
+               00650 Butanoate metabolism
+                b3846 (fadB)
+              Lipid metabolism
+               00071 Fatty acid degradation
+                b3846 (fadB)
+               01040 Biosynthesis of unsaturated fatty acids
+                b3846 (fadB)
+              Amino acid metabolism
+               00280 Valine, leucine and isoleucine degradation
+                b3846 (fadB)
+               00310 Lysine degradation
+                b3846 (fadB)
+               00380 Tryptophan metabolism
+                b3846 (fadB)
+              Metabolism of other amino acids
+               00410 beta-Alanine metabolism
+                b3846 (fadB)
+              Metabolism of terpenoids and polyketides
+               00903 Limonene and pinene degradation
+                b3846 (fadB)
+               00281 Geraniol degradation
+                b3846 (fadB)
+              Xenobiotics biodegradation and metabolism
+               00362 Benzoate degradation
+                b3846 (fadB)
+               00930 Caprolactam degradation
+                b3846 (fadB)
+            Enzymes [BR:eco01000]
+             1. Oxidoreductases
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.35  3-hydroxyacyl-CoA dehydrogenase
+                 b3846 (fadB)
+             4. Lyases
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.17  enoyl-CoA hydratase
+                 b3846 (fadB)
+             5. Isomerases
+              5.1  Racemases and epimerases
+               5.1.2  Acting on hydroxy acids and derivatives
+                5.1.2.3  3-hydroxybutyryl-CoA epimerase
+                 b3846 (fadB)
+              5.3  Intramolecular oxidoreductases
+               5.3.3  Transposing C=C bonds
+                5.3.3.8  dodecenoyl-CoA isomerase
+                 b3846 (fadB)
+POSITION    complement(4028782..4030971)
+MOTIF       Pfam: 3HCDH_N ECH_1 3HCDH ECH_2
+DBLINKS     NCBI-ProteinID: NP_418288
+            NCBI-GeneID: 948336
+            Pasteur: fadB
+            EcoGene: EG10279
+            ECOCYC: EG10279
+            ASAP: ABE-0012564
+            UniProt: P21177
+AASEQ       729
+            MLYKGDTLYLDWLEDGIAELVFDAPGSVNKLDTATVASLGEAIGVLEQQSDLKGLLLRSN
+            KAAFIVGADITEFLSLFLVPEEQLSQWLHFANSVFNRLEDLPVPTIAAVNGYALGGGCEC
+            VLATDYRLATPDLRIGLPETKLGIMPGFGGSVRMPRMLGADSALEIIAAGKDVGADQALK
+            IGLVDGVVKAEKLVEGAKAVLRQAINGDLDWKAKRQPKLEPLKLSKIEATMSFTIAKGMV
+            AQTAGKHYPAPITAVKTIEAAARFGREEALNLENKSFVPLAHTNEARALVGIFLNDQYVK
+            GKAKKLTKDVETPKQAAVLGAGIMGGGIAYQSAWKGVPVVMKDINDKSLTLGMTEAAKLL
+            NKQLERGKIDGLKLAGVISTIHPTLDYAGFDRVDIVVEAVVENPKVKKAVLAETEQKVRQ
+            DTVLASNTSTIPISELANALERPENFCGMHFFNPVHRMPLVEIIRGEKSSDETIAKVVAW
+            ASKMGKTPIVVNDCPGFFVNRVLFPYFAGFSQLLRDGADFRKIDKVMEKQFGWPMGPAYL
+            LDVVGIDTAHHAQAVMAAGFPQRMQKDYRDAIDALFDANRFGQKNGLGFWRYKEDSKGKP
+            KKEEDAAVEDLLAEVSQPKRDFSEEEIIARMMIPMVNEVVRCLEEGIIATPAEADMALVY
+            GLGFPPFHGGAFRWLDTLGSAKYLDMAQQYQHLGPLYEVPEGLRNKARHNEPYYPPVEPA
+            RPVGDLKTA
+NTSEQ       2190
+            atgctttacaaaggcgacaccctgtaccttgactggctggaagatggcattgccgaactg
+            gtatttgatgccccaggttcagttaataaactcgacactgcgaccgtcgccagcctcggc
+            gaggccatcggcgtgctggaacagcaatcagatctaaaagggctgctgctgcgttcgaac
+            aaagcagcctttatcgtcggtgctgatatcaccgaatttttgtccctgttcctcgttcct
+            gaagaacagttaagtcagtggctgcactttgccaatagcgtgtttaatcgcctggaagat
+            ctgccggtgccgaccattgctgccgtcaatggctatgcgctgggcggtggctgcgaatgc
+            gtgctggcgaccgattatcgtctggcgacgccggatctgcgcatcggtctgccggaaacc
+            aaactgggcatcatgcctggctttggcggttctgtacgtatgccacgtatgctgggcgct
+            gacagtgcgctggaaatcattgccgccggtaaagatgtcggcgcggatcaggcgctgaaa
+            atcggtctggtggatggcgtagtcaaagcagaaaaactggttgaaggcgcaaaggcggtt
+            ttacgccaggccattaacggcgacctcgactggaaagcaaaacgtcagccgaagctggaa
+            ccactaaaactgagcaagattgaagccaccatgagcttcaccatcgctaaagggatggtc
+            gcacaaacagcggggaaacattatccggcccccatcaccgcagtaaaaaccattgaagct
+            gcggcccgttttggtcgtgaagaagccttaaacctggaaaacaaaagttttgtcccgctg
+            gcgcataccaacgaagcccgcgcactggtcggcattttccttaacgatcaatatgtaaaa
+            ggcaaagcgaagaaactcaccaaagacgttgaaaccccgaaacaggccgcggtgctgggt
+            gcaggcattatgggcggcggcatcgcttaccagtctgcgtggaaaggcgtgccggttgtc
+            atgaaagatatcaacgacaagtcgttaaccctcggcatgaccgaagccgcgaaactgctg
+            aacaagcagcttgagcgcggcaagatcgatggtctgaaactggctggcgtgatctccaca
+            atccacccaacgctcgactacgccggatttgaccgcgtggatattgtggtagaagcggtt
+            gttgaaaacccgaaagtgaaaaaagccgtactggcagaaaccgaacaaaaagtacgccag
+            gataccgtgctggcgtctaacacttcaaccattcctatcagcgaactggccaacgcgctg
+            gaacgcccggaaaacttctgcgggatgcacttctttaacccggtccaccgaatgccgttg
+            gtagaaattattcgcggcgagaaaagctccgacgaaaccatcgcgaaagttgtcgcctgg
+            gcgagcaagatgggcaagacgccgattgtggttaacgactgccccggcttctttgttaac
+            cgcgtgctgttcccgtatttcgccggtttcagccagctgctgcgcgacggcgcggatttc
+            cgcaagatcgacaaagtgatggaaaaacagtttggctggccgatgggcccggcatatctg
+            ctggacgttgtgggcattgataccgcgcatcacgctcaggctgtcatggcagcaggcttc
+            ccgcagcggatgcagaaagattaccgcgatgccatcgacgcgctgtttgatgccaaccgc
+            tttggtcagaagaacggcctcggtttctggcgttataaagaagacagcaaaggtaagccg
+            aagaaagaagaagacgccgccgttgaagacctgctggcagaagtgagccagccgaagcgc
+            gatttcagcgaagaagagattatcgcccgcatgatgatcccgatggtcaacgaagtggtg
+            cgctgtctggaggaaggcattatcgccactccggcggaagcggatatggcgctggtctac
+            ggcctgggcttccctccgttccacggcggcgcgttccgctggctggacaccctcggtagc
+            gcaaaatacctcgatatggcacagcaatatcagcacctcggcccgctgtatgaagtgccg
+            gaaggtctgcgtaataaagcgcgtcataacgaaccgtactatcctccggttgagccagcc
+            cgtccggttggcgacctgaaaacggcttaa
+///

@@ -1,0 +1,214 @@
+ID   KDUI_ECOLI              Reviewed;         278 AA.
+AC   Q46938; Q2M9Z4;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   15-FEB-2017, entry version 126.
+DE   RecName: Full=4-deoxy-L-threo-5-hexosulose-uronate ketol-isomerase;
+DE            EC=5.3.1.17;
+DE   AltName: Full=5-keto-4-deoxyuronate isomerase;
+DE   AltName: Full=DKI isomerase;
+GN   Name=kduI; Synonyms=yqeE; OrderedLocusNames=b2843, JW2811;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 1-20 AND 227-247, CRYSTALLIZATION, AND SUBUNIT.
+RX   PubMed=9761873; DOI=10.1107/S090744499701785X;
+RA   Dunten P., Jaffe H., Aksamit R.R.;
+RT   "Crystallization of 5-keto-4-deoxyuronate isomerase from Escherichia
+RT   coli.";
+RL   Acta Crystallogr. D 54:678-680(1998).
+RN   [4]
+RP   INDUCTION.
+RC   STRAIN=K12;
+RX   PubMed=22427493; DOI=10.1128/AEM.00244-12;
+RA   Rothe M., Alpert C., Engst W., Musiol S., Loh G., Blaut M.;
+RT   "Impact of nutritional factors on the proteome of intestinal
+RT   Escherichia coli: induction of OxyR-dependent proteins AhpF and Dps by
+RT   a lactose-rich diet.";
+RL   Appl. Environ. Microbiol. 78:3580-3591(2012).
+RN   [5]
+RP   FUNCTION, AND INDUCTION.
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=23437267; DOI=10.1371/journal.pone.0056906;
+RA   Rothe M., Alpert C., Loh G., Blaut M.;
+RT   "Novel insights into E. coli's hexuronate metabolism: KduI facilitates
+RT   the conversion of galacturonate and glucuronate under osmotic stress
+RT   conditions.";
+RL   PLoS ONE 8:E56906-E56906(2013).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (2.60 ANGSTROMS).
+RA   Fedorov A.A., Fedorov E.V., Almo S.C.;
+RT   "The crystal structure of pectin degrading enzyme 5-keto 4-
+RT   deoxyuronate isomerase from Escherichia coli.";
+RL   Submitted (AUG-2004) to the PDB data bank.
+RN   [7]
+RP   X-RAY CRYSTALLOGRAPHY (1.94 ANGSTROMS) IN COMPLEX WITH ZINC, COFACTOR,
+RP   AND SUBUNIT.
+RC   STRAIN=K12 / DH5-alpha;
+RX   PubMed=16152643; DOI=10.1002/prot.20598;
+RA   Crowther R.L., Georgiadis M.M.;
+RT   "The crystal structure of 5-keto-4-deoxyuronate isomerase from
+RT   Escherichia coli.";
+RL   Proteins 61:680-684(2005).
+CC   -!- FUNCTION: Catalyzes the isomerization of 5-dehydro-4-deoxy-D-
+CC       glucuronate to 3-deoxy-D-glycero-2,5-hexodiulosonate (By
+CC       similarity). Plays a role in the catabolism of hexuronates under
+CC       osmotic stress conditions, likely substituting for the regular
+CC       hexuronate degrading enzyme UxaC whose expression is repressed in
+CC       these conditions (PubMed:23437267). {ECO:0000250|UniProtKB:Q05529,
+CC       ECO:0000269|PubMed:23437267}.
+CC   -!- CATALYTIC ACTIVITY: 5-dehydro-4-deoxy-D-glucuronate = 3-deoxy-D-
+CC       glycero-2,5-hexodiulosonate.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000269|PubMed:16152643, ECO:0000305};
+CC       Note=Binds 1 zinc ion per subunit. The bound metal seen in the
+CC       crystal structure was tentatively identified as zinc, and its
+CC       requirement for activity has not been shown.
+CC       {ECO:0000269|PubMed:16152643, ECO:0000305};
+CC   -!- PATHWAY: Glycan metabolism; pectin degradation; 2-dehydro-3-deoxy-
+CC       D-gluconate from pectin: step 4/5.
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000269|PubMed:16152643,
+CC       ECO:0000269|PubMed:9761873}.
+CC   -!- INDUCTION: Its expression is up-regulated in the presence of
+CC       galacturonate and glucuronate (PubMed:23437267). Is also down-
+CC       regulated in E.coli of mice fed a casein-rich diet
+CC       (PubMed:22427493). {ECO:0000269|PubMed:22427493,
+CC       ECO:0000269|PubMed:23437267}.
+CC   -!- SIMILARITY: Belongs to the KduI family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U29581; AAB40490.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC75882.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE76912.1; -; Genomic_DNA.
+DR   PIR; D65067; D65067.
+DR   RefSeq; NP_417320.1; NC_000913.3.
+DR   RefSeq; WP_000383237.1; NZ_LN832404.1.
+DR   PDB; 1X8M; X-ray; 2.60 A; A/B/C/D/E/F=2-278.
+DR   PDB; 1XRU; X-ray; 1.94 A; A/B=1-278.
+DR   PDBsum; 1X8M; -.
+DR   PDBsum; 1XRU; -.
+DR   ProteinModelPortal; Q46938; -.
+DR   SMR; Q46938; -.
+DR   BioGrid; 4261944; 13.
+DR   DIP; DIP-10069N; -.
+DR   IntAct; Q46938; 2.
+DR   STRING; 511145.b2843; -.
+DR   PaxDb; Q46938; -.
+DR   PRIDE; Q46938; -.
+DR   DNASU; 947319; -.
+DR   EnsemblBacteria; AAC75882; AAC75882; b2843.
+DR   EnsemblBacteria; BAE76912; BAE76912; BAE76912.
+DR   GeneID; 947319; -.
+DR   KEGG; ecj:JW2811; -.
+DR   KEGG; eco:b2843; -.
+DR   PATRIC; 32121104; VBIEscCol129921_2941.
+DR   EchoBASE; EB2899; -.
+DR   EcoGene; EG13096; kduI.
+DR   eggNOG; ENOG4105D50; Bacteria.
+DR   eggNOG; COG3717; LUCA.
+DR   HOGENOM; HOG000124379; -.
+DR   InParanoid; Q46938; -.
+DR   KO; K01815; -.
+DR   OMA; IWAMAGE; -.
+DR   PhylomeDB; Q46938; -.
+DR   BioCyc; EcoCyc:G7463-MONOMER; -.
+DR   BioCyc; MetaCyc:G7463-MONOMER; -.
+DR   BRENDA; 5.3.1.17; 2026.
+DR   UniPathway; UPA00545; UER00826.
+DR   EvolutionaryTrace; Q46938; -.
+DR   PRO; PR:Q46938; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IDA:UniProtKB.
+DR   GO; GO:0008697; F:4-deoxy-L-threo-5-hexosulose-uronate ketol-isomerase activity; IDA:EcoCyc.
+DR   GO; GO:0042802; F:identical protein binding; IDA:EcoCyc.
+DR   GO; GO:0046872; F:metal ion binding; IDA:EcoCyc.
+DR   GO; GO:0019698; P:D-galacturonate catabolic process; IDA:EcoCyc.
+DR   GO; GO:0042840; P:D-glucuronate catabolic process; IDA:EcoCyc.
+DR   GO; GO:0045490; P:pectin catabolic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 2.60.120.500; -; 1.
+DR   Gene3D; 2.60.120.520; -; 1.
+DR   HAMAP; MF_00687; KduI; 1.
+DR   InterPro; IPR007045; KduI.
+DR   InterPro; IPR021120; KduI/IolB_isomerase.
+DR   InterPro; IPR027447; KduI_C.
+DR   InterPro; IPR027449; KduI_N.
+DR   InterPro; IPR011051; RmlC_Cupin.
+DR   Pfam; PF04962; KduI; 1.
+DR   PIRSF; PIRSF006625; KduI; 1.
+DR   SUPFAM; SSF51182; SSF51182; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Complete proteome; Direct protein sequencing; Isomerase;
+KW   Metal-binding; Reference proteome; Zinc.
+FT   CHAIN         1    278       4-deoxy-L-threo-5-hexosulose-uronate
+FT                                ketol-isomerase.
+FT                                /FTId=PRO_0000215485.
+FT   METAL       196    196       Zinc. {ECO:0000269|PubMed:16152643}.
+FT   METAL       198    198       Zinc. {ECO:0000269|PubMed:16152643}.
+FT   METAL       203    203       Zinc. {ECO:0000269|PubMed:16152643}.
+FT   METAL       245    245       Zinc. {ECO:0000269|PubMed:16152643}.
+FT   STRAND        2      4       {ECO:0000244|PDB:1XRU}.
+FT   HELIX         9     12       {ECO:0000244|PDB:1XRU}.
+FT   HELIX        17     24       {ECO:0000244|PDB:1XRU}.
+FT   STRAND       38     40       {ECO:0000244|PDB:1XRU}.
+FT   TURN         41     44       {ECO:0000244|PDB:1XRU}.
+FT   STRAND       45     51       {ECO:0000244|PDB:1XRU}.
+FT   STRAND       53     55       {ECO:0000244|PDB:1XRU}.
+FT   STRAND       57     60       {ECO:0000244|PDB:1XRU}.
+FT   HELIX        61     66       {ECO:0000244|PDB:1XRU}.
+FT   STRAND       69     71       {ECO:0000244|PDB:1XRU}.
+FT   TURN         72     75       {ECO:0000244|PDB:1XRU}.
+FT   STRAND       76     82       {ECO:0000244|PDB:1XRU}.
+FT   STRAND       87     91       {ECO:0000244|PDB:1XRU}.
+FT   STRAND       94     98       {ECO:0000244|PDB:1XRU}.
+FT   STRAND      103    106       {ECO:0000244|PDB:1XRU}.
+FT   STRAND      113    118       {ECO:0000244|PDB:1XRU}.
+FT   STRAND      126    132       {ECO:0000244|PDB:1XRU}.
+FT   STRAND      140    142       {ECO:0000244|PDB:1XRU}.
+FT   HELIX       144    147       {ECO:0000244|PDB:1XRU}.
+FT   STRAND      150    152       {ECO:0000244|PDB:1XRU}.
+FT   HELIX       155    157       {ECO:0000244|PDB:1XRU}.
+FT   STRAND      161    168       {ECO:0000244|PDB:1XRU}.
+FT   TURN        169    171       {ECO:0000244|PDB:1XRU}.
+FT   STRAND      178    184       {ECO:0000244|PDB:1XRU}.
+FT   STRAND      190    192       {ECO:0000244|PDB:1XRU}.
+FT   STRAND      194    197       {ECO:0000244|PDB:1XRU}.
+FT   STRAND      201    209       {ECO:0000244|PDB:1XRU}.
+FT   STRAND      216    222       {ECO:0000244|PDB:1XRU}.
+FT   STRAND      225    231       {ECO:0000244|PDB:1XRU}.
+FT   STRAND      233    239       {ECO:0000244|PDB:1XRU}.
+FT   STRAND      244    251       {ECO:0000244|PDB:1XRU}.
+FT   STRAND      254    262       {ECO:0000244|PDB:1XRU}.
+FT   STRAND      269    272       {ECO:0000244|PDB:1XRU}.
+FT   HELIX       274    277       {ECO:0000244|PDB:1XRU}.
+SQ   SEQUENCE   278 AA;  31076 MW;  F7CD5C259503CD1A CRC64;
+     MDVRQSIHSA HAKTLDTQGL RNEFLVEKVF VADEYTMVYS HIDRIIVGGI MPITKTVSVG
+     GEVGKQLGVS YFLERRELGV INIGGAGTIT VDGQCYEIGH RDALYVGKGA KEVVFASIDT
+     GTPAKFYYNC APAHTTYPTK KVTPDEVSPV TLGDNLTSNR RTINKYFVPD VLETCQLSMG
+     LTELAPGNLW NTMPCHTHER RMEVYFYFNM DDDACVFHMM GQPQETRHIV MHNEQAVISP
+     SWSIHSGVGT KAYTFIWGMV GENQVFDDMD HVAVKDLR
+//

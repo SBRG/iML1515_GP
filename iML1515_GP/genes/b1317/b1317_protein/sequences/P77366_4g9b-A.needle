@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:43:30
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b1317/b1317_protein/sequences/P77366_4g9b-A.needle
+#    -asequence asis::MKLQGVIFDLDGVITDTAHLHFQAWQQIAAEIGISIDAQFNESLKGISRDESLRRILQHGGKEGDFNSQERAQLAYRKNLLYVHSLRELTVNAVLPGIRSLLADLRAQQISVGLASVSLNAPTILAALELREFFTFCADASQLKNSKPDPEIFLAACAGLGVPPQACIGIEDAQAGIDAINASGMRSVGIGAGLTGAQLLLPSTESLTWPRLSAFWQNV
+#    -bsequence asis::VMKLQGVIFDLDGVITDTAHLHFQAWQQIAAEIGISIDAQFNESLKGISRDESLRRILQHGGKEGDFNSQERAQLAYRKNLLYVHSLRELTVNAVLPGIRSLLADLRAQQISVGLASVSLNAPTILAALELREFFTFCADASQLKNSKPDPEIFLAACAGLGVPPQACIGIEDAQAGIDAINASGMRSVGIGAGLTGAQLLLPSTESLTWPRLSAFWQNVAENLYFQ
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b1317/b1317_protein/sequences/P77366_4g9b-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 227
+# Identity:     219/227 (96.5%)
+# Similarity:   219/227 (96.5%)
+# Gaps:           8/227 ( 3.5%)
+# Score: 1103.0
+# 
+#
+#=======================================
+
+asis               1 -MKLQGVIFDLDGVITDTAHLHFQAWQQIAAEIGISIDAQFNESLKGISR     49
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 VMKLQGVIFDLDGVITDTAHLHFQAWQQIAAEIGISIDAQFNESLKGISR     50
+
+asis              50 DESLRRILQHGGKEGDFNSQERAQLAYRKNLLYVHSLRELTVNAVLPGIR     99
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 DESLRRILQHGGKEGDFNSQERAQLAYRKNLLYVHSLRELTVNAVLPGIR    100
+
+asis             100 SLLADLRAQQISVGLASVSLNAPTILAALELREFFTFCADASQLKNSKPD    149
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 SLLADLRAQQISVGLASVSLNAPTILAALELREFFTFCADASQLKNSKPD    150
+
+asis             150 PEIFLAACAGLGVPPQACIGIEDAQAGIDAINASGMRSVGIGAGLTGAQL    199
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 PEIFLAACAGLGVPPQACIGIEDAQAGIDAINASGMRSVGIGAGLTGAQL    200
+
+asis             200 LLPSTESLTWPRLSAFWQNV-------    219
+                     ||||||||||||||||||||       
+asis             201 LLPSTESLTWPRLSAFWQNVAENLYFQ    227
+
+
+#---------------------------------------
+#---------------------------------------

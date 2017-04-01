@@ -1,0 +1,244 @@
+ID   5DNU_ECOLI              Reviewed;         199 AA.
+AC   P76491; Q2MAM2;
+DT   27-MAR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1997, sequence version 1.
+DT   15-FEB-2017, entry version 130.
+DE   RecName: Full=5'-deoxynucleotidase YfbR {ECO:0000255|HAMAP-Rule:MF_01100};
+DE            EC=3.1.3.89 {ECO:0000255|HAMAP-Rule:MF_01100};
+DE   AltName: Full=5'-deoxyribonucleotidase {ECO:0000255|HAMAP-Rule:MF_01100};
+DE   AltName: Full=Nucleoside 5'-monophosphate phosphohydrolase {ECO:0000255|HAMAP-Rule:MF_01100};
+GN   Name=yfbR {ECO:0000255|HAMAP-Rule:MF_01100};
+GN   OrderedLocusNames=b2291, JW2288;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, SUBSTRATE SPECIFICITY, COFACTOR,
+RP   SUBUNIT, ENZYME REGULATION, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=15489502; DOI=10.1074/jbc.M411023200;
+RA   Proudfoot M., Kuznetsova E., Brown G., Rao N.N., Kitagawa M., Mori H.,
+RA   Savchenko A., Yakunin A.F.;
+RT   "General enzymatic screens identify three new nucleotidases in
+RT   Escherichia coli. Biochemical characterization of SurE, YfbR, and
+RT   YjjG.";
+RL   J. Biol. Chem. 279:54687-54694(2004).
+RN   [4]
+RP   FUNCTION IN THE SYNTHESIS OF THYMIDYLATE.
+RX   PubMed=17827303; DOI=10.1128/JB.00461-07;
+RA   Weiss B.;
+RT   "The deoxycytidine pathway for thymidylate synthesis in Escherichia
+RT   coli.";
+RL   J. Bacteriol. 189:7922-7926(2007).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (2.1 ANGSTROMS) OF MUTANT ALA-72 IN COMPLEX WITH
+RP   COBALT ION AND SUBSTRATES, FUNCTION, CATALYTIC ACTIVITY, MUTAGENESIS
+RP   OF ARG-18; VAL-30; HIS-33; HIS-68; ASP-69; GLU-72; ASP-77; GLU-122 AND
+RP   ASP-137, BIOPHYSICOCHEMICAL PROPERTIES, AND SUBUNIT.
+RX   PubMed=18353368; DOI=10.1016/j.jmb.2008.02.036;
+RA   Zimmerman M.D., Proudfoot M., Yakunin A., Minor W.;
+RT   "Structural insight into the mechanism of substrate specificity and
+RT   catalytic activity of an HD-domain phosphohydrolase: the 5'-
+RT   deoxyribonucleotidase YfbR from Escherichia coli.";
+RL   J. Mol. Biol. 378:215-226(2008).
+CC   -!- FUNCTION: Essential component of the deoxycytidine triphosphate
+CC       (dCTP) pathway for de novo synthesis of thymidylate. Catalyzes the
+CC       strictly specific dephosphorylation of 2'-deoxyribonucleoside 5'-
+CC       monophosphates (dAMP, dGMP, dTMP, dUMP, dIMP and dCMP) and does
+CC       not dephosphorylate 5'-ribonucleotides or ribonucleoside 3'-
+CC       monophosphates. {ECO:0000269|PubMed:15489502,
+CC       ECO:0000269|PubMed:17827303, ECO:0000269|PubMed:18353368}.
+CC   -!- CATALYTIC ACTIVITY: A 2'-deoxyribonucleoside 5'-monophosphate +
+CC       H(2)O = a 2'-deoxyribonucleoside + phosphate. {ECO:0000255|HAMAP-
+CC       Rule:MF_01100, ECO:0000269|PubMed:15489502,
+CC       ECO:0000269|PubMed:18353368}.
+CC   -!- COFACTOR:
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC         Evidence={ECO:0000269|PubMed:15489502};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000269|PubMed:15489502};
+CC       Name=Cu(2+); Xref=ChEBI:CHEBI:29036;
+CC         Evidence={ECO:0000269|PubMed:15489502};
+CC       Note=A divalent metal cation. Highest activity with Co(2+),
+CC       followed by Mn(2+) and Cu(2+). {ECO:0000269|PubMed:15489502};
+CC   -!- ENZYME REGULATION: Inhibited by both ribo- and deoxyribonucleoside
+CC       di- and triphosphates. {ECO:0000269|PubMed:15489502}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.012 mM for 5'-dAMP {ECO:0000269|PubMed:15489502,
+CC         ECO:0000269|PubMed:18353368};
+CC         KM=0.047 mM for 5'-dGMP {ECO:0000269|PubMed:15489502,
+CC         ECO:0000269|PubMed:18353368};
+CC         KM=0.008 mM for 5'-dTMP {ECO:0000269|PubMed:15489502,
+CC         ECO:0000269|PubMed:18353368};
+CC         KM=0.020 mM for 5'-dUMP {ECO:0000269|PubMed:15489502,
+CC         ECO:0000269|PubMed:18353368};
+CC         KM=0.017 mM for 5'-dIMP {ECO:0000269|PubMed:15489502,
+CC         ECO:0000269|PubMed:18353368};
+CC         KM=0.036 mM for 5'-dCMP {ECO:0000269|PubMed:15489502,
+CC         ECO:0000269|PubMed:18353368};
+CC         KM=2.09 mM for pNPP {ECO:0000269|PubMed:15489502,
+CC         ECO:0000269|PubMed:18353368};
+CC         Vmax=0.71 umol/min/mg enzyme with 5'-dAMP as substrate
+CC         {ECO:0000269|PubMed:15489502, ECO:0000269|PubMed:18353368};
+CC         Vmax=0.46 umol/min/mg enzyme with 5'-dGMP as substrate
+CC         {ECO:0000269|PubMed:15489502, ECO:0000269|PubMed:18353368};
+CC         Vmax=0.37 umol/min/mg enzyme with 5'-dTMP as substrate
+CC         {ECO:0000269|PubMed:15489502, ECO:0000269|PubMed:18353368};
+CC         Vmax=0.54 umol/min/mg enzyme with 5'-dUMP as substrate
+CC         {ECO:0000269|PubMed:15489502, ECO:0000269|PubMed:18353368};
+CC         Vmax=0.56 umol/min/mg enzyme with 5'-dIMP as substrate
+CC         {ECO:0000269|PubMed:15489502, ECO:0000269|PubMed:18353368};
+CC         Vmax=0.53 umol/min/mg enzyme with 5'-dCMP as substrate
+CC         {ECO:0000269|PubMed:15489502, ECO:0000269|PubMed:18353368};
+CC         Vmax=1.32 umol/min/mg enzyme with pNPP as substrate
+CC         {ECO:0000269|PubMed:15489502, ECO:0000269|PubMed:18353368};
+CC       pH dependence:
+CC         Optimum pH is 8.0. {ECO:0000269|PubMed:15489502,
+CC         ECO:0000269|PubMed:18353368};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01100,
+CC       ECO:0000269|PubMed:15489502, ECO:0000269|PubMed:18353368}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01100}.
+CC   -!- SIMILARITY: Belongs to the 5DNU family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01100}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U00096; AAC75351.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE76684.1; -; Genomic_DNA.
+DR   PIR; A65001; A65001.
+DR   RefSeq; NP_416794.1; NC_000913.3.
+DR   RefSeq; WP_000813859.1; NZ_LN832404.1.
+DR   PDB; 2PAQ; X-ray; 2.10 A; A/B=1-199.
+DR   PDB; 2PAR; X-ray; 2.10 A; A/B=1-199.
+DR   PDB; 2PAU; X-ray; 2.10 A; A/B=1-199.
+DR   PDBsum; 2PAQ; -.
+DR   PDBsum; 2PAR; -.
+DR   PDBsum; 2PAU; -.
+DR   ProteinModelPortal; P76491; -.
+DR   SMR; P76491; -.
+DR   BioGrid; 4262969; 19.
+DR   DIP; DIP-28107N; -.
+DR   IntAct; P76491; 2.
+DR   STRING; 511145.b2291; -.
+DR   PaxDb; P76491; -.
+DR   PRIDE; P76491; -.
+DR   EnsemblBacteria; AAC75351; AAC75351; b2291.
+DR   EnsemblBacteria; BAE76684; BAE76684; BAE76684.
+DR   GeneID; 946771; -.
+DR   KEGG; ecj:JW2288; -.
+DR   KEGG; eco:b2291; -.
+DR   PATRIC; 32119951; VBIEscCol129921_2385.
+DR   EchoBASE; EB3855; -.
+DR   EcoGene; EG14102; yfbR.
+DR   eggNOG; ENOG4105DK2; Bacteria.
+DR   eggNOG; COG1896; LUCA.
+DR   HOGENOM; HOG000276964; -.
+DR   InParanoid; P76491; -.
+DR   KO; K08722; -.
+DR   OMA; MPTPIKY; -.
+DR   PhylomeDB; P76491; -.
+DR   BioCyc; EcoCyc:G7185-MONOMER; -.
+DR   BioCyc; MetaCyc:G7185-MONOMER; -.
+DR   BRENDA; 3.1.3.5; 2026.
+DR   BRENDA; 3.1.3.89; 2026.
+DR   SABIO-RK; P76491; -.
+DR   EvolutionaryTrace; P76491; -.
+DR   PRO; PR:P76491; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050897; F:cobalt ion binding; IDA:EcoCyc.
+DR   GO; GO:0042802; F:identical protein binding; IDA:EcoCyc.
+DR   GO; GO:0008252; F:nucleotidase activity; IDA:EcoCyc.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006226; P:dUMP biosynthetic process; IMP:EcoCyc.
+DR   GO; GO:0010139; P:pyrimidine deoxyribonucleotide salvage; IMP:EcoCyc.
+DR   Gene3D; 1.10.3210.10; -; 1.
+DR   HAMAP; MF_01100; 5DNU; 1.
+DR   InterPro; IPR003607; HD/PDEase_dom.
+DR   InterPro; IPR006674; HD_domain.
+DR   InterPro; IPR022971; YfbR.
+DR   Pfam; PF13023; HD_3; 1.
+DR   SMART; SM00471; HDc; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cobalt; Complete proteome; Copper; Cytoplasm; Hydrolase;
+KW   Manganese; Metal-binding; Nucleotide-binding; Reference proteome.
+FT   CHAIN         1    199       5'-deoxynucleotidase YfbR.
+FT                                /FTId=PRO_0000095049.
+FT   DOMAIN       31    139       HD. {ECO:0000255|HAMAP-Rule:MF_01100}.
+FT   REGION       18     19       Substrate binding.
+FT   REGION       77     80       Substrate binding.
+FT   METAL        33     33       Cobalt; via tele nitrogen.
+FT   METAL        68     68       Cobalt; via tele nitrogen.
+FT   METAL        69     69       Cobalt.
+FT   METAL       137    137       Cobalt.
+FT   BINDING      33     33       Substrate.
+FT   BINDING      69     69       Substrate.
+FT   BINDING     137    137       Substrate.
+FT   SITE         18     18       Appears to be important in orienting the
+FT                                phosphate for catalysis.
+FT   MUTAGEN      18     18       R->A: Shows negligible enzymatic
+FT                                activity. {ECO:0000269|PubMed:18353368}.
+FT   MUTAGEN      30     30       V->A: Shows reduced activity and affinity
+FT                                compared to the wild-type.
+FT                                {ECO:0000269|PubMed:18353368}.
+FT   MUTAGEN      33     33       H->A: Shows negligible enzymatic
+FT                                activity. {ECO:0000269|PubMed:18353368}.
+FT   MUTAGEN      68     68       H->A: Shows negligible enzymatic
+FT                                activity. {ECO:0000269|PubMed:18353368}.
+FT   MUTAGEN      69     69       D->A: Shows negligible enzymatic
+FT                                activity. {ECO:0000269|PubMed:18353368}.
+FT   MUTAGEN      72     72       E->A: Shows negligible enzymatic
+FT                                activity. {ECO:0000269|PubMed:18353368}.
+FT   MUTAGEN      72     72       E->V: Shows wild-type activity and
+FT                                substrate affinity.
+FT                                {ECO:0000269|PubMed:18353368}.
+FT   MUTAGEN      77     77       D->A: Shows negligible enzymatic
+FT                                activity. {ECO:0000269|PubMed:18353368}.
+FT   MUTAGEN     122    122       E->A: Shows reduced activity and affinity
+FT                                compared to the wild-type.
+FT                                {ECO:0000269|PubMed:18353368}.
+FT   MUTAGEN     137    137       D->A: Shows negligible enzymatic
+FT                                activity. {ECO:0000269|PubMed:18353368}.
+FT   HELIX         6     10       {ECO:0000244|PDB:2PAQ}.
+FT   HELIX        11     15       {ECO:0000244|PDB:2PAQ}.
+FT   HELIX        30     51       {ECO:0000244|PDB:2PAQ}.
+FT   HELIX        58     67       {ECO:0000244|PDB:2PAQ}.
+FT   TURN         68     71       {ECO:0000244|PDB:2PAQ}.
+FT   HELIX        72     75       {ECO:0000244|PDB:2PAQ}.
+FT   HELIX        93    105       {ECO:0000244|PDB:2PAQ}.
+FT   HELIX       110    112       {ECO:0000244|PDB:2PAQ}.
+FT   HELIX       113    120       {ECO:0000244|PDB:2PAQ}.
+FT   TURN        121    123       {ECO:0000244|PDB:2PAQ}.
+FT   HELIX       127    150       {ECO:0000244|PDB:2PAQ}.
+FT   HELIX       154    156       {ECO:0000244|PDB:2PAQ}.
+FT   HELIX       157    169       {ECO:0000244|PDB:2PAQ}.
+FT   HELIX       173    182       {ECO:0000244|PDB:2PAQ}.
+FT   HELIX       184    186       {ECO:0000244|PDB:2PAR}.
+SQ   SEQUENCE   199 AA;  22708 MW;  895E9A06130DA057 CRC64;
+     MKQSHFFAHL SRLKLINRWP LMRNVRTENV SEHSLQVAMV AHALAAIKNR KFGGNVNAER
+     IALLAMYHDA SEVLTGDLPT PVKYFNSQIA QEYKAIEKIA QQKLVDMVPE ELRDIFAPLI
+     DEHAYSDEEK SLVKQADALC AYLKCLEELA AGNNEFLLAK TRLEATLEAR RSQEMDYFME
+     IFVPSFHLSL DEISQDSPL
+//

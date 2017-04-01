@@ -1,0 +1,167 @@
+ID   PTKA_ECOLI              Reviewed;         150 AA.
+AC   P69828; P37187; P76413; P94757; P97243;
+DT   10-MAY-2005, integrated into UniProtKB/Swiss-Prot.
+DT   10-MAY-2005, sequence version 1.
+DT   15-MAR-2017, entry version 94.
+DE   RecName: Full=PTS system galactitol-specific EIIA component {ECO:0000303|PubMed:7772602};
+DE   AltName: Full=EIIB-Gat {ECO:0000303|PubMed:7772602};
+DE   AltName: Full=Galactitol-specific phosphotransferase enzyme IIA component {ECO:0000303|PubMed:7772602};
+DE            EC=2.7.1.200 {ECO:0000269|PubMed:1100608};
+GN   Name=gatA {ECO:0000303|PubMed:7772602};
+GN   OrderedLocusNames=b2094, JW2078/JW2081;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=EC3132;
+RX   PubMed=7772602; DOI=10.1016/0167-4781(95)00053-J;
+RA   Nobelmann B., Lengeler J.W.;
+RT   "Sequence of the gat operon for galactitol utilization from a wild-
+RT   type strain EC3132 of Escherichia coli.";
+RL   Biochim. Biophys. Acta 1262:69-72(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, AND
+RP   SUBSTRATE SPECIFICITY.
+RX   PubMed=1100608;
+RA   Lengeler J.;
+RT   "Nature and properties of hexitol transport systems in Escherichia
+RT   coli.";
+RL   J. Bacteriol. 124:39-47(1975).
+RN   [5]
+RP   FUNCTION, SUBCELLULAR LOCATION, AND INDUCTION.
+RX   PubMed=8955298; DOI=10.1128/jb.178.23.6790-6795.1996;
+RA   Nobelmann B., Lengeler J.W.;
+RT   "Molecular analysis of the gat genes from Escherichia coli and of
+RT   their roles in galactitol transport and metabolism.";
+RL   J. Bacteriol. 178:6790-6795(1996).
+RN   [6]
+RP   SUBUNIT.
+RC   STRAIN=BL21-DE3;
+RX   PubMed=16079137; DOI=10.1074/jbc.M506479200;
+RA   Stenberg F., Chovanec P., Maslen S.L., Robinson C.V., Ilag L.,
+RA   von Heijne G., Daley D.O.;
+RT   "Protein complexes of the Escherichia coli cell envelope.";
+RL   J. Biol. Chem. 280:34409-34419(2005).
+CC   -!- FUNCTION: The phosphoenolpyruvate-dependent sugar
+CC       phosphotransferase system (PTS), a major carbohydrate active
+CC       transport system, catalyzes the phosphorylation of incoming sugar
+CC       substrates concomitant with their translocation across the cell
+CC       membrane. The enzyme II complex composed of GatA, GatB and GatC is
+CC       involved in galactitol transport. It can also use D-glucitol.
+CC       {ECO:0000269|PubMed:1100608, ECO:0000269|PubMed:8955298}.
+CC   -!- CATALYTIC ACTIVITY: [Protein]-N(pi)-phospho-L-histidine +
+CC       galactitol(Side 1) = [protein]-L-histidine + galactitol 1-
+CC       phosphate(Side 2). {ECO:0000269|PubMed:1100608}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=4.4 uM for D-galactitol {ECO:0000269|PubMed:1100608};
+CC         KM=800 uM for D-glucitol {ECO:0000269|PubMed:1100608};
+CC         Vmax=3.2 nmol/min/mg enzyme with D-galactitol as substrate
+CC         {ECO:0000269|PubMed:1100608};
+CC         Vmax=3.2 nmol/min/mg enzyme with D-glucitol as substrate
+CC         {ECO:0000269|PubMed:1100608};
+CC   -!- SUBUNIT: Forms a complex with one each of subunit of GatA, GatB
+CC       and 2 subunits of GatC. {ECO:0000269|PubMed:16079137}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305|PubMed:8955298}.
+CC   -!- INDUCTION: Constitutively expressed. {ECO:0000269|PubMed:8955298}.
+CC   -!- DOMAIN: The EIIA domain is phosphorylated by phospho-HPr on a
+CC       histidyl residue. Then, it transfers the phosphoryl group to the
+CC       EIIB domain. {ECO:0000255|PROSITE-ProRule:PRU00417}.
+CC   -!- CAUTION: In strain W3110, the sequence is interrupted by the
+CC       insertion of an IS5 element between positions 69 and 70.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X79837; CAA56228.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC75155.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAA15964.1; ALT_SEQ; Genomic_DNA.
+DR   EMBL; AP009048; BAA15957.2; ALT_SEQ; Genomic_DNA.
+DR   PIR; E64976; E64976.
+DR   PIR; S55903; S55903.
+DR   RefSeq; NP_416597.1; NC_000913.3.
+DR   RefSeq; WP_000182899.1; NZ_LN832404.1.
+DR   ProteinModelPortal; P69828; -.
+DR   SMR; P69828; -.
+DR   DIP; DIP-47900N; -.
+DR   IntAct; P69828; 3.
+DR   MINT; MINT-1300341; -.
+DR   STRING; 511145.b2094; -.
+DR   TCDB; 4.A.5.1.1; the pts galactitol (gat) family.
+DR   PaxDb; P69828; -.
+DR   PRIDE; P69828; -.
+DR   EnsemblBacteria; AAC75155; AAC75155; b2094.
+DR   EnsemblBacteria; BAA15957; BAA15957; BAA15957.
+DR   EnsemblBacteria; BAA15964; BAA15964; BAA15964.
+DR   GeneID; 946633; -.
+DR   KEGG; ecj:JW2078; -.
+DR   KEGG; ecj:JW2081; -.
+DR   KEGG; eco:b2094; -.
+DR   PATRIC; 32119521; VBIEscCol129921_2171.
+DR   EchoBASE; EB2313; -.
+DR   EcoGene; EG12414; gatA.
+DR   eggNOG; ENOG41082GB; Bacteria.
+DR   eggNOG; COG1762; LUCA.
+DR   HOGENOM; HOG000122110; -.
+DR   KO; K02773; -.
+DR   OMA; ENMAVAI; -.
+DR   PhylomeDB; P69828; -.
+DR   BioCyc; EcoCyc:GATA-MONOMER; -.
+DR   BioCyc; MetaCyc:GATA-MONOMER; -.
+DR   PRO; PR:P69828; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IDA:EcoCyc.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0016301; F:kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0090584; F:protein-phosphocysteine-galactitol-phosphotransferase system transporter activity; IDA:EcoCyc.
+DR   GO; GO:0019402; P:galactitol metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0015796; P:galactitol transport; IDA:EcoCyc.
+DR   GO; GO:0009401; P:phosphoenolpyruvate-dependent sugar phosphotransferase system; IDA:EcoCyc.
+DR   Gene3D; 3.40.930.10; -; 1.
+DR   InterPro; IPR016152; PTrfase/Anion_transptr.
+DR   InterPro; IPR002178; PTS_EIIA_type-2_dom.
+DR   Pfam; PF00359; PTS_EIIA_2; 1.
+DR   SUPFAM; SSF55804; SSF55804; 1.
+DR   PROSITE; PS51094; PTS_EIIA_TYPE_2; 1.
+PE   1: Evidence at protein level;
+KW   Complete proteome; Cytoplasm; Galactitol metabolism; Kinase;
+KW   Phosphoprotein; Phosphotransferase system; Reference proteome;
+KW   Sugar transport; Transferase; Transport.
+FT   CHAIN         1    150       PTS system galactitol-specific EIIA
+FT                                component.
+FT                                /FTId=PRO_0000186576.
+FT   DOMAIN        1    144       PTS EIIA type-2. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00417}.
+FT   ACT_SITE     62     62       Tele-phosphohistidine intermediate.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00417}.
+FT   MOD_RES      62     62       Phosphohistidine; by HPr. {ECO:0000305}.
+FT   CONFLICT    124    124       D -> E (in Ref. 1; CAA56228).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   150 AA;  16907 MW;  1A760676BE5FB61D CRC64;
+     MTNLFVRSGI SFVDRSEVLT HIGNEMLAKG VVHDTWPQAL IAREAEFPTG IMLEQHAIAI
+     PHCEAIHAKS SAIYLLRPTN KVHFQQADDD NDVAVSLVIA LIVENPQQQL KLLRCLFGKL
+     QQPDIVETLI TLPETQLKEY FTKYVLDSDE
+//

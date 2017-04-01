@@ -1,0 +1,199 @@
+ID   MALY_ECOLI              Reviewed;         390 AA.
+AC   P23256;
+DT   01-NOV-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1991, sequence version 1.
+DT   15-MAR-2017, entry version 148.
+DE   RecName: Full=Protein MalY;
+DE   Includes:
+DE     RecName: Full=Cystathionine beta-lyase MalY;
+DE              Short=CBL;
+DE              EC=4.4.1.8;
+DE     AltName: Full=Beta-cystathionase;
+DE     AltName: Full=Cysteine lyase;
+DE   Includes:
+DE     RecName: Full=Maltose regulon modulator;
+GN   Name=malY; OrderedLocusNames=b1622, JW1614;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=K12;
+RX   PubMed=1856179; DOI=10.1128/jb.173.15.4862-4876.1991;
+RA   Reidl J., Boos W.;
+RT   "The malX malY operon of Escherichia coli encodes a novel enzyme II of
+RT   the phosphotransferase system recognizing glucose and maltose and an
+RT   enzyme abolishing the endogenous induction of the maltose system.";
+RL   J. Bacteriol. 173:4862-4876(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=9097039; DOI=10.1093/dnares/3.6.363;
+RA   Aiba H., Baba T., Fujita K., Hayashi K., Inada T., Isono K., Itoh T.,
+RA   Kasai H., Kashimoto K., Kimura S., Kitakawa M., Kitagawa M.,
+RA   Makino K., Miki T., Mizobuchi K., Mori H., Mori T., Motomura K.,
+RA   Nakade S., Nakamura Y., Nashimoto H., Nishio Y., Oshima T., Saito N.,
+RA   Sampei G., Seki Y., Sivasundaram S., Tagami H., Takeda J.,
+RA   Takemoto K., Takeuchi Y., Wada C., Yamamoto Y., Horiuchi T.;
+RT   "A 570-kb DNA sequence of the Escherichia coli K-12 genome
+RT   corresponding to the 28.0-40.1 min region on the linkage map.";
+RL   DNA Res. 3:363-377(1996).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [5]
+RP   CATALYTIC ACTIVITY, PYRIDOXAL PHOSPHATE AT LYS-233, AND MUTAGENESIS OF
+RP   LYS-233.
+RX   PubMed=7665481; DOI=10.1128/jb.177.17.5035-5039.1995;
+RA   Zdych E., Peist R., Reidl J., Boos W.;
+RT   "MalY of Escherichia coli is an enzyme with the activity of a beta C-S
+RT   lyase (cystathionase).";
+RL   J. Bacteriol. 177:5035-5039(1995).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS) OF WILD TYPE AND MUTANT VAL-221
+RP   IN COMPLEX WITH PYRIDOXAL PHOSPHATE, SUBUNIT, AND PYRIDOXAL PHOSPHATE
+RP   AT LYS-233.
+RX   PubMed=10698925; DOI=10.1093/emboj/19.5.831;
+RA   Clausen T., Schlegel A., Peist R., Schneider E., Steegborn C.,
+RA   Chang Y.S., Haase A., Bourenkov G.P., Bartunik H.D., Boos W.;
+RT   "X-ray structure of MalY from Escherichia coli: a pyridoxal 5'-
+RT   phosphate-dependent enzyme acting as a modulator in mal gene
+RT   expression.";
+RL   EMBO J. 19:831-842(2000).
+CC   -!- FUNCTION: Acts as a beta-cystathionase and as a repressor of the
+CC       maltose regulon.
+CC   -!- CATALYTIC ACTIVITY: L-cystathionine + H(2)O = L-homocysteine +
+CC       NH(3) + pyruvate. {ECO:0000269|PubMed:7665481}.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC   -!- SUBUNIT: Homodimer. Interacts with MalT.
+CC       {ECO:0000269|PubMed:10698925}.
+CC   -!- SIMILARITY: Belongs to the class-II pyridoxal-phosphate-dependent
+CC       aminotransferase family. MalY/PatB cystathionine beta-lyase
+CC       subfamily. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M60722; AAA24099.1; -; mRNA.
+DR   EMBL; U00096; AAC74694.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAA15373.1; -; Genomic_DNA.
+DR   PIR; C42477; C42477.
+DR   RefSeq; NP_416139.1; NC_000913.3.
+DR   RefSeq; WP_000459379.1; NZ_LN832404.1.
+DR   PDB; 1D2F; X-ray; 2.50 A; A/B=1-390.
+DR   PDBsum; 1D2F; -.
+DR   ProteinModelPortal; P23256; -.
+DR   SMR; P23256; -.
+DR   BioGrid; 4261731; 9.
+DR   DIP; DIP-10151N; -.
+DR   IntAct; P23256; 10.
+DR   STRING; 511145.b1622; -.
+DR   PaxDb; P23256; -.
+DR   PRIDE; P23256; -.
+DR   EnsemblBacteria; AAC74694; AAC74694; b1622.
+DR   EnsemblBacteria; BAA15373; BAA15373; BAA15373.
+DR   GeneID; 945937; -.
+DR   KEGG; ecj:JW1614; -.
+DR   KEGG; eco:b1622; -.
+DR   PATRIC; 32118546; VBIEscCol129921_1693.
+DR   EchoBASE; EB0559; -.
+DR   EcoGene; EG10564; malY.
+DR   eggNOG; ENOG4105C87; Bacteria.
+DR   eggNOG; COG1168; LUCA.
+DR   HOGENOM; HOG000223048; -.
+DR   InParanoid; P23256; -.
+DR   KO; K14155; -.
+DR   OMA; YCTQWDY; -.
+DR   PhylomeDB; P23256; -.
+DR   BioCyc; EcoCyc:EG10564-MONOMER; -.
+DR   BioCyc; MetaCyc:EG10564-MONOMER; -.
+DR   SABIO-RK; P23256; -.
+DR   EvolutionaryTrace; P23256; -.
+DR   PRO; PR:P23256; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0004121; F:cystathionine beta-lyase activity; IDA:EcoCyc.
+DR   GO; GO:0080146; F:L-cysteine desulfhydrase activity; IMP:EcoCyc.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IDA:EcoCyc.
+DR   GO; GO:0009086; P:methionine biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0043433; P:negative regulation of sequence-specific DNA binding transcription factor activity; IDA:EcoCyc.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   InterPro; IPR004839; Aminotransferase_I/II.
+DR   InterPro; IPR027619; C_S_lyase_PatB.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major_sub1.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_major_sub2.
+DR   Pfam; PF00155; Aminotran_1_2; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   TIGRFAMs; TIGR04350; C_S_lyase_PatB; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Amino-acid biosynthesis; Complete proteome; Lyase;
+KW   Methionine biosynthesis; Pyridoxal phosphate; Reference proteome;
+KW   Repressor; Transcription; Transcription regulation.
+FT   CHAIN         1    390       Protein MalY.
+FT                                /FTId=PRO_0000163847.
+FT   MOD_RES     233    233       N6-(pyridoxal phosphate)lysine.
+FT   MUTAGEN     233    233       K->I: Loss of enzymatic activity; but no
+FT                                loss of repression function.
+FT                                {ECO:0000269|PubMed:7665481}.
+FT   STRAND       35     37       {ECO:0000244|PDB:1D2F}.
+FT   HELIX        44     54       {ECO:0000244|PDB:1D2F}.
+FT   HELIX        67     80       {ECO:0000244|PDB:1D2F}.
+FT   HELIX        87     89       {ECO:0000244|PDB:1D2F}.
+FT   STRAND       90     94       {ECO:0000244|PDB:1D2F}.
+FT   HELIX        96    106       {ECO:0000244|PDB:1D2F}.
+FT   STRAND      113    119       {ECO:0000244|PDB:1D2F}.
+FT   HELIX       122    130       {ECO:0000244|PDB:1D2F}.
+FT   STRAND      134    139       {ECO:0000244|PDB:1D2F}.
+FT   STRAND      144    148       {ECO:0000244|PDB:1D2F}.
+FT   HELIX       151    158       {ECO:0000244|PDB:1D2F}.
+FT   STRAND      163    171       {ECO:0000244|PDB:1D2F}.
+FT   TURN        173    175       {ECO:0000244|PDB:1D2F}.
+FT   HELIX       183    193       {ECO:0000244|PDB:1D2F}.
+FT   STRAND      197    201       {ECO:0000244|PDB:1D2F}.
+FT   TURN        203    206       {ECO:0000244|PDB:1D2F}.
+FT   STRAND      210    212       {ECO:0000244|PDB:1D2F}.
+FT   HELIX       217    219       {ECO:0000244|PDB:1D2F}.
+FT   STRAND      223    229       {ECO:0000244|PDB:1D2F}.
+FT   HELIX       232    235       {ECO:0000244|PDB:1D2F}.
+FT   HELIX       238    240       {ECO:0000244|PDB:1D2F}.
+FT   STRAND      243    247       {ECO:0000244|PDB:1D2F}.
+FT   HELIX       250    261       {ECO:0000244|PDB:1D2F}.
+FT   HELIX       271    283       {ECO:0000244|PDB:1D2F}.
+FT   HELIX       285    309       {ECO:0000244|PDB:1D2F}.
+FT   STRAND      322    327       {ECO:0000244|PDB:1D2F}.
+FT   HELIX       329    331       {ECO:0000244|PDB:1D2F}.
+FT   HELIX       335    344       {ECO:0000244|PDB:1D2F}.
+FT   HELIX       353    356       {ECO:0000244|PDB:1D2F}.
+FT   HELIX       358    360       {ECO:0000244|PDB:1D2F}.
+FT   STRAND      363    367       {ECO:0000244|PDB:1D2F}.
+FT   HELIX       372    389       {ECO:0000244|PDB:1D2F}.
+SQ   SEQUENCE   390 AA;  43642 MW;  7FAF15D76545DDB0 CRC64;
+     MFDFSKVVDR HGTWCTQWDY VADRFGTADL LPFTISDMDF ATAPCIIEAL NQRLMHGVFG
+     YSRWKNDEFL AAIAHWFSTQ HYTAIDSQTV VYGPSVIYMV SELIRQWSET GEGVVIHTPA
+     YDAFYKAIEG NQRTVMPVAL EKQADGWFCD MGKLEAVLAK PECKIMLLCS PQNPTGKVWT
+     CDELEIMADL CERHGVRVIS DEIHMDMVWG EQPHIPWSNV ARGDWALLTS GSKSFNIPAL
+     TGAYGIIENS SSRDAYLSAL KGRDGLSSPS VLALTAHIAA YQQGAPWLDA LRIYLKDNLT
+     YIADKMNAAF PELNWQIPQS TYLAWLDLRP LNIDDNALQK ALIEQEKVAI MPGYTYGEEG
+     RGFVRLNAGC PRSKLEKGVA GLINAIRAVR
+//

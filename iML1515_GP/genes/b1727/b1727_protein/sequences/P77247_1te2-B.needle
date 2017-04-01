@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:50:52
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b1727/b1727_protein/sequences/P77247_1te2-B.needle
+#    -asequence asis::MSTPRQILAAIFDMDGLLIDSEPLWDRAELDVMASLGVDISRRNELPDTLGLRIDMVVDLWYARQPWNGPSRQEVVERVIARAISLVEETRPLLPGVREAVALCKEQGLLVGLASASPLHMLEKVLTMFDLRDSFDALASAEKLPYSKPHPQVYLDCAAKLGVDPLTCVALEDSVNGMIASKAARMRSIVVPAPEAQNDPRFVLADVKLSSLTELTAKDLLG
+#    -bsequence asis::XXXXRQILAAIFDXDGLLIDSEPLWDRAELDVXASLGVDISRRNELPDTLGLRIDXVVDLWYARQPWNGPSRQEVVERVIARAISLVEETRPLLPGVREAVALCKEQGLLVGLASASPLHXLEKVLTXFDLRDSFDALASAEKLPYSKPHPQVYLDCAAKLGVDPLTCVALEDSVNGXIASKAARXRSIVVPAPEAQNDPRFVLANVKLSSLTELTAKDLLG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b1727/b1727_protein/sequences/P77247_1te2-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 222
+# Identity:     210/222 (94.6%)
+# Similarity:   211/222 (95.0%)
+# Gaps:           0/222 ( 0.0%)
+# Score: 1045.0
+# 
+#
+#=======================================
+
+asis               1 MSTPRQILAAIFDMDGLLIDSEPLWDRAELDVMASLGVDISRRNELPDTL     50
+                     ....|||||||||.||||||||||||||||||.|||||||||||||||||
+asis               1 XXXXRQILAAIFDXDGLLIDSEPLWDRAELDVXASLGVDISRRNELPDTL     50
+
+asis              51 GLRIDMVVDLWYARQPWNGPSRQEVVERVIARAISLVEETRPLLPGVREA    100
+                     |||||.||||||||||||||||||||||||||||||||||||||||||||
+asis              51 GLRIDXVVDLWYARQPWNGPSRQEVVERVIARAISLVEETRPLLPGVREA    100
+
+asis             101 VALCKEQGLLVGLASASPLHMLEKVLTMFDLRDSFDALASAEKLPYSKPH    150
+                     ||||||||||||||||||||.||||||.||||||||||||||||||||||
+asis             101 VALCKEQGLLVGLASASPLHXLEKVLTXFDLRDSFDALASAEKLPYSKPH    150
+
+asis             151 PQVYLDCAAKLGVDPLTCVALEDSVNGMIASKAARMRSIVVPAPEAQNDP    200
+                     |||||||||||||||||||||||||||.|||||||.||||||||||||||
+asis             151 PQVYLDCAAKLGVDPLTCVALEDSVNGXIASKAARXRSIVVPAPEAQNDP    200
+
+asis             201 RFVLADVKLSSLTELTAKDLLG    222
+                     |||||:||||||||||||||||
+asis             201 RFVLANVKLSSLTELTAKDLLG    222
+
+
+#---------------------------------------
+#---------------------------------------

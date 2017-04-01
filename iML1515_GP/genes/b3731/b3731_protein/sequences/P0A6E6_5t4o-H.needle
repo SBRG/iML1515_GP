@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:48:02
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b3731/b3731_protein/sequences/P0A6E6_5t4o-H.needle
+#    -asequence asis::MAMTYHLDVVSAEQQMFSGLVEKIQVTGSEGELGIYPGHAPLLTAIKPGMIRIVKQHGHEEFIYLSGGILEVQPGNVTVLADTAIRGQDLDEARAMEAKRKAEEHISSSHGDVDYAQASAELAKAIAQLRVIELTKKAM
+#    -bsequence asis::AMTYHLDVVSAEQQMFSGLVEKIQVTGSEGELGIYPGHAPLLTAIKPGMIRIVKQHGHEEFIYLSGGILEVQPGNVTVLADTAIRGQDLDEARAMEAKRKAEEHISSSHGDVDYAQASAELAKAIAQLRVIELTKK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b3731/b3731_protein/sequences/P0A6E6_5t4o-H.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 139
+# Identity:     136/139 (97.8%)
+# Similarity:   136/139 (97.8%)
+# Gaps:           3/139 ( 2.2%)
+# Score: 678.0
+# 
+#
+#=======================================
+
+asis               1 MAMTYHLDVVSAEQQMFSGLVEKIQVTGSEGELGIYPGHAPLLTAIKPGM     50
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 -AMTYHLDVVSAEQQMFSGLVEKIQVTGSEGELGIYPGHAPLLTAIKPGM     49
+
+asis              51 IRIVKQHGHEEFIYLSGGILEVQPGNVTVLADTAIRGQDLDEARAMEAKR    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              50 IRIVKQHGHEEFIYLSGGILEVQPGNVTVLADTAIRGQDLDEARAMEAKR     99
+
+asis             101 KAEEHISSSHGDVDYAQASAELAKAIAQLRVIELTKKAM    139
+                     |||||||||||||||||||||||||||||||||||||  
+asis             100 KAEEHISSSHGDVDYAQASAELAKAIAQLRVIELTKK--    136
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,219 @@
+ID   PYRE_ECOLI              Reviewed;         213 AA.
+AC   P0A7E3; P00495; Q2M7V6;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   15-FEB-2017, entry version 100.
+DE   RecName: Full=Orotate phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_01208};
+DE            Short=OPRT {ECO:0000255|HAMAP-Rule:MF_01208};
+DE            Short=OPRTase {ECO:0000255|HAMAP-Rule:MF_01208};
+DE            EC=2.4.2.10 {ECO:0000255|HAMAP-Rule:MF_01208};
+GN   Name=pyrE {ECO:0000303|PubMed:6349999};
+GN   OrderedLocusNames=b3642, JW3617;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PARTIAL PROTEIN SEQUENCE, AND
+RP   SUBUNIT.
+RC   STRAIN=K12;
+RX   PubMed=6349999; DOI=10.1111/j.1432-1033.1983.tb07641.x;
+RA   Poulsen P., Jensen K.F., Valentin-Hansen P., Carlsson P.,
+RA   Lundberg L.G.;
+RT   "Nucleotide sequence of the Escherichia coli pyrE gene and of the DNA
+RT   in front of the protein-coding region.";
+RL   Eur. J. Biochem. 135:223-229(1983).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=6207018;
+RA   Poulsen P., Bonekamp F., Jensen K.F.;
+RT   "Structure of the Escherichia coli pyrE operon and control of pyrE
+RT   expression by a UTP modulated intercistronic attentuation.";
+RL   EMBO J. 3:1783-1790(1984).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=7686882; DOI=10.1006/geno.1993.1230;
+RA   Burland V.D., Plunkett G. III, Daniels D.L., Blattner F.R.;
+RT   "DNA sequence and analysis of 136 kilobases of the Escherichia coli
+RT   genome: organizational symmetry around the origin of replication.";
+RL   Genomics 16:551-561(1993).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [6]
+RP   IDENTIFICATION BY 2D-GEL.
+RX   PubMed=9298644; DOI=10.1002/elps.1150180805;
+RA   VanBogelen R.A., Abshire K.Z., Moldover B., Olson E.R.,
+RA   Neidhardt F.C.;
+RT   "Escherichia coli proteome analysis using the gene-protein database.";
+RL   Electrophoresis 18:1243-1251(1997).
+RN   [7]
+RP   X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS) IN COMPLEX WITH DIPHOSPHATE
+RP   ANALOG, FUNCTION, ENZYME REGULATION, AND SUBUNIT.
+RX   PubMed=8620002; DOI=10.1021/bi952226y;
+RA   Henriksen A., Aghajari N., Jensen K.F., Gajhede M.;
+RT   "A flexible loop at the dimer interface is a part of the active site
+RT   of the adjacent monomer of Escherichia coli orotate
+RT   phosphoribosyltransferase.";
+RL   Biochemistry 35:3803-3809(1996).
+CC   -!- FUNCTION: Catalyzes the transfer of a ribosyl phosphate group from
+CC       5-phosphoribose 1-diphosphate to orotate, leading to the formation
+CC       of orotidine monophosphate (OMP). {ECO:0000255|HAMAP-
+CC       Rule:MF_01208, ECO:0000269|PubMed:8620002}.
+CC   -!- CATALYTIC ACTIVITY: Orotidine 5'-phosphate + diphosphate = orotate
+CC       + 5-phospho-alpha-D-ribose 1-diphosphate. {ECO:0000255|HAMAP-
+CC       Rule:MF_01208}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01208};
+CC   -!- ENZYME REGULATION: Inhibited by sulfate and phosphate ions.
+CC       {ECO:0000269|PubMed:8620002}.
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo
+CC       pathway; UMP from orotate: step 1/2. {ECO:0000255|HAMAP-
+CC       Rule:MF_01208}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:6349999,
+CC       ECO:0000269|PubMed:8620002}.
+CC   -!- SIMILARITY: Belongs to the purine/pyrimidine
+CC       phosphoribosyltransferase family. PyrE subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01208}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; X00781; CAA25358.1; -; Genomic_DNA.
+DR   EMBL; V01578; CAA24899.1; -; Genomic_DNA.
+DR   EMBL; L10328; AAA61995.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC76666.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE77650.1; -; Genomic_DNA.
+DR   PIR; D65165; XJEC.
+DR   RefSeq; NP_418099.1; NC_000913.3.
+DR   RefSeq; WP_000806177.1; NZ_LN832404.1.
+DR   PDB; 1ORO; X-ray; 2.40 A; A/B=1-213.
+DR   PDBsum; 1ORO; -.
+DR   ProteinModelPortal; P0A7E3; -.
+DR   SMR; P0A7E3; -.
+DR   BioGrid; 4259572; 15.
+DR   IntAct; P0A7E3; 1.
+DR   STRING; 511145.b3642; -.
+DR   EPD; P0A7E3; -.
+DR   PaxDb; P0A7E3; -.
+DR   PRIDE; P0A7E3; -.
+DR   EnsemblBacteria; AAC76666; AAC76666; b3642.
+DR   EnsemblBacteria; BAE77650; BAE77650; BAE77650.
+DR   GeneID; 948157; -.
+DR   KEGG; ecj:JW3617; -.
+DR   KEGG; eco:b3642; -.
+DR   PATRIC; 32122771; VBIEscCol129921_3762.
+DR   EchoBASE; EB0801; -.
+DR   EcoGene; EG10808; pyrE.
+DR   eggNOG; ENOG4107QP2; Bacteria.
+DR   eggNOG; COG0461; LUCA.
+DR   HOGENOM; HOG000037974; -.
+DR   InParanoid; P0A7E3; -.
+DR   KO; K00762; -.
+DR   OMA; MKAYQRQ; -.
+DR   PhylomeDB; P0A7E3; -.
+DR   BioCyc; EcoCyc:OROPRIBTRANS-MONOMER; -.
+DR   BioCyc; MetaCyc:OROPRIBTRANS-MONOMER; -.
+DR   UniPathway; UPA00070; UER00119.
+DR   EvolutionaryTrace; P0A7E3; -.
+DR   PRO; PR:P0A7E3; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IDA:EcoliWiki.
+DR   GO; GO:0005829; C:cytosol; IDA:EcoCyc.
+DR   GO; GO:0000287; F:magnesium ion binding; IDA:EcoCyc.
+DR   GO; GO:0004588; F:orotate phosphoribosyltransferase activity; IDA:EcoCyc.
+DR   GO; GO:0006207; P:'de novo' pyrimidine nucleobase biosynthetic process; IMP:EcoCyc.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006221; P:pyrimidine nucleotide biosynthetic process; IMP:EcoliWiki.
+DR   CDD; cd06223; PRTases_typeI; 1.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   HAMAP; MF_01208; PyrE; 1.
+DR   InterPro; IPR023031; OPRT.
+DR   InterPro; IPR004467; Or_phspho_trans_dom.
+DR   InterPro; IPR000836; PRibTrfase_dom.
+DR   InterPro; IPR029057; PRTase-like.
+DR   Pfam; PF00156; Pribosyltran; 1.
+DR   SUPFAM; SSF53271; SSF53271; 1.
+DR   TIGRFAMs; TIGR00336; pyrE; 1.
+DR   PROSITE; PS00103; PUR_PYR_PR_TRANSFER; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Complete proteome; Direct protein sequencing;
+KW   Glycosyltransferase; Magnesium; Pyrimidine biosynthesis;
+KW   Reference proteome; Transferase.
+FT   INIT_MET      1      1       Removed.
+FT   CHAIN         2    213       Orotate phosphoribosyltransferase.
+FT                                /FTId=PRO_0000110694.
+FT   REGION       34     35       Orotate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01208}.
+FT   REGION       72     73       5-phosphoribose 1-diphosphate binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01208,
+FT                                ECO:0000305|PubMed:8620002}.
+FT   REGION      124    132       5-phosphoribose 1-diphosphate binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01208}.
+FT   BINDING      26     26       5-phosphoribose 1-diphosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01208}.
+FT   BINDING      99     99       5-phosphoribose 1-diphosphate; shared
+FT                                with dimeric partner. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01208,
+FT                                ECO:0000305|PubMed:8620002}.
+FT   BINDING     100    100       5-phosphoribose 1-diphosphate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01208,
+FT                                ECO:0000305|PubMed:8620002}.
+FT   BINDING     103    103       5-phosphoribose 1-diphosphate; shared
+FT                                with dimeric partner. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01208,
+FT                                ECO:0000305|PubMed:8620002}.
+FT   BINDING     105    105       5-phosphoribose 1-diphosphate; shared
+FT                                with dimeric partner. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01208}.
+FT   BINDING     128    128       Orotate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01208}.
+FT   BINDING     156    156       Orotate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01208}.
+FT   CONFLICT    133    133       Missing (in Ref. 1 and 2). {ECO:0000305}.
+FT   HELIX         3     14       {ECO:0000244|PDB:1ORO}.
+FT   STRAND       17     24       {ECO:0000244|PDB:1ORO}.
+FT   STRAND       30     35       {ECO:0000244|PDB:1ORO}.
+FT   HELIX        37     39       {ECO:0000244|PDB:1ORO}.
+FT   HELIX        43     60       {ECO:0000244|PDB:1ORO}.
+FT   STRAND       65     69       {ECO:0000244|PDB:1ORO}.
+FT   TURN         71     73       {ECO:0000244|PDB:1ORO}.
+FT   HELIX        74     89       {ECO:0000244|PDB:1ORO}.
+FT   STRAND       94     98       {ECO:0000244|PDB:1ORO}.
+FT   STRAND      104    107       {ECO:0000244|PDB:1ORO}.
+FT   STRAND      111    114       {ECO:0000244|PDB:1ORO}.
+FT   STRAND      118    123       {ECO:0000244|PDB:1ORO}.
+FT   HELIX       130    133       {ECO:0000244|PDB:1ORO}.
+FT   HELIX       134    142       {ECO:0000244|PDB:1ORO}.
+FT   STRAND      146    155       {ECO:0000244|PDB:1ORO}.
+FT   STRAND      161    164       {ECO:0000244|PDB:1ORO}.
+FT   HELIX       166    174       {ECO:0000244|PDB:1ORO}.
+FT   STRAND      177    183       {ECO:0000244|PDB:1ORO}.
+FT   HELIX       184    191       {ECO:0000244|PDB:1ORO}.
+FT   HELIX       195    197       {ECO:0000244|PDB:1ORO}.
+FT   HELIX       198    211       {ECO:0000244|PDB:1ORO}.
+SQ   SEQUENCE   213 AA;  23567 MW;  F618A6D0A119B9D4 CRC64;
+     MKPYQRQFIE FALSKQVLKF GEFTLKSGRK SPYFFNAGLF NTGRDLALLG RFYAEALVDS
+     GIEFDLLFGP AYKGIPIATT TAVALAEHHD LDLPYCFNRK EAKDHGEGGN LVGSALQGRV
+     MLVDDVITAG TAIRESMEII QANGATLAGV LISLDRQERG RGEISAIQEV ERDYNCKVIS
+     IITLKDLIAY LEEKPEMAEH LAAVKAYREE FGV
+//

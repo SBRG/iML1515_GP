@@ -1,0 +1,173 @@
+ID   YNFF_ECOLI              Reviewed;         807 AA.
+AC   P77783;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   22-JUL-2008, sequence version 4.
+DT   15-FEB-2017, entry version 149.
+DE   RecName: Full=Probable dimethyl sulfoxide reductase chain YnfF;
+DE            Short=DMSO reductase;
+DE            EC=1.8.99.-;
+DE   Flags: Precursor;
+GN   Name=ynfF; OrderedLocusNames=b1588, JW5260;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=9097039; DOI=10.1093/dnares/3.6.363;
+RA   Aiba H., Baba T., Fujita K., Hayashi K., Inada T., Isono K., Itoh T.,
+RA   Kasai H., Kashimoto K., Kimura S., Kitakawa M., Kitagawa M.,
+RA   Makino K., Miki T., Mizobuchi K., Mori H., Mori T., Motomura K.,
+RA   Nakade S., Nakamura Y., Nashimoto H., Nishio Y., Oshima T., Saito N.,
+RA   Sampei G., Seki Y., Sivasundaram S., Tagami H., Takeda J.,
+RA   Takemoto K., Takeuchi Y., Wada C., Yamamoto Y., Horiuchi T.;
+RT   "A 570-kb DNA sequence of the Escherichia coli K-12 genome
+RT   corresponding to the 28.0-40.1 min region on the linkage map.";
+RL   DNA Res. 3:363-377(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J.,
+RA   Mau B., Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains
+RT   MG1655 and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [4]
+RP   EXPORT VIA THE TAT-SYSTEM AND THE SEC-SYSTEM.
+RX   PubMed=17218314; DOI=10.1074/jbc.M610507200;
+RA   Tullman-Ercek D., DeLisa M.P., Kawarasaki Y., Iranpour P.,
+RA   Ribnicky B., Palmer T., Georgiou G.;
+RT   "Export pathway selectivity of Escherichia coli twin arginine
+RT   translocation signal peptides.";
+RL   J. Biol. Chem. 282:8309-8316(2007).
+CC   -!- FUNCTION: Terminal reductase during anaerobic growth on various
+CC       sulfoxide and N-oxide compounds. {ECO:0000250}.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000305};
+CC       Note=Binds 1 [4Fe-4S] cluster. {ECO:0000305};
+CC   -!- COFACTOR:
+CC       Name=Mo-bis(molybdopterin guanine dinucleotide);
+CC         Xref=ChEBI:CHEBI:60539; Evidence={ECO:0000250};
+CC       Note=Binds 1 molybdenum-bis(molybdopterin guanine dinucleotide)
+CC       (Mo-bis-MGD) cofactor per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: The complex consists of three subunits: YnfF, the
+CC       reductase; YnfG, an electron transfer protein, and YnfH, a
+CC       membrane anchor protein. {ECO:0000305}.
+CC   -!- INTERACTION:
+CC       P69853:dmsD; NbExp=2; IntAct=EBI-6406285, EBI-4406374;
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Peripheral
+CC       membrane protein {ECO:0000250}; Cytoplasmic side {ECO:0000250}.
+CC   -!- PTM: Exported by the Tat system. The position of the signal
+CC       peptide cleavage has not been experimentally proven. Can also be
+CC       exported by the Sec system.
+CC   -!- SIMILARITY: Belongs to the prokaryotic molybdopterin-containing
+CC       oxidoreductase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U00096; AAC74660.4; -; Genomic_DNA.
+DR   EMBL; AP009048; BAA15312.2; -; Genomic_DNA.
+DR   PIR; F64914; F64914.
+DR   RefSeq; NP_416105.4; NC_000913.3.
+DR   ProteinModelPortal; P77783; -.
+DR   SMR; P77783; -.
+DR   BioGrid; 4259130; 5.
+DR   DIP; DIP-12766N; -.
+DR   IntAct; P77783; 1.
+DR   STRING; 511145.b1588; -.
+DR   TCDB; 5.A.3.3.1; the prokaryotic molybdopterin-containing oxidoreductase (pmo) family.
+DR   PaxDb; P77783; -.
+DR   PRIDE; P77783; -.
+DR   EnsemblBacteria; AAC74660; AAC74660; b1588.
+DR   EnsemblBacteria; BAA15312; BAA15312; BAA15312.
+DR   GeneID; 945268; -.
+DR   KEGG; ecj:JW5260; -.
+DR   KEGG; eco:b1588; -.
+DR   PATRIC; 32118478; VBIEscCol129921_1659.
+DR   EchoBASE; EB3605; -.
+DR   EcoGene; EG13844; ynfF.
+DR   eggNOG; ENOG4105C3J; Bacteria.
+DR   eggNOG; COG1104; LUCA.
+DR   HOGENOM; HOG000284390; -.
+DR   InParanoid; P77783; -.
+DR   KO; K07310; -.
+DR   OMA; INHTNEV; -.
+DR   PhylomeDB; P77783; -.
+DR   BioCyc; EcoCyc:G6846-MONOMER; -.
+DR   BioCyc; MetaCyc:G6846-MONOMER; -.
+DR   PRO; PR:P77783; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009389; F:dimethyl sulfoxide reductase activity; IEA:InterPro.
+DR   GO; GO:0009055; F:electron carrier activity; IEA:InterPro.
+DR   GO; GO:0030151; F:molybdenum ion binding; IEA:InterPro.
+DR   GO; GO:0033797; F:selenate reductase activity; IMP:EcoCyc.
+DR   InterPro; IPR011888; Anaer_DMSO_reductase.
+DR   InterPro; IPR009010; Asp_de-COase-like_dom.
+DR   InterPro; IPR006657; MoPterin_dinucl-bd_dom.
+DR   InterPro; IPR006656; Mopterin_OxRdtase.
+DR   InterPro; IPR006963; Mopterin_OxRdtase_4Fe-4S_dom.
+DR   InterPro; IPR006655; Mopterin_OxRdtase_prok_CS.
+DR   InterPro; IPR027467; MopterinOxRdtase_cofactor_BS.
+DR   InterPro; IPR006311; TAT_signal.
+DR   Pfam; PF04879; Molybdop_Fe4S4; 1.
+DR   Pfam; PF00384; Molybdopterin; 1.
+DR   Pfam; PF01568; Molydop_binding; 1.
+DR   SMART; SM00926; Molybdop_Fe4S4; 1.
+DR   SUPFAM; SSF50692; SSF50692; 1.
+DR   TIGRFAMs; TIGR02166; dmsA_ynfE; 1.
+DR   PROSITE; PS51669; 4FE4S_MOW_BIS_MGD; 1.
+DR   PROSITE; PS00551; MOLYBDOPTERIN_PROK_1; 1.
+DR   PROSITE; PS00932; MOLYBDOPTERIN_PROK_3; 1.
+DR   PROSITE; PS51318; TAT; 1.
+PE   1: Evidence at protein level;
+KW   4Fe-4S; Cell membrane; Complete proteome; Iron; Iron-sulfur; Membrane;
+KW   Metal-binding; Molybdenum; Oxidoreductase; Reference proteome; Signal.
+FT   SIGNAL        1     45       Tat-type signal. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00648}.
+FT   CHAIN        46    807       Probable dimethyl sulfoxide reductase
+FT                                chain YnfF.
+FT                                /FTId=PRO_0000019148.
+FT   DOMAIN       52    113       4Fe-4S Mo/W bis-MGD-type.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU01004}.
+FT   METAL        59     59       Iron-sulfur (4Fe-4S).
+FT                                {ECO:0000255|PROSITE-ProRule:PRU01004}.
+FT   METAL        63     63       Iron-sulfur (4Fe-4S).
+FT                                {ECO:0000255|PROSITE-ProRule:PRU01004}.
+FT   METAL        67     67       Iron-sulfur (4Fe-4S).
+FT                                {ECO:0000255|PROSITE-ProRule:PRU01004}.
+FT   METAL        99     99       Iron-sulfur (4Fe-4S).
+FT                                {ECO:0000255|PROSITE-ProRule:PRU01004}.
+FT   METAL       195    195       Molybdenum. {ECO:0000250}.
+SQ   SEQUENCE   807 AA;  89987 MW;  8120594A8C5816C5 CRC64;
+     MKIHTTEALM KAEISRRSLM KTSALGSLAL ASSAFTLPFS QMVRAAEAPV EEKAVWSSCT
+     VNCGSRCLLR LHVKDDTVYW VESDTTGDDV YGNHQVRACL RGRSIRRRMN HPDRLKYPMK
+     RVGKRGEGKF ERISWDEALD TISDNLRRIL KDYGNEAVHV LYGTGVDGGN ITNSNVPYRL
+     MNSCGGFLSR YGSYSTAQIS AAMSYMFGAN DGNSPDDIAN TKLVVMFGNN PAETRMSGGG
+     VTYYVEQARE RSNARMIVID PRYNDTAAGR EDEWLPIRPG TDGALACAIA WVLITENMVD
+     QPFLDKYCVG YDEKTLPANA PRNAHYKAYI LGEGPDGIAK TPEWAAKITS IPAEKIIQLA
+     REIGSAKPAY ICQGWGPQRH SNGEQTSRAI AMLSVLTGNV GINGGNSGVR EGSWDLGVEW
+     FPMLENPVKT QISVFTWTDA IDHGTEMTAT RDGVRGKEKL DVPIKFLWCY ASNTLINQHG
+     DINHTHEVLQ DDSKCEMIVG IDHFMTASAK YCDILLPDLM PTEQEDLISH ESAGNMGYVI
+     LAQPATSAKF ERKPIYWMLS EVAKRLGPDV YQTFTEGRSQ HEWIKYLHAK TKERNPEMPD
+     YEEMKTTGIF KKKCPEEHYV AFRAFREDPQ ANPLKTPSGK IEIYSERLAK IADTWELKKD
+     EIIHPLPAYT PGFDGWDDPL RKTYPLQLTG FHYKARTHSS YGNIDVLQQA CPQEVWINPI
+     DAQARGIRHG DTVRVFNNNG EMLIAAKVTP RILPGVTAIG QGAWLKADMF GDRVDHGGSI
+     NILTSHRPSP LAKGNPSHSN LVQIEKV
+//

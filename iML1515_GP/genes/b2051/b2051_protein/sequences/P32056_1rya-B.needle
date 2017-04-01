@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Fri 31 Mar 2017 18:50:53
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b2051/b2051_protein/sequences/P32056_1rya-B.needle
+#    -asequence asis::MFLRQEDFATVVRSTPLVSLDFIVENSRGEFLLGKRTNRPAQGYWFVPGGRVQKDETLEAAFERLTMAELGLRLPITAGQFYGVWQHFYDDNFSGTDFTTHYVVLGFRFRVSEEELLLPDEQHDDYRWLTSDALLASDNVHANSRAYFLAEKRTGVPGL
+#    -bsequence asis::MMFLRQEDFATVVRSTPLVSLDFIVENSRGEFLLGKRTNRPAQGYWFVPGGRVQKDETLEAAFERLTMAELGLRLPITAGQFYGVWQHFYDDNFSGTDFTTHYVVLGFRFRVSEEELLLPDEQHDDYRWLTSDALLASDNVHANSRAYFLAEKRTGVPGL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b2051/b2051_protein/sequences/P32056_1rya-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 160
+# Identity:     159/160 (99.4%)
+# Similarity:   159/160 (99.4%)
+# Gaps:           1/160 ( 0.6%)
+# Score: 838.0
+# 
+#
+#=======================================
+
+asis               1 -MFLRQEDFATVVRSTPLVSLDFIVENSRGEFLLGKRTNRPAQGYWFVPG     49
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 MMFLRQEDFATVVRSTPLVSLDFIVENSRGEFLLGKRTNRPAQGYWFVPG     50
+
+asis              50 GRVQKDETLEAAFERLTMAELGLRLPITAGQFYGVWQHFYDDNFSGTDFT     99
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 GRVQKDETLEAAFERLTMAELGLRLPITAGQFYGVWQHFYDDNFSGTDFT    100
+
+asis             100 THYVVLGFRFRVSEEELLLPDEQHDDYRWLTSDALLASDNVHANSRAYFL    149
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 THYVVLGFRFRVSEEELLLPDEQHDDYRWLTSDALLASDNVHANSRAYFL    150
+
+asis             150 AEKRTGVPGL    159
+                     ||||||||||
+asis             151 AEKRTGVPGL    160
+
+
+#---------------------------------------
+#---------------------------------------
