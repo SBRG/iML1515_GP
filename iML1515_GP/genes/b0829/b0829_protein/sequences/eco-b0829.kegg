@@ -1,26 +1,28 @@
 ENTRY       b0829             CDS       T00007
 NAME        gsiA
-DEFINITION  (RefSeq) glutathione transporter ATP-binding protein, ABC superfamily
+DEFINITION  (RefSeq) glutathione ABC transporter ATP binding subunit GsiA
 ORTHOLOGY   K13892  glutathione transport system ATP-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00348  Glutathione transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b0829 (gsiA)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0829 (gsiA)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Peptide and nickel transporters
-               Glutathione transporter [MD:M00348] [OT]
+               Glutathione transporter
                 b0829 (gsiA)
 POSITION    867520..869391
-MOTIF       Pfam: ABC_tran oligo_HPY AAA_22 SMC_N AAA_16 AAA_21 AAA_29 AAA_30 Zeta_toxin IstB_IS21 CbiA RsgA_GTPase DUF87 AAA_5 FtsK_SpoIIIE AAA_25 Sigma54_activat NACHT DUF3987 Hpr_kinase_C ResIII AIG1 ATP-synt_ab DUF2075
-DBLINKS     NCBI-ProteinID: NP_415350
-            NCBI-GeneID: 945457
+MOTIF       Pfam: ABC_tran oligo_HPY AAA_22 SMC_N AAA_16 AAA_21 AAA_29 AAA_30 Zeta_toxin IstB_IS21 CbiA RsgA_GTPase DUF87 TniB AAA_7 FtsK_SpoIIIE AAA_25 Sigma54_activat NACHT DUF3987 Hpr_kinase_C ResIII ATP-synt_ab DUF2075 AAA_26
+DBLINKS     NCBI-GeneID: 945457
+            NCBI-ProteinID: NP_415350
             RegulonDB: ECK120003029
-            EcoGene: EG13472
             ECOCYC: G6429
             ASAP: ABE-0002830
             UniProt: P75796

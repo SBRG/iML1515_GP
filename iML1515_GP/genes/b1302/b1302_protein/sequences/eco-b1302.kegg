@@ -1,6 +1,6 @@
 ENTRY       b1302             CDS       T00007
 NAME        puuE
-DEFINITION  (RefSeq) 4-aminobutyrate aminotransferase, PLP-dependent
+DEFINITION  (RefSeq) 4-aminobutyrate aminotransferase PuuE
 ORTHOLOGY   K00823  4-aminobutyrate aminotransferase [EC:2.6.1.19]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00250  Alanine, aspartate and glutamate metabolism
@@ -11,17 +11,21 @@ PATHWAY     eco00250  Alanine, aspartate and glutamate metabolism
             eco01120  Microbial metabolism in diverse environments
 MODULE      eco_M00027  GABA (gamma-Aminobutyrate) shunt
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00640 Propanoate metabolism
                 b1302 (puuE)
                00650 Butanoate metabolism
                 b1302 (puuE)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00250 Alanine, aspartate and glutamate metabolism
                 b1302 (puuE)
-              Metabolism of other amino acids
+              09106 Metabolism of other amino acids
                00410 beta-Alanine metabolism
+                b1302 (puuE)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01007 Amino acid related enzymes [BR:eco01007]
                 b1302 (puuE)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -35,10 +39,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b1302 (puuE)
 POSITION    1365550..1366815
 MOTIF       Pfam: Aminotran_3 Aminotran_1_2
-DBLINKS     NCBI-ProteinID: NP_415818
-            NCBI-GeneID: 945446
+DBLINKS     NCBI-GeneID: 945446
+            NCBI-ProteinID: NP_415818
+            Pasteur: goaG
             RegulonDB: ECK120003241
-            EcoGene: EG13187
             ECOCYC: G6646
             ASAP: ABE-0004380
             UniProt: P50457

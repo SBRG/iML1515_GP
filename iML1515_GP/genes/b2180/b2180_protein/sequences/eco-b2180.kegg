@@ -1,27 +1,29 @@
 ENTRY       b2180             CDS       T00007
 NAME        yejF
-DEFINITION  (RefSeq) microcin C transporter, ATP-binding subunit; ABC family
+DEFINITION  (RefSeq) putative oligopeptide ABC transporter ATP binding subunit
 ORTHOLOGY   K13896  microcin C transport system ATP-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00349  Microcin C transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b2180 (yejF)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2180 (yejF)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Peptide and nickel transporters
-               Microcin C transporter [MD:M00349] [OT]
+               Microcin C transporter
                 b2180 (yejF)
 POSITION    2276300..2277889
-MOTIF       Pfam: ABC_tran AAA_21 SMC_N oligo_HPY AAA_22 AAA_16 AAA_29 AAA_13 AAA_25 DUF87 AAA_5 SbcCD_C Sigma54_activat AIG1
-DBLINKS     NCBI-ProteinID: NP_416685
-            NCBI-GeneID: 946689
+MOTIF       Pfam: ABC_tran AAA_21 SMC_N oligo_HPY AAA_22 AAA_16 AAA_29 AAA_7 AAA_13 AAA_25 DUF87 AAA_5 Sigma54_activat AIG1
+DBLINKS     NCBI-GeneID: 946689
+            NCBI-ProteinID: NP_416685
             Pasteur: yejF
             RegulonDB: ECK120001957
-            EcoGene: EG12041
             ECOCYC: EG12041
             ASAP: ABE-0007212
             UniProt: P33916

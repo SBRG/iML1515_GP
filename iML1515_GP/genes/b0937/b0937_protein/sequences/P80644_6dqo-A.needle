@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Thu  3 Oct 2019 22:49:20
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b0937/b0937_protein/sequences/P80644_6dqo-A.needle
+#    -asequence asis::MRVITLAGSPRFPSRSSSLLEYAREKLNGLDVEVYHWNLQNFAPEDLLYARFDSPALKTFTEQLQQADGLIVATPVYKAAYSGALKTLLDLLPERALQGKVVLPLATGGTVAHLLAVDYALKPVLSALKAQEILHGVFADDSQVIDYHHRPQFTPNLQTRLDTALETFWQALHRRDVQVPDLLSLRGNAHA
+#    -bsequence asis::MRVITLAGSPRFPSRSSSLLEYAREKLNGLDVEVYHWNLQNFAPEDLLYARFDSPALKTFTEQLQQADGLIVATPVYKAAYSGALKTLLDLLPERALQGKVVLPLATGGTVAHLLAVDAALKPVLSALKAQEILHGVFADDSQVIDYHHRPQFTPNLQTRLDTALETFWQALH
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b0937/b0937_protein/sequences/P80644_6dqo-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 191
+# Identity:     172/191 (90.1%)
+# Similarity:   172/191 (90.1%)
+# Gaps:          18/191 ( 9.4%)
+# Score: 875.0
+# 
+#
+#=======================================
+
+asis               1 MRVITLAGSPRFPSRSSSLLEYAREKLNGLDVEVYHWNLQNFAPEDLLYA     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 MRVITLAGSPRFPSRSSSLLEYAREKLNGLDVEVYHWNLQNFAPEDLLYA     50
+
+asis              51 RFDSPALKTFTEQLQQADGLIVATPVYKAAYSGALKTLLDLLPERALQGK    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 RFDSPALKTFTEQLQQADGLIVATPVYKAAYSGALKTLLDLLPERALQGK    100
+
+asis             101 VVLPLATGGTVAHLLAVDYALKPVLSALKAQEILHGVFADDSQVIDYHHR    150
+                     ||||||||||||||||||.|||||||||||||||||||||||||||||||
+asis             101 VVLPLATGGTVAHLLAVDAALKPVLSALKAQEILHGVFADDSQVIDYHHR    150
+
+asis             151 PQFTPNLQTRLDTALETFWQALHRRDVQVPDLLSLRGNAHA    191
+                     |||||||||||||||||||||||                  
+asis             151 PQFTPNLQTRLDTALETFWQALH------------------    173
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,6 +1,6 @@
 ENTRY       b1393             CDS       T00007
 NAME        paaF
-DEFINITION  (RefSeq) 2,3-dehydroadipyl-CoA hydratase
+DEFINITION  (RefSeq) putative 2,3-dehydroadipyl-CoA hydratase
 ORTHOLOGY   K01692  enoyl-CoA hydratase [EC:4.2.1.17]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00071  Fatty acid degradation
@@ -22,20 +22,18 @@ PATHWAY     eco00071  Fatty acid degradation
             eco01130  Biosynthesis of antibiotics
             eco01212  Fatty acid metabolism
 MODULE      eco_M00087  beta-Oxidation
+            eco_M00878  Phenylacetate degradation, phenylaxetate => acetyl-CoA/succinyl-CoA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01212 Fatty acid metabolism
-                b1393 (paaF)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00640 Propanoate metabolism
                 b1393 (paaF)
                00650 Butanoate metabolism
                 b1393 (paaF)
-              Lipid metabolism
+              09103 Lipid metabolism
                00071 Fatty acid degradation
                 b1393 (paaF)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00280 Valine, leucine and isoleucine degradation
                 b1393 (paaF)
                00310 Lysine degradation
@@ -44,15 +42,15 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 b1393 (paaF)
                00380 Tryptophan metabolism
                 b1393 (paaF)
-              Metabolism of other amino acids
+              09106 Metabolism of other amino acids
                00410 beta-Alanine metabolism
                 b1393 (paaF)
-              Metabolism of terpenoids and polyketides
+              09109 Metabolism of terpenoids and polyketides
                00903 Limonene and pinene degradation
                 b1393 (paaF)
                00281 Geraniol degradation
                 b1393 (paaF)
-              Xenobiotics biodegradation and metabolism
+              09111 Xenobiotics biodegradation and metabolism
                00362 Benzoate degradation
                 b1393 (paaF)
                00627 Aminobenzoate degradation
@@ -67,11 +65,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1393 (paaF)
 POSITION    1457497..1458264
 MOTIF       Pfam: ECH_1 ECH_2
-DBLINKS     NCBI-ProteinID: NP_415911
-            NCBI-GeneID: 946011
+DBLINKS     NCBI-GeneID: 946011
+            NCBI-ProteinID: NP_415911
             Pasteur: paaF
             RegulonDB: ECK120003308
-            EcoGene: EG13740
             ECOCYC: G6714
             ASAP: ABE-0004659
             UniProt: P76082

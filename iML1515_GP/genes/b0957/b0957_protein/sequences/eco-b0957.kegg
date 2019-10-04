@@ -1,18 +1,23 @@
 ENTRY       b0957             CDS       T00007
 NAME        ompA
-DEFINITION  (RefSeq) outer membrane protein A (3a;II*;G;d)
+DEFINITION  (RefSeq) outer membrane porin A
 ORTHOLOGY   K03286  OmpA-OmpF porin, OOP family
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0957 (ompA)
+            Transporters [BR:eco02000]
+             Other transporters
               Pores ion channels [TC:1]
                b0957 (ompA)
 POSITION    complement(1019013..1020053)
 MOTIF       Pfam: OmpA_membrane OmpA OMP_b-brl DUF2490
-DBLINKS     NCBI-ProteinID: NP_415477
-            NCBI-GeneID: 945571
+DBLINKS     NCBI-GeneID: 945571
+            NCBI-ProteinID: NP_415477
             Pasteur: ompA
-            EcoGene: EG10669
+            RegulonDB: ECK120000662
             ECOCYC: EG10669
             ASAP: ABE-0003240
             UniProt: P0A910

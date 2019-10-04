@@ -1,14 +1,15 @@
 ENTRY       b3366             CDS       T00007
 NAME        nirD
-DEFINITION  (RefSeq) nitrite reductase, NAD(P)H-binding, small subunit
+DEFINITION  (RefSeq) nitrite reductase subunit NirD
 ORTHOLOGY   K00363  nitrite reductase (NADH) small subunit [EC:1.7.1.15]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00910  Nitrogen metabolism
+            eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
 MODULE      eco_M00530  Dissimilatory nitrate reduction, nitrate => ammonia
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00910 Nitrogen metabolism
                 b3366 (nirD)
             Enzymes [BR:eco01000]
@@ -19,10 +20,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3366 (nirD)
 POSITION    3496551..3496877
 MOTIF       Pfam: Rieske_2
-DBLINKS     NCBI-ProteinID: NP_417825
-            NCBI-GeneID: 947881
+DBLINKS     NCBI-GeneID: 947881
+            NCBI-ProteinID: NP_417825
             Pasteur: nirD
-            EcoGene: EG10655
+            RegulonDB: ECK120000648
             ECOCYC: EG10655
             ASAP: ABE-0011005
             UniProt: P0A9I8

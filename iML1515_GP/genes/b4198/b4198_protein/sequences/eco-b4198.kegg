@@ -1,15 +1,18 @@
 ENTRY       b4198             CDS       T00007
 NAME        ulaF
-DEFINITION  (RefSeq) L-ribulose 5-phosphate 4-epimerase
+DEFINITION  (RefSeq) L-ribulose-5-phosphate 4-epimerase UlaF
 ORTHOLOGY   K03077  L-ribulose-5-phosphate 4-epimerase [EC:5.1.3.4]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-PATHWAY     eco00053  Ascorbate and aldarate metabolism
+PATHWAY     eco00040  Pentose and glucuronate interconversions
+            eco00053  Ascorbate and aldarate metabolism
             eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
 MODULE      eco_M00550  Ascorbate degradation, ascorbate => D-xylulose-5P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00040 Pentose and glucuronate interconversions
+                b4198 (ulaF)
                00053 Ascorbate and aldarate metabolism
                 b4198 (ulaF)
             Enzymes [BR:eco01000]
@@ -20,10 +23,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b4198 (ulaF)
 POSITION    4423700..4424386
 MOTIF       Pfam: Aldolase_II Ribophorin_I
-DBLINKS     NCBI-ProteinID: NP_418619
-            NCBI-GeneID: 948711
+DBLINKS     NCBI-GeneID: 948711
+            NCBI-ProteinID: NP_418619
+            Pasteur: sgaE
             RegulonDB: ECK120004355
-            EcoGene: EG12498
             ECOCYC: G7860
             ASAP: ABE-0013734
             UniProt: P39306

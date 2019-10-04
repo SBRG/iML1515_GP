@@ -1,6 +1,6 @@
 ENTRY       b4090             CDS       T00007
 NAME        rpiB
-DEFINITION  (RefSeq) ribose 5-phosphate isomerase B/allose 6-phosphate isomerase
+DEFINITION  (RefSeq) allose-6-phosphate isomerase/ribose-5-phosphate isomerase B
 ORTHOLOGY   K01808  ribose 5-phosphate isomerase B [EC:5.3.1.6]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00030  Pentose phosphate pathway
@@ -14,13 +14,8 @@ PATHWAY     eco00030  Pentose phosphate pathway
 MODULE      eco_M00004  Pentose phosphate pathway (Pentose phosphate cycle)
             eco_M00007  Pentose phosphate pathway, non-oxidative phase, fructose 6P => ribose 5P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b4090 (rpiB)
-               01230 Biosynthesis of amino acids
-                b4090 (rpiB)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00030 Pentose phosphate pathway
                 b4090 (rpiB)
                00051 Fructose and mannose metabolism
@@ -33,11 +28,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b4090 (rpiB)
 POSITION    4313350..4313799
 MOTIF       Pfam: LacAB_rpiB
-DBLINKS     NCBI-ProteinID: NP_418514
-            NCBI-GeneID: 948602
+DBLINKS     NCBI-GeneID: 948602
+            NCBI-ProteinID: NP_418514
             Pasteur: rpiB
             RegulonDB: ECK120001759
-            EcoGene: EG11827
             ECOCYC: EG11827
             ASAP: ABE-0013405
             UniProt: P37351

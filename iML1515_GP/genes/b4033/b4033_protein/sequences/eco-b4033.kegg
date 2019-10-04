@@ -1,26 +1,29 @@
 ENTRY       b4033             CDS       T00007
 NAME        malF
-DEFINITION  (RefSeq) maltose transporter subunit
+DEFINITION  (RefSeq) maltose ABC transporter membrane subunit MalF
 ORTHOLOGY   K10109  maltose/maltodextrin transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00194  Maltose/maltodextrin transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b4033 (malF)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b4033 (malF)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Saccharide, polyol, and lipid transporters
-               Maltose/maltodextrin transporter [MD:M00194] [OT]
+               Maltose/maltodextrin transporter
                 b4033 (malF)
 POSITION    complement(4243531..4245075)
-MOTIF       Pfam: MalF_P2 BPD_transp_1 TM_PBP2_N DUF4534
-DBLINKS     NCBI-ProteinID: NP_418457
-            NCBI-GeneID: 948532
+MOTIF       Pfam: MalF_P2 BPD_transp_1 TM_PBP2_N DUF4534 DUF996
+DBLINKS     NCBI-GeneID: 948532
+            NCBI-ProteinID: NP_418457
             Pasteur: malF
-            EcoGene: EG10555
+            RegulonDB: ECK120000548
             ECOCYC: EG10555
             ASAP: ABE-0013195
             UniProt: P02916

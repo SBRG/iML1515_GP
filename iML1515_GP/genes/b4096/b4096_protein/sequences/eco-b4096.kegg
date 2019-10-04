@@ -1,12 +1,13 @@
 ENTRY       b4096             CDS       T00007
 NAME        phnL
-DEFINITION  (RefSeq) ribophosphonate triphosphate synthase subunit; putative ABC transporter ATP-binding protein
+DEFINITION  (RefSeq) methylphosphonate degradation complex subunit PhnL
 ORTHOLOGY   K05780  alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnL [EC:2.7.8.37]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00440  Phosphonate and phosphinate metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of other amino acids
+             09100 Metabolism
+              09106 Metabolism of other amino acids
                00440 Phosphonate and phosphinate metabolism
                 b4096 (phnL)
             Enzymes [BR:eco01000]
@@ -16,12 +17,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 2.7.8.37  alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase
                  b4096 (phnL)
 POSITION    complement(4317215..4317895)
-MOTIF       Pfam: ABC_tran AAA_16 SMC_N AAA_21 AAA_22 AAA_33 AAA_29 RsgA_GTPase NACHT AAA_30 AAA_25 SbcCD_C Viral_helicase1 DUF815 FtsK_SpoIIIE AAA_14 IstB_IS21 RNA_helicase AAA_23 MMR_HSR1 TsaE cobW Septin Gtr1_RagA NB-ARC
-DBLINKS     NCBI-ProteinID: NP_418520
-            NCBI-GeneID: 948612
+MOTIF       Pfam: ABC_tran AAA_16 SMC_N AAA_21 AAA_22 AAA_33 AAA_29 RsgA_GTPase NACHT AAA_30 AAA_25 SbcCD_C Viral_helicase1 DUF815 FtsK_SpoIIIE Septin AAA_7 AAA_14 AAA_23 IstB_IS21 RNA_helicase TsaE MMR_HSR1 NB-ARC cobW Gtr1_RagA
+DBLINKS     NCBI-GeneID: 948612
+            NCBI-ProteinID: NP_418520
             Pasteur: phnL
             RegulonDB: ECK120000713
-            EcoGene: EG10721
             ECOCYC: EG10721
             ASAP: ABE-0013421
             UniProt: P16679

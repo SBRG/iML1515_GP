@@ -1,14 +1,18 @@
 ENTRY       b4390             CDS       T00007
 NAME        nadR
-DEFINITION  (RefSeq) trifunctional protein: nicotinamide mononucleotide adenylyltransferase, ribosylnicotinamide kinase, transcriptional repressor
+DEFINITION  (RefSeq) DNA-binding transcriptional repressor/NMN adenylyltransferase NadR
 ORTHOLOGY   K06211  HTH-type transcriptional regulator, transcriptional repressor of NAD biosynthesis genes [EC:2.7.7.1 2.7.1.22]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00760  Nicotinate and nicotinamide metabolism
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00760 Nicotinate and nicotinamide metabolism
+                b4390 (nadR)
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               03000 Transcription factors [BR:eco03000]
                 b4390 (nadR)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -20,17 +24,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 2.7.7.1  nicotinamide-nucleotide adenylyltransferase
                  b4390 (nadR)
             Transcription factors [BR:eco03000]
-             Prokaryotic Type
+             Prokaryotic type
               Helix-turn-helix
                Other families
                 b4390 (nadR)
 POSITION    4627315..4628547
 MOTIF       Pfam: AAA_28 HTH_3 HTH_31 HTH_19 Citrate_ly_lig HTH_26 CTP_transf_like MMR_HSR1 FAD_syn HTH_37 ABC_tran AAA_29 Dynamin_N
-DBLINKS     NCBI-ProteinID: NP_418807
-            NCBI-GeneID: 948911
+DBLINKS     NCBI-GeneID: 948911
+            NCBI-ProteinID: NP_418807
             Pasteur: nadR
             RegulonDB: ECK120001306
-            EcoGene: EG11335
             ECOCYC: EG11335
             ASAP: ABE-0014397
             UniProt: P27278

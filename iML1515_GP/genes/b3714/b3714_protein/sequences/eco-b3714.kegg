@@ -1,19 +1,25 @@
 ENTRY       b3714             CDS       T00007
-NAME        purP
-DEFINITION  (RefSeq) adenine permease, high affinity; adenine:H+ symporter
+NAME        adeP
+DEFINITION  (RefSeq) adenine:H(+) symporter
 ORTHOLOGY   K06901  putative MFS transporter, AGZA family, xanthine/uracil permease
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Major Facilitator Superfamily (MFS)
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3714 (adeP)
+            Transporters [BR:eco02000]
+             Major facilitator superfamily (MFS)
               Sugar transporters
                Purine transporter (AzgA) family [TC:2.A.1.40]
-                b3714 (purP)
+                b3714 (adeP)
 POSITION    complement(3895272..3896609)
 MOTIF       Pfam: Xan_ur_permease
-DBLINKS     NCBI-ProteinID: NP_418170
-            NCBI-GeneID: 948224
+DBLINKS     NCBI-GeneID: 948224
+            NCBI-ProteinID: NP_418170
+            Pasteur: yieG
             RegulonDB: ECK120001663
-            EcoGene: EG11724
+            ECOCYC: EG11724
             ASAP: ABE-0012148
             UniProt: P31466
 AASEQ       445

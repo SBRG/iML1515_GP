@@ -1,6 +1,6 @@
 ENTRY       b2167             CDS       T00007
 NAME        fruA
-DEFINITION  (RefSeq) fused fructose-specific PTS enzymes: IIBcomponent/IIC components
+DEFINITION  (RefSeq) fructose-specific PTS multiphosphoryl transfer protein FruA
 ORTHOLOGY   K02769  PTS system, fructose-specific IIB component [EC:2.7.1.202]
             K02770  PTS system, fructose-specific IIC component
 ORGANISM    eco  Escherichia coli K-12 MG1655
@@ -8,15 +8,18 @@ PATHWAY     eco00051  Fructose and mannose metabolism
             eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
             eco02060  Phosphotransferase system (PTS)
-MODULE      eco_M00273  PTS system, fructose-specific II component
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00051 Fructose and mannose metabolism
                 b2167 (fruA)
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02060 Phosphotransferase system (PTS)
+                b2167 (fruA)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
                 b2167 (fruA)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -25,17 +28,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 2.7.1.202  protein-Npi-phosphohistidine---D-fructose phosphotransferase
                  b2167 (fruA)
             Transporters [BR:eco02000]
-             Phosphotransferase System (PTS)
+             Phosphotransferase system (PTS)
               Enzyme II [TC:4.A]
-               Fructose-specific II component [MD:M00273]
+               Fructose-specific II component
                 b2167 (fruA)
 POSITION    complement(2259719..2261410)
 MOTIF       Pfam: PTS_EIIC PTS_IIB
-DBLINKS     NCBI-ProteinID: NP_416672
-            NCBI-GeneID: 946672
+DBLINKS     NCBI-GeneID: 946672
+            NCBI-ProteinID: NP_416672
             Pasteur: fruA
             RegulonDB: ECK120000330
-            EcoGene: EG10336
             ECOCYC: EG10336
             ASAP: ABE-0007172
             UniProt: P20966

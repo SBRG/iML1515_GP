@@ -1,18 +1,23 @@
 ENTRY       b3161             CDS       T00007
 NAME        mtr
-DEFINITION  (RefSeq) tryptophan transporter of high affinity
+DEFINITION  (RefSeq) tryptophan:H(+) symporter Mtr
 ORTHOLOGY   K03835  tryptophan-specific transport protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3161 (mtr)
+            Transporters [BR:eco02000]
+             Other transporters
               Electrochemical potential-driven transporters [TC:2]
                b3161 (mtr)
 POSITION    complement(3304573..3305817)
 MOTIF       Pfam: Trp_Tyr_perm
-DBLINKS     NCBI-ProteinID: NP_417630
-            NCBI-GeneID: 947675
+DBLINKS     NCBI-GeneID: 947675
+            NCBI-ProteinID: NP_417630
             Pasteur: mtr
-            EcoGene: EG10617
+            RegulonDB: ECK120000610
             ECOCYC: EG10617
             ASAP: ABE-0010387
             UniProt: P0AAD2

@@ -1,18 +1,30 @@
 ENTRY       b0819             CDS       T00007
 NAME        ldtB
-DEFINITION  (RefSeq) L,D-transpeptidase linking Lpp to murein
+DEFINITION  (RefSeq) L,D-transpeptidase YbiS
 ORTHOLOGY   K19235  L,D-transpeptidase YbiS
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Peptidases [BR:eco01002]
-             Cysteine Peptidases
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors [BR:eco01002]
+                b0819 (ldtB)
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+                b0819 (ldtB)
+            Peptidases and inhibitors [BR:eco01002]
+             Cysteine peptidases
               Family C82
                b0819 (ldtB)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              Transpeptidase
+               b0819 (ldtB)
 POSITION    complement(854824..855744)
-MOTIF       Pfam: YkuD
-DBLINKS     NCBI-ProteinID: NP_415340
-            NCBI-GeneID: 945441
+MOTIF       Pfam: Ldt_C YkuD
+DBLINKS     NCBI-GeneID: 945441
+            NCBI-ProteinID: NP_415340
             Pasteur: ybiS
-            EcoGene: EG13324
+            RegulonDB: ECK120003022
+            ECOCYC: G6422
             ASAP: ABE-0002797
             UniProt: P0AAX8
 AASEQ       306

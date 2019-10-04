@@ -1,6 +1,6 @@
 ENTRY       b0078             CDS       T00007
 NAME        ilvH
-DEFINITION  (RefSeq) acetolactate synthase 3, small subunit, valine-sensitive
+DEFINITION  (RefSeq) acetolactate synthase/acetohydroxybutanoate synthase, regulatory subunit
 ORTHOLOGY   K01653  acetolactate synthase I/III small subunit [EC:2.2.1.6]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00290  Valine, leucine and isoleucine biosynthesis
@@ -15,21 +15,16 @@ PATHWAY     eco00290  Valine, leucine and isoleucine biosynthesis
 MODULE      eco_M00019  Valine/isoleucine biosynthesis, pyruvate => valine / 2-oxobutanoate => isoleucine
             eco_M00570  Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01210 2-Oxocarboxylic acid metabolism
-                b0078 (ilvH)
-               01230 Biosynthesis of amino acids
-                b0078 (ilvH)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00650 Butanoate metabolism
                 b0078 (ilvH)
                00660 C5-Branched dibasic acid metabolism
                 b0078 (ilvH)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00290 Valine, leucine and isoleucine biosynthesis
                 b0078 (ilvH)
-              Metabolism of cofactors and vitamins
+              09108 Metabolism of cofactors and vitamins
                00770 Pantothenate and CoA biosynthesis
                 b0078 (ilvH)
             Enzymes [BR:eco01000]
@@ -40,10 +35,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0078 (ilvH)
 POSITION    87357..87848
 MOTIF       Pfam: ALS_ss_C ACT_5 ACT ACT_4
-DBLINKS     NCBI-ProteinID: NP_414620
-            NCBI-GeneID: 947267
+DBLINKS     NCBI-GeneID: 947267
+            NCBI-ProteinID: NP_414620
             Pasteur: ilvH
-            EcoGene: EG10499
+            RegulonDB: ECK120000492
             ECOCYC: EG10499
             ASAP: ABE-0000294
             UniProt: P00894

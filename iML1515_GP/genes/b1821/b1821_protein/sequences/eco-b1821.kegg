@@ -1,12 +1,23 @@
 ENTRY       b1821             CDS       T00007
 NAME        mntP
-DEFINITION  (RefSeq) putative Mn(2+) efflux pump, mntR-regulated
+DEFINITION  (RefSeq) Mn(2(+)) exporter
+ORTHOLOGY   K23242  manganese efflux pump family protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1821 (mntP)
+            Transporters [BR:eco02000]
+             Other transporters
+              Electrochemical potential-driven transporters [TC:2]
+               b1821 (mntP)
 POSITION    1905688..1906254
 MOTIF       Pfam: Mntp DUF21
-DBLINKS     NCBI-ProteinID: NP_416335
-            NCBI-GeneID: 946341
-            EcoGene: EG14012
+DBLINKS     NCBI-GeneID: 946341
+            NCBI-ProteinID: NP_416335
+            Pasteur: yebN
+            RegulonDB: ECK120003586
             ECOCYC: G6999
             ASAP: ABE-0006065
             UniProt: P76264

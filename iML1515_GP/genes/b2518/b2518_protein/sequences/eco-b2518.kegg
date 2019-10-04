@@ -1,6 +1,6 @@
 ENTRY       b2518             CDS       T00007
 NAME        ndk
-DEFINITION  (RefSeq) multifunctional nucleoside diphosphate kinase and apyrimidinic endonuclease and 3'-phosphodiesterase
+DEFINITION  (RefSeq) nucleoside diphosphate kinase
 ORTHOLOGY   K00940  nucleoside-diphosphate kinase [EC:2.7.4.6]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00230  Purine metabolism
@@ -13,11 +13,15 @@ MODULE      eco_M00049  Adenine ribonucleotide biosynthesis, IMP => ADP,ATP
             eco_M00052  Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP
             eco_M00053  Pyrimidine deoxyribonuleotide biosynthesis, CDP/CTP => dCDP/dCTP,dTDP/dTTP
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00230 Purine metabolism
                 b2518 (ndk)
                00240 Pyrimidine metabolism
+                b2518 (ndk)
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               04131 Membrane trafficking [BR:eco04131]
                 b2518 (ndk)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -32,11 +36,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 b2518 (ndk)
 POSITION    complement(2644433..2644864)
 MOTIF       Pfam: NDK
-DBLINKS     NCBI-ProteinID: NP_417013
-            NCBI-GeneID: 945611
+DBLINKS     NCBI-GeneID: 945611
+            NCBI-ProteinID: NP_417013
             Pasteur: ndk
             RegulonDB: ECK120000643
-            EcoGene: EG10650
             ECOCYC: EG10650
             ASAP: ABE-0008291
             UniProt: P0A763

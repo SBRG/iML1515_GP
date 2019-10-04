@@ -1,17 +1,23 @@
 ENTRY       b4067             CDS       T00007
 NAME        actP
-DEFINITION  (RefSeq) acetate transporter
+DEFINITION  (RefSeq) acetate/glycolate:cation symporter
 ORTHOLOGY   K14393  cation/acetate symporter
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b4067 (actP)
+            Transporters [BR:eco02000]
+             Other transporters
               Electrochemical potential-driven transporters [TC:2]
                b4067 (actP)
 POSITION    complement(4283253..4284902)
 MOTIF       Pfam: SSF DUF2818
-DBLINKS     NCBI-ProteinID: NP_418491
-            NCBI-GeneID: 948575
-            EcoGene: EG11942
+DBLINKS     NCBI-GeneID: 948575
+            NCBI-ProteinID: NP_418491
+            Pasteur: yjcG
+            RegulonDB: ECK120001870
             ECOCYC: EG11942
             ASAP: ABE-0013328
             UniProt: P32705

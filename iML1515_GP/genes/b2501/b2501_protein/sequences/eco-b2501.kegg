@@ -1,18 +1,22 @@
 ENTRY       b2501             CDS       T00007
 NAME        ppk
-DEFINITION  (RefSeq) polyphosphate kinase, component of RNA degradosome
+DEFINITION  (RefSeq) polyphosphate kinase
 ORTHOLOGY   K00937  polyphosphate kinase [EC:2.7.4.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00190  Oxidative phosphorylation
             eco03018  RNA degradation
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00190 Oxidative phosphorylation
                 b2501 (ppk)
-             Genetic Information Processing
-              Folding, sorting and degradation
+             09120 Genetic Information Processing
+              09123 Folding, sorting and degradation
                03018 RNA degradation
+                b2501 (ppk)
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               03019 Messenger RNA biogenesis [BR:eco03019]
                 b2501 (ppk)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -21,18 +25,17 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 2.7.4.1  polyphosphate kinase
                  b2501 (ppk)
             Messenger RNA biogenesis [BR:eco03019]
-             Prokaryotic Type
+             Prokaryotic type
               Bacterial mRNA degradation factors
                Other RNA degradation factors
                 Others
                  b2501 (ppk)
 POSITION    2623044..2625110
-MOTIF       Pfam: PP_kinase_C PP_kinase PP_kinase_N PLDc_2 MR_MLE_C Pyr_redox
-DBLINKS     NCBI-ProteinID: NP_416996
-            NCBI-GeneID: 946971
+MOTIF       Pfam: PP_kinase_C_1 PP_kinase_C PP_kinase PP_kinase_N PLDc_2 MR_MLE_C Pyr_redox
+DBLINKS     NCBI-GeneID: 946971
+            NCBI-ProteinID: NP_416996
             Pasteur: ppk
             RegulonDB: ECK120001466
-            EcoGene: EG11510
             ECOCYC: EG11510
             ASAP: ABE-0008235
             UniProt: P0A7B1

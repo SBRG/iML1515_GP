@@ -1,6 +1,6 @@
 ENTRY       b0514             CDS       T00007
 NAME        glxK
-DEFINITION  (RefSeq) glycerate kinase II
+DEFINITION  (RefSeq) glycerate 2-kinase 2
 ORTHOLOGY   K00865  glycerate 2-kinase [EC:2.7.1.165]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00260  Glycine, serine and threonine metabolism
@@ -10,14 +10,14 @@ PATHWAY     eco00260  Glycine, serine and threonine metabolism
             eco01120  Microbial metabolism in diverse environments
             eco01130  Biosynthesis of antibiotics
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00630 Glyoxylate and dicarboxylate metabolism
                 b0514 (glxK)
-              Lipid metabolism
+              09103 Lipid metabolism
                00561 Glycerolipid metabolism
                 b0514 (glxK)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00260 Glycine, serine and threonine metabolism
                 b0514 (glxK)
             Enzymes [BR:eco01000]
@@ -28,10 +28,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0514 (glxK)
 POSITION    541888..543033
 MOTIF       Pfam: Gly_kinase
-DBLINKS     NCBI-ProteinID: NP_415047
-            NCBI-GeneID: 945129
+DBLINKS     NCBI-GeneID: 945129
+            NCBI-ProteinID: NP_415047
+            Pasteur: ybbZ
             RegulonDB: ECK120002891
-            EcoGene: EG13621
             ECOCYC: G6283
             ASAP: ABE-0001773
             UniProt: P77364

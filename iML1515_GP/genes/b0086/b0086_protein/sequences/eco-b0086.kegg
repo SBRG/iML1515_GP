@@ -1,6 +1,6 @@
 ENTRY       b0086             CDS       T00007
 NAME        murF
-DEFINITION  (RefSeq) UDP-N-acetylmuramoyl-tripeptide:D-alanyl-D-alanine ligase
+DEFINITION  (RefSeq) D-alanyl-D-alanine-adding enzyme
 ORTHOLOGY   K01929  UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [EC:6.3.2.10]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00300  Lysine biosynthesis
@@ -8,16 +8,20 @@ PATHWAY     eco00300  Lysine biosynthesis
             eco01100  Metabolic pathways
             eco01502  Vancomycin resistance
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00300 Lysine biosynthesis
                 b0086 (murF)
-              Glycan biosynthesis and metabolism
+              09107 Glycan biosynthesis and metabolism
                00550 Peptidoglycan biosynthesis
                 b0086 (murF)
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01502 Vancomycin resistance
+                b0086 (murF)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
                 b0086 (murF)
             Enzymes [BR:eco01000]
              6. Ligases
@@ -25,13 +29,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                6.3.2  Acid-D-amino-acid ligases (peptide synthases)
                 6.3.2.10  UDP-N-acetylmuramoyl-tripeptide---D-alanyl-D-alanine ligase
                  b0086 (murF)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Precursor biosynthesis
+              Amino acid ligase
+               b0086 (murF)
 POSITION    94650..96008
 MOTIF       Pfam: Mur_ligase_M Mur_ligase_C Mur_ligase LpxD
-DBLINKS     NCBI-ProteinID: NP_414628
-            NCBI-GeneID: 944813
+DBLINKS     NCBI-GeneID: 944813
+            NCBI-ProteinID: NP_414628
             Pasteur: murF
             RegulonDB: ECK120000615
-            EcoGene: EG10622
             ECOCYC: EG10622
             ASAP: ABE-0000313
             UniProt: P11880

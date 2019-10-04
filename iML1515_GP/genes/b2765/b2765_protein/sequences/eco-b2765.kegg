@@ -1,14 +1,18 @@
 ENTRY       b2765             CDS       T00007
 NAME        queD
-DEFINITION  (RefSeq) 6-pyruvoyl tetrahydrobiopterin synthase (PTPS)
+DEFINITION  (RefSeq) 6-carboxy-5,6,7,8-tetrahydropterin synthase
 ORTHOLOGY   K01737  6-pyruvoyltetrahydropterin/6-carboxytetrahydropterin synthase [EC:4.2.3.12 4.1.2.50]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00790  Folate biosynthesis
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00790 Folate biosynthesis
+                b2765 (queD)
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               03016 Transfer RNA biogenesis [BR:eco03016]
                 b2765 (queD)
             Enzymes [BR:eco01000]
              4. Lyases
@@ -21,16 +25,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 4.2.3.12  6-pyruvoyltetrahydropterin synthase
                  b2765 (queD)
             Transfer RNA biogenesis [BR:eco03016]
-             Prokaryotic Type
+             Prokaryotic type
               tRNA modification factors
                Other tRNA modification factors
                 b2765 (queD)
 POSITION    2892214..2892579
 MOTIF       Pfam: PTPS
-DBLINKS     NCBI-ProteinID: NP_417245
-            NCBI-GeneID: 945123
+DBLINKS     NCBI-GeneID: 945123
+            NCBI-ProteinID: NP_417245
+            Pasteur: ygcM
             RegulonDB: ECK120003996
-            EcoGene: EG13120
             ECOCYC: G7431
             ASAP: ABE-0009068
             UniProt: P65870

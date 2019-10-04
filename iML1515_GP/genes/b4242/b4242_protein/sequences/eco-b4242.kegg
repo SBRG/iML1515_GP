@@ -1,20 +1,25 @@
 ENTRY       b4242             CDS       T00007
 NAME        mgtA
-DEFINITION  (RefSeq) magnesium transporter
-ORTHOLOGY   K01531  Mg2+-importing ATPase [EC:3.6.3.2]
+DEFINITION  (RefSeq) Mg(2(+)) importing P-type ATPase
+ORTHOLOGY   K01531  P-type Mg2+ transporter [EC:7.2.2.14]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.2  Mg2+-importing ATPase
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09191 Unclassified: metabolism
+               99980 Enzymes with EC numbers
+                b4242 (mgtA)
+            Enzymes [BR:eco01000]
+             7. Translocases
+              7.2  Catalysing the translocation of inorganic cations
+               7.2.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.2.2.14  P-type Mg2+ transporter
                  b4242 (mgtA)
 POSITION    4467625..4470321
 MOTIF       Pfam: E1-E2_ATPase Hydrolase Cation_ATPase_N Cation_ATPase_C Cation_ATPase Hydrolase_3 HAD COX7C RskA
-DBLINKS     NCBI-ProteinID: NP_418663
-            NCBI-GeneID: 948778
+DBLINKS     NCBI-GeneID: 948778
+            NCBI-ProteinID: NP_418663
             Pasteur: mgtA
-            EcoGene: EG12525
+            RegulonDB: ECK120002316
             ECOCYC: EG12525
             ASAP: ABE-0013883
             UniProt: P0ABB8

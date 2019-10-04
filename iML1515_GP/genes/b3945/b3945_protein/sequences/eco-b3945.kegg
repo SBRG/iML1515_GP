@@ -1,17 +1,17 @@
 ENTRY       b3945             CDS       T00007
 NAME        gldA
-DEFINITION  (RefSeq) glycerol dehydrogenase, NAD+ dependent; 1,2-propanediol:NAD+ oxidoreductase
+DEFINITION  (RefSeq) L-1,2-propanediol dehydrogenase/glycerol dehydrogenase
 ORTHOLOGY   K00005  glycerol dehydrogenase [EC:1.1.1.6]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00561  Glycerolipid metabolism
             eco00640  Propanoate metabolism
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00640 Propanoate metabolism
                 b3945 (gldA)
-              Lipid metabolism
+              09103 Lipid metabolism
                00561 Glycerolipid metabolism
                 b3945 (gldA)
             Enzymes [BR:eco01000]
@@ -22,14 +22,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3945 (gldA)
 POSITION    complement(4137932..4139035)
 MOTIF       Pfam: Fe-ADH Fe-ADH_2
-DBLINKS     NCBI-ProteinID: NP_418380
-            NCBI-GeneID: 948440
+DBLINKS     NCBI-GeneID: 948440
+            NCBI-ProteinID: NP_418380
             Pasteur: gldA
             RegulonDB: ECK120001833
-            EcoGene: EG11904
             ECOCYC: EG11904
             ASAP: ABE-0012912
             UniProt: P0A9S5
+STRUCTURE   PDB: 5ZXL
 AASEQ       367
             MDRIIQSPGKYIQGADVINRLGEYLKPLAERWLVVGDKFVLGFAQSTVEKSFKDAGLVVE
             IAPFGGECSQNEIDRLRGIAETAQCGAILGIGGGKTLDTAKALAHFMGVPVAIAPTIAST

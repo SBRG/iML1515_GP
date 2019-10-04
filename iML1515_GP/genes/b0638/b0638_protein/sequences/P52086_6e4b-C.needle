@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Thu  3 Oct 2019 22:48:34
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b0638/b0638_protein/sequences/P52086_6e4b-C.needle
+#    -asequence asis::MRLWLIRHGETQANIDGLYSGHAPTPLTARGIEQAQNLHTLLHGVSFDLVLCSELERAQHTARLVLSDRQLPVQIIPELNEMFFGDWEMRHHRDLMQEDAENYSAWCNDWQHAIPTNGEGFQAFSQRVERFIARLSEFQHYQNILVVSHQGVLSLLIARLIGMPAEAMWHFRVDQGCWSAIDINQKFATLRVLNSRAIGVENA
+#    -bsequence asis::NAMRLWLIRHGETQANIDGLYSGHAPTPLTARGIEQAQNLHTLLHGVSFDLVLCSELERAQHTARLVLSDRQLPVQIIPELNEMFFGDWEMRHHRDLMQEDAENYSAWCNDWQHAIPTNGEGFQAFSQRVERFIARLSEFQHYQNILVVSHQGVLSLLIARLIGMPAEAMWHFRVDQGCWSAIDINQKFATLRVLNSRAIGVE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b0638/b0638_protein/sequences/P52086_6e4b-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 205
+# Identity:     201/205 (98.0%)
+# Similarity:   201/205 (98.0%)
+# Gaps:           4/205 ( 2.0%)
+# Score: 1068.0
+# 
+#
+#=======================================
+
+asis               1 --MRLWLIRHGETQANIDGLYSGHAPTPLTARGIEQAQNLHTLLHGVSFD     48
+                       ||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 NAMRLWLIRHGETQANIDGLYSGHAPTPLTARGIEQAQNLHTLLHGVSFD     50
+
+asis              49 LVLCSELERAQHTARLVLSDRQLPVQIIPELNEMFFGDWEMRHHRDLMQE     98
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 LVLCSELERAQHTARLVLSDRQLPVQIIPELNEMFFGDWEMRHHRDLMQE    100
+
+asis              99 DAENYSAWCNDWQHAIPTNGEGFQAFSQRVERFIARLSEFQHYQNILVVS    148
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 DAENYSAWCNDWQHAIPTNGEGFQAFSQRVERFIARLSEFQHYQNILVVS    150
+
+asis             149 HQGVLSLLIARLIGMPAEAMWHFRVDQGCWSAIDINQKFATLRVLNSRAI    198
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 HQGVLSLLIARLIGMPAEAMWHFRVDQGCWSAIDINQKFATLRVLNSRAI    200
+
+asis             199 GVENA    203
+                     |||  
+asis             201 GVE--    203
+
+
+#---------------------------------------
+#---------------------------------------

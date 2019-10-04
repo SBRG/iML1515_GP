@@ -1,6 +1,6 @@
 ENTRY       b4160             CDS       T00007
 NAME        psd
-DEFINITION  (RefSeq) phosphatidylserine decarboxylase
+DEFINITION  (RefSeq) phosphatidylserine decarboxylase proenzyme
 ORTHOLOGY   K01613  phosphatidylserine decarboxylase [EC:4.1.1.65]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00564  Glycerophospholipid metabolism
@@ -8,8 +8,8 @@ PATHWAY     eco00564  Glycerophospholipid metabolism
             eco01110  Biosynthesis of secondary metabolites
 MODULE      eco_M00093  Phosphatidylethanolamine (PE) biosynthesis, PA => PS => PE
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Lipid metabolism
+             09100 Metabolism
+              09103 Lipid metabolism
                00564 Glycerophospholipid metabolism
                 b4160 (psd)
             Enzymes [BR:eco01000]
@@ -20,10 +20,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b4160 (psd)
 POSITION    complement(4389392..4390360)
 MOTIF       Pfam: PS_Dcarbxylase Peptidase_C48
-DBLINKS     NCBI-ProteinID: NP_418584
-            NCBI-GeneID: 948673
+DBLINKS     NCBI-GeneID: 948673
+            NCBI-ProteinID: NP_418584
             Pasteur: psd
-            EcoGene: EG10775
+            RegulonDB: ECK120000766
             ECOCYC: EG10775
             ASAP: ABE-0013623
             UniProt: P0A8K1

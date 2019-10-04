@@ -1,12 +1,13 @@
 ENTRY       b4095             CDS       T00007
 NAME        phnM
-DEFINITION  (RefSeq) ribophosphonate triphosphate hydrolase
+DEFINITION  (RefSeq) RPnTP hydrolase
 ORTHOLOGY   K06162  alpha-D-ribose 1-methylphosphonate 5-triphosphate diphosphatase [EC:3.6.1.63]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00440  Phosphonate and phosphinate metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of other amino acids
+             09100 Metabolism
+              09106 Metabolism of other amino acids
                00440 Phosphonate and phosphinate metabolism
                 b4095 (phnM)
             Enzymes [BR:eco01000]
@@ -17,10 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b4095 (phnM)
 POSITION    complement(4316082..4317218)
 MOTIF       Pfam: Amidohydro_3 Amidohydro_1
-DBLINKS     NCBI-ProteinID: NP_418519
-            NCBI-GeneID: 948613
+DBLINKS     NCBI-GeneID: 948613
+            NCBI-ProteinID: NP_418519
             Pasteur: phnM
-            EcoGene: EG10722
+            RegulonDB: ECK120000714
             ECOCYC: EG10722
             ASAP: ABE-0013419
             UniProt: P16689

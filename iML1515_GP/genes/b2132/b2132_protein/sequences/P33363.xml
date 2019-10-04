@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1994-02-01" modified="2019-07-31" version="143">
+<accession>P33363</accession>
+<accession>Q2MAU7</accession>
+<name>BGLX_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>Periplasmic beta-glucosidase</fullName>
+<ecNumber>3.2.1.21</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Beta-D-glucoside glucohydrolase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Cellobiase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Gentiobiase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">bglX</name>
+<name type="synonym">yohA</name>
+<name type="ordered locus">b2132</name>
+<name type="ordered locus">JW2120</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="1994-09" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Yang M."/>
+<person name="Luoh S."/>
+<person name="Goddard A."/>
+<person name="Reilly D."/>
+<person name="Henzel W."/>
+<person name="Bass S."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="submission" date="1993-10" db="EMBL/GenBank/DDBJ databases">
+<title>Automated multiplex sequencing of the E.coli genome.</title>
+<authorList>
+<person name="Richterich P."/>
+<person name="Lakey N."/>
+<person name="Gryan G."/>
+<person name="Jaehn L."/>
+<person name="Mintz L."/>
+<person name="Robison K."/>
+<person name="Church G.M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / BHB2600</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<comment type="catalytic activity">
+<reaction>
+<text>Hydrolysis of terminal, non-reducing beta-D-glucosyl residues with release of beta-D-glucose.</text>
+<dbReference type="EC" id="3.2.1.21"/>
+</reaction>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Periplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the glycosyl hydrolase 3 family.</text>
+</comment>
+<comment type="sequence caution" evidence="3">
+<conflict type="erroneous initiation">
+<sequence resource="EMBL-CDS" id="AAA60495" version="1"/>
+</conflict>
+</comment>
+<dbReference type="EC" id="3.2.1.21"/>
+<dbReference type="EMBL" id="U15049">
+<property type="protein sequence ID" value="AAB38487.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00007">
+<property type="protein sequence ID" value="AAA60495.1"/>
+<property type="status" value="ALT_INIT"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC75193.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE76609.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="C64981">
+<property type="entry name" value="C64981"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_416636.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000871504.1">
+<property type="nucleotide sequence ID" value="NZ_SSZK01000011.1"/>
+</dbReference>
+<dbReference type="SMR" id="P33363"/>
+<dbReference type="BioGrid" id="4260451">
+<property type="interactions" value="32"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-9218N"/>
+<dbReference type="IntAct" id="P33363">
+<property type="interactions" value="16"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b2132"/>
+<dbReference type="CAZy" id="GH3">
+<property type="family name" value="Glycoside Hydrolase Family 3"/>
+</dbReference>
+<dbReference type="EPD" id="P33363"/>
+<dbReference type="jPOST" id="P33363"/>
+<dbReference type="PaxDb" id="P33363"/>
+<dbReference type="PRIDE" id="P33363"/>
+<dbReference type="EnsemblBacteria" id="AAC75193">
+<property type="protein sequence ID" value="AAC75193"/>
+<property type="gene ID" value="b2132"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE76609">
+<property type="protein sequence ID" value="BAE76609"/>
+<property type="gene ID" value="BAE76609"/>
+</dbReference>
+<dbReference type="GeneID" id="946682"/>
+<dbReference type="KEGG" id="ecj:JW2120"/>
+<dbReference type="KEGG" id="eco:b2132"/>
+<dbReference type="PATRIC" id="fig|511145.12.peg.2212"/>
+<dbReference type="EchoBASE" id="EB1951"/>
+<dbReference type="EcoGene" id="EG12013">
+<property type="gene designation" value="bglX"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4107QK4">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1472">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000031217"/>
+<dbReference type="InParanoid" id="P33363"/>
+<dbReference type="KO" id="K05349"/>
+<dbReference type="PhylomeDB" id="P33363"/>
+<dbReference type="BioCyc" id="EcoCyc:EG12013-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW2120-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:EG12013-MONOMER"/>
+<dbReference type="PRO" id="PR:P33363"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030288">
+<property type="term" value="C:outer membrane-bounded periplasmic space"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042597">
+<property type="term" value="C:periplasmic space"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008422">
+<property type="term" value="F:beta-glucosidase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015926">
+<property type="term" value="F:glucosidase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="GO" id="GO:0102483">
+<property type="term" value="F:scopolin beta-glucosidase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005975">
+<property type="term" value="P:carbohydrate metabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.40.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.20.20.300">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1700">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR026891">
+<property type="entry name" value="Fn3-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR019800">
+<property type="entry name" value="Glyco_hydro_3_AS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002772">
+<property type="entry name" value="Glyco_hydro_3_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036881">
+<property type="entry name" value="Glyco_hydro_3_C_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001764">
+<property type="entry name" value="Glyco_hydro_3_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036962">
+<property type="entry name" value="Glyco_hydro_3_N_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017853">
+<property type="entry name" value="Glycoside_hydrolase_SF"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013783">
+<property type="entry name" value="Ig-like_fold"/>
+</dbReference>
+<dbReference type="Pfam" id="PF14310">
+<property type="entry name" value="Fn3-like"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00933">
+<property type="entry name" value="Glyco_hydro_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01915">
+<property type="entry name" value="Glyco_hydro_3_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00133">
+<property type="entry name" value="GLHYDRLASE3"/>
+</dbReference>
+<dbReference type="SMART" id="SM01217">
+<property type="entry name" value="Fn3_like"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51445">
+<property type="entry name" value="SSF51445"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52279">
+<property type="entry name" value="SSF52279"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00775">
+<property type="entry name" value="GLYCOSYL_HYDROL_F3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0326">Glycosidase</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0574">Periplasm</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<feature type="signal peptide" evidence="2">
+<location>
+<begin position="1"/>
+<end position="20"/>
+</location>
+</feature>
+<feature type="chain" description="Periplasmic beta-glucosidase" id="PRO_0000011781">
+<location>
+<begin position="21"/>
+<end position="765"/>
+</location>
+</feature>
+<feature type="active site" evidence="1">
+<location>
+<position position="287"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="765" mass="83460" checksum="0E89B0AB42B8F8F3" modified="1995-02-01" version="2" precursor="true">MKWLCSVGIAVSLALQPALADDLFGNHPLTPEARDAFVTELLKKMTVDEKIGQLRLISVGPDNPKEAIREMIKDGQVGAIFNTVTRQDIRAMQDQVMELSRLKIPLFFAYDVLHGQRTVFPISLGLASSFNLDAVKTVGRVSAYEAADDGLNMTWAPMVDVSRDPRWGRASEGFGEDTYLTSTMGKTMVEAMQGKSPADRYSVMTSVKHFAAYGAVEGGKEYNTVDMSPQRLFNDYMPPYKAGLDAGSGAVMVALNSLNGTPATSDSWLLKDVLRDQWGFKGITVSDHGAIKELIKHGTAADPEDAVRVALKSGINMSMSDEYYSKYLPGLIKSGKVTMAELDDAARHVLNVKYDMGLFNDPYSHLGPKESDPVDTNAESRLHRKEAREVARESLVLLKNRLETLPLKKSATIAVVGPLADSKRDVMGSWSAAGVADQSVTVLTGIKNAVGENGKVLYAKGANVTSDKGIIDFLNQYEEAVKVDPRSPQEMIDEAVQTAKQSDVVVAVVGEAQGMAHEASSRTDITIPQSQRDLIAALKATGKPLVLVLMNGRPLALVKEDQQADAILETWFAGTEGGNAIADVLFGDYNPSGKLPMSFPRSVGQIPVYYSHLNTGRPYNADKPNKYTSRYFDEANGALYPFGYGLSYTTFTVSDVKLSAPTMKRDGKVTASVQVTNTGKREGATVVQMYLQDVTASMSRPVKQLKGFEKITLKPGETQTVSFPIDIEALKFWNQQMKYDAEPGKFNVFIGTDSARVKKGEFELL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

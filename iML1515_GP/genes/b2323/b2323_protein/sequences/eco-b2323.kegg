@@ -1,6 +1,6 @@
 ENTRY       b2323             CDS       T00007
 NAME        fabB
-DEFINITION  (RefSeq) 3-oxoacyl-[acyl-carrier-protein] synthase I
+DEFINITION  (RefSeq) beta-ketoacyl-[acyl carrier protein] synthase I
 ORTHOLOGY   K00647  3-oxoacyl-[acyl-carrier-protein] synthase I [EC:2.3.1.41]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00061  Fatty acid biosynthesis
@@ -10,15 +10,16 @@ PATHWAY     eco00061  Fatty acid biosynthesis
 MODULE      eco_M00083  Fatty acid biosynthesis, elongation
             eco_M00572  Pimeloyl-ACP biosynthesis, BioC-BioH pathway, malonyl-ACP => pimeloyl-ACP
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01212 Fatty acid metabolism
-                b2323 (fabB)
-              Lipid metabolism
+             09100 Metabolism
+              09103 Lipid metabolism
                00061 Fatty acid biosynthesis
                 b2323 (fabB)
-              Metabolism of cofactors and vitamins
+              09108 Metabolism of cofactors and vitamins
                00780 Biotin metabolism
+                b2323 (fabB)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01004 Lipid biosynthesis proteins [BR:eco01004]
                 b2323 (fabB)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -32,16 +33,15 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b2323 (fabB)
 POSITION    complement(2440385..2441605)
 MOTIF       Pfam: ketoacyl-synt Ketoacyl-synt_C Thiolase_N KAsynt_C_assoc
-DBLINKS     NCBI-ProteinID: NP_416826
-            NCBI-GeneID: 946799
+DBLINKS     NCBI-GeneID: 946799
+            NCBI-ProteinID: NP_416826
             Pasteur: fabB
             RegulonDB: ECK120000268
-            EcoGene: EG10274
             ECOCYC: EG10274
             ASAP: ABE-0007675
             UniProt: P0A953
-STRUCTURE   PDB: 2VBA 2VB8 2VB7 1EK4 2BZ4 2BYZ 2AQB 1FJ8 2AQ7 1DD8 1FJ4
-                 1F91 1G5X 2VB9 2BZ3 2BYW 2BYX 2BYY 2BUH 2BUI 1H4F
+STRUCTURE   PDB: 2VBA 2VB9 2VB8 2VB7 2BYW 1EK4 2BZ4 2BUH 2BYZ 2BZ3 2BYX
+                 1H4F 2AQB 2BYY 1FJ8 2AQ7 1DD8 1FJ4 5KOF 1F91 1G5X 2BUI
 AASEQ       406
             MKRAVITGLGIVSSIGNNQQEVLASLREGRSGITFSQELKDSGMRSHVWGNVKLDTTGLI
             DRKVVRFMSDASIYAFLSMEQAIADAGLSPEAYQNNPRVGLIAGSGGGSPRFQVFGADAM

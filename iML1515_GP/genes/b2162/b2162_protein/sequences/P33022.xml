@@ -1,0 +1,580 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1994-02-01" modified="2019-09-18" version="134">
+<accession>P33022</accession>
+<accession>Q2MAR7</accession>
+<name>RIHB_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>Pyrimidine-specific ribonucleoside hydrolase RihB</fullName>
+<ecNumber>3.2.2.8</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Cytidine/uridine-specific hydrolase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">rihB</name>
+<name type="synonym">yeiK</name>
+<name type="ordered locus">b2162</name>
+<name type="ordered locus">JW2149</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="1993-10" db="EMBL/GenBank/DDBJ databases">
+<title>Automated multiplex sequencing of the E.coli genome.</title>
+<authorList>
+<person name="Richterich P."/>
+<person name="Lakey N."/>
+<person name="Gryan G."/>
+<person name="Jaehn L."/>
+<person name="Mintz L."/>
+<person name="Robison K."/>
+<person name="Church G.M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / BHB2600</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2001" name="J. Biol. Chem." volume="276" first="884" last="894">
+<title>The RihA, RihB, and RihC ribonucleoside hydrolases of Escherichia coli. Substrate specificity, gene expression, and regulation.</title>
+<authorList>
+<person name="Petersen C."/>
+<person name="Moeller L.B."/>
+</authorList>
+<dbReference type="PubMed" id="11027694"/>
+<dbReference type="DOI" id="10.1074/jbc.m008300200"/>
+</citation>
+<scope>CHARACTERIZATION</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2004" name="Structure" volume="12" first="739" last="749">
+<title>Crystal structure to 1.7 A of the Escherichia coli pyrimidine nucleoside hydrolase YeiK, a novel candidate for cancer gene therapy.</title>
+<authorList>
+<person name="Giabbai B."/>
+<person name="Degano M."/>
+</authorList>
+<dbReference type="PubMed" id="15130467"/>
+<dbReference type="DOI" id="10.1016/j.str.2004.03.018"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.7 ANGSTROMS) IN COMPLEX WITH CALCIUM IONS</scope>
+<scope>MUTAGENESIS OF HIS-82 AND HIS-239</scope>
+<scope>SUBUNIT</scope>
+</reference>
+<comment type="function">
+<text>Hydrolyzes cytidine or uridine to ribose and cytosine or uracil, respectively. Has a clear preference for cytidine over uridine. Strictly specific for ribonucleosides. Has a low but significant activity for the purine nucleoside xanthosine.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>a pyrimidine ribonucleoside + H2O = a pyrimidine nucleobase + D-ribose</text>
+<dbReference type="Rhea" id="RHEA:56816"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:26432"/>
+<dbReference type="ChEBI" id="CHEBI:47013"/>
+<dbReference type="ChEBI" id="CHEBI:141014"/>
+<dbReference type="EC" id="3.2.2.8"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor>
+<name>Ca(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29108"/>
+</cofactor>
+<text>Binds 1 Ca(2+) ion per monomer.</text>
+</comment>
+<comment type="subunit">
+<text evidence="5">Homotetramer.</text>
+</comment>
+<comment type="similarity">
+<text evidence="6">Belongs to the IUNH family. RihB subfamily.</text>
+</comment>
+<dbReference type="EC" id="3.2.2.8"/>
+<dbReference type="EMBL" id="U00007">
+<property type="protein sequence ID" value="AAA60514.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC75223.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE76639.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="A64985">
+<property type="entry name" value="A64985"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_416667.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000415429.1">
+<property type="nucleotide sequence ID" value="NZ_LN832404.1"/>
+</dbReference>
+<dbReference type="PDB" id="1Q8F">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.70"/>
+<property type="chains" value="A/B/C/D=1-313"/>
+</dbReference>
+<dbReference type="PDB" id="3B9X">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.30"/>
+<property type="chains" value="A/B/C/D=1-313"/>
+</dbReference>
+<dbReference type="PDBsum" id="1Q8F"/>
+<dbReference type="PDBsum" id="3B9X"/>
+<dbReference type="SMR" id="P33022"/>
+<dbReference type="BioGrid" id="4261071">
+<property type="interactions" value="3"/>
+</dbReference>
+<dbReference type="IntAct" id="P33022">
+<property type="interactions" value="5"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b2162"/>
+<dbReference type="jPOST" id="P33022"/>
+<dbReference type="PaxDb" id="P33022"/>
+<dbReference type="PRIDE" id="P33022"/>
+<dbReference type="EnsemblBacteria" id="AAC75223">
+<property type="protein sequence ID" value="AAC75223"/>
+<property type="gene ID" value="b2162"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE76639">
+<property type="protein sequence ID" value="BAE76639"/>
+<property type="gene ID" value="BAE76639"/>
+</dbReference>
+<dbReference type="GeneID" id="946646"/>
+<dbReference type="KEGG" id="ecj:JW2149"/>
+<dbReference type="KEGG" id="eco:b2162"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.77"/>
+<dbReference type="EchoBASE" id="EB1965"/>
+<dbReference type="EcoGene" id="EG12030">
+<property type="gene designation" value="rihB"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105DU0">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1957">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000218839"/>
+<dbReference type="InParanoid" id="P33022"/>
+<dbReference type="KO" id="K10213"/>
+<dbReference type="PhylomeDB" id="P33022"/>
+<dbReference type="BioCyc" id="EcoCyc:EG12030-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW2149-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:EG12030-MONOMER"/>
+<dbReference type="BRENDA" id="3.2.2.8">
+<property type="organism ID" value="2026"/>
+</dbReference>
+<dbReference type="EvolutionaryTrace" id="P33022"/>
+<dbReference type="PRO" id="PR:P33022"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005509">
+<property type="term" value="F:calcium ion binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042802">
+<property type="term" value="F:identical protein binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045437">
+<property type="term" value="F:uridine nucleosidase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006206">
+<property type="term" value="P:pyrimidine nucleobase metabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniRule"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046133">
+<property type="term" value="P:pyrimidine ribonucleoside catabolic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.90.245.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_01433">
+<property type="entry name" value="Pyrim_hydro_RihB"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015910">
+<property type="entry name" value="I/U_nuclsd_hydro_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001910">
+<property type="entry name" value="Inosine/uridine_hydrolase_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR023186">
+<property type="entry name" value="IUNH"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR022977">
+<property type="entry name" value="Pyrim_hydro_RihB"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036452">
+<property type="entry name" value="Ribo_hydro-like"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR12304">
+<property type="entry name" value="PTHR12304"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01156">
+<property type="entry name" value="IU_nuc_hydro"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53590">
+<property type="entry name" value="SSF53590"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01247">
+<property type="entry name" value="IUNH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0106">Calcium</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0326">Glycosidase</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Pyrimidine-specific ribonucleoside hydrolase RihB" id="PRO_0000206824">
+<location>
+<begin position="1"/>
+<end position="313"/>
+</location>
+</feature>
+<feature type="active site" description="Proton acceptor" evidence="4">
+<location>
+<position position="11"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Calcium">
+<location>
+<position position="11"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Calcium">
+<location>
+<position position="16"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Calcium; via carbonyl oxygen">
+<location>
+<position position="124"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Calcium">
+<location>
+<position position="240"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="3">
+<location>
+<position position="227"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="3">
+<location>
+<position position="239"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Increases KM for uridine 2-fold. Increases Kcat 3-fold." evidence="5">
+<original>H</original>
+<variation>N</variation>
+<location>
+<position position="82"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Increases KM for uridine 13-fold. No effect on Kcat." evidence="5">
+<original>H</original>
+<variation>A</variation>
+<location>
+<position position="239"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="4"/>
+<end position="10"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="14"/>
+<end position="25"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="29"/>
+<end position="36"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="38"/>
+<end position="41"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="43"/>
+<end position="56"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="63"/>
+<end position="65"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="71"/>
+<end position="73"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="79"/>
+<end position="82"/>
+</location>
+</feature>
+<feature type="turn" evidence="2">
+<location>
+<begin position="83"/>
+<end position="85"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="104"/>
+<end position="114"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="119"/>
+<end position="123"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="128"/>
+<end position="136"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="138"/>
+<end position="143"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="144"/>
+<end position="150"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="158"/>
+<end position="162"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="165"/>
+<end position="168"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="171"/>
+<end position="178"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="184"/>
+<end position="187"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="189"/>
+<end position="192"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="193"/>
+<end position="195"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="199"/>
+<end position="208"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="210"/>
+<end position="231"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="234"/>
+<end position="237"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="241"/>
+<end position="248"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="250"/>
+<end position="252"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="253"/>
+<end position="258"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="260"/>
+<end position="262"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="268"/>
+<end position="271"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="273"/>
+<end position="275"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="287"/>
+<end position="293"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="295"/>
+<end position="307"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1Q8F"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="3B9X"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000250"/>
+<evidence key="4" type="ECO:0000255"/>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15130467"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000305"/>
+<sequence length="313" mass="33748" checksum="BA3FA8B975474B28" modified="1994-02-01" version="1">MEKRKIILDCDPGHDDAIAIMMAAKHPAIDLLGITIVAGNQTLDKTLINGLNVCQKLEINVPVYAGMPQPIMRQQIVADNIHGETGLDGPVFEPLTRQAESTHAVKYIIDTLMASDGDITLVPVGPLSNIAVAMRMQPAILPKIREIVLMGGAYGTGNFTPSAEFNIFADPEAARVVFTSGVPLVMMGLDLTNQTVCTPDVIARMERAGGPAGELFSDIMNFTLKTQFENYGLAGGPVHDATCIGYLINPDGIKTQEMYVEVDVNSGPCYGRTVCDELGVLGKPANTKVGITIDTDWFWGLVEECVRGYIKTH</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

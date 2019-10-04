@@ -1,17 +1,23 @@
 ENTRY       b0465             CDS       T00007
 NAME        mscK
-DEFINITION  (RefSeq) mechanosensitive channel protein, intermediate conductance, K+ regulated
-ORTHOLOGY   K05802  potassium efflux system protein
+DEFINITION  (RefSeq) potassium dependent, small conductance mechanosensitive channel
+ORTHOLOGY   K05802  potassium-dependent mechanosensitive channel
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0465 (mscK)
+            Transporters [BR:eco02000]
+             Other transporters
               Pores ion channels [TC:1]
                b0465 (mscK)
 POSITION    486536..489898
 MOTIF       Pfam: MscS_TM MscS_porin MS_channel
-DBLINKS     NCBI-ProteinID: NP_414998
-            NCBI-GeneID: 945132
-            EcoGene: EG14240
+DBLINKS     NCBI-GeneID: 945132
+            NCBI-ProteinID: NP_414998
+            Pasteur: aefA
+            RegulonDB: ECK120002864
             ECOCYC: G6255
             ASAP: ABE-0001613
             UniProt: P77338

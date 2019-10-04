@@ -1,26 +1,29 @@
 ENTRY       b1442             CDS       T00007
 NAME        ydcU
-DEFINITION  (RefSeq) putative spermidine/putrescine transporter subunit
+DEFINITION  (RefSeq) putative ABC transporter membrane subunit YdcU
 ORTHOLOGY   K02054  putative spermidine/putrescine transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02024  Quorum sensing
-MODULE      eco_M00193  Putative spermidine/putrescine transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Cellular Processes
-              Cellular community - prokaryotes
+             09140 Cellular Processes
+              09145 Cellular community - prokaryotes
                02024 Quorum sensing
                 b1442 (ydcU)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1442 (ydcU)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Mineral and organic ion transporters
-               Putative spermidine/putrescine transporter [MD:M00193]
+               Putative spermidine/putrescine transporter
                 b1442 (ydcU)
 POSITION    1513831..1514772
 MOTIF       Pfam: BPD_transp_1
-DBLINKS     NCBI-ProteinID: NP_415959
-            NCBI-GeneID: 945976
+DBLINKS     NCBI-GeneID: 945976
+            NCBI-ProteinID: NP_415959
             Pasteur: ydcU
-            EcoGene: EG13764
+            RegulonDB: ECK120003342
             ECOCYC: G6753
             ASAP: ABE-0004807
             UniProt: P77156

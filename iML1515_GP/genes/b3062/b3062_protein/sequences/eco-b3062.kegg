@@ -1,12 +1,13 @@
 ENTRY       b3062             CDS       T00007
 NAME        ttdB
-DEFINITION  (RefSeq) L-tartrate dehydratase, beta subunit
+DEFINITION  (RefSeq) L(+)-tartrate dehydratase subunit beta
 ORTHOLOGY   K03780  L(+)-tartrate dehydratase beta subunit [EC:4.2.1.32]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00630  Glyoxylate and dicarboxylate metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00630 Glyoxylate and dicarboxylate metabolism
                 b3062 (ttdB)
             Enzymes [BR:eco01000]
@@ -17,10 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3062 (ttdB)
 POSITION    3207371..3207976
 MOTIF       Pfam: Fumerase_C
-DBLINKS     NCBI-ProteinID: NP_417534
-            NCBI-GeneID: 947568
+DBLINKS     NCBI-GeneID: 947568
+            NCBI-ProteinID: NP_417534
             Pasteur: ttdB
-            EcoGene: EG11169
+            RegulonDB: ECK120001152
             ECOCYC: EG11169
             ASAP: ABE-0010052
             UniProt: P0AC35

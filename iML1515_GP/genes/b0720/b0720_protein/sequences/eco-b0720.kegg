@@ -16,15 +16,8 @@ MODULE      eco_M00009  Citrate cycle (TCA cycle, Krebs cycle)
             eco_M00010  Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate
             eco_M00012  Glyoxylate cycle
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b0720 (gltA)
-               01210 2-Oxocarboxylic acid metabolism
-                b0720 (gltA)
-               01230 Biosynthesis of amino acids
-                b0720 (gltA)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00020 Citrate cycle (TCA cycle)
                 b0720 (gltA)
                00630 Glyoxylate and dicarboxylate metabolism
@@ -37,10 +30,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0720 (gltA)
 POSITION    complement(753185..754468)
 MOTIF       Pfam: Citrate_synt
-DBLINKS     NCBI-ProteinID: NP_415248
-            NCBI-GeneID: 945323
+DBLINKS     NCBI-GeneID: 945323
+            NCBI-ProteinID: NP_415248
             Pasteur: gltA
-            EcoGene: EG10402
+            RegulonDB: ECK120000395
             ECOCYC: EG10402
             ASAP: ABE-0002451
             UniProt: P0ABH7

@@ -1,33 +1,35 @@
 ENTRY       b0151             CDS       T00007
 NAME        fhuC
-DEFINITION  (RefSeq) iron-hydroxamate transporter subunit
-ORTHOLOGY   K02013  iron complex transport system ATP-binding protein [EC:3.6.3.34]
+DEFINITION  (RefSeq) iron(III) hydroxamate ABC transporter ATP binding subunit
+ORTHOLOGY   K10829  ferric hydroxamate transport system ATP-binding protein [EC:7.2.2.16]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00240  Iron complex transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b0151 (fhuC)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0151 (fhuC)
             Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.34  iron-chelate-transporting ATPase
+             7. Translocases
+              7.2  Catalysing the translocation of inorganic cations
+               7.2.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.2.2.16  ABC-type ferric hydroxamate transporter
                  b0151 (fhuC)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Metallic cation, iron-siderophore and vitamin B12 transporters
-               Iron complex transporter [MD:M00240]
+               Ferric hydroxamate transporter
                 b0151 (fhuC)
 POSITION    169778..170575
 MOTIF       Pfam: ABC_tran SMC_N AAA_21 AAA_29 AAA_15 AAA_23 AAA_22 BCA_ABC_TP_C RsgA_GTPase AAA_16 AAA_33 AAA_25
-DBLINKS     NCBI-ProteinID: NP_414693
-            NCBI-GeneID: 945250
+DBLINKS     NCBI-GeneID: 945250
+            NCBI-ProteinID: NP_414693
             Pasteur: fhuC
             RegulonDB: ECK120000298
-            EcoGene: EG10304
             ECOCYC: EG10304
             ASAP: ABE-0000522
             UniProt: P07821

@@ -1,19 +1,20 @@
 ENTRY       b1468             CDS       T00007
 NAME        narZ
-DEFINITION  (RefSeq) nitrate reductase 2 (NRZ), alpha subunit
-ORTHOLOGY   K00370  nitrate reductase / nitrite oxidoreductase, alpha subunit [EC:1.7.5.1 1.7.99.4]
+DEFINITION  (RefSeq) nitrate reductase Z subunit alpha
+ORTHOLOGY   K00370  nitrate reductase / nitrite oxidoreductase, alpha subunit [EC:1.7.5.1 1.7.99.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00910  Nitrogen metabolism
+            eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
             eco02020  Two-component system
 MODULE      eco_M00530  Dissimilatory nitrate reduction, nitrate => ammonia
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00910 Nitrogen metabolism
                 b1468 (narZ)
-             Environmental Information Processing
-              Signal transduction
+             09130 Environmental Information Processing
+              09132 Signal transduction
                02020 Two-component system
                 b1468 (narZ)
             Enzymes [BR:eco01000]
@@ -23,15 +24,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 1.7.5.1  nitrate reductase (quinone)
                  b1468 (narZ)
                1.7.99  With unknown physiological acceptors
-                1.7.99.4  nitrate reductase
+                1.7.99.-  
                  b1468 (narZ)
 POSITION    complement(1538850..1542590)
 MOTIF       Pfam: Molybdopterin Molydop_binding Nitr_red_alph_N Molybdop_Fe4S4
-DBLINKS     NCBI-ProteinID: NP_415985
-            NCBI-GeneID: 945999
+DBLINKS     NCBI-GeneID: 945999
+            NCBI-ProteinID: NP_415985
             Pasteur: narZ
             RegulonDB: ECK120000641
-            EcoGene: EG10648
             ECOCYC: EG10648
             ASAP: ABE-0004898
             UniProt: P19319

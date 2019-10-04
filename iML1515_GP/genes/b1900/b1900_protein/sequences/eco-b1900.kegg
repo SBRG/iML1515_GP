@@ -1,33 +1,35 @@
 ENTRY       b1900             CDS       T00007
 NAME        araG
-DEFINITION  (RefSeq) fused L-arabinose transporter subunits of ABC superfamily: ATP-binding components
-ORTHOLOGY   K10539  L-arabinose transport system ATP-binding protein [EC:3.6.3.17]
+DEFINITION  (RefSeq) arabinose ABC transporter ATP binding subunit
+ORTHOLOGY   K10539  L-arabinose transport system ATP-binding protein [EC:7.5.2.12]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00213  L-Arabinose transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b1900 (araG)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1900 (araG)
             Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.17  monosaccharide-transporting ATPase
+             7. Translocases
+              7.5  Catalysing the translocation of carbohydrates and their derivatives
+               7.5.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.5.2.12  ABC-type L-arabinose transporter
                  b1900 (araG)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Saccharide, polyol, and lipid transporters
-               L-Arabinose transporter [MD:M00213] [OT]
+               L-Arabinose transporter
                 b1900 (araG)
 POSITION    complement(1983555..1985069)
-MOTIF       Pfam: ABC_tran AAA_21 RsgA_GTPase SMC_N AAA_29 MMR_HSR1 AAA_23 AAA_25 AAA_15 AAA_30 cobW
-DBLINKS     NCBI-ProteinID: NP_416413
-            NCBI-GeneID: 946408
+MOTIF       Pfam: ABC_tran AAA_21 RsgA_GTPase SMC_N MMR_HSR1 AAA_29 AAA_23 AAA_25 AAA_15 AAA_30 cobW
+DBLINKS     NCBI-GeneID: 946408
+            NCBI-ProteinID: NP_416413
             Pasteur: araG
             RegulonDB: ECK120000054
-            EcoGene: EG10058
             ECOCYC: EG10058
             ASAP: ABE-0006328
             UniProt: P0AAF3

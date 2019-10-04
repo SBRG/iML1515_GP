@@ -1,19 +1,24 @@
 ENTRY       b1682             CDS       T00007
 NAME        sufC
-DEFINITION  (RefSeq) SufBCD Fe-S cluster assembly scaffold protein, ATP-binding protein
+DEFINITION  (RefSeq) Fe-S cluster scaffold complex subunit SufC
 ORTHOLOGY   K09013  Fe-S cluster assembly ATP-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1682 (sufC)
+            Transporters [BR:eco02000]
+             ABC transporters, prokaryotic type
               ABC-2 type and other transporters
                Orphan ABC ATPase
                 b1682 (sufC)
 POSITION    complement(1761766..1762512)
-MOTIF       Pfam: ABC_tran SMC_N AAA_21 AAA_29 RsgA_GTPase AAA_23 AAA_28 AAA_33 AAA_13 AAA_22 AAA_27 Cytidylate_kin AAA_25 AAA_18
-DBLINKS     NCBI-ProteinID: NP_416197
-            NCBI-GeneID: 946128
+MOTIF       Pfam: ABC_tran SMC_N AAA_21 AAA_29 RsgA_GTPase AAA_23 AAA_28 AAA_33 AAA_13 AAA_22 AAA_27 Cytidylate_kin AAA_25 Invasin_D3 AAA_18 Ploopntkinase1
+DBLINKS     NCBI-GeneID: 946128
+            NCBI-ProteinID: NP_416197
+            Pasteur: ynhD
             RegulonDB: ECK120003497
-            EcoGene: EG13964
             ECOCYC: G6908
             ASAP: ABE-0005619
             UniProt: P77499

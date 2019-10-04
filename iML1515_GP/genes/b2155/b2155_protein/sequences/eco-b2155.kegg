@@ -1,18 +1,23 @@
 ENTRY       b2155             CDS       T00007
 NAME        cirA
-DEFINITION  (RefSeq) colicin IA outer membrane receptor and translocator; ferric iron-catecholate transporter
+DEFINITION  (RefSeq) ferric dihyroxybenzoylserine outer membrane transporter
 ORTHOLOGY   K16089  outer membrane receptor for ferrienterochelin and colicins
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2155 (cirA)
+            Transporters [BR:eco02000]
+             Other transporters
               Pores ion channels [TC:1]
                b2155 (cirA)
 POSITION    complement(2244778..2246769)
 MOTIF       Pfam: TonB_dep_Rec Plug
-DBLINKS     NCBI-ProteinID: NP_416660
-            NCBI-GeneID: 949042
+DBLINKS     NCBI-GeneID: 949042
+            NCBI-ProteinID: NP_416660
             Pasteur: cirA
-            EcoGene: EG10155
+            RegulonDB: ECK120000151
             ECOCYC: EG10155
             ASAP: ABE-0007126
             UniProt: P17315

@@ -1,14 +1,18 @@
 ENTRY       b3625             CDS       T00007
 NAME        waaY
-DEFINITION  (RefSeq) lipopolysaccharide core biosynthesis protein
+DEFINITION  (RefSeq) lipopolysaccharide core heptose (II) kinase
 ORTHOLOGY   K02850  heptose II phosphotransferase [EC:2.7.1.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00540  Lipopolysaccharide biosynthesis
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00540 Lipopolysaccharide biosynthesis
+                b3625 (waaY)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
                 b3625 (waaY)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -21,10 +25,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
               b3625 (waaY)
 POSITION    complement(3800267..3800965)
 MOTIF       Pfam: WaaY RIO1 SecA_PP_bind NAD_Gly3P_dh_C
-DBLINKS     NCBI-ProteinID: NP_418082
-            NCBI-GeneID: 948145
+DBLINKS     NCBI-GeneID: 948145
+            NCBI-ProteinID: NP_418082
+            Pasteur: rfaY
             RegulonDB: ECK120001389
-            EcoGene: EG11425
             ECOCYC: EG11425
             ASAP: ABE-0011856
             UniProt: P27240

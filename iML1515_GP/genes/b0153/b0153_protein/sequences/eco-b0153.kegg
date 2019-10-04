@@ -1,26 +1,29 @@
 ENTRY       b0153             CDS       T00007
 NAME        fhuB
-DEFINITION  (RefSeq) fused iron-hydroxamate transporter subunits of ABC superfamily: membrane components
-ORTHOLOGY   K02015  iron complex transport system permease protein
+DEFINITION  (RefSeq) iron(III) hydroxamate ABC transporter membrane subunit
+ORTHOLOGY   K23228  ferric hydroxamate transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00240  Iron complex transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b0153 (fhuB)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0153 (fhuB)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Metallic cation, iron-siderophore and vitamin B12 transporters
-               Iron complex transporter [MD:M00240]
+               Ferric hydroxamate transporter
                 b0153 (fhuB)
 POSITION    171462..173444
 MOTIF       Pfam: FecCD
-DBLINKS     NCBI-ProteinID: NP_414695
-            NCBI-GeneID: 946890
+DBLINKS     NCBI-GeneID: 946890
+            NCBI-ProteinID: NP_414695
             Pasteur: fhuB
-            EcoGene: EG10303
+            RegulonDB: ECK120000297
             ECOCYC: EG10303
             ASAP: ABE-0000526
             UniProt: P06972

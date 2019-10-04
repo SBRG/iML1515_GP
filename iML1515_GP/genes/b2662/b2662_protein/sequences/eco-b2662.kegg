@@ -1,10 +1,11 @@
 ENTRY       b2662             CDS       T00007
 NAME        gabT
-DEFINITION  (RefSeq) 4-aminobutyrate aminotransferase, PLP-dependent
-ORTHOLOGY   K07250  4-aminobutyrate aminotransferase / (S)-3-amino-2-methylpropionate transaminase [EC:2.6.1.19 2.6.1.22]
+DEFINITION  (RefSeq) 4-aminobutyrate aminotransferase GabT
+ORTHOLOGY   K07250  4-aminobutyrate aminotransferase / (S)-3-amino-2-methylpropionate transaminase / 5-aminovalerate transaminase [EC:2.6.1.19 2.6.1.22 2.6.1.48]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00250  Alanine, aspartate and glutamate metabolism
             eco00280  Valine, leucine and isoleucine degradation
+            eco00310  Lysine degradation
             eco00410  beta-Alanine metabolism
             eco00640  Propanoate metabolism
             eco00650  Butanoate metabolism
@@ -12,19 +13,25 @@ PATHWAY     eco00250  Alanine, aspartate and glutamate metabolism
             eco01120  Microbial metabolism in diverse environments
 MODULE      eco_M00027  GABA (gamma-Aminobutyrate) shunt
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00640 Propanoate metabolism
                 b2662 (gabT)
                00650 Butanoate metabolism
                 b2662 (gabT)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00250 Alanine, aspartate and glutamate metabolism
                 b2662 (gabT)
                00280 Valine, leucine and isoleucine degradation
                 b2662 (gabT)
-              Metabolism of other amino acids
+               00310 Lysine degradation
+                b2662 (gabT)
+              09106 Metabolism of other amino acids
                00410 beta-Alanine metabolism
+                b2662 (gabT)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01007 Amino acid related enzymes [BR:eco01007]
                 b2662 (gabT)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -34,17 +41,18 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2662 (gabT)
                 2.6.1.22  (S)-3-amino-2-methylpropionate transaminase
                  b2662 (gabT)
+                2.6.1.48  5-aminovalerate transaminase
+                 b2662 (gabT)
             Amino acid related enzymes [BR:eco01007]
              Aminotransferase (transaminase)
               Class III
                b2662 (gabT)
 POSITION    2792735..2794015
 MOTIF       Pfam: Aminotran_3 Aminotran_1_2
-DBLINKS     NCBI-ProteinID: NP_417148
-            NCBI-GeneID: 948067
+DBLINKS     NCBI-GeneID: 948067
+            NCBI-ProteinID: NP_417148
             Pasteur: gabT
             RegulonDB: ECK120000354
-            EcoGene: EG10361
             ECOCYC: EG10361
             ASAP: ABE-0008760
             UniProt: P22256

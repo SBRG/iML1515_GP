@@ -1,6 +1,6 @@
 ENTRY       b3770             CDS       T00007
 NAME        ilvE
-DEFINITION  (RefSeq) branched-chain amino-acid aminotransferase
+DEFINITION  (RefSeq) branched-chain-amino-acid aminotransferase
 ORTHOLOGY   K00826  branched-chain amino acid aminotransferase [EC:2.6.1.42]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00270  Cysteine and methionine metabolism
@@ -16,21 +16,20 @@ MODULE      eco_M00019  Valine/isoleucine biosynthesis, pyruvate => valine / 2-o
             eco_M00119  Pantothenate biosynthesis, valine/L-aspartate => pantothenate
             eco_M00570  Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01210 2-Oxocarboxylic acid metabolism
-                b3770 (ilvE)
-               01230 Biosynthesis of amino acids
-                b3770 (ilvE)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00270 Cysteine and methionine metabolism
                 b3770 (ilvE)
                00280 Valine, leucine and isoleucine degradation
                 b3770 (ilvE)
                00290 Valine, leucine and isoleucine biosynthesis
                 b3770 (ilvE)
-              Metabolism of cofactors and vitamins
+              09108 Metabolism of cofactors and vitamins
                00770 Pantothenate and CoA biosynthesis
+                b3770 (ilvE)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01007 Amino acid related enzymes [BR:eco01007]
                 b3770 (ilvE)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -44,11 +43,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b3770 (ilvE)
 POSITION    3952484..3953413
 MOTIF       Pfam: Aminotran_4 G-gamma
-DBLINKS     NCBI-ProteinID: YP_026247
-            NCBI-GeneID: 948278
+DBLINKS     NCBI-GeneID: 948278
+            NCBI-ProteinID: YP_026247
             Pasteur: ilvE
             RegulonDB: ECK120000490
-            EcoGene: EG10497
             ECOCYC: EG10497
             ASAP: ABE-0012316
             UniProt: P0AB80

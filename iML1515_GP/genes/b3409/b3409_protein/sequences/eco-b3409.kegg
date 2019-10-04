@@ -1,19 +1,23 @@
 ENTRY       b3409             CDS       T00007
 NAME        feoB
-DEFINITION  (RefSeq) fused ferrous iron transporter, protein B: GTP-binding protein/membrane protein
+DEFINITION  (RefSeq) Fe(2(+)) transporter FeoB
 ORTHOLOGY   K04759  ferrous iron transport protein B
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3409 (feoB)
+            Transporters [BR:eco02000]
+             Other transporters
               Others
                b3409 (feoB)
 POSITION    3540407..3542728
-MOTIF       Pfam: FeoB_N Gate FeoB_C MMR_HSR1 SRPRB GTP_EFTU Dynamin_N RsgA_GTPase ATP_bind_1 AIG1 PduV-EutP
-DBLINKS     NCBI-ProteinID: NP_417868
-            NCBI-GeneID: 947919
+MOTIF       Pfam: FeoB_N Gate FeoB_C MMR_HSR1 FeoB_Cyto SRPRB GTP_EFTU RsgA_GTPase Dynamin_N ATP_bind_1 AIG1 PduV-EutP NADHdh_A3
+DBLINKS     NCBI-GeneID: 947919
+            NCBI-ProteinID: NP_417868
             Pasteur: feoB
             RegulonDB: ECK120002007
-            EcoGene: EG12102
             ECOCYC: EG12102
             ASAP: ABE-0011126
             UniProt: P33650

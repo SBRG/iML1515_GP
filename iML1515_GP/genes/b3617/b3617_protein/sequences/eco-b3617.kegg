@@ -1,13 +1,18 @@
 ENTRY       b3617             CDS       T00007
 NAME        kbl
-DEFINITION  (RefSeq) glycine C-acetyltransferase
+DEFINITION  (RefSeq) 2-amino-3-ketobutyrate CoA ligase
 ORTHOLOGY   K00639  glycine C-acetyltransferase [EC:2.3.1.29]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00260  Glycine, serine and threonine metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00260 Glycine, serine and threonine metabolism
+                b3617 (kbl)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01007 Amino acid related enzymes [BR:eco01007]
                 b3617 (kbl)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -21,11 +26,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b3617 (kbl)
 POSITION    complement(3791355..3792551)
 MOTIF       Pfam: Aminotran_1_2 Aminotran_5 DegT_DnrJ_EryC1 SHMT Beta_elim_lyase HATPase_c_5 RraB OKR_DC_1
-DBLINKS     NCBI-ProteinID: NP_418074
-            NCBI-GeneID: 948138
+DBLINKS     NCBI-GeneID: 948138
+            NCBI-ProteinID: NP_418074
             Pasteur: kbl
             RegulonDB: ECK120000505
-            EcoGene: EG10512
             ECOCYC: EG10512
             ASAP: ABE-0011832
             UniProt: P0AB77

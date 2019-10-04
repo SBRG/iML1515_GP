@@ -1,16 +1,17 @@
 ENTRY       b1710             CDS       T00007
 NAME        btuE
-DEFINITION  (RefSeq) glutathione peroxidase
+DEFINITION  (RefSeq) thioredoxin/glutathione peroxidase
 ORTHOLOGY   K00432  glutathione peroxidase [EC:1.11.1.9]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00480  Glutathione metabolism
             eco00590  Arachidonic acid metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Lipid metabolism
+             09100 Metabolism
+              09103 Lipid metabolism
                00590 Arachidonic acid metabolism
                 b1710 (btuE)
-              Metabolism of other amino acids
+              09106 Metabolism of other amino acids
                00480 Glutathione metabolism
                 b1710 (btuE)
             Enzymes [BR:eco01000]
@@ -21,10 +22,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1710 (btuE)
 POSITION    complement(1793558..1794109)
 MOTIF       Pfam: GSHPx Redoxin
-DBLINKS     NCBI-ProteinID: NP_416225
-            NCBI-GeneID: 945915
+DBLINKS     NCBI-GeneID: 945915
+            NCBI-ProteinID: NP_416225
             Pasteur: btuE
-            EcoGene: EG10129
+            RegulonDB: ECK120000125
             ECOCYC: EG10129
             ASAP: ABE-0005709
             UniProt: P06610

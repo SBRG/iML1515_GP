@@ -1,13 +1,13 @@
 ENTRY       b1012             CDS       T00007
 NAME        rutA
-DEFINITION  (RefSeq) pyrimidine oxygenase, FMN-dependent
+DEFINITION  (RefSeq) pyrimidine oxygenase
 ORTHOLOGY   K09018  pyrimidine oxygenase [EC:1.14.99.46]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00240  Pyrimidine metabolism
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00240 Pyrimidine metabolism
                 b1012 (rutA)
             Enzymes [BR:eco01000]
@@ -18,12 +18,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1012 (rutA)
 POSITION    complement(1072863..1074011)
 MOTIF       Pfam: Bac_luciferase Copine
-DBLINKS     NCBI-ProteinID: NP_415532
-            NCBI-GeneID: 945643
-            EcoGene: EG13859
+DBLINKS     NCBI-GeneID: 945643
+            NCBI-ProteinID: NP_415532
+            Pasteur: ycdM
+            RegulonDB: ECK120003123
             ECOCYC: G6523
             ASAP: ABE-0003416
             UniProt: P75898
+STRUCTURE   PDB: 5WAN
 AASEQ       382
             MQDAAPRLTFTLRDEERLMMKIGVFVPIGNNGWLISTHAPQYMPTFELNKAIVQKAEHYH
             FDFALSMIKLRGFGGKTEFWDHNLESFTLMAGLAAVTSRIQIYATAATLTLPPAIVARMA

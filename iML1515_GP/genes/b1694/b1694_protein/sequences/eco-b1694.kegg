@@ -1,6 +1,6 @@
 ENTRY       b1694             CDS       T00007
 NAME        ydiF
-DEFINITION  (RefSeq) putative acetyl-CoA:acetoacetyl-CoA transferase: alpha subunit/beta subunit
+DEFINITION  (RefSeq) putative acetate-CoA transferase
 ORTHOLOGY   K19709  acetate CoA-transferase [EC:2.8.3.8]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00627  Aminobenzoate degradation
@@ -9,13 +9,13 @@ PATHWAY     eco00627  Aminobenzoate degradation
             eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00640 Propanoate metabolism
                 b1694 (ydiF)
                00650 Butanoate metabolism
                 b1694 (ydiF)
-              Xenobiotics biodegradation and metabolism
+              09111 Xenobiotics biodegradation and metabolism
                00627 Aminobenzoate degradation
                 b1694 (ydiF)
             Enzymes [BR:eco01000]
@@ -26,11 +26,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1694 (ydiF)
 POSITION    1775587..1777182
 MOTIF       Pfam: CoA_trans Mal_decarbox_Al
-DBLINKS     NCBI-ProteinID: NP_416209
-            NCBI-GeneID: 946211
+DBLINKS     NCBI-GeneID: 946211
+            NCBI-ProteinID: NP_416209
             Pasteur: ydiF
             RegulonDB: ECK120002287
-            EcoGene: EG12432
             ECOCYC: EG12432
             ASAP: ABE-0005656
             UniProt: P37766

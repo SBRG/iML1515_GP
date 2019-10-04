@@ -1,6 +1,6 @@
 ENTRY       b2232             CDS       T00007
 NAME        ubiG
-DEFINITION  (RefSeq) bifunctional 3-demethylubiquinone-9 3-methyltransferase/2-octaprenyl-6-hydroxy phenol methylase
+DEFINITION  (RefSeq) bifunctional 3-demethylubiquinone-8 3-O-methyltransferase and 2-octaprenyl-6-hydroxyphenol methylase
 ORTHOLOGY   K00568  2-polyprenyl-6-hydroxyphenyl methylase / 3-demethylubiquinone-9 3-methyltransferase [EC:2.1.1.222 2.1.1.64]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00130  Ubiquinone and other terpenoid-quinone biosynthesis
@@ -8,8 +8,8 @@ PATHWAY     eco00130  Ubiquinone and other terpenoid-quinone biosynthesis
             eco01110  Biosynthesis of secondary metabolites
 MODULE      eco_M00117  Ubiquinone biosynthesis, prokaryotes, chorismate => ubiquinone
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00130 Ubiquinone and other terpenoid-quinone biosynthesis
                 b2232 (ubiG)
             Enzymes [BR:eco01000]
@@ -22,11 +22,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2232 (ubiG)
 POSITION    2339567..2340289
 MOTIF       Pfam: Methyltransf_23 Methyltransf_11 Methyltransf_25 Methyltransf_31 Methyltransf_12 Ubie_methyltran CMAS NodS MTS Methyltransf_9 PrmA MetW Methyltransf_32 Sterol_MT_C TPMT DREV GidB
-DBLINKS     NCBI-ProteinID: NP_416735
-            NCBI-GeneID: 946607
+DBLINKS     NCBI-GeneID: 946607
+            NCBI-ProteinID: NP_416735
             Pasteur: ubiG
             RegulonDB: ECK120001127
-            EcoGene: EG11143
             ECOCYC: EG11143
             ASAP: ABE-0007374
             UniProt: P17993

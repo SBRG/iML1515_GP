@@ -1,7 +1,7 @@
 ENTRY       b3213             CDS       T00007
 NAME        gltD
-DEFINITION  (RefSeq) glutamate synthase, 4Fe-4S protein, small subunit
-ORTHOLOGY   K00266  glutamate synthase (NADPH/NADH) small chain [EC:1.4.1.13 1.4.1.14]
+DEFINITION  (RefSeq) glutamate synthase subunit GltD
+ORTHOLOGY   K00266  glutamate synthase (NADPH) small chain [EC:1.4.1.13]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00250  Alanine, aspartate and glutamate metabolism
             eco00910  Nitrogen metabolism
@@ -11,14 +11,11 @@ PATHWAY     eco00250  Alanine, aspartate and glutamate metabolism
             eco01130  Biosynthesis of antibiotics
             eco01230  Biosynthesis of amino acids
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b3213 (gltD)
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00910 Nitrogen metabolism
                 b3213 (gltD)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00250 Alanine, aspartate and glutamate metabolism
                 b3213 (gltD)
             Enzymes [BR:eco01000]
@@ -27,14 +24,12 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                1.4.1  With NAD+ or NADP+ as acceptor
                 1.4.1.13  glutamate synthase (NADPH)
                  b3213 (gltD)
-                1.4.1.14  glutamate synthase (NADH)
-                 b3213 (gltD)
 POSITION    3359198..3360616
 MOTIF       Pfam: Fer4_20 Pyr_redox_2 Pyr_redox Pyr_redox_3 NAD_binding_8 FAD_binding_3 Thi4 NAD_binding_7 FAD_oxidored DAO HI0933_like FAD_binding_2 FMO-like Shikimate_DH 2-Hacid_dh_C AlaDh_PNT_C NAD_binding_9 NAD_Gly3P_dh_N Fer4_7 IlvN GIDA 3HCDH_N Amino_oxidase Lycopene_cycl
-DBLINKS     NCBI-ProteinID: NP_417680
-            NCBI-GeneID: 947723
+DBLINKS     NCBI-GeneID: 947723
+            NCBI-ProteinID: NP_417680
             Pasteur: gltD
-            EcoGene: EG10404
+            RegulonDB: ECK120000397
             ECOCYC: EG10404
             ASAP: ABE-0010547
             UniProt: P09832

@@ -1,18 +1,23 @@
 ENTRY       b3350             CDS       T00007
 NAME        kefB
-DEFINITION  (RefSeq) potassium:proton antiporter
+DEFINITION  (RefSeq) K(+) : H(+) antiporter KefB
 ORTHOLOGY   K11747  glutathione-regulated potassium-efflux system protein KefB
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3350 (kefB)
+            Transporters [BR:eco02000]
+             Other transporters
               Electrochemical potential-driven transporters [TC:2]
                b3350 (kefB)
 POSITION    complement(3478802..3480607)
 MOTIF       Pfam: Na_H_Exchanger TrkA_N 2-Hacid_dh_C Sacchrp_dh_NADP Shikimate_DH ApbA
-DBLINKS     NCBI-ProteinID: NP_417809
-            NCBI-GeneID: 947858
+DBLINKS     NCBI-GeneID: 947858
+            NCBI-ProteinID: NP_417809
             Pasteur: kefB
-            EcoGene: EG20110
+            RegulonDB: ECK120002444
             ECOCYC: EG20110
             ASAP: ABE-0010949
             UniProt: P45522

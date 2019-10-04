@@ -1,6 +1,6 @@
 ENTRY       b3256             CDS       T00007
 NAME        accC
-DEFINITION  (RefSeq) acetyl-CoA carboxylase, biotin carboxylase subunit
+DEFINITION  (RefSeq) biotin carboxylase
 ORTHOLOGY   K01961  acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2 6.3.4.14]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00061  Fatty acid biosynthesis
@@ -14,18 +14,13 @@ PATHWAY     eco00061  Fatty acid biosynthesis
             eco01212  Fatty acid metabolism
 MODULE      eco_M00082  Fatty acid biosynthesis, initiation
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b3256 (accC)
-               01212 Fatty acid metabolism
-                b3256 (accC)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00620 Pyruvate metabolism
                 b3256 (accC)
                00640 Propanoate metabolism
                 b3256 (accC)
-              Lipid metabolism
+              09103 Lipid metabolism
                00061 Fatty acid biosynthesis
                 b3256 (accC)
             Enzymes [BR:eco01000]
@@ -39,18 +34,17 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 6.4.1.2  acetyl-CoA carboxylase
                  b3256 (accC)
 POSITION    3405917..3407266
-MOTIF       Pfam: CPSase_L_D2 Biotin_carb_N Biotin_carb_C ATPgrasp_Ter ATP-grasp_3 Dala_Dala_lig_C ATP-grasp GARS_A ATP-grasp_4
-DBLINKS     NCBI-ProteinID: NP_417722
-            NCBI-GeneID: 947761
+MOTIF       Pfam: CPSase_L_D2 Biotin_carb_N Biotin_carb_C ATP-grasp_3 Dala_Dala_lig_C ATP-grasp GARS_A ATP-grasp_4
+DBLINKS     NCBI-GeneID: 947761
+            NCBI-ProteinID: NP_417722
             Pasteur: accC
             RegulonDB: ECK120000270
-            EcoGene: EG10276
             ECOCYC: EG10276
             ASAP: ABE-0010677
             UniProt: P24182
 STRUCTURE   PDB: 2W70 2W6P 2W6N 3G8D 2W6Z 1DV1 3RV3 3RV4 3RUP 2W71 3G8C
-                 2W6M 2W6Q 2J9G 2V58 3JZF 2GPW 3JZI 2V5A 2V59 1BNC 4HR7
-                 2W6O 1DV2 2GPS 2VR1
+                 2W6M 2W6Q 2J9G 6OI9 2V58 3JZF 2GPW 3JZI 2V5A 2V59 1BNC
+                 4HR7 2W6O 1DV2 2VR1 2GPS
 AASEQ       449
             MLDKIVIANRGEIALRILRACKELGIKTVAVHSSADRDLKHVLLADETVCIGPAPSVKSY
             LNIPAIISAAEITGAVAIHPGYGFLSENANFAEQVERSGFIFIGPKAETIRLMGDKVSAI

@@ -1,14 +1,20 @@
 ENTRY       b2435             CDS       T00007
 NAME        amiA
-DEFINITION  (RefSeq) N-acetylmuramoyl-l-alanine amidase I
+DEFINITION  (RefSeq) N-acetylmuramoyl-L-alanine amidase A
 ORTHOLOGY   K01448  N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco01503  Cationic antimicrobial peptide (CAMP) resistance
-MODULE      eco_M00727  Cationic antimicrobial peptide (CAMP) resistance,  N-acetylmuramoyl-L-alanine amidase AmiA and AmiC
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01503 Cationic antimicrobial peptide (CAMP) resistance
+                b2435 (amiA)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+                b2435 (amiA)
+              09182 Protein families: genetic information processing
+               03036 Chromosome and associated proteins [BR:eco03036]
                 b2435 (amiA)
             Enzymes [BR:eco01000]
              3. Hydrolases
@@ -16,18 +22,21 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                3.5.1  In linear amides
                 3.5.1.28  N-acetylmuramoyl-L-alanine amidase
                  b2435 (amiA)
-            Chromosome [BR:eco03036]
-             Prokaryotic Type
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              Amidase
+               b2435 (amiA)
+            Chromosome and associated proteins [BR:eco03036]
+             Prokaryotic type
               Chromosome partitioning proteins
                Divisome proteins
                 b2435 (amiA)
 POSITION    2552352..2553221
 MOTIF       Pfam: Amidase_3 TAT_signal
-DBLINKS     NCBI-ProteinID: NP_416930
-            NCBI-GeneID: 946916
+DBLINKS     NCBI-GeneID: 946916
+            NCBI-ProteinID: NP_416930
             Pasteur: amiA
             RegulonDB: ECK120001755
-            EcoGene: EG11823
             ECOCYC: EG11823
             ASAP: ABE-0008032
             UniProt: P36548

@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1997-11-01" modified="2019-09-18" version="147">
+<accession>P77161</accession>
+<accession>Q2MBR9</accession>
+<name>GLXR_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>2-hydroxy-3-oxopropionate reductase</fullName>
+<ecNumber>1.1.1.60</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Tartronate semialdehyde reductase</fullName>
+<shortName>TSAR</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">glxR</name>
+<name type="synonym">glxB1</name>
+<name type="synonym">ybbQ</name>
+<name type="ordered locus">b0509</name>
+<name type="ordered locus">JW0497</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1999" name="J. Bacteriol." volume="181" first="7479" last="7484">
+<title>Genetic analysis of a chromosomal region containing genes required for assimilation of allantoin nitrogen and linked glyoxylate metabolism in Escherichia coli.</title>
+<authorList>
+<person name="Cusa E."/>
+<person name="Obradors N."/>
+<person name="Baldoma L."/>
+<person name="Badia J."/>
+<person name="Aguilar J."/>
+</authorList>
+<dbReference type="PubMed" id="10601204"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>FUNCTION</scope>
+<source>
+<strain>K12 / ECL1</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="submission" date="1997-01" db="EMBL/GenBank/DDBJ databases">
+<title>Sequence of minutes 4-25 of Escherichia coli.</title>
+<authorList>
+<person name="Chung E."/>
+<person name="Allen E."/>
+<person name="Araujo R."/>
+<person name="Aparicio A.M."/>
+<person name="Davis K."/>
+<person name="Duncan M."/>
+<person name="Federspiel N."/>
+<person name="Hyman R."/>
+<person name="Kalman S."/>
+<person name="Komp C."/>
+<person name="Kurdi O."/>
+<person name="Lew H."/>
+<person name="Lin D."/>
+<person name="Namath A."/>
+<person name="Oefner P."/>
+<person name="Roberts D."/>
+<person name="Schramm S."/>
+<person name="Davis R.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<comment type="catalytic activity">
+<reaction>
+<text>(R)-glycerate + NADP(+) = 2-hydroxy-3-oxopropanoate + H(+) + NADPH</text>
+<dbReference type="Rhea" id="RHEA:18841"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:16659"/>
+<dbReference type="ChEBI" id="CHEBI:57783"/>
+<dbReference type="ChEBI" id="CHEBI:57978"/>
+<dbReference type="ChEBI" id="CHEBI:58349"/>
+<dbReference type="EC" id="1.1.1.60"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>(R)-glycerate + NAD(+) = 2-hydroxy-3-oxopropanoate + H(+) + NADH</text>
+<dbReference type="Rhea" id="RHEA:18845"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:16659"/>
+<dbReference type="ChEBI" id="CHEBI:57540"/>
+<dbReference type="ChEBI" id="CHEBI:57945"/>
+<dbReference type="ChEBI" id="CHEBI:57978"/>
+<dbReference type="EC" id="1.1.1.60"/>
+</reaction>
+</comment>
+<comment type="pathway">
+<text>Organic acid metabolism; glycolate degradation; 3-phospho-D-glycerate from glycolate: step 3/4.</text>
+</comment>
+<comment type="induction">
+<text>By glyoxylate.</text>
+</comment>
+<comment type="similarity">
+<text evidence="2">Belongs to the HIBADH-related family.</text>
+</comment>
+<dbReference type="EC" id="1.1.1.60"/>
+<dbReference type="EMBL" id="U89279">
+<property type="protein sequence ID" value="AAB93851.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U82664">
+<property type="protein sequence ID" value="AAB40262.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC73611.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE76287.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="D64782">
+<property type="entry name" value="D64782"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_415042.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000765839.1">
+<property type="nucleotide sequence ID" value="NZ_STEB01000007.1"/>
+</dbReference>
+<dbReference type="SMR" id="P77161"/>
+<dbReference type="BioGrid" id="4262821">
+<property type="interactions" value="16"/>
+</dbReference>
+<dbReference type="BioGrid" id="849534">
+<property type="interactions" value="4"/>
+</dbReference>
+<dbReference type="IntAct" id="P77161">
+<property type="interactions" value="9"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b0509"/>
+<dbReference type="PaxDb" id="P77161"/>
+<dbReference type="PRIDE" id="P77161"/>
+<dbReference type="EnsemblBacteria" id="AAC73611">
+<property type="protein sequence ID" value="AAC73611"/>
+<property type="gene ID" value="b0509"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE76287">
+<property type="protein sequence ID" value="BAE76287"/>
+<property type="gene ID" value="BAE76287"/>
+</dbReference>
+<dbReference type="GeneID" id="945146"/>
+<dbReference type="KEGG" id="ecj:JW0497"/>
+<dbReference type="KEGG" id="eco:b0509"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.1768"/>
+<dbReference type="EchoBASE" id="EB3052"/>
+<dbReference type="EcoGene" id="EG13265">
+<property type="gene designation" value="glxR"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105CF3">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG2084">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000219608"/>
+<dbReference type="InParanoid" id="P77161"/>
+<dbReference type="KO" id="K00042"/>
+<dbReference type="PhylomeDB" id="P77161"/>
+<dbReference type="BioCyc" id="EcoCyc:G6278-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW0497-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:G6278-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00864">
+<property type="reaction ID" value="UER00832"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P77161"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008679">
+<property type="term" value="F:2-hydroxy-3-oxopropionate reductase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051287">
+<property type="term" value="F:NAD binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050661">
+<property type="term" value="F:NADP binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009442">
+<property type="term" value="P:allantoin assimilation pathway"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006974">
+<property type="term" value="P:cellular response to DNA damage stimulus"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046296">
+<property type="term" value="P:glycolate catabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009436">
+<property type="term" value="P:glyoxylate catabolic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.1040.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002204">
+<property type="entry name" value="3-OH-isobutyrate_DH-rel_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008927">
+<property type="entry name" value="6-PGluconate_DH-like_C_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013328">
+<property type="entry name" value="6PGD_dom2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006115">
+<property type="entry name" value="6PGDH_NADP-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015815">
+<property type="entry name" value="HIBADH-related"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036291">
+<property type="entry name" value="NAD(P)-bd_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029154">
+<property type="entry name" value="NADP-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006398">
+<property type="entry name" value="Tartro_sem_red"/>
+</dbReference>
+<dbReference type="Pfam" id="PF14833">
+<property type="entry name" value="NAD_binding_11"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03446">
+<property type="entry name" value="NAD_binding_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF000103">
+<property type="entry name" value="HIBADH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48179">
+<property type="entry name" value="SSF48179"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51735">
+<property type="entry name" value="SSF51735"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01505">
+<property type="entry name" value="tartro_sem_red"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00895">
+<property type="entry name" value="3_HYDROXYISOBUT_DH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0520">NAD</keyword>
+<keyword id="KW-0560">Oxidoreductase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="2-hydroxy-3-oxopropionate reductase" id="PRO_0000173061">
+<location>
+<begin position="1"/>
+<end position="292"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="NAD" evidence="1">
+<location>
+<begin position="4"/>
+<end position="18"/>
+</location>
+</feature>
+<feature type="active site" evidence="1">
+<location>
+<position position="169"/>
+</location>
+</feature>
+<feature type="binding site" description="NAD" evidence="1">
+<location>
+<position position="94"/>
+</location>
+</feature>
+<feature type="binding site" description="NAD" evidence="1">
+<location>
+<position position="237"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000305"/>
+<sequence length="292" mass="30801" checksum="5D5263231F2910F0" modified="1997-02-01" version="1">MKLGFIGLGIMGTPMAINLARAGHQLHVTTIGPVADELLSLGAVSVETARQVTEASDIIFIMVPDTPQVEEVLFGENGCTKASLKGKTIVDMSSISPIETKRFARQVNELGGDYLDAPVSGGEIGAREGTLSIMVGGDEAVFERVKPLFELLGKNITLVGGNGDGQTCKVANQIIVALNIEAVSEALLFASKAGADPVRVRQALMGGFASSRILEVHGERMIKRTFNPGFKIALHQKDLNLALQSAKALALNLPNTATCQELFNTCAANGGSQLDHSALVQALELMANHKLA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

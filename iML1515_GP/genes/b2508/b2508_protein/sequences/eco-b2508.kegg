@@ -1,6 +1,6 @@
 ENTRY       b2508             CDS       T00007
 NAME        guaB
-DEFINITION  (RefSeq) IMP dehydrogenase
+DEFINITION  (RefSeq) inosine 5'-monophosphate dehydrogenase
 ORTHOLOGY   K00088  IMP dehydrogenase [EC:1.1.1.205]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00230  Purine metabolism
@@ -8,9 +8,13 @@ PATHWAY     eco00230  Purine metabolism
             eco01110  Biosynthesis of secondary metabolites
 MODULE      eco_M00050  Guanine ribonucleotide biosynthesis IMP => GDP,GTP
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00230 Purine metabolism
+                b2508 (guaB)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               04147 Exosome [BR:eco04147]
                 b2508 (guaB)
             Enzymes [BR:eco01000]
              1. Oxidoreductases
@@ -25,12 +29,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
               Exosomal proteins of breast cancer cells
                b2508 (guaB)
 POSITION    complement(2632604..2634070)
-MOTIF       Pfam: IMPDH CBS NMO FMN_dh His_biosynth TMP-TENI ThiG Glu_synthase Radical_SAM DHO_dh NanE Aldolase G3P_antiterm
-DBLINKS     NCBI-ProteinID: NP_417003
-            NCBI-GeneID: 946985
+MOTIF       Pfam: IMPDH CBS NMO FMN_dh His_biosynth TMP-TENI Glu_synthase ThiG Radical_SAM DHO_dh NanE Aldolase G3P_antiterm
+DBLINKS     NCBI-GeneID: 946985
+            NCBI-ProteinID: NP_417003
             Pasteur: guaB
             RegulonDB: ECK120000414
-            EcoGene: EG10421
             ECOCYC: EG10421
             ASAP: ABE-0008257
             UniProt: P0ADG7

@@ -1,26 +1,29 @@
 ENTRY       b4288             CDS       T00007
 NAME        fecD
-DEFINITION  (RefSeq) iron-dicitrate transporter subunit
-ORTHOLOGY   K02015  iron complex transport system permease protein
+DEFINITION  (RefSeq) ferric citrate ABC transporter membrane subunit FecD
+ORTHOLOGY   K23182  ferric citrate transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00240  Iron complex transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b4288 (fecD)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b4288 (fecD)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Metallic cation, iron-siderophore and vitamin B12 transporters
-               Iron complex transporter [MD:M00240]
+               Ferric citrate transporter
                 b4288 (fecD)
 POSITION    complement(4511458..4512414)
-MOTIF       Pfam: FecCD
-DBLINKS     NCBI-ProteinID: NP_418708
-            NCBI-GeneID: 946816
+MOTIF       Pfam: FecCD DUF5520
+DBLINKS     NCBI-GeneID: 946816
+            NCBI-ProteinID: NP_418708
             Pasteur: fecD
-            EcoGene: EG10289
+            RegulonDB: ECK120000283
             ECOCYC: EG10289
             ASAP: ABE-0014059
             UniProt: P15029

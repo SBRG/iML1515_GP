@@ -1,13 +1,19 @@
 ENTRY       b3787             CDS       T00007
 NAME        wecC
-DEFINITION  (RefSeq) UDP-N-acetyl-D-mannosaminuronic acid dehydrogenase
+DEFINITION  (RefSeq) UDP-N-acetyl-D-mannosamine dehydrogenase
 ORTHOLOGY   K02472  UDP-N-acetyl-D-mannosaminuronic acid dehydrogenase [EC:1.1.1.336]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00520  Amino sugar and nucleotide sugar metabolism
+            eco01100  Metabolic pathways
+            eco02020  Two-component system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00520 Amino sugar and nucleotide sugar metabolism
+                b3787 (wecC)
+             09130 Environmental Information Processing
+              09132 Signal transduction
+               02020 Two-component system
                 b3787 (wecC)
             Enzymes [BR:eco01000]
              1. Oxidoreductases
@@ -17,10 +23,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3787 (wecC)
 POSITION    3971260..3972522
 MOTIF       Pfam: UDPG_MGDP_dh_N UDPG_MGDP_dh UDPG_MGDP_dh_C NAD_binding_2 2-Hacid_dh_C TrkA_N 3HCDH_N ApbA CIF
-DBLINKS     NCBI-ProteinID: YP_026254
-            NCBI-GeneID: 948977
+DBLINKS     NCBI-GeneID: 948977
+            NCBI-ProteinID: YP_026254
+            Pasteur: rffD
             RegulonDB: ECK120001415
-            EcoGene: EG11452
+            ECOCYC: EG11452
             ASAP: ABE-0012374
             UniProt: P27829
 AASEQ       420

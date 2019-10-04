@@ -1,6 +1,6 @@
 ENTRY       b2764             CDS       T00007
 NAME        cysJ
-DEFINITION  (RefSeq) sulfite reductase, alpha subunit, flavoprotein
+DEFINITION  (RefSeq) sulfite reductase, flavoprotein subunit
 ORTHOLOGY   K00380  sulfite reductase (NADPH) flavoprotein alpha-component [EC:1.8.1.2]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00920  Sulfur metabolism
@@ -9,8 +9,8 @@ PATHWAY     eco00920  Sulfur metabolism
 MODULE      eco_M00176  Assimilatory sulfate reduction, sulfate => H2S
             eco_M00616  Sulfate-sulfur assimilation
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00920 Sulfur metabolism
                 b2764 (cysJ)
             Enzymes [BR:eco01000]
@@ -21,15 +21,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2764 (cysJ)
 POSITION    complement(2890099..2891898)
 MOTIF       Pfam: Flavodoxin_1 FAD_binding_1 NAD_binding_1
-DBLINKS     NCBI-ProteinID: NP_417244
-            NCBI-GeneID: 947239
+DBLINKS     NCBI-GeneID: 947239
+            NCBI-ProteinID: NP_417244
             Pasteur: cysJ
             RegulonDB: ECK120000186
-            EcoGene: EG10191
             ECOCYC: EG10191
             ASAP: ABE-0009063
             UniProt: P38038
-STRUCTURE   PDB: 1DDG 1DDI 1YKG
+STRUCTURE   PDB: 1DDG 6EFV 1DDI 1YKG
 AASEQ       599
             MTTQVPPSALLPLNPEQLARLQAATTDLTPTQLAWVSGYFWGVLNQQPAALAATPAPAAE
             MPGITIISASQTGNARRVAEALRDDLLAAKLNVKLVNAGDYKFKQIASEKLLIVVTSTQG

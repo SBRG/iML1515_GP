@@ -1,14 +1,14 @@
 ENTRY       b0109             CDS       T00007
 NAME        nadC
-DEFINITION  (RefSeq) quinolinate phosphoribosyltransferase
+DEFINITION  (RefSeq) quinolinate phosphoribosyltransferase (decarboxylating)
 ORTHOLOGY   K00767  nicotinate-nucleotide pyrophosphorylase (carboxylating) [EC:2.4.2.19]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00760  Nicotinate and nicotinamide metabolism
             eco01100  Metabolic pathways
 MODULE      eco_M00115  NAD biosynthesis, aspartate => NAD
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00760 Nicotinate and nicotinamide metabolism
                 b0109 (nadC)
             Enzymes [BR:eco01000]
@@ -18,12 +18,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 2.4.2.19  nicotinate-nucleotide diphosphorylase (carboxylating)
                  b0109 (nadC)
 POSITION    complement(117752..118645)
-MOTIF       Pfam: QRPTase_C QRPTase_N IMPDH PEP_mutase Ribul_P_3_epim IGPS Biotin_lipoyl
-DBLINKS     NCBI-ProteinID: NP_414651
-            NCBI-GeneID: 948869
+MOTIF       Pfam: QRPTase_C QRPTase_N IMPDH PEP_mutase Ribul_P_3_epim IGPS Biotin_lipoyl SfsA
+DBLINKS     NCBI-GeneID: 948869
+            NCBI-ProteinID: NP_414651
             Pasteur: nadC
             RegulonDB: ECK120001500
-            EcoGene: EG11546
             ECOCYC: EG11546
             ASAP: ABE-0000374
             UniProt: P30011

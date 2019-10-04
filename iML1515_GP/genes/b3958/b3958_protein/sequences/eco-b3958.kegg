@@ -1,6 +1,6 @@
 ENTRY       b3958             CDS       T00007
 NAME        argC
-DEFINITION  (RefSeq) N-acetyl-gamma-glutamylphosphate reductase, NAD(P)-binding
+DEFINITION  (RefSeq) N-acetylglutamylphosphate reductase
 ORTHOLOGY   K00145  N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00220  Arginine biosynthesis
@@ -11,13 +11,8 @@ PATHWAY     eco00220  Arginine biosynthesis
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00028  Ornithine biosynthesis, glutamate => ornithine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01210 2-Oxocarboxylic acid metabolism
-                b3958 (argC)
-               01230 Biosynthesis of amino acids
-                b3958 (argC)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00220 Arginine biosynthesis
                 b3958 (argC)
             Enzymes [BR:eco01000]
@@ -28,10 +23,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3958 (argC)
 POSITION    4155001..4156005
 MOTIF       Pfam: Semialdhyde_dh Semialdhyde_dhC DapB_N GFO_IDH_MocA Epimerase NmrA DUF4459
-DBLINKS     NCBI-ProteinID: NP_418393
-            NCBI-GeneID: 948455
+DBLINKS     NCBI-GeneID: 948455
+            NCBI-ProteinID: NP_418393
             Pasteur: argC
-            EcoGene: EG10065
+            RegulonDB: ECK120000061
             ECOCYC: EG10065
             ASAP: ABE-0012964
             UniProt: P11446

@@ -1,6 +1,6 @@
 ENTRY       b2965             CDS       T00007
 NAME        speC
-DEFINITION  (RefSeq) ornithine decarboxylase, constitutive
+DEFINITION  (RefSeq) ornithine decarboxylase, biosynthetic
 ORTHOLOGY   K01581  ornithine decarboxylase [EC:4.1.1.17]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00330  Arginine and proline metabolism
@@ -9,11 +9,11 @@ PATHWAY     eco00330  Arginine and proline metabolism
             eco01110  Biosynthesis of secondary metabolites
             eco01130  Biosynthesis of antibiotics
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00330 Arginine and proline metabolism
                 b2965 (speC)
-              Metabolism of other amino acids
+              09106 Metabolism of other amino acids
                00480 Glutathione metabolism
                 b2965 (speC)
             Enzymes [BR:eco01000]
@@ -24,10 +24,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2965 (speC)
 POSITION    complement(3107020..3109155)
 MOTIF       Pfam: OKR_DC_1 OKR_DC_1_C OKR_DC_1_N Beta_elim_lyase
-DBLINKS     NCBI-ProteinID: NP_417440
-            NCBI-GeneID: 947457
+DBLINKS     NCBI-GeneID: 947457
+            NCBI-ProteinID: NP_417440
             Pasteur: speC
-            EcoGene: EG10961
+            RegulonDB: ECK120000950
             ECOCYC: EG10961
             ASAP: ABE-0009730
             UniProt: P21169

@@ -1,0 +1,711 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-11-22" modified="2019-07-31" version="102">
+<accession>P0ACE0</accession>
+<accession>P37181</accession>
+<accession>Q2M9K1</accession>
+<name>MBHM_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>Hydrogenase-2 large chain</fullName>
+<shortName>HYD2</shortName>
+<ecNumber>1.12.99.6</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Membrane-bound hydrogenase 2 large subunit</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>NiFe hydrogenase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">hybC</name>
+<name type="ordered locus">b2994</name>
+<name type="ordered locus">JW2962</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1994" name="J. Bacteriol." volume="176" first="4416" last="4423">
+<title>Cloning, sequencing, and mutational analysis of the hyb operon encoding Escherichia coli hydrogenase 2.</title>
+<authorList>
+<person name="Menon N.K."/>
+<person name="Chatelus C.Y."/>
+<person name="Dervartanian M."/>
+<person name="Wendt J.C."/>
+<person name="Shanmugam K.T."/>
+<person name="Peck H.D. Jr."/>
+<person name="Przybyla A.E."/>
+</authorList>
+<dbReference type="PubMed" id="8021226"/>
+<dbReference type="DOI" id="10.1128/jb.176.14.4416-4423.1994"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>K12 / TG1</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="1998" name="Eur. J. Biochem." volume="255" first="746" last="754">
+<title>Reassignment of the gene encoding the Escherichia coli hydrogenase 2 small subunit -- identification of a soluble precursor of the small subunit in a hypB mutant.</title>
+<authorList>
+<person name="Sargent F."/>
+<person name="Ballantine S.P."/>
+<person name="Rugman P.A."/>
+<person name="Palmer T."/>
+<person name="Boxer D.H."/>
+</authorList>
+<dbReference type="PubMed" id="9738917"/>
+<dbReference type="DOI" id="10.1046/j.1432-1327.1998.2550746.x"/>
+</citation>
+<scope>PROTEIN SEQUENCE OF 2-7</scope>
+</reference>
+<comment type="function">
+<text>This is one of three E.coli hydrogenases synthesized in response to different physiological conditions. HYD2 is involved in hydrogen uptake.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>A + H2 = AH2</text>
+<dbReference type="Rhea" id="RHEA:12116"/>
+<dbReference type="ChEBI" id="CHEBI:13193"/>
+<dbReference type="ChEBI" id="CHEBI:17499"/>
+<dbReference type="ChEBI" id="CHEBI:18276"/>
+<dbReference type="EC" id="1.12.99.6"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="4">
+<name>Ni(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:49786"/>
+</cofactor>
+<text evidence="4">Binds 1 nickel ion per subunit.</text>
+</comment>
+<comment type="subunit">
+<text>Heterodimer of a large and a small subunit.</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-549849"/>
+<interactant intactId="EBI-562426">
+<id>P0AAM7</id>
+<label>hybG</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>2</experiments>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Cell membrane</location>
+<topology>Peripheral membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="7">Belongs to the [NiFe]/[NiFeSe] hydrogenase large subunit family.</text>
+</comment>
+<dbReference type="EC" id="1.12.99.6"/>
+<dbReference type="EMBL" id="U09177">
+<property type="protein sequence ID" value="AAA21591.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U28377">
+<property type="protein sequence ID" value="AAA69161.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC76030.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE77055.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="C55516">
+<property type="entry name" value="C55516"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_417468.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000083065.1">
+<property type="nucleotide sequence ID" value="NZ_STEB01000001.1"/>
+</dbReference>
+<dbReference type="PDB" id="6EHQ">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.20"/>
+<property type="chains" value="L/M=1-552"/>
+</dbReference>
+<dbReference type="PDB" id="6EHS">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.50"/>
+<property type="chains" value="L/M=1-552"/>
+</dbReference>
+<dbReference type="PDB" id="6EN9">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.50"/>
+<property type="chains" value="L/M=1-567"/>
+</dbReference>
+<dbReference type="PDB" id="6G7M">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.71"/>
+<property type="chains" value="L/M=1-567"/>
+</dbReference>
+<dbReference type="PDB" id="6GAM">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.40"/>
+<property type="chains" value="L/M=1-567"/>
+</dbReference>
+<dbReference type="PDB" id="6GAN">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.60"/>
+<property type="chains" value="L/M=1-567"/>
+</dbReference>
+<dbReference type="PDBsum" id="6EHQ"/>
+<dbReference type="PDBsum" id="6EHS"/>
+<dbReference type="PDBsum" id="6EN9"/>
+<dbReference type="PDBsum" id="6G7M"/>
+<dbReference type="PDBsum" id="6GAM"/>
+<dbReference type="PDBsum" id="6GAN"/>
+<dbReference type="SMR" id="P0ACE0"/>
+<dbReference type="BioGrid" id="4262375">
+<property type="interactions" value="28"/>
+</dbReference>
+<dbReference type="ComplexPortal" id="CPX-282">
+<property type="entry name" value="Hydrogenase-2 complex"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-36022N"/>
+<dbReference type="IntAct" id="P0ACE0">
+<property type="interactions" value="16"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b2994"/>
+<dbReference type="jPOST" id="P0ACE0"/>
+<dbReference type="PaxDb" id="P0ACE0"/>
+<dbReference type="PRIDE" id="P0ACE0"/>
+<dbReference type="EnsemblBacteria" id="AAC76030">
+<property type="protein sequence ID" value="AAC76030"/>
+<property type="gene ID" value="b2994"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE77055">
+<property type="protein sequence ID" value="BAE77055"/>
+<property type="gene ID" value="BAE77055"/>
+</dbReference>
+<dbReference type="GeneID" id="945182"/>
+<dbReference type="KEGG" id="ecj:JW2962"/>
+<dbReference type="KEGG" id="eco:b2994"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.3735"/>
+<dbReference type="EchoBASE" id="EB1749"/>
+<dbReference type="EcoGene" id="EG11801">
+<property type="gene designation" value="hybC"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105DPX">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0374">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000278799"/>
+<dbReference type="InParanoid" id="P0ACE0"/>
+<dbReference type="KO" id="K06281"/>
+<dbReference type="PhylomeDB" id="P0ACE0"/>
+<dbReference type="BioCyc" id="EcoCyc:HYBC-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW2962-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:HYBC-MONOMER"/>
+<dbReference type="PRO" id="PR:P0ACE0"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0031236">
+<property type="term" value="C:extrinsic component of periplasmic side of plasma membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008901">
+<property type="term" value="F:ferredoxin hydrogenase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0033748">
+<property type="term" value="F:hydrogenase (acceptor) activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016151">
+<property type="term" value="F:nickel cation binding"/>
+<property type="evidence" value="ECO:0000255"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.645.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001501">
+<property type="entry name" value="Ni-dep_hyd_lsu"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018194">
+<property type="entry name" value="Ni-dep_hyd_lsu_Ni_BS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029014">
+<property type="entry name" value="NiFe-Hase_large"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00374">
+<property type="entry name" value="NiFeSe_Hases"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF56762">
+<property type="entry name" value="SSF56762"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00507">
+<property type="entry name" value="NI_HGENASE_L_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00508">
+<property type="entry name" value="NI_HGENASE_L_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0533">Nickel</keyword>
+<keyword id="KW-0560">Oxidoreductase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="initiator methionine" description="Removed" evidence="6">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="chain" description="Hydrogenase-2 large chain" id="PRO_0000013407">
+<location>
+<begin position="2"/>
+<end position="552"/>
+</location>
+</feature>
+<feature type="propeptide" id="PRO_0000013408">
+<location>
+<begin position="553"/>
+<end position="567"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Nickel" evidence="5">
+<location>
+<position position="61"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Nickel" evidence="5">
+<location>
+<position position="64"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Nickel" evidence="5">
+<location>
+<position position="546"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Nickel" evidence="5">
+<location>
+<position position="549"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by HybD">
+<location>
+<begin position="552"/>
+<end position="553"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="3"/>
+<end position="7"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="12"/>
+<end position="15"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="17"/>
+<end position="24"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="27"/>
+<end position="35"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="41"/>
+<end position="45"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="50"/>
+<end position="52"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="53"/>
+<end position="57"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="58"/>
+<end position="60"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="62"/>
+<end position="64"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="67"/>
+<end position="80"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="86"/>
+<end position="109"/>
+</location>
+</feature>
+<feature type="turn" evidence="3">
+<location>
+<begin position="110"/>
+<end position="112"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="113"/>
+<end position="115"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="119"/>
+<end position="122"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="127"/>
+<end position="133"/>
+</location>
+</feature>
+<feature type="turn" evidence="3">
+<location>
+<begin position="134"/>
+<end position="137"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="145"/>
+<end position="160"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="165"/>
+<end position="167"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="181"/>
+<end position="209"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="210"/>
+<end position="214"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="237"/>
+<end position="247"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="248"/>
+<end position="250"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="251"/>
+<end position="256"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="258"/>
+<end position="268"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="270"/>
+<end position="273"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="282"/>
+<end position="284"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="287"/>
+<end position="289"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="291"/>
+<end position="294"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="297"/>
+<end position="299"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="301"/>
+<end position="305"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="309"/>
+<end position="311"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="313"/>
+<end position="315"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="321"/>
+<end position="326"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="327"/>
+<end position="330"/>
+</location>
+</feature>
+<feature type="turn" evidence="3">
+<location>
+<begin position="332"/>
+<end position="335"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="344"/>
+<end position="346"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="363"/>
+<end position="365"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="367"/>
+<end position="370"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="376"/>
+<end position="378"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="379"/>
+<end position="388"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="392"/>
+<end position="409"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="415"/>
+<end position="418"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="421"/>
+<end position="451"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="468"/>
+<end position="477"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="480"/>
+<end position="489"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="492"/>
+<end position="499"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="501"/>
+<end position="506"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="517"/>
+<end position="522"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="534"/>
+<end position="542"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="547"/>
+<end position="551"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="6EHQ"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="6G7M"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="6GAM"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000250"/>
+<evidence key="5" type="ECO:0000255"/>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9738917"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000305"/>
+<sequence length="567" mass="62491" checksum="A19E6F513390F29E" modified="2007-01-23" version="2" precursor="true">MSQRITIDPVTRIEGHLRIDCEIENGVVSKAWASGTMWRGMEEIVKNRDPRDAWMIVQRICGVCTTTHALSSVRAAESALNIDVPVNAQYIRNIILAAHTTHDHIVHFYQLSALDWVDITSALQADPTKASEMLKGVSTWHLNSPEEFTKVQNKIKDLVASGQLGIFANGYWGHPAMKLPPEVNLIAVAHYLQALECQRDANRVVALLGGKTPHIQNLAVGGVANPINLDGLGVLNLERLMYIKSFIDKLSDFVEQVYKVDTAVIAAFYPEWLTRGKGAVNYLSVPEFPTDSKNGSFLFPGGYIENADLSSYRPITSHSDEYLIKGIQESAKHSWYKDEAPQAPWEGTTIPAYDGWSDDGKYSWVKSPTFYGKTVEVGPLANMLVKLAAGRESTQNKLNEIVAIYQKLTGNTLEVAQLHSTLGRIIGRTVHCCELQDILQNQYSALITNIGKGDHTTFVKPNIPATGEFKGVGFLEAPRGMLSHWMVIKDGIISNYQAVVPSTWNSGPRNFNDDVGPYEQSLVGTPVADPNKPLEVVRTIHSFDPCMACAVHVVDADGNEVVSVKVL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

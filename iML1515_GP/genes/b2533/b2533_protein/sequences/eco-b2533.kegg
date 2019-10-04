@@ -1,17 +1,18 @@
 ENTRY       b2533             CDS       T00007
 NAME        suhB
-DEFINITION  (RefSeq) inositol monophosphatase
+DEFINITION  (RefSeq) inositol-phosphate phosphatase
 ORTHOLOGY   K01092  myo-inositol-1(or 4)-monophosphatase [EC:3.1.3.25]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00521  Streptomycin biosynthesis
             eco00562  Inositol phosphate metabolism
             eco01100  Metabolic pathways
+            eco01130  Biosynthesis of antibiotics
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00562 Inositol phosphate metabolism
                 b2533 (suhB)
-              Biosynthesis of other secondary metabolites
+              09110 Biosynthesis of other secondary metabolites
                00521 Streptomycin biosynthesis
                 b2533 (suhB)
             Enzymes [BR:eco01000]
@@ -22,14 +23,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2533 (suhB)
 POSITION    2663442..2664245
 MOTIF       Pfam: Inositol_P FBPase FBPase_glpX
-DBLINKS     NCBI-ProteinID: NP_417028
-            NCBI-GeneID: 947285
+DBLINKS     NCBI-GeneID: 947285
+            NCBI-ProteinID: NP_417028
             Pasteur: suhB
-            EcoGene: EG10983
+            RegulonDB: ECK120000972
             ECOCYC: EG10983
             ASAP: ABE-0008337
             UniProt: P0ADG4
-STRUCTURE   PDB: 2QFL
+STRUCTURE   PDB: 6IB8 2QFL 6IB7
 AASEQ       267
             MHPMLNIAVRAARKAGNLIAKNYETPDAVEASQKGSNDFVTNVDKAAEAVIIDTIRKSYP
             QHTIITEESGELEGTDQDVQWVIDPLDGTTNFIKRLPHFAVSIAVRIKGRTEVAVVYDPM

@@ -1,14 +1,18 @@
 ENTRY       b1764             CDS       T00007
 NAME        selD
-DEFINITION  (RefSeq) selenophosphate synthase
+DEFINITION  (RefSeq) selenide, water dikinase
 ORTHOLOGY   K01008  selenide, water dikinase [EC:2.7.9.3]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00450  Selenocompound metabolism
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of other amino acids
+             09100 Metabolism
+              09106 Metabolism of other amino acids
                00450 Selenocompound metabolism
+                b1764 (selD)
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               03016 Transfer RNA biogenesis [BR:eco03016]
                 b1764 (selD)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -17,18 +21,18 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 2.7.9.3  selenide, water dikinase
                  b1764 (selD)
             Transfer RNA biogenesis [BR:eco03016]
-             Eukaryotic Type
+             Eukaryotic type
               tRNA modification factors
                Other tRNA modification factors
                 b1764 (selD)
-             Prokaryotic Type
+             Prokaryotic type
                 b1764 (selD)
 POSITION    complement(1846965..1848008)
 MOTIF       Pfam: AIRS_C AIRS
-DBLINKS     NCBI-ProteinID: NP_416278
-            NCBI-GeneID: 946768
+DBLINKS     NCBI-GeneID: 946768
+            NCBI-ProteinID: NP_416278
             Pasteur: selD
-            EcoGene: EG10943
+            RegulonDB: ECK120000932
             ECOCYC: EG10943
             ASAP: ABE-0005872
             UniProt: P16456

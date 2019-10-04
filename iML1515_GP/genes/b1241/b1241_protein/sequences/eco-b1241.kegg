@@ -1,6 +1,6 @@
 ENTRY       b1241             CDS       T00007
 NAME        adhE
-DEFINITION  (RefSeq) fused acetaldehyde-CoA dehydrogenase/iron-dependent alcohol dehydrogenase/pyruvate-formate lyase deactivase
+DEFINITION  (RefSeq) aldehyde-alcohol dehydrogenase
 ORTHOLOGY   K04072  acetaldehyde dehydrogenase / alcohol dehydrogenase [EC:1.2.1.10 1.1.1.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00010  Glycolysis / Gluconeogenesis
@@ -16,24 +16,21 @@ PATHWAY     eco00010  Glycolysis / Gluconeogenesis
             eco01130  Biosynthesis of antibiotics
             eco01220  Degradation of aromatic compounds
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01220 Degradation of aromatic compounds
-                b1241 (adhE)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
                 b1241 (adhE)
                00620 Pyruvate metabolism
                 b1241 (adhE)
                00650 Butanoate metabolism
                 b1241 (adhE)
-              Lipid metabolism
+              09103 Lipid metabolism
                00071 Fatty acid degradation
                 b1241 (adhE)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00350 Tyrosine metabolism
                 b1241 (adhE)
-              Xenobiotics biodegradation and metabolism
+              09111 Xenobiotics biodegradation and metabolism
                00625 Chloroalkane and chloroalkene degradation
                 b1241 (adhE)
                00626 Naphthalene degradation
@@ -50,14 +47,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1241 (adhE)
 POSITION    complement(1295446..1298121)
 MOTIF       Pfam: Fe-ADH Aldedh Fe-ADH_2 HTH_AsnC-type
-DBLINKS     NCBI-ProteinID: NP_415757
-            NCBI-GeneID: 945837
+DBLINKS     NCBI-GeneID: 945837
+            NCBI-ProteinID: NP_415757
             Pasteur: adhE
             RegulonDB: ECK120000028
-            EcoGene: EG10031
             ECOCYC: EG10031
             ASAP: ABE-0004164
             UniProt: P0A9Q7
+STRUCTURE   PDB: 6AHC
 AASEQ       891
             MAVTNVAELNALVERVKKAQREYASFTQEQVDKIFRAAALAAADARIPLAKMAVAESGMG
             IVEDKVIKNHFASEYIYNAYKDEKTCGVLSEDDTFGTITIAEPIGIICGIVPTTNPTSTA

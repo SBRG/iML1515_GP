@@ -1,31 +1,34 @@
 ENTRY       b3751             CDS       T00007
 NAME        rbsB
-DEFINITION  (RefSeq) D-ribose transporter subunit
+DEFINITION  (RefSeq) ribose ABC transporter periplasmic binding protein
 ORTHOLOGY   K10439  ribose transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
             eco02030  Bacterial chemotaxis
-MODULE      eco_M00212  Ribose transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b3751 (rbsB)
-             Cellular Processes
-              Cell motility
+             09140 Cellular Processes
+              09142 Cell motility
                02030 Bacterial chemotaxis
                 b3751 (rbsB)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3751 (rbsB)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Saccharide, polyol, and lipid transporters
-               Ribose transporter [MD:M00212] [OT]
+               Ribose transporter
                 b3751 (rbsB)
 POSITION    3936278..3937168
-MOTIF       Pfam: Peripla_BP_4 Peripla_BP_1 Peripla_BP_3 Peripla_BP_6 PucR YopH_N
-DBLINKS     NCBI-ProteinID: NP_418207
-            NCBI-GeneID: 948261
+MOTIF       Pfam: Peripla_BP_4 Peripla_BP_1 Peripla_BP_3 Peripla_BP_6 PucR
+DBLINKS     NCBI-GeneID: 948261
+            NCBI-ProteinID: NP_418207
             Pasteur: rbsB
-            EcoGene: EG10815
+            RegulonDB: ECK120000806
             ECOCYC: EG10815
             ASAP: ABE-0012264
             UniProt: P02925

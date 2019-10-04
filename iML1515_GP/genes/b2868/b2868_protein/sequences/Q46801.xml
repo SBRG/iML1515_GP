@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2002-05-02" modified="2019-09-18" version="135">
+<accession>Q46801</accession>
+<accession>Q2M9X2</accession>
+<name>XDHC_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>Putative xanthine dehydrogenase iron-sulfur-binding subunit XdhC</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">xdhC</name>
+<name type="synonym">ygeU</name>
+<name type="ordered locus">b2868</name>
+<name type="ordered locus">JW2836</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2000" name="J. Bacteriol." volume="182" first="5332" last="5341">
+<title>Purine catabolism in Escherichia coli and function of xanthine dehydrogenase in purine salvage.</title>
+<authorList>
+<person name="Xi H."/>
+<person name="Schneider B.L."/>
+<person name="Reitzer L."/>
+</authorList>
+<dbReference type="PubMed" id="10986234"/>
+<dbReference type="DOI" id="10.1128/jb.182.19.5332-5341.2000"/>
+</citation>
+<scope>DISCUSSION OF FUNCTION</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<comment type="function">
+<text>Iron-sulfur subunit of the xanthine dehydrogenase complex.</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>[2Fe-2S] cluster</name>
+<dbReference type="ChEBI" id="CHEBI:49601"/>
+</cofactor>
+<text evidence="1">Binds 2 [2Fe-2S] clusters.</text>
+</comment>
+<comment type="pathway">
+<text>Purine metabolism; hypoxanthine degradation; urate from hypoxanthine: step 1/2.</text>
+</comment>
+<comment type="subunit">
+<text evidence="3">Heterotrimer of XdhA, XdhB and XdhC.</text>
+</comment>
+<dbReference type="EMBL" id="U28375">
+<property type="protein sequence ID" value="AAA83049.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC75906.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE76934.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="D65070">
+<property type="entry name" value="D65070"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_417344.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_001016605.1">
+<property type="nucleotide sequence ID" value="NZ_STEB01000001.1"/>
+</dbReference>
+<dbReference type="SMR" id="Q46801"/>
+<dbReference type="BioGrid" id="4262321">
+<property type="interactions" value="8"/>
+</dbReference>
+<dbReference type="BioGrid" id="849536">
+<property type="interactions" value="2"/>
+</dbReference>
+<dbReference type="IntAct" id="Q46801">
+<property type="interactions" value="4"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b2868"/>
+<dbReference type="PaxDb" id="Q46801"/>
+<dbReference type="PRIDE" id="Q46801"/>
+<dbReference type="EnsemblBacteria" id="AAC75906">
+<property type="protein sequence ID" value="AAC75906"/>
+<property type="gene ID" value="b2868"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE76934">
+<property type="protein sequence ID" value="BAE76934"/>
+<property type="gene ID" value="BAE76934"/>
+</dbReference>
+<dbReference type="GeneID" id="945148"/>
+<dbReference type="KEGG" id="ecj:JW2836"/>
+<dbReference type="KEGG" id="eco:b2868"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.3866"/>
+<dbReference type="EchoBASE" id="EB2863"/>
+<dbReference type="EcoGene" id="EG13051">
+<property type="gene designation" value="xdhC"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4108UTP">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG2080">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000166647"/>
+<dbReference type="InParanoid" id="Q46801"/>
+<dbReference type="KO" id="K13480"/>
+<dbReference type="PhylomeDB" id="Q46801"/>
+<dbReference type="BioCyc" id="EcoCyc:G7487-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW2836-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:G7487-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00604">
+<property type="reaction ID" value="UER00661"/>
+</dbReference>
+<dbReference type="PRO" id="PR:Q46801"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051537">
+<property type="term" value="F:2 iron, 2 sulfur cluster binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009055">
+<property type="term" value="F:electron transfer activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009114">
+<property type="term" value="P:hypoxanthine catabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006166">
+<property type="term" value="P:purine ribonucleoside salvage"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="CDD" id="cd00207">
+<property type="entry name" value="fer2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.10.20.30">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002888">
+<property type="entry name" value="2Fe-2S-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036884">
+<property type="entry name" value="2Fe-2S-bd_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036010">
+<property type="entry name" value="2Fe-2S_ferredoxin-like_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001041">
+<property type="entry name" value="2Fe-2S_ferredoxin-type"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012675">
+<property type="entry name" value="Beta-grasp_dom_sf"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00111">
+<property type="entry name" value="Fer2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01799">
+<property type="entry name" value="Fer2_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF47741">
+<property type="entry name" value="SSF47741"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF54292">
+<property type="entry name" value="SSF54292"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51085">
+<property type="entry name" value="2FE2S_FER_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0001">2Fe-2S</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0408">Iron</keyword>
+<keyword id="KW-0411">Iron-sulfur</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0659">Purine metabolism</keyword>
+<keyword id="KW-0660">Purine salvage</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Putative xanthine dehydrogenase iron-sulfur-binding subunit XdhC" id="PRO_0000189412">
+<location>
+<begin position="1"/>
+<end position="159"/>
+</location>
+</feature>
+<feature type="domain" description="2Fe-2S ferredoxin-type" evidence="2">
+<location>
+<begin position="7"/>
+<end position="82"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur (2Fe-2S)" evidence="2">
+<location>
+<position position="44"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur (2Fe-2S)" evidence="2">
+<location>
+<position position="49"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur (2Fe-2S)" evidence="2">
+<location>
+<position position="52"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00465"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="159" mass="16922" checksum="B29F77F0DC06798C" modified="1996-11-01" version="1">MNHSETITIECTINGMPFQLHAAPGTPLSELLREQGLLSVKQGCCVGECGACTVLVDGTAIDSCLYLAAWAEGKEIRTLEGEAKGGKLSHVQQAYAKSGAVQCGFCTPGLIMATTAMLAKPREKPLTITEIRRGLAGNLCRCTGYQMIVNTVLDCEKTK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

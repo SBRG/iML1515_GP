@@ -1,6 +1,6 @@
 ENTRY       b3771             CDS       T00007
 NAME        ilvD
-DEFINITION  (RefSeq) dihydroxyacid dehydratase
+DEFINITION  (RefSeq) dihydroxy-acid dehydratase
 ORTHOLOGY   K01687  dihydroxy-acid dehydratase [EC:4.2.1.9]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00290  Valine, leucine and isoleucine biosynthesis
@@ -13,16 +13,11 @@ PATHWAY     eco00290  Valine, leucine and isoleucine biosynthesis
 MODULE      eco_M00019  Valine/isoleucine biosynthesis, pyruvate => valine / 2-oxobutanoate => isoleucine
             eco_M00570  Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01210 2-Oxocarboxylic acid metabolism
-                b3771 (ilvD)
-               01230 Biosynthesis of amino acids
-                b3771 (ilvD)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00290 Valine, leucine and isoleucine biosynthesis
                 b3771 (ilvD)
-              Metabolism of cofactors and vitamins
+              09108 Metabolism of cofactors and vitamins
                00770 Pantothenate and CoA biosynthesis
                 b3771 (ilvD)
             Enzymes [BR:eco01000]
@@ -33,9 +28,9 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3771 (ilvD)
 POSITION    3953478..3955328
 MOTIF       Pfam: ILVD_EDD
-DBLINKS     NCBI-ProteinID: YP_026248
-            NCBI-GeneID: 948277
-            EcoGene: EG10496
+DBLINKS     NCBI-GeneID: 948277
+            NCBI-ProteinID: YP_026248
+            RegulonDB: ECK120000489
             ECOCYC: EG10496
             ASAP: ABE-0012318
             UniProt: P05791

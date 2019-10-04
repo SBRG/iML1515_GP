@@ -1,26 +1,29 @@
 ENTRY       b1223             CDS       T00007
 NAME        narK
-DEFINITION  (RefSeq) nitrate/nitrite transporter
+DEFINITION  (RefSeq) nitrate:nitrite antiporter NarK
 ORTHOLOGY   K02575  MFS transporter, NNP family, nitrate/nitrite transporter
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00910  Nitrogen metabolism
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00910 Nitrogen metabolism
                 b1223 (narK)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1223 (narK)
             Transporters [BR:eco02000]
-             Major Facilitator Superfamily (MFS)
+             Major facilitator superfamily (MFS)
               Nitrate/nitrite transporters
                Nitrate/nitrite porter (NNP) family [TC:2.A.1.8]
                 b1223 (narK)
 POSITION    1277957..1279348
 MOTIF       Pfam: MFS_1
-DBLINKS     NCBI-ProteinID: NP_415741
-            NCBI-GeneID: 945783
+DBLINKS     NCBI-GeneID: 945783
+            NCBI-ProteinID: NP_415741
             Pasteur: narK
             RegulonDB: ECK120000635
-            EcoGene: EG10642
             ECOCYC: EG10642
             ASAP: ABE-0004111
             UniProt: P10903

@@ -1,13 +1,13 @@
 ENTRY       b1603             CDS       T00007
 NAME        pntA
-DEFINITION  (RefSeq) pyridine nucleotide transhydrogenase, alpha subunit
-ORTHOLOGY   K00324  NAD(P) transhydrogenase subunit alpha [EC:1.6.1.2]
+DEFINITION  (RefSeq) pyridine nucleotide transhydrogenase subunit alpha
+ORTHOLOGY   K00324  H+-translocating NAD(P) transhydrogenase subunit alpha [EC:1.6.1.2 7.1.1.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00760  Nicotinate and nicotinamide metabolism
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00760 Nicotinate and nicotinamide metabolism
                 b1603 (pntA)
             Enzymes [BR:eco01000]
@@ -16,13 +16,17 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                1.6.1  With NAD+ or NADP+ as acceptor
                 1.6.1.2  NAD(P)+ transhydrogenase (Re/Si-specific)
                  b1603 (pntA)
+             7. Translocases
+              7.1  Catalysing the translocation of hydrons
+               7.1.1  Linked to oxidoreductase reactions
+                7.1.1.1  proton-translocating NAD(P)+ transhydrogenase
+                 b1603 (pntA)
 POSITION    complement(1676371..1677903)
-MOTIF       Pfam: AlaDh_PNT_C AlaDh_PNT_N PNTB_4TM 2-Hacid_dh_C ADH_zinc_N Pyr_redox_2 DUF3392 Pyr_redox
-DBLINKS     NCBI-ProteinID: NP_416120
-            NCBI-GeneID: 946628
+MOTIF       Pfam: AlaDh_PNT_C AlaDh_PNT_N PNTB_4TM 2-Hacid_dh_C Pyr_redox_2 ADH_zinc_N DUF3392 Pyr_redox
+DBLINKS     NCBI-GeneID: 946628
+            NCBI-ProteinID: NP_416120
             Pasteur: pntA
             RegulonDB: ECK120000735
-            EcoGene: EG10744
             ECOCYC: EG10744
             ASAP: ABE-0005354
             UniProt: P07001

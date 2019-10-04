@@ -1,20 +1,25 @@
 ENTRY       b0462             CDS       T00007
 NAME        acrB
-DEFINITION  (RefSeq) multidrug efflux system protein
+DEFINITION  (RefSeq) multidrug efflux pump RND permease AcrB
 ORTHOLOGY   K18138  multidrug efflux pump
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco01501  beta-Lactam resistance
             eco01503  Cationic antimicrobial peptide (CAMP) resistance
-MODULE      eco_M00647  Multidrug resistance, efflux pump AcrAB-TolC/SmeDEF
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01501 beta-Lactam resistance
                 b0462 (acrB)
                01503 Cationic antimicrobial peptide (CAMP) resistance
                 b0462 (acrB)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0462 (acrB)
+               01504 Antimicrobial resistance genes [BR:eco01504]
+                b0462 (acrB)
             Transporters [BR:eco02000]
-             Other Transporters
+             Other transporters
               Electrochemical potential-driven transporters [TC:2]
                b0462 (acrB)
             Antimicrobial resistance genes [BR:eco01504]
@@ -24,20 +29,20 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 b0462 (acrB)
 POSITION    complement(481254..484403)
 MOTIF       Pfam: ACR_tran MMPL SecD_SecF
-DBLINKS     NCBI-ProteinID: NP_414995
-            NCBI-GeneID: 945108
+DBLINKS     NCBI-GeneID: 945108
+            NCBI-ProteinID: NP_414995
             Pasteur: acrB
             RegulonDB: ECK120001647
-            EcoGene: EG11704
             ECOCYC: EG11704
             ASAP: ABE-0001601
             UniProt: P31224
 STRUCTURE   PDB: 5ENQ 5ENP 4DX5 4U95 4U8Y 5ENO 4U96 4DX7 5EN5 5ENR 4U8V
-                 5JMN 5ENT 2J8S 3NOC 5ENS 2DHH 4DX6 2GIF 2HRT 3W9H 1T9X
-                 2I6W 2DRD 1T9U 4ZIV 1T9T 1T9W 4ZLJ 4ZIT 4C48 3AOD 2DR6
-                 3AOC 3NOG 3AOA 3AOB 4ZLL 2HQF 2HQG 4ZIW 3D9B 4ZJL 1OYE
-                 4K7Q 2RDD 1IWG 4ZLN 2HQC 4ZJQ 4ZJO 1OY8 1T9Y 2HQD 1OY6
-                 4CDI 1T9V 1OY9 1OYD 2W1B
+                 5JMN 5ENT 2J8S 3NOC 5ENS 2DHH 4DX6 2GIF 6CSX 5YIL 2HRT
+                 3W9H 1T9X 2I6W 2DRD 1T9U 4ZIV 6BAJ 5NC5 1T9T 1T9W 4ZLJ
+                 4ZIT 4C48 3AOD 2DR6 3AOC 3NOG 3AOA 3AOB 4ZLL 2HQF 2HQG
+                 4ZIW 3D9B 4ZJL 1OYE 4K7Q 2RDD 1IWG 4ZLN 2HQC 4ZJQ 4ZJO
+                 1OY8 1T9Y 2HQD 1OY6 4CDI 1T9V 1OY9 1OYD 2W1B 6NZI 5O66
+                 5NG5 5V5S
 AASEQ       1049
             MPNFFIDRPIFAWVIAIIIMLAGGLAILKLPVAQYPTIAPPAVTISASYPGADAKTVQDT
             VTQVIEQNMNGIDNLMYMSSNSDSTGTVQITLTFESGTDADIAQVQVQNKLQLAMPLLPQ

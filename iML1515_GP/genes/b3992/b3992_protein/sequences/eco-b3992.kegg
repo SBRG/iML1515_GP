@@ -1,18 +1,18 @@
 ENTRY       b3992             CDS       T00007
 NAME        thiF
-DEFINITION  (RefSeq) adenylyltransferase, modifies ThiS C-terminus
+DEFINITION  (RefSeq) ThiS adenylyltransferase
 ORTHOLOGY   K03148  sulfur carrier protein ThiS adenylyltransferase [EC:2.7.7.73]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00730  Thiamine metabolism
             eco01100  Metabolic pathways
             eco04122  Sulfur relay system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00730 Thiamine metabolism
                 b3992 (thiF)
-             Genetic Information Processing
-              Folding, sorting and degradation
+             09120 Genetic Information Processing
+              09123 Folding, sorting and degradation
                04122 Sulfur relay system
                 b3992 (thiF)
             Enzymes [BR:eco01000]
@@ -23,10 +23,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3992 (thiF)
 POSITION    complement(4192821..4193576)
 MOTIF       Pfam: ThiF Sacchrp_dh_NADP NAD_binding_7 Shikimate_DH 2-Hacid_dh_C UDPG_MGDP_dh_N ApbA FAD_binding_3
-DBLINKS     NCBI-ProteinID: NP_418420
-            NCBI-GeneID: 948500
+DBLINKS     NCBI-GeneID: 948500
+            NCBI-ProteinID: NP_418420
             Pasteur: thiF
-            EcoGene: EG11587
+            RegulonDB: ECK120001537
             ECOCYC: EG11587
             ASAP: ABE-0013053
             UniProt: P30138

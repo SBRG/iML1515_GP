@@ -1,27 +1,29 @@
 ENTRY       b0592             CDS       T00007
 NAME        fepB
-DEFINITION  (RefSeq) iron-enterobactin transporter subunit
-ORTHOLOGY   K02016  iron complex transport system substrate-binding protein
+DEFINITION  (RefSeq) ferric enterobactin ABC transporter periplasmic binding protein
+ORTHOLOGY   K23185  ferric enterobactin transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00240  Iron complex transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b0592 (fepB)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0592 (fepB)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Metallic cation, iron-siderophore and vitamin B12 transporters
-               Iron complex transporter [MD:M00240]
+               Ferric enterobactin transporter
                 b0592 (fepB)
 POSITION    complement(623554..624510)
 MOTIF       Pfam: Peripla_BP_2
-DBLINKS     NCBI-ProteinID: NP_415124
-            NCBI-GeneID: 947538
+DBLINKS     NCBI-GeneID: 947538
+            NCBI-ProteinID: NP_415124
             Pasteur: fepB
             RegulonDB: ECK120000288
-            EcoGene: EG10294
             ECOCYC: EG10294
             ASAP: ABE-0002038
             UniProt: P0AEL6

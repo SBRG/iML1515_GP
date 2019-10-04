@@ -1,12 +1,23 @@
 ENTRY       b3875             CDS       T00007
 NAME        ompL
-DEFINITION  (RefSeq) outer membrane porin L
+DEFINITION  (RefSeq) putative outer membrane porin L
+ORTHOLOGY   K22110  oligogalacturonate-specific porin family protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3875 (ompL)
+            Transporters [BR:eco02000]
+             Other transporters
+              Pores ion channels [TC:1]
+               b3875 (ompL)
 POSITION    complement(4063603..4064295)
-MOTIF       Pfam: KdgM BBP2 OMP_b-brl
-DBLINKS     NCBI-ProteinID: NP_418311
-            NCBI-GeneID: 948366
-            EcoGene: EG13374
+MOTIF       Pfam: KdgM BBP2 OMP_b-brl Porin_OmpG
+DBLINKS     NCBI-GeneID: 948366
+            NCBI-ProteinID: NP_418311
+            Pasteur: yshA
+            RegulonDB: ECK120004316
             ECOCYC: G7814
             ASAP: ABE-0012659
             UniProt: P76773

@@ -1,21 +1,18 @@
 ENTRY       b1479             CDS       T00007
 NAME        maeA
-DEFINITION  (RefSeq) malate dehydrogenase, (decarboxylating, NAD-requiring) (malic enzyme)
+DEFINITION  (RefSeq) malate dehydrogenase, NAD-requiring
 ORTHOLOGY   K00027  malate dehydrogenase (oxaloacetate-decarboxylating) [EC:1.1.1.38]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00620  Pyruvate metabolism
             eco01200  Carbon metabolism
             eco02020  Two-component system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b1479 (maeA)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00620 Pyruvate metabolism
                 b1479 (maeA)
-             Environmental Information Processing
-              Signal transduction
+             09130 Environmental Information Processing
+              09132 Signal transduction
                02020 Two-component system
                 b1479 (maeA)
             Enzymes [BR:eco01000]
@@ -26,13 +23,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1479 (maeA)
 POSITION    complement(1553972..1555669)
 MOTIF       Pfam: Malic_M malic
-DBLINKS     NCBI-ProteinID: NP_415996
-            NCBI-GeneID: 946031
+DBLINKS     NCBI-GeneID: 946031
+            NCBI-ProteinID: NP_415996
+            Pasteur: sfcA
             RegulonDB: ECK120000937
-            EcoGene: EG10948
             ECOCYC: EG10948
             ASAP: ABE-0004931
             UniProt: P26616
+STRUCTURE   PDB: 6AGS
 AASEQ       565
             MEPKTKKQRSLYIPYAGPVLLEFPLLNKGSAFSMEERRNFNLLGLLPEVVETIEEQAERA
             WIQYQGFKTEIDKHIYLRNIQDTNETLFYRLVNNHLDEMMPVIYTPTVGAACERFSEIYR

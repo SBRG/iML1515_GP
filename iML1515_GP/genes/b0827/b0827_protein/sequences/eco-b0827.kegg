@@ -1,13 +1,14 @@
 ENTRY       b0827             CDS       T00007
 NAME        moeA
-DEFINITION  (RefSeq) molybdopterin molybdenumtransferase; molybdopterin biosynthesis protein
+DEFINITION  (RefSeq) molybdopterin molybdotransferase
 ORTHOLOGY   K03750  molybdopterin molybdotransferase [EC:2.10.1.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00790  Folate biosynthesis
             eco01100  Metabolic pathways
+MODULE      eco_M00880  Molybdenum cofactor biosynthesis, GTP => molybdenum cofactor
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00790 Folate biosynthesis
                 b0827 (moeA)
             Enzymes [BR:eco01000]
@@ -18,10 +19,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0827 (moeA)
 POSITION    complement(865129..866364)
 MOTIF       Pfam: MoeA_N MoCF_biosynth MoeA_C
-DBLINKS     NCBI-ProteinID: NP_415348
-            NCBI-GeneID: 945454
+DBLINKS     NCBI-GeneID: 945454
+            NCBI-ProteinID: NP_415348
             Pasteur: moeA
-            EcoGene: EG10153
+            RegulonDB: ECK120000149
             ECOCYC: EG10153
             ASAP: ABE-0002823
             UniProt: P12281

@@ -1,27 +1,39 @@
 ENTRY       b1192             CDS       T00007
 NAME        ldcA
-DEFINITION  (RefSeq) murein tetrapeptide carboxypeptidase; LD-carboxypeptidase A
+DEFINITION  (RefSeq) murein L,D-carboxypeptidase
 ORTHOLOGY   K01297  muramoyltetrapeptide carboxypeptidase [EC:3.4.17.13]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors [BR:eco01002]
+                b1192 (ldcA)
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+                b1192 (ldcA)
+            Enzymes [BR:eco01000]
              3. Hydrolases
               3.4  Acting on peptide bonds (peptidases)
                3.4.17  Metallocarboxypeptidases
                 3.4.17.13  muramoyltetrapeptide carboxypeptidase
                  b1192 (ldcA)
-            Peptidases [BR:eco01002]
-             Serine Peptidases
+            Peptidases and inhibitors [BR:eco01002]
+             Serine peptidases
               Family S66
                b1192 (ldcA)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Precursor biosynthesis
+              Carboxypeptidase
+               b1192 (ldcA)
 POSITION    complement(1242166..1243080)
-MOTIF       Pfam: Peptidase_S66
-DBLINKS     NCBI-ProteinID: NP_415710
-            NCBI-GeneID: 945756
+MOTIF       Pfam: Peptidase_S66C Peptidase_S66 DNA_pol_viral_N
+DBLINKS     NCBI-GeneID: 945756
+            NCBI-ProteinID: NP_415710
+            Pasteur: ycgQ
             RegulonDB: ECK120003216
-            EcoGene: EG13898
             ECOCYC: G6621
             ASAP: ABE-0004002
             UniProt: P76008
+STRUCTURE   PDB: 5Z01 5Z03
 AASEQ       304
             MSLFHLIAPSGYCIKQHAALRGIQRLTDAGHQVNNVEVIARRCERFAGTETERLEDLNSL
             ARLTTPNTIVLAVRGGYGASRLLADIDWQALVARQQHDPLLICGHSDFTAIQCGLLAHGN

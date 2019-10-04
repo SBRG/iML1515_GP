@@ -1,17 +1,23 @@
 ENTRY       b0054             CDS       T00007
 NAME        lptD
-DEFINITION  (RefSeq) LPS assembly OM complex LptDE, beta-barrel component
+DEFINITION  (RefSeq) lipopolysaccharide assembly protein LptD
 ORTHOLOGY   K04744  LPS-assembly protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0054 (lptD)
+            Transporters [BR:eco02000]
+             Other transporters
               Pores ion channels [TC:1]
                b0054 (lptD)
 POSITION    complement(54755..57109)
-MOTIF       Pfam: OstA_C OstA YfaZ
-DBLINKS     NCBI-ProteinID: NP_414596
-            NCBI-GeneID: 945011
-            EcoGene: EG11569
+MOTIF       Pfam: LptD OstA YfaZ
+DBLINKS     NCBI-GeneID: 945011
+            NCBI-ProteinID: NP_414596
+            Pasteur: imp
+            RegulonDB: ECK120001521
             ECOCYC: EG11569
             ASAP: ABE-0000183
             UniProt: P31554

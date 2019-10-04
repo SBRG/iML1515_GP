@@ -1,15 +1,29 @@
 ENTRY       b4392             CDS       T00007
 NAME        slt
-DEFINITION  (RefSeq) lytic murein transglycosylase, soluble
+DEFINITION  (RefSeq) soluble lytic murein transglycosylase
 ORTHOLOGY   K08309  soluble lytic murein transglycosylase [EC:4.2.2.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+                b4392 (slt)
+            Enzymes [BR:eco01000]
+             4. Lyases
+              4.2  Carbon-oxygen lyases
+               4.2.2  Acting on polysaccharides
+                4.2.2.-  
+                 b4392 (slt)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              Lytic transglycosylase
+               b4392 (slt)
 POSITION    4630733..4632670
-MOTIF       Pfam: SLT SLT_L TPR_19
-DBLINKS     NCBI-ProteinID: NP_418809
-            NCBI-GeneID: 948908
+MOTIF       Pfam: SLT SLT_L Cucumo_coat TPR_19
+DBLINKS     NCBI-GeneID: 948908
+            NCBI-ProteinID: NP_418809
             Pasteur: slt
             RegulonDB: ECK120000939
-            EcoGene: EG10950
             ECOCYC: EG10950
             ASAP: ABE-0014404
             UniProt: P0AGC3

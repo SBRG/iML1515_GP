@@ -1,12 +1,13 @@
 ENTRY       b3223             CDS       T00007
 NAME        nanE
-DEFINITION  (RefSeq) putative N-acetylmannosamine-6-P epimerase
+DEFINITION  (RefSeq) putative N-acetylmannosamine-6-phosphate epimerase
 ORTHOLOGY   K01788  N-acylglucosamine-6-phosphate 2-epimerase [EC:5.1.3.9]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00520  Amino sugar and nucleotide sugar metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00520 Amino sugar and nucleotide sugar metabolism
                 b3223 (nanE)
             Enzymes [BR:eco01000]
@@ -17,10 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3223 (nanE)
 POSITION    complement(3370347..3371036)
 MOTIF       Pfam: NanE IGPS Pantoate_transf
-DBLINKS     NCBI-ProteinID: NP_417690
-            NCBI-GeneID: 947745
+DBLINKS     NCBI-GeneID: 947745
+            NCBI-ProteinID: NP_417690
+            Pasteur: yhcJ
             RegulonDB: ECK120004224
-            EcoGene: EG12816
             ECOCYC: G7677
             ASAP: ABE-0010575
             UniProt: P0A761

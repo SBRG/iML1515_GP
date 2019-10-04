@@ -1,12 +1,14 @@
 ENTRY       b0116             CDS       T00007
 NAME        lpd
-DEFINITION  (RefSeq) lipoamide dehydrogenase, E3 component is part of three enzyme complexes
+DEFINITION  (RefSeq) lipoamide dehydrogenase
 ORTHOLOGY   K00382  dihydrolipoamide dehydrogenase [EC:1.8.1.4]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00010  Glycolysis / Gluconeogenesis
             eco00020  Citrate cycle (TCA cycle)
             eco00260  Glycine, serine and threonine metabolism
             eco00280  Valine, leucine and isoleucine degradation
+            eco00310  Lysine degradation
+            eco00380  Tryptophan metabolism
             eco00620  Pyruvate metabolism
             eco00630  Glyoxylate and dicarboxylate metabolism
             eco00640  Propanoate metabolism
@@ -19,11 +21,8 @@ MODULE      eco_M00009  Citrate cycle (TCA cycle, Krebs cycle)
             eco_M00011  Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate
             eco_M00307  Pyruvate oxidation, pyruvate => acetyl-CoA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b0116 (lpd)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
                 b0116 (lpd)
                00020 Citrate cycle (TCA cycle)
@@ -34,10 +33,18 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 b0116 (lpd)
                00640 Propanoate metabolism
                 b0116 (lpd)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00260 Glycine, serine and threonine metabolism
                 b0116 (lpd)
                00280 Valine, leucine and isoleucine degradation
+                b0116 (lpd)
+               00310 Lysine degradation
+                b0116 (lpd)
+               00380 Tryptophan metabolism
+                b0116 (lpd)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               04147 Exosome [BR:eco04147]
                 b0116 (lpd)
             Enzymes [BR:eco01000]
              1. Oxidoreductases
@@ -50,11 +57,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
               Exosomal proteins of breast cancer cells
                b0116 (lpd)
 POSITION    127912..129336
-MOTIF       Pfam: Pyr_redox_2 Pyr_redox_dim Pyr_redox FAD_oxidored GIDA Pyr_redox_3 FAD_binding_2 HI0933_like AlaDh_PNT_C Thi4 FAD_binding_3 NAD_binding_8 Lycopene_cycl FMO-like
-DBLINKS     NCBI-ProteinID: NP_414658
-            NCBI-GeneID: 944854
+MOTIF       Pfam: Pyr_redox_2 Pyr_redox_dim Pyr_redox FAD_oxidored GIDA Pyr_redox_3 FAD_binding_2 HI0933_like AlaDh_PNT_C Thi4 NAD_binding_8 FAD_binding_3 Lycopene_cycl FMO-like
+DBLINKS     NCBI-GeneID: 944854
+            NCBI-ProteinID: NP_414658
             Pasteur: lpd
-            EcoGene: EG10543
+            RegulonDB: ECK120000536
             ECOCYC: EG10543
             ASAP: ABE-0000404
             UniProt: P0A9P0

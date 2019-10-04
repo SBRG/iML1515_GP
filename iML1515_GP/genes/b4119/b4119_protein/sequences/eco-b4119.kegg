@@ -1,17 +1,18 @@
 ENTRY       b4119             CDS       T00007
 NAME        melA
-DEFINITION  (RefSeq) alpha-galactosidase, NAD(P)-binding
+DEFINITION  (RefSeq) alpha-galactosidase
 ORTHOLOGY   K07406  alpha-galactosidase [EC:3.2.1.22]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00052  Galactose metabolism
             eco00561  Glycerolipid metabolism
             eco00600  Sphingolipid metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00052 Galactose metabolism
                 b4119 (melA)
-              Lipid metabolism
+              09103 Lipid metabolism
                00561 Glycerolipid metabolism
                 b4119 (melA)
                00600 Sphingolipid metabolism
@@ -24,10 +25,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b4119 (melA)
 POSITION    4341911..4343266
 MOTIF       Pfam: Glyco_hydro_4 Glyco_hydro_4C
-DBLINKS     NCBI-ProteinID: NP_418543
-            NCBI-GeneID: 948636
+DBLINKS     NCBI-GeneID: 948636
+            NCBI-ProteinID: NP_418543
             Pasteur: melA
-            EcoGene: EG10577
+            RegulonDB: ECK120000570
             ECOCYC: EG10577
             ASAP: ABE-0013493
             UniProt: P06720

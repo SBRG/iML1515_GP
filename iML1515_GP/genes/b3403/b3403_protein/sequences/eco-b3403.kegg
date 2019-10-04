@@ -1,6 +1,6 @@
 ENTRY       b3403             CDS       T00007
 NAME        pck
-DEFINITION  (RefSeq) phosphoenolpyruvate carboxykinase
+DEFINITION  (RefSeq) phosphoenolpyruvate carboxykinase (ATP)
 ORTHOLOGY   K01610  phosphoenolpyruvate carboxykinase (ATP) [EC:4.1.1.49]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00010  Glycolysis / Gluconeogenesis
@@ -13,11 +13,8 @@ PATHWAY     eco00010  Glycolysis / Gluconeogenesis
             eco01200  Carbon metabolism
 MODULE      eco_M00003  Gluconeogenesis, oxaloacetate => fructose-6P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b3403 (pck)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
                 b3403 (pck)
                00020 Citrate cycle (TCA cycle)
@@ -32,15 +29,15 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3403 (pck)
 POSITION    3532818..3534440
 MOTIF       Pfam: PEPCK_ATP AAA_33
-DBLINKS     NCBI-ProteinID: NP_417862
-            NCBI-GeneID: 945667
+DBLINKS     NCBI-GeneID: 945667
+            NCBI-ProteinID: NP_417862
             Pasteur: pck
             RegulonDB: ECK120000681
-            EcoGene: EG10688
             ECOCYC: EG10688
             ASAP: ABE-0011106
             UniProt: P22259
-STRUCTURE   PDB: 2OLR 1OS1 1AYL 1AQ2 1OEN 2OLQ 1K3C 1K3D 2PY7 2PXZ
+STRUCTURE   PDB: 6AT4 6AT2 6AT3 6ASM 6ASN 2OLR 6ASI 6D5I 6CU4 1OS1 1AYL
+                 1AQ2 1OEN 2OLQ 6CRT 1K3C 1K3D 2PY7 2PXZ 6COM
 AASEQ       540
             MRVNNGLTPQELEAYGISDVHDIVYNPSYDLLYQEELDPSLTGYERGVLTNLGAVAVDTG
             IFTGRSPKDKYIVRDDTTRDTFWWADKGKGKNDNKPLSPETWQHLKGLVTRQLSGKRLFV

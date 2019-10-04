@@ -1,18 +1,22 @@
 ENTRY       b0091             CDS       T00007
 NAME        murC
-DEFINITION  (RefSeq) UDP-N-acetylmuramate:L-alanine ligase
+DEFINITION  (RefSeq) UDP-N-acetylmuramate--L-alanine ligase
 ORTHOLOGY   K01924  UDP-N-acetylmuramate--alanine ligase [EC:6.3.2.8]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00471  D-Glutamine and D-glutamate metabolism
             eco00550  Peptidoglycan biosynthesis
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of other amino acids
+             09100 Metabolism
+              09106 Metabolism of other amino acids
                00471 D-Glutamine and D-glutamate metabolism
                 b0091 (murC)
-              Glycan biosynthesis and metabolism
+              09107 Glycan biosynthesis and metabolism
                00550 Peptidoglycan biosynthesis
+                b0091 (murC)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
                 b0091 (murC)
             Enzymes [BR:eco01000]
              6. Ligases
@@ -20,12 +24,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                6.3.2  Acid-D-amino-acid ligases (peptide synthases)
                 6.3.2.8  UDP-N-acetylmuramate---L-alanine ligase
                  b0091 (murC)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Precursor biosynthesis
+              Amino acid ligase
+               b0091 (murC)
 POSITION    100765..102240
 MOTIF       Pfam: Mur_ligase Mur_ligase_M Mur_ligase_C
-DBLINKS     NCBI-ProteinID: NP_414633
-            NCBI-GeneID: 946153
+DBLINKS     NCBI-GeneID: 946153
+            NCBI-ProteinID: NP_414633
             Pasteur: murC
-            EcoGene: EG10619
+            RegulonDB: ECK120000612
             ECOCYC: EG10619
             ASAP: ABE-0000324
             UniProt: P17952

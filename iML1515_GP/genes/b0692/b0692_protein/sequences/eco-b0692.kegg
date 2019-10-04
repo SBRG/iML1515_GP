@@ -1,18 +1,23 @@
 ENTRY       b0692             CDS       T00007
 NAME        potE
-DEFINITION  (RefSeq) putrescine/proton symporter: putrescine/ornithine antiporter
+DEFINITION  (RefSeq) putrescine:H(+) symporter/putrescine:ornithine antiporter PotE
 ORTHOLOGY   K03756  putrescine:ornithine antiporter
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0692 (potE)
+            Transporters [BR:eco02000]
+             Other transporters
               Electrochemical potential-driven transporters [TC:2]
                b0692 (potE)
 POSITION    complement(716946..718265)
 MOTIF       Pfam: AA_permease_2 AA_permease
-DBLINKS     NCBI-ProteinID: NP_415219
-            NCBI-GeneID: 945422
+DBLINKS     NCBI-GeneID: 945422
+            NCBI-ProteinID: NP_415219
             Pasteur: potE
-            EcoGene: EG10753
+            RegulonDB: ECK120000744
             ECOCYC: EG10753
             ASAP: ABE-0002360
             UniProt: P0AAF1

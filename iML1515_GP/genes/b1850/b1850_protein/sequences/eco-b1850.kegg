@@ -1,6 +1,6 @@
 ENTRY       b1850             CDS       T00007
 NAME        eda
-DEFINITION  (RefSeq) multifunctional 2-keto-3-deoxygluconate 6-phosphate aldolase and 2-keto-4-hydroxyglutarate aldolase and oxaloacetate decarboxylase
+DEFINITION  (RefSeq) KHG/KDPG aldolase
 ORTHOLOGY   K01625  2-dehydro-3-deoxyphosphogluconate aldolase / (4S)-4-hydroxy-2-oxoglutarate aldolase [EC:4.1.2.14 4.1.3.42]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00030  Pentose phosphate pathway
@@ -12,11 +12,8 @@ MODULE      eco_M00008  Entner-Doudoroff pathway, glucose-6P => glyceraldehyde-3
             eco_M00061  D-Glucuronate degradation, D-glucuronate => pyruvate + D-glyceraldehyde 3P
             eco_M00631  D-Galacturonate degradation (bacteria), D-galacturonate => pyruvate + D-glyceraldehyde 3P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b1850 (eda)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00030 Pentose phosphate pathway
                 b1850 (eda)
                00630 Glyoxylate and dicarboxylate metabolism
@@ -32,11 +29,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1850 (eda)
 POSITION    complement(1932115..1932756)
 MOTIF       Pfam: Aldolase HMGL-like
-DBLINKS     NCBI-ProteinID: NP_416364
-            NCBI-GeneID: 946367
+DBLINKS     NCBI-GeneID: 946367
+            NCBI-ProteinID: NP_416364
             Pasteur: eda
             RegulonDB: ECK120000250
-            EcoGene: EG10256
             ECOCYC: EG10256
             ASAP: ABE-0006164
             UniProt: P0A955

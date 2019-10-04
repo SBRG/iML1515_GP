@@ -1,6 +1,6 @@
 ENTRY       b2907             CDS       T00007
 NAME        ubiH
-DEFINITION  (RefSeq) 2-octaprenyl-6-methoxyphenol hydroxylase, FAD/NAD(P)-binding
+DEFINITION  (RefSeq) 2-octaprenyl-6-methoxyphenol hydroxylase
 ORTHOLOGY   K03185  2-octaprenyl-6-methoxyphenol hydroxylase [EC:1.14.13.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00130  Ubiquinone and other terpenoid-quinone biosynthesis
@@ -8,8 +8,8 @@ PATHWAY     eco00130  Ubiquinone and other terpenoid-quinone biosynthesis
             eco01110  Biosynthesis of secondary metabolites
 MODULE      eco_M00117  Ubiquinone biosynthesis, prokaryotes, chorismate => ubiquinone
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00130 Ubiquinone and other terpenoid-quinone biosynthesis
                 b2907 (ubiH)
             Enzymes [BR:eco01000]
@@ -19,11 +19,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 1.14.13.-  
                  b2907 (ubiH)
 POSITION    complement(3052340..3053518)
-MOTIF       Pfam: FAD_binding_3 Lycopene_cycl Pyr_redox_2 Trp_halogenase SE NAD_binding_9 DAO NAD_binding_8 DUF2924 GIDA FAD_binding_2 DUF4453
-DBLINKS     NCBI-ProteinID: NP_417383
-            NCBI-GeneID: 947388
+MOTIF       Pfam: FAD_binding_3 Lycopene_cycl Pyr_redox_2 Trp_halogenase NAD_binding_9 SE DAO NAD_binding_8 DUF2924 GIDA FAD_binding_2 DUF4453
+DBLINKS     NCBI-GeneID: 947388
+            NCBI-ProteinID: NP_417383
             Pasteur: ubiH
-            EcoGene: EG11324
+            RegulonDB: ECK120001295
             ECOCYC: EG11324
             ASAP: ABE-0009545
             UniProt: P25534

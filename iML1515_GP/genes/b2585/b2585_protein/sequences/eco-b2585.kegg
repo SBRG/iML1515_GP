@@ -1,6 +1,6 @@
 ENTRY       b2585             CDS       T00007
 NAME        pssA
-DEFINITION  (RefSeq) phosphatidylserine synthase (CDP-diacylglycerol-serine O-phosphatidyltransferase)
+DEFINITION  (RefSeq) phosphatidylserine synthase
 ORTHOLOGY   K00998  CDP-diacylglycerol---serine O-phosphatidyltransferase [EC:2.7.8.8]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00260  Glycine, serine and threonine metabolism
@@ -9,11 +9,11 @@ PATHWAY     eco00260  Glycine, serine and threonine metabolism
             eco01110  Biosynthesis of secondary metabolites
 MODULE      eco_M00093  Phosphatidylethanolamine (PE) biosynthesis, PA => PS => PE
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Lipid metabolism
+             09100 Metabolism
+              09103 Lipid metabolism
                00564 Glycerophospholipid metabolism
                 b2585 (pssA)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00260 Glycine, serine and threonine metabolism
                 b2585 (pssA)
             Enzymes [BR:eco01000]
@@ -24,10 +24,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2585 (pssA)
 POSITION    2722727..2724082
 MOTIF       Pfam: PLDc_2 PLDc
-DBLINKS     NCBI-ProteinID: NP_417080
-            NCBI-GeneID: 947059
+DBLINKS     NCBI-GeneID: 947059
+            NCBI-ProteinID: NP_417080
             Pasteur: pssA
-            EcoGene: EG10781
+            RegulonDB: ECK120000772
             ECOCYC: EG10781
             ASAP: ABE-0008510
             UniProt: P23830

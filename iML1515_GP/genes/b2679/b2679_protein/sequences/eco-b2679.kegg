@@ -1,26 +1,29 @@
 ENTRY       b2679             CDS       T00007
 NAME        proX
-DEFINITION  (RefSeq) glycine betaine transporter subunit
+DEFINITION  (RefSeq) glycine betaine ABC transporter periplasmic binding protein ProX
 ORTHOLOGY   K02002  glycine betaine/proline transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00208  Glycine betaine/proline transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b2679 (proX)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2679 (proX)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Mineral and organic ion transporters
-               Glycine betaine/proline transporter [MD:M00208] [OT]
+               Glycine betaine/proline transporter
                 b2679 (proX)
 POSITION    2807132..2808124
 MOTIF       Pfam: OpuAC
-DBLINKS     NCBI-ProteinID: NP_417165
-            NCBI-GeneID: 947165
+DBLINKS     NCBI-GeneID: 947165
+            NCBI-ProteinID: NP_417165
             Pasteur: proX
-            EcoGene: EG10773
+            RegulonDB: ECK120000764
             ECOCYC: EG10773
             ASAP: ABE-0008818
             UniProt: P0AFM2

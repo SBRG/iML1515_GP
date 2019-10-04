@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Thu  3 Oct 2019 22:48:34
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b0638/b0638_protein/sequences/P52086_6e4b-D.needle
+#    -asequence asis::MRLWLIRHGETQANIDGLYSGHAPTPLTARGIEQAQNLHTLLHGVSFDLVLCSELERAQHTARLVLSDRQLPVQIIPELNEMFFGDWEMRHHRDLMQEDAENYSAWCNDWQHAIPTNGEGFQAFSQRVERFIARLSEFQHYQNILVVSHQGVLSLLIARLIGMPAEAMWHFRVDQGCWSAIDINQKFATLRVLNSRAIGVENA
+#    -bsequence asis::AMRLWLIRHGETQANIDGLYSGHAPTPLTARGIEQAQNLHTLLHGVSFDLVLCSELERAQHTARLVLSDRQLPVQIIPELNEMFFGDWEMRHHRDLMQEDAENYSAWCNDWQXXXPTNGEGFQAFSQRVERFIARLSEFQHYQNILVVSHQGVLSLLIARLIGMPAEAMWHFRVDQGCWSAIDINQKFATLRVLNSRAIGV
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b0638/b0638_protein/sequences/P52086_6e4b-D.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 204
+# Identity:     197/204 (96.6%)
+# Similarity:   197/204 (96.6%)
+# Gaps:           4/204 ( 2.0%)
+# Score: 1045.0
+# 
+#
+#=======================================
+
+asis               1 -MRLWLIRHGETQANIDGLYSGHAPTPLTARGIEQAQNLHTLLHGVSFDL     49
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 AMRLWLIRHGETQANIDGLYSGHAPTPLTARGIEQAQNLHTLLHGVSFDL     50
+
+asis              50 VLCSELERAQHTARLVLSDRQLPVQIIPELNEMFFGDWEMRHHRDLMQED     99
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 VLCSELERAQHTARLVLSDRQLPVQIIPELNEMFFGDWEMRHHRDLMQED    100
+
+asis             100 AENYSAWCNDWQHAIPTNGEGFQAFSQRVERFIARLSEFQHYQNILVVSH    149
+                     ||||||||||||...|||||||||||||||||||||||||||||||||||
+asis             101 AENYSAWCNDWQXXXPTNGEGFQAFSQRVERFIARLSEFQHYQNILVVSH    150
+
+asis             150 QGVLSLLIARLIGMPAEAMWHFRVDQGCWSAIDINQKFATLRVLNSRAIG    199
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 QGVLSLLIARLIGMPAEAMWHFRVDQGCWSAIDINQKFATLRVLNSRAIG    200
+
+asis             200 VENA    203
+                     |   
+asis             201 V---    201
+
+
+#---------------------------------------
+#---------------------------------------

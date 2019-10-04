@@ -1,19 +1,20 @@
 ENTRY       b2039             CDS       T00007
 NAME        rfbA
-DEFINITION  (RefSeq) glucose-1-phosphate thymidylyltransferase
+DEFINITION  (RefSeq) dTDP-glucose pyrophosphorylase
 ORTHOLOGY   K00973  glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00521  Streptomycin biosynthesis
             eco00523  Polyketide sugar unit biosynthesis
             eco00525  Acarbose and validamycin biosynthesis
+            eco01100  Metabolic pathways
             eco01130  Biosynthesis of antibiotics
 MODULE      eco_M00793  dTDP-L-rhamnose biosynthesis
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of terpenoids and polyketides
+             09100 Metabolism
+              09109 Metabolism of terpenoids and polyketides
                00523 Polyketide sugar unit biosynthesis
                 b2039 (rfbA)
-              Biosynthesis of other secondary metabolites
+              09110 Biosynthesis of other secondary metabolites
                00521 Streptomycin biosynthesis
                 b2039 (rfbA)
                00525 Acarbose and validamycin biosynthesis
@@ -26,15 +27,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2039 (rfbA)
 POSITION    complement(2110138..2111019)
 MOTIF       Pfam: NTP_transferase NTP_transf_3 IspD
-DBLINKS     NCBI-ProteinID: NP_416543
-            NCBI-GeneID: 945154
+DBLINKS     NCBI-GeneID: 945154
+            NCBI-ProteinID: NP_416543
             Pasteur: rfbA
             RegulonDB: ECK120001903
-            EcoGene: EG11978
             ECOCYC: EG11978
             ASAP: ABE-0006762
             UniProt: P37744
-STRUCTURE   PDB: 1H5R 1H5S 1H5T
+STRUCTURE   PDB: 1H5T 1H5S 1H5R
 AASEQ       293
             MKMRKGIILAGGSGTRLYPVTMAVSKQLLPIYDKPMIYYPLSTLMLAGIRDILIISTPQD
             TPRFQQLLGDGSQWGLNLQYKVQPSPDGLAQAFIIGEEFIGGDDCALVLGDNIFYGHDLP

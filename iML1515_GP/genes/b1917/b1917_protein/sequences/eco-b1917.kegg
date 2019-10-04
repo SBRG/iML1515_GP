@@ -1,34 +1,35 @@
 ENTRY       b1917             CDS       T00007
-NAME        yecC
-DEFINITION  (RefSeq) putative ABC superfamily transporter ATP-binding subunit
-ORTHOLOGY   K10010  cystine transport system ATP-binding protein [EC:3.6.3.-]
+NAME        tcyN
+DEFINITION  (RefSeq) cystine ABC transporter ATP binding subunit
+ORTHOLOGY   K10010  L-cystine transport system ATP-binding protein [EC:7.4.2.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00234  Cystine transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
-                b1917 (yecC)
+                b1917 (tcyN)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1917 (tcyN)
             Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.-  
-                 b1917 (yecC)
+             7. Translocases
+              7.4  Catalysing the translocation of amino acids and peptides
+               7.4.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.4.2.1  ABC-type polar-amino-acid transporter
+                 b1917 (tcyN)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Phosphate and amino acid transporters
-               Cystine transporter [MD:M00234] [OT]
-                b1917 (yecC)
+               Cystine transporter
+                b1917 (tcyN)
 POSITION    complement(1997062..1997814)
-MOTIF       Pfam: ABC_tran AAA_21 SMC_N AAA_22 AAA_16 AAA_29 ABC_ATPase AAA_13 AAA_33 ATPase_2 AAA_23 AAA_15 AAA_30 AAA_24 cobW AAA_28 NACHT AAA RsgA_GTPase AAA_17 AAA_25 G-alpha NB-ARC AAA_18 AAA_14 T2SSE PduV-EutP SbcCD_C MobB AAA_19 PRK Pox_A32 AAA_35 MMR_HSR1 AAA_5 ATP_bind_1 Roc
-DBLINKS     NCBI-ProteinID: NP_416427
-            NCBI-GeneID: 946422
+MOTIF       Pfam: ABC_tran AAA_21 SMC_N AAA_22 AAA_16 ABC_ATPase AAA_29 AAA_13 AAA_33 AAA_15 AAA_23 ATPase_2 AAA_30 AAA_24 cobW NACHT AAA_28 AAA RsgA_GTPase AAA_17 AAA_25 G-alpha NB-ARC AAA_14 AAA_18 T2SSE PduV-EutP AAA_7 SbcCD_C MobB AAA_19 PRK Pox_A32 AAA_35 MMR_HSR1 AAA_5 Roc ATP_bind_1 Rad17
+DBLINKS     NCBI-GeneID: 946422
+            NCBI-ProteinID: NP_416427
             Pasteur: yecC
             RegulonDB: ECK120002221
-            EcoGene: EG12347
-            ECOCYC: EG12347
             ASAP: ABE-0006384
             UniProt: P37774
 AASEQ       250

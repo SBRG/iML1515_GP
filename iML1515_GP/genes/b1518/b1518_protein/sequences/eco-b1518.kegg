@@ -1,12 +1,12 @@
 ENTRY       b1518             CDS       T00007
 NAME        lsrG
-DEFINITION  (RefSeq) autoinducer-2 (AI-2) degrading protein LsrG
+DEFINITION  (RefSeq) (4S)-4-hydroxy-5-phosphonooxypentane-2,3-dione isomerase
 ORTHOLOGY   K11530  (4S)-4-hydroxy-5-phosphonooxypentane-2,3-dione isomerase [EC:5.3.1.32]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02024  Quorum sensing
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Cellular Processes
-              Cellular community - prokaryotes
+             09140 Cellular Processes
+              09145 Cellular community - prokaryotes
                02024 Quorum sensing
                 b1518 (lsrG)
             Enzymes [BR:eco01000]
@@ -17,9 +17,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1518 (lsrG)
 POSITION    1606999..1607289
 MOTIF       Pfam: ABM
-DBLINKS     NCBI-ProteinID: NP_416035
-            NCBI-GeneID: 946073
-            EcoGene: EG13811
+DBLINKS     NCBI-GeneID: 946073
+            NCBI-ProteinID: NP_416035
+            Pasteur: yneC
+            RegulonDB: ECK120003394
             ECOCYC: G6805
             ASAP: ABE-0005067
             UniProt: P64461

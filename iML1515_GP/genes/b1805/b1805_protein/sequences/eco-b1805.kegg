@@ -1,6 +1,6 @@
 ENTRY       b1805             CDS       T00007
 NAME        fadD
-DEFINITION  (RefSeq) acyl-CoA synthetase (long-chain-fatty-acid--CoA ligase)
+DEFINITION  (RefSeq) fatty acyl-CoA synthetase
 ORTHOLOGY   K01897  long-chain acyl-CoA synthetase [EC:6.2.1.3]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00061  Fatty acid biosynthesis
@@ -10,18 +10,22 @@ PATHWAY     eco00061  Fatty acid biosynthesis
             eco02024  Quorum sensing
 MODULE      eco_M00086  beta-Oxidation, acyl-CoA synthesis
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01212 Fatty acid metabolism
-                b1805 (fadD)
-              Lipid metabolism
+             09100 Metabolism
+              09103 Lipid metabolism
                00061 Fatty acid biosynthesis
                 b1805 (fadD)
                00071 Fatty acid degradation
                 b1805 (fadD)
-             Cellular Processes
-              Cellular community - prokaryotes
+             09140 Cellular Processes
+              09145 Cellular community - prokaryotes
                02024 Quorum sensing
+                b1805 (fadD)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01004 Lipid biosynthesis proteins [BR:eco01004]
+                b1805 (fadD)
+              09183 Protein families: signaling and cellular processes
+               04147 Exosome [BR:eco04147]
                 b1805 (fadD)
             Enzymes [BR:eco01000]
              6. Ligases
@@ -41,11 +45,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b1805 (fadD)
 POSITION    complement(1888061..1889746)
 MOTIF       Pfam: AMP-binding AMP-binding_C AMP-binding_C_2
-DBLINKS     NCBI-ProteinID: NP_416319
-            NCBI-GeneID: 946327
+DBLINKS     NCBI-GeneID: 946327
+            NCBI-ProteinID: NP_416319
             Pasteur: fadD
             RegulonDB: ECK120001484
-            EcoGene: EG11530
             ECOCYC: EG11530
             ASAP: ABE-0006005
             UniProt: P69451

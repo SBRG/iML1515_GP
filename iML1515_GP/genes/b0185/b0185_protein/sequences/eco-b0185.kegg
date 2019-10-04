@@ -1,7 +1,7 @@
 ENTRY       b0185             CDS       T00007
 NAME        accA
-DEFINITION  (RefSeq) acetyl-CoA carboxylase, carboxytransferase, alpha subunit
-ORTHOLOGY   K01962  acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2]
+DEFINITION  (RefSeq) acetyl-CoA carboxyltransferase subunit alpha
+ORTHOLOGY   K01962  acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00061  Fatty acid biosynthesis
             eco00620  Pyruvate metabolism
@@ -14,21 +14,21 @@ PATHWAY     eco00061  Fatty acid biosynthesis
             eco01212  Fatty acid metabolism
 MODULE      eco_M00082  Fatty acid biosynthesis, initiation
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b0185 (accA)
-               01212 Fatty acid metabolism
-                b0185 (accA)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00620 Pyruvate metabolism
                 b0185 (accA)
                00640 Propanoate metabolism
                 b0185 (accA)
-              Lipid metabolism
+              09103 Lipid metabolism
                00061 Fatty acid biosynthesis
                 b0185 (accA)
             Enzymes [BR:eco01000]
+             2. Transferases
+              2.1  Transferring one-carbon groups
+               2.1.3  Carboxy- and carbamoyltransferases
+                2.1.3.15  acetyl-CoA carboxytransferase
+                 b0185 (accA)
              6. Ligases
               6.4  Forming carbon-carbon bonds
                6.4.1  Ligases that form carbon-carbon bonds (only sub-subclass identified to date)
@@ -36,11 +36,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0185 (accA)
 POSITION    208621..209580
 MOTIF       Pfam: ACCA Carboxyl_trans MdcE Med9
-DBLINKS     NCBI-ProteinID: NP_414727
-            NCBI-GeneID: 944895
+DBLINKS     NCBI-GeneID: 944895
+            NCBI-ProteinID: NP_414727
             Pasteur: accA
             RegulonDB: ECK120001591
-            EcoGene: EG11647
             ECOCYC: EG11647
             ASAP: ABE-0000630
             UniProt: P0ABD5

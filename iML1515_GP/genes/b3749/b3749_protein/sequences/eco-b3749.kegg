@@ -1,33 +1,35 @@
 ENTRY       b3749             CDS       T00007
 NAME        rbsA
-DEFINITION  (RefSeq) fused D-ribose transporter subunits of ABC superfamily: ATP-binding components
-ORTHOLOGY   K10441  ribose transport system ATP-binding protein [EC:3.6.3.17]
+DEFINITION  (RefSeq) ribose ABC transporter ATP binding subunit
+ORTHOLOGY   K10441  ribose transport system ATP-binding protein [EC:7.5.2.7]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00212  Ribose transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b3749 (rbsA)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3749 (rbsA)
             Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.17  monosaccharide-transporting ATPase
+             7. Translocases
+              7.5  Catalysing the translocation of carbohydrates and their derivatives
+               7.5.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.5.2.7  ABC-type D-ribose transporter
                  b3749 (rbsA)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Saccharide, polyol, and lipid transporters
-               Ribose transporter [MD:M00212] [OT]
+               Ribose transporter
                 b3749 (rbsA)
 POSITION    3933778..3935283
-MOTIF       Pfam: ABC_tran AAA_21 SMC_N AAA_30 AAA_29 RsgA_GTPase ABC_ATPase AAA_22 MMR_HSR1 MukB AAA_15 AAA_23
-DBLINKS     NCBI-ProteinID: NP_418205
-            NCBI-GeneID: 948264
+MOTIF       Pfam: ABC_tran AAA_21 SMC_N AAA_30 RsgA_GTPase ABC_ATPase AAA_29 Ploopntkinase3 AAA_22 AAA_15 MMR_HSR1 AAA_23 MukB
+DBLINKS     NCBI-GeneID: 948264
+            NCBI-ProteinID: NP_418205
             Pasteur: rbsA
             RegulonDB: ECK120000805
-            EcoGene: EG10814
             ECOCYC: EG10814
             ASAP: ABE-0012259
             UniProt: P04983

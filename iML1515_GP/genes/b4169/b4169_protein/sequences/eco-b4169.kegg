@@ -1,14 +1,20 @@
 ENTRY       b4169             CDS       T00007
 NAME        amiB
-DEFINITION  (RefSeq) N-acetylmuramoyl-l-alanine amidase II
+DEFINITION  (RefSeq) N-acetylmuramoyl-L-alanine amidase B
 ORTHOLOGY   K01448  N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco01503  Cationic antimicrobial peptide (CAMP) resistance
-MODULE      eco_M00727  Cationic antimicrobial peptide (CAMP) resistance,  N-acetylmuramoyl-L-alanine amidase AmiA and AmiC
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01503 Cationic antimicrobial peptide (CAMP) resistance
+                b4169 (amiB)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+                b4169 (amiB)
+              09182 Protein families: genetic information processing
+               03036 Chromosome and associated proteins [BR:eco03036]
                 b4169 (amiB)
             Enzymes [BR:eco01000]
              3. Hydrolases
@@ -16,18 +22,21 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                3.5.1  In linear amides
                 3.5.1.28  N-acetylmuramoyl-L-alanine amidase
                  b4169 (amiB)
-            Chromosome [BR:eco03036]
-             Prokaryotic Type
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              Amidase
+               b4169 (amiB)
+            Chromosome and associated proteins [BR:eco03036]
+             Prokaryotic type
               Chromosome partitioning proteins
                Divisome proteins
                 b4169 (amiB)
 POSITION    4396065..4397402
 MOTIF       Pfam: Amidase_3 AMIN OmpA STN
-DBLINKS     NCBI-ProteinID: NP_418590
-            NCBI-GeneID: 948683
+DBLINKS     NCBI-GeneID: 948683
+            NCBI-ProteinID: NP_418590
             Pasteur: amiB
             RegulonDB: ECK120001332
-            EcoGene: EG11363
             ECOCYC: EG11363
             ASAP: ABE-0013653
             UniProt: P26365

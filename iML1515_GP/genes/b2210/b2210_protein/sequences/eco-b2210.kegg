@@ -1,6 +1,6 @@
 ENTRY       b2210             CDS       T00007
 NAME        mqo
-DEFINITION  (RefSeq) malate dehydrogenase, FAD/NAD(P)-binding domain
+DEFINITION  (RefSeq) malate:quinone oxidoreductase
 ORTHOLOGY   K00116  malate dehydrogenase (quinone) [EC:1.1.5.4]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00020  Citrate cycle (TCA cycle)
@@ -13,11 +13,8 @@ PATHWAY     eco00020  Citrate cycle (TCA cycle)
 MODULE      eco_M00009  Citrate cycle (TCA cycle, Krebs cycle)
             eco_M00011  Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b2210 (mqo)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00020 Citrate cycle (TCA cycle)
                 b2210 (mqo)
                00620 Pyruvate metabolism
@@ -30,9 +27,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2210 (mqo)
 POSITION    complement(2305108..2306754)
 MOTIF       Pfam: Mqo DAO FAD_binding_3 K_oxygenase FAD_binding_2
-DBLINKS     NCBI-ProteinID: NP_416714
-            NCBI-GeneID: 946702
-            EcoGene: EG12069
+DBLINKS     NCBI-GeneID: 946702
+            NCBI-ProteinID: NP_416714
+            Pasteur: yojH
+            RegulonDB: ECK120001978
             ECOCYC: EG12069
             ASAP: ABE-0007300
             UniProt: P33940

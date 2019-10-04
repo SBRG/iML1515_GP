@@ -10,12 +10,16 @@ PATHWAY     eco00230  Purine metabolism
             eco01130  Biosynthesis of antibiotics
 MODULE      eco_M00049  Adenine ribonucleotide biosynthesis, IMP => ADP,ATP
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00230 Purine metabolism
                 b0474 (adk)
-              Metabolism of cofactors and vitamins
+              09108 Metabolism of cofactors and vitamins
                00730 Thiamine metabolism
+                b0474 (adk)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               04147 Exosome [BR:eco04147]
                 b0474 (adk)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -29,15 +33,15 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b0474 (adk)
 POSITION    497175..497819
 MOTIF       Pfam: ADK AAA_17 ADK_lid Hydin_ADK AAA_33 AAA_18 AAA_28 Thymidylate_kin
-DBLINKS     NCBI-ProteinID: NP_415007
-            NCBI-GeneID: 945097
+DBLINKS     NCBI-GeneID: 945097
+            NCBI-ProteinID: NP_415007
             Pasteur: adk
-            EcoGene: EG10032
+            RegulonDB: ECK120000029
             ECOCYC: EG10032
             ASAP: ABE-0001645
             UniProt: P69441
-STRUCTURE   PDB: 4JZK 4X8L 1E4V 1E4Y 5EJE 3HPQ 3HPR 1ANK 1AKE 4X8O 4AKE
-                 4X8H 4X8M 3X2S 2ECK
+STRUCTURE   PDB: 6F7U 6S36 4JZK 6RZE 4X8L 1E4V 1E4Y 5EJE 3HPQ 3HPR 1ANK
+                 1AKE 4X8O 4AKE 4X8H 6HAM 4X8M 6HAP 3X2S 2ECK
 AASEQ       214
             MRIILLGAPGAGKGTQAQFIMEKYGIPQISTGDMLRAAVKSGSELGKQAKDIMDAGKLVT
             DELVIALVKERIAQEDCRNGFLLDGFPRTIPQADAMKEAGINVDYVLEFDVPDELIVDRI

@@ -1,6 +1,6 @@
 ENTRY       b2752             CDS       T00007
 NAME        cysD
-DEFINITION  (RefSeq) sulfate adenylyltransferase, subunit 2
+DEFINITION  (RefSeq) sulfate adenylyltransferase subunit 2
 ORTHOLOGY   K00957  sulfate adenylyltransferase subunit 2 [EC:2.7.7.4]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00230  Purine metabolism
@@ -13,17 +13,17 @@ PATHWAY     eco00230  Purine metabolism
 MODULE      eco_M00176  Assimilatory sulfate reduction, sulfate => H2S
             eco_M00616  Sulfate-sulfur assimilation
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00920 Sulfur metabolism
                 b2752 (cysD)
-              Nucleotide metabolism
+              09104 Nucleotide metabolism
                00230 Purine metabolism
                 b2752 (cysD)
-              Metabolism of other amino acids
+              09106 Metabolism of other amino acids
                00450 Selenocompound metabolism
                 b2752 (cysD)
-              Biosynthesis of other secondary metabolites
+              09110 Biosynthesis of other secondary metabolites
                00261 Monobactam biosynthesis
                 b2752 (cysD)
             Enzymes [BR:eco01000]
@@ -34,10 +34,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2752 (cysD)
 POSITION    complement(2875421..2876329)
 MOTIF       Pfam: PAPS_reduct
-DBLINKS     NCBI-ProteinID: NP_417232
-            NCBI-GeneID: 947217
+DBLINKS     NCBI-GeneID: 947217
+            NCBI-ProteinID: NP_417232
             Pasteur: cysD
-            EcoGene: EG10186
+            RegulonDB: ECK120000181
             ECOCYC: EG10186
             ASAP: ABE-0009029
             UniProt: P21156

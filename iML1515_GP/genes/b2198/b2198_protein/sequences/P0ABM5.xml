@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-11-08" modified="2019-07-31" version="91">
+<accession>P0ABM5</accession>
+<accession>P36770</accession>
+<accession>Q2MAP5</accession>
+<name>CCMD_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>Heme exporter protein D</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>Cytochrome c-type biogenesis protein CcmD</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">ccmD</name>
+<name type="synonym">yojM</name>
+<name type="ordered locus">b2198</name>
+<name type="ordered locus">JW2186</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="1993-10" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Richterich P."/>
+<person name="Lakey N."/>
+<person name="Gryan G."/>
+<person name="Jaehn L."/>
+<person name="Mintz L."/>
+<person name="Robison K."/>
+<person name="Church G.M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>K12 / BHB2600</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="submission" date="1994-02" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Robison K."/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="1995" name="J. Bacteriol." volume="177" first="4321" last="4326">
+<title>Escherichia coli genes required for cytochrome c maturation.</title>
+<authorList>
+<person name="Thoeny-Meyer L."/>
+<person name="Fischer F."/>
+<person name="Kunzler P."/>
+<person name="Ritz D."/>
+<person name="Hennecke H."/>
+</authorList>
+<dbReference type="PubMed" id="7635817"/>
+<dbReference type="DOI" id="10.1128/jb.177.15.4321-4326.1995"/>
+</citation>
+<scope>CHARACTERIZATION</scope>
+<scope>GENE NAME</scope>
+</reference>
+<comment type="function">
+<text evidence="2">Required for the export of heme to the periplasm for the biogenesis of c-type cytochromes.</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-3894922"/>
+<interactant intactId="EBI-2123469">
+<id>P0ABM1</id>
+<label>ccmC</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>4</experiments>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="2">Cell inner membrane</location>
+<topology evidence="2">Single-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="2">Belongs to the CcmD/CycX/HelD family.</text>
+</comment>
+<dbReference type="EMBL" id="U00008">
+<property type="protein sequence ID" value="AAA16390.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC75258.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE76661.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="D64989">
+<property type="entry name" value="D64989"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_416702.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000186540.1">
+<property type="nucleotide sequence ID" value="NZ_STEB01000002.1"/>
+</dbReference>
+<dbReference type="BioGrid" id="4260484">
+<property type="interactions" value="9"/>
+</dbReference>
+<dbReference type="ComplexPortal" id="CPX-3568">
+<property type="entry name" value="CcmABCDE system I cytochrome c biogenesis complex"/>
+</dbReference>
+<dbReference type="IntAct" id="P0ABM5">
+<property type="interactions" value="2"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b2198"/>
+<dbReference type="PaxDb" id="P0ABM5"/>
+<dbReference type="PRIDE" id="P0ABM5"/>
+<dbReference type="EnsemblBacteria" id="AAC75258">
+<property type="protein sequence ID" value="AAC75258"/>
+<property type="gene ID" value="b2198"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE76661">
+<property type="protein sequence ID" value="BAE76661"/>
+<property type="gene ID" value="BAE76661"/>
+</dbReference>
+<dbReference type="GeneID" id="946709"/>
+<dbReference type="KEGG" id="ecj:JW2186"/>
+<dbReference type="KEGG" id="eco:b2198"/>
+<dbReference type="PATRIC" id="fig|511145.12.peg.2287"/>
+<dbReference type="EchoBASE" id="EB2088"/>
+<dbReference type="EcoGene" id="EG12169">
+<property type="gene designation" value="ccmD"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105X3C">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG3114">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000274648"/>
+<dbReference type="KO" id="K02196"/>
+<dbReference type="BioCyc" id="EcoCyc:EG12169-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW2186-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:EG12169-MONOMER"/>
+<dbReference type="PRO" id="PR:P0ABM5"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0031235">
+<property type="term" value="C:intrinsic component of the cytoplasmic side of the plasma membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0017004">
+<property type="term" value="P:cytochrome complex assembly"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015886">
+<property type="term" value="P:heme transport"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR007078">
+<property type="entry name" value="Haem_export_protD_CcmD"/>
+</dbReference>
+<dbReference type="Pfam" id="PF04995">
+<property type="entry name" value="CcmD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR03141">
+<property type="entry name" value="cytochro_ccmD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0997">Cell inner membrane</keyword>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0201">Cytochrome c-type biogenesis</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="chain" description="Heme exporter protein D" id="PRO_0000201563">
+<location>
+<begin position="1"/>
+<end position="69"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="18"/>
+<end position="37"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255"/>
+<evidence key="2" type="ECO:0000305"/>
+<sequence length="69" mass="7745" checksum="BEC1D341EEADA018" modified="2005-11-08" version="1">MTPAFASWNEFFAMGGYAFFVWLAVVMTVIPLVVLVVHSVMQHRAILRGVAQQRAREARLRAAQQQEAA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

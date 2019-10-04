@@ -1,17 +1,23 @@
 ENTRY       b2975             CDS       T00007
 NAME        glcA
-DEFINITION  (RefSeq) glycolate transporter
+DEFINITION  (RefSeq) glycolate/lactate:H(+) symporter GlcA
 ORTHOLOGY   K02550  glycolate permease
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2975 (glcA)
+            Transporters [BR:eco02000]
+             Other transporters
               Electrochemical potential-driven transporters [TC:2]
                b2975 (glcA)
 POSITION    complement(3119597..3121279)
 MOTIF       Pfam: Lactate_perm WAPL
-DBLINKS     NCBI-ProteinID: NP_417449
-            NCBI-GeneID: 947259
-            EcoGene: EG12995
+DBLINKS     NCBI-GeneID: 947259
+            NCBI-ProteinID: NP_417449
+            Pasteur: yghK
+            RegulonDB: ECK120004102
             ECOCYC: G7542
             ASAP: ABE-0009763
             UniProt: Q46839

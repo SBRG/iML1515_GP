@@ -1,20 +1,24 @@
 ENTRY       b2964             CDS       T00007
 NAME        nupG
-DEFINITION  (RefSeq) nucleoside transporter
+DEFINITION  (RefSeq) nucleoside:H(+) symporter NupG
 ORTHOLOGY   K03289  MFS transporter, NHS family, nucleoside permease
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Major Facilitator Superfamily (MFS)
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2964 (nupG)
+            Transporters [BR:eco02000]
+             Major facilitator superfamily (MFS)
               Sugar transporters
                Nucleoside:H+ symporter (NHS) family [TC:2.A.1.10]
                 b2964 (nupG)
 POSITION    3105714..3106970
 MOTIF       Pfam: Nuc_H_symport MFS_1_like MFS_1
-DBLINKS     NCBI-ProteinID: NP_417439
-            NCBI-GeneID: 946282
+DBLINKS     NCBI-GeneID: 946282
+            NCBI-ProteinID: NP_417439
             Pasteur: nupG
             RegulonDB: ECK120000657
-            EcoGene: EG10664
             ECOCYC: EG10664
             ASAP: ABE-0009728
             UniProt: P0AFF4

@@ -1,19 +1,14 @@
 ENTRY       b4055             CDS       T00007
 NAME        aphA
-DEFINITION  (RefSeq) acid phosphatase/phosphotransferase, class B, non-specific
+DEFINITION  (RefSeq) acid phosphatase/phosphotransferase
 ORTHOLOGY   K03788  acid phosphatase (class B) [EC:3.1.3.2]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-PATHWAY     eco00627  Aminobenzoate degradation
-            eco00740  Riboflavin metabolism
+PATHWAY     eco00740  Riboflavin metabolism
             eco01100  Metabolic pathways
-            eco01120  Microbial metabolism in diverse environments
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00740 Riboflavin metabolism
-                b4055 (aphA)
-              Xenobiotics biodegradation and metabolism
-               00627 Aminobenzoate degradation
                 b4055 (aphA)
             Enzymes [BR:eco01000]
              3. Hydrolases
@@ -22,11 +17,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 3.1.3.2  acid phosphatase
                  b4055 (aphA)
 POSITION    4269414..4270127
-MOTIF       Pfam: Acid_phosphat_B MazE_antitoxin DAO_C HAD
-DBLINKS     NCBI-ProteinID: NP_418479
-            NCBI-GeneID: 948562
+MOTIF       Pfam: Acid_phosphat_B MazE_antitoxin DAO_C
+DBLINKS     NCBI-GeneID: 948562
+            NCBI-ProteinID: NP_418479
             Pasteur: aphA
-            EcoGene: EG11934
+            RegulonDB: ECK120001862
             ECOCYC: EG11934
             ASAP: ABE-0013283
             UniProt: P0AE22

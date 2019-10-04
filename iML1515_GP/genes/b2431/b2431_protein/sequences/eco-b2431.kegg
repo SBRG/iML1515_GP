@@ -1,15 +1,25 @@
 ENTRY       b2431             CDS       T00007
 NAME        yfeX
-DEFINITION  (RefSeq) porphyrinogen oxidase, cytoplasmic
-ORTHOLOGY   K07223  putative iron-dependent peroxidase
+DEFINITION  (RefSeq) porphyrinogen peroxidase
+ORTHOLOGY   K07223  porphyrinogen peroxidase [EC:1.11.1.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09191 Unclassified: metabolism
+               99980 Enzymes with EC numbers
+                b2431 (yfeX)
+            Enzymes [BR:eco01000]
+             1. Oxidoreductases
+              1.11  Acting on a peroxide as acceptor
+               1.11.1  Peroxidases
+                1.11.1.-  
+                 b2431 (yfeX)
 POSITION    complement(2549646..2550545)
 MOTIF       Pfam: Dyp_perox
-DBLINKS     NCBI-ProteinID: NP_416926
-            NCBI-GeneID: 946913
+DBLINKS     NCBI-GeneID: 946913
+            NCBI-ProteinID: NP_416926
             Pasteur: yfeX
             RegulonDB: ECK120003840
-            EcoGene: EG14165
             ECOCYC: G7266
             ASAP: ABE-0008015
             UniProt: P76536

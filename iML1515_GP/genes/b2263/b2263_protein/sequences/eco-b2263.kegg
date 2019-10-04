@@ -6,10 +6,10 @@ ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00130  Ubiquinone and other terpenoid-quinone biosynthesis
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
-MODULE      eco_M00116  Menaquinone biosynthesis, chorismate => menaquinone
+MODULE      eco_M00116  Menaquinone biosynthesis, chorismate => menaquinol
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00130 Ubiquinone and other terpenoid-quinone biosynthesis
                 b2263 (menH)
             Enzymes [BR:eco01000]
@@ -20,9 +20,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2263 (menH)
 POSITION    complement(2376834..2377592)
 MOTIF       Pfam: Abhydrolase_6 Abhydrolase_1 Hydrolase_4 Thioesterase Lipase_3
-DBLINKS     NCBI-ProteinID: NP_416766
-            NCBI-GeneID: 946736
-            EcoGene: EG12438
+DBLINKS     NCBI-GeneID: 946736
+            NCBI-ProteinID: NP_416766
+            Pasteur: yfbB
+            RegulonDB: ECK120002292
             ECOCYC: EG12438
             ASAP: ABE-0007478
             UniProt: P37355

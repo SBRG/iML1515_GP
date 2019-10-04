@@ -1,24 +1,28 @@
 ENTRY       b0575             CDS       T00007
 NAME        cusA
-DEFINITION  (RefSeq) copper/silver efflux system, membrane component
+DEFINITION  (RefSeq) copper/silver export system RND permease
 ORTHOLOGY   K07787  Cu(I)/Ag(I) efflux system membrane protein CusA/SilA
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02020  Two-component system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Signal transduction
+             09130 Environmental Information Processing
+              09132 Signal transduction
                02020 Two-component system
                 b0575 (cusA)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0575 (cusA)
             Transporters [BR:eco02000]
-             Other Transporters
+             Other transporters
               Electrochemical potential-driven transporters [TC:2]
                b0575 (cusA)
 POSITION    598714..601857
 MOTIF       Pfam: ACR_tran MMPL
-DBLINKS     NCBI-ProteinID: NP_415107
-            NCBI-GeneID: 945191
+DBLINKS     NCBI-GeneID: 945191
+            NCBI-ProteinID: NP_415107
+            Pasteur: ybdE
             RegulonDB: ECK120002235
-            EcoGene: EG12367
             ECOCYC: EG12367
             ASAP: ABE-0001971
             UniProt: P38054

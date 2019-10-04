@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1997-11-01" modified="2019-09-18" version="130">
+<accession>Q46800</accession>
+<accession>Q2M9X3</accession>
+<name>XDHB_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>Putative xanthine dehydrogenase FAD-binding subunit XdhB</fullName>
+<ecNumber>1.17.1.4</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">xdhB</name>
+<name type="synonym">ygeT</name>
+<name type="ordered locus">b2867</name>
+<name type="ordered locus">JW2835</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2000" name="J. Bacteriol." volume="182" first="5332" last="5341">
+<title>Purine catabolism in Escherichia coli and function of xanthine dehydrogenase in purine salvage.</title>
+<authorList>
+<person name="Xi H."/>
+<person name="Schneider B.L."/>
+<person name="Reitzer L."/>
+</authorList>
+<dbReference type="PubMed" id="10986234"/>
+<dbReference type="DOI" id="10.1128/jb.182.19.5332-5341.2000"/>
+</citation>
+<scope>DISCUSSION OF FUNCTION</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<comment type="function">
+<text>Presumed to be a dehydrogenase, but possibly an oxidase. Participates in limited purine salvage (requires aspartate) but does not support aerobic growth on purines as the sole carbon source (purine catabolism).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>H2O + NAD(+) + xanthine = H(+) + NADH + urate</text>
+<dbReference type="Rhea" id="RHEA:16669"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:17712"/>
+<dbReference type="ChEBI" id="CHEBI:17775"/>
+<dbReference type="ChEBI" id="CHEBI:57540"/>
+<dbReference type="ChEBI" id="CHEBI:57945"/>
+<dbReference type="EC" id="1.17.1.4"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>H2O + hypoxanthine + NAD(+) = H(+) + NADH + xanthine</text>
+<dbReference type="Rhea" id="RHEA:24670"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:17368"/>
+<dbReference type="ChEBI" id="CHEBI:17712"/>
+<dbReference type="ChEBI" id="CHEBI:57540"/>
+<dbReference type="ChEBI" id="CHEBI:57945"/>
+<dbReference type="EC" id="1.17.1.4"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>FAD</name>
+<dbReference type="ChEBI" id="CHEBI:57692"/>
+</cofactor>
+</comment>
+<comment type="pathway">
+<text>Purine metabolism; hypoxanthine degradation; urate from hypoxanthine: step 1/2.</text>
+</comment>
+<comment type="pathway">
+<text>Purine metabolism; hypoxanthine degradation; urate from hypoxanthine: step 2/2.</text>
+</comment>
+<comment type="subunit">
+<text evidence="3">Heterotrimer of XdhA, XdhB and XdhC.</text>
+</comment>
+<dbReference type="EC" id="1.17.1.4"/>
+<dbReference type="EMBL" id="U28375">
+<property type="protein sequence ID" value="AAA83048.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC75905.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE76933.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="C65070">
+<property type="entry name" value="C65070"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_417343.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000459182.1">
+<property type="nucleotide sequence ID" value="NZ_LN832404.1"/>
+</dbReference>
+<dbReference type="SMR" id="Q46800"/>
+<dbReference type="BioGrid" id="4262320">
+<property type="interactions" value="136"/>
+</dbReference>
+<dbReference type="IntAct" id="Q46800">
+<property type="interactions" value="5"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b2867"/>
+<dbReference type="PaxDb" id="Q46800"/>
+<dbReference type="PRIDE" id="Q46800"/>
+<dbReference type="EnsemblBacteria" id="AAC75905">
+<property type="protein sequence ID" value="AAC75905"/>
+<property type="gene ID" value="b2867"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE76933">
+<property type="protein sequence ID" value="BAE76933"/>
+<property type="gene ID" value="BAE76933"/>
+</dbReference>
+<dbReference type="GeneID" id="947205"/>
+<dbReference type="KEGG" id="ecj:JW2835"/>
+<dbReference type="KEGG" id="eco:b2867"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.3867"/>
+<dbReference type="EchoBASE" id="EB2862"/>
+<dbReference type="EcoGene" id="EG13050">
+<property type="gene designation" value="xdhB"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4108HR6">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1319">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000244729"/>
+<dbReference type="InParanoid" id="Q46800"/>
+<dbReference type="KO" id="K13479"/>
+<dbReference type="PhylomeDB" id="Q46800"/>
+<dbReference type="BioCyc" id="EcoCyc:G7486-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW2835-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:G7486-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00604">
+<property type="reaction ID" value="UER00661"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00604">
+<property type="reaction ID" value="UER00662"/>
+</dbReference>
+<dbReference type="PRO" id="PR:Q46800"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071949">
+<property type="term" value="F:FAD binding"/>
+<property type="evidence" value="ECO:0000247"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004854">
+<property type="term" value="F:xanthine dehydrogenase activity"/>
+<property type="evidence" value="ECO:0000247"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006150">
+<property type="term" value="P:hypoxanthine oxidation"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006166">
+<property type="term" value="P:purine ribonucleoside salvage"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.465.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005107">
+<property type="entry name" value="CO_DH_flav_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036683">
+<property type="entry name" value="CO_DH_flav_C_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016166">
+<property type="entry name" value="FAD-bd_PCMH"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036318">
+<property type="entry name" value="FAD-bd_PCMH-like_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016169">
+<property type="entry name" value="FAD-bd_PCMH_sub2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002346">
+<property type="entry name" value="Mopterin_DH_FAD-bd"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03450">
+<property type="entry name" value="CO_deh_flav_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00941">
+<property type="entry name" value="FAD_binding_5"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM01092">
+<property type="entry name" value="CO_deh_flav_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF55447">
+<property type="entry name" value="SSF55447"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF56176">
+<property type="entry name" value="SSF56176"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51387">
+<property type="entry name" value="FAD_PCMH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0274">FAD</keyword>
+<keyword id="KW-0285">Flavoprotein</keyword>
+<keyword id="KW-0520">NAD</keyword>
+<keyword id="KW-0560">Oxidoreductase</keyword>
+<keyword id="KW-0659">Purine metabolism</keyword>
+<keyword id="KW-0660">Purine salvage</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Putative xanthine dehydrogenase FAD-binding subunit XdhB" id="PRO_0000166092">
+<location>
+<begin position="1"/>
+<end position="292"/>
+</location>
+</feature>
+<feature type="domain" description="FAD-binding PCMH-type" evidence="2">
+<location>
+<begin position="1"/>
+<end position="176"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="FAD" evidence="1">
+<location>
+<begin position="27"/>
+<end position="34"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="FAD" evidence="1">
+<location>
+<begin position="109"/>
+<end position="113"/>
+</location>
+</feature>
+<feature type="binding site" description="FAD; via amide nitrogen and carbonyl oxygen" evidence="1">
+<location>
+<position position="165"/>
+</location>
+</feature>
+<feature type="binding site" description="FAD" evidence="1">
+<location>
+<position position="184"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00718"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="292" mass="31557" checksum="74A07D137DA857E8" modified="1996-11-01" version="1">MFDFASYHRAATLADAINLLADNPQAKLLAGGTDVLIQLHHHNDRYRHIVDIHNLAELRGITLAEDGSLRIGSATTFTQLIEDPITQRHLPALCAAATSIAGPQIRNVATYGGNICNGATSADSATPTLIYDAKLEIHSPRGVRFVPINGFHTGPGKVSLEHDEILVAFHFPPQPKEHAGSAHFKYAMRDAMDISTIGCAAHCRLDNGNFSELRLAFGVAAPTPIRCQHAEQTAQNAPLNLQTLEAISESVLQDVAPRSSWRASKEFRLHLIQTMTKKVISEAVAAAGGKLQ</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

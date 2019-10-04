@@ -1,26 +1,29 @@
 ENTRY       b1859             CDS       T00007
 NAME        znuB
-DEFINITION  (RefSeq) zinc transporter subunit: membrane component of ABC superfamily
+DEFINITION  (RefSeq) Zn(2(+)) ABC transporter membrane subunit
 ORTHOLOGY   K09816  zinc transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00242  Zinc transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b1859 (znuB)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1859 (znuB)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Metallic cation, iron-siderophore and vitamin B12 transporters
-               Zinc transporter [MD:M00242] [OT]
+               Zinc transporter
                 b1859 (znuB)
 POSITION    1943414..1944199
-MOTIF       Pfam: ABC-3 FecCD HemY_N Vma12
-DBLINKS     NCBI-ProteinID: NP_416373
-            NCBI-GeneID: 946372
+MOTIF       Pfam: ABC-3 FecCD Vma12
+DBLINKS     NCBI-GeneID: 946372
+            NCBI-ProteinID: NP_416373
             Pasteur: znuB
-            EcoGene: EG12368
+            RegulonDB: ECK120002236
             ECOCYC: EG12368
             ASAP: ABE-0006201
             UniProt: P39832

@@ -1,0 +1,991 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-11-08" modified="2019-09-18" version="112">
+<accession>P0ABQ0</accession>
+<accession>P24285</accession>
+<accession>P76718</accession>
+<accession>Q2M7V3</accession>
+<name>COABC_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>Coenzyme A biosynthesis bifunctional protein CoaBC</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>DNA/pantothenate metabolism flavoprotein</fullName>
+</alternativeName>
+<domain>
+<recommendedName>
+<fullName>Phosphopantothenoylcysteine decarboxylase</fullName>
+<shortName>PPCDC</shortName>
+<ecNumber evidence="6">4.1.1.36</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>CoaC</fullName>
+</alternativeName>
+</domain>
+<domain>
+<recommendedName>
+<fullName>Phosphopantothenate--cysteine ligase</fullName>
+<ecNumber evidence="7">6.3.2.5</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>CoaB</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>PPC synthetase</fullName>
+<shortName>PPCS</shortName>
+</alternativeName>
+<alternativeName>
+<fullName>Phosphopantothenoylcysteine synthase</fullName>
+</alternativeName>
+</domain>
+</protein>
+<gene>
+<name type="primary" evidence="13">coaBC</name>
+<name type="synonym" evidence="12">dfp</name>
+<name type="ordered locus">b3639</name>
+<name type="ordered locus">JW5642</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1993" name="Genomics" volume="16" first="551" last="561">
+<title>DNA sequence and analysis of 136 kilobases of the Escherichia coli genome: organizational symmetry around the origin of replication.</title>
+<authorList>
+<person name="Burland V.D."/>
+<person name="Plunkett G. III"/>
+<person name="Daniels D.L."/>
+<person name="Blattner F.R."/>
+</authorList>
+<dbReference type="PubMed" id="7686882"/>
+<dbReference type="DOI" id="10.1006/geno.1993.1230"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2000" name="J. Biol. Chem." volume="275" first="31838" last="31846">
+<title>Molecular characterization of lantibiotic-synthesizing enzyme EpiD reveals a function for bacterial Dfp proteins in coenzyme A biosynthesis.</title>
+<authorList>
+<person name="Kupke T."/>
+<person name="Uebele M."/>
+<person name="Schmid D."/>
+<person name="Jung G."/>
+<person name="Blaesse M."/>
+<person name="Steinbacher S."/>
+</authorList>
+<dbReference type="PubMed" id="10922366"/>
+<dbReference type="DOI" id="10.1074/jbc.m004273200"/>
+</citation>
+<scope>PROTEIN SEQUENCE OF 2-11</scope>
+<scope>CHARACTERIZATION OF COAC ACTIVITY</scope>
+<scope>MUTAGENESIS OF PHE-46; HIS-75; PRO-89; THR-91; MET-124; ASN-125 AND MET-128</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="1983" name="EMBO J." volume="2" first="967" last="971">
+<title>Nucleotide sequence of the structural gene for dUTPase of Escherichia coli K-12.</title>
+<authorList>
+<person name="Lundberg L.G."/>
+<person name="Thoresson H.-O."/>
+<person name="Karlstroem O.H."/>
+<person name="Nyman P.O."/>
+</authorList>
+<dbReference type="PubMed" id="6139280"/>
+<dbReference type="DOI" id="10.1002/j.1460-2075.1983.tb01529.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 288-406</scope>
+<source>
+<strain>K12</strain>
+</source>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2001" name="J. Biol. Chem." volume="276" first="13513" last="13516">
+<title>Phosphopantothenoylcysteine synthetase from Escherichia coli. Identification and characterization of the last unidentified coenzyme A biosynthetic enzyme in bacteria.</title>
+<authorList>
+<person name="Strauss E."/>
+<person name="Kinsland C."/>
+<person name="Ge Y."/>
+<person name="McLafferty F.W."/>
+<person name="Begley T.P."/>
+</authorList>
+<dbReference type="PubMed" id="11278255"/>
+<dbReference type="DOI" id="10.1074/jbc.c100033200"/>
+</citation>
+<scope>CHARACTERIZATION OF COAB ACTIVITY</scope>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2001" name="J. Biol. Chem." volume="276" first="27597" last="27604">
+<title>Molecular characterization of the 4'-phosphopantothenoylcysteine decarboxylase domain of bacterial Dfp flavoproteins.</title>
+<authorList>
+<person name="Kupke T."/>
+</authorList>
+<dbReference type="PubMed" id="11358972"/>
+<dbReference type="DOI" id="10.1074/jbc.m103342200"/>
+</citation>
+<scope>CHARACTERIZATION OF COAC ACTIVITY</scope>
+<scope>MUTAGENESIS OF GLY-11; GLY-14; GLY-15; ILE-16; ALA-17; TYR-19; LYS-20 AND ASN-125</scope>
+</reference>
+<reference key="8">
+<citation type="journal article" date="2002" name="J. Biol. Chem." volume="277" first="36137" last="36145">
+<title>Molecular characterization of the 4'-phosphopantothenoylcysteine synthetase domain of bacterial dfp flavoproteins.</title>
+<authorList>
+<person name="Kupke T."/>
+</authorList>
+<dbReference type="PubMed" id="12140293"/>
+<dbReference type="DOI" id="10.1074/jbc.m206188200"/>
+</citation>
+<scope>CHARACTERIZATION OF COAB ACTIVITY</scope>
+<scope>MUTAGENESIS OF THR-194; THR-198; ASP-203; ASN-210; SER-212; LYS-215; ALA-275; LYS-289; LYS-291 AND LYS-292</scope>
+</reference>
+<reference key="9">
+<citation type="journal article" date="2004" name="Eur. J. Biochem." volume="271" first="163" last="172">
+<title>Active-site residues and amino acid specificity of the bacterial 4'-phosphopantothenoylcysteine synthetase CoaB.</title>
+<authorList>
+<person name="Kupke T."/>
+</authorList>
+<dbReference type="PubMed" id="14686929"/>
+<dbReference type="DOI" id="10.1046/j.1432-1033.2003.03916.x"/>
+</citation>
+<scope>CHARACTERIZATION OF COAB ACTIVITY</scope>
+<scope>MUTAGENESIS OF ASN-210 AND ALA-275</scope>
+</reference>
+<reference key="10" evidence="1 2 3 4">
+<citation type="journal article" date="2004" name="Structure" volume="12" first="1977" last="1988">
+<title>Structural basis of CTP-dependent peptide bond formation in coenzyme A biosynthesis catalyzed by Escherichia coli PPC synthetase.</title>
+<authorList>
+<person name="Stanitzek S."/>
+<person name="Augustin M.A."/>
+<person name="Huber R."/>
+<person name="Kupke T."/>
+<person name="Steinbacher S."/>
+</authorList>
+<dbReference type="PubMed" id="15530362"/>
+<dbReference type="DOI" id="10.1016/j.str.2004.08.007"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.3 ANGSTROMS) OF 181-406 OF MUTANT ASP-210 APOENZYME AND OF COMPLEX WITH SUBSTRATE; CTP AND CALCIUM IONS</scope>
+</reference>
+<comment type="function">
+<text evidence="6 7">Catalyzes two steps in the biosynthesis of coenzyme A. In the first step cysteine is conjugated to 4'-phosphopantothenate to form 4-phosphopantothenoylcysteine (PubMed:11278255). In the second the latter compound is decarboxylated to form 4'-phosphopantotheine (PubMed:10922366).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="6">
+<text>H(+) + N-[(R)-4-phosphopantothenoyl]-L-cysteine = CO2 + D-pantetheine 4'-phosphate</text>
+<dbReference type="Rhea" id="RHEA:16793"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:16526"/>
+<dbReference type="ChEBI" id="CHEBI:59458"/>
+<dbReference type="ChEBI" id="CHEBI:61723"/>
+<dbReference type="EC" id="4.1.1.36"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="7">
+<text>(R)-4'-phosphopantothenate + CTP + L-cysteine = CMP + diphosphate + H(+) + N-[(R)-4-phosphopantothenoyl]-L-cysteine</text>
+<dbReference type="Rhea" id="RHEA:19397"/>
+<dbReference type="ChEBI" id="CHEBI:10986"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:35235"/>
+<dbReference type="ChEBI" id="CHEBI:37563"/>
+<dbReference type="ChEBI" id="CHEBI:59458"/>
+<dbReference type="ChEBI" id="CHEBI:60377"/>
+<dbReference type="EC" id="6.3.2.5"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor>
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="cofactor">
+<cofactor>
+<name>FMN</name>
+<dbReference type="ChEBI" id="CHEBI:58210"/>
+</cofactor>
+<text>Binds 1 FMN per subunit.</text>
+</comment>
+<comment type="pathway" evidence="7">
+<text>Cofactor biosynthesis; coenzyme A biosynthesis; CoA from (R)-pantothenate: step 2/5.</text>
+</comment>
+<comment type="pathway" evidence="6">
+<text>Cofactor biosynthesis; coenzyme A biosynthesis; CoA from (R)-pantothenate: step 3/5.</text>
+</comment>
+<comment type="subunit">
+<text>Homododecamer, the CoaB domains form homodimers.</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-548929"/>
+<interactant intactId="EBI-543771">
+<id>P0A7L0</id>
+<label>rplA</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>2</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-548929"/>
+<interactant intactId="EBI-544985">
+<id>P0A7Z4</id>
+<label>rpoA</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>2</experiments>
+</comment>
+<comment type="similarity">
+<text evidence="14">In the N-terminal section; belongs to the HFCD (homo-oligomeric flavin containing Cys decarboxylase) superfamily.</text>
+</comment>
+<comment type="similarity">
+<text evidence="14">In the C-terminal section; belongs to the PPC synthetase family.</text>
+</comment>
+<comment type="sequence caution" evidence="14">
+<conflict type="erroneous initiation">
+<sequence resource="EMBL-CDS" id="AAA61992" version="1"/>
+</conflict>
+<text>Translation N-terminally shortened.</text>
+</comment>
+<dbReference type="EC" id="4.1.1.36" evidence="6"/>
+<dbReference type="EC" id="6.3.2.5" evidence="7"/>
+<dbReference type="EMBL" id="L10328">
+<property type="protein sequence ID" value="AAA61992.1"/>
+<property type="status" value="ALT_INIT"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC76663.2"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE77653.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="V01578">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_418096.4">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000050139.1">
+<property type="nucleotide sequence ID" value="NZ_SSZK01000022.1"/>
+</dbReference>
+<dbReference type="PDB" id="1U7U">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.40"/>
+<property type="chains" value="A=181-406"/>
+</dbReference>
+<dbReference type="PDB" id="1U7W">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.50"/>
+<property type="chains" value="A/B/C=181-406"/>
+</dbReference>
+<dbReference type="PDB" id="1U7Z">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.30"/>
+<property type="chains" value="A/B/C=181-406"/>
+</dbReference>
+<dbReference type="PDB" id="1U80">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.85"/>
+<property type="chains" value="A/B/C=181-406"/>
+</dbReference>
+<dbReference type="PDBsum" id="1U7U"/>
+<dbReference type="PDBsum" id="1U7W"/>
+<dbReference type="PDBsum" id="1U7Z"/>
+<dbReference type="PDBsum" id="1U80"/>
+<dbReference type="SMR" id="P0ABQ0"/>
+<dbReference type="BioGrid" id="4261256">
+<property type="interactions" value="26"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-48472N"/>
+<dbReference type="IntAct" id="P0ABQ0">
+<property type="interactions" value="2"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b3639"/>
+<dbReference type="DrugBank" id="DB03403">
+<property type="generic name" value="Cytidine-5'-Monophosphate"/>
+</dbReference>
+<dbReference type="DrugBank" id="DB02431">
+<property type="generic name" value="Cytidine-5'-Triphosphate"/>
+</dbReference>
+<dbReference type="EPD" id="P0ABQ0"/>
+<dbReference type="jPOST" id="P0ABQ0"/>
+<dbReference type="PaxDb" id="P0ABQ0"/>
+<dbReference type="PRIDE" id="P0ABQ0"/>
+<dbReference type="EnsemblBacteria" id="AAC76663">
+<property type="protein sequence ID" value="AAC76663"/>
+<property type="gene ID" value="b3639"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE77653">
+<property type="protein sequence ID" value="BAE77653"/>
+<property type="gene ID" value="BAE77653"/>
+</dbReference>
+<dbReference type="GeneID" id="949047"/>
+<dbReference type="KEGG" id="ecj:JW5642"/>
+<dbReference type="KEGG" id="eco:b3639"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.3067"/>
+<dbReference type="EchoBASE" id="EB0004"/>
+<dbReference type="EcoGene" id="EG10004">
+<property type="gene designation" value="dfp"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105CJS">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0452">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000037526"/>
+<dbReference type="InParanoid" id="P0ABQ0"/>
+<dbReference type="KO" id="K13038"/>
+<dbReference type="PhylomeDB" id="P0ABQ0"/>
+<dbReference type="BioCyc" id="EcoCyc:EG10004-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW5642-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:EG10004-MONOMER"/>
+<dbReference type="BRENDA" id="6.3.2.5">
+<property type="organism ID" value="2026"/>
+</dbReference>
+<dbReference type="SABIO-RK" id="P0ABQ0"/>
+<dbReference type="UniPathway" id="UPA00241">
+<property type="reaction ID" value="UER00353"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00241">
+<property type="reaction ID" value="UER00354"/>
+</dbReference>
+<dbReference type="EvolutionaryTrace" id="P0ABQ0"/>
+<dbReference type="PRO" id="PR:P0ABQ0"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010181">
+<property type="term" value="F:FMN binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004632">
+<property type="term" value="F:phosphopantothenate--cysteine ligase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004633">
+<property type="term" value="F:phosphopantothenoylcysteine decarboxylase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015937">
+<property type="term" value="P:coenzyme A biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015941">
+<property type="term" value="P:pantothenate catabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.10300">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1950">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR035929">
+<property type="entry name" value="CoaB-like_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005252">
+<property type="entry name" value="CoaBC"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR007085">
+<property type="entry name" value="DNA/pantothenate-metab_flavo_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036551">
+<property type="entry name" value="Flavin_trans-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003382">
+<property type="entry name" value="Flavoprotein"/>
+</dbReference>
+<dbReference type="Pfam" id="PF04127">
+<property type="entry name" value="DFP"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02441">
+<property type="entry name" value="Flavoprotein"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF102645">
+<property type="entry name" value="SSF102645"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52507">
+<property type="entry name" value="SSF52507"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00521">
+<property type="entry name" value="coaBC_dfp"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0210">Decarboxylase</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-0285">Flavoprotein</keyword>
+<keyword id="KW-0288">FMN</keyword>
+<keyword id="KW-0436">Ligase</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0511">Multifunctional enzyme</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="initiator methionine" description="Removed" evidence="6">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="chain" description="Coenzyme A biosynthesis bifunctional protein CoaBC" id="PRO_0000182022">
+<location>
+<begin position="2"/>
+<end position="406"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="CTP" evidence="2 11">
+<location>
+<begin position="273"/>
+<end position="275"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="CTP" evidence="2 11">
+<location>
+<begin position="308"/>
+<end position="311"/>
+</location>
+</feature>
+<feature type="region of interest" description="Phosphopantothenoylcysteine decarboxylase">
+<location>
+<begin position="2"/>
+<end position="188"/>
+</location>
+</feature>
+<feature type="region of interest" description="Phosphopantothenate--cysteine ligase">
+<location>
+<begin position="189"/>
+<end position="406"/>
+</location>
+</feature>
+<feature type="active site" description="Proton donor" evidence="14">
+<location>
+<position position="158"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="5">
+<location>
+<position position="125"/>
+</location>
+</feature>
+<feature type="binding site" description="CTP" evidence="2 11">
+<location>
+<position position="279"/>
+</location>
+</feature>
+<feature type="binding site" description="CTP" evidence="2 11">
+<location>
+<position position="289"/>
+</location>
+</feature>
+<feature type="binding site" description="CTP; via amide nitrogen" evidence="2 11">
+<location>
+<position position="327"/>
+</location>
+</feature>
+<feature type="binding site" description="CTP" evidence="2 11">
+<location>
+<position position="341"/>
+</location>
+</feature>
+<feature type="binding site" description="CTP" evidence="2 11">
+<location>
+<position position="345"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="In Dfp-707; temperature-sensitive, impairs folding." evidence="8">
+<original>G</original>
+<variation>D</variation>
+<location>
+<position position="11"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="No FMN binding." evidence="8">
+<original>G</original>
+<variation>S</variation>
+<location>
+<position position="14"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Less than 5% of wild-type activity." evidence="8">
+<original>G</original>
+<variation>A</variation>
+<location>
+<position position="15"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Severely reduced activity." evidence="8">
+<original>I</original>
+<variation>L</variation>
+<location>
+<position position="16"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Slightly reduced activity." evidence="8">
+<original>I</original>
+<variation>V</variation>
+<location>
+<position position="16"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Less than 5% of wild-type activity." evidence="8">
+<original>A</original>
+<variation>D</variation>
+<location>
+<position position="17"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Almost wild-type activity." evidence="8">
+<original>A</original>
+<variation>G</variation>
+<variation>S</variation>
+<location>
+<position position="17"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Almost wild-type activity." evidence="8">
+<original>Y</original>
+<variation>F</variation>
+<location>
+<position position="19"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Reduced activity." evidence="8">
+<original>Y</original>
+<variation>L</variation>
+<location>
+<position position="19"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Reduced activity." evidence="8">
+<original>K</original>
+<variation>N</variation>
+<variation>Q</variation>
+<location>
+<position position="20"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Almost wild-type activity." evidence="8">
+<original>K</original>
+<variation>R</variation>
+<location>
+<position position="20"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Reduced activity." evidence="6">
+<original>F</original>
+<variation>L</variation>
+<location>
+<position position="46"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of activity." evidence="6">
+<original>H</original>
+<variation>N</variation>
+<location>
+<position position="75"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Binds FMN, but more loosely than wild-type." evidence="6">
+<original>P</original>
+<variation>A</variation>
+<location>
+<position position="89"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="No FMN binding." evidence="6">
+<original>P</original>
+<variation>D</variation>
+<location>
+<position position="89"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Binds FMN." evidence="6">
+<original>T</original>
+<variation>V</variation>
+<location>
+<position position="91"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="No effect." evidence="6">
+<original>M</original>
+<variation>L</variation>
+<location>
+<position position="124"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of activity." evidence="6 8">
+<original>N</original>
+<variation>D</variation>
+<variation>Q</variation>
+<location>
+<position position="125"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Severely reduced activity." evidence="6">
+<original>M</original>
+<variation>L</variation>
+<location>
+<position position="128"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of activity.">
+<original>C</original>
+<variation>A</variation>
+<variation>S</variation>
+<location>
+<position position="158"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of dimerization." evidence="9">
+<original>T</original>
+<variation>V</variation>
+<location>
+<position position="194"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of dimerization." evidence="9">
+<original>T</original>
+<variation>V</variation>
+<location>
+<position position="198"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of dimerization." evidence="9">
+<original>D</original>
+<variation>N</variation>
+<location>
+<position position="203"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of activity, reaction intermediate detectable." evidence="9 10">
+<original>N</original>
+<variation>D</variation>
+<location>
+<position position="210"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of activity, reaction intermediate not detectable." evidence="9 10">
+<original>N</original>
+<variation>H</variation>
+<variation>K</variation>
+<location>
+<position position="210"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Small effect on activity." evidence="9">
+<original>S</original>
+<variation>A</variation>
+<location>
+<position position="212"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="No effect." evidence="9">
+<original>K</original>
+<variation>Q</variation>
+<location>
+<position position="215"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of dimerization." evidence="9 10">
+<original>A</original>
+<variation>V</variation>
+<location>
+<position position="275"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of activity." evidence="9">
+<original>K</original>
+<variation>Q</variation>
+<location>
+<position position="289"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Reduced activity." evidence="9">
+<original>K</original>
+<variation>Q</variation>
+<location>
+<position position="291"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Small effect on activity." evidence="9">
+<original>K</original>
+<variation>Q</variation>
+<location>
+<position position="292"/>
+</location>
+</feature>
+<feature type="turn" evidence="3">
+<location>
+<begin position="185"/>
+<end position="188"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="190"/>
+<end position="197"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="199"/>
+<end position="210"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="215"/>
+<end position="226"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="230"/>
+<end position="235"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="246"/>
+<end position="250"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="254"/>
+<end position="264"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="265"/>
+<end position="267"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="269"/>
+<end position="273"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="279"/>
+<end position="284"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="299"/>
+<end position="306"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="310"/>
+<end position="316"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="318"/>
+<end position="320"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="323"/>
+<end position="333"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="334"/>
+<end position="345"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="348"/>
+<end position="354"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="364"/>
+<end position="373"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="376"/>
+<end position="384"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="385"/>
+<end position="403"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1U7U"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1U7W"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1U7Z"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1U80"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000250"/>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="10922366"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="11278255"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="11358972"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12140293"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="14686929"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15530362"/>
+</source>
+</evidence>
+<evidence key="12" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="10922366"/>
+</source>
+</evidence>
+<evidence key="13" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="11278255"/>
+</source>
+</evidence>
+<evidence key="14" type="ECO:0000305"/>
+<sequence length="406" mass="43438" checksum="CBD11B9347E8C6AB" modified="2007-01-23" version="2">MSLAGKKIVLGVSGGIAAYKTPELVRRLRDRGADVRVAMTEAAKAFITPLSLQAVSGYPVSDSLLDPAAEAAMGHIELGKWADLVILAPATADLIARVAAGMANDLVSTICLATPAPVAVLPAMNQQMYRAAATQHNLEVLASRGLLIWGPDSGSQACGDIGPGRMLDPLTIVDMAVAHFSPVNDLKHLNIMITAGPTREPLDPVRYISNHSSGKMGFAIAAAAARRGANVTLVSGPVSLPTPPFVKRVDVMTALEMEAAVNASVQQQNIFIGCAAVADYRAATVAPEKIKKQATQGDELTIKMVKNPDIVAGVAALKDHRPYVVGFAAETNNVEEYARQKRIRKNLDLICANDVSQPTQGFNSDNNALHLFWQDGDKVLPLERKELLGQLLLDEIVTRYDEKNRR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

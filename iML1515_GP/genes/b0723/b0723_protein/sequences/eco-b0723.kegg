@@ -1,6 +1,6 @@
 ENTRY       b0723             CDS       T00007
 NAME        sdhA
-DEFINITION  (RefSeq) succinate dehydrogenase, flavoprotein subunit
+DEFINITION  (RefSeq) succinate:quinone oxidoreductase, FAD binding protein
 ORTHOLOGY   K00239  succinate dehydrogenase / fumarate reductase, flavoprotein subunit [EC:1.3.5.1 1.3.5.4]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00020  Citrate cycle (TCA cycle)
@@ -15,16 +15,13 @@ MODULE      eco_M00009  Citrate cycle (TCA cycle, Krebs cycle)
             eco_M00011  Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate
             eco_M00149  Succinate dehydrogenase, prokaryotes
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b0723 (sdhA)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00020 Citrate cycle (TCA cycle)
                 b0723 (sdhA)
                00650 Butanoate metabolism
                 b0723 (sdhA)
-              Energy metabolism
+              09102 Energy metabolism
                00190 Oxidative phosphorylation
                 b0723 (sdhA)
             Enzymes [BR:eco01000]
@@ -37,14 +34,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0723 (sdhA)
 POSITION    755907..757673
 MOTIF       Pfam: FAD_binding_2 Succ_DH_flav_C Pyr_redox_2 GIDA HI0933_like DAO Thi4
-DBLINKS     NCBI-ProteinID: NP_415251
-            NCBI-GeneID: 945402
+DBLINKS     NCBI-GeneID: 945402
+            NCBI-ProteinID: NP_415251
             Pasteur: sdhA
-            EcoGene: EG10931
+            RegulonDB: ECK120000920
             ECOCYC: EG10931
             ASAP: ABE-0002466
             UniProt: P0AC41
-STRUCTURE   PDB: 2WDQ 2WU2 1NEK 2WP9 2WU5 1NEN 2ACZ 2WS3 2WDV 2WDR
+STRUCTURE   PDB: 6C12 2WDQ 2WU2 1NEK 2WP9 2WU5 1NEN 2ACZ 2WS3 2WDV 2WDR
 AASEQ       588
             MKLPVREFDAVVIGAGGAGMRAALQISQSGQTCALLSKVFPTRSHTVSAQGGITVALGNT
             HEDNWEWHMYDTVKGSDYIGDQDAIEYMCKTGPEAILELEHMGLPFSRLDDGRIYQRPFG

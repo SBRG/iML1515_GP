@@ -1,27 +1,29 @@
 ENTRY       b3568             CDS       T00007
 NAME        xylH
-DEFINITION  (RefSeq) D-xylose ABC transporter permease subunit
+DEFINITION  (RefSeq) xylose ABC transporter membrane subunit
 ORTHOLOGY   K10544  D-xylose transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00215  D-Xylose transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b3568 (xylH)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3568 (xylH)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Saccharide, polyol, and lipid transporters
-               D-Xylose transporter [MD:M00215] [OT]
+               D-Xylose transporter
                 b3568 (xylH)
 POSITION    3733720..3734901
 MOTIF       Pfam: BPD_transp_2
-DBLINKS     NCBI-ProteinID: NP_418025
-            NCBI-GeneID: 948083
+DBLINKS     NCBI-GeneID: 948083
+            NCBI-ProteinID: NP_418025
             Pasteur: xylH
             RegulonDB: ECK120002157
-            EcoGene: EG12276
             ECOCYC: EG12276
             ASAP: ABE-0011650
             UniProt: P0AGI4

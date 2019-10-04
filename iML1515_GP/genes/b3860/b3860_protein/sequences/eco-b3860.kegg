@@ -1,14 +1,17 @@
 ENTRY       b3860             CDS       T00007
 NAME        dsbA
-DEFINITION  (RefSeq) periplasmic protein disulfide isomerase I
+DEFINITION  (RefSeq) thiol:disulfide oxidoreductase DsbA
 ORTHOLOGY   K03673  thiol:disulfide interchange protein DsbA
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco01503  Cationic antimicrobial peptide (CAMP) resistance
-MODULE      eco_M00728  Cationic antimicrobial peptide (CAMP) resistance, envelope protein folding and degrading  factors DegP and DsbA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01503 Cationic antimicrobial peptide (CAMP) resistance
+                b3860 (dsbA)
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               03110 Chaperones and folding catalysts [BR:eco03110]
                 b3860 (dsbA)
             Chaperones and folding catalysts [BR:eco03110]
              Protein folding catalysts
@@ -16,17 +19,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b3860 (dsbA)
 POSITION    4043418..4044044
 MOTIF       Pfam: DSBA Thioredoxin_4 Lpp-LpqN Thioredoxin DUF3088 Thioredoxin_2
-DBLINKS     NCBI-ProteinID: NP_418297
-            NCBI-GeneID: 948353
+DBLINKS     NCBI-GeneID: 948353
+            NCBI-ProteinID: NP_418297
             Pasteur: dsbA
             RegulonDB: ECK120001270
-            EcoGene: EG11297
             ECOCYC: EG11297
             ASAP: ABE-0012606
             UniProt: P0AEG4
-STRUCTURE   PDB: 4WF5 4WEY 4WET 4WF4 1FVK 4ZIJ 1ACV 2B3S 1U3A 1A2J 1AC1
-                 1DSB 1FVJ 4TKY 1TI1 2B6M 1A2L 1A2M 1BQ7 2ZUP 3E9J 2HI7
-                 3J46 2NDO 2LEG 1UN2 1A23 1A24
+STRUCTURE   PDB: 4WF5 4WEY 4WET 4WF4 1FVK 4ZIJ 1ACV 2B3S 6BQX 6BR4 1U3A
+                 1A2J 1AC1 1DSB 1FVJ 1UN2 4TKY 1TI1 2B6M 1A2L 1A2M 1BQ7
+                 2ZUP 3E9J 2HI7 3J46 2NDO 2LEG 1A23 1A24
 AASEQ       208
             MKKIWLALAGLVLAFSASAAQYEDGKQYTTLEKPVAGAPQVLEFFSFFCPHCYQFEEVLH
             ISDNVKKKLPEGVKMTKYHVNFMGGDLGKDLTQAWAVAMALGVEDKVTVPLFEGVQKTQT

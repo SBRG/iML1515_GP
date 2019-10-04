@@ -1,0 +1,797 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1988-08-01" modified="2019-09-18" version="170">
+<accession>P07762</accession>
+<accession>Q2M796</accession>
+<name>GLGB_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>1,4-alpha-glucan branching enzyme GlgB</fullName>
+<ecNumber>2.4.1.18</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>1,4-alpha-D-glucan:1,4-alpha-D-glucan 6-glucosyl-transferase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Alpha-(1->4)-glucan branching enzyme</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Glycogen branching enzyme</fullName>
+<shortName>BE</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">glgB</name>
+<name type="ordered locus">b3432</name>
+<name type="ordered locus">JW3395</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1986" name="J. Biol. Chem." volume="261" first="8738" last="8743">
+<title>Biosynthesis of bacterial glycogen. Primary structure of Escherichia coli 1,4-alpha-D-glucan:1,4-alpha-D-glucan 6-alpha-D-(1,4-alpha-D-glucano)-transferase as deduced from the nucleotide sequence of the glg B gene.</title>
+<authorList>
+<person name="Baecker P.A."/>
+<person name="Greenberg E."/>
+<person name="Preiss J."/>
+</authorList>
+<dbReference type="PubMed" id="3013861"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2002" name="J. Biol. Chem." volume="277" first="42164" last="42170">
+<title>The X-ray crystallographic structure of Escherichia coli branching enzyme.</title>
+<authorList>
+<person name="Abad M.C."/>
+<person name="Binderup K."/>
+<person name="Rios-Steiner J."/>
+<person name="Arni R.K."/>
+<person name="Preiss J."/>
+<person name="Geiger J.H."/>
+</authorList>
+<dbReference type="PubMed" id="12196524"/>
+<dbReference type="DOI" id="10.1074/jbc.m205746200"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.3 ANGSTROMS) OF 113-728</scope>
+</reference>
+<comment type="function">
+<text evidence="4">Catalyzes the formation of the alpha-1,6-glucosidic linkages in glycogen by scission of a 1,4-alpha-linked oligosaccharide from growing alpha-1,4-glucan chains and the subsequent attachment of the oligosaccharide to the alpha-1,6 position.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>Transfers a segment of a (1->4)-alpha-D-glucan chain to a primary hydroxy group in a similar glucan chain.</text>
+<dbReference type="EC" id="2.4.1.18"/>
+</reaction>
+</comment>
+<comment type="pathway">
+<text>Glycan biosynthesis; glycogen biosynthesis.</text>
+</comment>
+<comment type="subunit">
+<text>Monomer.</text>
+</comment>
+<comment type="similarity">
+<text evidence="5">Belongs to the glycosyl hydrolase 13 family. GlgB subfamily.</text>
+</comment>
+<dbReference type="EC" id="2.4.1.18"/>
+<dbReference type="EMBL" id="M13751">
+<property type="protein sequence ID" value="AAA23872.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U18997">
+<property type="protein sequence ID" value="AAA58230.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC76457.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE77860.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="A25498">
+<property type="entry name" value="NQECA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_417890.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_001283723.1">
+<property type="nucleotide sequence ID" value="NZ_STEB01000004.1"/>
+</dbReference>
+<dbReference type="PDB" id="1GTY">
+<property type="method" value="Model"/>
+<property type="chains" value="A=24-103"/>
+</dbReference>
+<dbReference type="PDB" id="1M7X">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.30"/>
+<property type="chains" value="A/B/C/D=113-728"/>
+</dbReference>
+<dbReference type="PDB" id="4LPC">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.39"/>
+<property type="chains" value="A/B/C/D=117-728"/>
+</dbReference>
+<dbReference type="PDB" id="4LQ1">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.55"/>
+<property type="chains" value="A/B/C/D=117-728"/>
+</dbReference>
+<dbReference type="PDB" id="5E6Y">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.60"/>
+<property type="chains" value="A/B/C/D=117-728"/>
+</dbReference>
+<dbReference type="PDB" id="5E6Z">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.88"/>
+<property type="chains" value="A/B/C/D=117-728"/>
+</dbReference>
+<dbReference type="PDB" id="5E70">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.33"/>
+<property type="chains" value="A/B/C/D=117-728"/>
+</dbReference>
+<dbReference type="PDBsum" id="1GTY"/>
+<dbReference type="PDBsum" id="1M7X"/>
+<dbReference type="PDBsum" id="4LPC"/>
+<dbReference type="PDBsum" id="4LQ1"/>
+<dbReference type="PDBsum" id="5E6Y"/>
+<dbReference type="PDBsum" id="5E6Z"/>
+<dbReference type="PDBsum" id="5E70"/>
+<dbReference type="SMR" id="P07762"/>
+<dbReference type="BioGrid" id="4262503">
+<property type="interactions" value="314"/>
+</dbReference>
+<dbReference type="IntAct" id="P07762">
+<property type="interactions" value="13"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b3432"/>
+<dbReference type="CAZy" id="CBM48">
+<property type="family name" value="Carbohydrate-Binding Module Family 48"/>
+</dbReference>
+<dbReference type="CAZy" id="GH13">
+<property type="family name" value="Glycoside Hydrolase Family 13"/>
+</dbReference>
+<dbReference type="EPD" id="P07762"/>
+<dbReference type="jPOST" id="P07762"/>
+<dbReference type="PaxDb" id="P07762"/>
+<dbReference type="PRIDE" id="P07762"/>
+<dbReference type="EnsemblBacteria" id="AAC76457">
+<property type="protein sequence ID" value="AAC76457"/>
+<property type="gene ID" value="b3432"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE77860">
+<property type="protein sequence ID" value="BAE77860"/>
+<property type="gene ID" value="BAE77860"/>
+</dbReference>
+<dbReference type="GeneID" id="947940"/>
+<dbReference type="KEGG" id="ecj:JW3395"/>
+<dbReference type="KEGG" id="eco:b3432"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.3296"/>
+<dbReference type="EchoBASE" id="EB0373"/>
+<dbReference type="EcoGene" id="EG10378">
+<property type="gene designation" value="glgB"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105C9C">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0296">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000283037"/>
+<dbReference type="InParanoid" id="P07762"/>
+<dbReference type="KO" id="K00700"/>
+<dbReference type="PhylomeDB" id="P07762"/>
+<dbReference type="BioCyc" id="EcoCyc:GLYCOGEN-BRANCH-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW3395-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:GLYCOGEN-BRANCH-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00164"/>
+<dbReference type="EvolutionaryTrace" id="P07762"/>
+<dbReference type="PRO" id="PR:P07762"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003844">
+<property type="term" value="F:1,4-alpha-glucan branching enzyme activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0102752">
+<property type="term" value="F:1,4-alpha-glucan branching enzyme activity (using a glucosylated glycogenin as primer for glycogen synthesis)"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043169">
+<property type="term" value="F:cation binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004553">
+<property type="term" value="F:hydrolase activity, hydrolyzing O-glycosyl compounds"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006974">
+<property type="term" value="P:cellular response to DNA damage stimulus"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005978">
+<property type="term" value="P:glycogen biosynthetic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.40.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.40.1180">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00685">
+<property type="entry name" value="GlgB"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006048">
+<property type="entry name" value="A-amylase/branching_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR037439">
+<property type="entry name" value="Branching_enzy"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006407">
+<property type="entry name" value="GlgB"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006047">
+<property type="entry name" value="Glyco_hydro_13_cat_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR004193">
+<property type="entry name" value="Glyco_hydro_13_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013780">
+<property type="entry name" value="Glyco_hydro_b"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017853">
+<property type="entry name" value="Glycoside_hydrolase_SF"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013783">
+<property type="entry name" value="Ig-like_fold"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014756">
+<property type="entry name" value="Ig_E-set"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR43651">
+<property type="entry name" value="PTHR43651"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00128">
+<property type="entry name" value="Alpha-amylase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02806">
+<property type="entry name" value="Alpha-amylase_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02922">
+<property type="entry name" value="CBM_48"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF000463">
+<property type="entry name" value="GlgB"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00642">
+<property type="entry name" value="Aamy"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51445">
+<property type="entry name" value="SSF51445"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF81296">
+<property type="entry name" value="SSF81296"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01515">
+<property type="entry name" value="branching_enzym"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0119">Carbohydrate metabolism</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0320">Glycogen biosynthesis</keyword>
+<keyword id="KW-0321">Glycogen metabolism</keyword>
+<keyword id="KW-0328">Glycosyltransferase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<feature type="chain" description="1,4-alpha-glucan branching enzyme GlgB" id="PRO_0000188702">
+<location>
+<begin position="1"/>
+<end position="728"/>
+</location>
+</feature>
+<feature type="active site" description="Nucleophile" evidence="4">
+<location>
+<position position="405"/>
+</location>
+</feature>
+<feature type="active site" description="Proton donor" evidence="4">
+<location>
+<position position="458"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="121"/>
+<end position="123"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="125"/>
+<end position="134"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="136"/>
+<end position="143"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="145"/>
+<end position="148"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="150"/>
+<end position="154"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="155"/>
+<end position="157"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="161"/>
+<end position="163"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="170"/>
+<end position="172"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="174"/>
+<end position="180"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="187"/>
+<end position="193"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="199"/>
+<end position="202"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="208"/>
+<end position="211"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="213"/>
+<end position="215"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="217"/>
+<end position="219"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="231"/>
+<end position="237"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="244"/>
+<end position="248"/>
+</location>
+</feature>
+<feature type="turn" evidence="2">
+<location>
+<begin position="250"/>
+<end position="252"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="257"/>
+<end position="259"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="265"/>
+<end position="278"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="282"/>
+<end position="287"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="295"/>
+<end position="297"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="303"/>
+<end position="308"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="310"/>
+<end position="312"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="315"/>
+<end position="327"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="331"/>
+<end position="336"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="338"/>
+<end position="340"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="351"/>
+<end position="353"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="356"/>
+<end position="358"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="380"/>
+<end position="396"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="401"/>
+<end position="404"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="408"/>
+<end position="411"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="433"/>
+<end position="448"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="454"/>
+<end position="457"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="464"/>
+<end position="467"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="470"/>
+<end position="473"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="478"/>
+<end position="481"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="483"/>
+<end position="494"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="497"/>
+<end position="502"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="505"/>
+<end position="508"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="509"/>
+<end position="511"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="512"/>
+<end position="516"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="519"/>
+<end position="523"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="525"/>
+<end position="527"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="535"/>
+<end position="538"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="543"/>
+<end position="559"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="560"/>
+<end position="567"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="568"/>
+<end position="573"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="586"/>
+<end position="589"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="591"/>
+<end position="593"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="595"/>
+<end position="610"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="614"/>
+<end position="616"/>
+</location>
+</feature>
+<feature type="turn" evidence="2">
+<location>
+<begin position="617"/>
+<end position="621"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="623"/>
+<end position="625"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="626"/>
+<end position="633"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="634"/>
+<end position="637"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="638"/>
+<end position="644"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="650"/>
+<end position="656"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="658"/>
+<end position="660"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="662"/>
+<end position="665"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="673"/>
+<end position="680"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="685"/>
+<end position="687"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="713"/>
+<end position="715"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="719"/>
+<end position="726"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1M7X"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="4LPC"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="4LQ1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000250"/>
+<evidence key="5" type="ECO:0000305"/>
+<sequence length="728" mass="84337" checksum="0F20AF3677BF2015" modified="1988-08-01" version="1">MSDRIDRDVINALIAGHFADPFSVLGMHKTTAGLEVRALLPDATDVWVIEPKTGRKLAKLECLDSRGFFSGVIPRRKNFFRYQLAVVWHGQQNLIDDPYRFGPLIQEMDAWLLSEGTHLRPYETLGAHADTMDGVTGTRFSVWAPNARRVSVVGQFNYWDGRRHPMRLRKESGIWELFIPGAHNGQLYKYEMIDANGNLRLKSDPYAFEAQMRPETASLICGLPEKVVQTEERKKANQFDAPISIYEVHLGSWRRHTDNNFWLSYRELADQLVPYAKWMGFTHLELLPINEHPFDGSWGYQPTGLYAPTRRFGTRDDFRYFIDAAHAAGLNVILDWVPGHFPTDDFALAEFDGTNLYEHSDPREGYHQDWNTLIYNYGRREVSNFLVGNALYWIERFGIDALRVDAVASMIYRDYSRKEGEWIPNEFGGRENLEAIEFLRNTNRILGEQVSGAVTMAEESTDFPGVSRPQDMGGLGFWYKWNLGWMHDTLDYMKLDPVYRQYHHDKLTFGILYNYTENFVLPLSHDEVVHGKKSILDRMPGDAWQKFANLRAYYGWMWAFPGKKLLFMGNEFAQGREWNHDASLDWHLLEGGDNWHHGVQRLVRDLNLTYRHHKAMHELDFDPYGFEWLVVDDKERSVLIFVRRDKEGNEIIVASNFTPVPRHDYRFGINQPGKWREILNTDSMHYHGSNAGNGGTVHSDEIASHGRQHSLSLTLPPLATIWLVREAE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

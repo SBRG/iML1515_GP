@@ -1,9 +1,14 @@
 ENTRY       b3880             CDS       T00007
 NAME        yihS
-DEFINITION  (RefSeq) aldose-ketose isomerase; D-mannose isomerase
+DEFINITION  (RefSeq) sulfoquinovose isomerase
 ORTHOLOGY   K18479  sulfoquinovose isomerase [EC:5.3.1.31]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09191 Unclassified: metabolism
+               99980 Enzymes with EC numbers
+                b3880 (yihS)
+            Enzymes [BR:eco01000]
              5. Isomerases
               5.3  Intramolecular oxidoreductases
                5.3.1  Interconverting aldoses and ketoses, and related compounds
@@ -11,10 +16,10 @@ BRITE       Enzymes [BR:eco01000]
                  b3880 (yihS)
 POSITION    complement(4070515..4071756)
 MOTIF       Pfam: GlcNAc_2-epim Glyco_hydro_47
-DBLINKS     NCBI-ProteinID: NP_418316
-            NCBI-GeneID: 948374
+DBLINKS     NCBI-GeneID: 948374
+            NCBI-ProteinID: NP_418316
             Pasteur: yihS
-            EcoGene: EG11845
+            RegulonDB: ECK120001776
             ECOCYC: EG11845
             ASAP: ABE-0012673
             UniProt: P32140

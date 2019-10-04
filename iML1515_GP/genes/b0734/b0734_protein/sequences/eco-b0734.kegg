@@ -1,33 +1,32 @@
 ENTRY       b0734             CDS       T00007
 NAME        cydB
-DEFINITION  (RefSeq) cytochrome d terminal oxidase, subunit II
-ORTHOLOGY   K00426  cytochrome d ubiquinol oxidase subunit II [EC:1.10.3.14]
+DEFINITION  (RefSeq) cytochrome bd-I ubiquinol oxidase subunit II
+ORTHOLOGY   K00426  cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00190  Oxidative phosphorylation
-            eco01100  Metabolic pathways
             eco02020  Two-component system
-MODULE      eco_M00153  Cytochrome d ubiquinol oxidase
+MODULE      eco_M00153  Cytochrome bd ubiquinol oxidase
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00190 Oxidative phosphorylation
                 b0734 (cydB)
-             Environmental Information Processing
-              Signal transduction
+             09130 Environmental Information Processing
+              09132 Signal transduction
                02020 Two-component system
                 b0734 (cydB)
             Enzymes [BR:eco01000]
-             1. Oxidoreductases
-              1.10  Acting on diphenols and related substances as donors
-               1.10.3  With oxygen as acceptor
-                1.10.3.14  ubiquinol oxidase (electrogenic, non H+-transporting)
+             7. Translocases
+              7.1  Catalysing the translocation of hydrons
+               7.1.1  Linked to oxidoreductase reactions
+                7.1.1.7  ubiquinol oxidase (electrogenic, proton-motive force generating)
                  b0734 (cydB)
 POSITION    773042..774181
 MOTIF       Pfam: Cyt_bd_oxida_II
-DBLINKS     NCBI-ProteinID: NP_415262
-            NCBI-GeneID: 945347
+DBLINKS     NCBI-GeneID: 945347
+            NCBI-ProteinID: NP_415262
             Pasteur: cydB
-            EcoGene: EG10174
+            RegulonDB: ECK120000169
             ECOCYC: EG10174
             ASAP: ABE-0002501
             UniProt: P0ABK2

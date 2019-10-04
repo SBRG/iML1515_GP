@@ -1,13 +1,13 @@
 ENTRY       b1602             CDS       T00007
 NAME        pntB
-DEFINITION  (RefSeq) pyridine nucleotide transhydrogenase, beta subunit
-ORTHOLOGY   K00325  NAD(P) transhydrogenase subunit beta [EC:1.6.1.2]
+DEFINITION  (RefSeq) pyridine nucleotide transhydrogenase subunit beta
+ORTHOLOGY   K00325  H+-translocating NAD(P) transhydrogenase subunit beta [EC:1.6.1.2 7.1.1.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00760  Nicotinate and nicotinamide metabolism
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00760 Nicotinate and nicotinamide metabolism
                 b1602 (pntB)
             Enzymes [BR:eco01000]
@@ -16,12 +16,17 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                1.6.1  With NAD+ or NADP+ as acceptor
                 1.6.1.2  NAD(P)+ transhydrogenase (Re/Si-specific)
                  b1602 (pntB)
+             7. Translocases
+              7.1  Catalysing the translocation of hydrons
+               7.1.1  Linked to oxidoreductase reactions
+                7.1.1.1  proton-translocating NAD(P)+ transhydrogenase
+                 b1602 (pntB)
 POSITION    complement(1674972..1676360)
 MOTIF       Pfam: PNTB AA_kinase TPP_enzyme_M
-DBLINKS     NCBI-ProteinID: NP_416119
-            NCBI-GeneID: 946144
+DBLINKS     NCBI-GeneID: 946144
+            NCBI-ProteinID: NP_416119
             Pasteur: pntB
-            EcoGene: EG10745
+            RegulonDB: ECK120000736
             ECOCYC: EG10745
             ASAP: ABE-0005352
             UniProt: P0AB67

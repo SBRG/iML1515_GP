@@ -1,6 +1,6 @@
 ENTRY       b0175             CDS       T00007
 NAME        cdsA
-DEFINITION  (RefSeq) CDP-diglyceride synthase
+DEFINITION  (RefSeq) CDP-diglyceride synthetase
 ORTHOLOGY   K00981  phosphatidate cytidylyltransferase [EC:2.7.7.41]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00564  Glycerophospholipid metabolism
@@ -8,8 +8,8 @@ PATHWAY     eco00564  Glycerophospholipid metabolism
             eco01110  Biosynthesis of secondary metabolites
 MODULE      eco_M00093  Phosphatidylethanolamine (PE) biosynthesis, PA => PS => PE
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Lipid metabolism
+             09100 Metabolism
+              09103 Lipid metabolism
                00564 Glycerophospholipid metabolism
                 b0175 (cdsA)
             Enzymes [BR:eco01000]
@@ -19,11 +19,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 2.7.7.41  phosphatidate cytidylyltransferase
                  b0175 (cdsA)
 POSITION    195677..196534
-MOTIF       Pfam: CTP_transf_1 DUF1705 TctB
-DBLINKS     NCBI-ProteinID: NP_414717
-            NCBI-GeneID: 944876
+MOTIF       Pfam: CTP_transf_1 EptA_B_N
+DBLINKS     NCBI-GeneID: 944876
+            NCBI-ProteinID: NP_414717
             Pasteur: cdsA
-            EcoGene: EG10139
+            RegulonDB: ECK120000135
             ECOCYC: EG10139
             ASAP: ABE-0000600
             UniProt: P0ABG1

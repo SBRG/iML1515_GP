@@ -1,19 +1,23 @@
 ENTRY       b1186             CDS       T00007
 NAME        nhaB
-DEFINITION  (RefSeq) sodium:proton antiporter
+DEFINITION  (RefSeq) Na(+):H(+) antiporter NhaB
 ORTHOLOGY   K03314  Na+:H+ antiporter, NhaB family
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1186 (nhaB)
+            Transporters [BR:eco02000]
+             Other transporters
               Electrochemical potential-driven transporters [TC:2]
                b1186 (nhaB)
 POSITION    complement(1233176..1234717)
-MOTIF       Pfam: NhaB CitMHS DUF5313 DUF106
-DBLINKS     NCBI-ProteinID: NP_415704
-            NCBI-GeneID: 944822
+MOTIF       Pfam: NhaB CitMHS DUF5313 EMC3_TMCO1
+DBLINKS     NCBI-GeneID: 944822
+            NCBI-ProteinID: NP_415704
             Pasteur: nhaB
             RegulonDB: ECK120001359
-            EcoGene: EG11392
             ECOCYC: EG11392
             ASAP: ABE-0003984
             UniProt: P0AFA7

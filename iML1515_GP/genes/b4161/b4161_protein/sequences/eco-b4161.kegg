@@ -6,9 +6,13 @@ ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00730  Thiamine metabolism
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00730 Thiamine metabolism
+                b4161 (rsgA)
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               03009 Ribosome biogenesis [BR:eco03009]
                 b4161 (rsgA)
             Enzymes [BR:eco01000]
              3. Hydrolases
@@ -21,19 +25,19 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 3.6.1.-  
                  b4161 (rsgA)
             Ribosome biogenesis [BR:eco03009]
-             Prokaryotic Type
+             Prokaryotic type
               GTPases
                b4161 (rsgA)
 POSITION    complement(4390457..4391509)
-MOTIF       Pfam: RsgA_GTPase FeoB_N MMR_HSR1 ABC_tran AAA_29 GTP_EFTU AAA_16 AAA_21 Dynamin_N IIGP
-DBLINKS     NCBI-ProteinID: NP_418585
-            NCBI-GeneID: 948674
+MOTIF       Pfam: RsgA_GTPase FeoB_N MMR_HSR1 ABC_tran AAA_29 GTP_EFTU AAA_16 AAA_21 MMR_HSR1_Xtn Dynamin_N IIGP
+DBLINKS     NCBI-GeneID: 948674
+            NCBI-ProteinID: NP_418585
+            Pasteur: yjeQ
             RegulonDB: ECK120004337
-            EcoGene: EG12479
             ECOCYC: G7841
             ASAP: ABE-0013626
             UniProt: P39286
-STRUCTURE   PDB: 2YKR
+STRUCTURE   PDB: 5NO2 5NO3 5NO4 5UZ4 2YKR
 AASEQ       350
             MSKNKLSKGQQRRVNANHQRRLKTSKEKPDYDDNLFGEPDEGIVISRFGMHADVESADGD
             VHRCNIRRTIRSLVTGDRVVWRPGKPAAEGVNVKGIVEAVHERTSVLTRPDFYDGVKPIA

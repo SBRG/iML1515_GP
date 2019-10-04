@@ -1,13 +1,13 @@
 ENTRY       b0578             CDS       T00007
 NAME        nfsB
-DEFINITION  (RefSeq) dihydropteridine reductase, NAD(P)H-dependent, oxygen-insensitive
+DEFINITION  (RefSeq) NAD(P)H nitroreductase NfsB
 ORTHOLOGY   K10679  nitroreductase / dihydropteridine reductase [EC:1.-.-.- 1.5.1.34]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00633  Nitrotoluene degradation
             eco01120  Microbial metabolism in diverse environments
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Xenobiotics biodegradation and metabolism
+             09100 Metabolism
+              09111 Xenobiotics biodegradation and metabolism
                00633 Nitrotoluene degradation
                 b0578 (nfsB)
             Enzymes [BR:eco01000]
@@ -22,9 +22,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0578 (nfsB)
 POSITION    complement(604771..605424)
 MOTIF       Pfam: Nitroreductase TM1586_NiRdase
-DBLINKS     NCBI-ProteinID: NP_415110
-            NCBI-GeneID: 945778
-            EcoGene: EG20151
+DBLINKS     NCBI-GeneID: 945778
+            NCBI-ProteinID: NP_415110
+            Pasteur: nfnB
+            RegulonDB: ECK120002564
             ECOCYC: EG50005
             ASAP: ABE-0001981
             UniProt: P38489

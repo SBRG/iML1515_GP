@@ -1,12 +1,13 @@
 ENTRY       b0935             CDS       T00007
 NAME        ssuD
-DEFINITION  (RefSeq) alkanesulfonate monooxygenase, FMNH(2)-dependent
+DEFINITION  (RefSeq) FMNH2-dependent alkanesulfonate monooxygenase
 ORTHOLOGY   K04091  alkanesulfonate monooxygenase [EC:1.14.14.5]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00920  Sulfur metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00920 Sulfur metabolism
                 b0935 (ssuD)
             Enzymes [BR:eco01000]
@@ -17,10 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0935 (ssuD)
 POSITION    complement(994843..995988)
 MOTIF       Pfam: Bac_luciferase ATP-synt_DE
-DBLINKS     NCBI-ProteinID: NP_415455
-            NCBI-GeneID: 945557
+DBLINKS     NCBI-GeneID: 945557
+            NCBI-ProteinID: NP_415455
+            Pasteur: ycbN
             RegulonDB: ECK120003077
-            EcoGene: EG13706
             ECOCYC: G6477
             ASAP: ABE-0003178
             UniProt: P80645

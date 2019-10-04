@@ -1,6 +1,6 @@
 ENTRY       b2478             CDS       T00007
 NAME        dapA
-DEFINITION  (RefSeq) dihydrodipicolinate synthase
+DEFINITION  (RefSeq) 4-hydroxy-tetrahydrodipicolinate synthase
 ORTHOLOGY   K01714  4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00261  Monobactam biosynthesis
@@ -12,14 +12,11 @@ PATHWAY     eco00261  Monobactam biosynthesis
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00016  Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b2478 (dapA)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00300 Lysine biosynthesis
                 b2478 (dapA)
-              Biosynthesis of other secondary metabolites
+              09110 Biosynthesis of other secondary metabolites
                00261 Monobactam biosynthesis
                 b2478 (dapA)
             Enzymes [BR:eco01000]
@@ -30,15 +27,15 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2478 (dapA)
 POSITION    complement(2598882..2599760)
 MOTIF       Pfam: DHDPS YCII
-DBLINKS     NCBI-ProteinID: NP_416973
-            NCBI-GeneID: 946952
+DBLINKS     NCBI-GeneID: 946952
+            NCBI-ProteinID: NP_416973
             Pasteur: dapA
-            EcoGene: EG10205
+            RegulonDB: ECK120000199
             ECOCYC: EG10205
             ASAP: ABE-0008163
             UniProt: P0A6L2
 STRUCTURE   PDB: 2PUR 2OJP 2ATS 1YXC 2A6N 5T25 3I7Q 3DU0 1YXD 2A6L 5T26
-                 3I7R 3DEN 4EOU 3I7S 1S5T 1DHP 1S5W 1S5V 3C0J
+                 3I7R 6NVA 3DEN 4EOU 3I7S 1S5T 1DHP 1S5W 1S5V 3C0J
 AASEQ       292
             MFTGSIVAIVTPMDEKGNVCRASLKKLIDYHVASGTSAIVSVGTTGESATLNHDEHADVV
             MMTLDLADGRIPVIAGTGANATAEAISLTQRFNDSGIVGCLTVTPYYNRPSQEGLYQHFK

@@ -1,15 +1,17 @@
 ENTRY       b3804             CDS       T00007
 NAME        hemD
-DEFINITION  (RefSeq) uroporphyrinogen III synthase
+DEFINITION  (RefSeq) uroporphyrinogen-III synthase
 ORTHOLOGY   K01719  uroporphyrinogen-III synthase [EC:4.2.1.75]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00860  Porphyrin and chlorophyll metabolism
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
-MODULE      eco_M00121  Heme biosynthesis, glutamate => protoheme/siroheme
+            eco01120  Microbial metabolism in diverse environments
+MODULE      eco_M00121  Heme biosynthesis, plants and bacteria, glutamate => heme
+            eco_M00846  Siroheme biosynthesis, glutamate => siroheme
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00860 Porphyrin and chlorophyll metabolism
                 b3804 (hemD)
             Enzymes [BR:eco01000]
@@ -20,10 +22,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3804 (hemD)
 POSITION    complement(3989088..3989828)
 MOTIF       Pfam: HEM4 GATase_4
-DBLINKS     NCBI-ProteinID: NP_418248
-            NCBI-GeneID: 948587
+DBLINKS     NCBI-GeneID: 948587
+            NCBI-ProteinID: NP_418248
             Pasteur: hemD
-            EcoGene: EG10430
+            RegulonDB: ECK120000423
             ECOCYC: EG10430
             ASAP: ABE-0012425
             UniProt: P09126

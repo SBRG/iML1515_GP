@@ -1,9 +1,10 @@
 ENTRY       b2913             CDS       T00007
 NAME        serA
-DEFINITION  (RefSeq) D-3-phosphoglycerate dehydrogenase
-ORTHOLOGY   K00058  D-3-phosphoglycerate dehydrogenase [EC:1.1.1.95]
+DEFINITION  (RefSeq) phosphoglycerate dehydrogenase
+ORTHOLOGY   K00058  D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00260  Glycine, serine and threonine metabolism
+            eco00270  Cysteine and methionine metabolism
             eco00680  Methane metabolism
             eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
@@ -12,17 +13,18 @@ PATHWAY     eco00260  Glycine, serine and threonine metabolism
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00020  Serine biosynthesis, glycerate-3P => serine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b2913 (serA)
-               01230 Biosynthesis of amino acids
-                b2913 (serA)
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00680 Methane metabolism
                 b2913 (serA)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00260 Glycine, serine and threonine metabolism
+                b2913 (serA)
+               00270 Cysteine and methionine metabolism
+                b2913 (serA)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               04147 Exosome [BR:eco04147]
                 b2913 (serA)
             Enzymes [BR:eco01000]
              1. Oxidoreductases
@@ -30,17 +32,18 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                1.1.1  With NAD+ or NADP+ as acceptor
                 1.1.1.95  phosphoglycerate dehydrogenase
                  b2913 (serA)
+                1.1.1.399  2-oxoglutarate reductase
+                 b2913 (serA)
             Exosome [BR:eco04147]
              Exosomal proteins
               Exosomal proteins of other body fluids (saliva and urine)
                b2913 (serA)
 POSITION    complement(3057178..3058410)
-MOTIF       Pfam: 2-Hacid_dh_C 2-Hacid_dh ACT NAD_binding_2 ACT_4 Ldh_1_N
-DBLINKS     NCBI-ProteinID: NP_417388
-            NCBI-GeneID: 945258
+MOTIF       Pfam: 2-Hacid_dh_C 2-Hacid_dh ACT NAD_binding_2 ACT_4 Ldh_1_N PI-TkoII_IV
+DBLINKS     NCBI-GeneID: 945258
+            NCBI-ProteinID: NP_417388
             Pasteur: serA
             RegulonDB: ECK120000933
-            EcoGene: EG10944
             ECOCYC: EG10944
             ASAP: ABE-0009561
             UniProt: P0A9T0

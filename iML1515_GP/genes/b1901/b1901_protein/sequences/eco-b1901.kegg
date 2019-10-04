@@ -1,26 +1,29 @@
 ENTRY       b1901             CDS       T00007
 NAME        araF
-DEFINITION  (RefSeq) L-arabinose transporter subunit
+DEFINITION  (RefSeq) arabinose ABC transporter periplasmic binding protein
 ORTHOLOGY   K10537  L-arabinose transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00213  L-Arabinose transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b1901 (araF)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1901 (araF)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Saccharide, polyol, and lipid transporters
-               L-Arabinose transporter [MD:M00213] [OT]
+               L-Arabinose transporter
                 b1901 (araF)
 POSITION    complement(1985139..1986128)
 MOTIF       Pfam: Peripla_BP_1 Peripla_BP_4
-DBLINKS     NCBI-ProteinID: NP_416414
-            NCBI-GeneID: 946409
+DBLINKS     NCBI-GeneID: 946409
+            NCBI-ProteinID: NP_416414
             Pasteur: araF
-            EcoGene: EG10057
+            RegulonDB: ECK120000053
             ECOCYC: EG10057
             ASAP: ABE-0006330
             UniProt: P02924

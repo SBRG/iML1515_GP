@@ -1,6 +1,6 @@
 ENTRY       b2762             CDS       T00007
 NAME        cysH
-DEFINITION  (RefSeq) phosphoadenosine phosphosulfate reductase; PAPS reductase, thioredoxin dependent
+DEFINITION  (RefSeq) phosphoadenosine phosphosulfate reductase
 ORTHOLOGY   K00390  phosphoadenosine phosphosulfate reductase [EC:1.8.4.8 1.8.4.10]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00920  Sulfur metabolism
@@ -9,8 +9,8 @@ PATHWAY     eco00920  Sulfur metabolism
 MODULE      eco_M00176  Assimilatory sulfate reduction, sulfate => H2S
             eco_M00616  Sulfate-sulfur assimilation
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00920 Sulfur metabolism
                 b2762 (cysH)
             Enzymes [BR:eco01000]
@@ -22,12 +22,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 1.8.4.10  adenylyl-sulfate reductase (thioredoxin)
                  b2762 (cysH)
 POSITION    complement(2887578..2888312)
-MOTIF       Pfam: PAPS_reduct LisH DDE_Tnp_1
-DBLINKS     NCBI-ProteinID: NP_417242
-            NCBI-GeneID: 947230
+MOTIF       Pfam: PAPS_reduct DDE_Tnp_1 LisH YceG
+DBLINKS     NCBI-GeneID: 947230
+            NCBI-ProteinID: NP_417242
             Pasteur: cysH
             RegulonDB: ECK120000184
-            EcoGene: EG10189
             ECOCYC: EG10189
             ASAP: ABE-0009057
             UniProt: P17854

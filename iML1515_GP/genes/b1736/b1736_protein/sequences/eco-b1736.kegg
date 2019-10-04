@@ -1,19 +1,22 @@
 ENTRY       b1736             CDS       T00007
 NAME        chbA
-DEFINITION  (RefSeq) N,N'-diacetylchitobiose-specific enzyme IIA component of PTS
+DEFINITION  (RefSeq) N,N'-diacetylchitobiose-specific PTS enzyme IIA component
 ORTHOLOGY   K02759  PTS system, cellobiose-specific IIA component [EC:2.7.1.196 2.7.1.205]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00500  Starch and sucrose metabolism
             eco02060  Phosphotransferase system (PTS)
-MODULE      eco_M00275  PTS system, cellobiose-specific II component
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00500 Starch and sucrose metabolism
                 b1736 (chbA)
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02060 Phosphotransferase system (PTS)
+                b1736 (chbA)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
                 b1736 (chbA)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -24,17 +27,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 2.7.1.205  protein-Npi-phosphohistidine---cellobiose phosphotransferase
                  b1736 (chbA)
             Transporters [BR:eco02000]
-             Phosphotransferase System (PTS)
+             Phosphotransferase system (PTS)
               Enzyme II [TC:4.A]
-               Cellobiose-specific II component [MD:M00275]
+               Cellobiose-specific II component
                 b1736 (chbA)
 POSITION    complement(1819455..1819805)
 MOTIF       Pfam: PTS_IIA
-DBLINKS     NCBI-ProteinID: NP_416250
-            NCBI-GeneID: 946244
+DBLINKS     NCBI-GeneID: 946244
+            NCBI-ProteinID: NP_416250
             Pasteur: chbA
             RegulonDB: ECK120000138
-            EcoGene: EG10142
             ECOCYC: EG10142
             ASAP: ABE-0005792
             UniProt: P69791

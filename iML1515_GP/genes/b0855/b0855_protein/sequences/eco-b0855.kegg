@@ -1,26 +1,29 @@
 ENTRY       b0855             CDS       T00007
 NAME        potG
-DEFINITION  (RefSeq) putrescine transporter subunit: ATP-binding component of ABC superfamily
+DEFINITION  (RefSeq) putrescine ABC transporter ATP binding subunit
 ORTHOLOGY   K11076  putrescine transport system ATP-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00300  Putrescine transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b0855 (potG)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0855 (potG)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Mineral and organic ion transporters
-               Putrescine transporter [MD:M00300] [OT]
+               Putrescine transporter
                 b0855 (potG)
 POSITION    894991..896124
-MOTIF       Pfam: ABC_tran TOBE_2 AAA_21 RsgA_GTPase SMC_N AAA_16 AAA_28 AAA_22 AAA_29 AAA_33 ATP-synt_ab Rad17 MMR_HSR1 AAA_23 G-alpha
-DBLINKS     NCBI-ProteinID: NP_415376
-            NCBI-GeneID: 945476
+MOTIF       Pfam: ABC_tran TOBE_2 AAA_21 RsgA_GTPase SMC_N AAA_16 AAA_22 AAA_29 AAA_28 Rad17 AAA_33 ATP-synt_ab MMR_HSR1 AAA_23 G-alpha
+DBLINKS     NCBI-GeneID: 945476
+            NCBI-ProteinID: NP_415376
             Pasteur: potG
-            EcoGene: EG11630
+            RegulonDB: ECK120001578
             ECOCYC: EG11630
             ASAP: ABE-0002915
             UniProt: P31134

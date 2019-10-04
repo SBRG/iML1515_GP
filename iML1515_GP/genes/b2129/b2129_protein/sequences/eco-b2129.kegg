@@ -1,27 +1,35 @@
 ENTRY       b2129             CDS       T00007
 NAME        yehX
-DEFINITION  (RefSeq) putative ABC superfamily transporter ATP-binding subunit
-ORTHOLOGY   K05847  osmoprotectant transport system ATP-binding protein
+DEFINITION  (RefSeq) glycine betaine ABC transporter ATP binding subunit YehX
+ORTHOLOGY   K05847  osmoprotectant transport system ATP-binding protein [EC:7.6.2.9]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00209  Osmoprotectant transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b2129 (yehX)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2129 (yehX)
+            Enzymes [BR:eco01000]
+             7. Translocases
+              7.6  Catalysing the translocation of other compounds
+               7.6.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.6.2.9  ABC-type quaternary amine transporter
+                 b2129 (yehX)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Mineral and organic ion transporters
-               Osmoprotectant transporter [MD:M00209]
+               Osmoprotectant transporter
                 b2129 (yehX)
 POSITION    complement(2216481..2217407)
-MOTIF       Pfam: ABC_tran AAA_21 AAA_30 CBS AAA_15 AAA_29 AAA_16 RsgA_GTPase AAA_22 G-alpha SMC_N AAA_28 Zeta_toxin
-DBLINKS     NCBI-ProteinID: NP_416633
-            NCBI-GeneID: 946659
+MOTIF       Pfam: ABC_tran AAA_21 AAA_30 CBS AAA_15 AAA_16 RsgA_GTPase AAA_29 AAA_22 G-alpha SMC_N AAA_28 Zeta_toxin
+DBLINKS     NCBI-GeneID: 946659
+            NCBI-ProteinID: NP_416633
             Pasteur: yehX
             RegulonDB: ECK120001929
-            EcoGene: EG12010
             ECOCYC: EG12010
             ASAP: ABE-0007034
             UniProt: P33360

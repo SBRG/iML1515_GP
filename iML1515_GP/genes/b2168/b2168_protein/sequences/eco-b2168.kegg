@@ -1,12 +1,13 @@
 ENTRY       b2168             CDS       T00007
 NAME        fruK
-DEFINITION  (RefSeq) fructose-1-phosphate kinase
+DEFINITION  (RefSeq) 1-phosphofructokinase
 ORTHOLOGY   K00882  1-phosphofructokinase [EC:2.7.1.56]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00051  Fructose and mannose metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00051 Fructose and mannose metabolism
                 b2168 (fruK)
             Enzymes [BR:eco01000]
@@ -17,10 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2168 (fruK)
 POSITION    complement(2261427..2262365)
 MOTIF       Pfam: PfkB Phos_pyr_kin
-DBLINKS     NCBI-ProteinID: NP_416673
-            NCBI-GeneID: 946676
+DBLINKS     NCBI-GeneID: 946676
+            NCBI-ProteinID: NP_416673
             Pasteur: fruK
-            EcoGene: EG10337
+            RegulonDB: ECK120000331
             ECOCYC: EG10337
             ASAP: ABE-0007174
             UniProt: P0AEW9

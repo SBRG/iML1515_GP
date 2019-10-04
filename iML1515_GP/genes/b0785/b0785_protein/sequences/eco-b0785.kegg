@@ -1,18 +1,19 @@
 ENTRY       b0785             CDS       T00007
 NAME        moaE
-DEFINITION  (RefSeq) molybdopterin synthase, large subunit
+DEFINITION  (RefSeq) molybdopterin synthase catalytic subunit
 ORTHOLOGY   K03635  molybdopterin synthase catalytic subunit [EC:2.8.1.12]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00790  Folate biosynthesis
             eco01100  Metabolic pathways
             eco04122  Sulfur relay system
+MODULE      eco_M00880  Molybdenum cofactor biosynthesis, GTP => molybdenum cofactor
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00790 Folate biosynthesis
                 b0785 (moaE)
-             Genetic Information Processing
-              Folding, sorting and degradation
+             09120 Genetic Information Processing
+              09123 Folding, sorting and degradation
                04122 Sulfur relay system
                 b0785 (moaE)
             Enzymes [BR:eco01000]
@@ -23,11 +24,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0785 (moaE)
 POSITION    819295..819747
 MOTIF       Pfam: MoaE DAHP_synth_2
-DBLINKS     NCBI-ProteinID: NP_415306
-            NCBI-GeneID: 945399
+DBLINKS     NCBI-GeneID: 945399
+            NCBI-ProteinID: NP_415306
             Pasteur: moaE
             RegulonDB: ECK120001546
-            EcoGene: EG11598
             ECOCYC: EG11598
             ASAP: ABE-0002678
             UniProt: P30749

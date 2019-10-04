@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2019-09-18" version="146">
+<accession>P29680</accession>
+<accession>P78135</accession>
+<accession>Q2M8T4</accession>
+<name>DCUP_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Uroporphyrinogen decarboxylase</fullName>
+<shortName evidence="1">UPD</shortName>
+<shortName evidence="1">URO-D</shortName>
+<ecNumber evidence="1">4.1.1.37</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary" evidence="1">hemE</name>
+<name type="ordered locus">b3997</name>
+<name type="ordered locus">JW3961</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1993" name="Gene" volume="133" first="109" last="113">
+<title>Cloning and sequencing of the hemE gene encoding uroporphyrinogen III decarboxylase (UPD) from Escherichia coli K-12.</title>
+<authorList>
+<person name="Nishimura K."/>
+<person name="Inokuchi H."/>
+</authorList>
+<dbReference type="PubMed" id="8224882"/>
+<dbReference type="DOI" id="10.1016/0378-1119(93)90233-s"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>K12</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1993" name="Nucleic Acids Res." volume="21" first="5408" last="5417">
+<title>Analysis of the Escherichia coli genome. IV. DNA sequence of the region from 89.2 to 92.8 minutes.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Burland V.D."/>
+<person name="Plunkett G. III"/>
+<person name="Sofia H.J."/>
+<person name="Daniels D.L."/>
+</authorList>
+<dbReference type="PubMed" id="8265357"/>
+<dbReference type="DOI" id="10.1093/nar/21.23.5408"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Catalyzes the decarboxylation of four acetate groups of uroporphyrinogen-III to yield coproporphyrinogen-III.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="1">
+<text>4 H(+) + uroporphyrinogen III = 4 CO2 + coproporphyrinogen III</text>
+<dbReference type="Rhea" id="RHEA:19865"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:16526"/>
+<dbReference type="ChEBI" id="CHEBI:57308"/>
+<dbReference type="ChEBI" id="CHEBI:57309"/>
+<dbReference type="EC" id="4.1.1.37"/>
+</reaction>
+</comment>
+<comment type="pathway" evidence="1">
+<text>Porphyrin-containing compound metabolism; protoporphyrin-IX biosynthesis; coproporphyrinogen-III from 5-aminolevulinate: step 4/4.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1">Homodimer.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the uroporphyrinogen decarboxylase family.</text>
+</comment>
+<dbReference type="EC" id="4.1.1.37" evidence="1"/>
+<dbReference type="EMBL" id="D12624">
+<property type="protein sequence ID" value="BAA02148.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00006">
+<property type="protein sequence ID" value="AAC43095.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC76971.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE77322.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="H65206">
+<property type="entry name" value="H65206"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_418425.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000137657.1">
+<property type="nucleotide sequence ID" value="NZ_SSZK01000047.1"/>
+</dbReference>
+<dbReference type="SMR" id="P29680"/>
+<dbReference type="BioGrid" id="4263218">
+<property type="interactions" value="2"/>
+</dbReference>
+<dbReference type="IntAct" id="P29680">
+<property type="interactions" value="5"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b3997"/>
+<dbReference type="jPOST" id="P29680"/>
+<dbReference type="PaxDb" id="P29680"/>
+<dbReference type="PRIDE" id="P29680"/>
+<dbReference type="EnsemblBacteria" id="AAC76971">
+<property type="protein sequence ID" value="AAC76971"/>
+<property type="gene ID" value="b3997"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE77322">
+<property type="protein sequence ID" value="BAE77322"/>
+<property type="gene ID" value="BAE77322"/>
+</dbReference>
+<dbReference type="GeneID" id="948497"/>
+<dbReference type="KEGG" id="ecj:JW3961"/>
+<dbReference type="KEGG" id="eco:b3997"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.2714"/>
+<dbReference type="EchoBASE" id="EB1505"/>
+<dbReference type="EcoGene" id="EG11543">
+<property type="gene designation" value="hemE"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105CFZ">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0407">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000253896"/>
+<dbReference type="InParanoid" id="P29680"/>
+<dbReference type="KO" id="K01599"/>
+<dbReference type="PhylomeDB" id="P29680"/>
+<dbReference type="BioCyc" id="EcoCyc:UROGENDECARBOX-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW3961-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:UROGENDECARBOX-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00251">
+<property type="reaction ID" value="UER00321"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P29680"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004853">
+<property type="term" value="F:uroporphyrinogen decarboxylase activity"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006783">
+<property type="term" value="P:heme biosynthetic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006779">
+<property type="term" value="P:porphyrin-containing compound biosynthetic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019353">
+<property type="term" value="P:protoporphyrinogen IX biosynthetic process from glutamate"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006780">
+<property type="term" value="P:uroporphyrinogen III biosynthetic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="CDD" id="cd00717">
+<property type="entry name" value="URO-D"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.20.20.210">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00218">
+<property type="entry name" value="URO_D"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR038071">
+<property type="entry name" value="UROD/MetE-like_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006361">
+<property type="entry name" value="Uroporphyrinogen_deCO2ase_HemE"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000257">
+<property type="entry name" value="Uroporphyrinogen_deCOase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01208">
+<property type="entry name" value="URO-D"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51726">
+<property type="entry name" value="SSF51726"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01464">
+<property type="entry name" value="hemE"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00906">
+<property type="entry name" value="UROD_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00907">
+<property type="entry name" value="UROD_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0210">Decarboxylase</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0627">Porphyrin biosynthesis</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Uroporphyrinogen decarboxylase" id="PRO_0000187603">
+<location>
+<begin position="1"/>
+<end position="354"/>
+</location>
+</feature>
+<feature type="region of interest" description="Substrate binding" evidence="1">
+<location>
+<begin position="27"/>
+<end position="31"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="46"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="77"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="154"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="209"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="327"/>
+</location>
+</feature>
+<feature type="site" description="Transition state stabilizer" evidence="1">
+<location>
+<position position="77"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; BAA02148." ref="1" evidence="2">
+<original>AILFSDI</original>
+<variation>RSSFRY</variation>
+<location>
+<begin position="72"/>
+<end position="78"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; BAA02148." ref="1" evidence="2">
+<original>D</original>
+<variation>I</variation>
+<location>
+<position position="83"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; BAA02148." ref="1" evidence="2">
+<original>LYFEAGEGPRFTSPV</original>
+<variation>SSILKPEKVRVLPRQI</variation>
+<location>
+<begin position="89"/>
+<end position="103"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; BAA02148." ref="1" evidence="2">
+<original>GGGQWL</original>
+<variation>SATVA</variation>
+<location>
+<begin position="251"/>
+<end position="256"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_00218"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000305"/>
+<sequence length="354" mass="39248" checksum="604933C50080260C" modified="1996-02-01" version="3">MTELKNDRYLRALLRQPVDVTPVWMMRQAGRYLPEYKATRAQAGDFMSLCKNAELACEVTLQPLRRYPLDAAILFSDILTVPDAMGLGLYFEAGEGPRFTSPVTCKADVDKLPIPDPEDELGYVMNAVRTIRRELKGEVPLIGFSGSPWTLATYMVEGGSSKAFTVIKKMMYADPQALHALLDKLAKSVTLYLNAQIKAGAQAVMIFDTWGGVLTGRDYQQFSLYYMHKIVDGLLRENDGRRVPVTLFTKGGGQWLEAMAETGCDALGLDWTTDIADARRRVGNKVALQGNMDPSMLYAPPARIEEEVATILAGFGHGEGHVFNLGHGIHQDVPPEHAGVFVEAVHRLSEQYHR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

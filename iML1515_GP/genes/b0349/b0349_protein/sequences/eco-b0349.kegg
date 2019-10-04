@@ -1,18 +1,16 @@
 ENTRY       b0349             CDS       T00007
 NAME        mhpC
-DEFINITION  (RefSeq) 2-hydroxy-6-ketonona-2,4-dienedioic acid hydrolase
+DEFINITION  (RefSeq) 2-hydroxy-6-ketonona-2,4-dienedioate hydrolase
 ORTHOLOGY   K05714  2-hydroxy-6-oxonona-2,4-dienedioate hydrolase [EC:3.7.1.14]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00360  Phenylalanine metabolism
+            eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
             eco01220  Degradation of aromatic compounds
 MODULE      eco_M00545  Trans-cinnamate degradation, trans-cinnamate => acetyl-CoA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01220 Degradation of aromatic compounds
-                b0349 (mhpC)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00360 Phenylalanine metabolism
                 b0349 (mhpC)
             Enzymes [BR:eco01000]
@@ -23,9 +21,9 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0349 (mhpC)
 POSITION    371239..372105
 MOTIF       Pfam: Abhydrolase_1 Abhydrolase_6 Hydrolase_4 Esterase Ndr FokI_N Peptidase_S9 Abhydrolase_3 UvsW Abhydrolase_4
-DBLINKS     NCBI-ProteinID: NP_414883
-            NCBI-GeneID: 944954
-            EcoGene: EG20275
+DBLINKS     NCBI-GeneID: 944954
+            NCBI-ProteinID: NP_414883
+            RegulonDB: ECK120004471
             ECOCYC: M012
             ASAP: ABE-0001201
             UniProt: P77044

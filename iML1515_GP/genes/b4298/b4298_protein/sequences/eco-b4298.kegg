@@ -1,40 +1,27 @@
 ENTRY       b4298             CDS       T00007
 NAME        yjhH
-DEFINITION  (RefSeq) putative lyase/synthase
-ORTHOLOGY   K01714  4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]
+DEFINITION  (RefSeq) KpLE2 phage-like element; putative 2-dehydro-3-deoxy-D-pentonate aldolase
+ORTHOLOGY   K22397  2-dehydro-3-deoxy-D-pentonate aldolase [EC:4.1.2.28]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-PATHWAY     eco00261  Monobactam biosynthesis
-            eco00300  Lysine biosynthesis
+PATHWAY     eco00040  Pentose and glucuronate interconversions
             eco01100  Metabolic pathways
-            eco01110  Biosynthesis of secondary metabolites
-            eco01120  Microbial metabolism in diverse environments
-            eco01130  Biosynthesis of antibiotics
-            eco01230  Biosynthesis of amino acids
-MODULE      eco_M00016  Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b4298 (yjhH)
-              Amino acid metabolism
-               00300 Lysine biosynthesis
-                b4298 (yjhH)
-              Biosynthesis of other secondary metabolites
-               00261 Monobactam biosynthesis
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00040 Pentose and glucuronate interconversions
                 b4298 (yjhH)
             Enzymes [BR:eco01000]
              4. Lyases
-              4.3  Carbon-nitrogen lyases
-               4.3.3  Amine-lyases
-                4.3.3.7  4-hydroxy-tetrahydrodipicolinate synthase
+              4.1  Carbon-carbon lyases
+               4.1.2  Aldehyde-lyases
+                4.1.2.28  2-dehydro-3-deoxy-D-pentonate aldolase
                  b4298 (yjhH)
 POSITION    complement(4524105..4525010)
-MOTIF       Pfam: DHDPS PA
-DBLINKS     NCBI-ProteinID: NP_418718
-            NCBI-GeneID: 948825
+MOTIF       Pfam: DHDPS
+DBLINKS     NCBI-GeneID: 948825
+            NCBI-ProteinID: NP_418718
             Pasteur: yjhH
             RegulonDB: ECK120004406
-            EcoGene: EG12550
             ECOCYC: G7911
             ASAP: ABE-0014089
             UniProt: P39359

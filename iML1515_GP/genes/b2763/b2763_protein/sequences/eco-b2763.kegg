@@ -1,6 +1,6 @@
 ENTRY       b2763             CDS       T00007
 NAME        cysI
-DEFINITION  (RefSeq) sulfite reductase, beta subunit, NAD(P)-binding, heme-binding
+DEFINITION  (RefSeq) sulfite reductase, hemoprotein subunit
 ORTHOLOGY   K00381  sulfite reductase (NADPH) hemoprotein beta-component [EC:1.8.1.2]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00920  Sulfur metabolism
@@ -9,8 +9,8 @@ PATHWAY     eco00920  Sulfur metabolism
 MODULE      eco_M00176  Assimilatory sulfate reduction, sulfate => H2S
             eco_M00616  Sulfate-sulfur assimilation
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00920 Sulfur metabolism
                 b2763 (cysI)
             Enzymes [BR:eco01000]
@@ -21,15 +21,15 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2763 (cysI)
 POSITION    complement(2888387..2890099)
 MOTIF       Pfam: NIR_SIR NIR_SIR_ferr
-DBLINKS     NCBI-ProteinID: NP_417243
-            NCBI-GeneID: 947231
+DBLINKS     NCBI-GeneID: 947231
+            NCBI-ProteinID: NP_417243
             Pasteur: cysI
-            EcoGene: EG10190
+            RegulonDB: ECK120000185
             ECOCYC: EG10190
             ASAP: ABE-0009061
             UniProt: P17846
-STRUCTURE   PDB: 4G38 4HTR 1AOP 2AOP 6GEP 4AOP 2GEP 4GEP 3GEO 5GEP 3AOP
-                 8GEP 5AOP 4G39 7GEP
+STRUCTURE   PDB: 6C3M 6C3X 6C3Y 4G38 4HTR 1AOP 6C3Z 2AOP 6GEP 4AOP 2GEP
+                 4GEP 3GEO 5GEP 3AOP 8GEP 5AOP 4G39 7GEP
 AASEQ       570
             MSEKHPGPLVVEGKLTDAERMKHESNYLRGTIAEDLNDGLTGGFKGDNFLLIRFHGMYQQ
             DDRDIRAERAEQKLEPRHAMLLRCRLPGGVITTKQWQAIDKFAGENTIYGSIRLTNRQTF

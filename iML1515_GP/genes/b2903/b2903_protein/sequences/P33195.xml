@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-10-01" modified="2019-09-18" version="153">
+<accession>P33195</accession>
+<accession>Q2M9T8</accession>
+<name>GCSP_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Glycine dehydrogenase (decarboxylating)</fullName>
+<ecNumber evidence="1">1.4.4.2</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="1">Glycine cleavage system P-protein</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="1">Glycine decarboxylase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="1">Glycine dehydrogenase (aminomethyl-transferring)</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="3">gcvP</name>
+<name type="ordered locus">b2903</name>
+<name type="ordered locus">JW2871</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1994" name="Gene" volume="142" first="17" last="22">
+<title>Characterization of the Escherichia coli gcv operon.</title>
+<authorList>
+<person name="Stauffer L.T."/>
+<person name="Fogarty S.J."/>
+<person name="Stauffer G.V."/>
+</authorList>
+<dbReference type="PubMed" id="8181752"/>
+<dbReference type="DOI" id="10.1016/0378-1119(94)90349-2"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>PARTIAL PROTEIN SEQUENCE</scope>
+<source>
+<strain>K12</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1993" name="Eur. J. Biochem." volume="216" first="539" last="548">
+<title>Cloning and nucleotide sequence of the gcv operon encoding the Escherichia coli glycine-cleavage system.</title>
+<authorList>
+<person name="Okamura-Ikeda K."/>
+<person name="Ohmura Y."/>
+<person name="Fujiwara K."/>
+<person name="Motokawa Y."/>
+</authorList>
+<dbReference type="PubMed" id="8375392"/>
+<dbReference type="DOI" id="10.1111/j.1432-1033.1993.tb18172.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>PROTEIN SEQUENCE OF 2-11</scope>
+<scope>FUNCTION</scope>
+<scope>SUBUNIT</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1 2">The glycine cleavage system catalyzes the degradation of glycine. The P protein binds the alpha-amino group of glycine through its pyridoxal phosphate cofactor; CO(2) is released and the remaining methylamine moiety is then transferred to the lipoamide cofactor of the H protein.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="1">
+<text>glycine + H(+) + N(6)-lipoyl-L-lysyl-[glycine-cleavage complex H protein] = (R)-N(6)-(S(8)-aminomethyldihydrolipoyl)-L-lysyl-[glycine-cleavage complex H protein] + CO2</text>
+<dbReference type="Rhea" id="RHEA:24304"/>
+<dbReference type="Rhea" id="RHEA-COMP:10494"/>
+<dbReference type="Rhea" id="RHEA-COMP:10495"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:16526"/>
+<dbReference type="ChEBI" id="CHEBI:57305"/>
+<dbReference type="ChEBI" id="CHEBI:83099"/>
+<dbReference type="ChEBI" id="CHEBI:83143"/>
+<dbReference type="EC" id="1.4.4.2"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>pyridoxal 5'-phosphate</name>
+<dbReference type="ChEBI" id="CHEBI:597326"/>
+</cofactor>
+</comment>
+<comment type="subunit">
+<text evidence="1 2">The glycine cleavage system is composed of four proteins: P, T, L and H.</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-551489"/>
+<interactant intactId="EBI-551489"/>
+<organismsDiffer>false</organismsDiffer>
+<experiments>2</experiments>
+</comment>
+<comment type="induction">
+<text>By glycine.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1 4">Belongs to the GcvP family.</text>
+</comment>
+<dbReference type="EC" id="1.4.4.2" evidence="1"/>
+<dbReference type="EMBL" id="L20872">
+<property type="protein sequence ID" value="AAA23867.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="X73958">
+<property type="protein sequence ID" value="CAA52146.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U28377">
+<property type="protein sequence ID" value="AAA69071.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC75941.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE76968.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="S36834">
+<property type="entry name" value="S36834"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_417379.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000195062.1">
+<property type="nucleotide sequence ID" value="NZ_LN832404.1"/>
+</dbReference>
+<dbReference type="SMR" id="P33195"/>
+<dbReference type="BioGrid" id="4259708">
+<property type="interactions" value="49"/>
+</dbReference>
+<dbReference type="BioGrid" id="851716">
+<property type="interactions" value="1"/>
+</dbReference>
+<dbReference type="ComplexPortal" id="CPX-3949">
+<property type="entry name" value="Glycine cleavage system complex"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-9753N"/>
+<dbReference type="IntAct" id="P33195">
+<property type="interactions" value="14"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b2903"/>
+<dbReference type="EPD" id="P33195"/>
+<dbReference type="jPOST" id="P33195"/>
+<dbReference type="PaxDb" id="P33195"/>
+<dbReference type="PRIDE" id="P33195"/>
+<dbReference type="EnsemblBacteria" id="AAC75941">
+<property type="protein sequence ID" value="AAC75941"/>
+<property type="gene ID" value="b2903"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE76968">
+<property type="protein sequence ID" value="BAE76968"/>
+<property type="gene ID" value="BAE76968"/>
+</dbReference>
+<dbReference type="GeneID" id="947394"/>
+<dbReference type="KEGG" id="ecj:JW2871"/>
+<dbReference type="KEGG" id="eco:b2903"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.3829"/>
+<dbReference type="EchoBASE" id="EB1758"/>
+<dbReference type="EcoGene" id="EG11810">
+<property type="gene designation" value="gcvP"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105CBI">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0403">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1003">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000239369"/>
+<dbReference type="InParanoid" id="P33195"/>
+<dbReference type="KO" id="K00281"/>
+<dbReference type="PhylomeDB" id="P33195"/>
+<dbReference type="BioCyc" id="EcoCyc:GCVP-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW2871-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:GCVP-MONOMER"/>
+<dbReference type="PRO" id="PR:P33195"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004375">
+<property type="term" value="F:glycine dehydrogenase (decarboxylating) activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042802">
+<property type="term" value="F:identical protein binding"/>
+<property type="evidence" value="ECO:0000353"/>
+<property type="project" value="IntAct"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019464">
+<property type="term" value="P:glycine decarboxylation via glycine cleavage system"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniRule"/>
+</dbReference>
+<dbReference type="CDD" id="cd00613">
+<property type="entry name" value="GDC-P"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.640.10">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.90.1150.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00711">
+<property type="entry name" value="GcvP"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003437">
+<property type="entry name" value="GcvP"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR020581">
+<property type="entry name" value="GDC_P"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015424">
+<property type="entry name" value="PyrdxlP-dep_Trfase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015422">
+<property type="entry name" value="PyrdxlP-dep_Trfase_dom1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015421">
+<property type="entry name" value="PyrdxlP-dep_Trfase_major"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR11773">
+<property type="entry name" value="PTHR11773"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02347">
+<property type="entry name" value="GDC-P"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53383">
+<property type="entry name" value="SSF53383"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00461">
+<property type="entry name" value="gcvP"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-0560">Oxidoreductase</keyword>
+<keyword id="KW-0663">Pyridoxal phosphate</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="initiator methionine" description="Removed" evidence="2">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="chain" description="Glycine dehydrogenase (decarboxylating)" id="PRO_0000166913">
+<location>
+<begin position="2"/>
+<end position="957"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-(pyridoxal phosphate)lysine" evidence="1">
+<location>
+<position position="708"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_00711"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="8375392"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="8375392"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="957" mass="104376" checksum="9983F4DCDC1095A0" modified="2007-01-23" version="3">MTQTLSQLENSGAFIERHIGPDAAQQQEMLNAVGAQSLNALTGQIVPKDIQLATPPQVGAPATEYAALAELKAIASRNKRFTSYIGMGYTAVQLPPVILRNMLENPGWYTAYTPYQPEVSQGRLEALLNFQQVTLDLTGLDMASASLLDEATAAAEAMAMAKRVSKLKNANRFFVASDVHPQTLDVVRTRAETFGFEVIVDDAQKVLDHQDVFGVLLQQVGTTGEIHDYTALISELKSRKIVVSVAADIMALVLLTAPGKQGADIVFGSAQRFGVPMGYGGPHAAFFAAKDEYKRSMPGRIIGVSKDAAGNTALRMAMQTREQHIRREKANSNICTSQVLLANIASLYAVYHGPVGLKRIANRIHRLTDILAAGLQQKGLKLRHAHYFDTLCVEVADKAGVLTRAEAAEINLRSDILNAVGITLDETTTRENVMQLFNVLLGDNHGLDIDTLDKDVAHDSRSIQPAMLRDDEILTHPVFNRYHSETEMMRYMHSLERKDLALNQAMIPLGSCTMKLNAAAEMIPITWPEFAELHPFCPPEQAEGYQQMIAQLADWLVKLTGYDAVCMQPNSGAQGEYAGLLAIRHYHESRNEGHRDICLIPASAHGTNPASAHMAGMQVVVVACDKNGNIDLTDLRAKAEQAGDNLSCIMVTYPSTHGVYEETIREVCEVVHQFGGQVYLDGANMNAQVGITSPGFIGADVSHLNLHKTFCIPHGGGGPGMGPIGVKAHLAPFVPGHSVVQIEGMLTRQGAVSAAPFGSASILPISWMYIRMMGAEGLKKASQVAILNANYIASRLQDAFPVLYTGRDGRVAHECILDIRPLKEETGISELDIAKRLIDYGFHAPTMSFPVAGTLMVEPTESESKVELDRFIDAMLAIRAEIDQVKAGVWPLEDNPLVNAPHIQSELVAEWAHPYSREVAVFPAGVADKYWPTVKRLDDVYGDRNLFCSCVPISEYQ</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

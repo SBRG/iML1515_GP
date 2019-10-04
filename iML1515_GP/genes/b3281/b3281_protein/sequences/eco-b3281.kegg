@@ -1,6 +1,6 @@
 ENTRY       b3281             CDS       T00007
 NAME        aroE
-DEFINITION  (RefSeq) dehydroshikimate reductase, NAD(P)-binding
+DEFINITION  (RefSeq) shikimate dehydrogenase
 ORTHOLOGY   K00014  shikimate dehydrogenase [EC:1.1.1.25]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00400  Phenylalanine, tyrosine and tryptophan biosynthesis
@@ -10,11 +10,8 @@ PATHWAY     eco00400  Phenylalanine, tyrosine and tryptophan biosynthesis
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00022  Shikimate pathway, phosphoenolpyruvate + erythrose-4P => chorismate
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b3281 (aroE)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00400 Phenylalanine, tyrosine and tryptophan biosynthesis
                 b3281 (aroE)
             Enzymes [BR:eco01000]
@@ -24,11 +21,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 1.1.1.25  shikimate dehydrogenase
                  b3281 (aroE)
 POSITION    complement(3430020..3430838)
-MOTIF       Pfam: Shikimate_dh_N Shikimate_DH
-DBLINKS     NCBI-ProteinID: NP_417740
-            NCBI-GeneID: 947776
+MOTIF       Pfam: Shikimate_dh_N SDH_C Shikimate_DH
+DBLINKS     NCBI-GeneID: 947776
+            NCBI-ProteinID: NP_417740
             Pasteur: aroE
-            EcoGene: EG10077
+            RegulonDB: ECK120000073
             ECOCYC: EG10077
             ASAP: ABE-0010763
             UniProt: P15770

@@ -1,14 +1,14 @@
 ENTRY       b0583             CDS       T00007
 NAME        entD
-DEFINITION  (RefSeq) phosphopantetheinyltransferase component of enterobactin synthase multienzyme complex
+DEFINITION  (RefSeq) phosphopantetheinyl transferase EntD
 ORTHOLOGY   K02362  enterobactin synthetase component D [EC:6.3.2.14 2.7.8.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco01053  Biosynthesis of siderophore group nonribosomal peptides
             eco01110  Biosynthesis of secondary metabolites
             eco01130  Biosynthesis of antibiotics
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of terpenoids and polyketides
+             09100 Metabolism
+              09109 Metabolism of terpenoids and polyketides
                01053 Biosynthesis of siderophore group nonribosomal peptides
                 b0583 (entD)
             Enzymes [BR:eco01000]
@@ -23,11 +23,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 6.3.2.14  enterobactin synthase
                  b0583 (entD)
 POSITION    complement(609459..610079)
-MOTIF       Pfam: ACPS
-DBLINKS     NCBI-ProteinID: NP_415115
-            NCBI-GeneID: 945194
+MOTIF       Pfam: 4PPT_N ACPS
+DBLINKS     NCBI-GeneID: 945194
+            NCBI-ProteinID: NP_415115
             RegulonDB: ECK120000256
-            EcoGene: EG10262
             ECOCYC: EG10262
             ASAP: ABE-0002009
             UniProt: P19925

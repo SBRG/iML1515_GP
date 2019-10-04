@@ -1,6 +1,6 @@
 ENTRY       b2747             CDS       T00007
 NAME        ispD
-DEFINITION  (RefSeq) 4-diphosphocytidyl-2C-methyl-D-erythritol synthase
+DEFINITION  (RefSeq) 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
 ORTHOLOGY   K00991  2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [EC:2.7.7.60]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00900  Terpenoid backbone biosynthesis
@@ -9,8 +9,8 @@ PATHWAY     eco00900  Terpenoid backbone biosynthesis
             eco01130  Biosynthesis of antibiotics
 MODULE      eco_M00096  C5 isoprenoid biosynthesis, non-mevalonate pathway
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of terpenoids and polyketides
+             09100 Metabolism
+              09109 Metabolism of terpenoids and polyketides
                00900 Terpenoid backbone biosynthesis
                 b2747 (ispD)
             Enzymes [BR:eco01000]
@@ -21,10 +21,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2747 (ispD)
 POSITION    complement(2871780..2872490)
 MOTIF       Pfam: IspD NTP_transf_3 CTP_transf_3
-DBLINKS     NCBI-ProteinID: NP_417227
-            NCBI-GeneID: 948269
+DBLINKS     NCBI-GeneID: 948269
+            NCBI-ProteinID: NP_417227
+            Pasteur: ygbP
             RegulonDB: ECK120003988
-            EcoGene: EG13110
             ECOCYC: G7423
             ASAP: ABE-0009017
             UniProt: Q46893

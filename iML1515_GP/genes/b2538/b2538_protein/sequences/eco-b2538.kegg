@@ -1,18 +1,16 @@
 ENTRY       b2538             CDS       T00007
 NAME        hcaE
-DEFINITION  (RefSeq) 3-phenylpropionate dioxygenase, large (alpha) subunit
+DEFINITION  (RefSeq) putative 3-phenylpropionate/cinnamate dioxygenase subunit alpha
 ORTHOLOGY   K05708  3-phenylpropionate/trans-cinnamate dioxygenase subunit alpha [EC:1.14.12.19]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00360  Phenylalanine metabolism
+            eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
             eco01220  Degradation of aromatic compounds
 MODULE      eco_M00545  Trans-cinnamate degradation, trans-cinnamate => acetyl-CoA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01220 Degradation of aromatic compounds
-                b2538 (hcaE)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00360 Phenylalanine metabolism
                 b2538 (hcaE)
             Enzymes [BR:eco01000]
@@ -23,10 +21,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2538 (hcaE)
 POSITION    2669032..2670393
 MOTIF       Pfam: Ring_hydroxyl_A Rieske
-DBLINKS     NCBI-ProteinID: NP_417033
-            NCBI-GeneID: 946998
+DBLINKS     NCBI-GeneID: 946998
+            NCBI-ProteinID: NP_417033
+            Pasteur: yfhU
             RegulonDB: ECK120004468
-            EcoGene: EG13456
             ECOCYC: M009
             ASAP: ABE-0008355
             UniProt: P0ABR5

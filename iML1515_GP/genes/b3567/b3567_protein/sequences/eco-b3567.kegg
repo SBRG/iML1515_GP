@@ -1,32 +1,35 @@
 ENTRY       b3567             CDS       T00007
 NAME        xylG
-DEFINITION  (RefSeq) fused D-xylose transporter subunits of ABC superfamily: ATP-binding components
-ORTHOLOGY   K10545  D-xylose transport system ATP-binding protein [EC:3.6.3.17]
+DEFINITION  (RefSeq) xylose ABC transporter ATP binding subunit
+ORTHOLOGY   K10545  D-xylose transport system ATP-binding protein [EC:7.5.2.10]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00215  D-Xylose transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b3567 (xylG)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3567 (xylG)
             Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.17  monosaccharide-transporting ATPase
+             7. Translocases
+              7.5  Catalysing the translocation of carbohydrates and their derivatives
+               7.5.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.5.2.10  ABC-type D-xylose transporter
                  b3567 (xylG)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Saccharide, polyol, and lipid transporters
-               D-Xylose transporter [MD:M00215] [OT]
+               D-Xylose transporter
                 b3567 (xylG)
 POSITION    3732201..3733742
-MOTIF       Pfam: ABC_tran AAA_21 SMC_N AAA_29 AAA_23 AAA_15 AAA_16 RsgA_GTPase AAA_33 AAA_30 AAA_22
-DBLINKS     NCBI-ProteinID: NP_418024
-            NCBI-GeneID: 948127
+MOTIF       Pfam: ABC_tran AAA_21 SMC_N AAA_29 AAA_23 AAA_15 MCM AAA_16 RsgA_GTPase AAA_33 AAA_30 AAA_22
+DBLINKS     NCBI-GeneID: 948127
+            NCBI-ProteinID: NP_418024
             Pasteur: xylG
-            EcoGene: EG12275
+            RegulonDB: ECK120002156
             ECOCYC: EG12275
             ASAP: ABE-0011648
             UniProt: P37388

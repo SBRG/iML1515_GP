@@ -1,12 +1,13 @@
 ENTRY       b0340             CDS       T00007
 NAME        cynS
-DEFINITION  (RefSeq) cyanate aminohydrolase
+DEFINITION  (RefSeq) cyanase
 ORTHOLOGY   K01725  cyanate lyase [EC:4.2.1.104]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00910  Nitrogen metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00910 Nitrogen metabolism
                 b0340 (cynS)
             Enzymes [BR:eco01000]
@@ -17,15 +18,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0340 (cynS)
 POSITION    359489..359959
 MOTIF       Pfam: Cyanate_lyase
-DBLINKS     NCBI-ProteinID: NP_414874
-            NCBI-GeneID: 948998
+DBLINKS     NCBI-GeneID: 948998
+            NCBI-ProteinID: NP_414874
             Pasteur: cynS
             RegulonDB: ECK120000170
-            EcoGene: EG10175
             ECOCYC: EG10175
             ASAP: ABE-0001173
             UniProt: P00816
-STRUCTURE   PDB: 1DWK 1DW9 2IVG 2IV1 2IU7 2IVB 2IVQ 2IUO
+STRUCTURE   PDB: 1DWK 1DW9 2IVG 2IV1 2IUO 2IU7 2IVB 2IVQ
 AASEQ       156
             MIQSQINRNIRLDLADAILLSKAKKDLSFAEIADGTGLAEAFVTAALLGQQALPADAARL
             VGAKLDLDEDSILLLQMIPLRGCIDDRIPTDPTMYRFYEMLQVYGTTLKALVHEKFGDGI

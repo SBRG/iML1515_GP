@@ -6,9 +6,13 @@ ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00471  D-Glutamine and D-glutamate metabolism
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of other amino acids
+             09100 Metabolism
+              09106 Metabolism of other amino acids
                00471 D-Glutamine and D-glutamate metabolism
+                b3967 (murI)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
                 b3967 (murI)
             Enzymes [BR:eco01000]
              5. Isomerases
@@ -16,12 +20,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                5.1.1  Acting on amino acids and derivatives
                 5.1.1.3  glutamate racemase
                  b3967 (murI)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Precursor biosynthesis
+              Racemase
+               b3967 (murI)
 POSITION    4165428..4166285
 MOTIF       Pfam: Asp_Glu_race
-DBLINKS     NCBI-ProteinID: NP_418402
-            NCBI-GeneID: 948467
+DBLINKS     NCBI-GeneID: 948467
+            NCBI-ProteinID: NP_418402
             Pasteur: murI
-            EcoGene: EG11204
+            RegulonDB: ECK120001184
             ECOCYC: EG11204
             ASAP: ABE-0012989
             UniProt: P22634

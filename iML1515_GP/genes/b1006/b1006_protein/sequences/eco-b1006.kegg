@@ -1,17 +1,23 @@
 ENTRY       b1006             CDS       T00007
 NAME        rutG
-DEFINITION  (RefSeq) pyrimidine permease
+DEFINITION  (RefSeq) pyrimidine:H(+) symporter
 ORTHOLOGY   K09016  putative pyrimidine permease RutG
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1006 (rutG)
+            Transporters [BR:eco02000]
+             Other transporters
               Electrochemical potential-driven transporters [TC:2]
                b1006 (rutG)
 POSITION    complement(1068511..1069839)
 MOTIF       Pfam: Xan_ur_permease
-DBLINKS     NCBI-ProteinID: NP_415526
-            NCBI-GeneID: 946589
-            EcoGene: EG13853
+DBLINKS     NCBI-GeneID: 946589
+            NCBI-ProteinID: NP_415526
+            Pasteur: ycdG
+            RegulonDB: ECK120003117
             ECOCYC: G6517
             ASAP: ABE-0003401
             UniProt: P75892

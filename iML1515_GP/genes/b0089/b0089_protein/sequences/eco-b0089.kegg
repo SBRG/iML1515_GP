@@ -1,20 +1,31 @@
 ENTRY       b0089             CDS       T00007
 NAME        ftsW
-DEFINITION  (RefSeq) lipid II flippase; integral membrane protein involved in stabilizing FstZ ring during cell division
+DEFINITION  (RefSeq) putative lipid II flippase FtsW
 ORTHOLOGY   K03588  cell division protein FtsW
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Chromosome [BR:eco03036]
-             Prokaryotic Type
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               03036 Chromosome and associated proteins [BR:eco03036]
+                b0089 (ftsW)
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0089 (ftsW)
+            Chromosome and associated proteins [BR:eco03036]
+             Prokaryotic type
               Chromosome partitioning proteins
                Divisome proteins
                 b0089 (ftsW)
+            Transporters [BR:eco02000]
+             Other transporters
+              Electrochemical potential-driven transporters [TC:2]
+               b0089 (ftsW)
 POSITION    98403..99647
 MOTIF       Pfam: FTSW_RODA_SPOVE
-DBLINKS     NCBI-ProteinID: NP_414631
-            NCBI-GeneID: 946322
+DBLINKS     NCBI-GeneID: 946322
+            NCBI-ProteinID: NP_414631
             Pasteur: ftsW
             RegulonDB: ECK120000338
-            EcoGene: EG10344
             ECOCYC: EG10344
             ASAP: ABE-0000320
             UniProt: P0ABG4

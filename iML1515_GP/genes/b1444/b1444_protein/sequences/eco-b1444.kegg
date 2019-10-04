@@ -3,15 +3,19 @@ NAME        patD
 DEFINITION  (RefSeq) gamma-aminobutyraldehyde dehydrogenase
 ORTHOLOGY   K00137  aminobutyraldehyde dehydrogenase [EC:1.2.1.19]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-PATHWAY     eco00330  Arginine and proline metabolism
+PATHWAY     eco00310  Lysine degradation
+            eco00330  Arginine and proline metabolism
             eco00410  beta-Alanine metabolism
             eco01100  Metabolic pathways
+            eco01120  Microbial metabolism in diverse environments
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
+               00310 Lysine degradation
+                b1444 (patD)
                00330 Arginine and proline metabolism
                 b1444 (patD)
-              Metabolism of other amino acids
+              09106 Metabolism of other amino acids
                00410 beta-Alanine metabolism
                 b1444 (patD)
             Enzymes [BR:eco01000]
@@ -22,9 +26,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1444 (patD)
 POSITION    1515578..1517002
 MOTIF       Pfam: Aldedh CHASE8
-DBLINKS     NCBI-ProteinID: NP_415961
-            NCBI-GeneID: 945876
-            EcoGene: EG13766
+DBLINKS     NCBI-GeneID: 945876
+            NCBI-ProteinID: NP_415961
+            Pasteur: ydcW
+            RegulonDB: ECK120003344
             ECOCYC: G6755
             ASAP: ABE-0004813
             UniProt: P77674

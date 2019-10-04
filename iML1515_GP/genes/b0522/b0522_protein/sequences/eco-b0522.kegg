@@ -1,6 +1,6 @@
 ENTRY       b0522             CDS       T00007
 NAME        purK
-DEFINITION  (RefSeq) N5-carboxyaminoimidazole ribonucleotide synthase
+DEFINITION  (RefSeq) 5-(carboxyamino)imidazole ribonucleotide synthase
 ORTHOLOGY   K01589  5-(carboxyamino)imidazole ribonucleotide synthase [EC:6.3.4.18]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00230  Purine metabolism
@@ -9,8 +9,8 @@ PATHWAY     eco00230  Purine metabolism
             eco01130  Biosynthesis of antibiotics
 MODULE      eco_M00048  Inosine monophosphate biosynthesis, PRPP + glutamine => IMP
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00230 Purine metabolism
                 b0522 (purK)
             Enzymes [BR:eco01000]
@@ -20,12 +20,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 6.3.4.18  5-(carboxyamino)imidazole ribonucleotide synthase
                  b0522 (purK)
 POSITION    complement(551527..552594)
-MOTIF       Pfam: ATP-grasp
-DBLINKS     NCBI-ProteinID: NP_415055
-            NCBI-GeneID: 945153
+MOTIF       Pfam: ATP-grasp PurK_C
+DBLINKS     NCBI-GeneID: 945153
+            NCBI-ProteinID: NP_415055
             Pasteur: purK
             RegulonDB: ECK120000787
-            EcoGene: EG10796
             ECOCYC: EG10796
             ASAP: ABE-0001794
             UniProt: P09029

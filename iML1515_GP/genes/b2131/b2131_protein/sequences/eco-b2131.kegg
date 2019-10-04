@@ -1,26 +1,29 @@
 ENTRY       b2131             CDS       T00007
 NAME        osmF
-DEFINITION  (RefSeq) putative ABC superfamily transporter periplasmic-binding protein
+DEFINITION  (RefSeq) glycine betaine ABC transporter periplasmic binding protein OsmF
 ORTHOLOGY   K05845  osmoprotectant transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00209  Osmoprotectant transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b2131 (osmF)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2131 (osmF)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Mineral and organic ion transporters
-               Osmoprotectant transporter [MD:M00209]
+               Osmoprotectant transporter
                 b2131 (osmF)
 POSITION    complement(2218564..2219481)
 MOTIF       Pfam: OpuAC
-DBLINKS     NCBI-ProteinID: NP_416635
-            NCBI-GeneID: 946681
+DBLINKS     NCBI-GeneID: 946681
+            NCBI-ProteinID: NP_416635
+            Pasteur: yehZ
             RegulonDB: ECK120001931
-            EcoGene: EG12012
             ECOCYC: EG12012
             ASAP: ABE-0007040
             UniProt: P33362

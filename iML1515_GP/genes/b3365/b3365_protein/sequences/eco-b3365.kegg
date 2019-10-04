@@ -1,14 +1,15 @@
 ENTRY       b3365             CDS       T00007
 NAME        nirB
-DEFINITION  (RefSeq) nitrite reductase, large subunit, NAD(P)H-binding
+DEFINITION  (RefSeq) nitrite reductase catalytic subunit NirB
 ORTHOLOGY   K00362  nitrite reductase (NADH) large subunit [EC:1.7.1.15]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00910  Nitrogen metabolism
+            eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
 MODULE      eco_M00530  Dissimilatory nitrate reduction, nitrate => ammonia
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00910 Nitrogen metabolism
                 b3365 (nirB)
             Enzymes [BR:eco01000]
@@ -18,11 +19,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 1.7.1.15  nitrite reductase (NADH)
                  b3365 (nirB)
 POSITION    3494011..3496554
-MOTIF       Pfam: Pyr_redox_2 Fer2_BFD Pyr_redox NIR_SIR NIR_SIR_ferr Pyr_redox_3 GIDA AlaDh_PNT_C FAD_binding_3
-DBLINKS     NCBI-ProteinID: NP_417824
-            NCBI-GeneID: 947868
+MOTIF       Pfam: Pyr_redox_2 Fer2_BFD Pyr_redox NIR_SIR NIR_SIR_ferr Rubredoxin_C Pyr_redox_3 GIDA AlaDh_PNT_C FAD_binding_3
+DBLINKS     NCBI-GeneID: 947868
+            NCBI-ProteinID: NP_417824
             Pasteur: nirB
-            EcoGene: EG10653
+            RegulonDB: ECK120000646
             ECOCYC: EG10653
             ASAP: ABE-0011003
             UniProt: P08201

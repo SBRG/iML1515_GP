@@ -1,13 +1,13 @@
 ENTRY       b0630             CDS       T00007
 NAME        lipB
-DEFINITION  (RefSeq) octanoyltransferase; octanoyl-[ACP]:protein N-octanoyltransferase
+DEFINITION  (RefSeq) lipoyl(octanoyl) transferase
 ORTHOLOGY   K03801  lipoyl(octanoyl) transferase [EC:2.3.1.181]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00785  Lipoic acid metabolism
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00785 Lipoic acid metabolism
                 b0630 (lipB)
             Enzymes [BR:eco01000]
@@ -18,11 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0630 (lipB)
 POSITION    complement(661637..662278)
 MOTIF       Pfam: BPL_LplA_LipB
-DBLINKS     NCBI-ProteinID: NP_415163
-            NCBI-GeneID: 945217
+DBLINKS     NCBI-GeneID: 945217
+            NCBI-ProteinID: NP_415163
             Pasteur: lipB
             RegulonDB: ECK120001540
-            EcoGene: EG11591
             ECOCYC: EG11591
             ASAP: ABE-0002160
             UniProt: P60720

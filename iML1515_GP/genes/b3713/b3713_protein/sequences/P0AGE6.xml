@@ -1,0 +1,602 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-12-20" modified="2019-09-18" version="107">
+<accession>P0AGE6</accession>
+<accession>P31465</accession>
+<accession>Q2M831</accession>
+<name>CHRR_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName evidence="7">Quinone reductase</fullName>
+<ecNumber evidence="3">1.6.5.2</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="7">Chromate reductase</fullName>
+<shortName>CHRR</shortName>
+<ecNumber evidence="3 5 6">1.6.-.-</ecNumber>
+</alternativeName>
+<alternativeName>
+<fullName evidence="7">NAD(P)H dehydrogenase (quinone)</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">chrR</name>
+<name type="synonym">yieF</name>
+<name type="ordered locus">b3713</name>
+<name type="ordered locus">JW3691</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1993" name="Genomics" volume="16" first="551" last="561">
+<title>DNA sequence and analysis of 136 kilobases of the Escherichia coli genome: organizational symmetry around the origin of replication.</title>
+<authorList>
+<person name="Burland V.D."/>
+<person name="Plunkett G. III"/>
+<person name="Daniels D.L."/>
+<person name="Blattner F.R."/>
+</authorList>
+<dbReference type="PubMed" id="7686882"/>
+<dbReference type="DOI" id="10.1006/geno.1993.1230"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2004" name="Appl. Environ. Microbiol." volume="70" first="873" last="882">
+<title>Chromate-reducing properties of soluble flavoproteins from Pseudomonas putida and Escherichia coli.</title>
+<authorList>
+<person name="Ackerley D.F."/>
+<person name="Gonzalez C.F."/>
+<person name="Park C.H."/>
+<person name="Blake R. II"/>
+<person name="Keyhan M."/>
+<person name="Matin A."/>
+</authorList>
+<dbReference type="PubMed" id="14766567"/>
+<dbReference type="DOI" id="10.1128/aem.70.2.873-882.2004"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>SUBSTRATE SPECIFICITY</scope>
+<scope>ACTIVITY REGULATION</scope>
+<scope>INDUCTION</scope>
+<scope>COFACTOR</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2006" name="Appl. Environ. Microbiol." volume="72" first="7074" last="7082">
+<title>Analysis of novel soluble chromate and uranyl reductases and generation of an improved enzyme by directed evolution.</title>
+<authorList>
+<person name="Barak Y."/>
+<person name="Ackerley D.F."/>
+<person name="Dodge C.J."/>
+<person name="Banwari L."/>
+<person name="Alex C."/>
+<person name="Francis A.J."/>
+<person name="Matin A."/>
+</authorList>
+<dbReference type="PubMed" id="17088379"/>
+<dbReference type="DOI" id="10.1128/aem.01334-06"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>MUTAGENESIS OF TYR-128</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2006" name="J. Bacteriol." volume="188" first="3371" last="3381">
+<title>Effect of chromate stress on Escherichia coli K-12.</title>
+<authorList>
+<person name="Ackerley D.F."/>
+<person name="Barak Y."/>
+<person name="Lynch S.V."/>
+<person name="Curtin J."/>
+<person name="Matin A."/>
+</authorList>
+<dbReference type="PubMed" id="16621832"/>
+<dbReference type="DOI" id="10.1128/jb.188.9.3371-3381.2006"/>
+</citation>
+<scope>DISRUPTION PHENOTYPE</scope>
+<source>
+<strain>K12</strain>
+</source>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2012" name="PLoS ONE" volume="7" first="E36017" last="E36017">
+<title>Crystal structure of ChrR--a quinone reductase with the capacity to reduce chromate.</title>
+<authorList>
+<person name="Eswaramoorthy S."/>
+<person name="Poulain S."/>
+<person name="Hienerwadel R."/>
+<person name="Bremond N."/>
+<person name="Sylvester M.D."/>
+<person name="Zhang Y.B."/>
+<person name="Berthomieu C."/>
+<person name="Van Der Lelie D."/>
+<person name="Matin A."/>
+</authorList>
+<dbReference type="PubMed" id="22558308"/>
+<dbReference type="DOI" id="10.1371/journal.pone.0036017"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.2 ANGSTROMS) OF 3-188 IN COMPLEX WITH FMN</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>MUTAGENESIS OF TYR-85; ARG-125; TYR-128 AND GLU-146</scope>
+<scope>SUBUNIT</scope>
+<source>
+<strain>K12</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="2 3 5 6">Catalyzes the reduction of quinones (PubMed:14766567). Acts by simultaneous two-electron transfer, avoiding formation of highly reactive semiquinone intermediates and producing quinols that promote tolerance of H(2)O(2). Quinone reduction is probably the primary biological role of ChrR (By similarity). Can also reduce toxic chromate to insoluble and less toxic Cr(3+). Catalyzes the transfer of three electrons to Cr(6+) producing Cr(3+) and one electron to molecular oxygen without producing the toxic Cr(5+) species and only producing a minimal amount of reactive oxygen species (ROS). Chromate reduction protects the cell against chromate toxicity, but is likely a secondary activity (PubMed:14766567, PubMed:17088379, PubMed:22558308). Can also reduce potassium ferricyanide, 2,6-dichloroindophenol, V(5+), Mo(6+), methylene blue, cytochrome c and U(6+) (PubMed:14766567, PubMed:17088379). During chromate reduction, is able to use both NAD or NADP equally well (PubMed:14766567).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3">
+<text>a quinone + H(+) + NADH = a quinol + NAD(+)</text>
+<dbReference type="Rhea" id="RHEA:46160"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:24646"/>
+<dbReference type="ChEBI" id="CHEBI:57540"/>
+<dbReference type="ChEBI" id="CHEBI:57945"/>
+<dbReference type="ChEBI" id="CHEBI:132124"/>
+<dbReference type="EC" id="1.6.5.2"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3">
+<text>a quinone + H(+) + NADPH = a quinol + NADP(+)</text>
+<dbReference type="Rhea" id="RHEA:46164"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:24646"/>
+<dbReference type="ChEBI" id="CHEBI:57783"/>
+<dbReference type="ChEBI" id="CHEBI:58349"/>
+<dbReference type="ChEBI" id="CHEBI:132124"/>
+<dbReference type="EC" id="1.6.5.2"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3 5 6">
+<text>Cr(6+) + 2 NADH + O2 = Cr(3+) + 2 H(+) + 2 NAD(+) + superoxide</text>
+<dbReference type="Rhea" id="RHEA:44372"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:15379"/>
+<dbReference type="ChEBI" id="CHEBI:18421"/>
+<dbReference type="ChEBI" id="CHEBI:33007"/>
+<dbReference type="ChEBI" id="CHEBI:49544"/>
+<dbReference type="ChEBI" id="CHEBI:57540"/>
+<dbReference type="ChEBI" id="CHEBI:57945"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3 5 6">
+<text>Cr(6+) + 2 NADPH + O2 = Cr(3+) + 2 H(+) + 2 NADP(+) + superoxide</text>
+<dbReference type="Rhea" id="RHEA:44368"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:15379"/>
+<dbReference type="ChEBI" id="CHEBI:18421"/>
+<dbReference type="ChEBI" id="CHEBI:33007"/>
+<dbReference type="ChEBI" id="CHEBI:49544"/>
+<dbReference type="ChEBI" id="CHEBI:57783"/>
+<dbReference type="ChEBI" id="CHEBI:58349"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="3 6">
+<name>FMN</name>
+<dbReference type="ChEBI" id="CHEBI:58210"/>
+</cofactor>
+<text evidence="6">Binds 1 FMN per subunit.</text>
+</comment>
+<comment type="activity regulation">
+<text evidence="3">May be inhibited by divalent cations.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="5">108 uM for uranyl (at pH 7 and 37 degrees Celsius)</KM>
+<KM evidence="3">200 uM for chromate (at pH 5 and 35 degrees Celsius)</KM>
+<KM evidence="5">376 uM for chromate (at pH 7 and 37 degrees Celsius)</KM>
+<Vmax evidence="3">5 umol/min/mg enzyme with chromate as substrate (at pH 5 and 35 degrees Celsius)</Vmax>
+<Vmax evidence="5">213 nmol/min/mg enzyme with uranyl as substrate (at pH 7 and 37 degrees Celsius)</Vmax>
+<Vmax evidence="5">295 nmol/min/mg enzyme with chromate as substrate (at pH 7 and 37 degrees Celsius)</Vmax>
+<text evidence="3 5">kcat is 3.7 sec(-1) with chromate as substrate (at pH 5 and 35 degrees Celsius) (PubMed:14766567). kcat is 29 sec(-1) with uranyl as substrate (at pH 7 and 37 degrees Celsius) (PubMed:17088379). kcat is 30 sec(-1) with chromate as substrate (at pH 7 and 37 degrees Celsius) (PubMed:17088379).</text>
+</kinetics>
+<phDependence>
+<text evidence="3">Optimum pH is 5.</text>
+</phDependence>
+<temperatureDependence>
+<text evidence="3">Optimum temperature is 35 degrees Celsius.</text>
+</temperatureDependence>
+</comment>
+<comment type="subunit">
+<text evidence="6">Homotetramer. Dimer of dimers. The tetrameric configuration has a central role in chromate reductase activity.</text>
+</comment>
+<comment type="induction">
+<text evidence="3">Induced by both chromate and the stationary phase.</text>
+</comment>
+<comment type="disruption phenotype">
+<text evidence="4">Cells lacking this gene show an increased sensitivity to chromate.</text>
+</comment>
+<comment type="similarity">
+<text evidence="7">Belongs to the SsuE family.</text>
+</comment>
+<dbReference type="EC" id="1.6.5.2" evidence="3"/>
+<dbReference type="EC" id="1.6.-.-" evidence="3 5 6"/>
+<dbReference type="EMBL" id="L10328">
+<property type="protein sequence ID" value="AAA62064.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC76736.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE77575.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="B65174">
+<property type="entry name" value="B65174"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_418169.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_001291268.1">
+<property type="nucleotide sequence ID" value="NZ_SSZK01000035.1"/>
+</dbReference>
+<dbReference type="PDB" id="3SVL">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.20"/>
+<property type="chains" value="A/B=3-188"/>
+</dbReference>
+<dbReference type="PDBsum" id="3SVL"/>
+<dbReference type="SMR" id="P0AGE6"/>
+<dbReference type="BioGrid" id="4262171">
+<property type="interactions" value="17"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-36041N"/>
+<dbReference type="IntAct" id="P0AGE6">
+<property type="interactions" value="2"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b3713"/>
+<dbReference type="EPD" id="P0AGE6"/>
+<dbReference type="jPOST" id="P0AGE6"/>
+<dbReference type="PaxDb" id="P0AGE6"/>
+<dbReference type="PRIDE" id="P0AGE6"/>
+<dbReference type="EnsemblBacteria" id="AAC76736">
+<property type="protein sequence ID" value="AAC76736"/>
+<property type="gene ID" value="b3713"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE77575">
+<property type="protein sequence ID" value="BAE77575"/>
+<property type="gene ID" value="BAE77575"/>
+</dbReference>
+<dbReference type="GeneID" id="948225"/>
+<dbReference type="KEGG" id="ecj:JW3691"/>
+<dbReference type="KEGG" id="eco:b3713"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.2988"/>
+<dbReference type="EchoBASE" id="EB1674"/>
+<dbReference type="EcoGene" id="EG11723">
+<property type="gene designation" value="chrR"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4108YYH">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0431">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000263119"/>
+<dbReference type="InParanoid" id="P0AGE6"/>
+<dbReference type="KO" id="K19784"/>
+<dbReference type="PhylomeDB" id="P0AGE6"/>
+<dbReference type="BioCyc" id="EcoCyc:EG11723-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW3691-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:EG11723-MONOMER"/>
+<dbReference type="PRO" id="PR:P0AGE6"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010181">
+<property type="term" value="F:FMN binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003955">
+<property type="term" value="F:NAD(P)H dehydrogenase (quinone) activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016491">
+<property type="term" value="F:oxidoreductase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006805">
+<property type="term" value="P:xenobiotic metabolic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.360">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029039">
+<property type="entry name" value="Flavoprotein-like_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005025">
+<property type="entry name" value="FMN_Rdtase-like"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03358">
+<property type="entry name" value="FMN_red"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52218">
+<property type="entry name" value="SSF52218"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0285">Flavoprotein</keyword>
+<keyword id="KW-0288">FMN</keyword>
+<keyword id="KW-0520">NAD</keyword>
+<keyword id="KW-0521">NADP</keyword>
+<keyword id="KW-0560">Oxidoreductase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Quinone reductase" id="PRO_0000160596">
+<location>
+<begin position="1"/>
+<end position="188"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="FMN" evidence="6">
+<location>
+<begin position="13"/>
+<end position="20"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="FMN" evidence="6">
+<location>
+<begin position="82"/>
+<end position="85"/>
+</location>
+</feature>
+<feature type="binding site" description="FMN" evidence="6">
+<location>
+<position position="117"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Improves chromate reductase activity compared to the wild-type enzyme." evidence="6">
+<original>Y</original>
+<variation>N</variation>
+<location>
+<position position="85"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Improves chromate reductase activity compared to the wild-type enzyme." evidence="6">
+<original>R</original>
+<variation>M</variation>
+<location>
+<position position="125"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Improves chromate reductase activity compared to the wild-type enzyme. Increase of the affinity binding and catalytic efficiency for both chromate and uranyl." evidence="5 6">
+<original>Y</original>
+<variation>N</variation>
+<location>
+<position position="128"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Improves chromate reductase activity compared to the wild-type enzyme." evidence="6">
+<original>E</original>
+<variation>T</variation>
+<location>
+<position position="146"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="5"/>
+<end position="11"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="19"/>
+<end position="26"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="27"/>
+<end position="29"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="35"/>
+<end position="39"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="51"/>
+<end position="56"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="61"/>
+<end position="72"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="73"/>
+<end position="80"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="89"/>
+<end position="99"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="105"/>
+<end position="108"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="110"/>
+<end position="116"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="120"/>
+<end position="123"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="124"/>
+<end position="136"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="147"/>
+<end position="149"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="152"/>
+<end position="155"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="158"/>
+<end position="161"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="166"/>
+<end position="182"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="3SVL"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q88FF8"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="14766567"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16621832"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="17088379"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="22558308"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000305"/>
+<sequence length="188" mass="20376" checksum="78E163CC4826905D" modified="2005-12-20" version="1">MSEKLQVVTLLGSLRKGSFNGMVARTLPKIAPASMEVNALPSIADIPLYDADVQQEEGFPATVEALAEQIRQADGVVIVTPEYNYSVPGGLKNAIDWLSRLPDQPLAGKPVLIQTSSMGVIGGARCQYHLRQILVFLDAMVMNKPEFMGGVIQNKVDPQTGEVIDQGTLDHLTGQLTAFGEFIQRVKI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

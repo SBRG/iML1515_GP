@@ -1,37 +1,39 @@
 ENTRY       b1247             CDS       T00007
 NAME        oppF
-DEFINITION  (RefSeq) oligopeptide transporter subunit
+DEFINITION  (RefSeq) murein tripeptide ABC transporter/oligopeptide ABC transporter ATP binding subunit OppF
 ORTHOLOGY   K10823  oligopeptide transport system ATP-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco01501  beta-Lactam resistance
             eco02010  ABC transporters
             eco02024  Quorum sensing
-MODULE      eco_M00439  Oligopeptide transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b1247 (oppF)
-             Cellular Processes
-              Cellular community - prokaryotes
+             09140 Cellular Processes
+              09145 Cellular community - prokaryotes
                02024 Quorum sensing
                 b1247 (oppF)
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01501 beta-Lactam resistance
                 b1247 (oppF)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1247 (oppF)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Peptide and nickel transporters
-               Oligopeptide transporter [MD:M00439]
+               Oligopeptide transporter
                 b1247 (oppF)
 POSITION    1305764..1306768
-MOTIF       Pfam: ABC_tran oligo_HPY AAA_22 AAA_21 SMC_N AAA_16 NACHT AAA_29 PRK AAA RsgA_GTPase MMR_HSR1 RNA_helicase Sigma54_activat MobB DUF87 TniB AAA_13
-DBLINKS     NCBI-ProteinID: NP_415763
-            NCBI-GeneID: 945818
+MOTIF       Pfam: ABC_tran oligo_HPY AAA_22 AAA_21 SMC_N AAA_16 NACHT PRK AAA AAA_29 GlgX_C RsgA_GTPase MMR_HSR1 TniB NB-ARC RNA_helicase Sigma54_activat MobB DUF87 AAA_13
+DBLINKS     NCBI-GeneID: 945818
+            NCBI-ProteinID: NP_415763
             Pasteur: oppF
             RegulonDB: ECK120000671
-            EcoGene: EG10678
             ECOCYC: EG10678
             ASAP: ABE-0004182
             UniProt: P77737

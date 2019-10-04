@@ -1,6 +1,6 @@
 ENTRY       b2903             CDS       T00007
 NAME        gcvP
-DEFINITION  (RefSeq) glycine decarboxylase, PLP-dependent, subunit (protein P) of glycine cleavage complex
+DEFINITION  (RefSeq) glycine decarboxylase
 ORTHOLOGY   K00281  glycine dehydrogenase [EC:1.4.4.2]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00260  Glycine, serine and threonine metabolism
@@ -10,14 +10,11 @@ PATHWAY     eco00260  Glycine, serine and threonine metabolism
             eco01130  Biosynthesis of antibiotics
             eco01200  Carbon metabolism
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b2903 (gcvP)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00630 Glyoxylate and dicarboxylate metabolism
                 b2903 (gcvP)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00260 Glycine, serine and threonine metabolism
                 b2903 (gcvP)
             Enzymes [BR:eco01000]
@@ -28,10 +25,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2903 (gcvP)
 POSITION    complement(3046168..3049041)
 MOTIF       Pfam: GDC-P Beta_elim_lyase Aminotran_5
-DBLINKS     NCBI-ProteinID: NP_417379
-            NCBI-GeneID: 947394
+DBLINKS     NCBI-GeneID: 947394
+            NCBI-ProteinID: NP_417379
             Pasteur: gcvP
-            EcoGene: EG11810
+            RegulonDB: ECK120001744
             ECOCYC: EG11810
             ASAP: ABE-0009531
             UniProt: P33195

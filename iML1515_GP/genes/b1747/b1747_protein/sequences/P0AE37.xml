@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-12-06" modified="2019-09-18" version="104">
+<accession>P0AE37</accession>
+<accession>P76218</accession>
+<accession>Q2MB39</accession>
+<name>ASTA_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>Arginine N-succinyltransferase</fullName>
+<shortName>AST</shortName>
+<ecNumber>2.3.1.109</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>AOST</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">astA</name>
+<name type="synonym">ydjV</name>
+<name type="ordered locus">b1747</name>
+<name type="ordered locus">JW1736</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1998" name="J. Bacteriol." volume="180" first="4278" last="4286">
+<title>Arginine catabolism and the arginine succinyltransferase pathway in Escherichia coli.</title>
+<authorList>
+<person name="Schneider B.L."/>
+<person name="Kiupakis A.K."/>
+<person name="Reitzer L.J."/>
+</authorList>
+<dbReference type="PubMed" id="9696779"/>
+</citation>
+<scope>FUNCTION</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2002" name="J. Bacteriol." volume="184" first="2940" last="2950">
+<title>ArgR-independent induction and ArgR-dependent superinduction of the astCADBE operon in Escherichia coli.</title>
+<authorList>
+<person name="Kiupakis A.K."/>
+<person name="Reitzer L."/>
+</authorList>
+<dbReference type="PubMed" id="12003934"/>
+<dbReference type="DOI" id="10.1128/jb.184.11.2940-2950.2002"/>
+</citation>
+<scope>INDUCTION</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2003" name="FEBS Lett." volume="555" first="505" last="510">
+<title>Prediction of the structure and function of AstA and AstB, the first two enzymes of the arginine succinyltransferase pathway of arginine catabolism.</title>
+<authorList>
+<person name="Shirai H."/>
+<person name="Mizuguchi K."/>
+</authorList>
+<dbReference type="PubMed" id="14675764"/>
+<dbReference type="DOI" id="10.1016/s0014-5793(03)01314-0"/>
+</citation>
+<scope>3D-STRUCTURE MODELING</scope>
+<scope>REACTION MECHANISM</scope>
+</reference>
+<comment type="function">
+<text evidence="3">Catalyzes the transfer of succinyl-CoA to arginine to produce N(2)-succinylarginine.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>L-arginine + succinyl-CoA = CoA + H(+) + N(2)-succinyl-L-arginine</text>
+<dbReference type="Rhea" id="RHEA:15185"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:32682"/>
+<dbReference type="ChEBI" id="CHEBI:57287"/>
+<dbReference type="ChEBI" id="CHEBI:57292"/>
+<dbReference type="ChEBI" id="CHEBI:58241"/>
+<dbReference type="EC" id="2.3.1.109"/>
+</reaction>
+</comment>
+<comment type="pathway">
+<text>Amino-acid degradation; L-arginine degradation via AST pathway; L-glutamate and succinate from L-arginine: step 1/5.</text>
+</comment>
+<comment type="induction">
+<text evidence="2">By nitrogen starvation, and arginine. Induced at stationary phase by sigma S.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the arginine N-succinyltransferase family.</text>
+</comment>
+<dbReference type="EC" id="2.3.1.109"/>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC74817.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE76517.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="C64934">
+<property type="entry name" value="C64934"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_416261.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000989419.1">
+<property type="nucleotide sequence ID" value="NZ_SSZK01000001.1"/>
+</dbReference>
+<dbReference type="SMR" id="P0AE37"/>
+<dbReference type="BioGrid" id="4262235">
+<property type="interactions" value="8"/>
+</dbReference>
+<dbReference type="IntAct" id="P0AE37">
+<property type="interactions" value="6"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b1747"/>
+<dbReference type="EPD" id="P0AE37"/>
+<dbReference type="PaxDb" id="P0AE37"/>
+<dbReference type="PRIDE" id="P0AE37"/>
+<dbReference type="EnsemblBacteria" id="AAC74817">
+<property type="protein sequence ID" value="AAC74817"/>
+<property type="gene ID" value="b1747"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE76517">
+<property type="protein sequence ID" value="BAE76517"/>
+<property type="gene ID" value="BAE76517"/>
+</dbReference>
+<dbReference type="GeneID" id="946261"/>
+<dbReference type="KEGG" id="ecj:JW1736"/>
+<dbReference type="KEGG" id="eco:b1747"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.509"/>
+<dbReference type="EchoBASE" id="EB3754"/>
+<dbReference type="EcoGene" id="EG13998">
+<property type="gene designation" value="astA"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105F4X">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG3138">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000258231"/>
+<dbReference type="InParanoid" id="P0AE37"/>
+<dbReference type="KO" id="K00673"/>
+<dbReference type="PhylomeDB" id="P0AE37"/>
+<dbReference type="BioCyc" id="EcoCyc:ARGSUCCTRAN-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW1736-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:ARGSUCCTRAN-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00185">
+<property type="reaction ID" value="UER00279"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P0AE37"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008791">
+<property type="term" value="F:arginine N-succinyltransferase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniRule"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019544">
+<property type="term" value="P:arginine catabolic process to glutamate"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniRule"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019545">
+<property type="term" value="P:arginine catabolic process to succinate"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_01171">
+<property type="entry name" value="AstA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016181">
+<property type="entry name" value="Acyl_CoA_acyltransferase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR007041">
+<property type="entry name" value="Arg_succinylTrfase_AstA/AruG"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017650">
+<property type="entry name" value="Arginine_N-succinylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF04958">
+<property type="entry name" value="AstA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF55729">
+<property type="entry name" value="SSF55729"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR03243">
+<property type="entry name" value="arg_catab_AOST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR03244">
+<property type="entry name" value="arg_catab_AstA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0012">Acyltransferase</keyword>
+<keyword id="KW-0056">Arginine metabolism</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0346">Stress response</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<feature type="chain" description="Arginine N-succinyltransferase" id="PRO_0000064712">
+<location>
+<begin position="1"/>
+<end position="344"/>
+</location>
+</feature>
+<feature type="active site" description="Proton donor" evidence="1">
+<location>
+<position position="229"/>
+</location>
+</feature>
+<feature type="binding site" description="Succinyl-CoA; via amide nitrogen" evidence="1">
+<location>
+<position position="125"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12003934"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9696779"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="344" mass="38456" checksum="89C7BB412A880BEF" modified="2005-12-06" version="1">MMVIRPVERSDVSALMQLASKTGGGLTSLPANEATLSARIERAIKTWQGELPKSEQGYVFVLEDSETGTVAGICAIEVAVGLNDPWYNYRVGTLVHASKELNVYNALPTLFLSNDHTGSSELCTLFLDPDWRKEGNGYLLSKSRFMFMAAFRDKFNDKVVAEMRGVIDEHGYSPFWQSLGKRFFSMDFSRADFLCGTGQKAFIAELMPKHPIYTHFLSQEAQDVIGQVHPQTAPARAVLEKEGFRYRNYIDIFDGGPTLECDIDRVRAIRKSRLVEVAEGQPAQGDFPACLVANENYHHFRVVLVRTDPATERLILTAAQLDALKCHAGDRVRLVRLCAEEKTA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

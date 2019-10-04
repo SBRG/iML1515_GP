@@ -1,9 +1,14 @@
 ENTRY       b2251             CDS       T00007
 NAME        nudI
-DEFINITION  (RefSeq) nucleoside triphosphatase
+DEFINITION  (RefSeq) pyrimidine deoxynucleotide diphosphatase NudI
 ORTHOLOGY   K12944  nucleoside triphosphatase [EC:3.6.1.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09191 Unclassified: metabolism
+               99980 Enzymes with EC numbers
+                b2251 (nudI)
+            Enzymes [BR:eco01000]
              3. Hydrolases
               3.6  Acting on acid anhydrides
                3.6.1  In phosphorus-containing anhydrides
@@ -11,9 +16,10 @@ BRITE       Enzymes [BR:eco01000]
                  b2251 (nudI)
 POSITION    2364554..2364979
 MOTIF       Pfam: NUDIX NUDIX_4 DUF4916
-DBLINKS     NCBI-ProteinID: NP_416754
-            NCBI-GeneID: 946740
-            EcoGene: EG13275
+DBLINKS     NCBI-GeneID: 946740
+            NCBI-ProteinID: NP_416754
+            Pasteur: yfaO
+            RegulonDB: ECK120003740
             ECOCYC: G7164
             ASAP: ABE-0007449
             UniProt: P52006

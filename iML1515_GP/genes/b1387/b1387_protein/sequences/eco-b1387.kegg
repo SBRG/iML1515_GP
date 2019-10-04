@@ -1,13 +1,15 @@
 ENTRY       b1387             CDS       T00007
 NAME        paaZ
-DEFINITION  (RefSeq) fused oxepin-CoA hydrolase/3-oxo-5,6-dehydrosuberyl-CoA semialdehyde dehydrogenase
+DEFINITION  (RefSeq) oxepin-CoA hydrolase/3-oxo-5,6-dehydrosuberyl-CoA semialdehyde dehydrogenase
 ORTHOLOGY   K02618  oxepin-CoA hydrolase / 3-oxo-5,6-dehydrosuberyl-CoA semialdehyde dehydrogenase [EC:3.3.2.12 1.2.1.91]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00360  Phenylalanine metabolism
+            eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
+MODULE      eco_M00878  Phenylacetate degradation, phenylaxetate => acetyl-CoA/succinyl-CoA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00360 Phenylalanine metabolism
                 b1387 (paaZ)
             Enzymes [BR:eco01000]
@@ -23,13 +25,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1387 (paaZ)
 POSITION    complement(1451597..1453642)
 MOTIF       Pfam: Aldedh MaoC_dehydratas
-DBLINKS     NCBI-ProteinID: NP_415905
-            NCBI-GeneID: 945954
+DBLINKS     NCBI-GeneID: 945954
+            NCBI-ProteinID: NP_415905
+            Pasteur: maoC
             RegulonDB: ECK120003302
-            EcoGene: EG13735
             ECOCYC: G6708
             ASAP: ABE-0004644
             UniProt: P77455
+STRUCTURE   PDB: 6JQL 6JQN 6JQO 6JQM
 AASEQ       681
             MQQLASFLSGTWQSGRGRSRLIHHAISGEALWEVTSEGLDMAAARQFAIEKGAPALRAMT
             FIERAAMLKAVAKHLLSEKERFYALSAQTGATRADSWVDIEGGIGTLFTYASLGSRELPD

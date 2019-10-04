@@ -1,32 +1,35 @@
 ENTRY       b4087             CDS       T00007
 NAME        alsA
-DEFINITION  (RefSeq) fused D-allose transporter subunits of ABC superfamily: ATP-binding components
-ORTHOLOGY   K10551  D-allose transport system ATP-binding protein [EC:3.6.3.17]
+DEFINITION  (RefSeq) D-allose ABC transporter ATP binding subunit
+ORTHOLOGY   K10551  D-allose transport system ATP-binding protein [EC:7.5.2.8]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00217  D-Allose transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b4087 (alsA)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b4087 (alsA)
             Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.17  monosaccharide-transporting ATPase
+             7. Translocases
+              7.5  Catalysing the translocation of carbohydrates and their derivatives
+               7.5.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.5.2.8  ABC-type D-allose transporter
                  b4087 (alsA)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Saccharide, polyol, and lipid transporters
-               D-Allose transporter [MD:M00217] [OT]
+               D-Allose transporter
                 b4087 (alsA)
 POSITION    complement(4309448..4310980)
-MOTIF       Pfam: ABC_tran AAA_21 RsgA_GTPase AAA_29 GSH-S_ATP AAA_30 G-alpha DLIC AAA_15 AAA_13 AAA_23 Lectin_N
-DBLINKS     NCBI-ProteinID: NP_418511
-            NCBI-GeneID: 948593
+MOTIF       Pfam: ABC_tran AAA_21 RsgA_GTPase AAA_29 GSH-S_ATP AAA_30 G-alpha DLIC AAA_23 AAA_13 AAA_15 Lectin_N MMR_HSR1
+DBLINKS     NCBI-GeneID: 948593
+            NCBI-ProteinID: NP_418511
             Pasteur: alsA
-            EcoGene: EG11959
+            RegulonDB: ECK120001886
             ECOCYC: EG11959
             ASAP: ABE-0013394
             UniProt: P32721

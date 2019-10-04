@@ -1,6 +1,6 @@
 ENTRY       b4122             CDS       T00007
 NAME        fumB
-DEFINITION  (RefSeq) anaerobic class I fumarate hydratase (fumarase B)
+DEFINITION  (RefSeq) fumarase B
 ORTHOLOGY   K01676  fumarate hydratase, class I [EC:4.2.1.2]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00020  Citrate cycle (TCA cycle)
@@ -13,11 +13,8 @@ PATHWAY     eco00020  Citrate cycle (TCA cycle)
 MODULE      eco_M00009  Citrate cycle (TCA cycle, Krebs cycle)
             eco_M00011  Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b4122 (fumB)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00020 Citrate cycle (TCA cycle)
                 b4122 (fumB)
                00620 Pyruvate metabolism
@@ -30,11 +27,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b4122 (fumB)
 POSITION    complement(4345680..4347326)
 MOTIF       Pfam: Fumerase_C Fumerase
-DBLINKS     NCBI-ProteinID: NP_418546
-            NCBI-GeneID: 948642
+DBLINKS     NCBI-GeneID: 948642
+            NCBI-ProteinID: NP_418546
             Pasteur: fumB
             RegulonDB: ECK120000350
-            EcoGene: EG10357
             ECOCYC: EG10357
             ASAP: ABE-0013501
             UniProt: P14407

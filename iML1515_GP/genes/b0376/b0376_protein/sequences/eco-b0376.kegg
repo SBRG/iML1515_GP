@@ -1,9 +1,16 @@
 ENTRY       b0376             CDS       T00007
 NAME        ampH
-DEFINITION  (RefSeq) D-alanyl-D-alanine-carboxypeptidase/endopeptidase; penicillin-binding protein; weak beta-lactamase
+DEFINITION  (RefSeq) peptidoglycan DD-carboxypeptidase/peptidoglycan DD-endopeptidase
 ORTHOLOGY   K18988  serine-type D-Ala-D-Ala carboxypeptidase/endopeptidase [EC:3.4.16.4 3.4.21.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors [BR:eco01002]
+                b0376 (ampH)
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+                b0376 (ampH)
+            Enzymes [BR:eco01000]
              3. Hydrolases
               3.4  Acting on peptide bonds (peptidases)
                3.4.16  Serine-type carboxypeptidases
@@ -12,16 +19,20 @@ BRITE       Enzymes [BR:eco01000]
                3.4.21  Serine endopeptidases
                 3.4.21.-  
                  b0376 (ampH)
-            Peptidases [BR:eco01002]
-             Serine Peptidases
+            Peptidases and inhibitors [BR:eco01002]
+             Serine peptidases
               Family S12: D-Ala-D-Ala carboxypeptidase B family
+               b0376 (ampH)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              DD-Carboxypeptidase/DD-Endopeptidase (Low molecular weight PBP)
                b0376 (ampH)
 POSITION    complement(395130..396287)
 MOTIF       Pfam: Beta-lactamase Peptidase_S11
-DBLINKS     NCBI-ProteinID: NP_414910
-            NCBI-GeneID: 946904
+DBLINKS     NCBI-GeneID: 946904
+            NCBI-ProteinID: NP_414910
             Pasteur: ampH
-            EcoGene: EG12867
+            RegulonDB: ECK120002410
             ECOCYC: EG12867
             ASAP: ABE-0001292
             UniProt: P0AD70

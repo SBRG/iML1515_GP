@@ -1,19 +1,25 @@
 ENTRY       b0207             CDS       T00007
 NAME        dkgB
-DEFINITION  (RefSeq) 2,5-diketo-D-gluconate reductase B
+DEFINITION  (RefSeq) methylglyoxal reductase DkgB
 ORTHOLOGY   K06222  2,5-diketo-D-gluconate reductase B [EC:1.1.1.346]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09191 Unclassified: metabolism
+               99980 Enzymes with EC numbers
+                b0207 (dkgB)
+            Enzymes [BR:eco01000]
              1. Oxidoreductases
               1.1  Acting on the CH-OH group of donors
                1.1.1  With NAD+ or NADP+ as acceptor
                 1.1.1.346  2,5-didehydrogluconate reductase (2-dehydro-L-gulonate-forming)
                  b0207 (dkgB)
 POSITION    229167..229970
-MOTIF       Pfam: Aldo_ket_red
-DBLINKS     NCBI-ProteinID: NP_414743
-            NCBI-GeneID: 944901
-            EcoGene: EG11648
+MOTIF       Pfam: Aldo_ket_red DUF1510
+DBLINKS     NCBI-GeneID: 944901
+            NCBI-ProteinID: NP_414743
+            Pasteur: yafB
+            RegulonDB: ECK120001592
             ECOCYC: EG11648
             ASAP: ABE-0000692
             UniProt: P30863

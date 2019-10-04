@@ -1,28 +1,28 @@
 ENTRY       b2284             CDS       T00007
 NAME        nuoF
-DEFINITION  (RefSeq) NADH:ubiquinone oxidoreductase, chain F
-ORTHOLOGY   K00335  NADH-quinone oxidoreductase subunit F [EC:1.6.5.3]
+DEFINITION  (RefSeq) NADH:quinone oxidoreductase subunit F
+ORTHOLOGY   K00335  NADH-quinone oxidoreductase subunit F [EC:7.1.1.2]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00190  Oxidative phosphorylation
             eco01100  Metabolic pathways
 MODULE      eco_M00144  NADH:quinone oxidoreductase, prokaryotes
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00190 Oxidative phosphorylation
                 b2284 (nuoF)
             Enzymes [BR:eco01000]
-             1. Oxidoreductases
-              1.6  Acting on NADH or NADPH
-               1.6.5  With a quinone or similar compound as acceptor
-                1.6.5.3  NADH:ubiquinone reductase (H+-translocating)
+             7. Translocases
+              7.1  Catalysing the translocation of hydrons
+               7.1.1  Linked to oxidoreductase reactions
+                7.1.1.2  NADH:ubiquinone reductase (H+-translocating)
                  b2284 (nuoF)
 POSITION    complement(2400218..2401555)
 MOTIF       Pfam: Complex1_51K NADH_4Fe-4S SLBB
-DBLINKS     NCBI-ProteinID: NP_416787
-            NCBI-GeneID: 946753
+DBLINKS     NCBI-GeneID: 946753
+            NCBI-ProteinID: NP_416787
             Pasteur: nuoF
-            EcoGene: EG11774
+            RegulonDB: ECK120001708
             ECOCYC: EG11774
             ASAP: ABE-0007545
             UniProt: P31979

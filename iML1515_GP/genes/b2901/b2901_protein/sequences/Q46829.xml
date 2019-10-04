@@ -1,0 +1,571 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1997-11-01" modified="2019-06-05" version="139">
+<accession>Q46829</accession>
+<accession>Q2M9U0</accession>
+<name>BGLA_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>6-phospho-beta-glucosidase BglA</fullName>
+<ecNumber>3.2.1.86</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Phospho-beta-glucosidase A</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">bglA</name>
+<name type="synonym">bglD</name>
+<name type="synonym">yqfC</name>
+<name type="ordered locus">b2901</name>
+<name type="ordered locus">JW2869</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1973" name="J. Bacteriol." volume="114" first="909" last="915">
+<title>Genetic determination of the constitutive biosynthesis of phospho-glucosidase A in Escherichia coli K-12.</title>
+<authorList>
+<person name="Prasad I."/>
+<person name="Young B."/>
+<person name="Schaefler S."/>
+</authorList>
+<dbReference type="PubMed" id="4576407"/>
+</citation>
+<scope>FUNCTION AS A GLUCOSIDASE</scope>
+<scope>SUBSTRATE SPECIFICITY</scope>
+<scope>INDUCTION</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2012" name="PLoS ONE" volume="7" first="E32498" last="E32498">
+<title>Macro-to-micro structural proteomics: native source proteins for high-throughput crystallization.</title>
+<authorList>
+<person name="Totir M."/>
+<person name="Echols N."/>
+<person name="Nanao M."/>
+<person name="Gee C.L."/>
+<person name="Moskaleva A."/>
+<person name="Gradia S."/>
+<person name="Iavarone A.T."/>
+<person name="Berger J.M."/>
+<person name="May A.P."/>
+<person name="Zubieta C."/>
+<person name="Alber T."/>
+</authorList>
+<dbReference type="PubMed" id="22393408"/>
+<dbReference type="DOI" id="10.1371/journal.pone.0032498"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.3 ANGSTROMS)</scope>
+<scope>SUBUNIT</scope>
+</reference>
+<comment type="function">
+<text evidence="4">Catalyzes the hydrolysis of phosphorylated beta-glucosides into glucose-6-phosphate (G-6-P) and aglycone. It has a high affinity for phosphorylated aromatic beta-glucosides (p-nitrophenyl-beta-glucoside, phenyl beta-glucoside, arbutin), with the exception of phosphorylated salicin, and a low affinity for phosphorylated beta-methyl-glucoside. Apparently, it has only a very limited role in the utilization of external beta-glucosides.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>6-phospho-beta-D-glucosyl-(1->4)-D-glucose + H2O = D-glucose + D-glucose 6-phosphate</text>
+<dbReference type="Rhea" id="RHEA:10772"/>
+<dbReference type="ChEBI" id="CHEBI:4167"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:58312"/>
+<dbReference type="ChEBI" id="CHEBI:61548"/>
+<dbReference type="EC" id="3.2.1.86"/>
+</reaction>
+</comment>
+<comment type="subunit">
+<text evidence="6">Homotetramer.</text>
+</comment>
+<comment type="induction">
+<text evidence="4">Constitutively expressed.</text>
+</comment>
+<comment type="similarity">
+<text evidence="5">Belongs to the glycosyl hydrolase 1 family.</text>
+</comment>
+<dbReference type="EC" id="3.2.1.86"/>
+<dbReference type="EMBL" id="U28375">
+<property type="protein sequence ID" value="AAA83082.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC75939.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE76966.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="E65074">
+<property type="entry name" value="E65074"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_417377.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_001295376.1">
+<property type="nucleotide sequence ID" value="NZ_LN832404.1"/>
+</dbReference>
+<dbReference type="PDB" id="2XHY">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.30"/>
+<property type="chains" value="A/B/C/D=1-479"/>
+</dbReference>
+<dbReference type="PDBsum" id="2XHY"/>
+<dbReference type="SMR" id="Q46829"/>
+<dbReference type="BioGrid" id="4263280">
+<property type="interactions" value="25"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-9213N"/>
+<dbReference type="IntAct" id="Q46829">
+<property type="interactions" value="5"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b2901"/>
+<dbReference type="CAZy" id="GH1">
+<property type="family name" value="Glycoside Hydrolase Family 1"/>
+</dbReference>
+<dbReference type="jPOST" id="Q46829"/>
+<dbReference type="PaxDb" id="Q46829"/>
+<dbReference type="PRIDE" id="Q46829"/>
+<dbReference type="EnsemblBacteria" id="AAC75939">
+<property type="protein sequence ID" value="AAC75939"/>
+<property type="gene ID" value="b2901"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE76966">
+<property type="protein sequence ID" value="BAE76966"/>
+<property type="gene ID" value="BAE76966"/>
+</dbReference>
+<dbReference type="GeneID" id="947378"/>
+<dbReference type="KEGG" id="ecj:JW2869"/>
+<dbReference type="KEGG" id="eco:b2901"/>
+<dbReference type="PATRIC" id="fig|511145.12.peg.2996"/>
+<dbReference type="EchoBASE" id="EB2889"/>
+<dbReference type="EcoGene" id="EG13079">
+<property type="gene designation" value="bglA"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105CS2">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG2723">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000088631"/>
+<dbReference type="InParanoid" id="Q46829"/>
+<dbReference type="KO" id="K01223"/>
+<dbReference type="PhylomeDB" id="Q46829"/>
+<dbReference type="BioCyc" id="EcoCyc:G495-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW2869-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:G495-MONOMER"/>
+<dbReference type="PRO" id="PR:Q46829"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008706">
+<property type="term" value="F:6-phospho-beta-glucosidase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015926">
+<property type="term" value="F:glucosidase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0103047">
+<property type="term" value="F:methyl beta-D-glucoside 6-phosphate glucohydrolase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005975">
+<property type="term" value="P:carbohydrate metabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001360">
+<property type="entry name" value="Glyco_hydro_1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018120">
+<property type="entry name" value="Glyco_hydro_1_AS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR033132">
+<property type="entry name" value="Glyco_hydro_1_N_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017853">
+<property type="entry name" value="Glycoside_hydrolase_SF"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR10353">
+<property type="entry name" value="PTHR10353"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00232">
+<property type="entry name" value="Glyco_hydro_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00131">
+<property type="entry name" value="GLHYDRLASE1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51445">
+<property type="entry name" value="SSF51445"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00572">
+<property type="entry name" value="GLYCOSYL_HYDROL_F1_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00653">
+<property type="entry name" value="GLYCOSYL_HYDROL_F1_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0326">Glycosidase</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="6-phospho-beta-glucosidase BglA" id="PRO_0000063897">
+<location>
+<begin position="1"/>
+<end position="479"/>
+</location>
+</feature>
+<feature type="active site" description="Proton donor" evidence="2">
+<location>
+<position position="180"/>
+</location>
+</feature>
+<feature type="active site" description="Nucleophile" evidence="3">
+<location>
+<position position="377"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="20"/>
+<end position="23"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="36"/>
+<end position="39"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="62"/>
+<end position="65"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="69"/>
+<end position="83"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="86"/>
+<end position="91"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="94"/>
+<end position="97"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="98"/>
+<end position="101"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="108"/>
+<end position="123"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="127"/>
+<end position="135"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="139"/>
+<end position="144"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="147"/>
+<end position="149"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="152"/>
+<end position="167"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="168"/>
+<end position="171"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="174"/>
+<end position="178"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="179"/>
+<end position="182"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="183"/>
+<end position="185"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="192"/>
+<end position="197"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="201"/>
+<end position="203"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="204"/>
+<end position="206"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="207"/>
+<end position="232"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="236"/>
+<end position="243"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="247"/>
+<end position="252"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="254"/>
+<end position="263"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="265"/>
+<end position="276"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="281"/>
+<end position="290"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="300"/>
+<end position="306"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="310"/>
+<end position="315"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="320"/>
+<end position="322"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="324"/>
+<end position="326"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="355"/>
+<end position="369"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="373"/>
+<end position="377"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="395"/>
+<end position="413"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="419"/>
+<end position="422"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="433"/>
+<end position="435"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="438"/>
+<end position="441"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="444"/>
+<end position="447"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="459"/>
+<end position="461"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="463"/>
+<end position="473"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="474"/>
+<end position="476"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2XHY"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU10055"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="4576407"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000305"/>
+<evidence key="6" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="22393408"/>
+</source>
+</evidence>
+<sequence length="479" mass="55361" checksum="AA493EDAB0E95A56" modified="1997-11-01" version="2">MIVKKLTLPKDFLWGGAVAAHQVEGGWNKGGKGPSICDVLTGGAHGVPREITKEVLPGKYYPNHEAVDFYGHYKEDIKLFAEMGFKCFRTSIAWTRIFPKGDEAQPNEEGLKFYDDMFDELLKYNIEPVITLSHFEMPLHLVQQYGSWTNRKVVDFFVRFAEVVFERYKHKVKYWMTFNEINNQRNWRAPLFGYCCSGVVYTEHENPEETMYQVLHHQFVASALAVKAARRINPEMKVGCMLAMVPLYPYSCNPDDVMFAQESMRERYVFTDVQLRGYYPSYVLNEWERRGFNIKMEDGDLDVLREGTCDYLGFSYYMTNAVKAEGGTGDAISGFEGSVPNPYVKASDWGWQIDPVGLRYALCELYERYQRPLFIVENGFGAYDKVEEDGSINDDYRIDYLRAHIEEMKKAVTYDGVDLMGYTPWGCIDCVSFTTGQYSKRYGFIYVNKHDDGTGDMSRSRKKSFNWYKEVIASNGEKL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

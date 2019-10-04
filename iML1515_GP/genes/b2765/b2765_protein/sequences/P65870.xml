@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2004-10-11" modified="2019-07-31" version="113">
+<accession>P65870</accession>
+<accession>Q2MA64</accession>
+<accession>Q46903</accession>
+<name>QUED_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>6-carboxy-5,6,7,8-tetrahydropterin synthase</fullName>
+<shortName>CPH4 synthase</shortName>
+<ecNumber>4.1.2.50</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Queuosine biosynthesis protein QueD</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">queD</name>
+<name type="synonym">ygcM</name>
+<name type="ordered locus">b2765</name>
+<name type="ordered locus">JW2735</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2009" name="Biochemistry" volume="48" first="2301" last="2303">
+<title>Escherichia coli QueD is a 6-carboxy-5,6,7,8-tetrahydropterin synthase.</title>
+<authorList>
+<person name="McCarty R.M."/>
+<person name="Somogyi A."/>
+<person name="Bandarian V."/>
+</authorList>
+<dbReference type="PubMed" id="19231875"/>
+<dbReference type="DOI" id="10.1021/bi9001437"/>
+</citation>
+<scope>FUNCTION AS A CPH4 SYNTHASE</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>COFACTOR</scope>
+<scope>REACTION MECHANISM</scope>
+</reference>
+<comment type="function">
+<text evidence="3">Catalyzes the conversion of 7,8-dihydroneopterin triphosphate (H2NTP) to 6-carboxy-5,6,7,8-tetrahydropterin (CPH4) and acetaldehyde. Can also convert 6-pyruvoyltetrahydropterin (PPH4) and sepiapterin to CPH4; these 2 compounds are probably intermediates in the reaction from H2NTP.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3">
+<text>7,8-dihydroneopterin 3'-triphosphate + H2O = 6-carboxy-5,6,7,8-tetrahydropterin + acetaldehyde + 2 H(+) + triphosphate</text>
+<dbReference type="Rhea" id="RHEA:27966"/>
+<dbReference type="ChEBI" id="CHEBI:15343"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:18036"/>
+<dbReference type="ChEBI" id="CHEBI:58462"/>
+<dbReference type="ChEBI" id="CHEBI:61032"/>
+<dbReference type="EC" id="4.1.2.50"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="3">
+<name>Zn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29105"/>
+</cofactor>
+<text evidence="3">Binds 1 zinc ion per subunit.</text>
+</comment>
+<comment type="pathway">
+<text>Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.</text>
+</comment>
+<comment type="miscellaneous">
+<text evidence="2">The active site is at the interface between 2 subunits. The proton acceptor Cys is on one subunit, and the charge relay system is on the other subunit (By similarity).</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the PTPS family. QueD subfamily.</text>
+</comment>
+<dbReference type="EC" id="4.1.2.50"/>
+<dbReference type="EMBL" id="U29579">
+<property type="protein sequence ID" value="AAA69275.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC75807.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE76842.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="A65058">
+<property type="entry name" value="A65058"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_417245.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000987944.1">
+<property type="nucleotide sequence ID" value="NZ_STEB01000030.1"/>
+</dbReference>
+<dbReference type="PDB" id="3QN0">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.34"/>
+<property type="chains" value="A/B/C/D/E/F=1-121"/>
+</dbReference>
+<dbReference type="PDB" id="3QN9">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.93"/>
+<property type="chains" value="A/B=1-121"/>
+</dbReference>
+<dbReference type="PDB" id="3QNA">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.50"/>
+<property type="chains" value="A/B/C/D/E/F=1-121"/>
+</dbReference>
+<dbReference type="PDB" id="4NTK">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.60"/>
+<property type="chains" value="A/B/C/D/E/F=1-121"/>
+</dbReference>
+<dbReference type="PDB" id="4NTM">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.05"/>
+<property type="chains" value="A/B/C/D/E/F=1-121"/>
+</dbReference>
+<dbReference type="PDB" id="4NTN">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.99"/>
+<property type="chains" value="A/B/C/D/E/F=1-121"/>
+</dbReference>
+<dbReference type="PDBsum" id="3QN0"/>
+<dbReference type="PDBsum" id="3QN9"/>
+<dbReference type="PDBsum" id="3QNA"/>
+<dbReference type="PDBsum" id="4NTK"/>
+<dbReference type="PDBsum" id="4NTM"/>
+<dbReference type="PDBsum" id="4NTN"/>
+<dbReference type="SMR" id="P65870"/>
+<dbReference type="BioGrid" id="4262288">
+<property type="interactions" value="21"/>
+</dbReference>
+<dbReference type="IntAct" id="P65870">
+<property type="interactions" value="3"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b2765"/>
+<dbReference type="PaxDb" id="P65870"/>
+<dbReference type="PRIDE" id="P65870"/>
+<dbReference type="EnsemblBacteria" id="AAC75807">
+<property type="protein sequence ID" value="AAC75807"/>
+<property type="gene ID" value="b2765"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE76842">
+<property type="protein sequence ID" value="BAE76842"/>
+<property type="gene ID" value="BAE76842"/>
+</dbReference>
+<dbReference type="GeneID" id="945123"/>
+<dbReference type="KEGG" id="ecj:JW2735"/>
+<dbReference type="KEGG" id="eco:b2765"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.3972"/>
+<dbReference type="EchoBASE" id="EB2921"/>
+<dbReference type="EcoGene" id="EG13120">
+<property type="gene designation" value="queD"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4107ZIF">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0720">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000225067"/>
+<dbReference type="InParanoid" id="P65870"/>
+<dbReference type="KO" id="K01737"/>
+<dbReference type="PhylomeDB" id="P65870"/>
+<dbReference type="BioCyc" id="EcoCyc:G7431-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW2735-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:G7431-MONOMER"/>
+<dbReference type="BRENDA" id="4.1.2.50">
+<property type="organism ID" value="2026"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00391"/>
+<dbReference type="PRO" id="PR:P65870"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0070497">
+<property type="term" value="F:6-carboxy-5,6,7,8-tetrahydropterin synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042802">
+<property type="term" value="F:identical protein binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008270">
+<property type="term" value="F:zinc ion binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008616">
+<property type="term" value="P:queuosine biosynthetic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.479.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR007115">
+<property type="entry name" value="6-PTP_synth/QueD"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR038418">
+<property type="entry name" value="6-PTP_synth/QueD_sf"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR12589">
+<property type="entry name" value="PTHR12589"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01242">
+<property type="entry name" value="PTPS"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF006113">
+<property type="entry name" value="PTP_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00039">
+<property type="entry name" value="6PTHBS"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR03367">
+<property type="entry name" value="queuosine_QueD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0671">Queuosine biosynthesis</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0862">Zinc</keyword>
+<feature type="chain" description="6-carboxy-5,6,7,8-tetrahydropterin synthase" id="PRO_0000057922">
+<location>
+<begin position="1"/>
+<end position="121"/>
+</location>
+</feature>
+<feature type="active site" description="Proton acceptor" evidence="2">
+<location>
+<position position="27"/>
+</location>
+</feature>
+<feature type="active site" description="Charge relay system" evidence="2">
+<location>
+<position position="71"/>
+</location>
+</feature>
+<feature type="active site" description="Charge relay system" evidence="2">
+<location>
+<position position="110"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc" evidence="2">
+<location>
+<position position="16"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc" evidence="2">
+<location>
+<position position="31"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc" evidence="2">
+<location>
+<position position="33"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="3"/>
+<end position="16"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="26"/>
+<end position="28"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="29"/>
+<end position="42"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="47"/>
+<end position="49"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="50"/>
+<end position="53"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="55"/>
+<end position="69"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="74"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="85"/>
+<end position="96"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="97"/>
+<end position="99"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="103"/>
+<end position="111"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="114"/>
+<end position="119"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="4NTK"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250"/>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="19231875"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="121" mass="13773" checksum="DEF4F2A2E72CFF0D" modified="2004-10-11" version="1">MMSTTLFKDFTFEAAHRLPHVPEGHKCGRLHGHSFMVRLEITGEVDPHTGWIIDFAELKAAFKPTYERLDHHYLNDIPGLENPTSEVLAKWIWDQVKPVVPLLSAVMVKETCTAGCIYRGE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

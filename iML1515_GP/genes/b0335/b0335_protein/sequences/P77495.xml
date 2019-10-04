@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1997-11-01" modified="2019-05-08" version="120">
+<accession>P77495</accession>
+<accession>Q2MC89</accession>
+<name>PRPE_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>Propionate--CoA ligase</fullName>
+<ecNumber>6.2.1.17</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Propionyl-CoA synthetase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">prpE</name>
+<name type="synonym">yahU</name>
+<name type="ordered locus">b0335</name>
+<name type="ordered locus">JW0326</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="1997-01" db="EMBL/GenBank/DDBJ databases">
+<title>Sequence of minutes 4-25 of Escherichia coli.</title>
+<authorList>
+<person name="Chung E."/>
+<person name="Allen E."/>
+<person name="Araujo R."/>
+<person name="Aparicio A.M."/>
+<person name="Davis K."/>
+<person name="Duncan M."/>
+<person name="Federspiel N."/>
+<person name="Hyman R."/>
+<person name="Kalman S."/>
+<person name="Komp C."/>
+<person name="Kurdi O."/>
+<person name="Lew H."/>
+<person name="Lin D."/>
+<person name="Namath A."/>
+<person name="Oefner P."/>
+<person name="Roberts D."/>
+<person name="Schramm S."/>
+<person name="Davis R.W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Catalyzes the synthesis of propionyl-CoA from propionate and CoA. Also converts acetate to acetyl-CoA but with a lower specific activity (By similarity).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>ATP + CoA + propanoate = AMP + diphosphate + propanoyl-CoA</text>
+<dbReference type="Rhea" id="RHEA:20373"/>
+<dbReference type="ChEBI" id="CHEBI:17272"/>
+<dbReference type="ChEBI" id="CHEBI:30616"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:57287"/>
+<dbReference type="ChEBI" id="CHEBI:57392"/>
+<dbReference type="ChEBI" id="CHEBI:456215"/>
+<dbReference type="EC" id="6.2.1.17"/>
+</reaction>
+</comment>
+<comment type="pathway">
+<text>Organic acid metabolism; propanoate degradation.</text>
+</comment>
+<comment type="similarity">
+<text evidence="2">Belongs to the ATP-dependent AMP-binding enzyme family.</text>
+</comment>
+<dbReference type="EC" id="6.2.1.17"/>
+<dbReference type="EMBL" id="U73857">
+<property type="protein sequence ID" value="AAB18059.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC73438.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE76117.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="G64760">
+<property type="entry name" value="G64760"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_414869.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000010288.1">
+<property type="nucleotide sequence ID" value="NZ_LN832404.1"/>
+</dbReference>
+<dbReference type="SMR" id="P77495"/>
+<dbReference type="BioGrid" id="4259811">
+<property type="interactions" value="7"/>
+</dbReference>
+<dbReference type="IntAct" id="P77495">
+<property type="interactions" value="7"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b0335"/>
+<dbReference type="jPOST" id="P77495"/>
+<dbReference type="PaxDb" id="P77495"/>
+<dbReference type="PRIDE" id="P77495"/>
+<dbReference type="EnsemblBacteria" id="AAC73438">
+<property type="protein sequence ID" value="AAC73438"/>
+<property type="gene ID" value="b0335"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE76117">
+<property type="protein sequence ID" value="BAE76117"/>
+<property type="gene ID" value="BAE76117"/>
+</dbReference>
+<dbReference type="GeneID" id="946891"/>
+<dbReference type="KEGG" id="ecj:JW0326"/>
+<dbReference type="KEGG" id="eco:b0335"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.1942"/>
+<dbReference type="EchoBASE" id="EB3372"/>
+<dbReference type="EcoGene" id="EG13604">
+<property type="gene designation" value="prpE"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4108IQF">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0365">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000229981"/>
+<dbReference type="InParanoid" id="P77495"/>
+<dbReference type="KO" id="K01908"/>
+<dbReference type="PhylomeDB" id="P77495"/>
+<dbReference type="BioCyc" id="EcoCyc:G6200-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW0326-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:G6200-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00946"/>
+<dbReference type="PRO" id="PR:P77495"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050218">
+<property type="term" value="F:propionate-CoA ligase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019629">
+<property type="term" value="P:propionate catabolic process, 2-methylcitrate cycle"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.12780">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032387">
+<property type="entry name" value="ACAS_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025110">
+<property type="entry name" value="AMP-bd_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR020845">
+<property type="entry name" value="AMP-binding_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000873">
+<property type="entry name" value="AMP-dep_Synth/Lig"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR042099">
+<property type="entry name" value="AMP-dep_Synthh-like_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012694">
+<property type="entry name" value="Propion_PrpE"/>
+</dbReference>
+<dbReference type="Pfam" id="PF16177">
+<property type="entry name" value="ACAS_N"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00501">
+<property type="entry name" value="AMP-binding"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13193">
+<property type="entry name" value="AMP-binding_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR02316">
+<property type="entry name" value="propion_prpE"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00455">
+<property type="entry name" value="AMP_BINDING"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0067">ATP-binding</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0436">Ligase</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Propionate--CoA ligase" id="PRO_0000193188">
+<location>
+<begin position="1"/>
+<end position="628"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000305"/>
+<sequence length="628" mass="69351" checksum="B192E2E49ED900D8" modified="1997-02-01" version="1">MSFSEFYQRSINEPEQFWAEQARRIDWQTPFTQTLDHSNPPFARWFCEGRTNLCHNAIDRWLEKQPEALALIAVSSETEEERTFTFRQLHDEVNAVASMLRSLGVQRGDRVLVYMPMIAEAHITLLACARIGAIHSVVFGGFASHSVAARIDDAKPVLIVSADAGARGGKIIPYKKLLDDAISQAQHQPRHVLLVDRGLAKMARVSGRDVDFASLRHQHIGARVPVAWLESNETSCILYTSGTTGKPKGVQRDVGGYAVALATSMDTIFGGKAGSVFFCASDIGWVVGHSYIVYAPLLAGMATIVYEGLPTWPDCGVWWTIVEKYQVSRMFSAPTAIRVLKKFPTAEIRKHDLSSLEVLYLAGEPLDEPTASWVSNTLDVPVIDNYWQTESGWPIMAIARGLDDRPTRLGSPGVPMYGYNVQLLNEVTGEPCGVNEKGMLVVEGPLPPGCIQTIWGDDGRFVKTYWSLFSRPVYATFDWGIRDADGYHFILGRTDDVINVAGHRLGTREIEESISSHPGVAEVAVVGVKDALKGQVAVAFVIPKESDSLEDRDVAHSQEKAIMALVDSQIGNFGRPAHVWFVSQLPKTRSGKMLRRTIQAICEGRDPGDLTTIDDPASLDQIRQAMEE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

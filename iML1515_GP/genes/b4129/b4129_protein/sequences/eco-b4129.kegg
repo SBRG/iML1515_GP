@@ -1,14 +1,20 @@
 ENTRY       b4129             CDS       T00007
 NAME        lysU
-DEFINITION  (RefSeq) lysine tRNA synthetase, inducible
+DEFINITION  (RefSeq) lysine--tRNA ligase/Ap4A synthetase/Ap3A synthetase
 ORTHOLOGY   K04567  lysyl-tRNA synthetase, class II [EC:6.1.1.6]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00970  Aminoacyl-tRNA biosynthesis
-MODULE      eco_M00360  Aminoacyl-tRNA biosynthesis, prokaryotes
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Genetic Information Processing
-              Translation
+             09120 Genetic Information Processing
+              09122 Translation
                00970 Aminoacyl-tRNA biosynthesis
+                b4129 (lysU)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01007 Amino acid related enzymes [BR:eco01007]
+                b4129 (lysU)
+              09182 Protein families: genetic information processing
+               03016 Transfer RNA biogenesis [BR:eco03016]
                 b4129 (lysU)
             Enzymes [BR:eco01000]
              6. Ligases
@@ -21,23 +27,23 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
               Class II (A)
                b4129 (lysU)
             Transfer RNA biogenesis [BR:eco03016]
-             Eukaryotic Type
+             Eukaryotic type
               Aminoacyl-tRNA synthetases (AARSs)
                Multi-aminoacyl-tRNA synthetase complex (MSC)
                 b4129 (lysU)
-             Prokaryotic Type
+             Prokaryotic type
                Other AARSs
                 b4129 (lysU)
 POSITION    complement(4353200..4354717)
 MOTIF       Pfam: tRNA-synt_2 tRNA_anti-codon tRNA-synt_2d DUF2333
-DBLINKS     NCBI-ProteinID: NP_418553
-            NCBI-GeneID: 948645
+DBLINKS     NCBI-GeneID: 948645
+            NCBI-ProteinID: NP_418553
             Pasteur: lysU
-            EcoGene: EG10553
+            RegulonDB: ECK120000546
             ECOCYC: EG10553
             ASAP: ABE-0013520
             UniProt: P0A8N5
-STRUCTURE   PDB: 1E1O 1E24 1E22 1LYL 1E1T
+STRUCTURE   PDB: 1E1O 1E24 1E1T 1E22 1LYL 5YZX
 AASEQ       505
             MSEQETRGANEAIDFNDELRNRREKLAALRQQGVAFPNDFRRDHTSDQLHEEFDAKDNQE
             LESLNIEVSVAGRMMTRRIMGKASFVTLQDVGGRIQLYVARDSLPEGVYNDQFKKWDLGD

@@ -1,25 +1,30 @@
 ENTRY       b1870             CDS       T00007
 NAME        cmoA
-DEFINITION  (RefSeq) carboxy-SAM synthase
+DEFINITION  (RefSeq) carboxy-S-adenosyl-L-methionine synthase
 ORTHOLOGY   K15256  tRNA (cmo5U34)-methyltransferase [EC:2.1.1.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               03016 Transfer RNA biogenesis [BR:eco03016]
+                b1870 (cmoA)
+            Enzymes [BR:eco01000]
              2. Transferases
               2.1  Transferring one-carbon groups
                2.1.1  Methyltransferases
                 2.1.1.-  
                  b1870 (cmoA)
             Transfer RNA biogenesis [BR:eco03016]
-             Prokaryotic Type
+             Prokaryotic type
               tRNA modification factors
                Methyltransferases
                 b1870 (cmoA)
 POSITION    1952702..1953445
-MOTIF       Pfam: Methyltransf_25 Methyltransf_11 Methyltransf_31 Methyltransf_12 Methyltransf_2 Methyltransf_23 Ubie_methyltran CheR Rsm22 MTS PCMT FtsJ CMAS PrmA Methyltransf_18 Met_10 UPF0020 PRMT5 TPP_enzyme_M
-DBLINKS     NCBI-ProteinID: NP_416384
-            NCBI-GeneID: 946380
+MOTIF       Pfam: Methyltransf_25 Methyltransf_11 Methyltransf_31 Methyltransf_12 Methyltransf_2 Methyltransf_23 Ubie_methyltran CheR Rsm22 MTS PCMT FtsJ CMAS PrmA Met_10 Methyltransf_18 UPF0020 PRMT5
+DBLINKS     NCBI-GeneID: 946380
+            NCBI-ProteinID: NP_416384
+            Pasteur: yecO
             RegulonDB: ECK120003607
-            EcoGene: EG14033
             ECOCYC: G7020
             ASAP: ABE-0006237
             UniProt: P76290

@@ -1,6 +1,6 @@
 ENTRY       b0414             CDS       T00007
 NAME        ribD
-DEFINITION  (RefSeq) fused diaminohydroxyphosphoribosylaminopyrimidine deaminase and 5-amino-6-(5-phosphoribosylamino) uracil reductase
+DEFINITION  (RefSeq) fused diaminohydroxyphosphoribosylaminopyrimidine deaminase/5-amino-6-(5-phosphoribosylamino)uracil reductase
 ORTHOLOGY   K11752  diaminohydroxyphosphoribosylaminopyrimidine deaminase / 5-amino-6-(5-phosphoribosylamino)uracil reductase [EC:3.5.4.26 1.1.1.193]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00740  Riboflavin metabolism
@@ -9,12 +9,12 @@ PATHWAY     eco00740  Riboflavin metabolism
             eco02024  Quorum sensing
 MODULE      eco_M00125  Riboflavin biosynthesis, GTP => riboflavin/FMN/FAD
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00740 Riboflavin metabolism
                 b0414 (ribD)
-             Cellular Processes
-              Cellular community - prokaryotes
+             09140 Cellular Processes
+              09145 Cellular community - prokaryotes
                02024 Quorum sensing
                 b0414 (ribD)
             Enzymes [BR:eco01000]
@@ -29,12 +29,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 3.5.4.26  diaminohydroxyphosphoribosylaminopyrimidine deaminase
                  b0414 (ribD)
 POSITION    433455..434558
-MOTIF       Pfam: RibD_C dCMP_cyt_deam_1 MafB19-deam APOBEC_N
-DBLINKS     NCBI-ProteinID: NP_414948
-            NCBI-GeneID: 945620
+MOTIF       Pfam: RibD_C dCMP_cyt_deam_1 MafB19-deam Inv-AAD APOBEC_N
+DBLINKS     NCBI-GeneID: 945620
+            NCBI-ProteinID: NP_414948
             Pasteur: ribD
             RegulonDB: ECK120001292
-            EcoGene: EG11321
             ECOCYC: EG11321
             ASAP: ABE-0001441
             UniProt: P25539

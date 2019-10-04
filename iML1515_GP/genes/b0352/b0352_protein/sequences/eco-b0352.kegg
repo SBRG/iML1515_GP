@@ -1,6 +1,6 @@
 ENTRY       b0352             CDS       T00007
 NAME        mhpE
-DEFINITION  (RefSeq) 4-hyroxy-2-oxovalerate/4-hydroxy-2-oxopentanoic acid aldolase, class I
+DEFINITION  (RefSeq) 4-hydroxy-2-oxovalerate aldolase
 ORTHOLOGY   K01666  4-hydroxy 2-oxovalerate aldolase [EC:4.1.3.39]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00360  Phenylalanine metabolism
@@ -12,14 +12,11 @@ PATHWAY     eco00360  Phenylalanine metabolism
             eco01220  Degradation of aromatic compounds
 MODULE      eco_M00545  Trans-cinnamate degradation, trans-cinnamate => acetyl-CoA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01220 Degradation of aromatic compounds
-                b0352 (mhpE)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00360 Phenylalanine metabolism
                 b0352 (mhpE)
-              Xenobiotics biodegradation and metabolism
+              09111 Xenobiotics biodegradation and metabolism
                00362 Benzoate degradation
                 b0352 (mhpE)
                00622 Xylene degradation
@@ -34,10 +31,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0352 (mhpE)
 POSITION    373868..374881
 MOTIF       Pfam: HMGL-like DmpG_comm
-DBLINKS     NCBI-ProteinID: NP_414886
-            NCBI-GeneID: 945012
+DBLINKS     NCBI-GeneID: 945012
+            NCBI-ProteinID: NP_414886
             Pasteur: mhpE
-            EcoGene: EG13292
+            RegulonDB: ECK120002819
             ECOCYC: G6205
             ASAP: ABE-0001209
             UniProt: P51020

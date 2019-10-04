@@ -1,14 +1,20 @@
 ENTRY       b3623             CDS       T00007
 NAME        waaU
-DEFINITION  (RefSeq) lipopolysaccharide core biosynthesis
+DEFINITION  (RefSeq) putative ADP-heptose:LPS heptosyltransferase 4
 ORTHOLOGY   K03277  heptosyltransferase IV [EC:2.4.-.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00540  Lipopolysaccharide biosynthesis
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00540 Lipopolysaccharide biosynthesis
+                b3623 (waaU)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01003 Glycosyltransferases [BR:eco01003]
+                b3623 (waaU)
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
                 b3623 (waaU)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -25,11 +31,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
               b3623 (waaU)
 POSITION    complement(3798239..3799312)
 MOTIF       Pfam: Glyco_transf_9
-DBLINKS     NCBI-ProteinID: NP_418080
-            NCBI-GeneID: 948147
+DBLINKS     NCBI-GeneID: 948147
+            NCBI-ProteinID: NP_418080
             Pasteur: waaU
             RegulonDB: ECK120001387
-            EcoGene: EG11423
             ECOCYC: EG11423
             ASAP: ABE-0011851
             UniProt: P27242

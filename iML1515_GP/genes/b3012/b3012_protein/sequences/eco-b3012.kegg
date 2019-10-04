@@ -1,9 +1,14 @@
 ENTRY       b3012             CDS       T00007
 NAME        dkgA
-DEFINITION  (RefSeq) 2,5-diketo-D-gluconate reductase A
+DEFINITION  (RefSeq) methylglyoxal reductase DkgA
 ORTHOLOGY   K06221  2,5-diketo-D-gluconate reductase A [EC:1.1.1.346]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09191 Unclassified: metabolism
+               99980 Enzymes with EC numbers
+                b3012 (dkgA)
+            Enzymes [BR:eco01000]
              1. Oxidoreductases
               1.1  Acting on the CH-OH group of donors
                1.1.1  With NAD+ or NADP+ as acceptor
@@ -11,9 +16,10 @@ BRITE       Enzymes [BR:eco01000]
                  b3012 (dkgA)
 POSITION    3156623..3157450
 MOTIF       Pfam: Aldo_ket_red
-DBLINKS     NCBI-ProteinID: NP_417485
-            NCBI-GeneID: 947495
-            EcoGene: EG13015
+DBLINKS     NCBI-GeneID: 947495
+            NCBI-ProteinID: NP_417485
+            Pasteur: yqhE
+            RegulonDB: ECK120004124
             ECOCYC: G7565
             ASAP: ABE-0009892
             UniProt: Q46857

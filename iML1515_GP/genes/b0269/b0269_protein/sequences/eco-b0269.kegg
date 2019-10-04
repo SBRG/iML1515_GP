@@ -1,14 +1,27 @@
 ENTRY       b0269             CDS       T00007
 NAME        yagF
-DEFINITION  (RefSeq) CP4-6 prophage; dehydratase family protein
+DEFINITION  (RefSeq) CP4-6 prophage; D-xylonate dehydratase
+ORTHOLOGY   K22396  xylonate dehydratase [EC:4.2.1.82]
 ORGANISM    eco  Escherichia coli K-12 MG1655
+PATHWAY     eco00040  Pentose and glucuronate interconversions
+            eco01100  Metabolic pathways
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00040 Pentose and glucuronate interconversions
+                b0269 (yagF)
+            Enzymes [BR:eco01000]
+             4. Lyases
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.82  xylonate dehydratase
+                 b0269 (yagF)
 POSITION    283201..285168
 MOTIF       Pfam: ILVD_EDD
-DBLINKS     NCBI-ProteinID: NP_414803
-            NCBI-GeneID: 944928
+DBLINKS     NCBI-GeneID: 944928
+            NCBI-ProteinID: NP_414803
             Pasteur: yagF
             RegulonDB: ECK120002761
-            EcoGene: EG13345
             ECOCYC: G6141
             ASAP: ABE-0000923
             UniProt: P77596

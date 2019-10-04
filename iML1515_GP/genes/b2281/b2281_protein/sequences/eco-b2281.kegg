@@ -1,28 +1,28 @@
 ENTRY       b2281             CDS       T00007
 NAME        nuoI
-DEFINITION  (RefSeq) NADH:ubiquinone oxidoreductase, chain I
-ORTHOLOGY   K00338  NADH-quinone oxidoreductase subunit I [EC:1.6.5.3]
+DEFINITION  (RefSeq) NADH:quinone oxidoreductase subunit I
+ORTHOLOGY   K00338  NADH-quinone oxidoreductase subunit I [EC:7.1.1.2]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00190  Oxidative phosphorylation
             eco01100  Metabolic pathways
 MODULE      eco_M00144  NADH:quinone oxidoreductase, prokaryotes
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00190 Oxidative phosphorylation
                 b2281 (nuoI)
             Enzymes [BR:eco01000]
-             1. Oxidoreductases
-              1.6  Acting on NADH or NADPH
-               1.6.5  With a quinone or similar compound as acceptor
-                1.6.5.3  NADH:ubiquinone reductase (H+-translocating)
+             7. Translocases
+              7.1  Catalysing the translocation of hydrons
+               7.1.1  Linked to oxidoreductase reactions
+                7.1.1.2  NADH:ubiquinone reductase (H+-translocating)
                  b2281 (nuoI)
 POSITION    complement(2395908..2396450)
-MOTIF       Pfam: Fer4 Fer4_7 Fer4_21 Fer4_16 Fer4_10 Fer4_8 Fer4_9 Fer4_2 Fer4_6 Fer4_17 Fer4_4 Fer4_13 Fer4_3 ETF_QO
-DBLINKS     NCBI-ProteinID: NP_416784
-            NCBI-GeneID: 946757
+MOTIF       Pfam: Fer4 Fer4_7 Fer4_21 Fer4_16 Fer4_10 Fer4_8 Fer4_9 Fer4_17 Fer4_2 Fer4_6 Fer4_4 Fer4_13 Fer4_3 ETF_QO
+DBLINKS     NCBI-GeneID: 946757
+            NCBI-ProteinID: NP_416784
             Pasteur: nuoI
-            EcoGene: EG12089
+            RegulonDB: ECK120001994
             ECOCYC: EG12089
             ASAP: ABE-0007539
             UniProt: P0AFD6

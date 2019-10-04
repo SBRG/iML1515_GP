@@ -1,9 +1,14 @@
 ENTRY       b3503             CDS       T00007
 NAME        arsC
 DEFINITION  (RefSeq) arsenate reductase
-ORTHOLOGY   K00537  arsenate reductase [EC:1.20.4.1]
+ORTHOLOGY   K00537  arsenate reductase (glutaredoxin) [EC:1.20.4.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09191 Unclassified: metabolism
+               99980 Enzymes with EC numbers
+                b3503 (arsC)
+            Enzymes [BR:eco01000]
              1. Oxidoreductases
               1.20  Acting on phosphorus or arsenic in donors
                1.20.4  With disulfide as acceptor
@@ -11,10 +16,10 @@ BRITE       Enzymes [BR:eco01000]
                  b3503 (arsC)
 POSITION    3650237..3650662
 MOTIF       Pfam: ArsC PGM_PMM_IV Glutaredoxin
-DBLINKS     NCBI-ProteinID: NP_417960
-            NCBI-GeneID: 948018
+DBLINKS     NCBI-GeneID: 948018
+            NCBI-ProteinID: NP_417960
             Pasteur: arsC
-            EcoGene: EG12237
+            RegulonDB: ECK120002121
             ECOCYC: EG12237
             ASAP: ABE-0011439
             UniProt: P0AB96

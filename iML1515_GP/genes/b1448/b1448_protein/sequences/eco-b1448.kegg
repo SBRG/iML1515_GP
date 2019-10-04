@@ -1,13 +1,13 @@
 ENTRY       b1448             CDS       T00007
 NAME        mnaT
-DEFINITION  (RefSeq) methionine N-acyltransferase; L-amino acid N-acyltransferase
+DEFINITION  (RefSeq) L-amino acid N-acyltransferase
 ORTHOLOGY   K03823  phosphinothricin acetyltransferase [EC:2.3.1.183]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00440  Phosphonate and phosphinate metabolism
             eco01130  Biosynthesis of antibiotics
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of other amino acids
+             09100 Metabolism
+              09106 Metabolism of other amino acids
                00440 Phosphonate and phosphinate metabolism
                 b1448 (mnaT)
             Enzymes [BR:eco01000]
@@ -18,9 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1448 (mnaT)
 POSITION    complement(1518328..1518846)
 MOTIF       Pfam: Acetyltransf_4 Acetyltransf_1 Acetyltransf_3 Acetyltransf_10 Acetyltransf_7 FR47 GNAT_acetyltran Acetyltransf_CG Acetyltransf_9 Acetyltransf_15
-DBLINKS     NCBI-ProteinID: NP_415965
-            NCBI-GeneID: 946010
-            EcoGene: EG13770
+DBLINKS     NCBI-GeneID: 946010
+            NCBI-ProteinID: NP_415965
+            Pasteur: yncA
+            RegulonDB: ECK120003348
             ECOCYC: G6759
             ASAP: ABE-0004827
             UniProt: P76112

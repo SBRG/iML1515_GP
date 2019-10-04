@@ -1,20 +1,23 @@
 ENTRY       b1277             CDS       T00007
 NAME        ribA
-DEFINITION  (RefSeq) GTP cyclohydrolase II
+DEFINITION  (RefSeq) GTP cyclohydrolase 2
 ORTHOLOGY   K01497  GTP cyclohydrolase II [EC:3.5.4.25]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00740  Riboflavin metabolism
+            eco00790  Folate biosynthesis
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
             eco02024  Quorum sensing
 MODULE      eco_M00125  Riboflavin biosynthesis, GTP => riboflavin/FMN/FAD
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00740 Riboflavin metabolism
                 b1277 (ribA)
-             Cellular Processes
-              Cellular community - prokaryotes
+               00790 Folate biosynthesis
+                b1277 (ribA)
+             09140 Cellular Processes
+              09145 Cellular community - prokaryotes
                02024 Quorum sensing
                 b1277 (ribA)
             Enzymes [BR:eco01000]
@@ -25,11 +28,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1277 (ribA)
 POSITION    complement(1338570..1339160)
 MOTIF       Pfam: GTP_cyclohydro2
-DBLINKS     NCBI-ProteinID: NP_415793
-            NCBI-GeneID: 945763
+DBLINKS     NCBI-GeneID: 945763
+            NCBI-ProteinID: NP_415793
             Pasteur: ribA
             RegulonDB: ECK120001302
-            EcoGene: EG11331
             ECOCYC: EG11331
             ASAP: ABE-0004285
             UniProt: P0A7I7

@@ -1,21 +1,22 @@
 ENTRY       b1391             CDS       T00007
 NAME        paaD
-DEFINITION  (RefSeq) ring 1,2-phenylacetyl-CoA epoxidase subunit
+DEFINITION  (RefSeq) phenylacetate degradation protein
 ORTHOLOGY   K02612  ring-1,2-phenylacetyl-CoA epoxidase subunit PaaD
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00360  Phenylalanine metabolism
+            eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
+MODULE      eco_M00878  Phenylacetate degradation, phenylaxetate => acetyl-CoA/succinyl-CoA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00360 Phenylalanine metabolism
                 b1391 (paaD)
 POSITION    1455925..1456422
 MOTIF       Pfam: FeS_assembly_P Zn_Tnp_IS1595
-DBLINKS     NCBI-ProteinID: NP_415909
-            NCBI-GeneID: 945959
+DBLINKS     NCBI-GeneID: 945959
+            NCBI-ProteinID: NP_415909
             RegulonDB: ECK120003306
-            EcoGene: EG13738
             ECOCYC: G6712
             ASAP: ABE-0004655
             UniProt: P76080

@@ -1,6 +1,6 @@
 ENTRY       b1767             CDS       T00007
 NAME        ansA
-DEFINITION  (RefSeq) cytoplasmic L-asparaginase 1
+DEFINITION  (RefSeq) L-asparaginase 1
 ORTHOLOGY   K01424  L-asparaginase [EC:3.5.1.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00250  Alanine, aspartate and glutamate metabolism
@@ -8,11 +8,11 @@ PATHWAY     eco00250  Alanine, aspartate and glutamate metabolism
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00250 Alanine, aspartate and glutamate metabolism
                 b1767 (ansA)
-              Metabolism of other amino acids
+              09106 Metabolism of other amino acids
                00460 Cyanoamino acid metabolism
                 b1767 (ansA)
             Enzymes [BR:eco01000]
@@ -22,15 +22,15 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 3.5.1.1  asparaginase
                  b1767 (ansA)
 POSITION    1850860..1851876
-MOTIF       Pfam: Asparaginase
-DBLINKS     NCBI-ProteinID: NP_416281
-            NCBI-GeneID: 946278
+MOTIF       Pfam: Asparaginase Asparaginase_C
+DBLINKS     NCBI-GeneID: 946278
+            NCBI-ProteinID: NP_416281
             Pasteur: ansA
-            EcoGene: EG10045
+            RegulonDB: ECK120000041
             ECOCYC: EG10045
             ASAP: ABE-0005886
             UniProt: P0A962
-STRUCTURE   PDB: 2HIM 2P2D 2P2N
+STRUCTURE   PDB: 6NXC 2HIM 2P2D 6NXD 2P2N
 AASEQ       338
             MQKKSIYVAYTGGTIGMQRSEQGYIPVSGHLQRQLALMPEFHRPEMPDFTIHEYTPLMDS
             SDMTPEDWQHIAEDIKAHYDDYDGFVILHGTDTMAYTASALSFMLENLGKPVIVTGSQIP

@@ -1,13 +1,14 @@
 ENTRY       b1745             CDS       T00007
 NAME        astB
-DEFINITION  (RefSeq) succinylarginine dihydrolase
+DEFINITION  (RefSeq) N-succinylarginine dihydrolase
 ORTHOLOGY   K01484  succinylarginine dihydrolase [EC:3.5.3.23]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00330  Arginine and proline metabolism
             eco01100  Metabolic pathways
+MODULE      eco_M00879  Arginine succinyltransferase pathway, arginine => glutamate
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00330 Arginine and proline metabolism
                 b1745 (astB)
             Enzymes [BR:eco01000]
@@ -18,11 +19,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1745 (astB)
 POSITION    complement(1826916..1828259)
 MOTIF       Pfam: AstB
-DBLINKS     NCBI-ProteinID: NP_416259
-            NCBI-GeneID: 946259
+DBLINKS     NCBI-GeneID: 946259
+            NCBI-ProteinID: NP_416259
             Pasteur: astB
             RegulonDB: ECK120003529
-            EcoGene: EG13996
             ECOCYC: G6941
             ASAP: ABE-0005817
             UniProt: P76216

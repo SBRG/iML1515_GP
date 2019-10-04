@@ -1,6 +1,6 @@
 ENTRY       b2341             CDS       T00007
 NAME        fadJ
-DEFINITION  (RefSeq) fused enoyl-CoA hydratase and epimerase and isomerase/3-hydroxyacyl-CoA dehydrogenase
+DEFINITION  (RefSeq) 3-hydroxyacyl-CoA dehydrogenase FadJ
 ORTHOLOGY   K01782  3-hydroxyacyl-CoA dehydrogenase / enoyl-CoA hydratase / 3-hydroxybutyryl-CoA epimerase [EC:1.1.1.35 4.2.1.17 5.1.2.3]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00071  Fatty acid degradation
@@ -14,7 +14,6 @@ PATHWAY     eco00071  Fatty acid degradation
             eco00650  Butanoate metabolism
             eco00903  Limonene and pinene degradation
             eco00930  Caprolactam degradation
-            eco01040  Biosynthesis of unsaturated fatty acids
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
             eco01120  Microbial metabolism in diverse environments
@@ -23,38 +22,31 @@ PATHWAY     eco00071  Fatty acid degradation
             eco01212  Fatty acid metabolism
 MODULE      eco_M00087  beta-Oxidation
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b2341 (fadJ)
-               01212 Fatty acid metabolism
-                b2341 (fadJ)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00640 Propanoate metabolism
                 b2341 (fadJ)
                00650 Butanoate metabolism
                 b2341 (fadJ)
-              Lipid metabolism
+              09103 Lipid metabolism
                00071 Fatty acid degradation
                 b2341 (fadJ)
-               01040 Biosynthesis of unsaturated fatty acids
-                b2341 (fadJ)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00280 Valine, leucine and isoleucine degradation
                 b2341 (fadJ)
                00310 Lysine degradation
                 b2341 (fadJ)
                00380 Tryptophan metabolism
                 b2341 (fadJ)
-              Metabolism of other amino acids
+              09106 Metabolism of other amino acids
                00410 beta-Alanine metabolism
                 b2341 (fadJ)
-              Metabolism of terpenoids and polyketides
+              09109 Metabolism of terpenoids and polyketides
                00903 Limonene and pinene degradation
                 b2341 (fadJ)
                00281 Geraniol degradation
                 b2341 (fadJ)
-              Xenobiotics biodegradation and metabolism
+              09111 Xenobiotics biodegradation and metabolism
                00362 Benzoate degradation
                 b2341 (fadJ)
                00930 Caprolactam degradation
@@ -77,10 +69,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2341 (fadJ)
 POSITION    complement(2457015..2459159)
 MOTIF       Pfam: 3HCDH_N ECH_1 3HCDH ECH_2
-DBLINKS     NCBI-ProteinID: NP_416843
-            NCBI-GeneID: 949097
+DBLINKS     NCBI-GeneID: 949097
+            NCBI-ProteinID: NP_416843
+            Pasteur: yfcX
             RegulonDB: ECK120003787
-            EcoGene: EG14127
             ECOCYC: G7212
             ASAP: ABE-0007723
             UniProt: P77399

@@ -1,30 +1,34 @@
 ENTRY       b1516             CDS       T00007
 NAME        lsrB
-DEFINITION  (RefSeq) autoinducer 2-binding protein
+DEFINITION  (RefSeq) Autoinducer-2 ABC transporter periplasmic binding protein
 ORTHOLOGY   K10555  AI-2 transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
             eco02024  Quorum sensing
-MODULE      eco_M00219  AI-2 transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b1516 (lsrB)
-             Cellular Processes
-              Cellular community - prokaryotes
+             09140 Cellular Processes
+              09145 Cellular community - prokaryotes
                02024 Quorum sensing
                 b1516 (lsrB)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1516 (lsrB)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Saccharide, polyol, and lipid transporters
-               AI-2 transporter [MD:M00219] [OT]
+               AI-2 transporter
                 b1516 (lsrB)
 POSITION    1605051..1606073
 MOTIF       Pfam: Peripla_BP_4 Peripla_BP_6 RHD_dimer Glyco_tran_WecB
-DBLINKS     NCBI-ProteinID: NP_416033
-            NCBI-GeneID: 945418
-            EcoGene: EG13809
+DBLINKS     NCBI-GeneID: 945418
+            NCBI-ProteinID: NP_416033
+            Pasteur: yneA
+            RegulonDB: ECK120003392
             ECOCYC: G6803
             ASAP: ABE-0005063
             UniProt: P76142

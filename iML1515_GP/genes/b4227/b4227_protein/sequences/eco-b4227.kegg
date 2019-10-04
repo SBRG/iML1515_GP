@@ -1,20 +1,29 @@
 ENTRY       b4227             CDS       T00007
 NAME        ytfQ
-DEFINITION  (RefSeq) galactofuranose binding proteint: periplasmic-binding component of ABC superfamily
-ORTHOLOGY   K02058  simple sugar transport system substrate-binding protein
+DEFINITION  (RefSeq) galactofuranose ABC transporter periplasmic binding protein
+ORTHOLOGY   K23508  galactofuranose transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
-MODULE      eco_M00221  Putative simple sugar transport system
-BRITE       Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+PATHWAY     eco02010  ABC transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09130 Environmental Information Processing
+              09131 Membrane transport
+               02010 ABC transporters
+                b4227 (ytfQ)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b4227 (ytfQ)
+            Transporters [BR:eco02000]
+             ABC transporters, prokaryotic type
               Saccharide, polyol, and lipid transporters
-               Putative simple sugar transporter [MD:M00221]
+               Galactofuranose transporter
                 b4227 (ytfQ)
 POSITION    4449962..4450918
 MOTIF       Pfam: Peripla_BP_4 Peripla_BP_1 ABC_sub_bind Peripla_BP_6 Peripla_BP_3 PucR HypD
-DBLINKS     NCBI-ProteinID: NP_418648
-            NCBI-GeneID: 948746
+DBLINKS     NCBI-GeneID: 948746
+            NCBI-ProteinID: NP_418648
             Pasteur: ytfQ
-            EcoGene: EG12517
+            RegulonDB: ECK120002312
             ECOCYC: EG12517
             ASAP: ABE-0013829
             UniProt: P39325

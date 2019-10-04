@@ -21,13 +21,8 @@ PATHWAY     eco00071  Fatty acid degradation
             eco01212  Fatty acid metabolism
             eco02020  Two-component system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b2224 (atoB)
-               01212 Fatty acid metabolism
-                b2224 (atoB)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00620 Pyruvate metabolism
                 b2224 (atoB)
                00630 Glyoxylate and dicarboxylate metabolism
@@ -36,27 +31,31 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 b2224 (atoB)
                00650 Butanoate metabolism
                 b2224 (atoB)
-              Lipid metabolism
+              09103 Lipid metabolism
                00071 Fatty acid degradation
                 b2224 (atoB)
                00072 Synthesis and degradation of ketone bodies
                 b2224 (atoB)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00280 Valine, leucine and isoleucine degradation
                 b2224 (atoB)
                00310 Lysine degradation
                 b2224 (atoB)
                00380 Tryptophan metabolism
                 b2224 (atoB)
-              Metabolism of terpenoids and polyketides
+              09109 Metabolism of terpenoids and polyketides
                00900 Terpenoid backbone biosynthesis
                 b2224 (atoB)
-              Xenobiotics biodegradation and metabolism
+              09111 Xenobiotics biodegradation and metabolism
                00362 Benzoate degradation
                 b2224 (atoB)
-             Environmental Information Processing
-              Signal transduction
+             09130 Environmental Information Processing
+              09132 Signal transduction
                02020 Two-component system
+                b2224 (atoB)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               04147 Exosome [BR:eco04147]
                 b2224 (atoB)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -70,11 +69,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b2224 (atoB)
 POSITION    2326109..2327293
 MOTIF       Pfam: Thiolase_N Thiolase_C ketoacyl-synt ACP_syn_III
-DBLINKS     NCBI-ProteinID: NP_416728
-            NCBI-GeneID: 946727
+DBLINKS     NCBI-GeneID: 946727
+            NCBI-ProteinID: NP_416728
             Pasteur: atoB
             RegulonDB: ECK120001615
-            EcoGene: EG11672
             ECOCYC: EG11672
             ASAP: ABE-0007355
             UniProt: P76461

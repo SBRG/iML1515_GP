@@ -1,14 +1,19 @@
 ENTRY       b3496             CDS       T00007
 NAME        dtpB
-DEFINITION  (RefSeq) dipeptide and tripeptide permease B
+DEFINITION  (RefSeq) dipeptide/tripeptide:H(+) symporter DtpB
 ORTHOLOGY   K03305  proton-dependent oligopeptide transporter, POT family
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09193 Unclassified: signaling and cellular processes
+               99977 Transport
+                b3496 (dtpB)
 POSITION    3640862..3642331
 MOTIF       Pfam: PTR2 MFS_1 Ldr_toxin
-DBLINKS     NCBI-ProteinID: NP_417953
-            NCBI-GeneID: 948006
+DBLINKS     NCBI-GeneID: 948006
+            NCBI-ProteinID: NP_417953
+            Pasteur: yhiP
             RegulonDB: ECK120002116
-            EcoGene: EG12232
             ECOCYC: EG12232
             ASAP: ABE-0011417
             UniProt: P36837

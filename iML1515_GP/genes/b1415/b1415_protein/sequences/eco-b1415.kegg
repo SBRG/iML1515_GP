@@ -1,14 +1,15 @@
 ENTRY       b1415             CDS       T00007
 NAME        aldA
-DEFINITION  (RefSeq) aldehyde dehydrogenase A, NAD-linked
+DEFINITION  (RefSeq) aldehyde dehydrogenase A
 ORTHOLOGY   K07248  lactaldehyde dehydrogenase / glycolaldehyde dehydrogenase [EC:1.2.1.22 1.2.1.21]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00620  Pyruvate metabolism
             eco00630  Glyoxylate and dicarboxylate metabolism
+            eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00620 Pyruvate metabolism
                 b1415 (aldA)
                00630 Glyoxylate and dicarboxylate metabolism
@@ -23,11 +24,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1415 (aldA)
 POSITION    1488232..1489671
 MOTIF       Pfam: Aldedh LuxC DUF1487
-DBLINKS     NCBI-ProteinID: NP_415933
-            NCBI-GeneID: 945672
+DBLINKS     NCBI-GeneID: 945672
+            NCBI-ProteinID: NP_415933
             Pasteur: aldA
             RegulonDB: ECK120000032
-            EcoGene: EG10035
             ECOCYC: EG10035
             ASAP: ABE-0004725
             UniProt: P25553

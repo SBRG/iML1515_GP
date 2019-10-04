@@ -1,6 +1,6 @@
 ENTRY       b1638             CDS       T00007
 NAME        pdxH
-DEFINITION  (RefSeq) pyridoxine 5'-phosphate oxidase
+DEFINITION  (RefSeq) pyridoxal 5-phosphate synthase
 ORTHOLOGY   K00275  pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00750  Vitamin B6 metabolism
@@ -8,8 +8,8 @@ PATHWAY     eco00750  Vitamin B6 metabolism
             eco01120  Microbial metabolism in diverse environments
 MODULE      eco_M00124  Pyridoxal biosynthesis, erythrose-4P => pyridoxal-5P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00750 Vitamin B6 metabolism
                 b1638 (pdxH)
             Enzymes [BR:eco01000]
@@ -20,11 +20,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1638 (pdxH)
 POSITION    complement(1717351..1718007)
 MOTIF       Pfam: Putative_PNPOx PNP_phzG_C Pyrid_ox_like ThuA DUF3828
-DBLINKS     NCBI-ProteinID: NP_416155
-            NCBI-GeneID: 946806
+DBLINKS     NCBI-GeneID: 946806
+            NCBI-ProteinID: NP_416155
             Pasteur: pdxH
             RegulonDB: ECK120001443
-            EcoGene: EG11487
             ECOCYC: EG11487
             ASAP: ABE-0005482
             UniProt: P0AFI7

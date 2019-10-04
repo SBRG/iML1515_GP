@@ -1,13 +1,17 @@
 ENTRY       b1588             CDS       T00007
 NAME        ynfF
-DEFINITION  (RefSeq) S- and N-oxide reductase, A subunit, periplasmic
+DEFINITION  (RefSeq) putative selenate reductase YnfF
 ORTHOLOGY   K07310  Tat-targeted selenate reductase subunit YnfF [EC:1.97.1.9]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00450  Selenocompound metabolism
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of other amino acids
+             09100 Metabolism
+              09106 Metabolism of other amino acids
                00450 Selenocompound metabolism
+                b1588 (ynfF)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
                 b1588 (ynfF)
             Enzymes [BR:eco01000]
              1. Oxidoreductases
@@ -16,16 +20,15 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 1.97.1.9  selenate reductase
                  b1588 (ynfF)
             Transporters [BR:eco02000]
-             Other Transporters
+             Other transporters
               Transmembrane electron carriers [TC:5]
                b1588 (ynfF)
 POSITION    1660556..1662979
-MOTIF       Pfam: Molybdopterin Molydop_binding Molybdop_Fe4S4 zf-CCCH_3 TAT_signal
-DBLINKS     NCBI-ProteinID: NP_416105
-            NCBI-GeneID: 945268
+MOTIF       Pfam: Molybdopterin Molydop_binding Molybdop_Fe4S4 TAT_signal zf-CCCH_3
+DBLINKS     NCBI-GeneID: 945268
+            NCBI-ProteinID: NP_416105
             Pasteur: ynfF
             RegulonDB: ECK120003435
-            EcoGene: EG13844
             ECOCYC: G6846
             ASAP: ABE-0005307
             UniProt: P77783

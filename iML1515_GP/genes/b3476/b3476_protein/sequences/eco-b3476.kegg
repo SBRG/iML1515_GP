@@ -1,32 +1,35 @@
 ENTRY       b3476             CDS       T00007
 NAME        nikA
-DEFINITION  (RefSeq) nickel-binding, heme-binding periplasmic protein
+DEFINITION  (RefSeq) Ni(2(+)) ABC transporter periplasmic binding protein
 ORTHOLOGY   K15584  nickel transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00440  Nickel transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b3476 (nikA)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3476 (nikA)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Peptide and nickel transporters
-               Nickel transporter [MD:M00440] [OT]
+               Nickel transporter
                 b3476 (nikA)
 POSITION    3613667..3615241
 MOTIF       Pfam: SBP_bac_5 Tenui_NS4
-DBLINKS     NCBI-ProteinID: NP_417933
-            NCBI-GeneID: 947981
+DBLINKS     NCBI-GeneID: 947981
+            NCBI-ProteinID: NP_417933
             Pasteur: nikA
             RegulonDB: ECK120001981
-            EcoGene: EG12075
             ECOCYC: EG12075
             ASAP: ABE-0011354
             UniProt: P33590
-STRUCTURE   PDB: 2NOO 4I9D 3MZB 3MVX 3MVZ 3MVW 5MWU 3MZ9 1ZLQ 1UIU 1UIV
-                 4DCX 4DCY 3QIM 3MW0 4I8C 3MVY 3DP8 3E3K
+STRUCTURE   PDB: 5ON8 2NOO 5ON9 5ON1 5ON5 4I9D 3MZB 3MVX 3MVZ 3MVW 5MWU
+                 5L8D 3MZ9 1ZLQ 1UIU 5ON0 1UIV 4DCX 4DCY 3QIM 5ON4 3MW0
+                 4I8C 3MVY 3DP8 3E3K
 AASEQ       524
             MLSTLRRTLFALLACASFIVHAAAPDEITTAWPVNVGPLNPHLYTPNQMFAQSMVYEPLV
             KYQADGSVIPWLAKSWTHSEDGKTWTFTLRDDVKFSNGEPFDAEAAAENFRAVLDNRQRH

@@ -1,18 +1,23 @@
 ENTRY       b0010             CDS       T00007
 NAME        satP
-DEFINITION  (RefSeq) succinate-acetate transporter
+DEFINITION  (RefSeq) acetate/succinate:H(+) symporter
 ORTHOLOGY   K07034  uncharacterized protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09194 Poorly characterized
+               99997 Function unknown
+                b0010 (satP)
 POSITION    complement(9928..10494)
-MOTIF       Pfam: Grp1_Fun34_YaaH
-DBLINKS     NCBI-ProteinID: NP_414551
-            NCBI-GeneID: 944792
+MOTIF       Pfam: Gpr1_Fun34_YaaH
+DBLINKS     NCBI-GeneID: 944792
+            NCBI-ProteinID: NP_414551
             Pasteur: yaaH
             RegulonDB: ECK120001468
-            EcoGene: EG11512
             ECOCYC: EG11512
             ASAP: ABE-0000032
             UniProt: P0AC98
+STRUCTURE   PDB: 5ZUG
 AASEQ       188
             MGNTKLANPAPLGLMGFGMTTILLNLHNVGYFALDGIILAMGIFYGGIAQIFAGLLEYKK
             GNTFGLTAFTSYGSFWLTLVAILLMPKLGLTDAPNAQFLGVYLGLWGVFTLFMFFGTLKG

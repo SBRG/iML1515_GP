@@ -1,12 +1,13 @@
 ENTRY       b3011             CDS       T00007
 NAME        yqhD
-DEFINITION  (RefSeq) aldehyde reductase, NADPH-dependent
+DEFINITION  (RefSeq) NADPH-dependent aldehyde reductase YqhD
 ORTHOLOGY   K08325  NADP-dependent alcohol dehydrogenase [EC:1.1.-.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00640  Propanoate metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00640 Propanoate metabolism
                 b3011 (yqhD)
             Enzymes [BR:eco01000]
@@ -17,11 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3011 (yqhD)
 POSITION    3155355..3156518
 MOTIF       Pfam: Fe-ADH Fe-ADH_2 DHQ_synthase
-DBLINKS     NCBI-ProteinID: NP_417484
-            NCBI-GeneID: 947493
+DBLINKS     NCBI-GeneID: 947493
+            NCBI-ProteinID: NP_417484
             Pasteur: yqhD
             RegulonDB: ECK120004123
-            EcoGene: EG13014
             ECOCYC: G7564
             ASAP: ABE-0009888
             UniProt: Q46856

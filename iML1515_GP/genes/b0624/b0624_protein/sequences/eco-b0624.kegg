@@ -1,15 +1,23 @@
 ENTRY       b0624             CDS       T00007
-NAME        flc
-DEFINITION  (RefSeq) fluoride efflux channel, dual topology membrane protein
-ORTHOLOGY   K06199  CrcB protein
+NAME        crcB
+DEFINITION  (RefSeq) F(-) channel
+ORTHOLOGY   K06199  fluoride exporter
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0624 (crcB)
+            Transporters [BR:eco02000]
+             Other transporters
+              Pores ion channels [TC:1]
+               b0624 (crcB)
 POSITION    complement(657555..657938)
 MOTIF       Pfam: CRCB
-DBLINKS     NCBI-ProteinID: NP_415157
-            NCBI-GeneID: 945798
+DBLINKS     NCBI-GeneID: 945798
+            NCBI-ProteinID: NP_415157
             Pasteur: crcB
             RegulonDB: ECK120002096
-            EcoGene: EG12209
             ASAP: ABE-0002144
             UniProt: P37002
 AASEQ       127

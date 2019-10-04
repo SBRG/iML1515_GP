@@ -1,27 +1,29 @@
 ENTRY       b2310             CDS       T00007
 NAME        argT
-DEFINITION  (RefSeq) lysine/arginine/ornithine transporter subunit
+DEFINITION  (RefSeq) lysine/arginine/ornithine ABC transporter periplasmic binding protein
 ORTHOLOGY   K10013  lysine/arginine/ornithine transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00225  Lysine/arginine/ornithine transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b2310 (argT)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2310 (argT)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Phosphate and amino acid transporters
-               Lysine/arginine/ornithine transporter [MD:M00225]
+               Lysine/arginine/ornithine transporter
                 b2310 (argT)
 POSITION    complement(2427009..2427791)
-MOTIF       Pfam: SBP_bac_3 NMT1 Lig_chan-Glu_bd
-DBLINKS     NCBI-ProteinID: NP_416813
-            NCBI-GeneID: 949030
+MOTIF       Pfam: SBP_bac_3 NMT1 Lig_chan-Glu_bd LPAM_1
+DBLINKS     NCBI-GeneID: 949030
+            NCBI-ProteinID: NP_416813
             Pasteur: argT
             RegulonDB: ECK120000068
-            EcoGene: EG10072
             ECOCYC: EG10072
             ASAP: ABE-0007621
             UniProt: P09551

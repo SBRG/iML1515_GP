@@ -1,6 +1,6 @@
 ENTRY       b1378             CDS       T00007
-NAME        pfo
-DEFINITION  (RefSeq) pyruvate-flavodoxin oxidoreductase
+NAME        ydbK
+DEFINITION  (RefSeq) putative pyruvate-flavodoxin oxidoreductase
 ORTHOLOGY   K03737  pyruvate-ferredoxin/flavodoxin oxidoreductase [EC:1.2.7.1 1.2.7.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00010  Glycolysis / Gluconeogenesis
@@ -8,39 +8,36 @@ PATHWAY     eco00010  Glycolysis / Gluconeogenesis
             eco00620  Pyruvate metabolism
             eco00650  Butanoate metabolism
             eco01100  Metabolic pathways
+            eco01110  Biosynthesis of secondary metabolites
             eco01120  Microbial metabolism in diverse environments
             eco01130  Biosynthesis of antibiotics
             eco01200  Carbon metabolism
 MODULE      eco_M00307  Pyruvate oxidation, pyruvate => acetyl-CoA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b1378 (pfo)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
-                b1378 (pfo)
+                b1378 (ydbK)
                00020 Citrate cycle (TCA cycle)
-                b1378 (pfo)
+                b1378 (ydbK)
                00620 Pyruvate metabolism
-                b1378 (pfo)
+                b1378 (ydbK)
                00650 Butanoate metabolism
-                b1378 (pfo)
+                b1378 (ydbK)
             Enzymes [BR:eco01000]
              1. Oxidoreductases
               1.2  Acting on the aldehyde or oxo group of donors
                1.2.7  With an iron-sulfur protein as acceptor
                 1.2.7.1  pyruvate synthase
-                 b1378 (pfo)
+                 b1378 (ydbK)
                 1.2.7.-  
-                 b1378 (pfo)
+                 b1378 (ydbK)
 POSITION    complement(1437260..1440784)
-MOTIF       Pfam: POR_N POR EKR PFOR_II Fer4_16 Fer4_7 Fer4 TPP_enzyme_C Fer4_6 Fer4_9 Fer4_21 Fer4_10 Fer4_17 Fer4_2 Fer4_18 Fer4_8 Transketolase_C Fer4_3 Fer4_13 FlgM Fer4_4 HEAT_2
-DBLINKS     NCBI-ProteinID: NP_415896
-            NCBI-GeneID: 946587
+MOTIF       Pfam: POR_N POR EKR PFOR_II Fer4_16 Fer4_7 Fer4 TPP_enzyme_C Fer4_9 Fer4_6 Fer4_21 Fer4_10 Fer4_17 Fer4_2 Fer4_18 Fer4_8 Transketolase_C Fer4_3 Fer4_13 FlgM Fer4_4 HEAT_2
+DBLINKS     NCBI-GeneID: 946587
+            NCBI-ProteinID: NP_415896
             Pasteur: ydbK
             RegulonDB: ECK120003296
-            EcoGene: EG13183
             ASAP: ABE-0004613
             UniProt: P52647
 AASEQ       1174

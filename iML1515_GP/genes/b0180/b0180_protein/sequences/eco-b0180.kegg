@@ -1,6 +1,6 @@
 ENTRY       b0180             CDS       T00007
 NAME        fabZ
-DEFINITION  (RefSeq) (3R)-hydroxymyristol acyl carrier protein dehydratase
+DEFINITION  (RefSeq) 3-hydroxy-acyl-[acyl-carrier-protein] dehydratase
 ORTHOLOGY   K02372  3-hydroxyacyl-[acyl-carrier-protein] dehydratase [EC:4.2.1.59]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00061  Fatty acid biosynthesis
@@ -10,15 +10,16 @@ PATHWAY     eco00061  Fatty acid biosynthesis
 MODULE      eco_M00083  Fatty acid biosynthesis, elongation
             eco_M00572  Pimeloyl-ACP biosynthesis, BioC-BioH pathway, malonyl-ACP => pimeloyl-ACP
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01212 Fatty acid metabolism
-                b0180 (fabZ)
-              Lipid metabolism
+             09100 Metabolism
+              09103 Lipid metabolism
                00061 Fatty acid biosynthesis
                 b0180 (fabZ)
-              Metabolism of cofactors and vitamins
+              09108 Metabolism of cofactors and vitamins
                00780 Biotin metabolism
+                b0180 (fabZ)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01004 Lipid biosynthesis proteins [BR:eco01004]
                 b0180 (fabZ)
             Enzymes [BR:eco01000]
              4. Lyases
@@ -32,13 +33,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b0180 (fabZ)
 POSITION    202101..202556
 MOTIF       Pfam: FabA MaoC_dehydratas 4HBT PS-DH
-DBLINKS     NCBI-ProteinID: NP_414722
-            NCBI-GeneID: 944888
+DBLINKS     NCBI-GeneID: 944888
+            NCBI-ProteinID: NP_414722
             Pasteur: fabZ
-            EcoGene: EG11284
+            RegulonDB: ECK120001257
             ECOCYC: EG11284
             ASAP: ABE-0000613
             UniProt: P0A6Q6
+STRUCTURE   PDB: 6N3P
 AASEQ       151
             MTTNTHTLQIEEILELLPHRFPFLLVDRVLDFEEGRFLRAVKNVSVNEPFFQGHFPGKPI
             FPGVLILEAMAQATGILAFKSVGKLEPGELYYFAGIDEARFKRPVVPGDQMIMEVTFEKT

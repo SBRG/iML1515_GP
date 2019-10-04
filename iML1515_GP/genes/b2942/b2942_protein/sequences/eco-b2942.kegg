@@ -1,6 +1,6 @@
 ENTRY       b2942             CDS       T00007
 NAME        metK
-DEFINITION  (RefSeq) S-adenosylmethionine synthetase
+DEFINITION  (RefSeq) methionine adenosyltransferase
 ORTHOLOGY   K00789  S-adenosylmethionine synthetase [EC:2.5.1.6]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00270  Cysteine and methionine metabolism
@@ -8,11 +8,8 @@ PATHWAY     eco00270  Cysteine and methionine metabolism
             eco01110  Biosynthesis of secondary metabolites
             eco01230  Biosynthesis of amino acids
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b2942 (metK)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00270 Cysteine and methionine metabolism
                 b2942 (metK)
             Enzymes [BR:eco01000]
@@ -22,11 +19,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 2.5.1.6  methionine adenosyltransferase
                  b2942 (metK)
 POSITION    3086706..3087860
-MOTIF       Pfam: S-AdoMet_synt_C S-AdoMet_synt_M S-AdoMet_synt_N AdoMet_Synthase
-DBLINKS     NCBI-ProteinID: NP_417417
-            NCBI-GeneID: 945389
+MOTIF       Pfam: S-AdoMet_synt_C S-AdoMet_synt_M S-AdoMet_synt_N
+DBLINKS     NCBI-GeneID: 945389
+            NCBI-ProteinID: NP_417417
             Pasteur: metK
-            EcoGene: EG10589
+            RegulonDB: ECK120000582
             ECOCYC: EG10589
             ASAP: ABE-0009650
             UniProt: P0A817

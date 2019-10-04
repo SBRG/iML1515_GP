@@ -1,6 +1,6 @@
 ENTRY       b3845             CDS       T00007
 NAME        fadA
-DEFINITION  (RefSeq) 3-ketoacyl-CoA thiolase (thiolase I)
+DEFINITION  (RefSeq) 3-ketoacyl-CoA thiolase
 ORTHOLOGY   K00632  acetyl-CoA acyltransferase [EC:2.3.1.16]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00071  Fatty acid degradation
@@ -15,22 +15,19 @@ PATHWAY     eco00071  Fatty acid degradation
             eco01212  Fatty acid metabolism
 MODULE      eco_M00087  beta-Oxidation
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01212 Fatty acid metabolism
-                b3845 (fadA)
-              Lipid metabolism
+             09100 Metabolism
+              09103 Lipid metabolism
                00071 Fatty acid degradation
                 b3845 (fadA)
                00592 alpha-Linolenic acid metabolism
                 b3845 (fadA)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00280 Valine, leucine and isoleucine degradation
                 b3845 (fadA)
-              Metabolism of terpenoids and polyketides
+              09109 Metabolism of terpenoids and polyketides
                00281 Geraniol degradation
                 b3845 (fadA)
-              Xenobiotics biodegradation and metabolism
+              09111 Xenobiotics biodegradation and metabolism
                00362 Benzoate degradation
                 b3845 (fadA)
                00642 Ethylbenzene degradation
@@ -43,11 +40,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3845 (fadA)
 POSITION    complement(4027609..4028772)
 MOTIF       Pfam: Thiolase_N Thiolase_C ketoacyl-synt ACP_syn_III
-DBLINKS     NCBI-ProteinID: YP_026272
-            NCBI-GeneID: 948324
+DBLINKS     NCBI-GeneID: 948324
+            NCBI-ProteinID: YP_026272
             Pasteur: fadA
             RegulonDB: ECK120000272
-            EcoGene: EG10278
             ECOCYC: EG10278
             ASAP: ABE-0012562
             UniProt: P21151

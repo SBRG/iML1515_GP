@@ -1,6 +1,6 @@
 ENTRY       b0756             CDS       T00007
 NAME        galM
-DEFINITION  (RefSeq) aldose 1-epimerase; type-1 mutarotase
+DEFINITION  (RefSeq) galactose-1-epimerase
 ORTHOLOGY   K01785  aldose 1-epimerase [EC:5.1.3.3]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00010  Glycolysis / Gluconeogenesis
@@ -11,8 +11,8 @@ PATHWAY     eco00010  Glycolysis / Gluconeogenesis
             eco01130  Biosynthesis of antibiotics
 MODULE      eco_M00632  Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
                 b0756 (galM)
                00052 Galactose metabolism
@@ -25,11 +25,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0756 (galM)
 POSITION    complement(787797..788837)
 MOTIF       Pfam: Aldose_epim
-DBLINKS     NCBI-ProteinID: NP_415277
-            NCBI-GeneID: 944943
+DBLINKS     NCBI-GeneID: 944943
+            NCBI-ProteinID: NP_415277
             Pasteur: galM
             RegulonDB: ECK120001641
-            EcoGene: EG11698
             ECOCYC: EG11698
             ASAP: ABE-0002566
             UniProt: P0A9C3

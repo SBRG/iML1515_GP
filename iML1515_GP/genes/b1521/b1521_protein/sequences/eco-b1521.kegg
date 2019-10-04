@@ -1,14 +1,14 @@
 ENTRY       b1521             CDS       T00007
 NAME        uxaB
-DEFINITION  (RefSeq) altronate oxidoreductase, NAD-dependent
+DEFINITION  (RefSeq) tagaturonate reductase
 ORTHOLOGY   K00041  tagaturonate reductase [EC:1.1.1.58]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00040  Pentose and glucuronate interconversions
             eco01100  Metabolic pathways
 MODULE      eco_M00631  D-Galacturonate degradation (bacteria), D-galacturonate => pyruvate + D-glyceraldehyde 3P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00040 Pentose and glucuronate interconversions
                 b1521 (uxaB)
             Enzymes [BR:eco01000]
@@ -19,10 +19,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1521 (uxaB)
 POSITION    complement(1609229..1610680)
 MOTIF       Pfam: Mannitol_dh_C Mannitol_dh
-DBLINKS     NCBI-ProteinID: YP_025302
-            NCBI-GeneID: 945542
+DBLINKS     NCBI-GeneID: 945542
+            NCBI-ProteinID: YP_025302
             Pasteur: uxaB
-            EcoGene: EG11065
+            RegulonDB: ECK120001054
             ECOCYC: EG11065
             ASAP: ABE-0005076
             UniProt: P0A6L7

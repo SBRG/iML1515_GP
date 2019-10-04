@@ -1,0 +1,529 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-07-19" modified="2019-09-18" version="114">
+<accession>P0A9M2</accession>
+<accession>P36766</accession>
+<name>HPRT_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>Hypoxanthine phosphoribosyltransferase</fullName>
+<shortName>HPRT</shortName>
+<ecNumber>2.4.2.8</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">hpt</name>
+<name type="ordered locus">b0125</name>
+<name type="ordered locus">JW5009</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1994" name="Nucleic Acids Res." volume="22" first="1637" last="1639">
+<title>Systematic sequencing of the Escherichia coli genome: analysis of the 2.4-4.1 min (110,917-193,643 bp) region.</title>
+<authorList>
+<person name="Fujita N."/>
+<person name="Mori H."/>
+<person name="Yura T."/>
+<person name="Ishihama A."/>
+</authorList>
+<dbReference type="PubMed" id="8202364"/>
+<dbReference type="DOI" id="10.1093/nar/22.9.1637"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2002" name="Protein Sci." volume="11" first="1626" last="1638">
+<title>Crystal structures of free, IMP-, and GMP-bound Escherichia coli hypoxanthine phosphoribosyltransferase.</title>
+<authorList>
+<person name="Guddat L.W."/>
+<person name="Vos S."/>
+<person name="Martin J.L."/>
+<person name="Keough D.T."/>
+<person name="de Jersey J."/>
+</authorList>
+<dbReference type="PubMed" id="12070315"/>
+<dbReference type="DOI" id="10.1110/ps.0201002"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.9 ANGSTROMS) IN COMPLEXES WITH IMP; GMP AND MAGNESIUM</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>FUNCTION</scope>
+<scope>SUBUNIT</scope>
+<scope>COFACTOR</scope>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+</reference>
+<comment type="function">
+<text evidence="5">Acts preferentially on hypoxanthine; has very low activity towards guanine. Inactive towards xanthine.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="5">
+<text>diphosphate + IMP = 5-phospho-alpha-D-ribose 1-diphosphate + hypoxanthine</text>
+<dbReference type="Rhea" id="RHEA:17973"/>
+<dbReference type="ChEBI" id="CHEBI:17368"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:58017"/>
+<dbReference type="ChEBI" id="CHEBI:58053"/>
+<dbReference type="EC" id="2.4.2.8"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="4">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="4">Binds 2 magnesium ions per subunit. The magnesium ions are essentially bound to the substrate and have few direct interactions with the protein.</text>
+</comment>
+<comment type="pathway">
+<text>Purine metabolism; IMP biosynthesis via salvage pathway; IMP from hypoxanthine: step 1/1.</text>
+</comment>
+<comment type="subunit">
+<text evidence="5">Homotetramer.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="6">Belongs to the purine/pyrimidine phosphoribosyltransferase family.</text>
+</comment>
+<dbReference type="EC" id="2.4.2.8"/>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC73236.2"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAB96700.2"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_414667.4">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000683335.1">
+<property type="nucleotide sequence ID" value="NZ_STEB01000010.1"/>
+</dbReference>
+<dbReference type="PDB" id="1G9S">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.80"/>
+<property type="chains" value="A/B=1-178"/>
+</dbReference>
+<dbReference type="PDB" id="1G9T">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.80"/>
+<property type="chains" value="A/B=1-178"/>
+</dbReference>
+<dbReference type="PDB" id="1GRV">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.90"/>
+<property type="chains" value="A/B=1-178"/>
+</dbReference>
+<dbReference type="PDB" id="5KNR">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.86"/>
+<property type="chains" value="A/B=1-178"/>
+</dbReference>
+<dbReference type="PDB" id="5KNS">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.79"/>
+<property type="chains" value="A/B=1-178"/>
+</dbReference>
+<dbReference type="PDB" id="5KNT">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.55"/>
+<property type="chains" value="A/B=1-178"/>
+</dbReference>
+<dbReference type="PDB" id="5KNU">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.81"/>
+<property type="chains" value="A/B=1-178"/>
+</dbReference>
+<dbReference type="PDB" id="5KNV">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.86"/>
+<property type="chains" value="A/B=1-178"/>
+</dbReference>
+<dbReference type="PDB" id="5KNX">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.40"/>
+<property type="chains" value="A/B=1-178"/>
+</dbReference>
+<dbReference type="PDBsum" id="1G9S"/>
+<dbReference type="PDBsum" id="1G9T"/>
+<dbReference type="PDBsum" id="1GRV"/>
+<dbReference type="PDBsum" id="5KNR"/>
+<dbReference type="PDBsum" id="5KNS"/>
+<dbReference type="PDBsum" id="5KNT"/>
+<dbReference type="PDBsum" id="5KNU"/>
+<dbReference type="PDBsum" id="5KNV"/>
+<dbReference type="PDBsum" id="5KNX"/>
+<dbReference type="SMR" id="P0A9M2"/>
+<dbReference type="BioGrid" id="4261679">
+<property type="interactions" value="26"/>
+</dbReference>
+<dbReference type="BioGrid" id="850970">
+<property type="interactions" value="3"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-47994N"/>
+<dbReference type="IntAct" id="P0A9M2">
+<property type="interactions" value="5"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b0125"/>
+<dbReference type="DrugBank" id="DB04566">
+<property type="generic name" value="Inosinic Acid"/>
+</dbReference>
+<dbReference type="SWISS-2DPAGE" id="P0A9M2"/>
+<dbReference type="EPD" id="P0A9M2"/>
+<dbReference type="jPOST" id="P0A9M2"/>
+<dbReference type="PaxDb" id="P0A9M2"/>
+<dbReference type="PRIDE" id="P0A9M2"/>
+<dbReference type="EnsemblBacteria" id="AAC73236">
+<property type="protein sequence ID" value="AAC73236"/>
+<property type="gene ID" value="b0125"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAB96700">
+<property type="protein sequence ID" value="BAB96700"/>
+<property type="gene ID" value="BAB96700"/>
+</dbReference>
+<dbReference type="GeneID" id="946624"/>
+<dbReference type="KEGG" id="ecj:JW5009"/>
+<dbReference type="KEGG" id="eco:b0125"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.2157"/>
+<dbReference type="EchoBASE" id="EB4143"/>
+<dbReference type="EcoGene" id="EG20098">
+<property type="gene designation" value="hpt"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4108UGV">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0634">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000236520"/>
+<dbReference type="InParanoid" id="P0A9M2"/>
+<dbReference type="KO" id="K00760"/>
+<dbReference type="PhylomeDB" id="P0A9M2"/>
+<dbReference type="BioCyc" id="EcoCyc:HYPOXANPRIBOSYLTRAN-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW5009-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:HYPOXANPRIBOSYLTRAN-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00591">
+<property type="reaction ID" value="UER00648"/>
+</dbReference>
+<dbReference type="EvolutionaryTrace" id="P0A9M2"/>
+<dbReference type="PRO" id="PR:P0A9M2"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0052657">
+<property type="term" value="F:guanine phosphoribosyltransferase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004422">
+<property type="term" value="F:hypoxanthine phosphoribosyltransferase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000166">
+<property type="term" value="F:nucleotide binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0032263">
+<property type="term" value="P:GMP salvage"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="GO" id="GO:0032264">
+<property type="term" value="P:IMP salvage"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="CDD" id="cd06223">
+<property type="entry name" value="PRTases_typeI"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005904">
+<property type="entry name" value="Hxn_phspho_trans"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000836">
+<property type="entry name" value="PRibTrfase_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029057">
+<property type="entry name" value="PRTase-like"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00156">
+<property type="entry name" value="Pribosyltran"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53271">
+<property type="entry name" value="SSF53271"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01203">
+<property type="entry name" value="HGPRTase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00103">
+<property type="entry name" value="PUR_PYR_PR_TRANSFER"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0328">Glycosyltransferase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-0660">Purine salvage</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<feature type="chain" description="Hypoxanthine phosphoribosyltransferase" id="PRO_0000139632">
+<location>
+<begin position="1"/>
+<end position="178"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="IMP">
+<location>
+<begin position="99"/>
+<end position="108"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="IMP">
+<location>
+<begin position="158"/>
+<end position="159"/>
+</location>
+</feature>
+<feature type="active site" description="Proton acceptor" evidence="6">
+<location>
+<position position="103"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="4">
+<location>
+<position position="159"/>
+</location>
+</feature>
+<feature type="binding site" description="IMP">
+<location>
+<position position="131"/>
+</location>
+</feature>
+<feature type="binding site" description="IMP; via carbonyl oxygen">
+<location>
+<position position="153"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="3"/>
+<end position="9"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="11"/>
+<end position="29"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="30"/>
+<end position="32"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="36"/>
+<end position="41"/>
+</location>
+</feature>
+<feature type="turn" evidence="3">
+<location>
+<begin position="42"/>
+<end position="45"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="46"/>
+<end position="54"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="61"/>
+<end position="67"/>
+</location>
+</feature>
+<feature type="turn" evidence="3">
+<location>
+<begin position="73"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="82"/>
+<end position="84"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="93"/>
+<end position="104"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="106"/>
+<end position="116"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="121"/>
+<end position="130"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="132"/>
+<end position="134"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="142"/>
+<end position="147"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="153"/>
+<end position="155"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="160"/>
+<end position="162"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="168"/>
+<end position="175"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1G9T"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="5KNS"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="5KNX"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000250"/>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12070315"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000305"/>
+<sequence length="178" mass="20115" checksum="E1A75EB68231DC32" modified="2005-07-19" version="1">MKHTVEVMIPEAEIKARIAELGRQITERYKDSGSDMVLVGLLRGSFMFMADLCREVQVSHEVDFMTASSYGSGMSTTRDVKILKDLDEDIRGKDVLIVEDIIDSGNTLSKVREILSLREPKSLAICTLLDKPSRREVNVPVEFIGFSIPDEFVVGYGIDYAQRYRHLPYIGKVILLDE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

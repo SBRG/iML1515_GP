@@ -1,37 +1,39 @@
 ENTRY       b1245             CDS       T00007
 NAME        oppC
-DEFINITION  (RefSeq) oligopeptide transporter subunit
+DEFINITION  (RefSeq) murein tripeptide ABC transporter/oligopeptide ABC transporter inner membrane subunit OppC
 ORTHOLOGY   K15582  oligopeptide transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco01501  beta-Lactam resistance
             eco02010  ABC transporters
             eco02024  Quorum sensing
-MODULE      eco_M00439  Oligopeptide transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b1245 (oppC)
-             Cellular Processes
-              Cellular community - prokaryotes
+             09140 Cellular Processes
+              09145 Cellular community - prokaryotes
                02024 Quorum sensing
                 b1245 (oppC)
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01501 beta-Lactam resistance
                 b1245 (oppC)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1245 (oppC)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Peptide and nickel transporters
-               Oligopeptide transporter [MD:M00439]
+               Oligopeptide transporter
                 b1245 (oppC)
 POSITION    1303834..1304742
 MOTIF       Pfam: BPD_transp_1 OppC_N DUF3176
-DBLINKS     NCBI-ProteinID: NP_415761
-            NCBI-GeneID: 945810
+DBLINKS     NCBI-GeneID: 945810
+            NCBI-ProteinID: NP_415761
             Pasteur: oppC
             RegulonDB: ECK120000669
-            EcoGene: EG10676
             ECOCYC: EG10676
             ASAP: ABE-0004176
             UniProt: P0AFH6

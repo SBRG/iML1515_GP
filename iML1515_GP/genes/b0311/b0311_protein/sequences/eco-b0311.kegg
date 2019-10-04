@@ -1,14 +1,14 @@
 ENTRY       b0311             CDS       T00007
 NAME        betA
-DEFINITION  (RefSeq) choline dehydrogenase, a flavoprotein
+DEFINITION  (RefSeq) choline dehydrogenase
 ORTHOLOGY   K00108  choline dehydrogenase [EC:1.1.99.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00260  Glycine, serine and threonine metabolism
             eco01100  Metabolic pathways
 MODULE      eco_M00555  Betaine biosynthesis, choline => betaine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00260 Glycine, serine and threonine metabolism
                 b0311 (betA)
             Enzymes [BR:eco01000]
@@ -19,10 +19,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0311 (betA)
 POSITION    complement(325577..327247)
 MOTIF       Pfam: GMC_oxred_N GMC_oxred_C FAD_binding_2 DAO Lycopene_cycl NAD_binding_8 Pyr_redox_2 Thi4 HI0933_like
-DBLINKS     NCBI-ProteinID: NP_414845
-            NCBI-GeneID: 945716
+DBLINKS     NCBI-GeneID: 945716
+            NCBI-ProteinID: NP_414845
             Pasteur: betA
-            EcoGene: EG10109
+            RegulonDB: ECK120000105
             ECOCYC: EG10109
             ASAP: ABE-0001070
             UniProt: P17444

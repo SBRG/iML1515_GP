@@ -1,16 +1,33 @@
 ENTRY       b0925             CDS       T00007
 NAME        ldtD
-DEFINITION  (RefSeq) murein L,D-transpeptidase
+DEFINITION  (RefSeq) L,D-transpeptidase LdtD
 ORTHOLOGY   K21470  L,D-transpeptidase YcbB
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors [BR:eco01002]
+                b0925 (ldtD)
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+                b0925 (ldtD)
+            Peptidases and inhibitors [BR:eco01002]
+             Cysteine peptidases
+              Family C82
+               b0925 (ldtD)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              Transpeptidase
+               b0925 (ldtD)
 POSITION    981047..982894
 MOTIF       Pfam: YkuD PG_binding_1
-DBLINKS     NCBI-ProteinID: NP_415445
-            NCBI-GeneID: 945541
+DBLINKS     NCBI-GeneID: 945541
+            NCBI-ProteinID: NP_415445
             Pasteur: ycbB
-            EcoGene: EG11253
+            RegulonDB: ECK120001228
+            ECOCYC: EG11253
             ASAP: ABE-0003142
             UniProt: P22525
+STRUCTURE   PDB: 6NTW
 AASEQ       615
             MLLNMMCGRQLSAISLCLAVTFAPLFNAQADEPEVIPGDSPVAVSEQGEALPQAQATAIM
             AGIQPLPEGAAEKARTQIESQLPAGYKPVYLNQLQLLYAARDMQPMWENRDAVKAFQQQL

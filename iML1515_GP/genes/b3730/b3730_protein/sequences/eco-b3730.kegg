@@ -1,15 +1,14 @@
 ENTRY       b3730             CDS       T00007
 NAME        glmU
-DEFINITION  (RefSeq) fused N-acetyl glucosamine-1-phosphate uridyltransferase/glucosamine-1-phosphate acetyl transferase
+DEFINITION  (RefSeq) fused N-acetylglucosamine-1-phosphate uridyltransferase and glucosamine-1-phosphate acetyltransferase
 ORTHOLOGY   K04042  bifunctional UDP-N-acetylglucosamine pyrophosphorylase / Glucosamine-1-phosphate N-acetyltransferase [EC:2.7.7.23 2.3.1.157]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00520  Amino sugar and nucleotide sugar metabolism
             eco01100  Metabolic pathways
             eco01130  Biosynthesis of antibiotics
-MODULE      eco_M00362  Nucleotide sugar biosynthesis, prokaryotes
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00520 Amino sugar and nucleotide sugar metabolism
                 b3730 (glmU)
             Enzymes [BR:eco01000]
@@ -24,11 +23,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3730 (glmU)
 POSITION    complement(3913830..3915200)
 MOTIF       Pfam: Hexapep NTP_transf_3 NTP_transferase Hexapep_2 IspD CofC CTP_transf_3 Fucokinase DUF4954 Bactofilin Fucose_iso_C
-DBLINKS     NCBI-ProteinID: NP_418186
-            NCBI-GeneID: 948246
+DBLINKS     NCBI-GeneID: 948246
+            NCBI-ProteinID: NP_418186
             Pasteur: glmU
             RegulonDB: ECK120001179
-            EcoGene: EG11198
             ECOCYC: EG11198
             ASAP: ABE-0012201
             UniProt: P0ACC7

@@ -1,11 +1,9 @@
 ENTRY       b0726             CDS       T00007
 NAME        sucA
-DEFINITION  (RefSeq) 2-oxoglutarate decarboxylase, thiamine triphosphate-binding
+DEFINITION  (RefSeq) subunit of E1(0) component of 2-oxoglutarate dehydrogenase
 ORTHOLOGY   K00164  2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00020  Citrate cycle (TCA cycle)
-            eco00310  Lysine degradation
-            eco00380  Tryptophan metabolism
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
             eco01120  Microbial metabolism in diverse environments
@@ -14,17 +12,9 @@ PATHWAY     eco00020  Citrate cycle (TCA cycle)
 MODULE      eco_M00009  Citrate cycle (TCA cycle, Krebs cycle)
             eco_M00011  Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b0726 (sucA)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00020 Citrate cycle (TCA cycle)
-                b0726 (sucA)
-              Amino acid metabolism
-               00310 Lysine degradation
-                b0726 (sucA)
-               00380 Tryptophan metabolism
                 b0726 (sucA)
             Enzymes [BR:eco01000]
              1. Oxidoreductases
@@ -34,10 +24,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0726 (sucA)
 POSITION    758706..761507
 MOTIF       Pfam: Transket_pyr OxoGdeHyase_C E1_dh 2-oxogl_dehyd_N PFOR_II
-DBLINKS     NCBI-ProteinID: NP_415254
-            NCBI-GeneID: 945303
+DBLINKS     NCBI-GeneID: 945303
+            NCBI-ProteinID: NP_415254
             Pasteur: sucA
-            EcoGene: EG10979
+            RegulonDB: ECK120000968
             ECOCYC: EG10979
             ASAP: ABE-0002478
             UniProt: P0AFG3

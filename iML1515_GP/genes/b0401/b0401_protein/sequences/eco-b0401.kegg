@@ -1,14 +1,19 @@
 ENTRY       b0401             CDS       T00007
 NAME        brnQ
-DEFINITION  (RefSeq) branched-chain amino acid transport system 2 carrier protein; LIV-II transport system for Ile, Leu, and Val
+DEFINITION  (RefSeq) branched chain amino acid transporter BrnQ
 ORTHOLOGY   K03311  branched-chain amino acid:cation transporter, LIVCS family
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09193 Unclassified: signaling and cellular processes
+               99977 Transport
+                b0401 (brnQ)
 POSITION    419591..420910
-MOTIF       Pfam: Branch_AA_trans
-DBLINKS     NCBI-ProteinID: NP_414935
-            NCBI-GeneID: 945042
+MOTIF       Pfam: Branch_AA_trans AnkUBD
+DBLINKS     NCBI-GeneID: 945042
+            NCBI-ProteinID: NP_414935
             Pasteur: brnQ
-            EcoGene: EG12168
+            RegulonDB: ECK120002064
             ECOCYC: EG12168
             ASAP: ABE-0001394
             UniProt: P0AD99

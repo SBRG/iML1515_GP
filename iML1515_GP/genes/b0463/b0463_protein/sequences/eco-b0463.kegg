@@ -1,26 +1,33 @@
 ENTRY       b0463             CDS       T00007
 NAME        acrA
-DEFINITION  (RefSeq) multidrug efflux system
+DEFINITION  (RefSeq) multidrug efflux pump membrane fusion lipoprotein AcrA
 ORTHOLOGY   K03585  membrane fusion protein, multidrug efflux system
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco01501  beta-Lactam resistance
             eco01503  Cationic antimicrobial peptide (CAMP) resistance
-MODULE      eco_M00646  Multidrug resistance, efflux pump AcrAD-TolC
-            eco_M00647  Multidrug resistance, efflux pump AcrAB-TolC/SmeDEF
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01501 beta-Lactam resistance
                 b0463 (acrA)
                01503 Cationic antimicrobial peptide (CAMP) resistance
                 b0463 (acrA)
-            Chromosome [BR:eco03036]
-             Prokaryotic Type
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               03036 Chromosome and associated proteins [BR:eco03036]
+                b0463 (acrA)
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0463 (acrA)
+               01504 Antimicrobial resistance genes [BR:eco01504]
+                b0463 (acrA)
+            Chromosome and associated proteins [BR:eco03036]
+             Prokaryotic type
               Chromosome partitioning proteins
                Divisome proteins
                 b0463 (acrA)
             Transporters [BR:eco02000]
-             Other Transporters
+             Other transporters
               Accessory factors involved in transport [TC:8]
                b0463 (acrA)
             Antimicrobial resistance genes [BR:eco01504]
@@ -29,15 +36,15 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                Multidrug resistance, efflux pump MexAB-OprM [MD:M00718]
                 b0463 (acrA)
 POSITION    complement(484426..485619)
-MOTIF       Pfam: HlyD HlyD_D23 Biotin_lipoyl_2 HlyD_3 OEP
-DBLINKS     NCBI-ProteinID: NP_414996
-            NCBI-GeneID: 945112
+MOTIF       Pfam: HlyD HlyD_D23 HlyD_3 Biotin_lipoyl_2 OEP
+DBLINKS     NCBI-GeneID: 945112
+            NCBI-ProteinID: NP_414996
             Pasteur: acrA
-            EcoGene: EG11703
+            RegulonDB: ECK120001646
             ECOCYC: EG11703
             ASAP: ABE-0001603
             UniProt: P0AE06
-STRUCTURE   PDB: 2F1M
+STRUCTURE   PDB: 2F1M 5O66 5NG5 5V5S
 AASEQ       397
             MNKNRGFTPLAVVLMLSGSLALTGCDDKQAQQGGQQMPAVGVVTVKTEPLQITTELPGRT
             SAYRIAEVRPQVSGIILKRNFKEGSDIEAGVSLYQIDPATYQATYDSAKGDLAKAQAAAN

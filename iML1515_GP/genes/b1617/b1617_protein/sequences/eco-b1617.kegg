@@ -1,6 +1,6 @@
 ENTRY       b1617             CDS       T00007
 NAME        uidA
-DEFINITION  (RefSeq) beta-D-glucuronidase
+DEFINITION  (RefSeq) beta-glucuronidase
 ORTHOLOGY   K01195  beta-glucuronidase [EC:3.2.1.31]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00040  Pentose and glucuronate interconversions
@@ -8,11 +8,11 @@ PATHWAY     eco00040  Pentose and glucuronate interconversions
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00040 Pentose and glucuronate interconversions
                 b1617 (uidA)
-              Metabolism of cofactors and vitamins
+              09108 Metabolism of cofactors and vitamins
                00860 Porphyrin and chlorophyll metabolism
                 b1617 (uidA)
             Enzymes [BR:eco01000]
@@ -23,10 +23,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1617 (uidA)
 POSITION    complement(1694260..1696071)
 MOTIF       Pfam: Glyco_hydro_2_C Glyco_hydro_2_N Glyco_hydro_2 DUF4434
-DBLINKS     NCBI-ProteinID: NP_416134
-            NCBI-GeneID: 946149
+DBLINKS     NCBI-GeneID: 946149
+            NCBI-ProteinID: NP_416134
             Pasteur: uidA
-            EcoGene: EG11055
+            RegulonDB: ECK120001044
             ECOCYC: EG11055
             ASAP: ABE-0005410
             UniProt: P05804

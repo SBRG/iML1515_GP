@@ -1,6 +1,6 @@
 ENTRY       b0903             CDS       T00007
 NAME        pflB
-DEFINITION  (RefSeq) formate C-acetyltransferase 1, anaerobic; pyruvate formate-lyase 1
+DEFINITION  (RefSeq) pyruvate formate-lyase
 ORTHOLOGY   K00656  formate C-acetyltransferase [EC:2.3.1.54]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00620  Pyruvate metabolism
@@ -9,8 +9,8 @@ PATHWAY     eco00620  Pyruvate metabolism
             eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00620 Pyruvate metabolism
                 b0903 (pflB)
                00640 Propanoate metabolism
@@ -25,11 +25,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0903 (pflB)
 POSITION    complement(951272..953554)
 MOTIF       Pfam: PFL-like Gly_radical
-DBLINKS     NCBI-ProteinID: NP_415423
-            NCBI-GeneID: 945514
+DBLINKS     NCBI-GeneID: 945514
+            NCBI-ProteinID: NP_415423
             Pasteur: pflB
             RegulonDB: ECK120000693
-            EcoGene: EG10701
             ECOCYC: EG10701
             ASAP: ABE-0003071
             UniProt: P09373

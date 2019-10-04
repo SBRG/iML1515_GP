@@ -1,13 +1,13 @@
 ENTRY       b1680             CDS       T00007
 NAME        sufS
-DEFINITION  (RefSeq) cysteine desulfurase, stimulated by SufE; selenocysteine lyase, PLP-dependent
+DEFINITION  (RefSeq) L-cysteine desulfurase
 ORTHOLOGY   K11717  cysteine desulfurase / selenocysteine lyase [EC:2.8.1.7 4.4.1.16]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00450  Selenocompound metabolism
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of other amino acids
+             09100 Metabolism
+              09106 Metabolism of other amino acids
                00450 Selenocompound metabolism
                 b1680 (sufS)
             Enzymes [BR:eco01000]
@@ -23,14 +23,15 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1680 (sufS)
 POSITION    complement(1759303..1760523)
 MOTIF       Pfam: Aminotran_5 Cys_Met_Meta_PP Beta_elim_lyase DegT_DnrJ_EryC1
-DBLINKS     NCBI-ProteinID: NP_416195
-            NCBI-GeneID: 946185
+DBLINKS     NCBI-GeneID: 946185
+            NCBI-ProteinID: NP_416195
+            Pasteur: ynhB
             RegulonDB: ECK120003495
-            EcoGene: EG13962
             ECOCYC: G6906
             ASAP: ABE-0005610
             UniProt: P77444
-STRUCTURE   PDB: 1KMJ 1JF9 1KMK 5DB5 1I29 1C0N
+STRUCTURE   PDB: 6O11 6O10 1KMJ 1JF9 6MRH 6MR6 6O12 6O13 1KMK 6MR2 6MRE
+                 6MRI 5DB5 1I29 1C0N
 AASEQ       406
             MIFSVDKVRADFPVLSREVNGLPLAYLDSAASAQKPSQVIDAEAEFYRHGYAAVHRGIHT
             LSAQATEKMENVRKRASLFINARSAEELVFVRGTTEGINLVANSWGNSNVRAGDNIIISQ

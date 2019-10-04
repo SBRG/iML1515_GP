@@ -1,14 +1,20 @@
 ENTRY       b3632             CDS       T00007
 NAME        waaQ
-DEFINITION  (RefSeq) lipopolysaccharide core biosynthesis protein
+DEFINITION  (RefSeq) lipopolysaccharide core heptosyltransferase 3
 ORTHOLOGY   K02849  heptosyltransferase III [EC:2.4.-.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00540  Lipopolysaccharide biosynthesis
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00540 Lipopolysaccharide biosynthesis
+                b3632 (waaQ)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01003 Glycosyltransferases [BR:eco01003]
+                b3632 (waaQ)
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
                 b3632 (waaQ)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -25,10 +31,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
               b3632 (waaQ)
 POSITION    complement(3807064..3808098)
 MOTIF       Pfam: Glyco_transf_9
-DBLINKS     NCBI-ProteinID: NP_418089
-            NCBI-GeneID: 948155
+DBLINKS     NCBI-GeneID: 948155
+            NCBI-ProteinID: NP_418089
+            Pasteur: rfaQ
             RegulonDB: ECK120001312
-            EcoGene: EG11341
             ECOCYC: EG11341
             ASAP: ABE-0011870
             UniProt: P25742

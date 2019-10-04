@@ -1,6 +1,6 @@
 ENTRY       b0242             CDS       T00007
 NAME        proB
-DEFINITION  (RefSeq) gamma-glutamate kinase
+DEFINITION  (RefSeq) glutamate 5-kinase
 ORTHOLOGY   K00931  glutamate 5-kinase [EC:2.7.2.11]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00330  Arginine and proline metabolism
@@ -10,14 +10,11 @@ PATHWAY     eco00330  Arginine and proline metabolism
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00015  Proline biosynthesis, glutamate => proline
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b0242 (proB)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00330 Arginine and proline metabolism
                 b0242 (proB)
-              Biosynthesis of other secondary metabolites
+              09110 Biosynthesis of other secondary metabolites
                00332 Carbapenem biosynthesis
                 b0242 (proB)
             Enzymes [BR:eco01000]
@@ -28,11 +25,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0242 (proB)
 POSITION    260388..261491
 MOTIF       Pfam: AA_kinase PUA
-DBLINKS     NCBI-ProteinID: NP_414777
-            NCBI-GeneID: 946425
+DBLINKS     NCBI-GeneID: 946425
+            NCBI-ProteinID: NP_414777
             Pasteur: proB
             RegulonDB: ECK120000759
-            EcoGene: EG10768
             ECOCYC: EG10768
             ASAP: ABE-0000830
             UniProt: P0A7B5

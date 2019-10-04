@@ -1,6 +1,6 @@
 ENTRY       b0425             CDS       T00007
 NAME        panE
-DEFINITION  (RefSeq) 2-dehydropantoate reductase, NADPH-specific
+DEFINITION  (RefSeq) 2-dehydropantoate 2-reductase
 ORTHOLOGY   K00077  2-dehydropantoate 2-reductase [EC:1.1.1.169]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00770  Pantothenate and CoA biosynthesis
@@ -8,8 +8,8 @@ PATHWAY     eco00770  Pantothenate and CoA biosynthesis
             eco01110  Biosynthesis of secondary metabolites
 MODULE      eco_M00119  Pantothenate biosynthesis, valine/L-aspartate => pantothenate
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00770 Pantothenate and CoA biosynthesis
                 b0425 (panE)
             Enzymes [BR:eco01000]
@@ -20,9 +20,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0425 (panE)
 POSITION    complement(443604..444515)
 MOTIF       Pfam: ApbA_C ApbA Rossmann-like NAD_Gly3P_dh_N ATP-cone F420_oxidored HbrB NAD_binding_2
-DBLINKS     NCBI-ProteinID: NP_414959
-            NCBI-GeneID: 945065
-            EcoGene: EG13271
+DBLINKS     NCBI-GeneID: 945065
+            NCBI-ProteinID: NP_414959
+            Pasteur: apbA
+            RegulonDB: ECK120002850
             ECOCYC: G6239
             ASAP: ABE-0001474
             UniProt: P0A9J4

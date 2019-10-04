@@ -1,6 +1,6 @@
 ENTRY       b4232             CDS       T00007
 NAME        fbp
-DEFINITION  (RefSeq) fructose-1,6-bisphosphatase I
+DEFINITION  (RefSeq) fructose-1,6-bisphosphatase 1
 ORTHOLOGY   K03841  fructose-1,6-bisphosphatase I [EC:3.1.3.11]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00010  Glycolysis / Gluconeogenesis
@@ -14,19 +14,20 @@ PATHWAY     eco00010  Glycolysis / Gluconeogenesis
             eco01200  Carbon metabolism
 MODULE      eco_M00003  Gluconeogenesis, oxaloacetate => fructose-6P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b4232 (fbp)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
                 b4232 (fbp)
                00030 Pentose phosphate pathway
                 b4232 (fbp)
                00051 Fructose and mannose metabolism
                 b4232 (fbp)
-              Energy metabolism
+              09102 Energy metabolism
                00680 Methane metabolism
+                b4232 (fbp)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               04147 Exosome [BR:eco04147]
                 b4232 (fbp)
             Enzymes [BR:eco01000]
              3. Hydrolases
@@ -40,10 +41,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b4232 (fbp)
 POSITION    complement(4454611..4455609)
 MOTIF       Pfam: FBPase Inositol_P
-DBLINKS     NCBI-ProteinID: NP_418653
-            NCBI-GeneID: 948753
+DBLINKS     NCBI-GeneID: 948753
+            NCBI-ProteinID: NP_418653
             Pasteur: fbp
-            EcoGene: EG10283
+            RegulonDB: ECK120000277
             ECOCYC: EG10283
             ASAP: ABE-0013842
             UniProt: P0A993

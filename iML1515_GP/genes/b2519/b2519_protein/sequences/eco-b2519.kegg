@@ -1,13 +1,19 @@
 ENTRY       b2519             CDS       T00007
 NAME        pbpC
-DEFINITION  (RefSeq) penicillin-insensitive murein repair transglycosylase; inactive transpeptidase domain
+DEFINITION  (RefSeq) peptidoglycan glycosyltransferase PbpC
 ORTHOLOGY   K05367  penicillin-binding protein 1C [EC:2.4.1.129]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00550  Peptidoglycan biosynthesis
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00550 Peptidoglycan biosynthesis
+                b2519 (pbpC)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01003 Glycosyltransferases [BR:eco01003]
+                b2519 (pbpC)
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
                 b2519 (pbpC)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -19,13 +25,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
              Polysaccharide
               Bacterial polysaccharide
                b2519 (pbpC)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              Glycosyltransferase/DD-Transpeptidase (Class A PBP)
+               b2519 (pbpC)
 POSITION    complement(2645013..2647325)
 MOTIF       Pfam: Transgly BiPBP_C Transpeptidase
-DBLINKS     NCBI-ProteinID: NP_417014
-            NCBI-GeneID: 947152
+DBLINKS     NCBI-GeneID: 947152
+            NCBI-ProteinID: NP_417014
             Pasteur: pbpC
             RegulonDB: ECK120003894
-            EcoGene: EG14210
             ECOCYC: G7322
             ASAP: ABE-0008294
             UniProt: P76577

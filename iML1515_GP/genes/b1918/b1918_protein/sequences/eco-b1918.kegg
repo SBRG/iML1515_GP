@@ -1,27 +1,29 @@
 ENTRY       b1918             CDS       T00007
-NAME        yecS
-DEFINITION  (RefSeq) ABC family putative inner membrane permease
-ORTHOLOGY   K10009  cystine transport system permease protein
+NAME        tcyL
+DEFINITION  (RefSeq) cystine ABC transporter membrane subunit
+ORTHOLOGY   K10009  L-cystine transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00234  Cystine transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
-                b1918 (yecS)
+                b1918 (tcyL)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1918 (tcyL)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Phosphate and amino acid transporters
-               Cystine transporter [MD:M00234] [OT]
-                b1918 (yecS)
+               Cystine transporter
+                b1918 (tcyL)
 POSITION    complement(1997811..1998479)
 MOTIF       Pfam: BPD_transp_1
-DBLINKS     NCBI-ProteinID: NP_416428
-            NCBI-GeneID: 949105
+DBLINKS     NCBI-GeneID: 949105
+            NCBI-ProteinID: NP_416428
             Pasteur: yecS
-            EcoGene: EG14037
-            ECOCYC: G7037
+            RegulonDB: ECK120003623
             ASAP: ABE-0006386
             UniProt: P0AFT2
 AASEQ       222

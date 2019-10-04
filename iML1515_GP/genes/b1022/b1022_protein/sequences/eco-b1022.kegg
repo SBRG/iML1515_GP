@@ -1,13 +1,17 @@
 ENTRY       b1022             CDS       T00007
 NAME        pgaC
-DEFINITION  (RefSeq) biofilm PGA synthase PgaCD, catalytic subunit; poly-beta-1,6-N-acetyl-D-glucosamine synthase; c-di-GMP-stimulated activity and dimerization
+DEFINITION  (RefSeq) poly-N-acetyl-D-glucosamine synthase subunit PgaC
 ORTHOLOGY   K11936  poly-beta-1,6-N-acetyl-D-glucosamine synthase [EC:2.4.1.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02026  Biofilm formation - Escherichia coli
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Cellular Processes
-              Cellular community - prokaryotes
+             09140 Cellular Processes
+              09145 Cellular community - prokaryotes
                02026 Biofilm formation - Escherichia coli
+                b1022 (pgaC)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01003 Glycosyltransferases [BR:eco01003]
                 b1022 (pgaC)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -19,15 +23,12 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
              Polysaccharide
               Bacterial polysaccharide
                b1022 (pgaC)
-            Transporters [BR:eco02000]
-             Other Transporters
-              Others
-               b1022 (pgaC)
 POSITION    complement(1086521..1087846)
 MOTIF       Pfam: Glycos_transf_2 Glyco_tranf_2_3 Glyco_trans_2_3 Glyco_transf_21 Glyco_tranf_2_2 Chitin_synth_2 Glyco_tranf_2_4 Cellulose_synt
-DBLINKS     NCBI-ProteinID: NP_415541
-            NCBI-GeneID: 945606
-            EcoGene: EG13863
+DBLINKS     NCBI-GeneID: 945606
+            NCBI-ProteinID: NP_415541
+            Pasteur: ycdQ
+            RegulonDB: ECK120003127
             ECOCYC: G6529
             ASAP: ABE-0003464
             UniProt: P75905

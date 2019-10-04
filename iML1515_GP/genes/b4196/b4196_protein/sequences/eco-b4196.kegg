@@ -1,15 +1,18 @@
 ENTRY       b4196             CDS       T00007
 NAME        ulaD
-DEFINITION  (RefSeq) 3-keto-L-gulonate 6-phosphate decarboxylase
+DEFINITION  (RefSeq) 3-keto-L-gulonate-6-phosphate decarboxylase UlaD
 ORTHOLOGY   K03078  3-dehydro-L-gulonate-6-phosphate decarboxylase [EC:4.1.1.85]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-PATHWAY     eco00053  Ascorbate and aldarate metabolism
+PATHWAY     eco00040  Pentose and glucuronate interconversions
+            eco00053  Ascorbate and aldarate metabolism
             eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
 MODULE      eco_M00550  Ascorbate degradation, ascorbate => D-xylulose-5P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00040 Pentose and glucuronate interconversions
+                b4196 (ulaD)
                00053 Ascorbate and aldarate metabolism
                 b4196 (ulaD)
             Enzymes [BR:eco01000]
@@ -20,10 +23,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b4196 (ulaD)
 POSITION    4422186..4422836
 MOTIF       Pfam: OMPdecase
-DBLINKS     NCBI-ProteinID: NP_418617
-            NCBI-GeneID: 948714
+DBLINKS     NCBI-GeneID: 948714
+            NCBI-ProteinID: NP_418617
+            Pasteur: sgaH
             RegulonDB: ECK120004353
-            EcoGene: EG12496
             ECOCYC: G7858
             ASAP: ABE-0013729
             UniProt: P39304

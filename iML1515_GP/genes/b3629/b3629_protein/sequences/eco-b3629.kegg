@@ -3,7 +3,19 @@ NAME        waaS
 DEFINITION  (RefSeq) lipopolysaccharide core biosynthesis protein
 ORTHOLOGY   K12986  1,5-rhamnosyltransferase [EC:2.4.1.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+PATHWAY     eco00540  Lipopolysaccharide biosynthesis
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
+               00540 Lipopolysaccharide biosynthesis
+                b3629 (waaS)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01003 Glycosyltransferases [BR:eco01003]
+                b3629 (waaS)
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
+                b3629 (waaS)
+            Enzymes [BR:eco01000]
              2. Transferases
               2.4  Glycosyltransferases
                2.4.1  Hexosyltransferases
@@ -17,9 +29,10 @@ BRITE       Enzymes [BR:eco01000]
              Core region
               b3629 (waaS)
 POSITION    complement(3804181..3805116)
-DBLINKS     NCBI-ProteinID: NP_418086
-            NCBI-GeneID: 948151
-            EcoGene: EG11350
+DBLINKS     NCBI-GeneID: 948151
+            NCBI-ProteinID: NP_418086
+            Pasteur: rfaS
+            RegulonDB: ECK120001319
             ECOCYC: EG11350
             ASAP: ABE-0011864
             UniProt: P27126

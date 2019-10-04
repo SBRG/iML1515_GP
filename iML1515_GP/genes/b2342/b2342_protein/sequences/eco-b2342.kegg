@@ -1,6 +1,6 @@
 ENTRY       b2342             CDS       T00007
 NAME        fadI
-DEFINITION  (RefSeq) beta-ketoacyl-CoA thiolase, anaerobic, subunit
+DEFINITION  (RefSeq) 3-ketoacyl-CoA thiolase FadI
 ORTHOLOGY   K00632  acetyl-CoA acyltransferase [EC:2.3.1.16]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00071  Fatty acid degradation
@@ -15,22 +15,19 @@ PATHWAY     eco00071  Fatty acid degradation
             eco01212  Fatty acid metabolism
 MODULE      eco_M00087  beta-Oxidation
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01212 Fatty acid metabolism
-                b2342 (fadI)
-              Lipid metabolism
+             09100 Metabolism
+              09103 Lipid metabolism
                00071 Fatty acid degradation
                 b2342 (fadI)
                00592 alpha-Linolenic acid metabolism
                 b2342 (fadI)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00280 Valine, leucine and isoleucine degradation
                 b2342 (fadI)
-              Metabolism of terpenoids and polyketides
+              09109 Metabolism of terpenoids and polyketides
                00281 Geraniol degradation
                 b2342 (fadI)
-              Xenobiotics biodegradation and metabolism
+              09111 Xenobiotics biodegradation and metabolism
                00362 Benzoate degradation
                 b2342 (fadI)
                00642 Ethylbenzene degradation
@@ -43,9 +40,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2342 (fadI)
 POSITION    complement(2459159..2460469)
 MOTIF       Pfam: Thiolase_N Thiolase_C ketoacyl-synt
-DBLINKS     NCBI-ProteinID: NP_416844
-            NCBI-GeneID: 948823
-            EcoGene: EG14128
+DBLINKS     NCBI-GeneID: 948823
+            NCBI-ProteinID: NP_416844
+            Pasteur: yfcY
+            RegulonDB: ECK120003788
             ECOCYC: G7213
             ASAP: ABE-0007725
             UniProt: P76503

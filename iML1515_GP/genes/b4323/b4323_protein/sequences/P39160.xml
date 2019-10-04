@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1995-02-01" modified="2019-05-08" version="139">
+<accession>P39160</accession>
+<accession>Q2M5Z0</accession>
+<name>UXUB_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>D-mannonate oxidoreductase</fullName>
+<ecNumber>1.1.1.57</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Fructuronate reductase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">uxuB</name>
+<name type="ordered locus">b4323</name>
+<name type="ordered locus">JW4286</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="1992-09" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Mizobuchi K."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1995" name="Nucleic Acids Res." volume="23" first="2105" last="2119">
+<title>Analysis of the Escherichia coli genome VI: DNA sequence of the region from 92.8 through 100 minutes.</title>
+<authorList>
+<person name="Burland V.D."/>
+<person name="Plunkett G. III"/>
+<person name="Sofia H.J."/>
+<person name="Daniels D.L."/>
+<person name="Blattner F.R."/>
+</authorList>
+<dbReference type="PubMed" id="7610040"/>
+<dbReference type="DOI" id="10.1093/nar/23.12.2105"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<comment type="catalytic activity">
+<reaction>
+<text>D-mannonate + NAD(+) = H(+) + keto-D-fructuronate + NADH</text>
+<dbReference type="Rhea" id="RHEA:15729"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:17767"/>
+<dbReference type="ChEBI" id="CHEBI:57540"/>
+<dbReference type="ChEBI" id="CHEBI:57945"/>
+<dbReference type="ChEBI" id="CHEBI:59881"/>
+<dbReference type="EC" id="1.1.1.57"/>
+</reaction>
+</comment>
+<comment type="pathway">
+<text>Carbohydrate metabolism; pentose and glucuronate interconversion.</text>
+</comment>
+<comment type="similarity">
+<text evidence="2">Belongs to the mannitol dehydrogenase family. UxuB subfamily.</text>
+</comment>
+<dbReference type="EC" id="1.1.1.57"/>
+<dbReference type="EMBL" id="D13329">
+<property type="protein sequence ID" value="BAA02591.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U14003">
+<property type="protein sequence ID" value="AAA97219.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC77279.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE78316.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="S56548">
+<property type="entry name" value="S56548"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_418743.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000208205.1">
+<property type="nucleotide sequence ID" value="NZ_LN832404.1"/>
+</dbReference>
+<dbReference type="SMR" id="P39160"/>
+<dbReference type="BioGrid" id="4260999">
+<property type="interactions" value="6"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-11109N"/>
+<dbReference type="IntAct" id="P39160">
+<property type="interactions" value="3"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b4323"/>
+<dbReference type="EPD" id="P39160"/>
+<dbReference type="jPOST" id="P39160"/>
+<dbReference type="PaxDb" id="P39160"/>
+<dbReference type="PRIDE" id="P39160"/>
+<dbReference type="EnsemblBacteria" id="AAC77279">
+<property type="protein sequence ID" value="AAC77279"/>
+<property type="gene ID" value="b4323"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE78316">
+<property type="protein sequence ID" value="BAE78316"/>
+<property type="gene ID" value="BAE78316"/>
+</dbReference>
+<dbReference type="GeneID" id="946795"/>
+<dbReference type="KEGG" id="ecj:JW4286"/>
+<dbReference type="KEGG" id="eco:b4323"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.2369"/>
+<dbReference type="EchoBASE" id="EB4150"/>
+<dbReference type="EcoGene" id="EG20248">
+<property type="gene designation" value="uxuB"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105DEI">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0246">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000202982"/>
+<dbReference type="InParanoid" id="P39160"/>
+<dbReference type="KO" id="K00040"/>
+<dbReference type="PhylomeDB" id="P39160"/>
+<dbReference type="BioCyc" id="EcoCyc:MANNONOXIDOREDUCT-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW4286-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:MANNONOXIDOREDUCT-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00246"/>
+<dbReference type="PRO" id="PR:P39160"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050662">
+<property type="term" value="F:coenzyme binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008866">
+<property type="term" value="F:fructuronate reductase activity"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="CACAO"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042840">
+<property type="term" value="P:D-glucuronate catabolic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019594">
+<property type="term" value="P:mannitol metabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.1040.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008927">
+<property type="entry name" value="6-PGluconate_DH-like_C_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013328">
+<property type="entry name" value="6PGD_dom2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000669">
+<property type="entry name" value="Mannitol_DH"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013118">
+<property type="entry name" value="Mannitol_DH_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR023027">
+<property type="entry name" value="Mannitol_DH_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013131">
+<property type="entry name" value="Mannitol_DH_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036291">
+<property type="entry name" value="NAD(P)-bd_dom_sf"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01232">
+<property type="entry name" value="Mannitol_dh"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF08125">
+<property type="entry name" value="Mannitol_dh_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00084">
+<property type="entry name" value="MTLDHDRGNASE"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48179">
+<property type="entry name" value="SSF48179"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51735">
+<property type="entry name" value="SSF51735"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00974">
+<property type="entry name" value="MANNITOL_DHGENASE"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0520">NAD</keyword>
+<keyword id="KW-0560">Oxidoreductase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="D-mannonate oxidoreductase" id="PRO_0000170747">
+<location>
+<begin position="1"/>
+<end position="486"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="NAD" evidence="1">
+<location>
+<begin position="25"/>
+<end position="36"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000305"/>
+<sequence length="486" mass="53580" checksum="7835638682AF7B87" modified="1995-02-01" version="1">MTTIVDSNLPVARPSWDHSRLESRIVHLGCGAFHRAHQALYTHHLLESTDSDWGICEVNLMPGNDRVLIENLKKQQLLYTVAEKGAESTELKIIGSMKEALHPEIDGCEGILNAMARPQTAIVSLTVTEKGYCADAASGQLDLNNPLIKHDLENPTAPKSAIGYIVEALRLRREKGLKAFTVMSCDNVRENGHVAKVAVLGLAQARDPQLAAWIEENVTFPCTMVDRIVPAATPETLQEIADQLGVYDPCAIACEPFRQWVIEDNFVNGRPDWDKVGAQFVADVVPFEMMKLRMLNGSHSFLAYLGYLGGYETIADTVTNPAYRKAAFALMMQEQAPTLSMPEGTDLNAYATLLIERFSNPSLRHRTWQIAMDGSQKLPQRLLDPVRLHLQNGGSWRHLALGVAGWMRYTQGVDEQGNAIDVVDPMLAEFQKINAQYQGADRVKALLGLSGIFADDLPQNADFVGAVTAAYQQLCERGARECVAAL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

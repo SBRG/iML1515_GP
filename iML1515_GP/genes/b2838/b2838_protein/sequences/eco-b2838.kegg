@@ -1,6 +1,6 @@
 ENTRY       b2838             CDS       T00007
 NAME        lysA
-DEFINITION  (RefSeq) diaminopimelate decarboxylase, PLP-binding
+DEFINITION  (RefSeq) diaminopimelate decarboxylase
 ORTHOLOGY   K01586  diaminopimelate decarboxylase [EC:4.1.1.20]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00300  Lysine biosynthesis
@@ -11,11 +11,8 @@ PATHWAY     eco00300  Lysine biosynthesis
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00016  Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b2838 (lysA)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00300 Lysine biosynthesis
                 b2838 (lysA)
             Enzymes [BR:eco01000]
@@ -26,10 +23,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2838 (lysA)
 POSITION    complement(2977637..2978899)
 MOTIF       Pfam: Orn_Arg_deC_N Orn_DAP_Arg_deC
-DBLINKS     NCBI-ProteinID: NP_417315
-            NCBI-GeneID: 947313
+DBLINKS     NCBI-GeneID: 947313
+            NCBI-ProteinID: NP_417315
             Pasteur: lysA
-            EcoGene: EG10549
+            RegulonDB: ECK120000542
             ECOCYC: EG10549
             ASAP: ABE-0009309
             UniProt: P00861

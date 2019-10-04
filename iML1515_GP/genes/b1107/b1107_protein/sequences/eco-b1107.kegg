@@ -1,18 +1,18 @@
 ENTRY       b1107             CDS       T00007
 NAME        nagZ
-DEFINITION  (RefSeq) beta N-acetyl-glucosaminidase
+DEFINITION  (RefSeq) beta-N-acetylhexosaminidase
 ORTHOLOGY   K01207  beta-N-acetylhexosaminidase [EC:3.2.1.52]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00520  Amino sugar and nucleotide sugar metabolism
             eco01100  Metabolic pathways
             eco01501  beta-Lactam resistance
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00520 Amino sugar and nucleotide sugar metabolism
                 b1107 (nagZ)
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01501 beta-Lactam resistance
                 b1107 (nagZ)
             Enzymes [BR:eco01000]
@@ -23,9 +23,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1107 (nagZ)
 POSITION    1164095..1165120
 MOTIF       Pfam: Glyco_hydro_3
-DBLINKS     NCBI-ProteinID: NP_415625
-            NCBI-GeneID: 945671
-            EcoGene: EG13433
+DBLINKS     NCBI-GeneID: 945671
+            NCBI-ProteinID: NP_415625
+            Pasteur: ycfO
+            RegulonDB: ECK120003163
             ECOCYC: G6567
             ASAP: ABE-0003737
             UniProt: P75949

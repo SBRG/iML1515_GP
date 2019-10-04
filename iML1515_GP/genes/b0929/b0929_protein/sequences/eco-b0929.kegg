@@ -1,22 +1,28 @@
 ENTRY       b0929             CDS       T00007
 NAME        ompF
-DEFINITION  (RefSeq) outer membrane porin 1a (Ia;b;F)
+DEFINITION  (RefSeq) outer membrane porin F
 ORTHOLOGY   K09476  outer membrane pore protein F
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco01501  beta-Lactam resistance
             eco02020  Two-component system
 MODULE      eco_M00746  Multidrug resistance, repression of porin OmpF
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Signal transduction
+             09130 Environmental Information Processing
+              09132 Signal transduction
                02020 Two-component system
                 b0929 (ompF)
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01501 beta-Lactam resistance
                 b0929 (ompF)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0929 (ompF)
+               01504 Antimicrobial resistance genes [BR:eco01504]
+                b0929 (ompF)
             Transporters [BR:eco02000]
-             Other Transporters
+             Other transporters
               Pores ion channels [TC:1]
                b0929 (ompF)
             Antimicrobial resistance genes [BR:eco01504]
@@ -26,17 +32,17 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 b0929 (ompF)
 POSITION    complement(985894..986982)
 MOTIF       Pfam: Porin_1 Porin_4
-DBLINKS     NCBI-ProteinID: NP_415449
-            NCBI-GeneID: 945554
+DBLINKS     NCBI-GeneID: 945554
+            NCBI-ProteinID: NP_415449
             Pasteur: ompF
-            EcoGene: EG10671
+            RegulonDB: ECK120000664
             ECOCYC: EG10671
             ASAP: ABE-0003153
             UniProt: P02931
 STRUCTURE   PDB: 2ZFG 4GCS 4LSF 3POQ 4GCP 3POX 4LSI 4LSE 4LSH 4GCQ 1HXX
                  2XE5 1HXT 2OMF 2XE1 2XE2 3HW9 1GFP 3POU 1GFQ 2XE3 3HWB
-                 2ZLD 1HXU 1BT9 1MPF 3O0E 1GFN 1OPF 1GFO 3FYX 2XG6 4D5U
-                 1GFM 3K19 4JFB 3K1B
+                 2ZLD 1HXU 1BT9 1MPF 3O0E 1GFN 5NUO 5NUQ 1OPF 5NUR 1GFO
+                 3FYX 2XG6 4D5U 1GFM 3K19 4JFB 3K1B
 AASEQ       362
             MMKRNILAVIVPALLVAGTANAAEIYNKDGNKVDLYGKAVGLHYFSKGNGENSYGGNGDM
             TYARLGFKGETQINSDLTGYGQWEYNFQGNNSEGADAQTGNKTRLAFAGLKYADVGSFDY

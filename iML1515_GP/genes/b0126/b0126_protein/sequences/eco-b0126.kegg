@@ -1,12 +1,13 @@
 ENTRY       b0126             CDS       T00007
 NAME        can
-DEFINITION  (RefSeq) carbonic anhydrase
+DEFINITION  (RefSeq) carbonic anhydrase 2
 ORTHOLOGY   K01673  carbonic anhydrase [EC:4.2.1.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00910  Nitrogen metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00910 Nitrogen metabolism
                 b0126 (can)
             Enzymes [BR:eco01000]
@@ -17,10 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0126 (can)
 POSITION    complement(142008..142670)
 MOTIF       Pfam: Pro_CA
-DBLINKS     NCBI-ProteinID: NP_414668
-            NCBI-GeneID: 944832
+DBLINKS     NCBI-GeneID: 944832
+            NCBI-ProteinID: NP_414668
+            Pasteur: yadF
             RegulonDB: ECK120002195
-            EcoGene: EG12319
             ECOCYC: EG12319
             ASAP: ABE-0000442
             UniProt: P61517

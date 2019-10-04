@@ -1,12 +1,13 @@
 ENTRY       b3500             CDS       T00007
 NAME        gor
-DEFINITION  (RefSeq) glutathione oxidoreductase
+DEFINITION  (RefSeq) glutathione reductase (NADPH)
 ORTHOLOGY   K00383  glutathione reductase (NADPH) [EC:1.8.1.7]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00480  Glutathione metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of other amino acids
+             09100 Metabolism
+              09106 Metabolism of other amino acids
                00480 Glutathione metabolism
                 b3500 (gor)
             Enzymes [BR:eco01000]
@@ -17,10 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3500 (gor)
 POSITION    3646299..3647651
 MOTIF       Pfam: Pyr_redox_2 Pyr_redox_dim Pyr_redox Pyr_redox_3 GIDA AlaDh_PNT_C FAD_binding_2 FAD_oxidored K_oxygenase
-DBLINKS     NCBI-ProteinID: NP_417957
-            NCBI-GeneID: 948014
+DBLINKS     NCBI-GeneID: 948014
+            NCBI-ProteinID: NP_417957
             Pasteur: gor
-            EcoGene: EG10412
+            RegulonDB: ECK120000405
             ECOCYC: EG10412
             ASAP: ABE-0011432
             UniProt: P06715

@@ -1,6 +1,6 @@
 ENTRY       b0724             CDS       T00007
 NAME        sdhB
-DEFINITION  (RefSeq) succinate dehydrogenase, FeS subunit
+DEFINITION  (RefSeq) succinate:quinone oxidoreductase, iron-sulfur cluster binding protein
 ORTHOLOGY   K00240  succinate dehydrogenase / fumarate reductase, iron-sulfur subunit [EC:1.3.5.1 1.3.5.4]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00020  Citrate cycle (TCA cycle)
@@ -15,16 +15,13 @@ MODULE      eco_M00009  Citrate cycle (TCA cycle, Krebs cycle)
             eco_M00011  Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate
             eco_M00149  Succinate dehydrogenase, prokaryotes
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b0724 (sdhB)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00020 Citrate cycle (TCA cycle)
                 b0724 (sdhB)
                00650 Butanoate metabolism
                 b0724 (sdhB)
-              Energy metabolism
+              09102 Energy metabolism
                00190 Oxidative phosphorylation
                 b0724 (sdhB)
             Enzymes [BR:eco01000]
@@ -37,11 +34,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0724 (sdhB)
 POSITION    757689..758405
 MOTIF       Pfam: Fer2_3 Fer4_17 Fer4_8 Fer4_10 Fer4_9 Fer4_7 Fer4_18 Fer4
-DBLINKS     NCBI-ProteinID: NP_415252
-            NCBI-GeneID: 945300
+DBLINKS     NCBI-GeneID: 945300
+            NCBI-ProteinID: NP_415252
             Pasteur: sdhB
             RegulonDB: ECK120000921
-            EcoGene: EG10932
             ECOCYC: EG10932
             ASAP: ABE-0002468
             UniProt: P07014

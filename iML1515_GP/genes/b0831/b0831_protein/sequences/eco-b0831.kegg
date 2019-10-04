@@ -1,26 +1,29 @@
 ENTRY       b0831             CDS       T00007
 NAME        gsiC
-DEFINITION  (RefSeq) glutathione transporter, permease component, ABC superfamily
+DEFINITION  (RefSeq) glutathione ABC transporter membrane subunit GsiC
 ORTHOLOGY   K13890  glutathione transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00348  Glutathione transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b0831 (gsiC)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0831 (gsiC)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Peptide and nickel transporters
-               Glutathione transporter [MD:M00348] [OT]
+               Glutathione transporter
                 b0831 (gsiC)
 POSITION    870967..871887
 MOTIF       Pfam: BPD_transp_1 DUF2937
-DBLINKS     NCBI-ProteinID: NP_415352
-            NCBI-GeneID: 945460
+DBLINKS     NCBI-GeneID: 945460
+            NCBI-ProteinID: NP_415352
+            Pasteur: yliC
             RegulonDB: ECK120003031
-            EcoGene: EG13474
             ECOCYC: G6431
             ASAP: ABE-0002834
             UniProt: P75798

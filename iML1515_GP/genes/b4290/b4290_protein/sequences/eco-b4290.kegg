@@ -1,26 +1,29 @@
 ENTRY       b4290             CDS       T00007
 NAME        fecB
-DEFINITION  (RefSeq) iron-dicitrate transporter subunit
-ORTHOLOGY   K02016  iron complex transport system substrate-binding protein
+DEFINITION  (RefSeq) ferric citrate ABC transporter periplasmic binding protein
+ORTHOLOGY   K23181  ferric citrate transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00240  Iron complex transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b4290 (fecB)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b4290 (fecB)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Metallic cation, iron-siderophore and vitamin B12 transporters
-               Iron complex transporter [MD:M00240]
+               Ferric citrate transporter
                 b4290 (fecB)
 POSITION    complement(4513406..4514308)
 MOTIF       Pfam: Peripla_BP_2
-DBLINKS     NCBI-ProteinID: NP_418710
-            NCBI-GeneID: 946838
+DBLINKS     NCBI-GeneID: 946838
+            NCBI-ProteinID: NP_418710
             Pasteur: fecB
-            EcoGene: EG10287
+            RegulonDB: ECK120000281
             ECOCYC: EG10287
             ASAP: ABE-0014065
             UniProt: P15028

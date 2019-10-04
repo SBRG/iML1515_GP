@@ -1,24 +1,29 @@
 ENTRY       b1019             CDS       T00007
 NAME        efeB
-DEFINITION  (RefSeq) deferrrochelatase, periplasmic
+DEFINITION  (RefSeq) heme-containing peroxidase/deferrochelatase
 ORTHOLOGY   K16301  deferrochelatase/peroxidase EfeB [EC:1.11.1.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1019 (efeB)
+            Enzymes [BR:eco01000]
              1. Oxidoreductases
               1.11  Acting on a peroxide as acceptor
                1.11.1  Peroxidases
                 1.11.1.-  
                  b1019 (efeB)
             Transporters [BR:eco02000]
-             Other Transporters
+             Other transporters
               Electrochemical potential-driven transporters [TC:2]
                b1019 (efeB)
 POSITION    1083376..1084647
 MOTIF       Pfam: Dyp_perox
-DBLINKS     NCBI-ProteinID: NP_415538
-            NCBI-GeneID: 946500
-            EcoGene: EG11735
-            ECOCYC: EG11735
+DBLINKS     NCBI-GeneID: 946500
+            NCBI-ProteinID: NP_415538
+            Pasteur: ycdB
+            RegulonDB: ECK120001674
             ASAP: ABE-0003451
             UniProt: P31545
 STRUCTURE   PDB: 3O72 2Y4D 2Y4E 2Y4F

@@ -1,15 +1,14 @@
 ENTRY       b1606             CDS       T00007
 NAME        folM
-DEFINITION  (RefSeq) dihydromonapterin reductase, NADPH-dependent; dihydrofolate reductase isozyme
-ORTHOLOGY   K13938  dihydromonapterin reductase / dihydrofolate reductase [EC:1.5.1.- 1.5.1.3]
+DEFINITION  (RefSeq) dihydromonapterin reductase
+ORTHOLOGY   K13938  dihydromonapterin reductase / dihydrofolate reductase [EC:1.5.1.50 1.5.1.3]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00670  One carbon pool by folate
             eco00790  Folate biosynthesis
             eco01100  Metabolic pathways
-MODULE      eco_M00126  Tetrahydrofolate biosynthesis, GTP => THF
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00790 Folate biosynthesis
                 b1606 (folM)
                00670 One carbon pool by folate
@@ -20,14 +19,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                1.5.1  With NAD+ or NADP+ as acceptor
                 1.5.1.3  dihydrofolate reductase
                  b1606 (folM)
-                1.5.1.-  
+                1.5.1.50  dihydromonapterin reductase
                  b1606 (folM)
 POSITION    1680976..1681698
 MOTIF       Pfam: adh_short_C2 adh_short KR
-DBLINKS     NCBI-ProteinID: NP_416123
-            NCBI-GeneID: 949096
+DBLINKS     NCBI-GeneID: 949096
+            NCBI-ProteinID: NP_416123
+            Pasteur: ydgB
             RegulonDB: ECK120003451
-            EcoGene: EG13189
             ECOCYC: G6862
             ASAP: ABE-0005364
             UniProt: P0AFS3

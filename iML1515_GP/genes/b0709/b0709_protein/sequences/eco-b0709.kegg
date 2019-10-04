@@ -1,13 +1,19 @@
 ENTRY       b0709             CDS       T00007
 NAME        dtpD
-DEFINITION  (RefSeq) dipeptide and tripeptide permease D
+DEFINITION  (RefSeq) dipeptide:H(+) symporter DtpD
 ORTHOLOGY   K03305  proton-dependent oligopeptide transporter, POT family
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09193 Unclassified: signaling and cellular processes
+               99977 Transport
+                b0709 (dtpD)
 POSITION    complement(741075..742556)
 MOTIF       Pfam: PTR2 MFS_1
-DBLINKS     NCBI-ProteinID: NP_415237
-            NCBI-GeneID: 947368
-            EcoGene: EG13304
+DBLINKS     NCBI-GeneID: 947368
+            NCBI-ProteinID: NP_415237
+            Pasteur: ybgH
+            RegulonDB: ECK120002978
             ECOCYC: G6378
             ASAP: ABE-0002420
             UniProt: P75742

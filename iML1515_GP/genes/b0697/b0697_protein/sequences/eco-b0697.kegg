@@ -1,31 +1,30 @@
 ENTRY       b0697             CDS       T00007
 NAME        kdpB
-DEFINITION  (RefSeq) potassium translocating ATPase, subunit B
-ORTHOLOGY   K01547  K+-transporting ATPase ATPase B chain [EC:3.6.3.12]
+DEFINITION  (RefSeq) K(+) transporting P-type ATPase subunit KdpB
+ORTHOLOGY   K01547  potassium-transporting ATPase ATP-binding subunit [EC:7.2.2.6]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02020  Two-component system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Signal transduction
+             09130 Environmental Information Processing
+              09132 Signal transduction
                02020 Two-component system
                 b0697 (kdpB)
             Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.12  K+-transporting ATPase
+             7. Translocases
+              7.2  Catalysing the translocation of inorganic cations
+               7.2.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.2.2.6  P-type K+ transporter
                  b0697 (kdpB)
 POSITION    complement(724988..727036)
 MOTIF       Pfam: Hydrolase E1-E2_ATPase Hydrolase_3 HAD PCB_OB FA_desaturase
-DBLINKS     NCBI-ProteinID: NP_415225
-            NCBI-GeneID: 947450
+DBLINKS     NCBI-GeneID: 947450
+            NCBI-ProteinID: NP_415225
             Pasteur: kdpB
             RegulonDB: ECK120000507
-            EcoGene: EG10514
             ECOCYC: EG10514
             ASAP: ABE-0002376
             UniProt: P03960
-STRUCTURE   PDB: 2A29 2A00 1U7Q 1SVJ
+STRUCTURE   PDB: 5MRW 6HRA 6HRB 2A29 2A00 1U7Q 1SVJ
 AASEQ       682
             MSRKQLALFEPTLVVQALKEAVKKLNPQAQWRNPVMFIVWIGSLLTTCISIAMASGAMPG
             NALFSAAISGWLWITVLFANFAEALAEGRSKAQANSLKGVKKTAFARKLREPKYGAAADK

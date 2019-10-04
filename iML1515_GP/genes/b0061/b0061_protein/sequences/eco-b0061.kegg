@@ -1,14 +1,19 @@
 ENTRY       b0061             CDS       T00007
 NAME        araD
-DEFINITION  (RefSeq) L-ribulose-5-phosphate 4-epimerase
-ORTHOLOGY   K01786  L-ribulose-5-phosphate 4-epimerase [EC:5.1.3.4]
+DEFINITION  (RefSeq) L-ribulose-5-phosphate 4-epimerase AraD
+ORTHOLOGY   K03077  L-ribulose-5-phosphate 4-epimerase [EC:5.1.3.4]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00040  Pentose and glucuronate interconversions
+            eco00053  Ascorbate and aldarate metabolism
             eco01100  Metabolic pathways
+            eco01120  Microbial metabolism in diverse environments
+MODULE      eco_M00550  Ascorbate degradation, ascorbate => D-xylulose-5P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00040 Pentose and glucuronate interconversions
+                b0061 (araD)
+               00053 Ascorbate and aldarate metabolism
                 b0061 (araD)
             Enzymes [BR:eco01000]
              5. Isomerases
@@ -18,10 +23,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0061 (araD)
 POSITION    complement(65855..66550)
 MOTIF       Pfam: Aldolase_II Glyco_transf_4
-DBLINKS     NCBI-ProteinID: NP_414603
-            NCBI-GeneID: 945294
+DBLINKS     NCBI-GeneID: 945294
+            NCBI-ProteinID: NP_414603
             Pasteur: araD
-            EcoGene: EG10055
+            RegulonDB: ECK120000051
             ECOCYC: EG10055
             ASAP: ABE-0000209
             UniProt: P08203

@@ -1,27 +1,29 @@
 ENTRY       b0854             CDS       T00007
 NAME        potF
-DEFINITION  (RefSeq) putrescine transporter subunit: periplasmic-binding component of ABC superfamily
+DEFINITION  (RefSeq) putrescine ABC transporter periplasmic binding protein
 ORTHOLOGY   K11073  putrescine transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00300  Putrescine transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b0854 (potF)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0854 (potF)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Mineral and organic ion transporters
-               Putrescine transporter [MD:M00300] [OT]
+               Putrescine transporter
                 b0854 (potF)
 POSITION    893784..894896
 MOTIF       Pfam: SBP_bac_8 SBP_bac_6 SBP_bac_1 SBP_bac_11 Lipoprotein_8 P21-Arc
-DBLINKS     NCBI-ProteinID: NP_415375
-            NCBI-GeneID: 945480
+DBLINKS     NCBI-GeneID: 945480
+            NCBI-ProteinID: NP_415375
             Pasteur: potF
             RegulonDB: ECK120001577
-            EcoGene: EG11629
             ECOCYC: EG11629
             ASAP: ABE-0002913
             UniProt: P31133

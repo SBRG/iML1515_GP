@@ -1,25 +1,35 @@
 ENTRY       b2134             CDS       T00007
 NAME        pbpG
-DEFINITION  (RefSeq) D-alanyl-D-alanine endopeptidase
+DEFINITION  (RefSeq) peptidoglycan DD-endopeptidase PbpG
 ORTHOLOGY   K07262  serine-type D-Ala-D-Ala endopeptidase (penicillin-binding protein 7) [EC:3.4.21.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors [BR:eco01002]
+                b2134 (pbpG)
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+                b2134 (pbpG)
+            Enzymes [BR:eco01000]
              3. Hydrolases
               3.4  Acting on peptide bonds (peptidases)
                3.4.21  Serine endopeptidases
                 3.4.21.-  
                  b2134 (pbpG)
-            Peptidases [BR:eco01002]
-             Serine Peptidases
+            Peptidases and inhibitors [BR:eco01002]
+             Serine peptidases
               Family S11: D-Ala-D-Ala carboxypeptidase A family
+               b2134 (pbpG)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              DD-Carboxypeptidase/DD-Endopeptidase (Low molecular weight PBP)
                b2134 (pbpG)
 POSITION    complement(2223938..2224870)
 MOTIF       Pfam: Peptidase_S11 Beta-lactamase2 Peptidase_S13 Beta-lactamase
-DBLINKS     NCBI-ProteinID: NP_416638
-            NCBI-GeneID: 946662
+DBLINKS     NCBI-GeneID: 946662
+            NCBI-ProteinID: NP_416638
             Pasteur: pbpG
             RegulonDB: ECK120001933
-            EcoGene: EG12015
             ECOCYC: EG12015
             ASAP: ABE-0007050
             UniProt: P0AFI5

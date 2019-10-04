@@ -1,15 +1,22 @@
 ENTRY       b3738             CDS       T00007
 NAME        atpB
-DEFINITION  (RefSeq) F0 sector of membrane-bound ATP synthase, subunit a
+DEFINITION  (RefSeq) ATP synthase Fo complex subunit a
 ORTHOLOGY   K02108  F-type H+-transporting ATPase subunit a
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00190  Oxidative phosphorylation
             eco01100  Metabolic pathways
 MODULE      eco_M00157  F-type ATPase, prokaryotes and chloroplasts
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00190 Oxidative phosphorylation
+                b3738 (atpB)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               00194 Photosynthesis proteins [BR:eco00194]
+                b3738 (atpB)
+              09182 Protein families: genetic information processing
+               03110 Chaperones and folding catalysts [BR:eco03110]
                 b3738 (atpB)
             Photosynthesis proteins [BR:eco00194]
              Photosystem and electron transport system
@@ -21,10 +28,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b3738 (atpB)
 POSITION    complement(3921236..3922051)
 MOTIF       Pfam: ATP-synt_A CHD5
-DBLINKS     NCBI-ProteinID: NP_418194
-            NCBI-GeneID: 948252
+DBLINKS     NCBI-GeneID: 948252
+            NCBI-ProteinID: NP_418194
             Pasteur: atpB
-            EcoGene: EG10099
+            RegulonDB: ECK120000095
             ECOCYC: EG10099
             ASAP: ABE-0012222
             UniProt: P0AB98

@@ -1,18 +1,30 @@
 ENTRY       b1990             CDS       T00007
 NAME        ldtA
-DEFINITION  (RefSeq) L,D-transpeptidase linking Lpp to murein
+DEFINITION  (RefSeq) L,D-transpeptidase ErfK
 ORTHOLOGY   K16291  L,D-transpeptidase ErfK/SrfK
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Peptidases [BR:eco01002]
-             Cysteine Peptidases
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors [BR:eco01002]
+                b1990 (ldtA)
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+                b1990 (ldtA)
+            Peptidases and inhibitors [BR:eco01002]
+             Cysteine peptidases
               Family C82
                b1990 (ldtA)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              Transpeptidase
+               b1990 (ldtA)
 POSITION    complement(2062391..2063323)
-MOTIF       Pfam: YkuD RHH_5
-DBLINKS     NCBI-ProteinID: NP_416494
-            NCBI-GeneID: 945273
+MOTIF       Pfam: Ldt_C YkuD
+DBLINKS     NCBI-GeneID: 945273
+            NCBI-ProteinID: NP_416494
             Pasteur: erfK
-            EcoGene: EG12682
+            RegulonDB: ECK120003659
+            ECOCYC: G7073
             ASAP: ABE-0006607
             UniProt: P39176
 AASEQ       310

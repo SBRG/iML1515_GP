@@ -1,32 +1,40 @@
 ENTRY       b3732             CDS       T00007
 NAME        atpD
-DEFINITION  (RefSeq) F1 sector of membrane-bound ATP synthase, beta subunit
-ORTHOLOGY   K02112  F-type H+-transporting ATPase subunit beta [EC:3.6.3.14]
+DEFINITION  (RefSeq) ATP synthase F1 complex subunit beta
+ORTHOLOGY   K02112  F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00190  Oxidative phosphorylation
             eco01100  Metabolic pathways
 MODULE      eco_M00157  F-type ATPase, prokaryotes and chloroplasts
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00190 Oxidative phosphorylation
                 b3732 (atpD)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               00194 Photosynthesis proteins [BR:eco00194]
+                b3732 (atpD)
             Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.14  H+-transporting two-sector ATPase
+             7. Translocases
+              7.1  Catalysing the translocation of hydrons
+               7.1.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.1.2.2  H+-transporting two-sector ATPase
+                 b3732 (atpD)
+              7.2  Catalysing the translocation of inorganic cations
+               7.2.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.2.2.1  Na+-transporting two-sector ATPase
                  b3732 (atpD)
             Photosynthesis proteins [BR:eco00194]
              Photosystem and electron transport system
               F-type ATPase [OT]
                b3732 (atpD)
 POSITION    complement(3915993..3917375)
-MOTIF       Pfam: ATP-synt_ab ATP-synt_ab_N
-DBLINKS     NCBI-ProteinID: NP_418188
-            NCBI-GeneID: 948244
+MOTIF       Pfam: ATP-synt_ab ATP-synt_ab_N T3SS_ATPase_C
+DBLINKS     NCBI-GeneID: 948244
+            NCBI-ProteinID: NP_418188
             Pasteur: atpD
-            EcoGene: EG10101
+            RegulonDB: ECK120000097
             ECOCYC: EG10101
             ASAP: ABE-0012208
             UniProt: P0ABB4

@@ -1,9 +1,16 @@
 ENTRY       b2175             CDS       T00007
 NAME        mepS
-DEFINITION  (RefSeq) murein DD-endopeptidase, space-maker hydrolase, mutational suppressor of prc thermosensitivity, outer membrane lipoprotein
+DEFINITION  (RefSeq) peptidoglycan DD-endopeptidase/peptidoglycan LD-carboxypeptidase
 ORTHOLOGY   K13694  murein DD-endopeptidase / murein LD-carboxypeptidase [EC:3.4.-.- 3.4.17.13]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors [BR:eco01002]
+                b2175 (mepS)
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+                b2175 (mepS)
+            Enzymes [BR:eco01000]
              3. Hydrolases
               3.4  Acting on peptide bonds (peptidases)
                3.4.17  Metallocarboxypeptidases
@@ -12,15 +19,20 @@ BRITE       Enzymes [BR:eco01000]
                3.4.-  Acting on peptide bonds (peptidases)
                 3.4.-.-  
                  b2175 (mepS)
-            Peptidases [BR:eco01002]
-             Cysteine Peptidases
+            Peptidases and inhibitors [BR:eco01002]
+             Cysteine peptidases
               Family C40
                b2175 (mepS)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              Endopeptidase
+               b2175 (mepS)
 POSITION    2269979..2270545
-MOTIF       Pfam: NLPC_P60 Peptidase_C92 DHQS LRAT DUF1287
-DBLINKS     NCBI-ProteinID: NP_416680
-            NCBI-GeneID: 946686
-            EcoGene: EG14076
+MOTIF       Pfam: NLPC_P60 Peptidase_C92 LRAT DHQS CHAP DUF1287
+DBLINKS     NCBI-GeneID: 946686
+            NCBI-ProteinID: NP_416680
+            Pasteur: spr
+            RegulonDB: ECK120003725
             ECOCYC: G7147
             ASAP: ABE-0007200
             UniProt: P0AFV4

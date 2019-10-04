@@ -7,14 +7,19 @@ PATHWAY     eco00500  Starch and sucrose metabolism
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
             eco02026  Biofilm formation - Escherichia coli
+MODULE      eco_M00854  Glycogen biosynthesis, glucose-1P => glycogen/starch
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00500 Starch and sucrose metabolism
                 b3429 (glgA)
-             Cellular Processes
-              Cellular community - prokaryotes
+             09140 Cellular Processes
+              09145 Cellular community - prokaryotes
                02026 Biofilm formation - Escherichia coli
+                b3429 (glgA)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01003 Glycosyltransferases [BR:eco01003]
                 b3429 (glgA)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -28,11 +33,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b3429 (glgA)
 POSITION    complement(3566600..3568033)
 MOTIF       Pfam: Glyco_transf_5 Glycos_transf_1 Glyco_transf_4 Glyco_trans_4_4 Glyco_trans_1_4
-DBLINKS     NCBI-ProteinID: NP_417887
-            NCBI-GeneID: 947932
+DBLINKS     NCBI-GeneID: 947932
+            NCBI-ProteinID: NP_417887
             Pasteur: glgA
             RegulonDB: ECK120000370
-            EcoGene: EG10377
             ECOCYC: EG10377
             ASAP: ABE-0011200
             UniProt: P0A6U8

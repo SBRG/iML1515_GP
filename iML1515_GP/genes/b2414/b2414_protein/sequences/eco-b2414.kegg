@@ -1,7 +1,7 @@
 ENTRY       b2414             CDS       T00007
 NAME        cysK
-DEFINITION  (RefSeq) cysteine synthase A, O-acetylserine sulfhydrolase A subunit
-ORTHOLOGY   K01738  cysteine synthase A [EC:2.5.1.47]
+DEFINITION  (RefSeq) O-acetylserine sulfhydrylase A
+ORTHOLOGY   K01738  cysteine synthase [EC:2.5.1.47]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00270  Cysteine and methionine metabolism
             eco00920  Sulfur metabolism
@@ -13,16 +13,11 @@ PATHWAY     eco00270  Cysteine and methionine metabolism
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00021  Cysteine biosynthesis, serine => cysteine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b2414 (cysK)
-               01230 Biosynthesis of amino acids
-                b2414 (cysK)
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00920 Sulfur metabolism
                 b2414 (cysK)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00270 Cysteine and methionine metabolism
                 b2414 (cysK)
             Enzymes [BR:eco01000]
@@ -32,11 +27,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 2.5.1.47  cysteine synthase
                  b2414 (cysK)
 POSITION    2532409..2533380
-MOTIF       Pfam: PALP ADH_zinc_N DFP
-DBLINKS     NCBI-ProteinID: NP_416909
-            NCBI-GeneID: 946877
+MOTIF       Pfam: PALP DFP ADH_zinc_N PG_isomerase_N
+DBLINKS     NCBI-GeneID: 946877
+            NCBI-ProteinID: NP_416909
             Pasteur: cysK
-            EcoGene: EG10192
+            RegulonDB: ECK120000187
             ECOCYC: EG10192
             ASAP: ABE-0007957
             UniProt: P0ABK5

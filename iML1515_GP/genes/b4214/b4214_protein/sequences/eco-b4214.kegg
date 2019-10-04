@@ -6,11 +6,14 @@ ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00920  Sulfur metabolism
             eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
-            eco01130  Biosynthesis of antibiotics
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00920 Sulfur metabolism
+                b4214 (cysQ)
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               03016 Transfer RNA biogenesis [BR:eco03016]
                 b4214 (cysQ)
             Enzymes [BR:eco01000]
              3. Hydrolases
@@ -19,16 +22,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 3.1.3.7  3'(2'),5'-bisphosphate nucleotidase
                  b4214 (cysQ)
             Transfer RNA biogenesis [BR:eco03016]
-             Eukaryotic Type
+             Eukaryotic type
               tRNA degradation factors
                Rapid tRNA decay (RTD) pathway factors
                 b4214 (cysQ)
 POSITION    4436755..4437495
 MOTIF       Pfam: Inositol_P
-DBLINKS     NCBI-ProteinID: NP_418635
-            NCBI-GeneID: 948728
+DBLINKS     NCBI-GeneID: 948728
+            NCBI-ProteinID: NP_418635
             Pasteur: cysQ
-            EcoGene: EG10043
+            RegulonDB: ECK120000039
             ECOCYC: EG10043
             ASAP: ABE-0013786
             UniProt: P22255

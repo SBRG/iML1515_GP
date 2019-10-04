@@ -3,7 +3,7 @@ data_5HBO
 _entry.id   5HBO 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    4.066 
+_audit_conform.dict_version    5.279 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -12,48 +12,34 @@ _database_2.database_code
 PDB   5HBO         
 WWPDB D_1000216789 
 # 
-loop_
-_database_PDB_rev.num 
-_database_PDB_rev.date 
-_database_PDB_rev.date_original 
-_database_PDB_rev.status 
-_database_PDB_rev.replaces 
-_database_PDB_rev.mod_type 
-1 2016-08-10 2016-01-01 ? 5HBO 0 
-2 2016-09-28 ?          ? 5HBO 1 
-# 
-_database_PDB_rev_record.rev_num   2 
-_database_PDB_rev_record.type      JRNL 
-_database_PDB_rev_record.details   ? 
-# 
 _pdbx_database_related.db_name        PDB 
 _pdbx_database_related.details        '5HBL is the same protein but it was prepare with presence of 1mM DTT' 
 _pdbx_database_related.db_id          5HBL 
 _pdbx_database_related.content_type   unspecified 
 # 
-_pdbx_database_status.status_code                      REL 
-_pdbx_database_status.status_code_sf                   REL 
-_pdbx_database_status.status_code_mr                   ? 
-_pdbx_database_status.entry_id                         5HBO 
-_pdbx_database_status.date_begin_release_preparation   . 
-_pdbx_database_status.SG_entry                         N 
-_pdbx_database_status.deposit_site                     RCSB 
-_pdbx_database_status.process_site                     PDBE 
-_pdbx_database_status.methods_development_category     ? 
-_pdbx_database_status.pdb_format_compatible            Y 
+_pdbx_database_status.status_code                     REL 
+_pdbx_database_status.status_code_sf                  REL 
+_pdbx_database_status.status_code_mr                  ? 
+_pdbx_database_status.entry_id                        5HBO 
+_pdbx_database_status.recvd_initial_deposition_date   2016-01-01 
+_pdbx_database_status.SG_entry                        N 
+_pdbx_database_status.deposit_site                    RCSB 
+_pdbx_database_status.process_site                    PDBE 
+_pdbx_database_status.status_code_cs                  ? 
+_pdbx_database_status.methods_development_category    ? 
+_pdbx_database_status.pdb_format_compatible           Y 
 # 
 loop_
-_audit_author.address 
 _audit_author.name 
 _audit_author.pdbx_ordinal 
-? 'Eichmann, C.'    1 
-? 'Tzitzilonis, C.' 2 
-? 'Nakamura, T.'    3 
-? 'Kwiatkowski, W.' 4 
-? 'Maslennikov, I.' 5 
-? 'Choe, S.'        6 
-? 'Lipton, S.A.'    7 
-? 'Riek, R.'        8 
+'Eichmann, C.'    1 
+'Tzitzilonis, C.' 2 
+'Nakamura, T.'    3 
+'Kwiatkowski, W.' 4 
+'Maslennikov, I.' 5 
+'Choe, S.'        6 
+'Lipton, S.A.'    7 
+'Riek, R.'        8 
 # 
 _citation.abstract                  ? 
 _citation.abstract_id_CAS           ? 
@@ -68,7 +54,7 @@ _citation.details                   ?
 _citation.id                        primary 
 _citation.journal_abbrev            J.Mol.Biol. 
 _citation.journal_id_ASTM           JMOBAK 
-_citation.journal_id_CSD            ? 
+_citation.journal_id_CSD            0070 
 _citation.journal_id_ISSN           1089-8638 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
@@ -650,18 +636,6 @@ _reflns_shell.pdbx_rejects                ?
 _reflns_shell.percent_possible_all        91.3 
 _reflns_shell.percent_possible_gt         ? 
 _reflns_shell.percent_possible_obs        ? 
-# 
-_computing.entry_id                           5HBO 
-_computing.cell_refinement                    ? 
-_computing.data_collection                    ? 
-_computing.data_reduction                     ? 
-_computing.molecular_graphics                 ? 
-_computing.publication_material               ? 
-_computing.structure_refinement               'REFMAC 5.8.0135' 
-_computing.structure_solution                 ? 
-_computing.pdbx_structure_refinement_method   ? 
-_computing.pdbx_data_reduction_ii             ? 
-_computing.pdbx_data_reduction_ds             ? 
 # 
 _refine.aniso_B[1][1]                            -0.14 
 _refine.aniso_B[1][2]                            -0.07 
@@ -1415,7 +1389,7 @@ _pdbx_struct_assembly_prop.details
 _pdbx_struct_oper_list.id                   1 
 _pdbx_struct_oper_list.type                 'identity operation' 
 _pdbx_struct_oper_list.name                 1_555 
-_pdbx_struct_oper_list.symmetry_operation   ? 
+_pdbx_struct_oper_list.symmetry_operation   x,y,z 
 _pdbx_struct_oper_list.matrix[1][1]         1.0000000000 
 _pdbx_struct_oper_list.matrix[1][2]         0.0000000000 
 _pdbx_struct_oper_list.matrix[1][3]         0.0000000000 
@@ -1430,14 +1404,25 @@ _pdbx_struct_oper_list.matrix[3][3]         1.0000000000
 _pdbx_struct_oper_list.vector[3]            0.0000000000 
 # 
 loop_
-_pdbx_version.entry_id 
-_pdbx_version.revision_date 
-_pdbx_version.major_version 
-_pdbx_version.minor_version 
-_pdbx_version.revision_type 
-_pdbx_version.details 
-5HBO 2016-08-10 4 0000 'Initial release' 'Initial release' 
-5HBO 2016-09-28 4 0001 Citation          Citation          
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2016-08-10 
+2 'Structure model' 1 1 2016-09-28 
+# 
+_pdbx_audit_revision_details.ordinal             1 
+_pdbx_audit_revision_details.revision_ordinal    1 
+_pdbx_audit_revision_details.data_content_type   'Structure model' 
+_pdbx_audit_revision_details.provider            repository 
+_pdbx_audit_revision_details.type                'Initial release' 
+_pdbx_audit_revision_details.description         ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
 # 
 loop_
 _software.citation_id 

@@ -1,27 +1,29 @@
 ENTRY       b0861             CDS       T00007
 NAME        artM
-DEFINITION  (RefSeq) arginine transporter subunit
+DEFINITION  (RefSeq) L-arginine ABC transporter membrane subunit ArtM
 ORTHOLOGY   K09998  arginine transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00229  Arginine transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b0861 (artM)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0861 (artM)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Phosphate and amino acid transporters
-               Arginine transporter [MD:M00229] [OT]
+               Arginine transporter
                 b0861 (artM)
 POSITION    complement(900866..901534)
 MOTIF       Pfam: BPD_transp_1
-DBLINKS     NCBI-ProteinID: NP_415382
-            NCBI-GeneID: 949066
+DBLINKS     NCBI-GeneID: 949066
+            NCBI-ProteinID: NP_415382
             Pasteur: artM
             RegulonDB: ECK120001575
-            EcoGene: EG11627
             ECOCYC: EG11627
             ASAP: ABE-0002931
             UniProt: P0AE30

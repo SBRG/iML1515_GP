@@ -1,24 +1,28 @@
 ENTRY       b0574             CDS       T00007
 NAME        cusB
-DEFINITION  (RefSeq) copper/silver efflux system, membrane fusion protein
+DEFINITION  (RefSeq) copper/silver export system membrane fusion protein
 ORTHOLOGY   K07798  membrane fusion protein, Cu(I)/Ag(I) efflux system
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02020  Two-component system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Signal transduction
+             09130 Environmental Information Processing
+              09132 Signal transduction
                02020 Two-component system
                 b0574 (cusB)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0574 (cusB)
             Transporters [BR:eco02000]
-             Other Transporters
+             Other transporters
               Accessory factors involved in transport [TC:8]
                b0574 (cusB)
 POSITION    597479..598702
 MOTIF       Pfam: HlyD_D23 HlyD_D4 HlyD_3 HlyD DUF2717
-DBLINKS     NCBI-ProteinID: NP_415106
-            NCBI-GeneID: 945189
+DBLINKS     NCBI-GeneID: 945189
+            NCBI-ProteinID: NP_415106
+            Pasteur: ylcD
             RegulonDB: ECK120002930
-            EcoGene: EG14235
             ECOCYC: G6322
             ASAP: ABE-0001969
             UniProt: P77239

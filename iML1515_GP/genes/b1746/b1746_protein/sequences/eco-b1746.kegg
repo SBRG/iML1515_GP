@@ -1,13 +1,14 @@
 ENTRY       b1746             CDS       T00007
 NAME        astD
-DEFINITION  (RefSeq) succinylglutamic semialdehyde dehydrogenase
+DEFINITION  (RefSeq) aldehyde dehydrogenase
 ORTHOLOGY   K06447  succinylglutamic semialdehyde dehydrogenase [EC:1.2.1.71]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00330  Arginine and proline metabolism
             eco01100  Metabolic pathways
+MODULE      eco_M00879  Arginine succinyltransferase pathway, arginine => glutamate
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00330 Arginine and proline metabolism
                 b1746 (astD)
             Enzymes [BR:eco01000]
@@ -18,10 +19,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1746 (astD)
 POSITION    complement(1828256..1829734)
 MOTIF       Pfam: Aldedh
-DBLINKS     NCBI-ProteinID: NP_416260
-            NCBI-GeneID: 946260
+DBLINKS     NCBI-GeneID: 946260
+            NCBI-ProteinID: NP_416260
             Pasteur: astD
-            EcoGene: EG13997
+            RegulonDB: ECK120003530
             ECOCYC: G6942
             ASAP: ABE-0005820
             UniProt: P76217

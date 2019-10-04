@@ -1,19 +1,24 @@
 ENTRY       b1092             CDS       T00007
 NAME        fabD
-DEFINITION  (RefSeq) malonyl-CoA-[acyl-carrier-protein] transacylase
+DEFINITION  (RefSeq) [acyl-carrier-protein] S-malonyltransferase
 ORTHOLOGY   K00645  [acyl-carrier-protein] S-malonyltransferase [EC:2.3.1.39]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00061  Fatty acid biosynthesis
             eco01100  Metabolic pathways
+            eco01130  Biosynthesis of antibiotics
             eco01212  Fatty acid metabolism
 MODULE      eco_M00082  Fatty acid biosynthesis, initiation
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01212 Fatty acid metabolism
-                b1092 (fabD)
-              Lipid metabolism
+             09100 Metabolism
+              09103 Lipid metabolism
                00061 Fatty acid biosynthesis
+                b1092 (fabD)
+              09110 Biosynthesis of other secondary metabolites
+               00333 Prodigiosin biosynthesis
+                b1092 (fabD)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01004 Lipid biosynthesis proteins [BR:eco01004]
                 b1092 (fabD)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -27,11 +32,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b1092 (fabD)
 POSITION    1149728..1150657
 MOTIF       Pfam: Acyl_transf_1
-DBLINKS     NCBI-ProteinID: NP_415610
-            NCBI-GeneID: 945766
+DBLINKS     NCBI-GeneID: 945766
+            NCBI-ProteinID: NP_415610
             Pasteur: fabD
             RegulonDB: ECK120001288
-            EcoGene: EG11317
             ECOCYC: EG11317
             ASAP: ABE-0003698
             UniProt: P0AAI9

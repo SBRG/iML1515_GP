@@ -1,23 +1,30 @@
 ENTRY       b3469             CDS       T00007
 NAME        zntA
-DEFINITION  (RefSeq) zinc, cobalt and lead efflux system
-ORTHOLOGY   K01534  Cd2+/Zn2+-exporting ATPase [EC:3.6.3.3 3.6.3.5]
+DEFINITION  (RefSeq) Zn(2(+))/Cd(2(+))/Pb(2(+)) exporting P-type ATPase
+ORTHOLOGY   K01534  Cd2+/Zn2+-exporting ATPase [EC:3.6.3.3 7.2.2.12]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09191 Unclassified: metabolism
+               99980 Enzymes with EC numbers
+                b3469 (zntA)
+            Enzymes [BR:eco01000]
              3. Hydrolases
               3.6  Acting on acid anhydrides
                3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
                 3.6.3.3  Cd2+-exporting ATPase
                  b3469 (zntA)
-                3.6.3.5  Zn2+-exporting ATPase
+             7. Translocases
+              7.2  Catalysing the translocation of inorganic cations
+               7.2.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.2.2.12  P-type Zn2+ transporter
                  b3469 (zntA)
 POSITION    3606451..3608649
 MOTIF       Pfam: E1-E2_ATPase Hydrolase HMA Hydrolase_3
-DBLINKS     NCBI-ProteinID: NP_417926
-            NCBI-GeneID: 947972
+DBLINKS     NCBI-GeneID: 947972
+            NCBI-ProteinID: NP_417926
             Pasteur: zntA
             RegulonDB: ECK120002102
-            EcoGene: EG12215
             ECOCYC: EG12215
             ASAP: ABE-0011332
             UniProt: P37617

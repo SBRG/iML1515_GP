@@ -6,9 +6,13 @@ ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00480  Glutathione metabolism
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of other amino acids
+             09100 Metabolism
+              09106 Metabolism of other amino acids
                00480 Glutathione metabolism
+                b0932 (pepN)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors [BR:eco01002]
                 b0932 (pepN)
             Enzymes [BR:eco01000]
              3. Hydrolases
@@ -16,23 +20,23 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                3.4.11  Aminopeptidases
                 3.4.11.2  membrane alanyl aminopeptidase
                  b0932 (pepN)
-            Peptidases [BR:eco01002]
-             Metallo Peptidases
+            Peptidases and inhibitors [BR:eco01002]
+             Metallo peptidases
               Family M1
                b0932 (pepN)
 POSITION    990622..993234
-MOTIF       Pfam: DUF3458_C Peptidase_M1 DUF3458 Ovate Peptidase_M61
-DBLINKS     NCBI-ProteinID: NP_415452
-            NCBI-GeneID: 947253
+MOTIF       Pfam: DUF3458_C Peptidase_M1 DUF3458 Peptidase_M1_N Ovate Peptidase_M61
+DBLINKS     NCBI-GeneID: 947253
+            NCBI-ProteinID: NP_415452
             Pasteur: pepN
-            EcoGene: EG10696
+            RegulonDB: ECK120000688
             ECOCYC: EG10696
             ASAP: ABE-0003171
             UniProt: P04825
-STRUCTURE   PDB: 3B34 3QJX 3B2X 2DQ6 2ZXG 2DQM 2HPO 3B37 3B3B 4XN8 4Q4E
-                 4XND 4XNB 4XO5 4XN4 4XO3 4XMT 3B2P 4XN2 4XMZ 3PUU 4XO4
-                 4XMW 4XN1 4XN7 4XMX 3KED 2HPT 4Q4I 4XNA 4XN5 4XN9 4XMU
-                 4XMV
+STRUCTURE   PDB: 3B34 5MFR 3QJX 3B2X 2DQ6 2ZXG 5YQB 5MFS 5YQ1 5MFT 5YQ2
+                 2DQM 2HPO 3B37 3B3B 4XN8 4Q4E 4XND 4XNB 4XO5 4XN4 4XO3
+                 4XMT 3B2P 4XN2 4XMZ 3PUU 4XO4 4XMW 4XN1 4XN7 4XMX 3KED
+                 2HPT 4Q4I 6G8B 4XNA 5YO1 4XN5 4XN9 4XMU 4XMV
 AASEQ       870
             MTQQPQAKYRHDYRAPDYQITDIDLTFDLDAQKTVVTAVSQAVRHGASDAPLRLNGEDLK
             LVSVHINDEPWTAWKEEEGALVISNLPERFTLKIINEISPAANTALEGLYQSGDALCTQC

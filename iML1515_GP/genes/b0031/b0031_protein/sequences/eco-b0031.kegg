@@ -1,6 +1,6 @@
 ENTRY       b0031             CDS       T00007
 NAME        dapB
-DEFINITION  (RefSeq) dihydrodipicolinate reductase
+DEFINITION  (RefSeq) 4-hydroxy-tetrahydrodipicolinate reductase
 ORTHOLOGY   K00215  4-hydroxy-tetrahydrodipicolinate reductase [EC:1.17.1.8]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00261  Monobactam biosynthesis
@@ -12,14 +12,11 @@ PATHWAY     eco00261  Monobactam biosynthesis
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00016  Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b0031 (dapB)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00300 Lysine biosynthesis
                 b0031 (dapB)
-              Biosynthesis of other secondary metabolites
+              09110 Biosynthesis of other secondary metabolites
                00261 Monobactam biosynthesis
                 b0031 (dapB)
             Enzymes [BR:eco01000]
@@ -30,11 +27,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0031 (dapB)
 POSITION    28374..29195
 MOTIF       Pfam: DapB_C DapB_N
-DBLINKS     NCBI-ProteinID: NP_414572
-            NCBI-GeneID: 944762
+DBLINKS     NCBI-GeneID: 944762
+            NCBI-ProteinID: NP_414572
             Pasteur: dapB
             RegulonDB: ECK120000200
-            EcoGene: EG10206
             ECOCYC: EG10206
             ASAP: ABE-0000112
             UniProt: P04036

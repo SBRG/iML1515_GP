@@ -1,6 +1,6 @@
 ENTRY       b3925             CDS       T00007
 NAME        glpX
-DEFINITION  (RefSeq) fructose 1,6-bisphosphatase II
+DEFINITION  (RefSeq) fructose-1,6-bisphosphatase 2
 ORTHOLOGY   K02446  fructose-1,6-bisphosphatase II [EC:3.1.3.11]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00010  Glycolysis / Gluconeogenesis
@@ -14,18 +14,15 @@ PATHWAY     eco00010  Glycolysis / Gluconeogenesis
             eco01200  Carbon metabolism
 MODULE      eco_M00003  Gluconeogenesis, oxaloacetate => fructose-6P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b3925 (glpX)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
                 b3925 (glpX)
                00030 Pentose phosphate pathway
                 b3925 (glpX)
                00051 Fructose and mannose metabolism
                 b3925 (glpX)
-              Energy metabolism
+              09102 Energy metabolism
                00680 Methane metabolism
                 b3925 (glpX)
             Enzymes [BR:eco01000]
@@ -36,11 +33,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3925 (glpX)
 POSITION    complement(4114569..4115579)
 MOTIF       Pfam: FBPase_glpX
-DBLINKS     NCBI-ProteinID: NP_418360
-            NCBI-GeneID: 948424
+DBLINKS     NCBI-GeneID: 948424
+            NCBI-ProteinID: NP_418360
             Pasteur: glpX
             RegulonDB: ECK120001472
-            EcoGene: EG11517
             ECOCYC: EG11517
             ASAP: ABE-0012821
             UniProt: P0A9C9

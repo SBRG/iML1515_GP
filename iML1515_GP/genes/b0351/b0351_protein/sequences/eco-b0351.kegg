@@ -1,6 +1,6 @@
 ENTRY       b0351             CDS       T00007
 NAME        mhpF
-DEFINITION  (RefSeq) acetaldehyde-CoA dehydrogenase II, NAD-binding
+DEFINITION  (RefSeq) acetaldehyde dehydrogenase (acylating)
 ORTHOLOGY   K04073  acetaldehyde dehydrogenase [EC:1.2.1.10]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00360  Phenylalanine metabolism
@@ -14,19 +14,16 @@ PATHWAY     eco00360  Phenylalanine metabolism
             eco01220  Degradation of aromatic compounds
 MODULE      eco_M00545  Trans-cinnamate degradation, trans-cinnamate => acetyl-CoA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01220 Degradation of aromatic compounds
-                b0351 (mhpF)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00620 Pyruvate metabolism
                 b0351 (mhpF)
                00650 Butanoate metabolism
                 b0351 (mhpF)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00360 Phenylalanine metabolism
                 b0351 (mhpF)
-              Xenobiotics biodegradation and metabolism
+              09111 Xenobiotics biodegradation and metabolism
                00362 Benzoate degradation
                 b0351 (mhpF)
                00622 Xylene degradation
@@ -41,10 +38,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0351 (mhpF)
 POSITION    372921..373871
 MOTIF       Pfam: AcetDehyd-dimer Semialdhyde_dh F420_oxidored GFO_IDH_MocA Shikimate_DH
-DBLINKS     NCBI-ProteinID: NP_414885
-            NCBI-GeneID: 945008
+DBLINKS     NCBI-GeneID: 945008
+            NCBI-ProteinID: NP_414885
             Pasteur: mhpF
-            EcoGene: EG13625
+            RegulonDB: ECK120004473
             ECOCYC: M014
             ASAP: ABE-0001207
             UniProt: P77580

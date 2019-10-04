@@ -1,0 +1,604 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1997-11-01" modified="2019-07-31" version="136">
+<accession>P76461</accession>
+<accession>P78176</accession>
+<name>ATOB_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>Acetyl-CoA acetyltransferase</fullName>
+<ecNumber>2.3.1.9</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Acetoacetyl-CoA thiolase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">atoB</name>
+<name type="ordered locus">b2224</name>
+<name type="ordered locus">JW2218</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1996" name="DNA Res." volume="3" first="379" last="392">
+<title>A 460-kb DNA sequence of the Escherichia coli K-12 genome corresponding to the 40.1-50.0 min region on the linkage map.</title>
+<authorList>
+<person name="Itoh T."/>
+<person name="Aiba H."/>
+<person name="Baba T."/>
+<person name="Fujita K."/>
+<person name="Hayashi K."/>
+<person name="Inada T."/>
+<person name="Isono K."/>
+<person name="Kasai H."/>
+<person name="Kimura S."/>
+<person name="Kitakawa M."/>
+<person name="Kitagawa M."/>
+<person name="Makino K."/>
+<person name="Miki T."/>
+<person name="Mizobuchi K."/>
+<person name="Mori H."/>
+<person name="Mori T."/>
+<person name="Motomura K."/>
+<person name="Nakade S."/>
+<person name="Nakamura Y."/>
+<person name="Nashimoto H."/>
+<person name="Nishio Y."/>
+<person name="Oshima T."/>
+<person name="Saito N."/>
+<person name="Sampei G."/>
+<person name="Seki Y."/>
+<person name="Sivasundaram S."/>
+<person name="Tagami H."/>
+<person name="Takeda J."/>
+<person name="Takemoto K."/>
+<person name="Wada C."/>
+<person name="Yamamoto Y."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="9097040"/>
+<dbReference type="DOI" id="10.1093/dnares/3.6.379"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<comment type="catalytic activity">
+<reaction evidence="5">
+<text>2 acetyl-CoA = acetoacetyl-CoA + CoA</text>
+<dbReference type="Rhea" id="RHEA:21036"/>
+<dbReference type="ChEBI" id="CHEBI:57286"/>
+<dbReference type="ChEBI" id="CHEBI:57287"/>
+<dbReference type="ChEBI" id="CHEBI:57288"/>
+<dbReference type="EC" id="2.3.1.9"/>
+</reaction>
+</comment>
+<comment type="pathway">
+<text>Metabolic intermediate biosynthesis; (R)-mevalonate biosynthesis; (R)-mevalonate from acetyl-CoA: step 1/3.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="6">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="6">Belongs to the thiolase-like superfamily. Thiolase family.</text>
+</comment>
+<dbReference type="EC" id="2.3.1.9"/>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC75284.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAA16020.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="F64992">
+<property type="entry name" value="F64992"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_416728.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000786547.1">
+<property type="nucleotide sequence ID" value="NZ_SSZK01000030.1"/>
+</dbReference>
+<dbReference type="PDB" id="4WYS">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.10"/>
+<property type="chains" value="A/B/C/D=1-393"/>
+</dbReference>
+<dbReference type="PDB" id="5F0V">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.80"/>
+<property type="chains" value="A/B/C/D=1-393"/>
+</dbReference>
+<dbReference type="PDB" id="5F38">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.90"/>
+<property type="chains" value="A=1-394, B/C=1-393, D=1-392"/>
+</dbReference>
+<dbReference type="PDBsum" id="4WYS"/>
+<dbReference type="PDBsum" id="5F0V"/>
+<dbReference type="PDBsum" id="5F38"/>
+<dbReference type="SMR" id="P76461"/>
+<dbReference type="BioGrid" id="4263266">
+<property type="interactions" value="10"/>
+</dbReference>
+<dbReference type="IntAct" id="P76461">
+<property type="interactions" value="3"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b2224"/>
+<dbReference type="jPOST" id="P76461"/>
+<dbReference type="PaxDb" id="P76461"/>
+<dbReference type="PRIDE" id="P76461"/>
+<dbReference type="EnsemblBacteria" id="AAC75284">
+<property type="protein sequence ID" value="AAC75284"/>
+<property type="gene ID" value="b2224"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAA16020">
+<property type="protein sequence ID" value="BAA16020"/>
+<property type="gene ID" value="BAA16020"/>
+</dbReference>
+<dbReference type="GeneID" id="946727"/>
+<dbReference type="KEGG" id="ecj:JW2218"/>
+<dbReference type="KEGG" id="eco:b2224"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.11"/>
+<dbReference type="EchoBASE" id="EB1623"/>
+<dbReference type="EcoGene" id="EG11672">
+<property type="gene designation" value="atoB"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105CHU">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0183">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000012240"/>
+<dbReference type="InParanoid" id="P76461"/>
+<dbReference type="KO" id="K00626"/>
+<dbReference type="PhylomeDB" id="P76461"/>
+<dbReference type="BioCyc" id="EcoCyc:ACETYL-COA-ACETYLTRANSFER-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW2218-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:ACETYL-COA-ACETYLTRANSFER-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00058">
+<property type="reaction ID" value="UER00101"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P76461"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003985">
+<property type="term" value="F:acetyl-CoA C-acetyltransferase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042802">
+<property type="term" value="F:identical protein binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043442">
+<property type="term" value="P:acetoacetic acid catabolic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051289">
+<property type="term" value="P:protein homotetramerization"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="CDD" id="cd00751">
+<property type="entry name" value="thiolase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.47.10">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002155">
+<property type="entry name" value="Thiolase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016039">
+<property type="entry name" value="Thiolase-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR020615">
+<property type="entry name" value="Thiolase_acyl_enz_int_AS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR020610">
+<property type="entry name" value="Thiolase_AS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR020617">
+<property type="entry name" value="Thiolase_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR020613">
+<property type="entry name" value="Thiolase_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR020616">
+<property type="entry name" value="Thiolase_N"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02803">
+<property type="entry name" value="Thiolase_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00108">
+<property type="entry name" value="Thiolase_N"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF000429">
+<property type="entry name" value="Ac-CoA_Ac_transf"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53901">
+<property type="entry name" value="SSF53901"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01930">
+<property type="entry name" value="AcCoA-C-Actrans"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00098">
+<property type="entry name" value="THIOLASE_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00737">
+<property type="entry name" value="THIOLASE_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00099">
+<property type="entry name" value="THIOLASE_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0012">Acyltransferase</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0276">Fatty acid metabolism</keyword>
+<keyword id="KW-0443">Lipid metabolism</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<feature type="chain" description="Acetyl-CoA acetyltransferase" id="PRO_0000206406">
+<location>
+<begin position="1"/>
+<end position="394"/>
+</location>
+</feature>
+<feature type="active site" description="Acyl-thioester intermediate" evidence="4">
+<location>
+<position position="88"/>
+</location>
+</feature>
+<feature type="active site" description="Proton acceptor" evidence="5">
+<location>
+<position position="349"/>
+</location>
+</feature>
+<feature type="active site" description="Proton acceptor" evidence="5">
+<location>
+<position position="379"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="4"/>
+<end position="12"/>
+</location>
+</feature>
+<feature type="turn" evidence="2">
+<location>
+<begin position="20"/>
+<end position="23"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="26"/>
+<end position="41"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="45"/>
+<end position="47"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="50"/>
+<end position="54"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="65"/>
+<end position="72"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="80"/>
+<end position="85"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="87"/>
+<end position="89"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="90"/>
+<end position="103"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="108"/>
+<end position="118"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="123"/>
+<end position="125"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="127"/>
+<end position="129"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="138"/>
+<end position="142"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="143"/>
+<end position="147"/>
+</location>
+</feature>
+<feature type="turn" evidence="2">
+<location>
+<begin position="152"/>
+<end position="154"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="155"/>
+<end position="157"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="158"/>
+<end position="169"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="173"/>
+<end position="193"/>
+</location>
+</feature>
+<feature type="turn" evidence="2">
+<location>
+<begin position="194"/>
+<end position="199"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="203"/>
+<end position="206"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="211"/>
+<end position="214"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="226"/>
+<end position="231"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="244"/>
+<end position="246"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="251"/>
+<end position="261"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="262"/>
+<end position="267"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="274"/>
+<end position="283"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="286"/>
+<end position="291"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="293"/>
+<end position="303"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="308"/>
+<end position="310"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="312"/>
+<end position="316"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="321"/>
+<end position="331"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="335"/>
+<end position="337"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="344"/>
+<end position="347"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="351"/>
+<end position="368"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="372"/>
+<end position="380"/>
+</location>
+</feature>
+<feature type="turn" evidence="2">
+<location>
+<begin position="381"/>
+<end position="383"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="384"/>
+<end position="391"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="4WYS"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="5F0V"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="5F38"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000250"/>
+<evidence key="5" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU10020"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000305"/>
+<sequence length="394" mass="40352" checksum="DE27C394C3E6BDFA" modified="1997-02-01" version="1">MKNCVIVSAVRTAIGSFNGSLASTSAIDLGATVIKAAIERAKIDSQHVDEVIMGNVLQAGLGQNPARQALLKSGLAETVCGFTVNKVCGSGLKSVALAAQAIQAGQAQSIVAGGMENMSLAPYLLDAKARSGYRLGDGQVYDVILRDGLMCATHGYHMGITAENVAKEYGITREMQDELALHSQRKAAAAIESGAFTAEIVPVNVVTRKKTFVFSQDEFPKANSTAEALGALRPAFDKAGTVTAGNASGINDGAAALVIMEESAALAAGLTPLARIKSYASGGVPPALMGMGPVPATQKALQLAGLQLADIDLIEANEAFAAQFLAVGKNLGFDSEKVNVNGGAIALGHPIGASGARILVTLLHAMQARDKTLGLATLCIGGGQGIAMVIERLN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

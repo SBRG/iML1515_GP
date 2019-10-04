@@ -1,6 +1,6 @@
 ENTRY       b2925             CDS       T00007
 NAME        fbaA
-DEFINITION  (RefSeq) fructose-bisphosphate aldolase, class II
+DEFINITION  (RefSeq) fructose-bisphosphate aldolase class II
 ORTHOLOGY   K01624  fructose-bisphosphate aldolase, class II [EC:4.1.2.13]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00010  Glycolysis / Gluconeogenesis
@@ -16,20 +16,15 @@ PATHWAY     eco00010  Glycolysis / Gluconeogenesis
 MODULE      eco_M00001  Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate
             eco_M00003  Gluconeogenesis, oxaloacetate => fructose-6P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b2925 (fbaA)
-               01230 Biosynthesis of amino acids
-                b2925 (fbaA)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
                 b2925 (fbaA)
                00030 Pentose phosphate pathway
                 b2925 (fbaA)
                00051 Fructose and mannose metabolism
                 b2925 (fbaA)
-              Energy metabolism
+              09102 Energy metabolism
                00680 Methane metabolism
                 b2925 (fbaA)
             Enzymes [BR:eco01000]
@@ -39,16 +34,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 4.1.2.13  fructose-bisphosphate aldolase
                  b2925 (fbaA)
 POSITION    complement(3070165..3071244)
-MOTIF       Pfam: F_bP_aldolase S-methyl_trans
-DBLINKS     NCBI-ProteinID: NP_417400
-            NCBI-GeneID: 947415
+MOTIF       Pfam: F_bP_aldolase S-methyl_trans MR_MLE_C
+DBLINKS     NCBI-GeneID: 947415
+            NCBI-ProteinID: NP_417400
             Pasteur: fbaA
             RegulonDB: ECK120000276
-            EcoGene: EG10282
             ECOCYC: EG10282
             ASAP: ABE-0009600
             UniProt: P0AB71
-STRUCTURE   PDB: 1DOS 1B57 1ZEN 1GYN
+STRUCTURE   PDB: 5VJE 1DOS 5VJD 5GK3 5GK6 5GK7 5GK5 5GK4 5GK8 1B57 1ZEN
+                 1GYN
 AASEQ       359
             MSKIFDFVKPGVITGDDVQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQ
             FSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWI

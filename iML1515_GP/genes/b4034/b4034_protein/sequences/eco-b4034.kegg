@@ -1,43 +1,46 @@
 ENTRY       b4034             CDS       T00007
 NAME        malE
-DEFINITION  (RefSeq) maltose transporter subunit
+DEFINITION  (RefSeq) maltose ABC transporter periplasmic binding protein
 ORTHOLOGY   K10108  maltose/maltodextrin transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
             eco02030  Bacterial chemotaxis
-MODULE      eco_M00194  Maltose/maltodextrin transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b4034 (malE)
-             Cellular Processes
-              Cell motility
+             09140 Cellular Processes
+              09142 Cell motility
                02030 Bacterial chemotaxis
                 b4034 (malE)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b4034 (malE)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Saccharide, polyol, and lipid transporters
-               Maltose/maltodextrin transporter [MD:M00194] [OT]
+               Maltose/maltodextrin transporter
                 b4034 (malE)
 POSITION    complement(4245229..4246419)
 MOTIF       Pfam: SBP_bac_8 SBP_bac_1 SBP_bac_6
-DBLINKS     NCBI-ProteinID: NP_418458
-            NCBI-GeneID: 948538
+DBLINKS     NCBI-GeneID: 948538
+            NCBI-ProteinID: NP_418458
             Pasteur: malE
             RegulonDB: ECK120000547
-            EcoGene: EG10554
             ECOCYC: EG10554
             ASAP: ABE-0013200
             UniProt: P0AEX9
-STRUCTURE   PDB: 3KJT 3SEW 1ANF 4MBP 3MBP 4O4B 1YTV 1LLS 1DMB 1OMP 3SEU
-                 3SEY 3RUM 1LAX 5AQ9 3SES 3SET 1Y4C 1JVY 1FQA 1FQB 1EZ9
-                 1MDQ 3SEX 5GRU 3HPI 2OK2 1ZJL 1ZIU 1JW4 1JW5 1MPB 3VFJ
-                 5FIO 3PGF 1NL5 1MPC 5E24 3RLF 1ZKB 1SVX 3HST 4JKM 4DXB
-                 5CBN 4DXC 3PUW 3PUX 1FQC 1FQD 1MPD 1MDP 1NMU 3SER 4KI0
-                 3PUV 1ZMG 1N3X 1JVX 1PEB 1N3W 1IUD 2R6G 4KHZ 3PUZ 3SEV
-                 3PUY 3PV0 5JQE 4WJV 1T0K 5GS2 5LDF 5JTQ 5JTR 2N45 2N44
-                 2MV0 2KLF 2V93 2H25 2D21 1EZO 1EZP
+STRUCTURE   PDB: 5M13 3KJT 3SEW 5M14 1ANF 4MBP 3MBP 4O4B 1YTV 1LLS 1DMB
+                 1OMP 3SEU 3SEY 3RUM 1LAX 5AQ9 5M15 3SES 3SET 1Y4C 1JVY
+                 1FQA 1FQB 1EZ9 1MDQ 5BJZ 3SEX 5GRU 3HPI 2OK2 1ZJL 1ZIU
+                 1JW4 1JW5 1MPB 5Z0R 3VFJ 5K94 5FIO 3PGF 1NL5 1MPC 5E24
+                 5BK1 3RLF 1ZKB 1SVX 3HST 4JKM 4DXB 5CBN 4DXC 3PUW 3PUX
+                 1FQC 1FQD 1MPD 1MDP 1NMU 3SER 4KI0 3PUV 1ZMG 1N3X 1JVX
+                 5BK2 1PEB 1N3W 1IUD 6DKS 6CXS 2R6G 4KHZ 3PUZ 5LEM 3SEV
+                 5LEL 3PUY 3PV0 5JQE 4WJV 1T0K 5GS2 6QF7 5LDF 5JTQ 5JTR
+                 2N45 2N44 2MV0 2KLF 2V93 2H25 2D21 1EZO 1EZP
 AASEQ       396
             MKIKTGARILALSALTTMMFSASALAKIEEGKLVIWINGDKGYNGLAEVGKKFEKDTGIK
             VTVEHPDKLEEKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEITPDKAFQDKLYPFTW

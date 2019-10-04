@@ -1,15 +1,19 @@
 ENTRY       b1054             CDS       T00007
 NAME        lpxL
-DEFINITION  (RefSeq) lauryl-acyl carrier protein (ACP)-dependent acyltransferase
-ORTHOLOGY   K02517  Kdo2-lipid IVA lauroyltransferase [EC:2.3.1.241]
+DEFINITION  (RefSeq) lauroyl acyltransferase
+ORTHOLOGY   K02517  Kdo2-lipid IVA lauroyltransferase/acyltransferase [EC:2.3.1.241 2.3.1.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00540  Lipopolysaccharide biosynthesis
             eco01100  Metabolic pathways
-MODULE      eco_M00060  Lipopolysaccharide biosynthesis, KDO2-lipid A
+MODULE      eco_M00060  KDO2-lipid A biosynthesis, Raetz pathway, LpxL-LpxM type
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00540 Lipopolysaccharide biosynthesis
+                b1054 (lpxL)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
                 b1054 (lpxL)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -17,14 +21,17 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                2.3.1  Transferring groups other than aminoacyl groups
                 2.3.1.241  Kdo2-lipid IVA lauroyltransferase
                  b1054 (lpxL)
+                2.3.1.-  
+                 b1054 (lpxL)
             Lipopolysaccharide biosynthesis proteins [BR:eco01005]
              Lipid A
               b1054 (lpxL)
 POSITION    complement(1115662..1116582)
 MOTIF       Pfam: Lip_A_acyltrans
-DBLINKS     NCBI-ProteinID: NP_415572
-            NCBI-GeneID: 946216
-            EcoGene: EG10464
+DBLINKS     NCBI-GeneID: 946216
+            NCBI-ProteinID: NP_415572
+            Pasteur: htrB
+            RegulonDB: ECK120000457
             ECOCYC: EG10464
             ASAP: ABE-0003574
             UniProt: P0ACV0

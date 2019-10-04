@@ -1,26 +1,29 @@
 ENTRY       b0857             CDS       T00007
 NAME        potI
-DEFINITION  (RefSeq) putrescine transporter subunit: membrane component of ABC superfamily
+DEFINITION  (RefSeq) putrescine ABC transporter membrane subunit PotI
 ORTHOLOGY   K11074  putrescine transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00300  Putrescine transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b0857 (potI)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0857 (potI)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Mineral and organic ion transporters
-               Putrescine transporter [MD:M00300] [OT]
+               Putrescine transporter
                 b0857 (potI)
 POSITION    897084..897929
-MOTIF       Pfam: BPD_transp_1 DUF3938
-DBLINKS     NCBI-ProteinID: NP_415378
-            NCBI-GeneID: 945485
+MOTIF       Pfam: BPD_transp_1
+DBLINKS     NCBI-GeneID: 945485
+            NCBI-ProteinID: NP_415378
             Pasteur: potI
-            EcoGene: EG11632
+            RegulonDB: ECK120001580
             ECOCYC: EG11632
             ASAP: ABE-0002919
             UniProt: P0AFL1

@@ -1,13 +1,15 @@
 ENTRY       b1390             CDS       T00007
 NAME        paaC
-DEFINITION  (RefSeq) ring 1,2-phenylacetyl-CoA epoxidase subunit
+DEFINITION  (RefSeq) phenylacetyl-CoA 1,2-epoxidase, structural subunit
 ORTHOLOGY   K02611  ring-1,2-phenylacetyl-CoA epoxidase subunit PaaC [EC:1.14.13.149]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00360  Phenylalanine metabolism
+            eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
+MODULE      eco_M00878  Phenylacetate degradation, phenylaxetate => acetyl-CoA/succinyl-CoA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00360 Phenylalanine metabolism
                 b1390 (paaC)
             Enzymes [BR:eco01000]
@@ -18,10 +20,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1390 (paaC)
 POSITION    1455164..1455910
 MOTIF       Pfam: PaaA_PaaC PG_binding_3 TelA
-DBLINKS     NCBI-ProteinID: NP_415908
-            NCBI-GeneID: 945956
+DBLINKS     NCBI-GeneID: 945956
+            NCBI-ProteinID: NP_415908
             Pasteur: paaC
-            EcoGene: EG13737
+            RegulonDB: ECK120003305
             ECOCYC: G6711
             ASAP: ABE-0004653
             UniProt: P76079

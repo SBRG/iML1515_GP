@@ -1,33 +1,35 @@
 ENTRY       b2425             CDS       T00007
 NAME        cysP
-DEFINITION  (RefSeq) thiosulfate-binding protein
-ORTHOLOGY   K02048  sulfate transport system substrate-binding protein
+DEFINITION  (RefSeq) thiosulfate/sulfate ABC transporter periplasmic binding protein CysP
+ORTHOLOGY   K02048  sulfate/thiosulfate transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00920  Sulfur metabolism
             eco02010  ABC transporters
-MODULE      eco_M00185  Sulfate transport system
-            eco_M00616  Sulfate-sulfur assimilation
+MODULE      eco_M00616  Sulfate-sulfur assimilation
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00920 Sulfur metabolism
                 b2425 (cysP)
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b2425 (cysP)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2425 (cysP)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Mineral and organic ion transporters
-               Sulfate transporter [MD:M00185] [OT]
+               Sulfate/thiosulfate transporter
                 b2425 (cysP)
 POSITION    complement(2542512..2543528)
 MOTIF       Pfam: SBP_bac_11 SBP_bac_1 SBP_bac_6 SBP_bac_8 PBP_like PBP_like_2
-DBLINKS     NCBI-ProteinID: NP_416920
-            NCBI-GeneID: 946883
+DBLINKS     NCBI-GeneID: 946883
+            NCBI-ProteinID: NP_416920
             Pasteur: cysP
             RegulonDB: ECK120000190
-            EcoGene: EG10195
             ECOCYC: EG10195
             ASAP: ABE-0007992
             UniProt: P16700

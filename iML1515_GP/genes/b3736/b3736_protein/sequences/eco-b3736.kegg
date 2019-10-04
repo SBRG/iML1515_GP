@@ -1,26 +1,30 @@
 ENTRY       b3736             CDS       T00007
 NAME        atpF
-DEFINITION  (RefSeq) F0 sector of membrane-bound ATP synthase, subunit b
+DEFINITION  (RefSeq) ATP synthase Fo complex subunit b
 ORTHOLOGY   K02109  F-type H+-transporting ATPase subunit b
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00190  Oxidative phosphorylation
             eco01100  Metabolic pathways
 MODULE      eco_M00157  F-type ATPase, prokaryotes and chloroplasts
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00190 Oxidative phosphorylation
+                b3736 (atpF)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               00194 Photosynthesis proteins [BR:eco00194]
                 b3736 (atpF)
             Photosynthesis proteins [BR:eco00194]
              Photosystem and electron transport system
               F-type ATPase [OT]
                b3736 (atpF)
 POSITION    complement(3920418..3920888)
-MOTIF       Pfam: ATP-synt_B Mt_ATP-synt_B FNIP_C V-ATPase_G_2 ESM4 V-ATPase_G ETRAMP
-DBLINKS     NCBI-ProteinID: NP_418192
-            NCBI-GeneID: 948247
+MOTIF       Pfam: ATP-synt_B FNIP_C Mt_ATP-synt_B V-ATPase_G_2 ESM4 V-ATPase_G ETRAMP
+DBLINKS     NCBI-GeneID: 948247
+            NCBI-ProteinID: NP_418192
             Pasteur: atpF
-            EcoGene: EG10103
+            RegulonDB: ECK120000099
             ECOCYC: EG10103
             ASAP: ABE-0012217
             UniProt: P0ABA0

@@ -1,24 +1,21 @@
 ENTRY       b0121             CDS       T00007
 NAME        speE
-DEFINITION  (RefSeq) spermidine synthase (putrescine aminopropyltransferase)
+DEFINITION  (RefSeq) spermidine synthase
 ORTHOLOGY   K00797  spermidine synthase [EC:2.5.1.16]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00270  Cysteine and methionine metabolism
             eco00330  Arginine and proline metabolism
-            eco00410  beta-Alanine metabolism
             eco00480  Glutathione metabolism
             eco01100  Metabolic pathways
 MODULE      eco_M00133  Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00270 Cysteine and methionine metabolism
                 b0121 (speE)
                00330 Arginine and proline metabolism
                 b0121 (speE)
-              Metabolism of other amino acids
-               00410 beta-Alanine metabolism
-                b0121 (speE)
+              09106 Metabolism of other amino acids
                00480 Glutathione metabolism
                 b0121 (speE)
             Enzymes [BR:eco01000]
@@ -29,10 +26,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0121 (speE)
 POSITION    complement(135598..136464)
 MOTIF       Pfam: Spermine_synth Spermine_synt_N Methyltransf_25 Methyltransf_11 MTS Methyltransf_31 Methyltransf_12 MetW
-DBLINKS     NCBI-ProteinID: NP_414663
-            NCBI-GeneID: 947726
+DBLINKS     NCBI-GeneID: 947726
+            NCBI-ProteinID: NP_414663
             Pasteur: speE
-            EcoGene: EG10963
+            RegulonDB: ECK120000952
             ECOCYC: EG10963
             ASAP: ABE-0000418
             UniProt: P09158

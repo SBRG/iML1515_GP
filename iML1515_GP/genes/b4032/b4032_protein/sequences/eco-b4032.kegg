@@ -1,27 +1,29 @@
 ENTRY       b4032             CDS       T00007
 NAME        malG
-DEFINITION  (RefSeq) maltose transporter subunit
+DEFINITION  (RefSeq) maltose ABC transporter membrane subunit MalG
 ORTHOLOGY   K10110  maltose/maltodextrin transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00194  Maltose/maltodextrin transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b4032 (malG)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b4032 (malG)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Saccharide, polyol, and lipid transporters
-               Maltose/maltodextrin transporter [MD:M00194] [OT]
+               Maltose/maltodextrin transporter
                 b4032 (malG)
 POSITION    complement(4242626..4243516)
 MOTIF       Pfam: BPD_transp_1 OATP
-DBLINKS     NCBI-ProteinID: NP_418456
-            NCBI-GeneID: 948530
+DBLINKS     NCBI-GeneID: 948530
+            NCBI-ProteinID: NP_418456
             Pasteur: malG
             RegulonDB: ECK120000549
-            EcoGene: EG10556
             ECOCYC: EG10556
             ASAP: ABE-0013193
             UniProt: P68183

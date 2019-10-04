@@ -1,35 +1,38 @@
 ENTRY       b1329             CDS       T00007
 NAME        mppA
-DEFINITION  (RefSeq) murein tripeptide (L-ala-gamma-D-glutamyl-meso-DAP) transporter subunit
+DEFINITION  (RefSeq) murein tripeptide ABC transporter periplasmic binding protein
 ORTHOLOGY   K15580  oligopeptide transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco01501  beta-Lactam resistance
             eco02010  ABC transporters
             eco02024  Quorum sensing
-MODULE      eco_M00439  Oligopeptide transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b1329 (mppA)
-             Cellular Processes
-              Cellular community - prokaryotes
+             09140 Cellular Processes
+              09145 Cellular community - prokaryotes
                02024 Quorum sensing
                 b1329 (mppA)
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01501 beta-Lactam resistance
                 b1329 (mppA)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1329 (mppA)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Peptide and nickel transporters
-               Oligopeptide transporter [MD:M00439]
+               Oligopeptide transporter
                 b1329 (mppA)
 POSITION    1393227..1394840
 MOTIF       Pfam: SBP_bac_5
-DBLINKS     NCBI-ProteinID: NP_415845
-            NCBI-GeneID: 945951
-            EcoGene: EG13376
+DBLINKS     NCBI-GeneID: 945951
+            NCBI-ProteinID: NP_415845
+            RegulonDB: ECK120003260
             ECOCYC: G6665
             ASAP: ABE-0004460
             UniProt: P77348

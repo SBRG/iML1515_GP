@@ -6,9 +6,16 @@ ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00540  Lipopolysaccharide biosynthesis
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00540 Lipopolysaccharide biosynthesis
+                b3622 (waaL)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
+                b3622 (waaL)
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
                 b3622 (waaL)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -20,14 +27,15 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
              O-antigen
               b3622 (waaL)
             Transporters [BR:eco02000]
-             Other Transporters
+             Other transporters
               Others
                b3622 (waaL)
 POSITION    3796948..3798207
 MOTIF       Pfam: Wzy_C Flp1_like
-DBLINKS     NCBI-ProteinID: NP_418079
-            NCBI-GeneID: 948148
-            EcoGene: EG11424
+DBLINKS     NCBI-GeneID: 948148
+            NCBI-ProteinID: NP_418079
+            Pasteur: rfaL
+            RegulonDB: ECK120001388
             ECOCYC: EG11424
             ASAP: ABE-0011849
             UniProt: P27243

@@ -1,6 +1,6 @@
 ENTRY       b4019             CDS       T00007
 NAME        metH
-DEFINITION  (RefSeq) homocysteine-N5-methyltetrahydrofolate transmethylase, B12-dependent
+DEFINITION  (RefSeq) cobalamin-dependent methionine synthase
 ORTHOLOGY   K00548  5-methyltetrahydrofolate--homocysteine methyltransferase [EC:2.1.1.13]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00270  Cysteine and methionine metabolism
@@ -11,17 +11,14 @@ PATHWAY     eco00270  Cysteine and methionine metabolism
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00017  Methionine biosynthesis, apartate => homoserine => methionine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b4019 (metH)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00270 Cysteine and methionine metabolism
                 b4019 (metH)
-              Metabolism of other amino acids
+              09106 Metabolism of other amino acids
                00450 Selenocompound metabolism
                 b4019 (metH)
-              Metabolism of cofactors and vitamins
+              09108 Metabolism of cofactors and vitamins
                00670 One carbon pool by folate
                 b4019 (metH)
             Enzymes [BR:eco01000]
@@ -32,14 +29,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b4019 (metH)
 POSITION    4223828..4227511
 MOTIF       Pfam: Met_synt_B12 S-methyl_trans Pterin_bind B12-binding_2 B12-binding
-DBLINKS     NCBI-ProteinID: NP_418443
-            NCBI-GeneID: 948522
+DBLINKS     NCBI-GeneID: 948522
+            NCBI-ProteinID: NP_418443
             Pasteur: metH
-            EcoGene: EG10587
+            RegulonDB: ECK120000580
             ECOCYC: EG10587
             ASAP: ABE-0013140
             UniProt: P13009
-STRUCTURE   PDB: 1MSK 3BUL 3IVA 1K7Y 1BMT 3IV9 1K98
+STRUCTURE   PDB: 6BM5 6BM6 6BDY 1MSK 3BUL 3IVA 1K7Y 1BMT 3IV9 1K98
 AASEQ       1227
             MSSKVEQLRAQLNERILVLDGGMGTMIQSYRLNEADFRGERFADWPCDLKGNNDLLVLSK
             PEVIAAIHNAYFEAGADIIETNTFNSTTIAMADYQMESLSAEINFAAAKLARACADEWTA

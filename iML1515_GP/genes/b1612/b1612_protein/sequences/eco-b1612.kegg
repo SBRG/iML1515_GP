@@ -1,6 +1,6 @@
 ENTRY       b1612             CDS       T00007
 NAME        fumA
-DEFINITION  (RefSeq) fumarate hydratase (fumarase A), aerobic Class I
+DEFINITION  (RefSeq) fumarase A
 ORTHOLOGY   K01676  fumarate hydratase, class I [EC:4.2.1.2]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00020  Citrate cycle (TCA cycle)
@@ -13,11 +13,8 @@ PATHWAY     eco00020  Citrate cycle (TCA cycle)
 MODULE      eco_M00009  Citrate cycle (TCA cycle, Krebs cycle)
             eco_M00011  Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b1612 (fumA)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00020 Citrate cycle (TCA cycle)
                 b1612 (fumA)
                00620 Pyruvate metabolism
@@ -30,10 +27,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1612 (fumA)
 POSITION    complement(1686731..1688377)
 MOTIF       Pfam: Fumerase_C Fumerase Myosin_head
-DBLINKS     NCBI-ProteinID: NP_416129
-            NCBI-GeneID: 946826
+DBLINKS     NCBI-GeneID: 946826
+            NCBI-ProteinID: NP_416129
             Pasteur: fumA
-            EcoGene: EG10356
+            RegulonDB: ECK120000349
             ECOCYC: EG10356
             ASAP: ABE-0005392
             UniProt: P0AC33

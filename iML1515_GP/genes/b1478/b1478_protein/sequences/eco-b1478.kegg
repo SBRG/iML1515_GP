@@ -1,6 +1,6 @@
 ENTRY       b1478             CDS       T00007
 NAME        adhP
-DEFINITION  (RefSeq) ethanol-active dehydrogenase/acetaldehyde-active reductase
+DEFINITION  (RefSeq) ethanol dehydrogenase/alcohol dehydrogenase
 ORTHOLOGY   K13953  alcohol dehydrogenase, propanol-preferring [EC:1.1.1.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00010  Glycolysis / Gluconeogenesis
@@ -14,20 +14,17 @@ PATHWAY     eco00010  Glycolysis / Gluconeogenesis
             eco01130  Biosynthesis of antibiotics
             eco01220  Degradation of aromatic compounds
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01220 Degradation of aromatic compounds
-                b1478 (adhP)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
                 b1478 (adhP)
-              Lipid metabolism
+              09103 Lipid metabolism
                00071 Fatty acid degradation
                 b1478 (adhP)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00350 Tyrosine metabolism
                 b1478 (adhP)
-              Xenobiotics biodegradation and metabolism
+              09111 Xenobiotics biodegradation and metabolism
                00625 Chloroalkane and chloroalkene degradation
                 b1478 (adhP)
                00626 Naphthalene degradation
@@ -39,11 +36,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 1.1.1.1  alcohol dehydrogenase
                  b1478 (adhP)
 POSITION    complement(1552828..1553838)
-MOTIF       Pfam: ADH_N ADH_zinc_N ADH_zinc_N_2 CoA_binding Methyltransf_25 2-Hacid_dh_C Methyltransf_31 Phage_holin_2_1 TrkA_N
-DBLINKS     NCBI-ProteinID: NP_415995
-            NCBI-GeneID: 946036
+MOTIF       Pfam: ADH_N ADH_zinc_N ADH_zinc_N_2 CoA_binding Methyltransf_25 2-Hacid_dh_C Methyltransf_31 TrkA_N
+DBLINKS     NCBI-GeneID: 946036
+            NCBI-ProteinID: NP_415995
             Pasteur: adhP
-            EcoGene: EG12622
+            RegulonDB: ECK120003364
             ECOCYC: G6775
             ASAP: ABE-0004928
             UniProt: P39451

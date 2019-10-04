@@ -1,6 +1,6 @@
 ENTRY       b0721             CDS       T00007
 NAME        sdhC
-DEFINITION  (RefSeq) succinate dehydrogenase, membrane subunit, binds cytochrome b556
+DEFINITION  (RefSeq) succinate:quinone oxidoreductase, membrane protein SdhC
 ORTHOLOGY   K00241  succinate dehydrogenase / fumarate reductase, cytochrome b subunit
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00020  Citrate cycle (TCA cycle)
@@ -15,24 +15,21 @@ MODULE      eco_M00009  Citrate cycle (TCA cycle, Krebs cycle)
             eco_M00011  Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate
             eco_M00149  Succinate dehydrogenase, prokaryotes
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b0721 (sdhC)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00020 Citrate cycle (TCA cycle)
                 b0721 (sdhC)
                00650 Butanoate metabolism
                 b0721 (sdhC)
-              Energy metabolism
+              09102 Energy metabolism
                00190 Oxidative phosphorylation
                 b0721 (sdhC)
 POSITION    755177..755566
-MOTIF       Pfam: Sdh_cyt Fumarate_red_D DUF5467
-DBLINKS     NCBI-ProteinID: NP_415249
-            NCBI-GeneID: 945316
+MOTIF       Pfam: Sdh_cyt Fumarate_red_D
+DBLINKS     NCBI-GeneID: 945316
+            NCBI-ProteinID: NP_415249
             Pasteur: sdhC
-            EcoGene: EG10933
+            RegulonDB: ECK120000922
             ECOCYC: EG10933
             ASAP: ABE-0002460
             UniProt: P69054

@@ -1,6 +1,6 @@
 ENTRY       b4254             CDS       T00007
 NAME        argI
-DEFINITION  (RefSeq) ornithine carbamoyltransferase 1
+DEFINITION  (RefSeq) ornithine carbamoyltransferase ArgI
 ORTHOLOGY   K00611  ornithine carbamoyltransferase [EC:2.1.3.3]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00220  Arginine biosynthesis
@@ -8,12 +8,10 @@ PATHWAY     eco00220  Arginine biosynthesis
             eco01110  Biosynthesis of secondary metabolites
             eco01130  Biosynthesis of antibiotics
             eco01230  Biosynthesis of amino acids
+MODULE      eco_M00844  Arginine biosynthesis, ornithine => arginine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b4254 (argI)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00220 Arginine biosynthesis
                 b4254 (argI)
             Enzymes [BR:eco01000]
@@ -24,10 +22,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b4254 (argI)
 POSITION    complement(4477307..4478311)
 MOTIF       Pfam: OTCace OTCace_N
-DBLINKS     NCBI-ProteinID: NP_418675
-            NCBI-GeneID: 948774
+DBLINKS     NCBI-GeneID: 948774
+            NCBI-ProteinID: NP_418675
             Pasteur: argI
-            EcoGene: EG10069
+            RegulonDB: ECK120000065
             ECOCYC: EG10069
             ASAP: ABE-0013927
             UniProt: P04391

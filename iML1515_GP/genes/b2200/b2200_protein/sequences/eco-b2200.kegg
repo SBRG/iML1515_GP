@@ -1,26 +1,29 @@
 ENTRY       b2200             CDS       T00007
 NAME        ccmB
-DEFINITION  (RefSeq) heme exporter subunit
+DEFINITION  (RefSeq) heme trafficking system membrane protein CcmB
 ORTHOLOGY   K02194  heme exporter protein B
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00259  Heme transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b2200 (ccmB)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2200 (ccmB)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               ABC-2 type and other transporters
-               Heme transporter [MD:M00259] [OT]
+               Heme transporter
                 b2200 (ccmB)
 POSITION    complement(2296362..2297024)
 MOTIF       Pfam: CcmB ABC2_membrane ABC2_membrane_4
-DBLINKS     NCBI-ProteinID: NP_416704
-            NCBI-GeneID: 946692
+DBLINKS     NCBI-GeneID: 946692
+            NCBI-ProteinID: NP_416704
             Pasteur: ccmB
-            EcoGene: EG12058
+            RegulonDB: ECK120001970
             ECOCYC: EG12058
             ASAP: ABE-0007277
             UniProt: P0ABL8

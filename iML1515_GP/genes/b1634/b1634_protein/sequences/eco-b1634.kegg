@@ -1,15 +1,23 @@
 ENTRY       b1634             CDS       T00007
 NAME        dtpA
-DEFINITION  (RefSeq) dipeptide and tripeptide permease A
+DEFINITION  (RefSeq) dipeptide/tripeptide:H(+) symporter DtpA
 ORTHOLOGY   K03305  proton-dependent oligopeptide transporter, POT family
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09193 Unclassified: signaling and cellular processes
+               99977 Transport
+                b1634 (dtpA)
 POSITION    1712769..1714271
 MOTIF       Pfam: PTR2 MFS_1
-DBLINKS     NCBI-ProteinID: NP_416151
-            NCBI-GeneID: 947436
-            EcoGene: EG13939
+DBLINKS     NCBI-GeneID: 947436
+            NCBI-ProteinID: NP_416151
+            Pasteur: ydgR
+            RegulonDB: ECK120003466
+            ECOCYC: G6877
             ASAP: ABE-0005469
             UniProt: P77304
+STRUCTURE   PDB: 6GS4 6GS1 6GS7
 AASEQ       500
             MSTANQKPTESVSLNAFKQPKAFYLIFSIELWERFGYYGLQGIMAVYLVKQLGMSEADSI
             TLFSSFSALVYGLVAIGGWLGDKVLGTKRVIMLGAIVLAIGYALVAWSGHDAGIVYMGMA

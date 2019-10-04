@@ -1,19 +1,23 @@
 ENTRY       b3729             CDS       T00007
 NAME        glmS
-DEFINITION  (RefSeq) L-glutamine:D-fructose-6-phosphate aminotransferase
-ORTHOLOGY   K00820  glucosamine--fructose-6-phosphate aminotransferase (isomerizing) [EC:2.6.1.16]
+DEFINITION  (RefSeq) L-glutamine--D-fructose-6-phosphate aminotransferase
+ORTHOLOGY   K00820  glutamine---fructose-6-phosphate transaminase (isomerizing) [EC:2.6.1.16]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00250  Alanine, aspartate and glutamate metabolism
             eco00520  Amino sugar and nucleotide sugar metabolism
             eco01100  Metabolic pathways
             eco01130  Biosynthesis of antibiotics
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00520 Amino sugar and nucleotide sugar metabolism
                 b3729 (glmS)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00250 Alanine, aspartate and glutamate metabolism
+                b3729 (glmS)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors [BR:eco01002]
                 b3729 (glmS)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -21,16 +25,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                2.6.1  Transaminases
                 2.6.1.16  glutamine---fructose-6-phosphate transaminase (isomerizing)
                  b3729 (glmS)
-            Peptidases [BR:eco01002]
-             Cysteine Peptidases
+            Peptidases and inhibitors [BR:eco01002]
+             Cysteine peptidases
               Family C44
                b3729 (glmS)
 POSITION    complement(3911839..3913668)
 MOTIF       Pfam: SIS GATase_6 GATase_7 GATase_4
-DBLINKS     NCBI-ProteinID: NP_418185
-            NCBI-GeneID: 948241
+DBLINKS     NCBI-GeneID: 948241
+            NCBI-ProteinID: NP_418185
             Pasteur: glmS
-            EcoGene: EG10382
+            RegulonDB: ECK120000375
             ECOCYC: EG10382
             ASAP: ABE-0012198
             UniProt: P17169

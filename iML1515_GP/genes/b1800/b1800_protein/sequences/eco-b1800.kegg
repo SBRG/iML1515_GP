@@ -1,13 +1,14 @@
 ENTRY       b1800             CDS       T00007
 NAME        dmlA
-DEFINITION  (RefSeq) D-malate oxidase, NAD-dependent; putative tartrate dehydrogenase
+DEFINITION  (RefSeq) D-malate/3-isopropylmalate dehydrogenase (decarboxylating)
 ORTHOLOGY   K07246  tartrate dehydrogenase/decarboxylase / D-malate dehydrogenase [EC:1.1.1.93 4.1.1.73 1.1.1.83]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00630  Glyoxylate and dicarboxylate metabolism
             eco00650  Butanoate metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00630 Glyoxylate and dicarboxylate metabolism
                 b1800 (dmlA)
                00650 Butanoate metabolism
@@ -27,10 +28,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1800 (dmlA)
 POSITION    1881912..1882997
 MOTIF       Pfam: Iso_dh
-DBLINKS     NCBI-ProteinID: NP_416314
-            NCBI-GeneID: 946319
+DBLINKS     NCBI-GeneID: 946319
+            NCBI-ProteinID: NP_416314
+            Pasteur: yeaU
             RegulonDB: ECK120003573
-            EcoGene: EG13507
             ECOCYC: G6986
             ASAP: ABE-0005991
             UniProt: P76251

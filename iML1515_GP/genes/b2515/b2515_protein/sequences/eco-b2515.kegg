@@ -1,6 +1,6 @@
 ENTRY       b2515             CDS       T00007
 NAME        ispG
-DEFINITION  (RefSeq) 1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase
+DEFINITION  (RefSeq) (E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase (flavodoxin)
 ORTHOLOGY   K03526  (E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase [EC:1.17.7.1 1.17.7.3]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00900  Terpenoid backbone biosynthesis
@@ -9,8 +9,8 @@ PATHWAY     eco00900  Terpenoid backbone biosynthesis
             eco01130  Biosynthesis of antibiotics
 MODULE      eco_M00096  C5 isoprenoid biosynthesis, non-mevalonate pathway
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of terpenoids and polyketides
+             09100 Metabolism
+              09109 Metabolism of terpenoids and polyketides
                00900 Terpenoid backbone biosynthesis
                 b2515 (ispG)
             Enzymes [BR:eco01000]
@@ -23,9 +23,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2515 (ispG)
 POSITION    complement(2640686..2641804)
 MOTIF       Pfam: GcpE
-DBLINKS     NCBI-ProteinID: NP_417010
-            NCBI-GeneID: 946991
-            EcoGene: EG10370
+DBLINKS     NCBI-GeneID: 946991
+            NCBI-ProteinID: NP_417010
+            Pasteur: gcpE
+            RegulonDB: ECK120000363
             ECOCYC: EG10370
             ASAP: ABE-0008281
             UniProt: P62620

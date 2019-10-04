@@ -1,30 +1,41 @@
 ENTRY       b1967             CDS       T00007
 NAME        hchA
-DEFINITION  (RefSeq) glyoxalase III and Hsp31 molecular chaperone
-ORTHOLOGY   K05523  molecular chaperone Hsp31 and glyoxalase 3 [EC:4.2.1.130]
+DEFINITION  (RefSeq) protein/nucleic acid deglycase 1
+ORTHOLOGY   K05523  D-lactate dehydratase / protein deglycase [EC:4.2.1.130 3.5.1.124]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00620  Pyruvate metabolism
+            eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00620 Pyruvate metabolism
                 b1967 (hchA)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors [BR:eco01002]
+                b1967 (hchA)
             Enzymes [BR:eco01000]
+             3. Hydrolases
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.1  In linear amides
+                3.5.1.124  protein deglycase
+                 b1967 (hchA)
              4. Lyases
               4.2  Carbon-oxygen lyases
                4.2.1  Hydro-lyases
                 4.2.1.130  D-lactate dehydratase
                  b1967 (hchA)
-            Peptidases [BR:eco01002]
-             Cysteine Peptidases
+            Peptidases and inhibitors [BR:eco01002]
+             Cysteine peptidases
               Family C56: PfpI endopeptidase family
                b1967 (hchA)
 POSITION    2035835..2036686
 MOTIF       Pfam: DJ-1_PfpI ThiJ_like DUF1786
-DBLINKS     NCBI-ProteinID: NP_416476
-            NCBI-GeneID: 946481
-            EcoGene: EG11755
+DBLINKS     NCBI-GeneID: 946481
+            NCBI-ProteinID: NP_416476
+            Pasteur: yedU
+            RegulonDB: ECK120003641
             ECOCYC: G7055
             ASAP: ABE-0006529
             UniProt: P31658

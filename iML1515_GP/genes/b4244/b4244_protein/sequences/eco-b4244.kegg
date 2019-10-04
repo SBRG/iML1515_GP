@@ -1,6 +1,6 @@
 ENTRY       b4244             CDS       T00007
 NAME        pyrI
-DEFINITION  (RefSeq) aspartate carbamoyltransferase, regulatory subunit
+DEFINITION  (RefSeq) aspartate carbamoyltransferase, PyrI subunit
 ORTHOLOGY   K00610  aspartate carbamoyltransferase regulatory subunit
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00240  Pyrimidine metabolism
@@ -8,19 +8,19 @@ PATHWAY     eco00240  Pyrimidine metabolism
             eco01100  Metabolic pathways
 MODULE      eco_M00051  Uridine monophosphate biosynthesis, glutamine (+ PRPP) => UMP
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00240 Pyrimidine metabolism
                 b4244 (pyrI)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00250 Alanine, aspartate and glutamate metabolism
                 b4244 (pyrI)
 POSITION    complement(4470986..4471447)
 MOTIF       Pfam: PyrI PyrI_C
-DBLINKS     NCBI-ProteinID: NP_418665
-            NCBI-GeneID: 948763
+DBLINKS     NCBI-GeneID: 948763
+            NCBI-ProteinID: NP_418665
             Pasteur: pyrI
-            EcoGene: EG10811
+            RegulonDB: ECK120000802
             ECOCYC: EG10811
             ASAP: ABE-0013889
             UniProt: P0A7F3

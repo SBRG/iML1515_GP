@@ -1,32 +1,35 @@
 ENTRY       b3479             CDS       T00007
 NAME        nikD
-DEFINITION  (RefSeq) nickel transporter subunit
-ORTHOLOGY   K15587  nickel transport system ATP-binding protein [EC:3.6.3.24]
+DEFINITION  (RefSeq) Ni(2(+)) ABC transporter ATP binding subunit NikD
+ORTHOLOGY   K15587  nickel transport system ATP-binding protein [EC:7.2.2.11]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00440  Nickel transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b3479 (nikD)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3479 (nikD)
             Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.24  nickel-transporting ATPase
+             7. Translocases
+              7.2  Catalysing the translocation of inorganic cations
+               7.2.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.2.2.11  ABC-type Ni2+ transporter
                  b3479 (nikD)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Peptide and nickel transporters
-               Nickel transporter [MD:M00440] [OT]
+               Nickel transporter
                 b3479 (nikD)
 POSITION    3617015..3617779
-MOTIF       Pfam: ABC_tran SMC_N AAA_29 AAA_21 AAA_22 AAA_19
-DBLINKS     NCBI-ProteinID: NP_417936
-            NCBI-GeneID: 947989
+MOTIF       Pfam: ABC_tran SMC_N AAA_21 AAA_29 AAA_22 AAA_19
+DBLINKS     NCBI-GeneID: 947989
+            NCBI-ProteinID: NP_417936
             Pasteur: nikD
-            EcoGene: EG12078
+            RegulonDB: ECK120001984
             ECOCYC: EG12078
             ASAP: ABE-0011360
             UniProt: P33593

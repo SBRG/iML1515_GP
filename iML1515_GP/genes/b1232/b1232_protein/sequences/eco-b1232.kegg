@@ -1,16 +1,16 @@
 ENTRY       b1232             CDS       T00007
 NAME        purU
-DEFINITION  (RefSeq) formyltetrahydrofolate hydrolase
+DEFINITION  (RefSeq) formyltetrahydrofolate deformylase
 ORTHOLOGY   K01433  formyltetrahydrofolate deformylase [EC:3.5.1.10]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00630  Glyoxylate and dicarboxylate metabolism
             eco00670  One carbon pool by folate
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00630 Glyoxylate and dicarboxylate metabolism
                 b1232 (purU)
-              Metabolism of cofactors and vitamins
+              09108 Metabolism of cofactors and vitamins
                00670 One carbon pool by folate
                 b1232 (purU)
             Enzymes [BR:eco01000]
@@ -21,11 +21,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1232 (purU)
 POSITION    complement(1287782..1288624)
 MOTIF       Pfam: Formyl_trans_N ACT
-DBLINKS     NCBI-ProteinID: NP_415748
-            NCBI-GeneID: 945827
+DBLINKS     NCBI-GeneID: 945827
+            NCBI-ProteinID: NP_415748
             Pasteur: purU
             RegulonDB: ECK120001751
-            EcoGene: EG11819
             ECOCYC: EG11819
             ASAP: ABE-0004138
             UniProt: P37051

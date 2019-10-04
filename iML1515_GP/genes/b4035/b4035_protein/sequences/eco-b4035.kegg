@@ -1,15 +1,17 @@
 ENTRY       b4035             CDS       T00007
 NAME        malK
-DEFINITION  (RefSeq) fused maltose transport subunit, ATP-binding component of ABC superfamily/regulatory protein
+DEFINITION  (RefSeq) maltose ABC transporter ATP binding subunit
 ORTHOLOGY   K10111  multiple sugar transport system ATP-binding protein [EC:3.6.3.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00194  Maltose/maltodextrin transport system
-            eco_M00207  Putative multiple sugar transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
+                b4035 (malK)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
                 b4035 (malK)
             Enzymes [BR:eco01000]
              3. Hydrolases
@@ -18,25 +20,24 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 3.6.3.-  
                  b4035 (malK)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Saccharide, polyol, and lipid transporters
-               Maltose/maltodextrin transporter [MD:M00194] [OT]
+               Maltose/maltodextrin transporter
                 b4035 (malK)
-               Arabinogalactan oligomer/maltooligosaccharide transport system [MD:M00491] [OT]
+               Arabinogalactan oligomer/maltooligosaccharide transport system
                 b4035 (malK)
-               Trehalose/maltose transporter [MD:M00204] [OT]
+               Trehalose/maltose transporter
                 b4035 (malK)
-               Putative sorbitol/mannitol transporter [MD:M00200] [OT]
+               Putative sorbitol/mannitol transporter
                 b4035 (malK)
-               Putative multiple sugar transporter [MD:M00207]
+               Putative multiple sugar transporter
                 b4035 (malK)
 POSITION    4246784..4247899
-MOTIF       Pfam: ABC_tran TOBE_2 AAA_21 RsgA_GTPase SMC_N AAA_16 AAA_29 AAA_33 AAA_23 AAA_22 AAA_25 TOBE AAA_15 AAA AAA_28 MMR_HSR1 NACHT Rad17 NB-ARC AAA_30 RNA_helicase ATPase_2
-DBLINKS     NCBI-ProteinID: NP_418459
-            NCBI-GeneID: 948537
+MOTIF       Pfam: ABC_tran OB_MalK TOBE_2 AAA_21 RsgA_GTPase SMC_N AAA_16 AAA_29 AAA_33 AAA_23 AAA_22 AAA_25 AAA_15 TOBE Rad17 AAA MMR_HSR1 AAA_28 NACHT AAA_30 RNA_helicase ATPase_2 NB-ARC
+DBLINKS     NCBI-GeneID: 948537
+            NCBI-ProteinID: NP_418459
             Pasteur: malK
             RegulonDB: ECK120000551
-            EcoGene: EG10558
             ECOCYC: EG10558
             ASAP: ABE-0013216
             UniProt: P68187

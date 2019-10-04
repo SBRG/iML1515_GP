@@ -1,18 +1,22 @@
 ENTRY       b0088             CDS       T00007
 NAME        murD
-DEFINITION  (RefSeq) UDP-N-acetylmuramoyl-L-alanine:D-glutamate ligase
+DEFINITION  (RefSeq) UDP-N-acetylmuramoyl-L-alanine--D-glutamate ligase
 ORTHOLOGY   K01925  UDP-N-acetylmuramoylalanine--D-glutamate ligase [EC:6.3.2.9]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00471  D-Glutamine and D-glutamate metabolism
             eco00550  Peptidoglycan biosynthesis
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of other amino acids
+             09100 Metabolism
+              09106 Metabolism of other amino acids
                00471 D-Glutamine and D-glutamate metabolism
                 b0088 (murD)
-              Glycan biosynthesis and metabolism
+              09107 Glycan biosynthesis and metabolism
                00550 Peptidoglycan biosynthesis
+                b0088 (murD)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
                 b0088 (murD)
             Enzymes [BR:eco01000]
              6. Ligases
@@ -20,18 +24,21 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                6.3.2  Acid-D-amino-acid ligases (peptide synthases)
                 6.3.2.9  UDP-N-acetylmuramoyl-L-alanine---D-glutamate ligase
                  b0088 (murD)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Precursor biosynthesis
+              Amino acid ligase
+               b0088 (murD)
 POSITION    97087..98403
-MOTIF       Pfam: Mur_ligase_M Mur_ligase_C NAD_binding_7 TMEM65
-DBLINKS     NCBI-ProteinID: NP_414630
-            NCBI-GeneID: 944818
+MOTIF       Pfam: Mur_ligase_M Mur_ligase_C NAD_binding_7
+DBLINKS     NCBI-GeneID: 944818
+            NCBI-ProteinID: NP_414630
             Pasteur: murD
             RegulonDB: ECK120000613
-            EcoGene: EG10620
             ECOCYC: EG10620
             ASAP: ABE-0000318
             UniProt: P14900
 STRUCTURE   PDB: 2X5O 2Y66 2Y68 2Y1O 2XPC 2JFG 2WJP 4UAG 2UAG 3UAG 5A5E
-                 2Y67 2UUP 2JFF 5A5F 1EEH 2VTD 1UAG 2JFH 2VTE 2UUO 1E0D
+                 2Y67 2UUP 2JFF 5A5F 1EEH 2VTD 1UAG 2JFH 2VTE 1E0D 2UUO
 AASEQ       438
             MADYQGKNVVIIGLGLTGLSCVDFFLARGVTPRVMDTRMTPPGLDKLPEAVERHTGSLND
             EWLMAADLIVASPGIALAHPSLSAAADAGIEIVGDIELFCREAQAPIVAITGSNGKSTVT

@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1995-11-01" modified="2019-09-18" version="126">
+<accession>P45543</accession>
+<accession>Q2M739</accession>
+<name>FRLD_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName evidence="3">Fructoselysine 6-kinase</fullName>
+<ecNumber evidence="1">2.7.1.218</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">frlD</name>
+<name type="synonym">yhfQ</name>
+<name type="ordered locus">b3374</name>
+<name type="ordered locus">JW3337</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2002" name="J. Biol. Chem." volume="277" first="42523" last="42529">
+<title>Identification of a pathway for the utilization of the Amadori product fructoselysine in Escherichia coli.</title>
+<authorList>
+<person name="Wiame E."/>
+<person name="Delpierre G."/>
+<person name="Collard F."/>
+<person name="Van Schaftingen E."/>
+</authorList>
+<dbReference type="PubMed" id="12147680"/>
+<dbReference type="DOI" id="10.1074/jbc.m200863200"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>PATHWAY</scope>
+<scope>INDUCTION</scope>
+<scope>SUBUNIT</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2004" name="Biochem. J." volume="378" first="1047" last="1052">
+<title>Fructoselysine 3-epimerase, an enzyme involved in the metabolism of the unusual Amadori compound psicoselysine in Escherichia coli.</title>
+<authorList>
+<person name="Wiame E."/>
+<person name="Van Schaftingen E."/>
+</authorList>
+<dbReference type="PubMed" id="14641112"/>
+<dbReference type="DOI" id="10.1042/bj20031527"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>INDUCTION</scope>
+<scope>PATHWAY</scope>
+</reference>
+<comment type="function">
+<text evidence="1 2">Catalyzes the ATP-dependent phosphorylation of fructoselysine to fructoselysine 6-phosphate (PubMed:12147680). Functions in a fructoselysine degradation pathway that allows E.coli to grow on fructoselysine or psicoselysine (PubMed:12147680, PubMed:14641112). To a much lesser extenst, is also able to phosphorylate psicoselysine (PubMed:14641112).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="1">
+<text>ATP + N(6)-(D-fructosyl)-L-lysine = ADP + H(+) + N(6)-(6-phospho-D-fructosyl)-L-lysine</text>
+<dbReference type="Rhea" id="RHEA:28378"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:30616"/>
+<dbReference type="ChEBI" id="CHEBI:61392"/>
+<dbReference type="ChEBI" id="CHEBI:61393"/>
+<dbReference type="ChEBI" id="CHEBI:456216"/>
+<dbReference type="EC" id="2.7.1.218"/>
+</reaction>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="1">18 uM for fructoselysine</KM>
+<KM evidence="1">50 uM for ATP</KM>
+<KM evidence="2">10 mM for psicoselysine</KM>
+<Vmax evidence="1">30 umol/min/mg enzyme with fructoselysine as substrate</Vmax>
+<Vmax evidence="2">9 umol/min/mg enzyme with psicoselysine as substrate</Vmax>
+</kinetics>
+</comment>
+<comment type="pathway" evidence="5 6">
+<text>Carbohydrate metabolism; fructoselysine degradation; D-glucose 6-phosphate and lysine from fructoselysine: step 1/2.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1">Monomer.</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-562037"/>
+<interactant intactId="EBI-546020">
+<id>P0AG07</id>
+<label>rpe</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>5</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-562037"/>
+<interactant intactId="EBI-557436">
+<id>P05704</id>
+<label>trg</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>5</experiments>
+</comment>
+<comment type="induction">
+<text evidence="1 2">Induced by fructoselysine and psicoselysine. Makes part of the frl operon with FrlA, FrlB, FrlC and FrlR.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the carbohydrate kinase PfkB family.</text>
+</comment>
+<dbReference type="EC" id="2.7.1.218" evidence="1"/>
+<dbReference type="EMBL" id="U18997">
+<property type="protein sequence ID" value="AAA58171.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC76399.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE77917.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="A65132">
+<property type="entry name" value="A65132"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_417833.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000853353.1">
+<property type="nucleotide sequence ID" value="NZ_SSZK01000008.1"/>
+</dbReference>
+<dbReference type="SMR" id="P45543"/>
+<dbReference type="BioGrid" id="4262482">
+<property type="interactions" value="9"/>
+</dbReference>
+<dbReference type="BioGrid" id="852195">
+<property type="interactions" value="5"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-12326N"/>
+<dbReference type="IntAct" id="P45543">
+<property type="interactions" value="9"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b3374"/>
+<dbReference type="jPOST" id="P45543"/>
+<dbReference type="PaxDb" id="P45543"/>
+<dbReference type="PRIDE" id="P45543"/>
+<dbReference type="EnsemblBacteria" id="AAC76399">
+<property type="protein sequence ID" value="AAC76399"/>
+<property type="gene ID" value="b3374"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE77917">
+<property type="protein sequence ID" value="BAE77917"/>
+<property type="gene ID" value="BAE77917"/>
+</dbReference>
+<dbReference type="GeneID" id="947886"/>
+<dbReference type="KEGG" id="ecj:JW3337"/>
+<dbReference type="KEGG" id="eco:b3374"/>
+<dbReference type="PATRIC" id="fig|511145.12.peg.3467"/>
+<dbReference type="EchoBASE" id="EB2748"/>
+<dbReference type="EcoGene" id="EG12912">
+<property type="gene designation" value="frlD"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4108KPW">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0524">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000221482"/>
+<dbReference type="InParanoid" id="P45543"/>
+<dbReference type="KO" id="K10710"/>
+<dbReference type="PhylomeDB" id="P45543"/>
+<dbReference type="BioCyc" id="EcoCyc:G7726-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW3337-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:G7726-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00784">
+<property type="reaction ID" value="UER00769"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P45543"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019200">
+<property type="term" value="F:carbohydrate kinase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016773">
+<property type="term" value="F:phosphotransferase activity, alcohol group as acceptor"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.1190.20">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002173">
+<property type="entry name" value="Carboh/pur_kinase_PfkB_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011611">
+<property type="entry name" value="PfkB_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029056">
+<property type="entry name" value="Ribokinase-like"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00294">
+<property type="entry name" value="PfkB"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53613">
+<property type="entry name" value="SSF53613"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00583">
+<property type="entry name" value="PFKB_KINASES_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00584">
+<property type="entry name" value="PFKB_KINASES_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0067">ATP-binding</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0418">Kinase</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<feature type="chain" description="Fructoselysine 6-kinase" id="PRO_0000080066">
+<location>
+<begin position="1"/>
+<end position="261"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12147680"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="14641112"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="12147680"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<evidence key="5" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="12147680"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="14641112"/>
+</source>
+</evidence>
+<sequence length="261" mass="28332" checksum="30ACC15F901480C4" modified="1995-11-01" version="1">MKTLATIGDNCVDIYPQLNKAFSGGNAVNVAVYCTRYGIQPGCITWVGDDDYGTKLKQDLARMGVDISHVHTKHGVTAQTQVELHDNDRVFGDYTEGVMADFALSEEDYAWLAQYDIVHAAIWGHAEDAFPQLHAAGKLTAFDFSDKWDSPLWQTLVPHLDFAFASAPQEDETLRLKMKAIVARGAGTVIVTLGENGSIAWDGAQFWRQAPEPVTVIDTMGAGDSFIAGFLCGWSAGMTLPQAIAQGTACAAKTIQYHGAW</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

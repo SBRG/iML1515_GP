@@ -1,14 +1,18 @@
 ENTRY       b3187             CDS       T00007
 NAME        ispB
-DEFINITION  (RefSeq) octaprenyl diphosphate synthase
+DEFINITION  (RefSeq) all-trans-octaprenyl-diphosphate synthase
 ORTHOLOGY   K02523  octaprenyl-diphosphate synthase [EC:2.5.1.90]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00900  Terpenoid backbone biosynthesis
             eco01110  Biosynthesis of secondary metabolites
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of terpenoids and polyketides
+             09100 Metabolism
+              09109 Metabolism of terpenoids and polyketides
                00900 Terpenoid backbone biosynthesis
+                b3187 (ispB)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01006 Prenyltransferases [BR:eco01006]
                 b3187 (ispB)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -21,15 +25,15 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
               Prenyl diphosphate synthase
                b3187 (ispB)
 POSITION    3333710..3334681
-MOTIF       Pfam: polyprenyl_synt
-DBLINKS     NCBI-ProteinID: NP_417654
-            NCBI-GeneID: 947364
+MOTIF       Pfam: polyprenyl_synt UbiA
+DBLINKS     NCBI-GeneID: 947364
+            NCBI-ProteinID: NP_417654
             Pasteur: ispB
-            EcoGene: EG10017
+            RegulonDB: ECK120000015
             ECOCYC: EG10017
             ASAP: ABE-0010474
             UniProt: P0AD57
-STRUCTURE   PDB: 3WJK 3WJO 3WJN
+STRUCTURE   PDB: 3WJK 3WJO 5ZE6 3WJN 5ZLF
 AASEQ       323
             MNLEKINELTAQDMAGVNAAILEQLNSDVQLINQLGYYIVSGGGKRIRPMIAVLAARAVG
             YEGNAHVTIAALIEFIHTATLLHDDVVDESDMRRGKATANAAFGNAASVLVGDFIYTRAF

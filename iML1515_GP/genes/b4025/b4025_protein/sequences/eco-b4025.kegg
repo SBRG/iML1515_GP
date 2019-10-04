@@ -1,6 +1,6 @@
 ENTRY       b4025             CDS       T00007
 NAME        pgi
-DEFINITION  (RefSeq) glucosephosphate isomerase
+DEFINITION  (RefSeq) glucose-6-phosphate isomerase
 ORTHOLOGY   K01810  glucose-6-phosphate isomerase [EC:5.3.1.9]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00010  Glycolysis / Gluconeogenesis
@@ -15,11 +15,8 @@ PATHWAY     eco00010  Glycolysis / Gluconeogenesis
 MODULE      eco_M00001  Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate
             eco_M00004  Pentose phosphate pathway (Pentose phosphate cycle)
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b4025 (pgi)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
                 b4025 (pgi)
                00030 Pentose phosphate pathway
@@ -27,6 +24,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                00500 Starch and sucrose metabolism
                 b4025 (pgi)
                00520 Amino sugar and nucleotide sugar metabolism
+                b4025 (pgi)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               04147 Exosome [BR:eco04147]
                 b4025 (pgi)
             Enzymes [BR:eco01000]
              5. Isomerases
@@ -44,10 +45,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b4025 (pgi)
 POSITION    4233758..4235407
 MOTIF       Pfam: PGI
-DBLINKS     NCBI-ProteinID: NP_418449
-            NCBI-GeneID: 948535
+DBLINKS     NCBI-GeneID: 948535
+            NCBI-ProteinID: NP_418449
             Pasteur: pgi
-            EcoGene: EG10702
+            RegulonDB: ECK120000694
             ECOCYC: EG10702
             ASAP: ABE-0013163
             UniProt: P0A6T1

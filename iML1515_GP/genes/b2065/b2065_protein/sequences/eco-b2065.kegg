@@ -1,14 +1,14 @@
 ENTRY       b2065             CDS       T00007
 NAME        dcd
-DEFINITION  (RefSeq) 2'-deoxycytidine 5'-triphosphate deaminase
+DEFINITION  (RefSeq) dCTP deaminase
 ORTHOLOGY   K01494  dCTP deaminase [EC:3.5.4.13]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00240  Pyrimidine metabolism
             eco01100  Metabolic pathways
 MODULE      eco_M00053  Pyrimidine deoxyribonuleotide biosynthesis, CDP/CTP => dCDP/dCTP,dTDP/dTTP
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00240 Pyrimidine metabolism
                 b2065 (dcd)
             Enzymes [BR:eco01000]
@@ -19,11 +19,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2065 (dcd)
 POSITION    complement(2141634..2142215)
 MOTIF       Pfam: DCD dUTPase
-DBLINKS     NCBI-ProteinID: NP_416569
-            NCBI-GeneID: 946593
+DBLINKS     NCBI-GeneID: 946593
+            NCBI-ProteinID: NP_416569
             Pasteur: dcd
             RegulonDB: ECK120001383
-            EcoGene: EG11418
             ECOCYC: EG11418
             ASAP: ABE-0006835
             UniProt: P28248

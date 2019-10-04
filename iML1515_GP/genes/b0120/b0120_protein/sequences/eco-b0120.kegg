@@ -1,6 +1,6 @@
 ENTRY       b0120             CDS       T00007
 NAME        speD
-DEFINITION  (RefSeq) S-adenosylmethionine decarboxylase
+DEFINITION  (RefSeq) S-adenosylmethionine decarboxylase proenzyme
 ORTHOLOGY   K01611  S-adenosylmethionine decarboxylase [EC:4.1.1.50]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00270  Cysteine and methionine metabolism
@@ -8,8 +8,8 @@ PATHWAY     eco00270  Cysteine and methionine metabolism
             eco01100  Metabolic pathways
 MODULE      eco_M00133  Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00270 Cysteine and methionine metabolism
                 b0120 (speD)
                00330 Arginine and proline metabolism
@@ -22,11 +22,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0120 (speD)
 POSITION    complement(134788..135582)
 MOTIF       Pfam: AdoMet_dc RuBisCO_large_N
-DBLINKS     NCBI-ProteinID: NP_414662
-            NCBI-GeneID: 947719
+DBLINKS     NCBI-GeneID: 947719
+            NCBI-ProteinID: NP_414662
             Pasteur: speD
             RegulonDB: ECK120000951
-            EcoGene: EG10962
             ECOCYC: EG10962
             ASAP: ABE-0000416
             UniProt: P0A7F6

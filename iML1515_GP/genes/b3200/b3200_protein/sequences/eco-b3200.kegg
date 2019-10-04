@@ -1,22 +1,27 @@
 ENTRY       b3200             CDS       T00007
 NAME        lptA
-DEFINITION  (RefSeq) periplasmic LPS-binding protein
+DEFINITION  (RefSeq) lipopolysaccharide transport system protein LptA
 ORTHOLOGY   K09774  lipopolysaccharide export system protein LptA
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3200 (lptA)
+            Transporters [BR:eco02000]
+             Other transporters
               Pores ion channels [TC:1]
                b3200 (lptA)
 POSITION    3343380..3343937
-MOTIF       Pfam: OstA LptC
-DBLINKS     NCBI-ProteinID: NP_417667
-            NCBI-GeneID: 947920
+MOTIF       Pfam: OstA LptC Big_9
+DBLINKS     NCBI-GeneID: 947920
+            NCBI-ProteinID: NP_417667
+            Pasteur: yhbN
             RegulonDB: ECK120004213
-            EcoGene: EG12618
             ECOCYC: G7665
             ASAP: ABE-0010510
             UniProt: P0ADV1
-STRUCTURE   PDB: 2R19 2R1A
+STRUCTURE   PDB: 2R19 2R1A 6GD5
 AASEQ       185
             MKFKTNKLSLNLVLASSLLAASIPAFAVTGDTDQPIHIESDQQSLDMQGNVVTFTGNVIV
             TQGTIKINADKVVVTRPGGEQGKEVIDGYGKPATFYQMQDNGKPVEGHASQMHYELAKDF

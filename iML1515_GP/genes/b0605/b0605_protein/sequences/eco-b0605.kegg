@@ -1,9 +1,14 @@
 ENTRY       b0605             CDS       T00007
 NAME        ahpC
-DEFINITION  (RefSeq) alkyl hydroperoxide reductase, C22 subunit
+DEFINITION  (RefSeq) alkyl hydroperoxide reductase, AhpC component
 ORTHOLOGY   K03386  peroxiredoxin (alkyl hydroperoxide reductase subunit C) [EC:1.11.1.15]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               04147 Exosome [BR:eco04147]
+                b0605 (ahpC)
+            Enzymes [BR:eco01000]
              1. Oxidoreductases
               1.11  Acting on a peroxide as acceptor
                1.11.1  Peroxidases
@@ -15,10 +20,10 @@ BRITE       Enzymes [BR:eco01000]
                b0605 (ahpC)
 POSITION    638945..639508
 MOTIF       Pfam: AhpC-TSA Redoxin 1-cysPrx_C SCO1-SenC
-DBLINKS     NCBI-ProteinID: NP_415138
-            NCBI-GeneID: 945225
+DBLINKS     NCBI-GeneID: 945225
+            NCBI-ProteinID: NP_415138
             Pasteur: ahpC
-            EcoGene: EG11384
+            RegulonDB: ECK120001351
             ECOCYC: EG11384
             ASAP: ABE-0002090
             UniProt: P0AE08

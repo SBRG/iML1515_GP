@@ -1,0 +1,803 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1996-10-01" modified="2019-09-18" version="144">
+<accession>P52061</accession>
+<accession>Q2M9N9</accession>
+<name>IXTPA_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName evidence="3 12 13">dITP/XTP pyrophosphatase</fullName>
+<ecNumber evidence="3 4 7">3.6.1.66</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="9">Deoxyribonucleoside triphosphate pyrophosphohydrolase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="10">Inosine triphosphate pyrophosphatase</fullName>
+<shortName evidence="10">ITPase</shortName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="3 12">Non-canonical purine NTP pyrophosphatase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="3 12">Non-standard purine NTP pyrophosphatase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="3 12">Nucleoside-triphosphate diphosphatase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="3 12">Nucleoside-triphosphate pyrophosphatase</fullName>
+<shortName evidence="3 8">NTPase</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="14">rdgB</name>
+<name type="synonym">yggV</name>
+<name type="ordered locus">b2954</name>
+<name type="ordered locus">JW2921</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2002" name="J. Biochem. Mol. Biol." volume="35" first="403" last="408">
+<title>Identification of the dITP- and XTP-hydrolyzing protein from Escherichia coli.</title>
+<authorList>
+<person name="Chung J.H."/>
+<person name="Park H.-Y."/>
+<person name="Lee J.H."/>
+<person name="Jang Y."/>
+</authorList>
+<dbReference type="PubMed" id="12297000"/>
+<dbReference type="DOI" id="10.5483/bmbrep.2002.35.4.403"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>SUBSTRATE SPECIFICITY</scope>
+<scope>SUBUNIT</scope>
+<scope>COFACTOR</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<source>
+<strain>K12</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2003" name="J. Bacteriol." volume="185" first="3101" last="3110">
+<title>Repair system for noncanonical purines in Escherichia coli.</title>
+<authorList>
+<person name="Burgis N.E."/>
+<person name="Brucker J.J."/>
+<person name="Cunningham R.P."/>
+</authorList>
+<dbReference type="PubMed" id="12730170"/>
+<dbReference type="DOI" id="10.1128/jb.185.10.3101-3110.2003"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2007" name="J. Biol. Chem." volume="282" first="3531" last="3538">
+<title>Substrate specificity of RdgB protein, a deoxyribonucleoside triphosphate pyrophosphohydrolase.</title>
+<authorList>
+<person name="Burgis N.E."/>
+<person name="Cunningham R.P."/>
+</authorList>
+<dbReference type="PubMed" id="17090528"/>
+<dbReference type="DOI" id="10.1074/jbc.m608708200"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>SUBSTRATE SPECIFICITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2007" name="J. Mol. Biol." volume="374" first="1091" last="1103">
+<title>Molecular basis of the antimutagenic activity of the house-cleaning inosine triphosphate pyrophosphatase RdgB from Escherichia coli.</title>
+<authorList>
+<person name="Savchenko A."/>
+<person name="Proudfoot M."/>
+<person name="Skarina T."/>
+<person name="Singer A."/>
+<person name="Litvinova O."/>
+<person name="Sanishvili R."/>
+<person name="Brown G."/>
+<person name="Chirgadze N."/>
+<person name="Yakunin A.F."/>
+</authorList>
+<dbReference type="PubMed" id="17976651"/>
+<dbReference type="DOI" id="10.1016/j.jmb.2007.10.012"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.50 ANGSTROMS) OF WILD-TYPE APOENZYME AND MUTANT ALA-69 IN COMPLEXES WITH IMP AND ITP</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>COFACTOR</scope>
+<scope>MUTAGENESIS OF THR-8; ASN-10; LYS-13; GLU-41; LYS-53; ASP-68; ASP-69; GLY-71; PHE-154; PHE-160 AND ARG-183</scope>
+<scope>REACTION MECHANISM</scope>
+<scope>ACTIVE SITE</scope>
+<scope>SUBUNIT</scope>
+</reference>
+<comment type="function">
+<text evidence="3 4 5 6 7">Pyrophosphatase that catalyzes the hydrolysis of nucleoside triphosphates to their monophosphate derivatives, with a high preference for the non-canonical purine nucleotides XTP (xanthosine triphosphate), dITP (deoxyinosine triphosphate) and ITP (PubMed:12297000, PubMed:17976651). Can also efficiently hydrolyze 2'-deoxy-N-6-hydroxylaminopurine triphosphate (dHAPTP) (PubMed:17090528). Seems to function as a house-cleaning enzyme that removes non-canonical purine nucleotides from the nucleotide pool, thus preventing their incorporation into DNA/RNA and avoiding chromosomal lesions (PubMed:12297000, PubMed:12730170, PubMed:17090528). To a much lesser extent, is also able to hydrolyze GTP, dGTP and dUTP, but shows very low activity toward the canonical nucleotides dATP, dCTP and dTTP and toward 8-oxo-dGTP, purine deoxyribose triphosphate, 2-aminopurine deoxyribose triphosphate and 2,6-diaminopurine deoxyribose triphosphate (PubMed:12297000, PubMed:17090528).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3 4 7">
+<text>H2O + XTP = diphosphate + H(+) + XMP</text>
+<dbReference type="Rhea" id="RHEA:28610"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:57464"/>
+<dbReference type="ChEBI" id="CHEBI:61314"/>
+<dbReference type="EC" id="3.6.1.66"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3 4 6 7">
+<text>dITP + H2O = dIMP + diphosphate + H(+)</text>
+<dbReference type="Rhea" id="RHEA:28342"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:61194"/>
+<dbReference type="ChEBI" id="CHEBI:61382"/>
+<dbReference type="EC" id="3.6.1.66"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3 4 7">
+<text>H2O + ITP = diphosphate + H(+) + IMP</text>
+<dbReference type="Rhea" id="RHEA:29399"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:58053"/>
+<dbReference type="ChEBI" id="CHEBI:61402"/>
+<dbReference type="EC" id="3.6.1.66"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="4 7">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<cofactor evidence="4">
+<name>Mn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29035"/>
+</cofactor>
+<cofactor evidence="4">
+<name>Ni(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:49786"/>
+</cofactor>
+<text evidence="4">Binds 1 divalent metal cation per subunit. Maximum activity is obtained with Mg(2+). Activity with Mn(2+) or Ni(2+) makes up 60-75% of the maximum rate.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="4">0.33 mM for XTP (at pH 10.0 and 37 degrees Celsius)</KM>
+<KM evidence="4">0.36 mM for dITP (at pH 10.0 and 37 degrees Celsius)</KM>
+<KM evidence="4">0.41 mM for ITP (at pH 10.0 and 37 degrees Celsius)</KM>
+<KM evidence="6">22.0 uM for dITP (at pH 9.5 and 37 degrees Celsius)</KM>
+<KM evidence="6">792 uM for dGTP (at pH 9.5 and 37 degrees Celsius)</KM>
+<KM evidence="6">16.5 uM for dHAPTP (at pH 9.5 and 37 degrees Celsius)</KM>
+<KM evidence="7">23.3 uM for XTP (at pH 9.0 and 37 degrees Celsius)</KM>
+<KM evidence="7">11.3 uM for dITP (at pH 9.0 and 37 degrees Celsius)</KM>
+<KM evidence="7">5.6 uM for ITP (at pH 9.0 and 37 degrees Celsius)</KM>
+<KM evidence="7">312.6 uM for GTP (at pH 9.0 and 37 degrees Celsius)</KM>
+<KM evidence="7">181.5 uM for dGTP (at pH 9.0 and 37 degrees Celsius)</KM>
+<KM evidence="7">289.1 uM for TTP (at pH 9.0 and 37 degrees Celsius)</KM>
+<text evidence="4 6 7">Vmax values are similar for XTP, dITP and ITP. Activity toward dATP, dCTP and dTTP is less than 1% of the rate of XTP hydrolysis. dGTP and dUTP are hydrolyzed at 10-12% of the rate of XTP hydrolysis (PubMed:12297000). kcat is 5.7 sec(-1) with ITP or dHAPTP as substrate. kcat is 1.5 sec(-1) with dGTP as substrate (at pH 9.5 and 37 degrees Celsius) (PubMed:17090528). kcat is 19.9 sec(-1) with XTP as substrate. kcat is 13.2 sec(-1) with dITP as substrate. kcat is 18.9 sec(-1) with ITP as substrate. kcat is 0.85 sec(-1) with GTP as substrate. kcat is 0.37 sec(-1) with dGTP as substrate. kcat is 0.26 sec(-1) with TTP as substrate (at pH 9.0 and 37 degrees Celsius) (PubMed:17976651).</text>
+</kinetics>
+<phDependence>
+<text evidence="4 7">Optimum pH is 10-10.5 (PubMed:12297000). Optimum pH is 9.0 (PubMed:17976651). Reaction rates under neutral conditions are &lt;40% of the maximum (PubMed:12297000).</text>
+</phDependence>
+</comment>
+<comment type="subunit">
+<text evidence="3 4 7">Homodimer.</text>
+</comment>
+<comment type="disruption phenotype">
+<text evidence="5">Inactivation of this gene in a moa background (cells deficient in molybdopterin biosynthesis) results in increased N-6-hydroxylaminopurine (HAP) sensitivity, an increase in the level of mutagenesis, and increased recombination and SOS induction upon HAP exposure.</text>
+</comment>
+<comment type="miscellaneous">
+<text evidence="4">Modified or damaged nucleotides such as 6-chloropurine deoxyribose triphosphate, 8-Br-dGTP, 5-Br-dCTP, 5-Br-dUTP, 7-deaza-dGTP, 7-methyl-GTP, N6-etheno-ATP, NAD, NADH, FAD, ADP-ribose, UPD-glucose, AppA and ApppA are not hydrolyzed by the enzyme.</text>
+</comment>
+<comment type="miscellaneous">
+<text evidence="11">The aberrant nucleotides XTP and dITP can be produced by oxidative deamination from purine nucleotides in cells; they are potentially mutagenic.</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the HAM1 NTPase family.</text>
+</comment>
+<dbReference type="EC" id="3.6.1.66" evidence="3 4 7"/>
+<dbReference type="EMBL" id="U28377">
+<property type="protein sequence ID" value="AAA69121.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC75991.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE77017.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="A65081">
+<property type="entry name" value="A65081"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_417429.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_001174777.1">
+<property type="nucleotide sequence ID" value="NZ_SSUV01000019.1"/>
+</dbReference>
+<dbReference type="PDB" id="1K7K">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.50"/>
+<property type="chains" value="A=1-197"/>
+</dbReference>
+<dbReference type="PDB" id="2PYU">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.02"/>
+<property type="chains" value="A=1-197"/>
+</dbReference>
+<dbReference type="PDB" id="2Q16">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.95"/>
+<property type="chains" value="A/B=1-197"/>
+</dbReference>
+<dbReference type="PDBsum" id="1K7K"/>
+<dbReference type="PDBsum" id="2PYU"/>
+<dbReference type="PDBsum" id="2Q16"/>
+<dbReference type="SMR" id="P52061"/>
+<dbReference type="BioGrid" id="4260898">
+<property type="interactions" value="103"/>
+</dbReference>
+<dbReference type="BioGrid" id="851750">
+<property type="interactions" value="2"/>
+</dbReference>
+<dbReference type="IntAct" id="P52061">
+<property type="interactions" value="3"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b2954"/>
+<dbReference type="jPOST" id="P52061"/>
+<dbReference type="PaxDb" id="P52061"/>
+<dbReference type="PRIDE" id="P52061"/>
+<dbReference type="EnsemblBacteria" id="AAC75991">
+<property type="protein sequence ID" value="AAC75991"/>
+<property type="gene ID" value="b2954"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE77017">
+<property type="protein sequence ID" value="BAE77017"/>
+<property type="gene ID" value="BAE77017"/>
+</dbReference>
+<dbReference type="GeneID" id="947429"/>
+<dbReference type="KEGG" id="ecj:JW2921"/>
+<dbReference type="KEGG" id="eco:b2954"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.3778"/>
+<dbReference type="EchoBASE" id="EB2807"/>
+<dbReference type="EcoGene" id="EG12982">
+<property type="gene designation" value="rdgB"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4108V82">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0127">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000293319"/>
+<dbReference type="InParanoid" id="P52061"/>
+<dbReference type="KO" id="K02428"/>
+<dbReference type="PhylomeDB" id="P52061"/>
+<dbReference type="BioCyc" id="EcoCyc:G7530-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW2921-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:G7530-MONOMER"/>
+<dbReference type="BRENDA" id="3.6.1.19">
+<property type="organism ID" value="2026"/>
+</dbReference>
+<dbReference type="EvolutionaryTrace" id="P52061"/>
+<dbReference type="PRO" id="PR:P52061"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035870">
+<property type="term" value="F:dITP diphosphatase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0036220">
+<property type="term" value="F:ITP diphosphatase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0017111">
+<property type="term" value="F:nucleoside-triphosphatase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0047429">
+<property type="term" value="F:nucleoside-triphosphate diphosphatase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000166">
+<property type="term" value="F:nucleotide binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042803">
+<property type="term" value="F:protein homodimerization activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0036222">
+<property type="term" value="F:XTP diphosphatase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009143">
+<property type="term" value="P:nucleoside triphosphate catabolic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009117">
+<property type="term" value="P:nucleotide metabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009146">
+<property type="term" value="P:purine nucleoside triphosphate catabolic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="CDD" id="cd00515">
+<property type="entry name" value="HAM1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.90.950.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_01405">
+<property type="entry name" value="Non_canon_purine_NTPase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR020922">
+<property type="entry name" value="dITP/XTP_pyrophosphatase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002637">
+<property type="entry name" value="Ham1p-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029001">
+<property type="entry name" value="ITPase-like_fam"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR11067">
+<property type="entry name" value="PTHR11067"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01725">
+<property type="entry name" value="Ham1p_like"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52972">
+<property type="entry name" value="SSF52972"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00042">
+<property type="entry name" value="TIGR00042"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0464">Manganese</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0533">Nickel</keyword>
+<keyword id="KW-0546">Nucleotide metabolism</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="dITP/XTP pyrophosphatase" id="PRO_0000178164">
+<location>
+<begin position="1"/>
+<end position="197"/>
+</location>
+</feature>
+<feature type="region of interest" description="Substrate binding" evidence="2 3 7">
+<location>
+<begin position="8"/>
+<end position="13"/>
+</location>
+</feature>
+<feature type="region of interest" description="Substrate binding" evidence="2 3 7">
+<location>
+<begin position="154"/>
+<end position="157"/>
+</location>
+</feature>
+<feature type="region of interest" description="Substrate binding" evidence="2 3 7">
+<location>
+<begin position="182"/>
+<end position="183"/>
+</location>
+</feature>
+<feature type="active site" description="Proton acceptor" evidence="13">
+<location>
+<position position="69"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="3">
+<location>
+<position position="40"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="3">
+<location>
+<position position="69"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate; via amide nitrogen" evidence="2 7">
+<location>
+<position position="70"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="2 7">
+<location>
+<position position="177"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Greatly reduced ITP pyrophosphatase activity." evidence="7">
+<original>T</original>
+<variation>A</variation>
+<location>
+<position position="8"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Greatly reduced ITP pyrophosphatase activity." evidence="7">
+<original>N</original>
+<variation>A</variation>
+<location>
+<position position="10"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Complete loss of enzymatic activity." evidence="7">
+<original>K</original>
+<variation>A</variation>
+<location>
+<position position="13"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Complete loss of enzymatic activity." evidence="7">
+<original>E</original>
+<variation>A</variation>
+<location>
+<position position="41"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Complete loss of enzymatic activity." evidence="7">
+<original>K</original>
+<variation>A</variation>
+<location>
+<position position="53"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Greatly reduced ITP pyrophosphatase activity." evidence="7">
+<original>D</original>
+<variation>A</variation>
+<location>
+<position position="68"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Complete loss of enzymatic activity." evidence="7">
+<original>D</original>
+<variation>A</variation>
+<location>
+<position position="69"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Greatly reduced ITP pyrophosphatase activity." evidence="7">
+<original>G</original>
+<variation>A</variation>
+<location>
+<position position="71"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Greatly reduced ITP pyrophosphatase activity." evidence="7">
+<original>F</original>
+<variation>A</variation>
+<location>
+<position position="154"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Greatly reduced ITP pyrophosphatase activity." evidence="7">
+<original>F</original>
+<variation>A</variation>
+<location>
+<position position="160"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Greatly reduced ITP pyrophosphatase activity." evidence="7">
+<original>R</original>
+<variation>A</variation>
+<location>
+<position position="183"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="2"/>
+<end position="7"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="11"/>
+<end position="21"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="22"/>
+<end position="24"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="26"/>
+<end position="30"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="31"/>
+<end position="35"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="46"/>
+<end position="61"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="65"/>
+<end position="74"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="75"/>
+<end position="77"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="82"/>
+<end position="84"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="86"/>
+<end position="89"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="95"/>
+<end position="105"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="106"/>
+<end position="108"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="111"/>
+<end position="113"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="115"/>
+<end position="127"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="134"/>
+<end position="144"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="152"/>
+<end position="154"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="157"/>
+<end position="159"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="163"/>
+<end position="165"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="166"/>
+<end position="168"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="169"/>
+<end position="171"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="174"/>
+<end position="180"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="182"/>
+<end position="195"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1K7K"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2Q16"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_01405"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12297000"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12730170"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="17090528"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="17976651"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="12297000"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="17090528"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="17976651"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000305"/>
+<evidence key="12" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="12297000"/>
+</source>
+</evidence>
+<evidence key="13" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="17976651"/>
+</source>
+</evidence>
+<evidence key="14" type="ECO:0000312">
+<source>
+<dbReference type="EMBL" id="AAC75991.1"/>
+</source>
+</evidence>
+<sequence length="197" mass="21039" checksum="74E82A59B1A9E294" modified="1996-10-01" version="1">MQKVVLATGNVGKVRELASLLSDFGLDIVAQTDLGVDSAEETGLTFIENAILKARHAAKVTALPAIADDSGLAVDVLGGAPGIYSARYSGEDATDQKNLQKLLETMKDVPDDQRQARFHCVLVYLRHAEDPTPLVCHGSWPGVITREPAGTGGFGYDPIFFVPSEGKTAAELTREEKSAISHRGQALKLLLDALRNG</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,574 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1995-02-01" modified="2019-07-31" version="155">
+<accession>P39346</accession>
+<accession>Q2M642</accession>
+<name>IDND_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>L-idonate 5-dehydrogenase (NAD(P)(+))</fullName>
+<ecNumber>1.1.1.264</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">idnD</name>
+<name type="synonym">yjgV</name>
+<name type="ordered locus">b4267</name>
+<name type="ordered locus">JW4224</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1995" name="Nucleic Acids Res." volume="23" first="2105" last="2119">
+<title>Analysis of the Escherichia coli genome VI: DNA sequence of the region from 92.8 through 100 minutes.</title>
+<authorList>
+<person name="Burland V.D."/>
+<person name="Plunkett G. III"/>
+<person name="Sofia H.J."/>
+<person name="Daniels D.L."/>
+<person name="Blattner F.R."/>
+</authorList>
+<dbReference type="PubMed" id="7610040"/>
+<dbReference type="DOI" id="10.1093/nar/23.12.2105"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="1998" name="J. Bacteriol." volume="180" first="3704" last="3710">
+<title>Sequence analysis of the GntII (subsidiary) system for gluconate metabolism reveals a novel pathway for L-idonic acid catabolism in Escherichia coli.</title>
+<authorList>
+<person name="Bausch C."/>
+<person name="Peekhaus N."/>
+<person name="Utz C."/>
+<person name="Blais T."/>
+<person name="Murray E."/>
+<person name="Lowary T."/>
+<person name="Conway T."/>
+</authorList>
+<dbReference type="PubMed" id="9658018"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+</reference>
+<comment type="function">
+<text evidence="3">Catalyzes the NADH/NADPH-dependent oxidation of L-idonate to 5-ketogluconate (5KG).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3">
+<text>L-idonate + NADP(+) = 5-dehydro-D-gluconate + H(+) + NADPH</text>
+<dbReference type="Rhea" id="RHEA:21176"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:17796"/>
+<dbReference type="ChEBI" id="CHEBI:57783"/>
+<dbReference type="ChEBI" id="CHEBI:58143"/>
+<dbReference type="ChEBI" id="CHEBI:58349"/>
+<dbReference type="EC" id="1.1.1.264"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="3">
+<text>L-idonate + NAD(+) = 5-dehydro-D-gluconate + H(+) + NADH</text>
+<dbReference type="Rhea" id="RHEA:21172"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:17796"/>
+<dbReference type="ChEBI" id="CHEBI:57540"/>
+<dbReference type="ChEBI" id="CHEBI:57945"/>
+<dbReference type="ChEBI" id="CHEBI:58143"/>
+<dbReference type="EC" id="1.1.1.264"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="2">
+<name>Zn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29105"/>
+</cofactor>
+<text evidence="2">Binds 2 Zn(2+) ions per subunit.</text>
+</comment>
+<comment type="pathway">
+<text>Carbohydrate acid metabolism; L-idonate degradation.</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-552913"/>
+<interactant intactId="EBI-542856">
+<id>P0A9P0</id>
+<label>lpdA</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>2</experiments>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the zinc-containing alcohol dehydrogenase family.</text>
+</comment>
+<dbReference type="EC" id="1.1.1.264"/>
+<dbReference type="EMBL" id="U14003">
+<property type="protein sequence ID" value="AAA97164.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC77224.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE78264.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="S56493">
+<property type="entry name" value="S56493"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_418688.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_001197411.1">
+<property type="nucleotide sequence ID" value="NZ_SSUV01000014.1"/>
+</dbReference>
+<dbReference type="PDB" id="6DKH">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.61"/>
+<property type="chains" value="A/B/C/D=1-343"/>
+</dbReference>
+<dbReference type="PDBsum" id="6DKH"/>
+<dbReference type="SMR" id="P39346"/>
+<dbReference type="BioGrid" id="4259666">
+<property type="interactions" value="722"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-10010N"/>
+<dbReference type="IntAct" id="P39346">
+<property type="interactions" value="5"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b4267"/>
+<dbReference type="PaxDb" id="P39346"/>
+<dbReference type="PRIDE" id="P39346"/>
+<dbReference type="EnsemblBacteria" id="AAC77224">
+<property type="protein sequence ID" value="AAC77224"/>
+<property type="gene ID" value="b4267"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE78264">
+<property type="protein sequence ID" value="BAE78264"/>
+<property type="gene ID" value="BAE78264"/>
+</dbReference>
+<dbReference type="GeneID" id="944769"/>
+<dbReference type="KEGG" id="ecj:JW4224"/>
+<dbReference type="KEGG" id="eco:b4267"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.2436"/>
+<dbReference type="EchoBASE" id="EB2430"/>
+<dbReference type="EcoGene" id="EG12541">
+<property type="gene designation" value="idnD"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105CPQ">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1063">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000294670"/>
+<dbReference type="InParanoid" id="P39346"/>
+<dbReference type="KO" id="K00098"/>
+<dbReference type="PhylomeDB" id="P39346"/>
+<dbReference type="BioCyc" id="EcoCyc:IDONDEHYD-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW4224-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:IDONDEHYD-MONOMER"/>
+<dbReference type="BRENDA" id="1.1.1.264">
+<property type="organism ID" value="2026"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00793"/>
+<dbReference type="PRO" id="PR:P39346"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050572">
+<property type="term" value="F:L-idonate 5-dehydrogenase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019521">
+<property type="term" value="P:D-gluconate metabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046183">
+<property type="term" value="P:L-idonate catabolic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013149">
+<property type="entry name" value="ADH_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013154">
+<property type="entry name" value="ADH_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011032">
+<property type="entry name" value="GroES-like_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036291">
+<property type="entry name" value="NAD(P)-bd_dom_sf"/>
+</dbReference>
+<dbReference type="Pfam" id="PF08240">
+<property type="entry name" value="ADH_N"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00107">
+<property type="entry name" value="ADH_zinc_N"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF50129">
+<property type="entry name" value="SSF50129"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51735">
+<property type="entry name" value="SSF51735"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0311">Gluconate utilization</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0521">NADP</keyword>
+<keyword id="KW-0560">Oxidoreductase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0862">Zinc</keyword>
+<feature type="chain" description="L-idonate 5-dehydrogenase (NAD(P)(+))" id="PRO_0000160881">
+<location>
+<begin position="1"/>
+<end position="343"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc 1; catalytic" evidence="2">
+<location>
+<position position="40"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc 1; catalytic" evidence="2">
+<location>
+<position position="65"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc 2" evidence="2">
+<location>
+<position position="93"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc 2" evidence="2">
+<location>
+<position position="96"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc 2" evidence="2">
+<location>
+<position position="99"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc 2" evidence="2">
+<location>
+<position position="107"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc 1; catalytic" evidence="2">
+<location>
+<position position="153"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="1"/>
+<end position="12"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="15"/>
+<end position="25"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="27"/>
+<end position="39"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="41"/>
+<end position="48"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="49"/>
+<end position="52"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="65"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="84"/>
+<end position="87"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="94"/>
+<end position="96"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="97"/>
+<end position="100"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="104"/>
+<end position="106"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="118"/>
+<end position="120"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="127"/>
+<end position="132"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="134"/>
+<end position="136"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="137"/>
+<end position="139"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="146"/>
+<end position="149"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="152"/>
+<end position="164"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="172"/>
+<end position="176"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="180"/>
+<end position="192"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="195"/>
+<end position="200"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="204"/>
+<end position="212"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="216"/>
+<end position="219"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="221"/>
+<end position="223"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="227"/>
+<end position="230"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="231"/>
+<end position="233"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="235"/>
+<end position="241"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="246"/>
+<end position="255"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="256"/>
+<end position="264"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="276"/>
+<end position="282"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="285"/>
+<end position="288"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="295"/>
+<end position="304"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="311"/>
+<end position="313"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="314"/>
+<end position="319"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="323"/>
+<end position="330"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="333"/>
+<end position="335"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="337"/>
+<end position="342"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="6DKH"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250"/>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9658018"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="343" mass="37147" checksum="7A3C6E6C0CED6F09" modified="1995-02-01" version="1">MQVKTQSCVVAGKKTVAVTEQTIDWNNNGTLVQITRGGICGSDLHYYQEGKVGNFMIKAPMVLGHEVIGKVIHSDSSELHEGQTVAINPSKPCGHCKYCIEHNENQCTDMRFFGSAMYFPHVDGGFTRYKMVETSQCVPYPAKADEKVMAFAEPLAVAIHAAHQAGELQGKRVFISGVGPIGCLIVSAVKTLGAAEIVCADVSPRSLSLGKEMGADVLVNPQNDDMDHWKAEKGYFDVSFEVSGHPSSVNTCLEVTRARGVMVQVGMGGAMAEFPMMTLIGKEISLRGSFRFTSEFNTAVSWLANGVINPLPLLSAEYPFTDLEEALRFAGDKTQAAKVQLVF</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

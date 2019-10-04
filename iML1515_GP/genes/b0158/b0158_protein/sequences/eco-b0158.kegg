@@ -1,30 +1,33 @@
 ENTRY       b0158             CDS       T00007
 NAME        btuF
-DEFINITION  (RefSeq) vitamin B12 transporter subunit: periplasmic-binding component of ABC superfamily
+DEFINITION  (RefSeq) vitamin B12 ABC transporter periplasmic binding protein
 ORTHOLOGY   K06858  vitamin B12 transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00241  Vitamin B12 transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b0158 (btuF)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0158 (btuF)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Metallic cation, iron-siderophore and vitamin B12 transporters
-               Vitamin B12 transporter [MD:M00241] [OT]
+               Vitamin B12 transporter
                 b0158 (btuF)
 POSITION    complement(177662..178462)
-MOTIF       Pfam: Peripla_BP_2 DUF2493 DUF2397 Lipase_GDSL_2 DUF4124
-DBLINKS     NCBI-ProteinID: NP_414700
-            NCBI-GeneID: 947574
+MOTIF       Pfam: Peripla_BP_2 YAcAr DUF2397 Lipase_GDSL_2
+DBLINKS     NCBI-GeneID: 947574
+            NCBI-ProteinID: NP_414700
+            Pasteur: yadT
             RegulonDB: ECK120002209
-            EcoGene: EG12334
             ECOCYC: EG12334
             ASAP: ABE-0000542
             UniProt: P37028
-STRUCTURE   PDB: 5M3B 5M29 5M34 5M2Q 1N4A 1N2Z 2QI9 1N4D 4FI3 4DBL
+STRUCTURE   PDB: 5M3B 5M29 5M34 5M2Q 1N4A 1N2Z 2QI9 5OVW 1N4D 4FI3 4DBL
 AASEQ       266
             MAKSLFRALVALSFLAPLWLNAAPRVITLSPANTELAFAAGITPVGVSSYSDYPPQAQKI
             EQVSTWQGMNLERIVALKPDLVIAWRGGNAERQVDQLASLGIKVMWVDATSIEQIANALR

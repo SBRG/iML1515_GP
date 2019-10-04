@@ -1,12 +1,13 @@
 ENTRY       b1919             CDS       T00007
 NAME        dcyD
-DEFINITION  (RefSeq) D-cysteine desulfhydrase, PLP-dependent
+DEFINITION  (RefSeq) D-cysteine desulfhydrase
 ORTHOLOGY   K05396  D-cysteine desulfhydrase [EC:4.4.1.15]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00270  Cysteine and methionine metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00270 Cysteine and methionine metabolism
                 b1919 (dcyD)
             Enzymes [BR:eco01000]
@@ -17,10 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1919 (dcyD)
 POSITION    complement(1998494..1999480)
 MOTIF       Pfam: PALP
-DBLINKS     NCBI-ProteinID: NP_416429
-            NCBI-GeneID: 946831
+DBLINKS     NCBI-GeneID: 946831
+            NCBI-ProteinID: NP_416429
+            Pasteur: yedO
             RegulonDB: ECK120003624
-            EcoGene: EG14038
             ECOCYC: G7038
             ASAP: ABE-0006389
             UniProt: P76316

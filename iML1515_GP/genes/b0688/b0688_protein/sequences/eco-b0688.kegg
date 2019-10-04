@@ -15,9 +15,10 @@ PATHWAY     eco00010  Glycolysis / Gluconeogenesis
             eco01120  Microbial metabolism in diverse environments
             eco01130  Biosynthesis of antibiotics
 MODULE      eco_M00549  Nucleotide sugar biosynthesis, glucose => UDP-glucose
+            eco_M00855  Glycogen degradation, glycogen => glucose-6P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
                 b0688 (pgm)
                00030 Pentose phosphate pathway
@@ -28,10 +29,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 b0688 (pgm)
                00520 Amino sugar and nucleotide sugar metabolism
                 b0688 (pgm)
-              Nucleotide metabolism
+              09104 Nucleotide metabolism
                00230 Purine metabolism
                 b0688 (pgm)
-              Biosynthesis of other secondary metabolites
+              09110 Biosynthesis of other secondary metabolites
                00521 Streptomycin biosynthesis
                 b0688 (pgm)
             Enzymes [BR:eco01000]
@@ -42,10 +43,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0688 (pgm)
 POSITION    713558..715198
 MOTIF       Pfam: PGM_PMM_I PGM_PMM_III PGM_PMM_II PGM_PMM_IV
-DBLINKS     NCBI-ProteinID: NP_415214
-            NCBI-GeneID: 945271
+DBLINKS     NCBI-GeneID: 945271
+            NCBI-ProteinID: NP_415214
             Pasteur: pgm
-            EcoGene: EG12144
+            RegulonDB: ECK120002045
             ECOCYC: EG12144
             ASAP: ABE-0002345
             UniProt: P36938

@@ -1,13 +1,15 @@
 ENTRY       b1397             CDS       T00007
 NAME        paaJ
-DEFINITION  (RefSeq) 3-oxoadipyl-CoA/3-oxo-5,6-dehydrosuberyl-CoA thiolase
+DEFINITION  (RefSeq) beta-ketoadipyl-CoA thiolase
 ORTHOLOGY   K02615  3-oxo-5,6-didehydrosuberyl-CoA/3-oxoadipyl-CoA thiolase [EC:2.3.1.223 2.3.1.174]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00360  Phenylalanine metabolism
+            eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
+MODULE      eco_M00878  Phenylacetate degradation, phenylaxetate => acetyl-CoA/succinyl-CoA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00360 Phenylalanine metabolism
                 b1397 (paaJ)
             Enzymes [BR:eco01000]
@@ -20,11 +22,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1397 (paaJ)
 POSITION    1460893..1462098
 MOTIF       Pfam: Thiolase_N Thiolase_C ketoacyl-synt
-DBLINKS     NCBI-ProteinID: NP_415915
-            NCBI-GeneID: 946121
+DBLINKS     NCBI-GeneID: 946121
+            NCBI-ProteinID: NP_415915
             Pasteur: paaJ
             RegulonDB: ECK120003312
-            EcoGene: EG13744
             ECOCYC: G6718
             ASAP: ABE-0004668
             UniProt: P0C7L2

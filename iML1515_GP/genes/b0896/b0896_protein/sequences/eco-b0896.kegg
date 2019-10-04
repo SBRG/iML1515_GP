@@ -1,25 +1,29 @@
 ENTRY       b0896             CDS       T00007
 NAME        dmsC
-DEFINITION  (RefSeq) dimethyl sulfoxide reductase, anaerobic, subunit C
-ORTHOLOGY   K07308  anaerobic dimethyl sulfoxide reductase subunit C (DMSO reductase anchor subunit)
+DEFINITION  (RefSeq) dimethyl sulfoxide reductase subunit C
+ORTHOLOGY   K07308  anaerobic dimethyl sulfoxide reductase subunit C
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00920  Sulfur metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00920 Sulfur metabolism
                 b0896 (dmsC)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0896 (dmsC)
             Transporters [BR:eco02000]
-             Other Transporters
+             Other transporters
               Transmembrane electron carriers [TC:5]
                b0896 (dmsC)
 POSITION    944033..944896
 MOTIF       Pfam: DmsC DUF4345 Anti-adapt_IraP
-DBLINKS     NCBI-ProteinID: NP_415416
-            NCBI-GeneID: 945502
+DBLINKS     NCBI-GeneID: 945502
+            NCBI-ProteinID: NP_415416
             Pasteur: dmsC
             RegulonDB: ECK120000228
-            EcoGene: EG10234
             ECOCYC: EG10234
             ASAP: ABE-0003048
             UniProt: P18777

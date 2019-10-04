@@ -1,16 +1,20 @@
 ENTRY       b3930             CDS       T00007
 NAME        menA
 DEFINITION  (RefSeq) 1,4-dihydroxy-2-naphthoate octaprenyltransferase
-ORTHOLOGY   K02548  1,4-dihydroxy-2-naphthoate octaprenyltransferase [EC:2.5.1.74 2.5.1.-]
+ORTHOLOGY   K02548  1,4-dihydroxy-2-naphthoate polyprenyltransferase [EC:2.5.1.74]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00130  Ubiquinone and other terpenoid-quinone biosynthesis
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
-MODULE      eco_M00116  Menaquinone biosynthesis, chorismate => menaquinone
+MODULE      eco_M00116  Menaquinone biosynthesis, chorismate => menaquinol
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00130 Ubiquinone and other terpenoid-quinone biosynthesis
+                b3930 (menA)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01006 Prenyltransferases [BR:eco01006]
                 b3930 (menA)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -18,18 +22,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
                 2.5.1.74  1,4-dihydroxy-2-naphthoate polyprenyltransferase
                  b3930 (menA)
-                2.5.1.-  
-                 b3930 (menA)
             Prenyltransferases [BR:eco01006]
              Compound prenylation
               DHNA octaprenyltransferase
                b3930 (menA)
 POSITION    complement(4119423..4120349)
 MOTIF       Pfam: UbiA
-DBLINKS     NCBI-ProteinID: NP_418365
-            NCBI-GeneID: 948418
+DBLINKS     NCBI-GeneID: 948418
+            NCBI-ProteinID: NP_418365
             Pasteur: menA
-            EcoGene: EG11880
+            RegulonDB: ECK120001810
             ECOCYC: EG11880
             ASAP: ABE-0012841
             UniProt: P32166

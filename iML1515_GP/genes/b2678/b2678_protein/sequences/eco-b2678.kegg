@@ -1,27 +1,29 @@
 ENTRY       b2678             CDS       T00007
 NAME        proW
-DEFINITION  (RefSeq) glycine betaine transporter subunit
+DEFINITION  (RefSeq) glycine betaine ABC transporter membrane subunit ProW
 ORTHOLOGY   K02001  glycine betaine/proline transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00208  Glycine betaine/proline transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b2678 (proW)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2678 (proW)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Mineral and organic ion transporters
-               Glycine betaine/proline transporter [MD:M00208] [OT]
+               Glycine betaine/proline transporter
                 b2678 (proW)
 POSITION    2806010..2807074
 MOTIF       Pfam: BPD_transp_1
-DBLINKS     NCBI-ProteinID: NP_417164
-            NCBI-GeneID: 947145
+DBLINKS     NCBI-GeneID: 947145
+            NCBI-ProteinID: NP_417164
             Pasteur: proW
             RegulonDB: ECK120000763
-            EcoGene: EG10772
             ECOCYC: EG10772
             ASAP: ABE-0008816
             UniProt: P14176

@@ -1,6 +1,6 @@
 ENTRY       b2574             CDS       T00007
 NAME        nadB
-DEFINITION  (RefSeq) quinolinate synthase, L-aspartate oxidase (B protein) subunit
+DEFINITION  (RefSeq) L-aspartate oxidase
 ORTHOLOGY   K00278  L-aspartate oxidase [EC:1.4.3.16]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00250  Alanine, aspartate and glutamate metabolism
@@ -8,11 +8,11 @@ PATHWAY     eco00250  Alanine, aspartate and glutamate metabolism
             eco01100  Metabolic pathways
 MODULE      eco_M00115  NAD biosynthesis, aspartate => NAD
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00250 Alanine, aspartate and glutamate metabolism
                 b2574 (nadB)
-              Metabolism of cofactors and vitamins
+              09108 Metabolism of cofactors and vitamins
                00760 Nicotinate and nicotinamide metabolism
                 b2574 (nadB)
             Enzymes [BR:eco01000]
@@ -22,11 +22,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 1.4.3.16  L-aspartate oxidase
                  b2574 (nadB)
 POSITION    2710420..2712042
-MOTIF       Pfam: FAD_binding_2 Succ_DH_flav_C Pyr_redox_2 DAO Thi4 HI0933_like FAD_binding_3 GMC_oxred_N Lycopene_cycl NAD_binding_8 Pyr_redox_3 GIDA
-DBLINKS     NCBI-ProteinID: NP_417069
-            NCBI-GeneID: 947049
+MOTIF       Pfam: FAD_binding_2 Succ_DH_flav_C Pyr_redox_2 DAO Thi4 HI0933_like GMC_oxred_N FAD_binding_3 Lycopene_cycl NAD_binding_8 Pyr_redox_3
+DBLINKS     NCBI-GeneID: 947049
+            NCBI-ProteinID: NP_417069
             Pasteur: nadB
-            EcoGene: EG10631
+            RegulonDB: ECK120000624
             ECOCYC: EG10631
             ASAP: ABE-0008471
             UniProt: P10902

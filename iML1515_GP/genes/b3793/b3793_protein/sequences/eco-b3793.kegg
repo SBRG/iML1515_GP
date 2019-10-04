@@ -1,9 +1,14 @@
 ENTRY       b3793             CDS       T00007
 NAME        wzyE
-DEFINITION  (RefSeq) putative ECA polysaccharide chain elongation protein
+DEFINITION  (RefSeq) enterobacterial common antigen polymerase
 ORTHOLOGY   K02853  enterobacterial common antigen polymerase [EC:2.4.1.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01003 Glycosyltransferases [BR:eco01003]
+                b3793 (wzyE)
+            Enzymes [BR:eco01000]
              2. Transferases
               2.4  Glycosyltransferases
                2.4.1  Hexosyltransferases
@@ -15,9 +20,10 @@ BRITE       Enzymes [BR:eco01000]
                b3793 (wzyE)
 POSITION    3978601..3979953
 MOTIF       Pfam: WzyE
-DBLINKS     NCBI-ProteinID: NP_418241
-            NCBI-GeneID: 948293
-            EcoGene: EG11457
+DBLINKS     NCBI-GeneID: 948293
+            NCBI-ProteinID: NP_418241
+            Pasteur: rffT
+            RegulonDB: ECK120001420
             ECOCYC: EG11457
             ASAP: ABE-0012392
             UniProt: P27835

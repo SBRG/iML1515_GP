@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1994-02-01" modified="2019-09-18" version="159">
+<accession>P33594</accession>
+<accession>Q2M7E3</accession>
+<name>NIKE_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Nickel import ATP-binding protein NikE</fullName>
+<ecNumber evidence="1">7.2.2.11</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary" evidence="1">nikE</name>
+<name type="ordered locus">b3480</name>
+<name type="ordered locus">JW3445</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1993" name="Mol. Microbiol." volume="9" first="1181" last="1191">
+<title>The nik operon of Escherichia coli encodes a periplasmic binding-protein-dependent transport system for nickel.</title>
+<authorList>
+<person name="Navarro C."/>
+<person name="Wu L.-F."/>
+<person name="Mandrand-Berthelot M.-A."/>
+</authorList>
+<dbReference type="PubMed" id="7934931"/>
+<dbReference type="DOI" id="10.1111/j.1365-2958.1993.tb01247.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>K12</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1994" name="Nucleic Acids Res." volume="22" first="2576" last="2586">
+<title>Analysis of the Escherichia coli genome. V. DNA sequence of the region from 76.0 to 81.5 minutes.</title>
+<authorList>
+<person name="Sofia H.J."/>
+<person name="Burland V."/>
+<person name="Daniels D.L."/>
+<person name="Plunkett G. III"/>
+<person name="Blattner F.R."/>
+</authorList>
+<dbReference type="PubMed" id="8041620"/>
+<dbReference type="DOI" id="10.1093/nar/22.13.2576"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Part of the ABC transporter complex NikABCDE involved in nickel import. Responsible for energy coupling to the transport system.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="1">
+<text>ATP + H2O + Ni(2+)(out) = ADP + H(+) + Ni(2+)(in) + phosphate</text>
+<dbReference type="Rhea" id="RHEA:15557"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:30616"/>
+<dbReference type="ChEBI" id="CHEBI:43474"/>
+<dbReference type="ChEBI" id="CHEBI:49786"/>
+<dbReference type="ChEBI" id="CHEBI:456216"/>
+<dbReference type="EC" id="7.2.2.11"/>
+</reaction>
+</comment>
+<comment type="subunit">
+<text evidence="1">The complex is composed of two ATP-binding proteins (NikD and NikE), two transmembrane proteins (NikB and NikC) and a solute-binding protein (NikA).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cell inner membrane</location>
+<topology evidence="1">Peripheral membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the ABC transporter superfamily. Nickel importer (TC 3.A.1.5.3) family.</text>
+</comment>
+<dbReference type="EC" id="7.2.2.11" evidence="1"/>
+<dbReference type="EMBL" id="X73143">
+<property type="protein sequence ID" value="CAA51663.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00039">
+<property type="protein sequence ID" value="AAB18455.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC76505.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE77813.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="C65145">
+<property type="entry name" value="C65145"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_417937.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000173631.1">
+<property type="nucleotide sequence ID" value="NZ_SSZK01000008.1"/>
+</dbReference>
+<dbReference type="SMR" id="P33594"/>
+<dbReference type="BioGrid" id="4262508">
+<property type="interactions" value="18"/>
+</dbReference>
+<dbReference type="BioGrid" id="852296">
+<property type="interactions" value="2"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-10344N"/>
+<dbReference type="IntAct" id="P33594">
+<property type="interactions" value="11"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b3480"/>
+<dbReference type="TCDB" id="3.A.1.5.3">
+<property type="family name" value="the atp-binding cassette (abc) superfamily"/>
+</dbReference>
+<dbReference type="PaxDb" id="P33594"/>
+<dbReference type="PRIDE" id="P33594"/>
+<dbReference type="EnsemblBacteria" id="AAC76505">
+<property type="protein sequence ID" value="AAC76505"/>
+<property type="gene ID" value="b3480"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE77813">
+<property type="protein sequence ID" value="BAE77813"/>
+<property type="gene ID" value="BAE77813"/>
+</dbReference>
+<dbReference type="GeneID" id="947987"/>
+<dbReference type="KEGG" id="ecj:JW3445"/>
+<dbReference type="KEGG" id="eco:b3480"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.3245"/>
+<dbReference type="EchoBASE" id="EB2004"/>
+<dbReference type="EcoGene" id="EG12079">
+<property type="gene designation" value="nikE"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105EFJ">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1124">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="InParanoid" id="P33594"/>
+<dbReference type="KO" id="K10824"/>
+<dbReference type="PhylomeDB" id="P33594"/>
+<dbReference type="BioCyc" id="EcoCyc:NIKE-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW3445-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:NIKE-MONOMER"/>
+<dbReference type="PRO" id="PR:P33594"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="ECO:0000255"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016887">
+<property type="term" value="F:ATPase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015413">
+<property type="term" value="F:ATPase-coupled nickel transmembrane transporter activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniRule"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016151">
+<property type="term" value="F:nickel cation binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006974">
+<property type="term" value="P:cellular response to DNA damage stimulus"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035444">
+<property type="term" value="P:nickel cation transmembrane transport"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003593">
+<property type="entry name" value="AAA+_ATPase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003439">
+<property type="entry name" value="ABC_transporter-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017871">
+<property type="entry name" value="ABC_transporter_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015858">
+<property type="entry name" value="ABC_transpr_NikE"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014137">
+<property type="entry name" value="Nickel_NikE"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027417">
+<property type="entry name" value="P-loop_NTPase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00005">
+<property type="entry name" value="ABC_tran"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00382">
+<property type="entry name" value="AAA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52540">
+<property type="entry name" value="SSF52540"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR02769">
+<property type="entry name" value="nickel_nikE"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00211">
+<property type="entry name" value="ABC_TRANSPORTER_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50893">
+<property type="entry name" value="ABC_TRANSPORTER_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51248">
+<property type="entry name" value="NIKE"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0067">ATP-binding</keyword>
+<keyword id="KW-0997">Cell inner membrane</keyword>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0406">Ion transport</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0533">Nickel</keyword>
+<keyword id="KW-0921">Nickel transport</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-1278">Translocase</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="chain" description="Nickel import ATP-binding protein NikE" id="PRO_0000092627">
+<location>
+<begin position="1"/>
+<end position="268"/>
+</location>
+</feature>
+<feature type="domain" description="ABC transporter" evidence="1">
+<location>
+<begin position="4"/>
+<end position="252"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="ATP" evidence="1">
+<location>
+<begin position="45"/>
+<end position="52"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; CAA51663." ref="1" evidence="2">
+<original>RS</original>
+<variation>GT</variation>
+<location>
+<begin position="46"/>
+<end position="47"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; CAA51663." ref="1" evidence="2">
+<original>R</original>
+<variation>A</variation>
+<location>
+<position position="84"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; CAA51663." ref="1" evidence="2">
+<original>SE</original>
+<variation>RQ</variation>
+<location>
+<begin position="132"/>
+<end position="133"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_01712"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000305"/>
+<sequence length="268" mass="29722" checksum="8413CB9E8D7C585A" modified="2003-08-29" version="2">MTLLNISGLSHHYAHGGFNGKHQHQAVLNNVSLTLKSGETVALLGRSGCGKSTLARLLVGLESPAQGNISWRGEPLAKLNRAQRKAFRRDIQMVFQDSISAVNPRKTVREILREPMRHLLSLKKSEQLARASEMLKAVDLDDSVLDKRPPQLSGGQLQRVCLARALAVEPKLLILDEAVSNLDLVLQAGVIRLLKKLQQQFGTACLFITHDLRLVERFCQRVMVMDNGQIVETQVVGEKLTFSSDAGRVLQNAVLPAFPVRRRTTEKV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

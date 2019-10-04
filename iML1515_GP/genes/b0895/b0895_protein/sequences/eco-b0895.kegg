@@ -1,24 +1,29 @@
 ENTRY       b0895             CDS       T00007
 NAME        dmsB
-DEFINITION  (RefSeq) dimethyl sulfoxide reductase, anaerobic, subunit B
-ORTHOLOGY   K07307  anaerobic dimethyl sulfoxide reductase subunit B (DMSO reductase iron- sulfur subunit)
+DEFINITION  (RefSeq) dimethyl sulfoxide reductase subunit B
+ORTHOLOGY   K07307  anaerobic dimethyl sulfoxide reductase subunit B
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00920  Sulfur metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00920 Sulfur metabolism
                 b0895 (dmsB)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0895 (dmsB)
             Transporters [BR:eco02000]
-             Other Transporters
+             Other transporters
               Transmembrane electron carriers [TC:5]
                b0895 (dmsB)
 POSITION    943414..944031
-MOTIF       Pfam: Fer4_11 Fer4_2 Fer4 Fer4_9 Fer4_6 Fer4_7 Fer4_10 Fer4_3 Fer4_4 Fer4_21 Fer4_8 Fer4_17 Fer4_16 Fer4_13 Fer4_15
-DBLINKS     NCBI-ProteinID: NP_415415
-            NCBI-GeneID: 945507
+MOTIF       Pfam: Fer4_11 Fer4_2 Fer4 Fer4_9 Fer4_7 Fer4_6 Fer4_10 Fer4_3 Fer4_4 Fer4_21 Fer4_8 Fer4_17 Fer4_16 Fer4_13
+DBLINKS     NCBI-GeneID: 945507
+            NCBI-ProteinID: NP_415415
             Pasteur: dmsB
-            EcoGene: EG10233
+            RegulonDB: ECK120000227
             ECOCYC: EG10233
             ASAP: ABE-0003046
             UniProt: P18776

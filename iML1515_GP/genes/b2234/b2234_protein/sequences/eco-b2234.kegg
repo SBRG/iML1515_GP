@@ -1,6 +1,6 @@
 ENTRY       b2234             CDS       T00007
 NAME        nrdA
-DEFINITION  (RefSeq) ribonucleoside-diphosphate reductase 1, alpha subunit
+DEFINITION  (RefSeq) ribonucleoside-diphosphate reductase 1 subunit alpha
 ORTHOLOGY   K00525  ribonucleoside-diphosphate reductase alpha chain [EC:1.17.4.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00230  Purine metabolism
@@ -8,11 +8,15 @@ PATHWAY     eco00230  Purine metabolism
             eco01100  Metabolic pathways
 MODULE      eco_M00053  Pyrimidine deoxyribonuleotide biosynthesis, CDP/CTP => dCDP/dCTP,dTDP/dTTP
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00230 Purine metabolism
                 b2234 (nrdA)
                00240 Pyrimidine metabolism
+                b2234 (nrdA)
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               03400 DNA repair and recombination proteins [BR:eco03400]
                 b2234 (nrdA)
             Enzymes [BR:eco01000]
              1. Oxidoreductases
@@ -21,17 +25,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 1.17.4.1  ribonucleoside-diphosphate reductase
                  b2234 (nrdA)
             DNA repair and recombination proteins [BR:eco03400]
-             Prokaryotic Type
+             Prokaryotic type
               Other factors with a suspected DNA repair function
                Modulation of nucleotide pools
                 b2234 (nrdA)
 POSITION    2344865..2347150
 MOTIF       Pfam: Ribonuc_red_lgC ATP-cone Ribonuc_red_lgN
-DBLINKS     NCBI-ProteinID: NP_416737
-            NCBI-GeneID: 946612
+DBLINKS     NCBI-GeneID: 946612
+            NCBI-ProteinID: NP_416737
             Pasteur: nrdA
             RegulonDB: ECK120000653
-            EcoGene: EG10660
             ECOCYC: EG10660
             ASAP: ABE-0007383
             UniProt: P00452

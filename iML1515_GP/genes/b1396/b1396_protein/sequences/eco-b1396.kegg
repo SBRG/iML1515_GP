@@ -1,12 +1,13 @@
 ENTRY       b1396             CDS       T00007
 NAME        paaI
-DEFINITION  (RefSeq) hydroxyphenylacetyl-CoA thioesterase
+DEFINITION  (RefSeq) phenylacetyl-CoA thioesterase
 ORTHOLOGY   K02614  acyl-CoA thioesterase [EC:3.1.2.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00360  Phenylalanine metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00360 Phenylalanine metabolism
                 b1396 (paaI)
             Enzymes [BR:eco01000]
@@ -17,10 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1396 (paaI)
 POSITION    1460471..1460893
 MOTIF       Pfam: 4HBT 4HBT_3 DUF4442 4HBT_2 PS-DH MaoC_dehydrat_N
-DBLINKS     NCBI-ProteinID: NP_415914
-            NCBI-GeneID: 945265
+DBLINKS     NCBI-GeneID: 945265
+            NCBI-ProteinID: NP_415914
             Pasteur: paaI
-            EcoGene: EG13743
+            RegulonDB: ECK120003311
             ECOCYC: G6717
             ASAP: ABE-0004666
             UniProt: P76084

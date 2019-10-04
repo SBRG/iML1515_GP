@@ -1,13 +1,19 @@
 ENTRY       b3208             CDS       T00007
 NAME        mtgA
-DEFINITION  (RefSeq) biosynthetic peptidoglycan transglycosylase
+DEFINITION  (RefSeq) peptidoglycan glycosyltransferase MtgA
 ORTHOLOGY   K03814  monofunctional glycosyltransferase [EC:2.4.1.129]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00550  Peptidoglycan biosynthesis
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00550 Peptidoglycan biosynthesis
+                b3208 (mtgA)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01003 Glycosyltransferases [BR:eco01003]
+                b3208 (mtgA)
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
                 b3208 (mtgA)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -19,13 +25,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
              Polysaccharide
               Bacterial polysaccharide
                b3208 (mtgA)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              Glycosyltransferase
+               b3208 (mtgA)
 POSITION    complement(3349081..3349809)
 MOTIF       Pfam: Transgly
-DBLINKS     NCBI-ProteinID: NP_417675
-            NCBI-GeneID: 947728
+DBLINKS     NCBI-GeneID: 947728
+            NCBI-ProteinID: NP_417675
             Pasteur: mtgA
             RegulonDB: ECK120004215
-            EcoGene: EG12808
             ECOCYC: G7668
             ASAP: ABE-0010530
             UniProt: P46022

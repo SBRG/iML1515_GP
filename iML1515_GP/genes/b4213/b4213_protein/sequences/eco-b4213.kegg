@@ -1,13 +1,14 @@
 ENTRY       b4213             CDS       T00007
 NAME        cpdB
-DEFINITION  (RefSeq) 2':3'-cyclic-nucleotide 2'-phosphodiesterase
+DEFINITION  (RefSeq) 2'3' cyclic nucleotide phosphodiesterase/3' nucleotidase
 ORTHOLOGY   K01119  2',3'-cyclic-nucleotide 2'-phosphodiesterase / 3'-nucleotidase [EC:3.1.4.16 3.1.3.6]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00230  Purine metabolism
             eco00240  Pyrimidine metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00230 Purine metabolism
                 b4213 (cpdB)
                00240 Pyrimidine metabolism
@@ -23,11 +24,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b4213 (cpdB)
 POSITION    complement(4434622..4436565)
 MOTIF       Pfam: 5_nucleotid_C Metallophos DUF968
-DBLINKS     NCBI-ProteinID: NP_418634
-            NCBI-GeneID: 948729
+DBLINKS     NCBI-GeneID: 948729
+            NCBI-ProteinID: NP_418634
             Pasteur: cpdB
             RegulonDB: ECK120000156
-            EcoGene: EG10160
             ECOCYC: EG10160
             ASAP: ABE-0013782
             UniProt: P08331

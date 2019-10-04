@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Thu  3 Oct 2019 22:47:29
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b0524/b0524_protein/sequences/P43341_5wly-A.needle
+#    -asequence asis::MATLFIADLHLCVEEPAITAGFLRFLAGEARKADALYILGDLFEAWIGDDDPNPLHRKMAAAIKAVSDSGVPCYFIHGNRDFLLGKRFARESGMTLLPEEKVLELYGRRVLIMHGDTLCTDDAGYQAFRAKVHKPWLQTLFLALPLFVRKRIAARMRANSKEANSSKSLAIMDVNQNAVVSAMEKHQVQWLIHGHTHRPAVHELIANQQPAFRVVLGAWHTEGSMVKVTADDVELIHFPF
+#    -bsequence asis::XATLFIADLHLCVAAPAITAGFLRFLAGEARKADALYILGDLFEAWIGDDDPNPLHRKMAAAIKAVSDSGVPCYFIHGNRDFLLGKRFARESGMTLLPEEKVLELYGRRVLIMHGDTLCTDXXXXXXXXXKVHKPWLQTLHSALPSHVRKRIAARMRANSTXXXXXXXXXXXDVNQNAVVSAMEKHQVQWLIHGHTHRPAVHELIANQQPAFRVVLGAWHTEGSMVKVTADDVELIHFPFL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b0524/b0524_protein/sequences/P43341_5wly-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 241
+# Identity:     212/241 (88.0%)
+# Similarity:   212/241 (88.0%)
+# Gaps:           1/241 ( 0.4%)
+# Score: 1095.0
+# 
+#
+#=======================================
+
+asis               1 MATLFIADLHLCVEEPAITAGFLRFLAGEARKADALYILGDLFEAWIGDD     50
+                     .||||||||||||..|||||||||||||||||||||||||||||||||||
+asis               1 XATLFIADLHLCVAAPAITAGFLRFLAGEARKADALYILGDLFEAWIGDD     50
+
+asis              51 DPNPLHRKMAAAIKAVSDSGVPCYFIHGNRDFLLGKRFARESGMTLLPEE    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 DPNPLHRKMAAAIKAVSDSGVPCYFIHGNRDFLLGKRFARESGMTLLPEE    100
+
+asis             101 KVLELYGRRVLIMHGDTLCTDDAGYQAFRAKVHKPWLQTLFLALPLFVRK    150
+                     |||||||||||||||||||||.........||||||||||..|||..|||
+asis             101 KVLELYGRRVLIMHGDTLCTDXXXXXXXXXKVHKPWLQTLHSALPSHVRK    150
+
+asis             151 RIAARMRANSKEANSSKSLAIMDVNQNAVVSAMEKHQVQWLIHGHTHRPA    200
+                     ||||||||||............||||||||||||||||||||||||||||
+asis             151 RIAARMRANSTXXXXXXXXXXXDVNQNAVVSAMEKHQVQWLIHGHTHRPA    200
+
+asis             201 VHELIANQQPAFRVVLGAWHTEGSMVKVTADDVELIHFPF-    240
+                     |||||||||||||||||||||||||||||||||||||||| 
+asis             201 VHELIANQQPAFRVVLGAWHTEGSMVKVTADDVELIHFPFL    241
+
+
+#---------------------------------------
+#---------------------------------------

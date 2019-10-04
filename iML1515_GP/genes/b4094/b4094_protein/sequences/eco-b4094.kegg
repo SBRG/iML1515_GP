@@ -1,12 +1,13 @@
 ENTRY       b4094             CDS       T00007
 NAME        phnN
-DEFINITION  (RefSeq) ribose 1,5-bisphosphokinase
+DEFINITION  (RefSeq) ribose 1,5-bisphosphate phosphokinase
 ORTHOLOGY   K05774  ribose 1,5-bisphosphokinase [EC:2.7.4.23]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00030  Pentose phosphate pathway
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00030 Pentose phosphate pathway
                 b4094 (phnN)
             Enzymes [BR:eco01000]
@@ -17,11 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b4094 (phnN)
 POSITION    complement(4315525..4316082)
 MOTIF       Pfam: AAA_18 AAA_33 Guanylate_kin ABC_tran AAA_16 RsgA_GTPase
-DBLINKS     NCBI-ProteinID: NP_418518
-            NCBI-GeneID: 948608
+DBLINKS     NCBI-GeneID: 948608
+            NCBI-ProteinID: NP_418518
             Pasteur: phnN
             RegulonDB: ECK120000715
-            EcoGene: EG10723
             ECOCYC: EG10723
             ASAP: ABE-0013417
             UniProt: P16690

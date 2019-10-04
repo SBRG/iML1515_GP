@@ -1,19 +1,20 @@
 ENTRY       b0484             CDS       T00007
 NAME        copA
-DEFINITION  (RefSeq) copper transporter
-ORTHOLOGY   K17686  Cu+-exporting ATPase [EC:3.6.3.54]
+DEFINITION  (RefSeq) Cu(+) exporting P-type ATPase
+ORTHOLOGY   K17686  P-type Cu+ transporter [EC:7.2.2.8]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 BRITE       Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.54  Cu+-exporting ATPase
+             7. Translocases
+              7.2  Catalysing the translocation of inorganic cations
+               7.2.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.2.2.8  P-type Cu+ transporter
                  b0484 (copA)
 POSITION    complement(508875..511379)
 MOTIF       Pfam: E1-E2_ATPase Hydrolase HMA Hydrolase_3 HAD HAD_2 CstA_5TM DNA_photolyase
-DBLINKS     NCBI-ProteinID: NP_415017
-            NCBI-GeneID: 946106
-            EcoGene: EG13246
+DBLINKS     NCBI-GeneID: 946106
+            NCBI-ProteinID: NP_415017
+            Pasteur: ybaR
+            RegulonDB: ECK120002868
             ECOCYC: G6260
             ASAP: ABE-0001681
             UniProt: Q59385

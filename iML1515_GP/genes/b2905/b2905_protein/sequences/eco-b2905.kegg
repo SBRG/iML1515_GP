@@ -1,6 +1,6 @@
 ENTRY       b2905             CDS       T00007
 NAME        gcvT
-DEFINITION  (RefSeq) aminomethyltransferase, tetrahydrofolate-dependent, subunit (T protein) of glycine cleavage complex
+DEFINITION  (RefSeq) aminomethyltransferase
 ORTHOLOGY   K00605  aminomethyltransferase [EC:2.1.2.10]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00260  Glycine, serine and threonine metabolism
@@ -11,17 +11,14 @@ PATHWAY     eco00260  Glycine, serine and threonine metabolism
             eco01130  Biosynthesis of antibiotics
             eco01200  Carbon metabolism
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b2905 (gcvT)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00630 Glyoxylate and dicarboxylate metabolism
                 b2905 (gcvT)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00260 Glycine, serine and threonine metabolism
                 b2905 (gcvT)
-              Metabolism of cofactors and vitamins
+              09108 Metabolism of cofactors and vitamins
                00670 One carbon pool by folate
                 b2905 (gcvT)
             Enzymes [BR:eco01000]
@@ -32,10 +29,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2905 (gcvT)
 POSITION    complement(3049573..3050667)
 MOTIF       Pfam: GCV_T GCV_T_C POPLD
-DBLINKS     NCBI-ProteinID: NP_417381
-            NCBI-GeneID: 947390
+DBLINKS     NCBI-GeneID: 947390
+            NCBI-ProteinID: NP_417381
             Pasteur: gcvT
-            EcoGene: EG11442
+            RegulonDB: ECK120001406
             ECOCYC: EG11442
             ASAP: ABE-0009536
             UniProt: P27248

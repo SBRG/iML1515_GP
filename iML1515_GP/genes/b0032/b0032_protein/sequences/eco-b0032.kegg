@@ -1,6 +1,6 @@
 ENTRY       b0032             CDS       T00007
 NAME        carA
-DEFINITION  (RefSeq) carbamoyl phosphate synthetase small subunit, glutamine amidotransferase
+DEFINITION  (RefSeq) carbamoyl phosphate synthetase subunit alpha
 ORTHOLOGY   K01956  carbamoyl-phosphate synthase small subunit [EC:6.3.5.5]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00240  Pyrimidine metabolism
@@ -8,11 +8,11 @@ PATHWAY     eco00240  Pyrimidine metabolism
             eco01100  Metabolic pathways
 MODULE      eco_M00051  Uridine monophosphate biosynthesis, glutamine (+ PRPP) => UMP
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00240 Pyrimidine metabolism
                 b0032 (carA)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00250 Alanine, aspartate and glutamate metabolism
                 b0032 (carA)
             Enzymes [BR:eco01000]
@@ -23,11 +23,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0032 (carA)
 POSITION    29651..30799
 MOTIF       Pfam: CPSase_sm_chain GATase Peptidase_C26 DJ-1_PfpI
-DBLINKS     NCBI-ProteinID: NP_414573
-            NCBI-GeneID: 949025
+DBLINKS     NCBI-GeneID: 949025
+            NCBI-ProteinID: NP_414573
             Pasteur: carA
             RegulonDB: ECK120000130
-            EcoGene: EG10134
             ECOCYC: EG10134
             ASAP: ABE-0000118
             UniProt: P0A6F1

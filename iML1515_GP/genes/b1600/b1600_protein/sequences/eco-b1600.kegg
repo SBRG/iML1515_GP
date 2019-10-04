@@ -1,19 +1,23 @@
 ENTRY       b1600             CDS       T00007
 NAME        mdtJ
-DEFINITION  (RefSeq) multidrug efflux system transporter
+DEFINITION  (RefSeq) multidrug/spermidine efflux pump membrane subunit MdtJ
 ORTHOLOGY   K11743  spermidine export protein MdtJ
 ORGANISM    eco  Escherichia coli K-12 MG1655
-MODULE      eco_M00711  Multidrug resistance, efflux pump MdtIJ
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1600 (mdtJ)
+            Transporters [BR:eco02000]
+             Other transporters
               Electrochemical potential-driven transporters [TC:2]
                b1600 (mdtJ)
 POSITION    complement(1673136..1673501)
 MOTIF       Pfam: Multi_Drug_Res EamA CRT-like UPF0060
-DBLINKS     NCBI-ProteinID: NP_416117
-            NCBI-GeneID: 946139
+DBLINKS     NCBI-GeneID: 946139
+            NCBI-ProteinID: NP_416117
+            Pasteur: ydgF
             RegulonDB: ECK120003447
-            EcoGene: EG13927
             ECOCYC: G6858
             ASAP: ABE-0005345
             UniProt: P69212

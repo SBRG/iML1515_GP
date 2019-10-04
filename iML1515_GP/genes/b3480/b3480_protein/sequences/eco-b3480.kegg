@@ -1,33 +1,35 @@
 ENTRY       b3480             CDS       T00007
 NAME        nikE
-DEFINITION  (RefSeq) nickel transporter subunit
-ORTHOLOGY   K10824  nickel transport system ATP-binding protein [EC:3.6.3.24]
+DEFINITION  (RefSeq) Ni(2(+)) ABC transporter ATP binding subunit NikE
+ORTHOLOGY   K10824  nickel transport system ATP-binding protein [EC:7.2.2.11]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00440  Nickel transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b3480 (nikE)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3480 (nikE)
             Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.24  nickel-transporting ATPase
+             7. Translocases
+              7.2  Catalysing the translocation of inorganic cations
+               7.2.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.2.2.11  ABC-type Ni2+ transporter
                  b3480 (nikE)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Peptide and nickel transporters
-               Nickel transporter [MD:M00440] [OT]
+               Nickel transporter
                 b3480 (nikE)
 POSITION    3617776..3618582
-MOTIF       Pfam: ABC_tran AAA_21 AAA_22 RsgA_GTPase SMC_N AAA_16 Sigma54_activat AAA_29 IstB_IS21 AAA_25 MMR_HSR1 PRK AAA_28 NB-ARC AAA_18 NACHT AAA SbcCD_C AAA_5 G-alpha DUF87
-DBLINKS     NCBI-ProteinID: NP_417937
-            NCBI-GeneID: 947987
+MOTIF       Pfam: ABC_tran AAA_21 AAA_22 RsgA_GTPase SMC_N AAA_16 Sigma54_activat AAA_29 IstB_IS21 AAA_25 MMR_HSR1 PRK AAA_28 NACHT AAA_18 NB-ARC AAA SbcCD_C AAA_5 G-alpha DUF87
+DBLINKS     NCBI-GeneID: 947987
+            NCBI-ProteinID: NP_417937
             Pasteur: nikE
             RegulonDB: ECK120001985
-            EcoGene: EG12079
             ECOCYC: EG12079
             ASAP: ABE-0011362
             UniProt: P33594

@@ -1,14 +1,20 @@
 ENTRY       b3631             CDS       T00007
 NAME        waaG
-DEFINITION  (RefSeq) glucosyltransferase I
+DEFINITION  (RefSeq) lipopolysaccharide glucosyltransferase I
 ORTHOLOGY   K02844  UDP-glucose:(heptosyl)LPS alpha-1,3-glucosyltransferase [EC:2.4.1.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00540  Lipopolysaccharide biosynthesis
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00540 Lipopolysaccharide biosynthesis
+                b3631 (waaG)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01003 Glycosyltransferases [BR:eco01003]
+                b3631 (waaG)
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
                 b3631 (waaG)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -25,14 +31,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
               b3631 (waaG)
 POSITION    complement(3805943..3807067)
 MOTIF       Pfam: Glycos_transf_1 Glyco_trans_1_4 Glyco_transf_4 Glyco_trans_4_4 Glyco_trans_1_2
-DBLINKS     NCBI-ProteinID: NP_418088
-            NCBI-GeneID: 948149
+DBLINKS     NCBI-GeneID: 948149
+            NCBI-ProteinID: NP_418088
+            Pasteur: rfaG
             RegulonDB: ECK120001310
-            EcoGene: EG11339
             ECOCYC: EG11339
             ASAP: ABE-0011868
             UniProt: P25740
-STRUCTURE   PDB: 2N58 2IW1 2IV7
+STRUCTURE   PDB: 2IW1 2IV7 2N58
 AASEQ       374
             MIVAFCLYKYFPFGGLQRDFMRIASTVAARGHHVRVYTQSWEGDCPKAFELIQVPVKSHT
             NHGRNAEYYAWVQNHLKEHPADRVVGFNKMPGLDVYFAADVCYAEKVAQEKGFLYRLTSR

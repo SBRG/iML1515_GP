@@ -1,24 +1,28 @@
 ENTRY       b0572             CDS       T00007
 NAME        cusC
-DEFINITION  (RefSeq) copper/silver efflux system, outer membrane component
+DEFINITION  (RefSeq) copper/silver export system outer membrane channel
 ORTHOLOGY   K07796  outer membrane protein, Cu(I)/Ag(I) efflux system
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02020  Two-component system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Signal transduction
+             09130 Environmental Information Processing
+              09132 Signal transduction
                02020 Two-component system
                 b0572 (cusC)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0572 (cusC)
             Transporters [BR:eco02000]
-             Other Transporters
+             Other transporters
               Pores ion channels [TC:1]
                b0572 (cusC)
 POSITION    595600..596973
 MOTIF       Pfam: OEP
-DBLINKS     NCBI-ProteinID: NP_415104
-            NCBI-GeneID: 946288
+DBLINKS     NCBI-GeneID: 946288
+            NCBI-ProteinID: NP_415104
+            Pasteur: ylcB
             RegulonDB: ECK120002928
-            EcoGene: EG14233
             ECOCYC: G6320
             ASAP: ABE-0001958
             UniProt: P77211

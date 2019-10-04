@@ -1,33 +1,35 @@
 ENTRY       b2149             CDS       T00007
 NAME        mglA
-DEFINITION  (RefSeq) fused methyl-galactoside transporter subunits of ABC superfamily: ATP-binding components
-ORTHOLOGY   K10542  methyl-galactoside transport system ATP-binding protein [EC:3.6.3.17]
+DEFINITION  (RefSeq) D-galactose/methyl-galactoside ABC transporter ATP binding subunit
+ORTHOLOGY   K10542  methyl-galactoside transport system ATP-binding protein [EC:7.5.2.11]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00214  Methyl-galactoside transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b2149 (mglA)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2149 (mglA)
             Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.17  monosaccharide-transporting ATPase
+             7. Translocases
+              7.5  Catalysing the translocation of carbohydrates and their derivatives
+               7.5.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.5.2.11  ABC-type D-galactose transporter
                  b2149 (mglA)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Saccharide, polyol, and lipid transporters
-               Methyl-galactoside transporter [MD:M00214] [OT]
+               Methyl-galactoside transporter
                 b2149 (mglA)
 POSITION    complement(2237769..2239289)
-MOTIF       Pfam: ABC_tran AAA_21 AAA_23 AAA_29 SMC_N DUF2813 AAA_16 AAA_27 RsgA_GTPase AAA_13 AAA_15 AAA_22 AAA_30
-DBLINKS     NCBI-ProteinID: NP_416654
-            NCBI-GeneID: 949036
+MOTIF       Pfam: ABC_tran AAA_21 AAA_23 SMC_N DUF2813 AAA_29 AAA_16 AAA_27 RsgA_GTPase AAA_15 AAA_22 AAA_30
+DBLINKS     NCBI-GeneID: 949036
+            NCBI-ProteinID: NP_416654
             Pasteur: mglA
             RegulonDB: ECK120000585
-            EcoGene: EG10592
             ECOCYC: EG10592
             ASAP: ABE-0007103
             UniProt: P0AAG8

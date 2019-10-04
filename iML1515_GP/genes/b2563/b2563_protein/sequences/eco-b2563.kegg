@@ -1,12 +1,12 @@
 ENTRY       b2563             CDS       T00007
 NAME        acpS
-DEFINITION  (RefSeq) holo-[acyl-carrier-protein] synthase 1
+DEFINITION  (RefSeq) holo-[acyl-carrier-protein] synthase
 ORTHOLOGY   K00997  holo-[acyl-carrier protein] synthase [EC:2.7.8.7]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00770  Pantothenate and CoA biosynthesis
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00770 Pantothenate and CoA biosynthesis
                 b2563 (acpS)
             Enzymes [BR:eco01000]
@@ -16,14 +16,15 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 2.7.8.7  holo-[acyl-carrier-protein] synthase
                  b2563 (acpS)
 POSITION    complement(2700618..2700998)
-MOTIF       Pfam: ACPS Tecti-min-caps YdaS_antitoxin
-DBLINKS     NCBI-ProteinID: NP_417058
-            NCBI-GeneID: 947037
+MOTIF       Pfam: ACPS Tecti-min-caps FANCM-MHF_bd YdaS_antitoxin
+DBLINKS     NCBI-GeneID: 947037
+            NCBI-ProteinID: NP_417058
             Pasteur: acpS
-            EcoGene: EG10247
+            RegulonDB: ECK120000241
             ECOCYC: EG10247
             ASAP: ABE-0008433
             UniProt: P24224
+STRUCTURE   PDB: 5XU7 5XUH 5VBX 5VCB
 AASEQ       126
             MAILGLGTDIVEIARIEAVIARSGDRLARRVLSDNEWAIWKTHHQPVRFLAKRFAVKEAA
             AKAFGTGIRNGLAFNQFEVFNDELGKPRLRLWGEALKLAEKLGVANMHVTLADERHYACA

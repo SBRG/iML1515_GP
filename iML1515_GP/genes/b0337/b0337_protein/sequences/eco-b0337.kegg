@@ -1,17 +1,17 @@
 ENTRY       b0337             CDS       T00007
 NAME        codA
 DEFINITION  (RefSeq) cytosine/isoguanine deaminase
-ORTHOLOGY   K01485  cytosine deaminase [EC:3.5.4.1]
+ORTHOLOGY   K01485  cytosine/creatinine deaminase [EC:3.5.4.1 3.5.4.21]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00240  Pyrimidine metabolism
             eco00330  Arginine and proline metabolism
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00240 Pyrimidine metabolism
                 b0337 (codA)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00330 Arginine and proline metabolism
                 b0337 (codA)
             Enzymes [BR:eco01000]
@@ -20,12 +20,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                3.5.4  In cyclic amidines
                 3.5.4.1  cytosine deaminase
                  b0337 (codA)
+                3.5.4.21  creatinine deaminase
+                 b0337 (codA)
 POSITION    356171..357454
 MOTIF       Pfam: Amidohydro_3 Amidohydro_1 RP-C
-DBLINKS     NCBI-ProteinID: NP_414871
-            NCBI-GeneID: 944996
+DBLINKS     NCBI-GeneID: 944996
+            NCBI-ProteinID: NP_414871
             Pasteur: codA
-            EcoGene: EG11326
+            RegulonDB: ECK120001297
             ECOCYC: EG11326
             ASAP: ABE-0001161
             UniProt: P25524

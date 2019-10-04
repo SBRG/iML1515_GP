@@ -1,7 +1,7 @@
 ENTRY       b3008             CDS       T00007
 NAME        metC
-DEFINITION  (RefSeq) cystathionine beta-lyase, PLP-dependent
-ORTHOLOGY   K01760  cystathionine beta-lyase [EC:4.4.1.8]
+DEFINITION  (RefSeq) cystathionine beta-lyase/L-cysteine desulfhydrase
+ORTHOLOGY   K01760  cysteine-S-conjugate beta-lyase [EC:4.4.1.13]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00270  Cysteine and methionine metabolism
             eco00450  Selenocompound metabolism
@@ -10,28 +10,25 @@ PATHWAY     eco00270  Cysteine and methionine metabolism
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00017  Methionine biosynthesis, apartate => homoserine => methionine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b3008 (metC)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00270 Cysteine and methionine metabolism
                 b3008 (metC)
-              Metabolism of other amino acids
+              09106 Metabolism of other amino acids
                00450 Selenocompound metabolism
                 b3008 (metC)
             Enzymes [BR:eco01000]
              4. Lyases
               4.4  Carbon-sulfur lyases
                4.4.1  Carbon-sulfur lyases (only sub-subclass identified to date)
-                4.4.1.8  cystathionine beta-lyase
+                4.4.1.13  cysteine-S-conjugate beta-lyase
                  b3008 (metC)
 POSITION    3152236..3153423
 MOTIF       Pfam: Cys_Met_Meta_PP Aminotran_5
-DBLINKS     NCBI-ProteinID: NP_417481
-            NCBI-GeneID: 946240
+DBLINKS     NCBI-GeneID: 946240
+            NCBI-ProteinID: NP_417481
             Pasteur: metC
-            EcoGene: EG10583
+            RegulonDB: ECK120000576
             ECOCYC: EG10583
             ASAP: ABE-0009878
             UniProt: P06721

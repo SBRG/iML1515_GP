@@ -1,6 +1,6 @@
 ENTRY       b2818             CDS       T00007
 NAME        argA
-DEFINITION  (RefSeq) fused acetylglutamate kinase homolog (inactive)/amino acid N-acetyltransferase
+DEFINITION  (RefSeq) N-acetylglutamate synthase
 ORTHOLOGY   K14682  amino-acid N-acetyltransferase [EC:2.3.1.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00220  Arginine biosynthesis
@@ -11,13 +11,8 @@ PATHWAY     eco00220  Arginine biosynthesis
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00028  Ornithine biosynthesis, glutamate => ornithine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01210 2-Oxocarboxylic acid metabolism
-                b2818 (argA)
-               01230 Biosynthesis of amino acids
-                b2818 (argA)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00220 Arginine biosynthesis
                 b2818 (argA)
             Enzymes [BR:eco01000]
@@ -28,10 +23,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2818 (argA)
 POSITION    2949242..2950573
 MOTIF       Pfam: AA_kinase Acetyltransf_1 Acetyltransf_7 Acetyltransf_10 Acetyltransf_9
-DBLINKS     NCBI-ProteinID: NP_417295
-            NCBI-GeneID: 947289
+DBLINKS     NCBI-GeneID: 947289
+            NCBI-ProteinID: NP_417295
             Pasteur: argA
-            EcoGene: EG10063
+            RegulonDB: ECK120000059
             ECOCYC: EG10063
             ASAP: ABE-0009245
             UniProt: P0A6C5

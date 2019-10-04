@@ -1,6 +1,6 @@
 ENTRY       b1611             CDS       T00007
 NAME        fumC
-DEFINITION  (RefSeq) fumarate hydratase (fumarase C),aerobic Class II
+DEFINITION  (RefSeq) fumarase C
 ORTHOLOGY   K01679  fumarate hydratase, class II [EC:4.2.1.2]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00020  Citrate cycle (TCA cycle)
@@ -13,11 +13,8 @@ PATHWAY     eco00020  Citrate cycle (TCA cycle)
 MODULE      eco_M00009  Citrate cycle (TCA cycle, Krebs cycle)
             eco_M00011  Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b1611 (fumC)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00020 Citrate cycle (TCA cycle)
                 b1611 (fumC)
                00620 Pyruvate metabolism
@@ -30,10 +27,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1611 (fumC)
 POSITION    complement(1685185..1686588)
 MOTIF       Pfam: Lyase_1 FumaraseC_C
-DBLINKS     NCBI-ProteinID: NP_416128
-            NCBI-GeneID: 946147
+DBLINKS     NCBI-GeneID: 946147
+            NCBI-ProteinID: NP_416128
             Pasteur: fumC
-            EcoGene: EG10358
+            RegulonDB: ECK120000351
             ECOCYC: EG10358
             ASAP: ABE-0005380
             UniProt: P05042

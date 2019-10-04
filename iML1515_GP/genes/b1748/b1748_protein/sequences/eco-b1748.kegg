@@ -1,14 +1,19 @@
 ENTRY       b1748             CDS       T00007
 NAME        astC
-DEFINITION  (RefSeq) succinylornithine transaminase, PLP-dependent
+DEFINITION  (RefSeq) succinylornithine transaminase
 ORTHOLOGY   K00840  succinylornithine aminotransferase [EC:2.6.1.81]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00330  Arginine and proline metabolism
             eco01100  Metabolic pathways
+MODULE      eco_M00879  Arginine succinyltransferase pathway, arginine => glutamate
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00330 Arginine and proline metabolism
+                b1748 (astC)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01007 Amino acid related enzymes [BR:eco01007]
                 b1748 (astC)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -22,9 +27,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b1748 (astC)
 POSITION    complement(1830762..1831982)
 MOTIF       Pfam: Aminotran_3 Aminotran_1_2 Aminotran_5
-DBLINKS     NCBI-ProteinID: NP_416262
-            NCBI-GeneID: 946255
-            EcoGene: EG13999
+DBLINKS     NCBI-GeneID: 946255
+            NCBI-ProteinID: NP_416262
+            Pasteur: argM
+            RegulonDB: ECK120003532
             ECOCYC: G6944
             ASAP: ABE-0005824
             UniProt: P77581

@@ -1,6 +1,6 @@
 ENTRY       b2146             CDS       T00007
 NAME        preT
-DEFINITION  (RefSeq) dihydropyrimidine dehydrogenase, NADH-dependent, subunit N
+DEFINITION  (RefSeq) NAD-dependent dihydropyrimidine dehydrogenase subunit PreT
 ORTHOLOGY   K17722  dihydropyrimidine dehydrogenase (NAD+) subunit PreT [EC:1.3.1.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00240  Pyrimidine metabolism
@@ -8,14 +8,14 @@ PATHWAY     eco00240  Pyrimidine metabolism
             eco00770  Pantothenate and CoA biosynthesis
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00240 Pyrimidine metabolism
                 b2146 (preT)
-              Metabolism of other amino acids
+              09106 Metabolism of other amino acids
                00410 beta-Alanine metabolism
                 b2146 (preT)
-              Metabolism of cofactors and vitamins
+              09108 Metabolism of cofactors and vitamins
                00770 Pantothenate and CoA biosynthesis
                 b2146 (preT)
             Enzymes [BR:eco01000]
@@ -25,10 +25,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 1.3.1.1  dihydropyrimidine dehydrogenase (NAD+)
                  b2146 (preT)
 POSITION    2234033..2235271
-MOTIF       Pfam: Fer4_20 Pyr_redox_2 Pyr_redox Pyr_redox_3 NAD_binding_8 HI0933_like AlaDh_PNT_C DAO NAD_binding_7 FAD_binding_3 Amino_oxidase FAD_binding_2 Thi4 XdhC_C GIDA Glu_dehyd_C FAD_oxidored Shikimate_DH NAD_binding_9 3HCDH_N
-DBLINKS     NCBI-ProteinID: NP_416651
-            NCBI-GeneID: 949049
-            EcoGene: EG14074
+MOTIF       Pfam: Fer4_20 Pyr_redox_2 Pyr_redox Pyr_redox_3 NAD_binding_8 HI0933_like AlaDh_PNT_C DAO NAD_binding_7 FAD_binding_3 Amino_oxidase FAD_binding_2 Thi4 XdhC_C GIDA Glu_dehyd_C FAD_oxidored NAD_binding_9 3HCDH_N
+DBLINKS     NCBI-GeneID: 949049
+            NCBI-ProteinID: NP_416651
+            Pasteur: yeiT
+            RegulonDB: ECK120003723
             ECOCYC: G7145
             ASAP: ABE-0007096
             UniProt: P76440

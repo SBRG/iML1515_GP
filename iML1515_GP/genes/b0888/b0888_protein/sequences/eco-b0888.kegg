@@ -1,16 +1,12 @@
 ENTRY       b0888             CDS       T00007
 NAME        trxB
-DEFINITION  (RefSeq) thioredoxin reductase, FAD/NAD(P)-binding
+DEFINITION  (RefSeq) thioredoxin reductase
 ORTHOLOGY   K00384  thioredoxin reductase (NADPH) [EC:1.8.1.9]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-PATHWAY     eco00240  Pyrimidine metabolism
-            eco00450  Selenocompound metabolism
+PATHWAY     eco00450  Selenocompound metabolism
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
-               00240 Pyrimidine metabolism
-                b0888 (trxB)
-              Metabolism of other amino acids
+             09100 Metabolism
+              09106 Metabolism of other amino acids
                00450 Selenocompound metabolism
                 b0888 (trxB)
             Enzymes [BR:eco01000]
@@ -21,11 +17,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0888 (trxB)
 POSITION    complement(931085..932050)
 MOTIF       Pfam: Pyr_redox_2 Pyr_redox_3 Pyr_redox HI0933_like FAD_binding_2 GIDA FAD_oxidored K_oxygenase NAD_binding_8 FMO-like NAD_binding_7 Thi4 Trp_halogenase
-DBLINKS     NCBI-ProteinID: NP_415408
-            NCBI-GeneID: 949054
+DBLINKS     NCBI-GeneID: 949054
+            NCBI-ProteinID: NP_415408
             Pasteur: trxB
             RegulonDB: ECK120001021
-            EcoGene: EG11032
             ECOCYC: EG11032
             ASAP: ABE-0003018
             UniProt: P0A9P4

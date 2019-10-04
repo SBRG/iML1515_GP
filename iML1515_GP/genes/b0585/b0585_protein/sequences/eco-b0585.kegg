@@ -1,14 +1,24 @@
 ENTRY       b0585             CDS       T00007
 NAME        fes
-DEFINITION  (RefSeq) enterobactin/ferric enterobactin esterase
-ORTHOLOGY   K07214  enterochelin esterase and related enzymes
+DEFINITION  (RefSeq) enterochelin esterase
+ORTHOLOGY   K07214  iron(III)-enterobactin esterase [EC:3.1.1.108]
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09191 Unclassified: metabolism
+               99980 Enzymes with EC numbers
+                b0585 (fes)
+            Enzymes [BR:eco01000]
+             3. Hydrolases
+              3.1  Acting on ester bonds
+               3.1.1  Carboxylic-ester hydrolases
+                3.1.1.108  iron(III)-enterobactin esterase
+                 b0585 (fes)
 POSITION    612737..613939
 MOTIF       Pfam: Esterase DUF3327 Peptidase_S9 Abhydrolase_2 Esterase_phd
-DBLINKS     NCBI-ProteinID: NP_415117
-            NCBI-GeneID: 945181
-            Pasteur: fes
-            EcoGene: EG10299
+DBLINKS     NCBI-GeneID: 945181
+            NCBI-ProteinID: NP_415117
+            RegulonDB: ECK120000293
             ECOCYC: EG10299
             ASAP: ABE-0002019
             UniProt: P13039

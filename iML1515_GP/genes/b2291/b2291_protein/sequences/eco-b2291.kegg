@@ -1,13 +1,13 @@
 ENTRY       b2291             CDS       T00007
 NAME        yfbR
-DEFINITION  (RefSeq) 5'-nucleotidase
+DEFINITION  (RefSeq) dCMP phosphohydrolase
 ORTHOLOGY   K08722  5'-deoxynucleotidase [EC:3.1.3.89]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00240  Pyrimidine metabolism
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00240 Pyrimidine metabolism
                 b2291 (yfbR)
             Enzymes [BR:eco01000]
@@ -17,11 +17,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 3.1.3.89  5'-deoxynucleotidase
                  b2291 (yfbR)
 POSITION    2408862..2409461
-MOTIF       Pfam: HD_3 HD_2 HD HDOD
-DBLINKS     NCBI-ProteinID: NP_416794
-            NCBI-GeneID: 946771
+MOTIF       Pfam: HD_2 HD_3 HD HDOD
+DBLINKS     NCBI-GeneID: 946771
+            NCBI-ProteinID: NP_416794
             Pasteur: yfbR
-            EcoGene: EG14102
+            RegulonDB: ECK120003760
             ECOCYC: G7185
             ASAP: ABE-0007563
             UniProt: P76491

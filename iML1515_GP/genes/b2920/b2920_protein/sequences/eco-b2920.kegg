@@ -1,12 +1,26 @@
 ENTRY       b2920             CDS       T00007
 NAME        scpC
 DEFINITION  (RefSeq) propionyl-CoA:succinate CoA transferase
+ORTHOLOGY   K22214  propionyl-CoA:succinyl-CoA transferase [EC:2.8.3.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
+PATHWAY     eco00640  Propanoate metabolism
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00640 Propanoate metabolism
+                b2920 (scpC)
+            Enzymes [BR:eco01000]
+             2. Transferases
+              2.8  Transferring sulfur-containing groups
+               2.8.3  CoA-transferases
+                2.8.3.-  
+                 b2920 (scpC)
 POSITION    3064802..3066280
 MOTIF       Pfam: AcetylCoA_hydro AcetylCoA_hyd_C CitF CoA_trans
-DBLINKS     NCBI-ProteinID: NP_417395
-            NCBI-GeneID: 947402
-            EcoGene: EG12973
+DBLINKS     NCBI-GeneID: 947402
+            NCBI-ProteinID: NP_417395
+            Pasteur: ygfH
+            RegulonDB: ECK120004079
             ECOCYC: G7517
             ASAP: ABE-0009583
             UniProt: P52043

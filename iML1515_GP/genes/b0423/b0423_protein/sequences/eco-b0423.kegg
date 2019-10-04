@@ -1,32 +1,41 @@
 ENTRY       b0423             CDS       T00007
 NAME        thiI
-DEFINITION  (RefSeq) tRNA s(4)U8 sulfurtransferase
-ORTHOLOGY   K03151  thiamine biosynthesis protein ThiI
+DEFINITION  (RefSeq) tRNA uridine 4-sulfurtransferase
+ORTHOLOGY   K03151  tRNA uracil 4-sulfurtransferase [EC:2.8.1.4]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00730  Thiamine metabolism
             eco01100  Metabolic pathways
             eco04122  Sulfur relay system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00730 Thiamine metabolism
                 b0423 (thiI)
-             Genetic Information Processing
-              Folding, sorting and degradation
+             09120 Genetic Information Processing
+              09123 Folding, sorting and degradation
                04122 Sulfur relay system
                 b0423 (thiI)
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               03016 Transfer RNA biogenesis [BR:eco03016]
+                b0423 (thiI)
+            Enzymes [BR:eco01000]
+             2. Transferases
+              2.8  Transferring sulfur-containing groups
+               2.8.1  Sulfurtransferases
+                2.8.1.4  tRNA uracil 4-sulfurtransferase
+                 b0423 (thiI)
             Transfer RNA biogenesis [BR:eco03016]
-             Prokaryotic Type
+             Prokaryotic type
               tRNA modification factors
                Other tRNA modification factors
                 b0423 (thiI)
 POSITION    441549..442997
 MOTIF       Pfam: ThiI THUMP QueC Diphthami_syn_2 tRNA_Me_trans
-DBLINKS     NCBI-ProteinID: NP_414957
-            NCBI-GeneID: 945067
+DBLINKS     NCBI-GeneID: 945067
+            NCBI-ProteinID: NP_414957
             Pasteur: thiI
             RegulonDB: ECK120002849
-            EcoGene: EG13273
             ECOCYC: G6238
             ASAP: ABE-0001470
             UniProt: P77718

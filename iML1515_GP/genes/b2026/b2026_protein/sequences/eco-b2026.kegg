@@ -1,6 +1,6 @@
 ENTRY       b2026             CDS       T00007
 NAME        hisI
-DEFINITION  (RefSeq) fused phosphoribosyl-AMP cyclohydrolase/phosphoribosyl-ATP pyrophosphatase
+DEFINITION  (RefSeq) putative bifunctional phosphoribosyl-AMP cyclohydrolase/phosphoribosyl-ATP pyrophosphatase
 ORTHOLOGY   K11755  phosphoribosyl-ATP pyrophosphohydrolase / phosphoribosyl-AMP cyclohydrolase [EC:3.6.1.31 3.5.4.19]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00340  Histidine metabolism
@@ -9,11 +9,8 @@ PATHWAY     eco00340  Histidine metabolism
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00026  Histidine biosynthesis, PRPP => histidine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b2026 (hisI)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00340 Histidine metabolism
                 b2026 (hisI)
             Enzymes [BR:eco01000]
@@ -28,11 +25,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2026 (hisI)
 POSITION    2096614..2097225
 MOTIF       Pfam: PRA-CH PRA-PH MazG Qua1
-DBLINKS     NCBI-ProteinID: NP_416530
-            NCBI-GeneID: 946515
+DBLINKS     NCBI-GeneID: 946515
+            NCBI-ProteinID: NP_416530
             Pasteur: hisI
             RegulonDB: ECK120000444
-            EcoGene: EG10451
             ECOCYC: EG10451
             ASAP: ABE-0006729
             UniProt: P06989

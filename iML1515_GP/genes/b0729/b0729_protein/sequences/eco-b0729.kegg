@@ -1,6 +1,6 @@
 ENTRY       b0729             CDS       T00007
 NAME        sucD
-DEFINITION  (RefSeq) succinyl-CoA synthetase, NAD(P)-binding, alpha subunit
+DEFINITION  (RefSeq) succinyl-CoA synthetase subunit alpha
 ORTHOLOGY   K01902  succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00020  Citrate cycle (TCA cycle)
@@ -14,11 +14,8 @@ PATHWAY     eco00020  Citrate cycle (TCA cycle)
 MODULE      eco_M00009  Citrate cycle (TCA cycle, Krebs cycle)
             eco_M00011  Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b0729 (sucD)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00020 Citrate cycle (TCA cycle)
                 b0729 (sucD)
                00640 Propanoate metabolism
@@ -33,11 +30,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0729 (sucD)
 POSITION    764180..765049
 MOTIF       Pfam: CoA_binding Ligase_CoA Succ_CoA_lig CoA_binding_2
-DBLINKS     NCBI-ProteinID: NP_415257
-            NCBI-GeneID: 945314
+DBLINKS     NCBI-GeneID: 945314
+            NCBI-ProteinID: NP_415257
             Pasteur: sucD
             RegulonDB: ECK120000971
-            EcoGene: EG10982
             ECOCYC: EG10982
             ASAP: ABE-0002485
             UniProt: P0AGE9

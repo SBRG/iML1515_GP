@@ -7,9 +7,13 @@ PATHWAY     eco00330  Arginine and proline metabolism
             eco01100  Metabolic pathways
 MODULE      eco_M00136  GABA biosynthesis, prokaryotes, putrescine => GABA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00330 Arginine and proline metabolism
+                b1298 (puuD)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors [BR:eco01002]
                 b1298 (puuD)
             Enzymes [BR:eco01000]
              3. Hydrolases
@@ -17,15 +21,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                3.5.1  In linear amides
                 3.5.1.94  gamma-glutamyl-gamma-aminobutyrate hydrolase
                  b1298 (puuD)
-            Peptidases [BR:eco01002]
-             Cysteine Peptidases
+            Peptidases and inhibitors [BR:eco01002]
+             Cysteine peptidases
               Family C26: gamma-glutamyl hydrolase family
                b1298 (puuD)
 POSITION    1361120..1361884
-MOTIF       Pfam: Peptidase_C26 GATase GATase_3
-DBLINKS     NCBI-ProteinID: NP_415814
-            NCBI-GeneID: 945882
-            EcoGene: EG13909
+MOTIF       Pfam: Peptidase_C26 GATase
+DBLINKS     NCBI-GeneID: 945882
+            NCBI-ProteinID: NP_415814
+            Pasteur: ycjL
+            RegulonDB: ECK120003240
             ECOCYC: G6645
             ASAP: ABE-0004369
             UniProt: P76038

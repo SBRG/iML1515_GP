@@ -1,14 +1,19 @@
 ENTRY       b2361             CDS       T00007
 NAME        yfdR
-DEFINITION  (RefSeq) CPS-53 (KpLE1) prophage; conserved protein
+DEFINITION  (RefSeq) CPS-53 (KpLE1) prophage; 5'-deoxynucleotidase
 ORTHOLOGY   K06952  uncharacterized protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09194 Poorly characterized
+               99997 Function unknown
+                b2361 (yfdR)
 POSITION    2474984..2475520
-MOTIF       Pfam: HD_3
-DBLINKS     NCBI-ProteinID: NP_416862
-            NCBI-GeneID: 946834
+MOTIF       Pfam: HD_2 HD_3
+DBLINKS     NCBI-GeneID: 946834
+            NCBI-ProteinID: NP_416862
             Pasteur: yfdR
-            EcoGene: EG14140
+            RegulonDB: ECK120003805
             ECOCYC: G7230
             ASAP: ABE-0007791
             UniProt: P76514

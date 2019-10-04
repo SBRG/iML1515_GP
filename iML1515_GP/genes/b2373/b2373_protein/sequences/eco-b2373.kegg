@@ -1,13 +1,13 @@
 ENTRY       b2373             CDS       T00007
 NAME        oxc
-DEFINITION  (RefSeq) oxalyl CoA decarboxylase, ThDP-dependent
+DEFINITION  (RefSeq) oxalyl-CoA decarboxylase
 ORTHOLOGY   K01577  oxalyl-CoA decarboxylase [EC:4.1.1.8]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00630  Glyoxylate and dicarboxylate metabolism
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00630 Glyoxylate and dicarboxylate metabolism
                 b2373 (oxc)
             Enzymes [BR:eco01000]
@@ -18,9 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2373 (oxc)
 POSITION    complement(2490256..2491950)
 MOTIF       Pfam: TPP_enzyme_N TPP_enzyme_M TPP_enzyme_C
-DBLINKS     NCBI-ProteinID: NP_416874
-            NCBI-GeneID: 946845
-            EcoGene: EG14143
+DBLINKS     NCBI-GeneID: 946845
+            NCBI-ProteinID: NP_416874
+            Pasteur: yfdU
+            RegulonDB: ECK120003811
             ECOCYC: G7236
             ASAP: ABE-0007826
             UniProt: P0AFI0

@@ -1,25 +1,35 @@
 ENTRY       b2328             CDS       T00007
 NAME        mepA
-DEFINITION  (RefSeq) murein DD-endopeptidase
+DEFINITION  (RefSeq) peptidoglycan DD-endopeptidase/peptidoglycan LD-endopeptidase
 ORTHOLOGY   K07261  penicillin-insensitive murein DD-endopeptidase [EC:3.4.24.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors [BR:eco01002]
+                b2328 (mepA)
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+                b2328 (mepA)
+            Enzymes [BR:eco01000]
              3. Hydrolases
               3.4  Acting on peptide bonds (peptidases)
                3.4.24  Metalloendopeptidases
                 3.4.24.-  
                  b2328 (mepA)
-            Peptidases [BR:eco01002]
-             Metallo Peptidases
+            Peptidases and inhibitors [BR:eco01002]
+             Metallo peptidases
               Family M74
+               b2328 (mepA)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              Endopeptidase
                b2328 (mepA)
 POSITION    complement(2445560..2446384)
 MOTIF       Pfam: Peptidase_M74
-DBLINKS     NCBI-ProteinID: NP_416831
-            NCBI-GeneID: 946812
+DBLINKS     NCBI-GeneID: 946812
+            NCBI-ProteinID: NP_416831
             Pasteur: mepA
             RegulonDB: ECK120000573
-            EcoGene: EG10580
             ECOCYC: EG10580
             ASAP: ABE-0007691
             UniProt: P0C0T5

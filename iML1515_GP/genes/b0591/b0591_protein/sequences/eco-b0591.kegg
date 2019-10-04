@@ -1,18 +1,24 @@
 ENTRY       b0591             CDS       T00007
 NAME        entS
-DEFINITION  (RefSeq) enterobactin exporter, iron-regulated
+DEFINITION  (RefSeq) enterobactin exporter EntS
 ORTHOLOGY   K08225  MFS transporter, ENTS family, enterobactin (siderophore) exporter
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Major Facilitator Superfamily (MFS)
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0591 (entS)
+            Transporters [BR:eco02000]
+             Major facilitator superfamily (MFS)
               Metal transporters
                Enterobactin (siderophore) exporter (EntS) family [TC:2.A.1.38]
                 b0591 (entS)
 POSITION    622300..623550
 MOTIF       Pfam: MFS_1 MFS_3
-DBLINKS     NCBI-ProteinID: NP_415123
-            NCBI-GeneID: 946268
-            EcoGene: EG11104
+DBLINKS     NCBI-GeneID: 946268
+            NCBI-ProteinID: NP_415123
+            Pasteur: ybdA
+            RegulonDB: ECK120001092
             ECOCYC: EG11104
             ASAP: ABE-0002036
             UniProt: P24077

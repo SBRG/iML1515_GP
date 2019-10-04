@@ -1,19 +1,24 @@
 ENTRY       b1981             CDS       T00007
 NAME        shiA
-DEFINITION  (RefSeq) shikimate transporter
+DEFINITION  (RefSeq) shikimate:H(+) symporter
 ORTHOLOGY   K08172  MFS transporter, MHS family, shikimate and dehydroshikimate transport protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Major Facilitator Superfamily (MFS)
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1981 (shiA)
+            Transporters [BR:eco02000]
+             Major facilitator superfamily (MFS)
               Organic acid transporters
                Metabolite:H+ symporter (MHS) family [TC:2.A.1.6]
                 b1981 (shiA)
 POSITION    2053643..2054959
 MOTIF       Pfam: MFS_1 Sugar_tr
-DBLINKS     NCBI-ProteinID: NP_416488
-            NCBI-GeneID: 946495
+DBLINKS     NCBI-GeneID: 946495
+            NCBI-ProteinID: NP_416488
             Pasteur: shiA
-            EcoGene: EG20205
+            RegulonDB: ECK120003653
             ECOCYC: G7067
             ASAP: ABE-0006572
             UniProt: P76350

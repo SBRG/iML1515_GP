@@ -1,33 +1,41 @@
 ENTRY       b3627             CDS       T00007
-NAME        waaR
-DEFINITION  (RefSeq) UDP-D-galactose:(glucosyl)lipopolysaccharide-alpha-1,3-D-galactosyltransferase
+NAME        waaO
+DEFINITION  (RefSeq) UDP-D-glucose:(glucosyl)LPS alpha-1,3-glucosyltransferase
 ORTHOLOGY   K03275  UDP-glucose:(glucosyl)LPS alpha-1,3-glucosyltransferase [EC:2.4.1.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00540  Lipopolysaccharide biosynthesis
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00540 Lipopolysaccharide biosynthesis
-                b3627 (waaR)
+                b3627 (waaO)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01003 Glycosyltransferases [BR:eco01003]
+                b3627 (waaO)
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
+                b3627 (waaO)
             Enzymes [BR:eco01000]
              2. Transferases
               2.4  Glycosyltransferases
                2.4.1  Hexosyltransferases
                 2.4.1.-  
-                 b3627 (waaR)
+                 b3627 (waaO)
             Glycosyltransferases [BR:eco01003]
              Polysaccharide
               Bacterial polysaccharide
-               b3627 (waaR)
+               b3627 (waaO)
             Lipopolysaccharide biosynthesis proteins [BR:eco01005]
              Core region
-              b3627 (waaR)
+              b3627 (waaO)
 POSITION    complement(3802039..3803058)
-MOTIF       Pfam: Glyco_transf_8 Glyco_transf_8C
-DBLINKS     NCBI-ProteinID: NP_418084
-            NCBI-GeneID: 948143
-            EcoGene: EG11352
+MOTIF       Pfam: Glyco_transf_8 Glyco_transf_8C Glyco_transf_24
+DBLINKS     NCBI-GeneID: 948143
+            NCBI-ProteinID: NP_418084
+            Pasteur: rfaI
+            RegulonDB: ECK120001321
+            ECOCYC: EG11352
             ASAP: ABE-0011860
             UniProt: P27128
 AASEQ       339

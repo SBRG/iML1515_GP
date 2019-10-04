@@ -1,13 +1,14 @@
 ENTRY       b2800             CDS       T00007
 NAME        fucA
-DEFINITION  (RefSeq) L-fuculose-1-phosphate aldolase
+DEFINITION  (RefSeq) L-fuculose-phosphate aldolase
 ORTHOLOGY   K01628  L-fuculose-phosphate aldolase [EC:4.1.2.17]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00051  Fructose and mannose metabolism
+            eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00051 Fructose and mannose metabolism
                 b2800 (fucA)
             Enzymes [BR:eco01000]
@@ -18,11 +19,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2800 (fucA)
 POSITION    complement(2933041..2933688)
 MOTIF       Pfam: Aldolase_II
-DBLINKS     NCBI-ProteinID: NP_417280
-            NCBI-GeneID: 947282
+DBLINKS     NCBI-GeneID: 947282
+            NCBI-ProteinID: NP_417280
             Pasteur: fucA
             RegulonDB: ECK120000342
-            EcoGene: EG10348
             ECOCYC: EG10348
             ASAP: ABE-0009179
             UniProt: P0AB87

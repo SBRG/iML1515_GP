@@ -1,13 +1,15 @@
 ENTRY       b1398             CDS       T00007
 NAME        paaK
-DEFINITION  (RefSeq) phenylacetyl-CoA ligase
+DEFINITION  (RefSeq) phenylacetate-CoA ligase
 ORTHOLOGY   K01912  phenylacetate-CoA ligase [EC:6.2.1.30]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00360  Phenylalanine metabolism
+            eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
+MODULE      eco_M00878  Phenylacetate degradation, phenylaxetate => acetyl-CoA/succinyl-CoA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00360 Phenylalanine metabolism
                 b1398 (paaK)
             Enzymes [BR:eco01000]
@@ -18,10 +20,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1398 (paaK)
 POSITION    1462125..1463438
 MOTIF       Pfam: AMP-binding_C_2 AMP-binding
-DBLINKS     NCBI-ProteinID: NP_415916
-            NCBI-GeneID: 945963
+DBLINKS     NCBI-GeneID: 945963
+            NCBI-ProteinID: NP_415916
             Pasteur: paaK
-            EcoGene: EG13745
+            RegulonDB: ECK120003313
             ECOCYC: G6719
             ASAP: ABE-0004671
             UniProt: P76085

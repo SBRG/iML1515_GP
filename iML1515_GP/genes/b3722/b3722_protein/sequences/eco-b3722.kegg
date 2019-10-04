@@ -1,16 +1,19 @@
 ENTRY       b3722             CDS       T00007
 NAME        bglF
-DEFINITION  (RefSeq) fused beta-glucoside-specific PTS enzymes: IIA component/IIB component/IIC component
+DEFINITION  (RefSeq) beta-glucoside specific PTS enzyme II/BglG kinase/BglG phosphatase
 ORTHOLOGY   K02755  PTS system, beta-glucoside-specific IIA component [EC:2.7.1.-]
             K02756  PTS system, beta-glucoside-specific IIB component [EC:2.7.1.-]
             K02757  PTS system, beta-glucoside-specific IIC component
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02060  Phosphotransferase system (PTS)
-MODULE      eco_M00271  PTS system, beta-glucoside-specific II component
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02060 Phosphotransferase system (PTS)
+                b3722 (bglF)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
                 b3722 (bglF)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -19,16 +22,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 2.7.1.-  
                  b3722 (bglF)
             Transporters [BR:eco02000]
-             Phosphotransferase System (PTS)
+             Phosphotransferase system (PTS)
               Enzyme II [TC:4.A]
-               Beta-glucoside-specific II component [MD:M00271]
+               Beta-glucoside-specific II component
                 b3722 (bglF)
 POSITION    complement(3903720..3905597)
 MOTIF       Pfam: PTS_EIIA_1 PTS_EIIC PTS_EIIB
-DBLINKS     NCBI-ProteinID: NP_418178
-            NCBI-GeneID: 948236
+DBLINKS     NCBI-GeneID: 948236
+            NCBI-ProteinID: NP_418178
             Pasteur: bglF
-            EcoGene: EG10115
+            RegulonDB: ECK120000111
             ECOCYC: EG10115
             ASAP: ABE-0012171
             UniProt: P08722

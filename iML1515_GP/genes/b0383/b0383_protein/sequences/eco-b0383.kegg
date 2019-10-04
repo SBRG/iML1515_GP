@@ -1,28 +1,29 @@
 ENTRY       b0383             CDS       T00007
 NAME        phoA
-DEFINITION  (RefSeq) bacterial alkaline phosphatase
+DEFINITION  (RefSeq) alkaline phosphatase
 ORTHOLOGY   K01077  alkaline phosphatase [EC:3.1.3.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-PATHWAY     eco00627  Aminobenzoate degradation
-            eco00730  Thiamine metabolism
+PATHWAY     eco00730  Thiamine metabolism
             eco00790  Folate biosynthesis
             eco01100  Metabolic pathways
-            eco01120  Microbial metabolism in diverse environments
             eco02020  Two-component system
 MODULE      eco_M00126  Tetrahydrofolate biosynthesis, GTP => THF
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00730 Thiamine metabolism
                 b0383 (phoA)
                00790 Folate biosynthesis
                 b0383 (phoA)
-              Xenobiotics biodegradation and metabolism
-               00627 Aminobenzoate degradation
-                b0383 (phoA)
-             Environmental Information Processing
-              Signal transduction
+             09130 Environmental Information Processing
+              09132 Signal transduction
                02020 Two-component system
+                b0383 (phoA)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               04147 Exosome [BR:eco04147]
+                b0383 (phoA)
+               00537 Glycosylphosphatidylinositol (GPI)-anchored proteins [BR:eco00537]
                 b0383 (phoA)
             Enzymes [BR:eco01000]
              3. Hydrolases
@@ -39,18 +40,18 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
               b0383 (phoA)
 POSITION    401747..403162
 MOTIF       Pfam: Alk_phosphatase Metalloenzyme Sulfatase Phosphodiest
-DBLINKS     NCBI-ProteinID: NP_414917
-            NCBI-GeneID: 945041
+DBLINKS     NCBI-GeneID: 945041
+            NCBI-ProteinID: NP_414917
             Pasteur: phoA
-            EcoGene: EG10727
+            RegulonDB: ECK120000718
             ECOCYC: EG10727
             ASAP: ABE-0001328
             UniProt: P00634
 STRUCTURE   PDB: 3TG0 3BDF 3BDG 1Y6V 1ED8 1ED9 1Y7A 3BDH 1B8J 2G9Y 1KH5
                  1EW9 1ALK 5C66 1URA 3CMR 1URB 2GA3 1EW8 1ALI 4YR1 1HQA
-                 3DYC 3DPC 1KHJ 1HJK 1ANJ 1KH4 1KH7 2ANH 1KHK 1KHL 1KH9
-                 1ANI 1AJA 1AJB 1AJD 1AJC 1ALH 1KHN 1ELX 1ALJ 4KM4 1ELY
-                 1ELZ 5JTL 5JTM 5JTN 5JTO 5JTP 2MLX 2MLY 2MLZ
+                 3DYC 3DPC 1KHJ 1HJK 1ANJ 1KH4 1KH7 2ANH 5TPQ 1KHK 1KHL
+                 1KH9 1ANI 1AJA 1AJB 1AJD 1AJC 1ALH 1KHN 1ELX 1ALJ 4KM4
+                 1ELY 1ELZ 6PSI 5JTL 5JTM 5JTN 5JTO 5JTP 2MLX 2MLY 2MLZ
 AASEQ       471
             MKQSTIALALLPLLFTPVTKARTPEMPVLENRAAQGDITAPGGARRLTGDQTAALRDSLS
             DKPAKNIILLIGDGMGDSEITAARNYAEGAGGFFKGIDALPLTGQYTHYALNKKTGKPDY

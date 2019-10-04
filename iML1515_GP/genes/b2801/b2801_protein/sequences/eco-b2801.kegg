@@ -1,20 +1,24 @@
 ENTRY       b2801             CDS       T00007
 NAME        fucP
-DEFINITION  (RefSeq) L-fucose transporter
+DEFINITION  (RefSeq) L-fucose:H(+) symporter
 ORTHOLOGY   K02429  MFS transporter, FHS family, L-fucose permease
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Major Facilitator Superfamily (MFS)
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2801 (fucP)
+            Transporters [BR:eco02000]
+             Major facilitator superfamily (MFS)
               Sugar transporters
                Fucose:H+ symporter (FHS) family [TC:2.A.1.7]
                 b2801 (fucP)
 POSITION    2934235..2935551
 MOTIF       Pfam: MFS_1 Sugar_tr OATP MRAP
-DBLINKS     NCBI-ProteinID: NP_417281
-            NCBI-GeneID: 947487
+DBLINKS     NCBI-GeneID: 947487
+            NCBI-ProteinID: NP_417281
             Pasteur: fucP
             RegulonDB: ECK120000346
-            EcoGene: EG10352
             ECOCYC: EG10352
             ASAP: ABE-0009187
             UniProt: P11551

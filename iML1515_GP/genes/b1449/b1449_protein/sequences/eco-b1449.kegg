@@ -1,14 +1,24 @@
 ENTRY       b1449             CDS       T00007
 NAME        curA
-DEFINITION  (RefSeq) curcumin/dihydrocurcumin reductase, NADPH-dependent
-ORTHOLOGY   K07119  uncharacterized protein
+DEFINITION  (RefSeq) NADPH-dependent curcumin/dihydrocurcumin reductase
+ORTHOLOGY   K23256  NADPH-dependent curcumin reductase [EC:1.3.1.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09191 Unclassified: metabolism
+               99980 Enzymes with EC numbers
+                b1449 (curA)
+            Enzymes [BR:eco01000]
+             1. Oxidoreductases
+              1.3  Acting on the CH-CH group of donors
+               1.3.1  With NAD+ or NADP+ as acceptor
+                1.3.1.-  
+                 b1449 (curA)
 POSITION    1519027..1520064
 MOTIF       Pfam: ADH_N_2 ADH_zinc_N ADH_zinc_N_2
-DBLINKS     NCBI-ProteinID: NP_415966
-            NCBI-GeneID: 946012
+DBLINKS     NCBI-GeneID: 946012
+            NCBI-ProteinID: NP_415966
             RegulonDB: ECK120003349
-            EcoGene: EG13772
             ECOCYC: G6760
             ASAP: ABE-0004834
             UniProt: P76113

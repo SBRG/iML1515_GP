@@ -1,23 +1,27 @@
 ENTRY       b4173             CDS       T00007
 NAME        hflX
-DEFINITION  (RefSeq) GTPase, stimulated by 50S subunit binding
+DEFINITION  (RefSeq) ribosome rescue factor HflX
 ORTHOLOGY   K03665  GTPase
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Ribosome biogenesis [BR:eco03009]
-             Prokaryotic Type
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               03009 Ribosome biogenesis [BR:eco03009]
+                b4173 (hflX)
+            Ribosome biogenesis [BR:eco03009]
+             Prokaryotic type
               GTPases
                b4173 (hflX)
 POSITION    4400672..4401952
-MOTIF       Pfam: GTP-bdg_N GTP-bdg_M MMR_HSR1 FeoB_N RsgA_GTPase Arf GTP_EFTU MMR_HSR1_Xtn Roc Dynamin_N cobW ATP_bind_1 SRPRB TniB Ras ABC_tran MnmE_helical DUF4011
-DBLINKS     NCBI-ProteinID: NP_418594
-            NCBI-GeneID: 948688
+MOTIF       Pfam: GTP-bdg_N GTP-bdg_M MMR_HSR1 FeoB_N RsgA_GTPase Arf GTP_EFTU MMR_HSR1_Xtn Dynamin_N cobW ATP_bind_1 TniB SRPRB Ras ABC_tran MnmE_helical DUF4011
+DBLINKS     NCBI-GeneID: 948688
+            NCBI-ProteinID: NP_418594
             Pasteur: hflX
             RegulonDB: ECK120000430
-            EcoGene: EG10437
             ECOCYC: EG10437
             ASAP: ABE-0013661
             UniProt: P25519
-STRUCTURE   PDB: 5ADY
+STRUCTURE   PDB: 5ADY 5ZZM
 AASEQ       426
             MFDRYDAGEQAVLVHIYFTQDKDMEDLQEFESLVSSAGVEALQVITGSRKAPHPKYFVGE
             GKAVEIAEAVKATGASVVLFDHALSPAQERNLERLCECRVIDRTGLILDIFAQRARTHEG

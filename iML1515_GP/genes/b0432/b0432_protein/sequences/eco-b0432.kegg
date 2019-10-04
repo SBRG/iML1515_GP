@@ -1,28 +1,28 @@
 ENTRY       b0432             CDS       T00007
 NAME        cyoA
-DEFINITION  (RefSeq) cytochrome o ubiquinol oxidase subunit II
-ORTHOLOGY   K02297  cytochrome o ubiquinol oxidase subunit II [EC:1.10.3.10]
+DEFINITION  (RefSeq) cytochrome bo3 ubiquinol oxidase subunit 2
+ORTHOLOGY   K02297  cytochrome o ubiquinol oxidase subunit II [EC:7.1.1.3]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00190  Oxidative phosphorylation
             eco01100  Metabolic pathways
 MODULE      eco_M00417  Cytochrome o ubiquinol oxidase
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00190 Oxidative phosphorylation
                 b0432 (cyoA)
             Enzymes [BR:eco01000]
-             1. Oxidoreductases
-              1.10  Acting on diphenols and related substances as donors
-               1.10.3  With oxygen as acceptor
-                1.10.3.10  ubiquinol oxidase (H+-transporting)
+             7. Translocases
+              7.1  Catalysing the translocation of hydrons
+               7.1.1  Linked to oxidoreductase reactions
+                7.1.1.3  ubiquinol oxidase (H+-transporting)
                  b0432 (cyoA)
 POSITION    complement(450663..451610)
-MOTIF       Pfam: COX_ARM COX2 Cupredoxin_1 FtsX COX2_TM TspO_MBR DUF5385
-DBLINKS     NCBI-ProteinID: NP_414966
-            NCBI-GeneID: 945080
+MOTIF       Pfam: COX_ARM COX2 FtsX Cupredoxin_1 COX2_TM TspO_MBR DUF5385
+DBLINKS     NCBI-GeneID: 945080
+            NCBI-ProteinID: NP_414966
             Pasteur: cyoA
-            EcoGene: EG10178
+            RegulonDB: ECK120000173
             ECOCYC: EG10178
             ASAP: ABE-0001495
             UniProt: P0ABJ1

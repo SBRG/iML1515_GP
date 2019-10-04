@@ -1,6 +1,6 @@
 ENTRY       b0356             CDS       T00007
 NAME        frmA
-DEFINITION  (RefSeq) alcohol dehydrogenase class III/glutathione-dependent formaldehyde dehydrogenase
+DEFINITION  (RefSeq) S-(hydroxymethyl)glutathione dehydrogenase
 ORTHOLOGY   K00121  S-(hydroxymethyl)glutathione dehydrogenase / alcohol dehydrogenase [EC:1.1.1.284 1.1.1.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00010  Glycolysis / Gluconeogenesis
@@ -16,25 +16,20 @@ PATHWAY     eco00010  Glycolysis / Gluconeogenesis
             eco01200  Carbon metabolism
             eco01220  Degradation of aromatic compounds
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b0356 (frmA)
-               01220 Degradation of aromatic compounds
-                b0356 (frmA)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
                 b0356 (frmA)
-              Energy metabolism
+              09102 Energy metabolism
                00680 Methane metabolism
                 b0356 (frmA)
-              Lipid metabolism
+              09103 Lipid metabolism
                00071 Fatty acid degradation
                 b0356 (frmA)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00350 Tyrosine metabolism
                 b0356 (frmA)
-              Xenobiotics biodegradation and metabolism
+              09111 Xenobiotics biodegradation and metabolism
                00625 Chloroalkane and chloroalkene degradation
                 b0356 (frmA)
                00626 Naphthalene degradation
@@ -48,10 +43,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 1.1.1.284  S-(hydroxymethyl)glutathione dehydrogenase
                  b0356 (frmA)
 POSITION    complement(378462..379571)
-MOTIF       Pfam: ADH_N ADH_zinc_N ADH_zinc_N_2 TrkA_N MinC_C 2-Hacid_dh_C Met_10
-DBLINKS     NCBI-ProteinID: NP_414890
-            NCBI-GeneID: 944988
-            EcoGene: EG50010
+MOTIF       Pfam: ADH_N ADH_zinc_N ADH_zinc_N_2 TrkA_N MinC_C 2-Hacid_dh_C Met_10 ADH_N_2
+DBLINKS     NCBI-GeneID: 944988
+            NCBI-ProteinID: NP_414890
+            Pasteur: adhC
+            RegulonDB: ECK120002569
             ECOCYC: EG50010
             ASAP: ABE-0001221
             UniProt: P25437

@@ -1,32 +1,36 @@
 ENTRY       b1920             CDS       T00007
-NAME        fliY
-DEFINITION  (RefSeq) cystine transporter subunit
-ORTHOLOGY   K02424  cystine transport system substrate-binding protein
+NAME        tcyJ
+DEFINITION  (RefSeq) cystine ABC transporter periplasmic binding protein
+ORTHOLOGY   K02424  L-cystine transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00234  Cystine transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
-                b1920 (fliY)
+                b1920 (tcyJ)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1920 (tcyJ)
+               02035 Bacterial motility proteins [BR:eco02035]
+                b1920 (tcyJ)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Phosphate and amino acid transporters
-               Cystine transporter [MD:M00234] [OT]
-                b1920 (fliY)
+               Cystine transporter
+                b1920 (tcyJ)
             Bacterial motility proteins [BR:eco02035]
              Flagellar system
               Flagellar assembly proteins
                Chaperones
-                b1920 (fliY)
+                b1920 (tcyJ)
 POSITION    complement(1999585..2000385)
 MOTIF       Pfam: SBP_bac_3 Lig_chan-Glu_bd Phosphonate-bd NMT1
-DBLINKS     NCBI-ProteinID: NP_416430
-            NCBI-GeneID: 948833
+DBLINKS     NCBI-GeneID: 948833
+            NCBI-ProteinID: NP_416430
             Pasteur: fliY
-            EcoGene: EG12680
-            ECOCYC: G7039
+            RegulonDB: ECK120003625
             ASAP: ABE-0006392
             UniProt: P0AEM9
 AASEQ       266

@@ -1,27 +1,29 @@
 ENTRY       b3726             CDS       T00007
 NAME        pstA
-DEFINITION  (RefSeq) phosphate transporter subunit
+DEFINITION  (RefSeq) phosphate ABC transporter membrane subunit PstA
 ORTHOLOGY   K02038  phosphate transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00222  Phosphate transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b3726 (pstA)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3726 (pstA)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Phosphate and amino acid transporters
-               Phosphate transporter [MD:M00222] [OT]
+               Phosphate transporter
                 b3726 (pstA)
 POSITION    complement(3908549..3909439)
 MOTIF       Pfam: BPD_transp_1
-DBLINKS     NCBI-ProteinID: NP_418182
-            NCBI-GeneID: 948239
+DBLINKS     NCBI-GeneID: 948239
+            NCBI-ProteinID: NP_418182
             Pasteur: pstA
             RegulonDB: ECK120000773
-            EcoGene: EG10782
             ECOCYC: EG10782
             ASAP: ABE-0012184
             UniProt: P07654

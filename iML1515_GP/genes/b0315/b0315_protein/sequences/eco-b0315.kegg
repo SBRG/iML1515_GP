@@ -1,21 +1,25 @@
 ENTRY       b0315             CDS       T00007
-NAME        yahA
-DEFINITION  (RefSeq) c-di-GMP-specific phosphodiesterase
+NAME        pdeL
+DEFINITION  (RefSeq) DNA-binding transcriptional activator/c-di-GMP phosphodiesterase PdeL
 ORTHOLOGY   K13244  c-di-GMP-specific phosphodiesterase [EC:3.1.4.52]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09191 Unclassified: metabolism
+               99980 Enzymes with EC numbers
+                b0315 (pdeL)
+            Enzymes [BR:eco01000]
              3. Hydrolases
               3.1  Acting on ester bonds
                3.1.4  Phosphoric-diester hydrolases
                 3.1.4.52  cyclic-guanylate-specific phosphodiesterase
-                 b0315 (yahA)
+                 b0315 (pdeL)
 POSITION    332371..333459
 MOTIF       Pfam: EAL GerE HTH_38 HTH_40 HTH_23 Hom_end
-DBLINKS     NCBI-ProteinID: NP_414849
-            NCBI-GeneID: 947459
+DBLINKS     NCBI-GeneID: 947459
+            NCBI-ProteinID: NP_414849
             Pasteur: yahA
-            EcoGene: EG11236
-            ECOCYC: EG11236
+            RegulonDB: ECK120001214
             ASAP: ABE-0001086
             UniProt: P21514
 STRUCTURE   PDB: 4LJ3 4KIE 4LYK

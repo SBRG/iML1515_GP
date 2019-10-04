@@ -1,15 +1,17 @@
 ENTRY       b1210             CDS       T00007
 NAME        hemA
-DEFINITION  (RefSeq) glutamyl tRNA reductase
+DEFINITION  (RefSeq) glutamyl-tRNA reductase
 ORTHOLOGY   K02492  glutamyl-tRNA reductase [EC:1.2.1.70]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00860  Porphyrin and chlorophyll metabolism
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
-MODULE      eco_M00121  Heme biosynthesis, glutamate => protoheme/siroheme
+            eco01120  Microbial metabolism in diverse environments
+MODULE      eco_M00121  Heme biosynthesis, plants and bacteria, glutamate => heme
+            eco_M00846  Siroheme biosynthesis, glutamate => siroheme
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00860 Porphyrin and chlorophyll metabolism
                 b1210 (hemA)
             Enzymes [BR:eco01000]
@@ -20,11 +22,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1210 (hemA)
 POSITION    1263714..1264970
 MOTIF       Pfam: GlutR_N Shikimate_DH GlutR_dimer OCD_Mu_crystall F420_oxidored CRS1_YhbY
-DBLINKS     NCBI-ProteinID: NP_415728
-            NCBI-GeneID: 945777
+DBLINKS     NCBI-GeneID: 945777
+            NCBI-ProteinID: NP_415728
             Pasteur: hemA
             RegulonDB: ECK120000420
-            EcoGene: EG10427
             ECOCYC: EG10427
             ASAP: ABE-0004064
             UniProt: P0A6X1

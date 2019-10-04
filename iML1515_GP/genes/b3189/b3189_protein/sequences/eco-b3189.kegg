@@ -7,12 +7,16 @@ PATHWAY     eco00520  Amino sugar and nucleotide sugar metabolism
             eco00550  Peptidoglycan biosynthesis
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00520 Amino sugar and nucleotide sugar metabolism
                 b3189 (murA)
-              Glycan biosynthesis and metabolism
+              09107 Glycan biosynthesis and metabolism
                00550 Peptidoglycan biosynthesis
+                b3189 (murA)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
                 b3189 (murA)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -20,16 +24,20 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
                 2.5.1.7  UDP-N-acetylglucosamine 1-carboxyvinyltransferase
                  b3189 (murA)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Precursor biosynthesis
+              Transferase/Dehydrogenase
+               b3189 (murA)
 POSITION    complement(3335235..3336494)
 MOTIF       Pfam: EPSP_synthase Phage_gp49_66
-DBLINKS     NCBI-ProteinID: NP_417656
-            NCBI-GeneID: 947703
+DBLINKS     NCBI-GeneID: 947703
+            NCBI-ProteinID: NP_417656
             Pasteur: murA
-            EcoGene: EG11358
+            RegulonDB: ECK120001327
             ECOCYC: EG11358
             ASAP: ABE-0010479
             UniProt: P0A749
-STRUCTURE   PDB: 3KQJ 3KR6 1UAE 2Z2C 3SWD 3ISS 1A2N
+STRUCTURE   PDB: 3KQJ 3KR6 1UAE 2Z2C 3SWD 3ISS 1A2N 5VM7
 AASEQ       419
             MDKFRVQGPTKLQGEVTISGAKNAALPILFAALLAEEPVEIQNVPKLKDVDTSMKLLSQL
             GAKVERNGSVHIDARDVNVFCAPYDLVKTMRASIWALGPLVARFGQGQVSLPGGCTIGAR

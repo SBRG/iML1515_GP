@@ -1,26 +1,29 @@
 ENTRY       b3540             CDS       T00007
 NAME        dppF
-DEFINITION  (RefSeq) dipeptide transporter
+DEFINITION  (RefSeq) dipeptide ABC transporter ATP binding subunit DppF
 ORTHOLOGY   K12372  dipeptide transport system ATP-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00324  Dipeptide transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b3540 (dppF)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3540 (dppF)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Peptide and nickel transporters
-               Dipeptide transporter [MD:M00324] [OT]
+               Dipeptide transporter
                 b3540 (dppF)
 POSITION    complement(3701864..3702868)
-MOTIF       Pfam: ABC_tran oligo_HPY SMC_N AAA_21 RsgA_GTPase IstB_IS21 AAA_22 AAA_16 AAA_29 Tub_N AAA_23 ATPase
-DBLINKS     NCBI-ProteinID: NP_417997
-            NCBI-GeneID: 948056
+MOTIF       Pfam: ABC_tran oligo_HPY SMC_N AAA_21 RsgA_GTPase IstB_IS21 AAA_22 AAA_16 AAA_29 AAA_23 ATPase Tub_N
+DBLINKS     NCBI-GeneID: 948056
+            NCBI-ProteinID: NP_417997
             Pasteur: dppF
-            EcoGene: EG12628
+            RegulonDB: ECK120002340
             ECOCYC: EG12628
             ASAP: ABE-0011564
             UniProt: P37313

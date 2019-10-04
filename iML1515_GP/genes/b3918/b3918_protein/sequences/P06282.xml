@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1988-01-01" modified="2019-07-31" version="144">
+<accession>P06282</accession>
+<accession>Q2M8L4</accession>
+<name>CDH_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>CDP-diacylglycerol pyrophosphatase</fullName>
+<ecNumber>3.6.1.26</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>CDP-diacylglycerol phosphatidylhydrolase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>CDP-diglyceride hydrolase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">cdh</name>
+<name type="ordered locus">b3918</name>
+<name type="ordered locus">JW3889</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1985" name="J. Biol. Chem." volume="260" first="12092" last="12098">
+<title>Molecular cloning and sequencing of the gene for CDP-diglyceride hydrolase of Escherichia coli.</title>
+<authorList>
+<person name="Icho T."/>
+<person name="Bulawa C.E."/>
+<person name="Raetz C.R.H."/>
+</authorList>
+<dbReference type="PubMed" id="2995360"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1985" name="Eur. J. Biochem." volume="149" first="363" last="373">
+<title>Nucleotide sequence and high-level expression of the major Escherichia coli phosphofructokinase.</title>
+<authorList>
+<person name="Hellinga H.W."/>
+<person name="Evans P.R."/>
+</authorList>
+<dbReference type="PubMed" id="3158524"/>
+<dbReference type="DOI" id="10.1111/j.1432-1033.1985.tb08934.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1993" name="Nucleic Acids Res." volume="21" first="3391" last="3398">
+<title>Analysis of the Escherichia coli genome. III. DNA sequence of the region from 87.2 to 89.2 minutes.</title>
+<authorList>
+<person name="Plunkett G. III"/>
+<person name="Burland V."/>
+<person name="Daniels D.L."/>
+<person name="Blattner F.R."/>
+</authorList>
+<dbReference type="PubMed" id="8346018"/>
+<dbReference type="DOI" id="10.1093/nar/21.15.3391"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<comment type="catalytic activity">
+<reaction>
+<text>a CDP-1,2-diacyl-sn-glycerol + H2O = a 1,2-diacyl-sn-glycero-3-phosphate + CMP + 2 H(+)</text>
+<dbReference type="Rhea" id="RHEA:15221"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:58332"/>
+<dbReference type="ChEBI" id="CHEBI:58608"/>
+<dbReference type="ChEBI" id="CHEBI:60377"/>
+<dbReference type="EC" id="3.6.1.26"/>
+</reaction>
+</comment>
+<comment type="pathway">
+<text>Phospholipid metabolism; CDP-diacylglycerol degradation; phosphatidate from CDP-diacylglycerol: step 1/1.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Cell inner membrane</location>
+<topology>Single-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="2">Belongs to the Cdh family.</text>
+</comment>
+<comment type="sequence caution" evidence="2">
+<conflict type="frameshift">
+<sequence resource="EMBL-CDS" id="CAA26358" version="1"/>
+</conflict>
+</comment>
+<dbReference type="EC" id="3.6.1.26"/>
+<dbReference type="EMBL" id="M11331">
+<property type="protein sequence ID" value="AAA23543.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="X02519">
+<property type="protein sequence ID" value="CAA26358.1"/>
+<property type="status" value="ALT_FRAME"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L19201">
+<property type="protein sequence ID" value="AAB03050.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC76900.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE77392.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="A01019">
+<property type="entry name" value="PSECCD"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_418353.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_001326656.1">
+<property type="nucleotide sequence ID" value="NZ_SSZK01000014.1"/>
+</dbReference>
+<dbReference type="SMR" id="P06282"/>
+<dbReference type="BioGrid" id="4261218">
+<property type="interactions" value="158"/>
+</dbReference>
+<dbReference type="IntAct" id="P06282">
+<property type="interactions" value="3"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b3918"/>
+<dbReference type="PaxDb" id="P06282"/>
+<dbReference type="PRIDE" id="P06282"/>
+<dbReference type="EnsemblBacteria" id="AAC76900">
+<property type="protein sequence ID" value="AAC76900"/>
+<property type="gene ID" value="b3918"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE77392">
+<property type="protein sequence ID" value="BAE77392"/>
+<property type="gene ID" value="BAE77392"/>
+</dbReference>
+<dbReference type="GeneID" id="948410"/>
+<dbReference type="KEGG" id="ecj:JW3889"/>
+<dbReference type="KEGG" id="eco:b3918"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.2787"/>
+<dbReference type="EchoBASE" id="EB0136"/>
+<dbReference type="EcoGene" id="EG10138">
+<property type="gene designation" value="cdh"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105EAF">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG2134">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000048713"/>
+<dbReference type="InParanoid" id="P06282"/>
+<dbReference type="KO" id="K01521"/>
+<dbReference type="PhylomeDB" id="P06282"/>
+<dbReference type="BioCyc" id="EcoCyc:CDPDIGLYPYPHOSPHA-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW3889-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:CDPDIGLYPYPHOSPHA-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00609">
+<property type="reaction ID" value="UER00664"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P06282"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008715">
+<property type="term" value="F:CDP-diacylglycerol diphosphatase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046342">
+<property type="term" value="P:CDP-diacylglycerol catabolic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008654">
+<property type="term" value="P:phospholipid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniRule"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.428.30">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00319">
+<property type="entry name" value="Cdh"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003763">
+<property type="entry name" value="CDP-diacylglyc_Pase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015993">
+<property type="entry name" value="CDP-diacylglyc_Pase_proteobac"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR038433">
+<property type="entry name" value="CDP-diacylglyc_Pase_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036265">
+<property type="entry name" value="HIT-like_sf"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02611">
+<property type="entry name" value="CDH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF001273">
+<property type="entry name" value="CDH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF54197">
+<property type="entry name" value="SSF54197"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00672">
+<property type="entry name" value="cdh"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0997">Cell inner membrane</keyword>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0444">Lipid biosynthesis</keyword>
+<keyword id="KW-0443">Lipid metabolism</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0594">Phospholipid biosynthesis</keyword>
+<keyword id="KW-1208">Phospholipid metabolism</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="CDP-diacylglycerol pyrophosphatase" id="PRO_0000198573">
+<location>
+<begin position="1"/>
+<end position="251"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="4"/>
+<end position="24"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255"/>
+<evidence key="2" type="ECO:0000305"/>
+<sequence length="251" mass="28451" checksum="F2E704FD5E164779" modified="1988-01-01" version="1">MKKAGLLFLVMIVIAVVAAGIGYWKLTGEESDTLRKIVLEECLPNQQQNQNPSPCAEVKPNAGYVVLKDLNGPLQYLLMPTYRINGTESPLLTDPSTPNFFWLAWQARDFMSKKYGQPVPDRAVSLAINSRTGRTQNHFHIHISCIRPDVRKQLDNNLANISSRWLPLPGGLRGHEYLARRVTESELVQRSPFMMLAEEVPEAREHMGRYGLAMVRQSDNSFVLLATQRNLLTLNRASAEEIQDHQCEILR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

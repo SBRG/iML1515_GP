@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Thu  3 Oct 2019 22:52:52
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b3005/b3005_protein/sequences/P0ABV2_5zfv-F.needle
+#    -asequence asis::MAMHLNENLDDNGEMHDINVTPFIDVMLVLLIIFMVAAPLATVDVKVNLPASTSTPQPRPEKPVYLSVKADNSMFIGNDPVTDETMITALNALTEGKKDTTIFFRADKTVDYETLMKVMDTLHQAGYLKIGLVGEETAKAK
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXNVTPFIDVMLVLLIIFMVAAPL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b3005/b3005_protein/sequences/P0ABV2_5zfv-F.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 141
+# Identity:      22/141 (15.6%)
+# Similarity:    22/141 (15.6%)
+# Gaps:         101/141 (71.6%)
+# Score: 88.0
+# 
+#
+#=======================================
+
+asis               1 MAMHLNENLDDNGEMHDINVTPFIDVMLVLLIIFMVAAPLATVDVKVNLP     50
+                     ..................||||||||||||||||||||||          
+asis               1 XXXXXXXXXXXXXXXXXXNVTPFIDVMLVLLIIFMVAAPL----------     40
+
+asis              51 ASTSTPQPRPEKPVYLSVKADNSMFIGNDPVTDETMITALNALTEGKKDT    100
+                                                                       
+asis              40 --------------------------------------------------     40
+
+asis             101 TIFFRADKTVDYETLMKVMDTLHQAGYLKIGLVGEETAKAK    141
+                                                              
+asis              40 -----------------------------------------     40
+
+
+#---------------------------------------
+#---------------------------------------

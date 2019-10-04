@@ -1,6 +1,6 @@
 ENTRY       b2797             CDS       T00007
 NAME        sdaB
-DEFINITION  (RefSeq) L-serine dehydratase 2
+DEFINITION  (RefSeq) L-serine deaminase II
 ORTHOLOGY   K01752  L-serine dehydratase [EC:4.3.1.17]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00260  Glycine, serine and threonine metabolism
@@ -11,13 +11,8 @@ PATHWAY     eco00260  Glycine, serine and threonine metabolism
             eco01200  Carbon metabolism
             eco01230  Biosynthesis of amino acids
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b2797 (sdaB)
-               01230 Biosynthesis of amino acids
-                b2797 (sdaB)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00260 Glycine, serine and threonine metabolism
                 b2797 (sdaB)
                00270 Cysteine and methionine metabolism
@@ -29,12 +24,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 4.3.1.17  L-serine ammonia-lyase
                  b2797 (sdaB)
 POSITION    2929576..2930943
-MOTIF       Pfam: SDH_alpha SDH_beta MmgE_PrpD SAP
-DBLINKS     NCBI-ProteinID: NP_417277
-            NCBI-GeneID: 947262
+MOTIF       Pfam: SDH_alpha SDH_beta MmgE_PrpD CT_C_D SAP
+DBLINKS     NCBI-GeneID: 947262
+            NCBI-ProteinID: NP_417277
             Pasteur: sdaB
             RegulonDB: ECK120001571
-            EcoGene: EG11623
             ECOCYC: EG11623
             ASAP: ABE-0009172
             UniProt: P30744

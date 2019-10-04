@@ -1,12 +1,14 @@
 ENTRY       b1865             CDS       T00007
 NAME        nudB
-DEFINITION  (RefSeq) dihydroneopterin triphosphate pyrophosphatase
+DEFINITION  (RefSeq) dihydroneopterin triphosphate diphosphatase
 ORTHOLOGY   K08310  dihydroneopterin triphosphate diphosphatase [EC:3.6.1.67]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00790  Folate biosynthesis
+            eco01100  Metabolic pathways
+MODULE      eco_M00126  Tetrahydrofolate biosynthesis, GTP => THF
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00790 Folate biosynthesis
                 b1865 (nudB)
             Enzymes [BR:eco01000]
@@ -17,13 +19,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1865 (nudB)
 POSITION    complement(1948180..1948632)
 MOTIF       Pfam: NUDIX
-DBLINKS     NCBI-ProteinID: NP_416379
-            NCBI-GeneID: 946383
-            EcoGene: EG11138
+DBLINKS     NCBI-GeneID: 946383
+            NCBI-ProteinID: NP_416379
+            Pasteur: ntpA
+            RegulonDB: ECK120001122
             ECOCYC: EG11138
             ASAP: ABE-0006223
             UniProt: P0AFC0
-STRUCTURE   PDB: 2O1C 2O5W
+STRUCTURE   PDB: 5U7F 2O1C 5U7E 5U7H 2O5W
 AASEQ       150
             MKDKVYKRPVSILVVIYAQDTKRVLMLQRRDDPDFWQSVTGSVEEGETAPQAAMREVKEE
             VTIDVVAEQLTLIDCQRTVEFEIFSHLRHRYAPGVTRNTESWFCLALPHERQIVFTEHLA

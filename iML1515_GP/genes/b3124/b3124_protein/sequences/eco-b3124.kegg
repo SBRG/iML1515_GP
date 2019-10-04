@@ -1,6 +1,6 @@
 ENTRY       b3124             CDS       T00007
 NAME        garK
-DEFINITION  (RefSeq) glycerate kinase I
+DEFINITION  (RefSeq) glycerate 2-kinase 1
 ORTHOLOGY   K00865  glycerate 2-kinase [EC:2.7.1.165]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00260  Glycine, serine and threonine metabolism
@@ -10,14 +10,14 @@ PATHWAY     eco00260  Glycine, serine and threonine metabolism
             eco01120  Microbial metabolism in diverse environments
             eco01130  Biosynthesis of antibiotics
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00630 Glyoxylate and dicarboxylate metabolism
                 b3124 (garK)
-              Lipid metabolism
+              09103 Lipid metabolism
                00561 Glycerolipid metabolism
                 b3124 (garK)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00260 Glycine, serine and threonine metabolism
                 b3124 (garK)
             Enzymes [BR:eco01000]
@@ -28,10 +28,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3124 (garK)
 POSITION    complement(3270625..3271770)
 MOTIF       Pfam: Gly_kinase
-DBLINKS     NCBI-ProteinID: NP_417593
-            NCBI-GeneID: 947632
+DBLINKS     NCBI-GeneID: 947632
+            NCBI-ProteinID: NP_417593
+            Pasteur: yhaD
             RegulonDB: ECK120001157
-            EcoGene: EG11175
             ECOCYC: EG11175
             ASAP: ABE-0010271
             UniProt: P23524

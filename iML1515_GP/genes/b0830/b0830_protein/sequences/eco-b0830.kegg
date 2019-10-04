@@ -1,25 +1,29 @@
 ENTRY       b0830             CDS       T00007
 NAME        gsiB
-DEFINITION  (RefSeq) glutathione periplasmic binding protein, ABC superfamily transporter
+DEFINITION  (RefSeq) glutathione ABC transporter periplasmic binding protein
 ORTHOLOGY   K13889  glutathione transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00348  Glutathione transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b0830 (gsiB)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0830 (gsiB)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Peptide and nickel transporters
-               Glutathione transporter [MD:M00348] [OT]
+               Glutathione transporter
                 b0830 (gsiB)
 POSITION    869411..870949
 MOTIF       Pfam: SBP_bac_5 Ssl1
-DBLINKS     NCBI-ProteinID: NP_415351
-            NCBI-GeneID: 945459
-            EcoGene: EG13473
+DBLINKS     NCBI-GeneID: 945459
+            NCBI-ProteinID: NP_415351
+            Pasteur: yliB
+            RegulonDB: ECK120003030
             ECOCYC: G6430
             ASAP: ABE-0002832
             UniProt: P75797

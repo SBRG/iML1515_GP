@@ -1,15 +1,21 @@
 ENTRY       b3633             CDS       T00007
 NAME        waaA
-DEFINITION  (RefSeq) 3-deoxy-D-manno-octulosonic-acid transferase (KDO transferase)
+DEFINITION  (RefSeq) KDO transferase
 ORTHOLOGY   K02527  3-deoxy-D-manno-octulosonic-acid transferase [EC:2.4.99.12 2.4.99.13 2.4.99.14 2.4.99.15]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00540  Lipopolysaccharide biosynthesis
             eco01100  Metabolic pathways
-MODULE      eco_M00060  Lipopolysaccharide biosynthesis, KDO2-lipid A
+MODULE      eco_M00060  KDO2-lipid A biosynthesis, Raetz pathway, LpxL-LpxM type
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00540 Lipopolysaccharide biosynthesis
+                b3633 (waaA)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01003 Glycosyltransferases [BR:eco01003]
+                b3633 (waaA)
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
                 b3633 (waaA)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -32,10 +38,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
               b3633 (waaA)
 POSITION    3808540..3809817
 MOTIF       Pfam: Glycos_transf_N Glycos_transf_1 Glyco_trans_1_4 Glyco_transf_4 Glyco_trans_4_4
-DBLINKS     NCBI-ProteinID: NP_418090
-            NCBI-GeneID: 949048
+DBLINKS     NCBI-GeneID: 949048
+            NCBI-ProteinID: NP_418090
+            Pasteur: kdtA
             RegulonDB: ECK120000513
-            EcoGene: EG10520
             ECOCYC: EG10520
             ASAP: ABE-0011873
             UniProt: P0AC75

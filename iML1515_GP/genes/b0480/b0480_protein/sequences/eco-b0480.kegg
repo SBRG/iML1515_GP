@@ -1,6 +1,6 @@
 ENTRY       b0480             CDS       T00007
 NAME        ushA
-DEFINITION  (RefSeq) bifunctional UDP-sugar hydrolase/5'-nucleotidase
+DEFINITION  (RefSeq) 5'-nucleotidase/UDP-sugar hydrolase
 ORTHOLOGY   K11751  5'-nucleotidase / UDP-sugar diphosphatase [EC:3.1.3.5 3.6.1.45]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00230  Purine metabolism
@@ -9,13 +9,13 @@ PATHWAY     eco00230  Purine metabolism
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00230 Purine metabolism
                 b0480 (ushA)
                00240 Pyrimidine metabolism
                 b0480 (ushA)
-              Metabolism of cofactors and vitamins
+              09108 Metabolism of cofactors and vitamins
                00760 Nicotinate and nicotinamide metabolism
                 b0480 (ushA)
             Enzymes [BR:eco01000]
@@ -30,15 +30,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0480 (ushA)
 POSITION    504914..506566
 MOTIF       Pfam: 5_nucleotid_C Metallophos
-DBLINKS     NCBI-ProteinID: NP_415013
-            NCBI-GeneID: 947331
+DBLINKS     NCBI-GeneID: 947331
+            NCBI-ProteinID: NP_415013
             Pasteur: ushA
             RegulonDB: ECK120001049
-            EcoGene: EG11060
             ECOCYC: EG11060
             ASAP: ABE-0001668
             UniProt: P07024
-STRUCTURE   PDB: 1HP1 1USH 1HPU 1HO5 2USH 4WWL 1OIE 1OID 1OI8
+STRUCTURE   PDB: 1HP1 1USH 1HPU 1OI8 1HO5 2USH 4WWL 1OIE 1OID
 AASEQ       550
             MKLLQRGVALALLTTFTLASETALAYEQDKTYKITVLHTNDHHGHFWRNEYGEYGLAAQK
             TLVDGIRKEVAAEGGSVLLLSGGDINTGVPESDLQDAEPDFRGMNLVGYDAMAIGNHEFD

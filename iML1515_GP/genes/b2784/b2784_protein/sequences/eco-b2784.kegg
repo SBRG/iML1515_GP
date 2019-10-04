@@ -1,12 +1,13 @@
 ENTRY       b2784             CDS       T00007
 NAME        relA
-DEFINITION  (RefSeq) (p)ppGpp synthetase I/GTP pyrophosphokinase
+DEFINITION  (RefSeq) GDP/GTP pyrophosphokinase
 ORTHOLOGY   K00951  GTP pyrophosphokinase [EC:2.7.6.5]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00230  Purine metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00230 Purine metabolism
                 b2784 (relA)
             Enzymes [BR:eco01000]
@@ -16,11 +17,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 2.7.6.5  GTP diphosphokinase
                  b2784 (relA)
 POSITION    complement(2911417..2913651)
-MOTIF       Pfam: HD_4 RelA_SpoT TGS ACT_4 ACT Prok-JAB
-DBLINKS     NCBI-ProteinID: NP_417264
-            NCBI-GeneID: 947244
+MOTIF       Pfam: HD_4 RelA_SpoT TGS ACT_4 ACT Prok-JAB AAA_26
+DBLINKS     NCBI-GeneID: 947244
+            NCBI-ProteinID: NP_417264
             Pasteur: relA
-            EcoGene: EG10835
+            RegulonDB: ECK120000826
             ECOCYC: EG10835
             ASAP: ABE-0009125
             UniProt: P0AG20

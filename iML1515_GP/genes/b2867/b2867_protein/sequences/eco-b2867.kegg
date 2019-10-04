@@ -1,14 +1,14 @@
 ENTRY       b2867             CDS       T00007
 NAME        xdhB
-DEFINITION  (RefSeq) xanthine dehydrogenase, FAD-binding subunit
+DEFINITION  (RefSeq) putative xanthine dehydrogenase FAD-binding subunit XdhB
 ORTHOLOGY   K13479  xanthine dehydrogenase FAD-binding subunit [EC:1.17.1.4]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00230  Purine metabolism
             eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00230 Purine metabolism
                 b2867 (xdhB)
             Enzymes [BR:eco01000]
@@ -19,9 +19,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2867 (xdhB)
 POSITION    3002614..3003492
 MOTIF       Pfam: FAD_binding_5 CO_deh_flav_C
-DBLINKS     NCBI-ProteinID: NP_417343
-            NCBI-GeneID: 947205
-            EcoGene: EG13050
+DBLINKS     NCBI-GeneID: 947205
+            NCBI-ProteinID: NP_417343
+            Pasteur: ygeT
+            RegulonDB: ECK120004049
             ECOCYC: G7486
             ASAP: ABE-0009416
             UniProt: Q46800

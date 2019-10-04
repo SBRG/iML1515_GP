@@ -1,27 +1,29 @@
 ENTRY       b1123             CDS       T00007
 NAME        potD
-DEFINITION  (RefSeq) polyamine transporter subunit
+DEFINITION  (RefSeq) spermidine preferential ABC transporter periplasmic binding protein
 ORTHOLOGY   K11069  spermidine/putrescine transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00299  Spermidine/putrescine transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b1123 (potD)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1123 (potD)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Mineral and organic ion transporters
-               Spermidine/putrescine transporter [MD:M00299] [OT]
+               Spermidine/putrescine transporter
                 b1123 (potD)
 POSITION    complement(1181783..1182829)
 MOTIF       Pfam: SBP_bac_8 SBP_bac_6 SBP_bac_11 SBP_bac_1 Lipoprotein_8
-DBLINKS     NCBI-ProteinID: NP_415641
-            NCBI-GeneID: 945682
+DBLINKS     NCBI-GeneID: 945682
+            NCBI-ProteinID: NP_415641
             Pasteur: potD
             RegulonDB: ECK120000743
-            EcoGene: EG10752
             ECOCYC: EG10752
             ASAP: ABE-0003789
             UniProt: P0AFK9

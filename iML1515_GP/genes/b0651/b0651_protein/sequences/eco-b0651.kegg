@@ -1,9 +1,14 @@
 ENTRY       b0651             CDS       T00007
 NAME        rihA
-DEFINITION  (RefSeq) ribonucleoside hydrolase 1
+DEFINITION  (RefSeq) pyrimidine-specific ribonucleoside hydrolase RihA
 ORTHOLOGY   K01250  pyrimidine-specific ribonucleoside hydrolase [EC:3.2.-.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09191 Unclassified: metabolism
+               99980 Enzymes with EC numbers
+                b0651 (rihA)
+            Enzymes [BR:eco01000]
              3. Hydrolases
               3.2  Glycosylases
                3.2.-  Glycosylases
@@ -11,9 +16,10 @@ BRITE       Enzymes [BR:eco01000]
                  b0651 (rihA)
 POSITION    complement(683477..684412)
 MOTIF       Pfam: IU_nuc_hydro
-DBLINKS     NCBI-ProteinID: NP_415184
-            NCBI-GeneID: 945503
-            EcoGene: EG12701
+DBLINKS     NCBI-GeneID: 945503
+            NCBI-ProteinID: NP_415184
+            Pasteur: ybeK
+            RegulonDB: ECK120002965
             ECOCYC: G6358
             ASAP: ABE-0002227
             UniProt: P41409

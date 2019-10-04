@@ -1,6 +1,6 @@
 ENTRY       b0350             CDS       T00007
 NAME        mhpD
-DEFINITION  (RefSeq) 2-keto-4-pentenoate hydratase
+DEFINITION  (RefSeq) 2-hydroxypentadienoate hydratase
 ORTHOLOGY   K02554  2-keto-4-pentenoate hydratase [EC:4.2.1.80]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00360  Phenylalanine metabolism
@@ -12,14 +12,11 @@ PATHWAY     eco00360  Phenylalanine metabolism
             eco01220  Degradation of aromatic compounds
 MODULE      eco_M00545  Trans-cinnamate degradation, trans-cinnamate => acetyl-CoA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01220 Degradation of aromatic compounds
-                b0350 (mhpD)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00360 Phenylalanine metabolism
                 b0350 (mhpD)
-              Xenobiotics biodegradation and metabolism
+              09111 Xenobiotics biodegradation and metabolism
                00362 Benzoate degradation
                 b0350 (mhpD)
                00622 Xylene degradation
@@ -34,11 +31,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0350 (mhpD)
 POSITION    372115..372924
 MOTIF       Pfam: FAA_hydrolase
-DBLINKS     NCBI-ProteinID: NP_414884
-            NCBI-GeneID: 944768
+DBLINKS     NCBI-GeneID: 944768
+            NCBI-ProteinID: NP_414884
             Pasteur: mhpD
             RegulonDB: ECK120004472
-            EcoGene: EG14274
             ECOCYC: M013
             ASAP: ABE-0001205
             UniProt: P77608

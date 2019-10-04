@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1992-08-01" modified="2019-07-31" version="137">
+<accession>P26647</accession>
+<accession>Q2M9I2</accession>
+<name>PLSC_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>1-acyl-sn-glycerol-3-phosphate acyltransferase</fullName>
+<shortName>1-AGP acyltransferase</shortName>
+<shortName>1-AGPAT</shortName>
+<ecNumber>2.3.1.51</ecNumber>
+<ecNumber>2.3.1.n4</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Lysophosphatidic acid acyltransferase</fullName>
+<shortName>LPAAT</shortName>
+</alternativeName>
+<alternativeName>
+<fullName>Phosphatidic acid synthase</fullName>
+<shortName>PA synthase</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">plsC</name>
+<name type="synonym">parF</name>
+<name type="ordered locus">b3018</name>
+<name type="ordered locus">JW2986</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1992" name="Mol. Gen. Genet." volume="232" first="295" last="303">
+<title>Characterization of the Escherichia coli gene for 1-acyl-sn-glycerol-3-phosphate acyltransferase (plsC).</title>
+<authorList>
+<person name="Coleman J."/>
+</authorList>
+<dbReference type="PubMed" id="1557036"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>PROTEIN SEQUENCE OF 1-7</scope>
+<scope>FORMYLATION AT MET-1</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="1990" name="J. Biol. Chem." volume="265" first="17215" last="17221">
+<title>Characterization of Escherichia coli cells deficient in 1-acyl-sn-glycerol-3- phosphate acyltransferase activity.</title>
+<authorList>
+<person name="Coleman J."/>
+</authorList>
+<dbReference type="PubMed" id="2211622"/>
+</citation>
+<scope>FUNCTION</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2006" name="Mol. Cell" volume="23" first="765" last="772">
+<title>Acyl-phosphates initiate membrane phospholipid synthesis in Gram-positive pathogens.</title>
+<authorList>
+<person name="Lu Y.-J."/>
+<person name="Zhang Y.-M."/>
+<person name="Grimes K.D."/>
+<person name="Qi J."/>
+<person name="Lee R.E."/>
+<person name="Rock C.O."/>
+</authorList>
+<dbReference type="PubMed" id="16949372"/>
+<dbReference type="DOI" id="10.1016/j.molcel.2006.06.030"/>
+</citation>
+<scope>FATTY ACYL DONOR SPECIFICITY</scope>
+</reference>
+<comment type="function">
+<text evidence="3">Converts lysophosphatidic acid (LPA) into phosphatidic acid by incorporating an acyl moiety at the 2 position. This enzyme can utilize either acyl-CoA or acyl-ACP as the fatty acyl donor.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>a 1-acyl-sn-glycero-3-phosphate + an acyl-CoA = a 1,2-diacyl-sn-glycero-3-phosphate + CoA</text>
+<dbReference type="Rhea" id="RHEA:19709"/>
+<dbReference type="ChEBI" id="CHEBI:57287"/>
+<dbReference type="ChEBI" id="CHEBI:57970"/>
+<dbReference type="ChEBI" id="CHEBI:58342"/>
+<dbReference type="ChEBI" id="CHEBI:58608"/>
+<dbReference type="EC" id="2.3.1.51"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>a 1-acyl-sn-glycero-3-phosphate + a fatty acyl-[ACP] = a 1,2-diacyl-sn-glycero-3-phosphate + holo-[ACP]</text>
+<dbReference type="Rhea" id="RHEA:42296"/>
+<dbReference type="Rhea" id="RHEA-COMP:9685"/>
+<dbReference type="Rhea" id="RHEA-COMP:14125"/>
+<dbReference type="ChEBI" id="CHEBI:57970"/>
+<dbReference type="ChEBI" id="CHEBI:58608"/>
+<dbReference type="ChEBI" id="CHEBI:64479"/>
+<dbReference type="ChEBI" id="CHEBI:138651"/>
+<dbReference type="EC" id="2.3.1.n4"/>
+</reaction>
+</comment>
+<comment type="pathway">
+<text>Phospholipid metabolism; CDP-diacylglycerol biosynthesis; CDP-diacylglycerol from sn-glycerol 3-phosphate: step 2/3.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="2">Cell inner membrane</location>
+<topology evidence="2">Peripheral membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="domain">
+<text evidence="1">The HXXXXD motif is essential for acyltransferase activity and may constitute the binding site for the phosphate moiety of the glycerol-3-phosphate.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the 1-acyl-sn-glycerol-3-phosphate acyltransferase family.</text>
+</comment>
+<dbReference type="EC" id="2.3.1.51"/>
+<dbReference type="EC" id="2.3.1.n4"/>
+<dbReference type="EMBL" id="M63491">
+<property type="protein sequence ID" value="AAA24397.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U28377">
+<property type="protein sequence ID" value="AAA69186.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC76054.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE77074.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="S20460">
+<property type="entry name" value="S20460"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_417490.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000965722.1">
+<property type="nucleotide sequence ID" value="NZ_SSZK01000023.1"/>
+</dbReference>
+<dbReference type="BioGrid" id="4261779">
+<property type="interactions" value="258"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-10516N"/>
+<dbReference type="IntAct" id="P26647">
+<property type="interactions" value="2"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b3018"/>
+<dbReference type="ChEMBL" id="CHEMBL3309004"/>
+<dbReference type="PaxDb" id="P26647"/>
+<dbReference type="PRIDE" id="P26647"/>
+<dbReference type="EnsemblBacteria" id="AAC76054">
+<property type="protein sequence ID" value="AAC76054"/>
+<property type="gene ID" value="b3018"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE77074">
+<property type="protein sequence ID" value="BAE77074"/>
+<property type="gene ID" value="BAE77074"/>
+</dbReference>
+<dbReference type="GeneID" id="947496"/>
+<dbReference type="KEGG" id="ecj:JW2986"/>
+<dbReference type="KEGG" id="eco:b3018"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.3712"/>
+<dbReference type="EchoBASE" id="EB1351"/>
+<dbReference type="EcoGene" id="EG11377">
+<property type="gene designation" value="plsC"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4107S7E">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0204">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000026378"/>
+<dbReference type="InParanoid" id="P26647"/>
+<dbReference type="KO" id="K00655"/>
+<dbReference type="PhylomeDB" id="P26647"/>
+<dbReference type="BioCyc" id="EcoCyc:1-ACYLGLYCEROL-3-P-ACYLTRANSFER-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW2986-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:1-ACYLGLYCEROL-3-P-ACYLTRANSFER-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00557">
+<property type="reaction ID" value="UER00613"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P26647"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003841">
+<property type="term" value="F:1-acylglycerol-3-phosphate O-acyltransferase activity"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016024">
+<property type="term" value="P:CDP-diacylglycerol biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046474">
+<property type="term" value="P:glycerophospholipid biosynthetic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR004552">
+<property type="entry name" value="AGP_acyltrans"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002123">
+<property type="entry name" value="Plipid/glycerol_acylTrfase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01553">
+<property type="entry name" value="Acyltransferase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00563">
+<property type="entry name" value="PlsC"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00530">
+<property type="entry name" value="AGP_acyltrn"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0012">Acyltransferase</keyword>
+<keyword id="KW-0997">Cell inner membrane</keyword>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-0291">Formylation</keyword>
+<keyword id="KW-0444">Lipid biosynthesis</keyword>
+<keyword id="KW-0443">Lipid metabolism</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0594">Phospholipid biosynthesis</keyword>
+<keyword id="KW-1208">Phospholipid metabolism</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<feature type="chain" description="1-acyl-sn-glycerol-3-phosphate acyltransferase" id="PRO_0000208168">
+<location>
+<begin position="1"/>
+<end position="245"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="HXXXXD motif">
+<location>
+<begin position="73"/>
+<end position="78"/>
+</location>
+</feature>
+<feature type="modified residue" description="N-formylmethionine" evidence="2">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="1557036"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="2211622"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="245" mass="27453" checksum="E9A1E697E7149838" modified="1992-08-01" version="1">MLYIFRLIITVIYSILVCVFGSIYCLFSPRNPKHVATFGHMFGRLAPLFGLKVECRKPTDAESYGNAIYIANHQNNYDMVTASNIVQPPTVTVGKKSLLWIPFFGQLYWLTGNLLIDRNNRTKAHGTIAEVVNHFKKRRISIWMFPEGTRSRGRGLLPFKTGAFHAAIAAGVPIIPVCVSTTSNKINLNRLHNGLVIVEMLPPIDVSQYGKDQVRELAAHCRSIMEQKIAELDKEVAEREAAGKV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

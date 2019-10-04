@@ -3,35 +3,27 @@ data_1J6T
 _entry.id   1J6T 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    4.007 
+_audit_conform.dict_version    5.279 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
 _database_2.database_id 
 _database_2.database_code 
-PDB  1J6T       
-RCSB RCSB001659 
+PDB   1J6T         
+RCSB  RCSB001659   
+WWPDB D_1000001659 
 # 
-loop_
-_database_PDB_rev.num 
-_database_PDB_rev.date 
-_database_PDB_rev.date_original 
-_database_PDB_rev.status 
-_database_PDB_rev.replaces 
-_database_PDB_rev.mod_type 
-1 2002-11-13 2002-08-14 ? 1J6T 0 
-2 2009-02-24 ?          ? 1J6T 1 
-# 
-_database_PDB_rev_record.rev_num   2 
-_database_PDB_rev_record.type      VERSN 
-_database_PDB_rev_record.details   ? 
-# 
-_pdbx_database_status.status_code      REL 
-_pdbx_database_status.entry_id         1J6T 
-_pdbx_database_status.deposit_site     RCSB 
-_pdbx_database_status.process_site     RCSB 
-_pdbx_database_status.status_code_mr   REL 
-_pdbx_database_status.SG_entry         . 
+_pdbx_database_status.status_code                     REL 
+_pdbx_database_status.entry_id                        1J6T 
+_pdbx_database_status.recvd_initial_deposition_date   2002-08-14 
+_pdbx_database_status.deposit_site                    RCSB 
+_pdbx_database_status.process_site                    RCSB 
+_pdbx_database_status.status_code_mr                  REL 
+_pdbx_database_status.SG_entry                        . 
+_pdbx_database_status.pdb_format_compatible           Y 
+_pdbx_database_status.status_code_sf                  ? 
+_pdbx_database_status.status_code_cs                  ? 
+_pdbx_database_status.methods_development_category    ? 
 # 
 loop_
 _audit_author.name 
@@ -81,7 +73,7 @@ _symmetry.entry_id                         1J6T
 _symmetry.space_group_name_H-M             'P 1' 
 _symmetry.pdbx_full_space_group_name_H-M   ? 
 _symmetry.cell_setting                     ? 
-_symmetry.Int_Tables_number                ? 
+_symmetry.Int_Tables_number                1 
 # 
 loop_
 _entity.id 
@@ -90,27 +82,19 @@ _entity.src_method
 _entity.pdbx_description 
 _entity.formula_weight 
 _entity.pdbx_number_of_molecules 
-_entity.details 
+_entity.pdbx_ec 
 _entity.pdbx_mutation 
 _entity.pdbx_fragment 
-_entity.pdbx_ec 
-1 polymer     man 'PTS SYSTEM, MANNITOL-SPECIFIC IIABC COMPONENT' 16348.693 1 ? ? 'EIIA DOMAIN' ? 
-2 polymer     man 'Phosphocarrier protein HPr'                    9129.425  1 ? ? ?             ? 
+_entity.details 
+1 polymer     man 'PTS SYSTEM, MANNITOL-SPECIFIC IIABC COMPONENT' 16348.547 1 ? ? 'EIIA DOMAIN' ? 
+2 polymer     man 'Phosphocarrier protein HPr'                    9129.332  1 ? ? ?             ? 
 3 non-polymer syn 'PHOSPHITE ION'                                 78.972    1 ? ? ?             ? 
-# 
-loop_
-_entity_keywords.entity_id 
-_entity_keywords.text 
-1 ? 
-2 ? 
-3 ? 
 # 
 loop_
 _entity_name_com.entity_id 
 _entity_name_com.name 
 1 'IIAMTL, EIIA-MTL, PHOSPHOTRANSFERASE ENZYME II, A DOMAIN COMPONENT' 
 2 'HPR, Histidine-containing protein'                                  
-3 ?                                                                    
 # 
 loop_
 _entity_poly.entity_id 
@@ -120,6 +104,7 @@ _entity_poly.nstd_monomer
 _entity_poly.pdbx_seq_one_letter_code 
 _entity_poly.pdbx_seq_one_letter_code_can 
 _entity_poly.pdbx_strand_id 
+_entity_poly.pdbx_target_identifier 
 1 'polypeptide(L)' no no 
 ;MANLFKLGAENIFLGRKAATKEEAIRFAGEQLVKGGYVEPEYVQAMLDREKLTPTYLGESIAVPHGTVEAKDRVLKTGVV
 FCQYPEGVRFGEEEDDIARLVIGIAARNNEHIQVITSLTNALDDESVIERLAHTTSVDEVLELLAGRK
@@ -127,7 +112,7 @@ FCQYPEGVRFGEEEDDIARLVIGIAARNNEHIQVITSLTNALDDESVIERLAHTTSVDEVLELLAGRK
 ;MANLFKLGAENIFLGRKAATKEEAIRFAGEQLVKGGYVEPEYVQAMLDREKLTPTYLGESIAVPHGTVEAKDRVLKTGVV
 FCQYPEGVRFGEEEDDIARLVIGIAARNNEHIQVITSLTNALDDESVIERLAHTTSVDEVLELLAGRK
 ;
-A 
+A ? 
 2 'polypeptide(L)' no no 
 ;MFQQEVTITAPNGLHTRPAAQFVKEAKGFTSEITVTSNGKSASAKSLFKLQTLGLTQGTVVTISAEGEDEQKAVEHLVKL
 MAELE
@@ -135,7 +120,7 @@ MAELE
 ;MFQQEVTITAPNGLHTRPAAQFVKEAKGFTSEITVTSNGKSASAKSLFKLQTLGLTQGTVVTISAEGEDEQKAVEHLVKL
 MAELE
 ;
-B 
+B ? 
 # 
 loop_
 _entity_poly_seq.entity_id 
@@ -378,6 +363,11 @@ _entity_poly_seq.hetero
 # 
 loop_
 _entity_src_gen.entity_id 
+_entity_src_gen.pdbx_src_id 
+_entity_src_gen.pdbx_alt_source_flag 
+_entity_src_gen.pdbx_seq_type 
+_entity_src_gen.pdbx_beg_seq_num 
+_entity_src_gen.pdbx_end_seq_num 
 _entity_src_gen.gene_src_common_name 
 _entity_src_gen.gene_src_genus 
 _entity_src_gen.pdbx_gene_src_gene 
@@ -415,13 +405,15 @@ _entity_src_gen.pdbx_host_org_organelle
 _entity_src_gen.pdbx_host_org_cellular_location 
 _entity_src_gen.pdbx_host_org_vector_type 
 _entity_src_gen.pdbx_host_org_vector 
+_entity_src_gen.host_org_details 
+_entity_src_gen.expression_system_id 
 _entity_src_gen.plasmid_name 
 _entity_src_gen.plasmid_details 
 _entity_src_gen.pdbx_description 
-1 ? Escherichia ? ? ? ? ? ? ? 'Escherichia coli' 562 ? ? ? ? ? ? ? ? 'Escherichia coli' 562 Escherichia ? ? ? ? ? ? ? ? ? ? ? ? ? 
-? ? ? ? ? 
-2 ? Escherichia ? ? ? ? ? ? ? 'Escherichia coli' 562 ? ? ? ? ? ? ? ? 'Escherichia coli' 562 Escherichia ? ? ? ? ? ? ? ? ? ? ? ? ? 
-? ? ? ? ? 
+1 1 sample ? ? ? ? Escherichia ? ? ? ? ? ? ? 'Escherichia coli' 562 ? ? ? ? ? ? ? ? 'Escherichia coli' 562 Escherichia ? ? ? ? ? ? 
+? ? ? ? ? ? ? ? ? ? ? ? ? ? 
+2 1 sample ? ? ? ? Escherichia ? ? ? ? ? ? ? 'Escherichia coli' 562 ? ? ? ? ? ? ? ? 'Escherichia coli' 562 Escherichia ? ? ? ? ? ? 
+? ? ? ? ? ? ? ? ? ? ? ? ? ? 
 # 
 loop_
 _struct_ref.id 
@@ -430,20 +422,18 @@ _struct_ref.db_code
 _struct_ref.entity_id 
 _struct_ref.pdbx_seq_one_letter_code 
 _struct_ref.pdbx_align_begin 
-_struct_ref.biol_id 
 _struct_ref.pdbx_db_accession 
+_struct_ref.pdbx_db_isoform 
 1 UNP PTM3C_ECOLI 1 
+;ANLFKLGAENIFLGRKAATKEEAIRFAGEQLVKGGYVEPEYVQAMLDREKLTPTYLGESIAVPHGTVEAKDRVLKTGVVF
+CQYPEGVRFGEEEDDIARLVIGIAARNNEHIQVITSLTNALDDESVIERLAHTTSVDEVLELLAGRK
 ;
-  ANLFKLGAEN IFLGRKAATK EEAIRFAGEQ LVKGGYVEPE YVQAMLDREK 
- LTPTYLGESI AVPHGTVEAK DRVLKTGVVF CQYPEGVRFG EEEDDIARLV IGIAARNNEH 
- IQVITSLTNA LDDESVIERL AHTTSVDEVL ELLAGRK 
-;
-491 . P00550 
+491 P00550 ? 
 2 UNP PTHP_ECOLI  2 
-; MFQQEVTITA PNGLHTRPAA QFVKEAKGFT SEITVTSNGK SASAKSLFKL QTLGLTQGTV 
- VTISAEGEDE QKAVEHLVKL MAELE 
+;MFQQEVTITAPNGLHTRPAAQFVKEAKGFTSEITVTSNGKSASAKSLFKLQTLGLTQGTVVTISAEGEDEQKAVEHLVKL
+MAELE
 ;
-1   . P0AA04 
+1   P0AA04 ? 
 # 
 loop_
 _struct_ref_seq.align_id 
@@ -469,13 +459,13 @@ _struct_ref_seq_dif.pdbx_pdb_id_code             1J6T
 _struct_ref_seq_dif.mon_id                       MET 
 _struct_ref_seq_dif.pdbx_pdb_strand_id           A 
 _struct_ref_seq_dif.seq_num                      1 
+_struct_ref_seq_dif.pdbx_pdb_ins_code            ? 
 _struct_ref_seq_dif.pdbx_seq_db_name             UNP 
 _struct_ref_seq_dif.pdbx_seq_db_accession_code   P00550 
 _struct_ref_seq_dif.db_mon_id                    ? 
 _struct_ref_seq_dif.pdbx_seq_db_seq_num          ? 
 _struct_ref_seq_dif.details                      'INITIATING MET' 
 _struct_ref_seq_dif.pdbx_auth_seq_num            1 
-_struct_ref_seq_dif.pdbx_pdb_ins_code            ? 
 _struct_ref_seq_dif.pdbx_ordinal                 1 
 # 
 loop_
@@ -486,26 +476,26 @@ _chem_comp.name
 _chem_comp.pdbx_synonyms 
 _chem_comp.formula 
 _chem_comp.formula_weight 
-LEU 'L-peptide linking' y LEUCINE         ? 'C6 H13 N O2'    131.174 
-PHE 'L-peptide linking' y PHENYLALANINE   ? 'C9 H11 N O2'    165.191 
-LYS 'L-peptide linking' y LYSINE          ? 'C6 H15 N2 O2 1' 147.197 
-GLY 'PEPTIDE LINKING'   y GLYCINE         ? 'C2 H5 N O2'     75.067  
-ALA 'L-peptide linking' y ALANINE         ? 'C3 H7 N O2'     89.094  
-GLU 'L-peptide linking' y 'GLUTAMIC ACID' ? 'C5 H9 N O4'     147.130 
-ASN 'L-peptide linking' y ASPARAGINE      ? 'C4 H8 N2 O3'    132.119 
-ILE 'L-peptide linking' y ISOLEUCINE      ? 'C6 H13 N O2'    131.174 
-ARG 'L-peptide linking' y ARGININE        ? 'C6 H15 N4 O2 1' 175.210 
-THR 'L-peptide linking' y THREONINE       ? 'C4 H9 N O3'     119.120 
-GLN 'L-peptide linking' y GLUTAMINE       ? 'C5 H10 N2 O3'   146.146 
-VAL 'L-peptide linking' y VALINE          ? 'C5 H11 N O2'    117.147 
-TYR 'L-peptide linking' y TYROSINE        ? 'C9 H11 N O3'    181.191 
-PRO 'L-peptide linking' y PROLINE         ? 'C5 H9 N O2'     115.132 
-MET 'L-peptide linking' y METHIONINE      ? 'C5 H11 N O2 S'  149.207 
-ASP 'L-peptide linking' y 'ASPARTIC ACID' ? 'C4 H7 N O4'     133.104 
+ALA 'L-peptide linking' y ALANINE         ? 'C3 H7 N O2'     89.093  
+ARG 'L-peptide linking' y ARGININE        ? 'C6 H15 N4 O2 1' 175.209 
+ASN 'L-peptide linking' y ASPARAGINE      ? 'C4 H8 N2 O3'    132.118 
+ASP 'L-peptide linking' y 'ASPARTIC ACID' ? 'C4 H7 N O4'     133.103 
+CYS 'L-peptide linking' y CYSTEINE        ? 'C3 H7 N O2 S'   121.158 
+GLN 'L-peptide linking' y GLUTAMINE       ? 'C5 H10 N2 O3'   146.144 
+GLU 'L-peptide linking' y 'GLUTAMIC ACID' ? 'C5 H9 N O4'     147.129 
+GLY 'peptide linking'   y GLYCINE         ? 'C2 H5 N O2'     75.067  
+HIS 'L-peptide linking' y HISTIDINE       ? 'C6 H10 N3 O2 1' 156.162 
+ILE 'L-peptide linking' y ISOLEUCINE      ? 'C6 H13 N O2'    131.173 
+LEU 'L-peptide linking' y LEUCINE         ? 'C6 H13 N O2'    131.173 
+LYS 'L-peptide linking' y LYSINE          ? 'C6 H15 N2 O2 1' 147.195 
+MET 'L-peptide linking' y METHIONINE      ? 'C5 H11 N O2 S'  149.211 
+PHE 'L-peptide linking' y PHENYLALANINE   ? 'C9 H11 N O2'    165.189 
+PO3 non-polymer         . 'PHOSPHITE ION' ? 'O3 P -3'        78.972  
+PRO 'L-peptide linking' y PROLINE         ? 'C5 H9 N O2'     115.130 
 SER 'L-peptide linking' y SERINE          ? 'C3 H7 N O3'     105.093 
-HIS 'L-peptide linking' y HISTIDINE       ? 'C6 H10 N3 O2 1' 156.164 
-CYS 'L-peptide linking' y CYSTEINE        ? 'C3 H7 N O2 S'   121.154 
-PO3 NON-POLYMER         . 'PHOSPHITE ION' ? 'O3 P -3'        78.972  
+THR 'L-peptide linking' y THREONINE       ? 'C4 H9 N O3'     119.119 
+TYR 'L-peptide linking' y TYROSINE        ? 'C9 H11 N O3'    181.189 
+VAL 'L-peptide linking' y VALINE          ? 'C5 H11 N O2'    117.146 
 # 
 loop_
 _pdbx_nmr_exptl.experiment_id 
@@ -517,12 +507,13 @@ _pdbx_nmr_exptl.solution_id
 3 1 '3D, 4D HETERONUCLEAR SEPARATED, FILTERED NOE EXPTS' 1 
 4 1 'IPAP EXPERIMENTS FOR DIPOLAR COUPLINGS'             1 
 # 
-_pdbx_nmr_exptl_sample_conditions.conditions_id    1 
-_pdbx_nmr_exptl_sample_conditions.temperature      308.00 
-_pdbx_nmr_exptl_sample_conditions.pressure_units   ? 
-_pdbx_nmr_exptl_sample_conditions.pressure         ? 
-_pdbx_nmr_exptl_sample_conditions.pH               7.0 
-_pdbx_nmr_exptl_sample_conditions.ionic_strength   '10 MM SODIUM PHOSPHATE' 
+_pdbx_nmr_exptl_sample_conditions.conditions_id       1 
+_pdbx_nmr_exptl_sample_conditions.temperature         308.00 
+_pdbx_nmr_exptl_sample_conditions.pressure_units      ? 
+_pdbx_nmr_exptl_sample_conditions.pressure            ? 
+_pdbx_nmr_exptl_sample_conditions.pH                  7.0 
+_pdbx_nmr_exptl_sample_conditions.ionic_strength      '10 mM SODIUM PHOSPHATE' 
+_pdbx_nmr_exptl_sample_conditions.temperature_units   K 
 # 
 loop_
 _pdbx_nmr_spectrometer.spectrometer_id 
@@ -530,15 +521,15 @@ _pdbx_nmr_spectrometer.model
 _pdbx_nmr_spectrometer.manufacturer 
 _pdbx_nmr_spectrometer.field_strength 
 _pdbx_nmr_spectrometer.type 
-1 DMX BRUKER 500 ? 
-2 DMX BRUKER 600 ? 
-3 DRX BRUKER 750 ? 
-4 DRX BRUKER 800 ? 
-5 DRX BRUKER 800 ? 
+1 DMX Bruker 500 ? 
+2 DMX Bruker 600 ? 
+3 DRX Bruker 750 ? 
+4 DRX Bruker 800 ? 
+5 DRX Bruker 800 ? 
 # 
-_pdbx_nmr_refine.entry_id   1J6T 
-_pdbx_nmr_refine.method     'CONJOINED RIGID BODY/TORSION ANGLE DYNAMICS' 
-_pdbx_nmr_refine.details    
+_pdbx_nmr_refine.entry_id           1J6T 
+_pdbx_nmr_refine.method             'CONJOINED RIGID BODY/TORSION ANGLE DYNAMICS' 
+_pdbx_nmr_refine.details            
 ;THE STRUCTURES WERE CALCULATED BY CONJOINED RIGID BODY/TORSION ANGLE DYNAMICS (SCHWIETERS & CLORE (2001) J.MAGN.RESON 152, 288-302; (CLORE & BEWLEY (2002) J.MAGN.RESON. 154, 329-335) THE TARGET FUNCTIONS COMPRISES TERMS FOR THE NOE RESTRAINTS, THE SIDECHAIN TORSION ANGLE RESTRAINTS, THE BACKBONE TORSION ANGLE RESTRAINTS FOR 4 VARIABLE REGIONS OF IIAMTL, THE DIPOLAR COUPLING RESTRAINTS (CLORE ET AL. J.MAGN.RESON. 131, 159-162 (1998); J.MAGN.RESON. 133, 216-221(1998)), THE RADIUS OF GYRATION (KUSZEWSKI ET AL. (1999), AND A QUARTIC VAN DER WAALS REPULSION TERM (NILGES ET AL. (1988) FEBS LETT. 229, 129- 136). THE STARTING COORDINATES COME FROM THE X-RAY STRUCTURES (WITH PROTONS ADDED) OF E. COLI HPR (1POH, JIA ET AL. (1993) J.BIOL.CHEM. 268, 22940-22501, RESOLUTION 1.5 A); AND IIAMTL (MOLECULE D OF 1A3A, VAN MONTFORT ET AL. STRUCTURE 5, 217-225 (1998); RESOLUTION 1.8A). SEVERAL DIFFERENT INITIAL ORIENTATIONS OF THE TWO PROTEINS WERE EMPLOYED WITH THE CA-CA DISTANCE BETWEEN THE ACTIVE SITE HISTIDINES RANGING FROM 28 TO 95 A, INCLUDING ORIENTATIONS WHERE THE TWO ACTIVE SITE HISTIDINES ARE NOT OPPOSED AND WHERE HPR IS DIRECTED TOWARDS THE FACE OF IIAMTL OPPOSITE TO THE IIAMTL ACTIVE SITE. THE BACKBONE COORDINATES AND NON-INTERFACIAL SIDECHAINS (EXCLUDING THE FOUR VARIABLE REGIONS OF IIAMTL: RESIDUES 51-54, 66-78, 91-96 AND 104-110) ARE TREATED AS RIGID BODIES THROUGHOUT WITH IIAMTL HELD FIXED, HPR ALLOWED TO ROTATE AND TRANSLATE, AND THE AXIS OF THE DIPOLAR COUPLING ALIGNMENT TENSOR FREE TO ROTATE. THE INTERFACIAL SIDECHAINS, AS WELL AS THE BACKBONE AND SIDECHAINS OF THE FOUR VARIABLE REGIONS OF IIAMTL, ARE GIVEN FULL TORSIONAL DEGREES OF FREEDOM. ALSO NOTE THAT GLU59 AND HIS111 ARE REFINED IN TWO ALTERNATE CONFORMATIONS.
 
 IN THIS ENTRY THE LAST COLUMN REPRESENTS THE AVERAGE RMS
@@ -642,6 +633,7 @@ THE X-RAY STRUCTURE OF HPR, AND
 19.2% (NH), 18.0% (CaH) AND 32.0% (NC') FOR THE RESTRAINED
 REGULARIZED MEAN STRUCTURE OF IIAMTL IN THE COMPLEX].
 ;
+_pdbx_nmr_refine.software_ordinal   1 
 # 
 _pdbx_nmr_ensemble.entry_id                                      1J6T 
 _pdbx_nmr_ensemble.conformers_calculated_total_number            200 
@@ -689,7 +681,7 @@ _diffrn_radiation.wavelength_id                    1
 _diffrn_radiation.monochromator                    ? 
 _diffrn_radiation.pdbx_monochromatic_or_laue_m_l   M 
 _diffrn_radiation.pdbx_diffrn_protocol             'SINGLE WAVELENGTH' 
-_diffrn_radiation.pdbx_scattering_type             x-ray 
+_diffrn_radiation.pdbx_scattering_type             ? 
 # 
 _diffrn_radiation_wavelength.id           1 
 _diffrn_radiation_wavelength.wavelength   . 
@@ -716,7 +708,6 @@ _struct_asym.entity_id
 _struct_asym.details 
 A N N 1 ? 
 B N N 2 ? 
-C N N 3 ? 
 # 
 _struct_biol.id                    1 
 _struct_biol.pdbx_parent_biol_id   ? 
@@ -791,21 +782,20 @@ _struct_sheet_range.end_label_comp_id
 _struct_sheet_range.end_label_asym_id 
 _struct_sheet_range.end_label_seq_id 
 _struct_sheet_range.pdbx_end_PDB_ins_code 
-_struct_sheet_range.symmetry 
 _struct_sheet_range.beg_auth_comp_id 
 _struct_sheet_range.beg_auth_asym_id 
 _struct_sheet_range.beg_auth_seq_id 
 _struct_sheet_range.end_auth_comp_id 
 _struct_sheet_range.end_auth_asym_id 
 _struct_sheet_range.end_auth_seq_id 
-A 1 ILE A 12 ? PHE A 13  ? ? ILE A 12  PHE A 13  
-A 2 GLY A 78 ? ARG A 89  ? ? GLY A 78  ARG A 89  
-A 3 ILE A 97 ? ALA A 105 ? ? ILE A 97  ALA A 105 
-A 4 ILE A 61 ? ALA A 62  ? ? ILE A 61  ALA A 62  
-B 1 PHE B 2  ? THR B 7   ? ? PHE B 302 THR B 307 
-B 2 VAL B 60 ? GLU B 66  ? ? VAL B 360 GLU B 366 
-B 3 GLU B 32 ? SER B 37  ? ? GLU B 332 SER B 337 
-B 4 LYS B 40 ? SER B 43  ? ? LYS B 340 SER B 343 
+A 1 ILE A 12 ? PHE A 13  ? ILE A 12  PHE A 13  
+A 2 GLY A 78 ? ARG A 89  ? GLY A 78  ARG A 89  
+A 3 ILE A 97 ? ALA A 105 ? ILE A 97  ALA A 105 
+A 4 ILE A 61 ? ALA A 62  ? ILE A 61  ALA A 62  
+B 1 PHE B 2  ? THR B 7   ? PHE B 302 THR B 307 
+B 2 VAL B 60 ? GLU B 66  ? VAL B 360 GLU B 366 
+B 3 GLU B 32 ? SER B 37  ? GLU B 332 SER B 337 
+B 4 LYS B 40 ? SER B 43  ? LYS B 340 SER B 343 
 # 
 loop_
 _pdbx_struct_sheet_hbond.sheet_id 
@@ -851,7 +841,6 @@ _database_PDB_matrix.origx_vector[2]   0.00000
 _database_PDB_matrix.origx_vector[3]   0.00000 
 # 
 _atom_sites.entry_id                    1J6T 
-_atom_sites.Cartn_transform_axes        ? 
 _atom_sites.fract_transf_matrix[1][1]   1.000000 
 _atom_sites.fract_transf_matrix[1][2]   0.000000 
 _atom_sites.fract_transf_matrix[1][3]   0.000000 
@@ -867,12 +856,12 @@ _atom_sites.fract_transf_vector[3]      0.00000
 # 
 loop_
 _atom_type.symbol 
-N 
 C 
-O 
 H 
-S 
+N 
+O 
 P 
+S 
 # 
 loop_
 _pdbx_poly_seq_scheme.asym_id 
@@ -1122,57 +1111,29 @@ B 2 84  LEU 84  384 384 LEU LEU B . n
 B 2 85  GLU 85  385 385 GLU GLU B . n 
 # 
 loop_
-_pdbx_version.entry_id 
-_pdbx_version.revision_date 
-_pdbx_version.major_version 
-_pdbx_version.minor_version 
-_pdbx_version.revision_type 
-_pdbx_version.details 
-1J6T 2008-04-26 3 2    'Version format compliance' 'compliance with PDB format V.3.15'          
-1J6T 2011-07-13 4 0000 'Version format compliance' 'compliance with PDB Exchange Dictionary V4' 
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2002-11-13 
+2 'Structure model' 1 1 2008-04-26 
+3 'Structure model' 1 2 2011-07-13 
+# 
+_pdbx_audit_revision_details.ordinal             1 
+_pdbx_audit_revision_details.revision_ordinal    1 
+_pdbx_audit_revision_details.data_content_type   'Structure model' 
+_pdbx_audit_revision_details.provider            repository 
+_pdbx_audit_revision_details.type                'Initial release' 
+_pdbx_audit_revision_details.description         ? 
 # 
 loop_
-_pdbx_unobs_or_zero_occ_residues.id 
-_pdbx_unobs_or_zero_occ_residues.polymer_flag 
-_pdbx_unobs_or_zero_occ_residues.occupancy_flag 
-_pdbx_unobs_or_zero_occ_residues.PDB_model_num 
-_pdbx_unobs_or_zero_occ_residues.auth_asym_id 
-_pdbx_unobs_or_zero_occ_residues.auth_comp_id 
-_pdbx_unobs_or_zero_occ_residues.auth_seq_id 
-_pdbx_unobs_or_zero_occ_residues.PDB_ins_code 
-1  Y 1 1 A MET 1   ? 
-2  Y 1 1 A ALA 2   ? 
-3  Y 1 1 A ASN 3   ? 
-4  Y 1 1 A LYS 148 ? 
-5  Y 1 2 A MET 1   ? 
-6  Y 1 2 A ALA 2   ? 
-7  Y 1 2 A ASN 3   ? 
-8  Y 1 2 A LYS 148 ? 
-9  Y 1 3 A MET 1   ? 
-10 Y 1 3 A ALA 2   ? 
-11 Y 1 3 A ASN 3   ? 
-12 Y 1 3 A LYS 148 ? 
-# 
-loop_
-_pdbx_unobs_or_zero_occ_atoms.id 
-_pdbx_unobs_or_zero_occ_atoms.polymer_flag 
-_pdbx_unobs_or_zero_occ_atoms.occupancy_flag 
-_pdbx_unobs_or_zero_occ_atoms.PDB_model_num 
-_pdbx_unobs_or_zero_occ_atoms.auth_asym_id 
-_pdbx_unobs_or_zero_occ_atoms.auth_comp_id 
-_pdbx_unobs_or_zero_occ_atoms.auth_seq_id 
-_pdbx_unobs_or_zero_occ_atoms.PDB_ins_code 
-_pdbx_unobs_or_zero_occ_atoms.auth_atom_id 
-_pdbx_unobs_or_zero_occ_atoms.label_alt_id 
-1 Y 1 1 A LEU 4   ? H ? 
-2 Y 1 1 A ARG 147 ? O ? 
-3 Y 1 1 B GLU 385 ? O ? 
-4 Y 1 2 A LEU 4   ? H ? 
-5 Y 1 2 A ARG 147 ? O ? 
-6 Y 1 2 B GLU 385 ? O ? 
-7 Y 1 3 A LEU 4   ? H ? 
-8 Y 1 3 A ARG 147 ? O ? 
-9 Y 1 3 B GLU 385 ? O ? 
+_pdbx_audit_revision_group.ordinal 
+_pdbx_audit_revision_group.revision_ordinal 
+_pdbx_audit_revision_group.data_content_type 
+_pdbx_audit_revision_group.group 
+1 2 'Structure model' 'Version format compliance' 
+2 3 'Structure model' 'Version format compliance' 
 # 
 loop_
 _pdbx_validate_close_contact.id 
@@ -1194,39 +1155,24 @@ _pdbx_validate_close_contact.dist
 2  1 HA   A LEU 7   ? ? HD22 A ASN 11  ? ? 1.14 
 3  1 HG1  A THR 134 ? ? H    A SER 136 ? ? 1.30 
 4  1 HG   B SER 343 ? ? H    B LYS 345 ? ? 1.33 
-5  1 HH11 A ARG 99  ? ? HE2  A HIS 133 ? ? 1.36 
-6  1 HZ   A PHE 5   ? ? HD2  A ARG 147 ? ? 1.39 
-7  1 HH22 A ARG 99  ? ? OE2  A GLU 129 ? ? 1.42 
-8  1 HG   B LEU 380 ? ? HD21 B LEU 384 ? ? 1.42 
-9  1 HA   A ALA 145 ? ? HH12 A ARG 147 ? ? 1.47 
-10 1 HH   A TYR 56  ? ? H    A SER 60  ? ? 1.50 
-11 1 HE   A ARG 49  ? ? NE2  A HIS 65  ? ? 1.55 
-12 1 O    B ILE 308 ? ? H    B GLY 358 ? ? 1.58 
-13 2 HH   A TYR 42  ? ? H    A GLY 66  ? ? 1.04 
-14 2 HA   A LEU 7   ? ? HD22 A ASN 11  ? ? 1.14 
-15 2 HG1  A THR 134 ? ? H    A SER 136 ? ? 1.30 
-16 2 HG   B SER 343 ? ? H    B LYS 345 ? ? 1.33 
-17 2 HH11 A ARG 99  ? ? HE2  A HIS 133 ? ? 1.36 
-18 2 HZ   A PHE 5   ? ? HD2  A ARG 147 ? ? 1.39 
-19 2 HH22 A ARG 99  ? ? OE2  A GLU 129 ? ? 1.41 
-20 2 HG   B LEU 380 ? ? HD21 B LEU 384 ? ? 1.42 
-21 2 HA   A ALA 145 ? ? HH12 A ARG 147 ? ? 1.47 
-22 2 HH   A TYR 56  ? ? H    A SER 60  ? ? 1.49 
-23 2 O    B ILE 308 ? ? H    B GLY 358 ? ? 1.58 
-24 2 OG1  B THR 316 ? ? O3   B PO3 200 ? ? 2.04 
-25 3 HA   A LEU 7   ? ? HD22 A ASN 11  ? ? 1.14 
-26 3 HH   A TYR 42  ? ? H    A GLY 66  ? ? 1.17 
-27 3 HG1  A THR 134 ? ? H    A SER 136 ? ? 1.30 
-28 3 HG   B SER 343 ? ? H    B LYS 345 ? ? 1.33 
-29 3 HH11 A ARG 99  ? ? HE2  A HIS 133 ? ? 1.36 
-30 3 HZ   A PHE 5   ? ? HD2  A ARG 147 ? ? 1.39 
-31 3 HH22 A ARG 99  ? ? OE2  A GLU 129 ? ? 1.41 
-32 3 HG   B LEU 380 ? ? HD21 B LEU 384 ? ? 1.42 
-33 3 HA   A ALA 145 ? ? HH12 A ARG 147 ? ? 1.47 
-34 3 HH   A TYR 56  ? ? H    A SER 60  ? ? 1.49 
-35 3 O    B ILE 308 ? ? H    B GLY 358 ? ? 1.58 
-36 3 NE2  A HIS 65  ? ? P    B PO3 200 ? ? 2.16 
-37 3 ND1  B HIS 315 ? ? P    B PO3 200 ? ? 2.18 
+5  1 HH22 A ARG 99  ? ? OE2  A GLU 129 ? ? 1.42 
+6  1 HE   A ARG 49  ? ? NE2  A HIS 65  ? ? 1.55 
+7  1 O    B ILE 308 ? ? H    B GLY 358 ? ? 1.58 
+8  2 HH   A TYR 42  ? ? H    A GLY 66  ? ? 1.04 
+9  2 HA   A LEU 7   ? ? HD22 A ASN 11  ? ? 1.14 
+10 2 HG1  A THR 134 ? ? H    A SER 136 ? ? 1.30 
+11 2 HG   B SER 343 ? ? H    B LYS 345 ? ? 1.33 
+12 2 HH22 A ARG 99  ? ? OE2  A GLU 129 ? ? 1.41 
+13 2 O    B ILE 308 ? ? H    B GLY 358 ? ? 1.58 
+14 2 OG1  B THR 316 ? ? O3   B PO3 200 ? ? 2.04 
+15 3 HA   A LEU 7   ? ? HD22 A ASN 11  ? ? 1.14 
+16 3 HH   A TYR 42  ? ? H    A GLY 66  ? ? 1.17 
+17 3 HG1  A THR 134 ? ? H    A SER 136 ? ? 1.30 
+18 3 HG   B SER 343 ? ? H    B LYS 345 ? ? 1.33 
+19 3 HH22 A ARG 99  ? ? OE2  A GLU 129 ? ? 1.41 
+20 3 O    B ILE 308 ? ? H    B GLY 358 ? ? 1.58 
+21 3 NE2  A HIS 65  ? ? P    B PO3 200 ? ? 2.16 
+22 3 ND1  B HIS 315 ? ? P    B PO3 200 ? ? 2.18 
 # 
 loop_
 _pdbx_validate_torsion.id 
@@ -1235,10 +1181,11 @@ _pdbx_validate_torsion.auth_comp_id
 _pdbx_validate_torsion.auth_asym_id 
 _pdbx_validate_torsion.auth_seq_id 
 _pdbx_validate_torsion.PDB_ins_code 
+_pdbx_validate_torsion.label_alt_id 
 _pdbx_validate_torsion.phi 
 _pdbx_validate_torsion.psi 
-1 1 HIS B 315 ? -69.41 -179.71 
-2 3 HIS B 315 ? -80.85 -159.83 
+1 1 HIS B 315 ? ? -69.41 -179.71 
+2 3 HIS B 315 ? ? -80.85 -159.83 
 # 
 _pdbx_validate_planes.id              1 
 _pdbx_validate_planes.PDB_model_num   1 
@@ -1246,33 +1193,58 @@ _pdbx_validate_planes.auth_comp_id    ARG
 _pdbx_validate_planes.auth_asym_id    B 
 _pdbx_validate_planes.auth_seq_id     317 
 _pdbx_validate_planes.PDB_ins_code    ? 
+_pdbx_validate_planes.label_alt_id    ? 
 _pdbx_validate_planes.rmsd            0.075 
 _pdbx_validate_planes.type            'SIDE CHAIN' 
 # 
-_pdbx_struct_assembly.id                   1 
-_pdbx_struct_assembly.details              author_defined_assembly 
-_pdbx_struct_assembly.method_details       ? 
-_pdbx_struct_assembly.oligomeric_details   dimeric 
-_pdbx_struct_assembly.oligomeric_count     2 
+loop_
+_pdbx_unobs_or_zero_occ_atoms.id 
+_pdbx_unobs_or_zero_occ_atoms.PDB_model_num 
+_pdbx_unobs_or_zero_occ_atoms.polymer_flag 
+_pdbx_unobs_or_zero_occ_atoms.occupancy_flag 
+_pdbx_unobs_or_zero_occ_atoms.auth_asym_id 
+_pdbx_unobs_or_zero_occ_atoms.auth_comp_id 
+_pdbx_unobs_or_zero_occ_atoms.auth_seq_id 
+_pdbx_unobs_or_zero_occ_atoms.PDB_ins_code 
+_pdbx_unobs_or_zero_occ_atoms.auth_atom_id 
+_pdbx_unobs_or_zero_occ_atoms.label_alt_id 
+_pdbx_unobs_or_zero_occ_atoms.label_asym_id 
+_pdbx_unobs_or_zero_occ_atoms.label_comp_id 
+_pdbx_unobs_or_zero_occ_atoms.label_seq_id 
+_pdbx_unobs_or_zero_occ_atoms.label_atom_id 
+1 1 Y 1 A ARG 147 ? O ? A ARG 147 O 
+2 1 Y 1 B GLU 385 ? O ? B GLU 85  O 
+3 2 Y 1 A ARG 147 ? O ? A ARG 147 O 
+4 2 Y 1 B GLU 385 ? O ? B GLU 85  O 
+5 3 Y 1 A ARG 147 ? O ? A ARG 147 O 
+6 3 Y 1 B GLU 385 ? O ? B GLU 85  O 
 # 
-_pdbx_struct_assembly_gen.assembly_id       1 
-_pdbx_struct_assembly_gen.oper_expression   1 
-_pdbx_struct_assembly_gen.asym_id_list      A,B,C 
+loop_
+_pdbx_unobs_or_zero_occ_residues.id 
+_pdbx_unobs_or_zero_occ_residues.PDB_model_num 
+_pdbx_unobs_or_zero_occ_residues.polymer_flag 
+_pdbx_unobs_or_zero_occ_residues.occupancy_flag 
+_pdbx_unobs_or_zero_occ_residues.auth_asym_id 
+_pdbx_unobs_or_zero_occ_residues.auth_comp_id 
+_pdbx_unobs_or_zero_occ_residues.auth_seq_id 
+_pdbx_unobs_or_zero_occ_residues.PDB_ins_code 
+_pdbx_unobs_or_zero_occ_residues.label_asym_id 
+_pdbx_unobs_or_zero_occ_residues.label_comp_id 
+_pdbx_unobs_or_zero_occ_residues.label_seq_id 
+1  1 Y 1 A MET 1   ? A MET 1   
+2  1 Y 1 A ALA 2   ? A ALA 2   
+3  1 Y 1 A ASN 3   ? A ASN 3   
+4  1 Y 1 A LYS 148 ? A LYS 148 
+5  2 Y 1 A MET 1   ? A MET 1   
+6  2 Y 1 A ALA 2   ? A ALA 2   
+7  2 Y 1 A ASN 3   ? A ASN 3   
+8  2 Y 1 A LYS 148 ? A LYS 148 
+9  3 Y 1 A MET 1   ? A MET 1   
+10 3 Y 1 A ALA 2   ? A ALA 2   
+11 3 Y 1 A ASN 3   ? A ASN 3   
+12 3 Y 1 A LYS 148 ? A LYS 148 
 # 
-_pdbx_struct_oper_list.id                   1 
-_pdbx_struct_oper_list.type                 'identity operation' 
-_pdbx_struct_oper_list.name                 1_555 
-_pdbx_struct_oper_list.symmetry_operation   x,y,z 
-_pdbx_struct_oper_list.matrix[1][1]         1.0000000000 
-_pdbx_struct_oper_list.matrix[1][2]         0.0000000000 
-_pdbx_struct_oper_list.matrix[1][3]         0.0000000000 
-_pdbx_struct_oper_list.vector[1]            0.0000000000 
-_pdbx_struct_oper_list.matrix[2][1]         0.0000000000 
-_pdbx_struct_oper_list.matrix[2][2]         1.0000000000 
-_pdbx_struct_oper_list.matrix[2][3]         0.0000000000 
-_pdbx_struct_oper_list.vector[2]            0.0000000000 
-_pdbx_struct_oper_list.matrix[3][1]         0.0000000000 
-_pdbx_struct_oper_list.matrix[3][2]         0.0000000000 
-_pdbx_struct_oper_list.matrix[3][3]         1.0000000000 
-_pdbx_struct_oper_list.vector[3]            0.0000000000 
+_pdbx_entity_nonpoly.entity_id   3 
+_pdbx_entity_nonpoly.name        'PHOSPHITE ION' 
+_pdbx_entity_nonpoly.comp_id     PO3 
 # 

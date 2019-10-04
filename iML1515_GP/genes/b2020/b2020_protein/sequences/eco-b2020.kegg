@@ -1,6 +1,6 @@
 ENTRY       b2020             CDS       T00007
 NAME        hisD
-DEFINITION  (RefSeq) bifunctional histidinal dehydrogenase/histidinol dehydrogenase
+DEFINITION  (RefSeq) histidinal/histidinol dehydrogenase
 ORTHOLOGY   K00013  histidinol dehydrogenase [EC:1.1.1.23]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00340  Histidine metabolism
@@ -9,11 +9,8 @@ PATHWAY     eco00340  Histidine metabolism
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00026  Histidine biosynthesis, PRPP => histidine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b2020 (hisD)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00340 Histidine metabolism
                 b2020 (hisD)
             Enzymes [BR:eco01000]
@@ -24,11 +21,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2020 (hisD)
 POSITION    2091097..2092401
 MOTIF       Pfam: Histidinol_dh FdhE
-DBLINKS     NCBI-ProteinID: NP_416524
-            NCBI-GeneID: 946531
+DBLINKS     NCBI-GeneID: 946531
+            NCBI-ProteinID: NP_416524
             Pasteur: hisD
             RegulonDB: ECK120000440
-            EcoGene: EG10447
             ECOCYC: EG10447
             ASAP: ABE-0006715
             UniProt: P06988

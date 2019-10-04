@@ -1,13 +1,15 @@
 ENTRY       b3416             CDS       T00007
 NAME        malQ
-DEFINITION  (RefSeq) 4-alpha-glucanotransferase (amylomaltase)
+DEFINITION  (RefSeq) 4-alpha-glucanotransferase
 ORTHOLOGY   K00705  4-alpha-glucanotransferase [EC:2.4.1.25]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00500  Starch and sucrose metabolism
             eco01100  Metabolic pathways
+            eco01110  Biosynthesis of secondary metabolites
+MODULE      eco_M00855  Glycogen degradation, glycogen => glucose-6P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00500 Starch and sucrose metabolism
                 b3416 (malQ)
             Enzymes [BR:eco01000]
@@ -18,10 +20,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3416 (malQ)
 POSITION    complement(3547986..3550070)
 MOTIF       Pfam: Glyco_hydro_77 NADH-u_ox-rdase Rubella_E2
-DBLINKS     NCBI-ProteinID: NP_417875
-            NCBI-GeneID: 947923
+DBLINKS     NCBI-GeneID: 947923
+            NCBI-ProteinID: NP_417875
             Pasteur: malQ
-            EcoGene: EG10561
+            RegulonDB: ECK120000554
             ECOCYC: EG10561
             ASAP: ABE-0011151
             UniProt: P15977

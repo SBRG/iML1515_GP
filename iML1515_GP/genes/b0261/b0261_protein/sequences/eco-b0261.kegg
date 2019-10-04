@@ -1,14 +1,14 @@
 ENTRY       b0261             CDS       T00007
 NAME        mmuM
-DEFINITION  (RefSeq) CP4-6 prophage; S-methylmethionine:homocysteine methyltransferase
+DEFINITION  (RefSeq) homocysteine S-methyltransferase
 ORTHOLOGY   K00547  homocysteine S-methyltransferase [EC:2.1.1.10]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00270  Cysteine and methionine metabolism
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00270 Cysteine and methionine metabolism
                 b0261 (mmuM)
             Enzymes [BR:eco01000]
@@ -19,9 +19,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0261 (mmuM)
 POSITION    276715..277647
 MOTIF       Pfam: S-methyl_trans
-DBLINKS     NCBI-ProteinID: NP_414795
-            NCBI-GeneID: 946143
-            EcoGene: EG13343
+DBLINKS     NCBI-GeneID: 946143
+            NCBI-ProteinID: NP_414795
+            Pasteur: yagD
+            RegulonDB: ECK120002756
             ECOCYC: G6136
             ASAP: ABE-0000895
             UniProt: Q47690

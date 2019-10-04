@@ -1,14 +1,17 @@
 ENTRY       b3201             CDS       T00007
 NAME        lptB
-DEFINITION  (RefSeq) lipopolysaccharide export ABC transporter ATP-binding protein of the LptBFGC export complex
+DEFINITION  (RefSeq) lipopolysaccharide transport system ATP binding protein
 ORTHOLOGY   K06861  lipopolysaccharide export system ATP-binding protein [EC:3.6.3.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00320  Lipopolysaccharide export system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
+                b3201 (lptB)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
                 b3201 (lptB)
             Enzymes [BR:eco01000]
              3. Hydrolases
@@ -17,23 +20,24 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 3.6.3.-  
                  b3201 (lptB)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               ABC-2 type and other transporters
-               Lipopolysaccharide transporter [MD:M00320]
+               Lipopolysaccharide transporter
                 b3201 (lptB)
-             Other Transporters
+             Other transporters
               Pores ion channels [TC:1]
                b3201 (lptB)
 POSITION    3343944..3344669
-MOTIF       Pfam: ABC_tran BCA_ABC_TP_C AAA_21 T2SSE SbcCD_C AAA_23 Pectate_lyase_2 AAA_29
-DBLINKS     NCBI-ProteinID: NP_417668
-            NCBI-GeneID: 947725
+MOTIF       Pfam: ABC_tran BCA_ABC_TP_C AAA_21 T2SSE SbcCD_C AAA_23
+DBLINKS     NCBI-GeneID: 947725
+            NCBI-ProteinID: NP_417668
+            Pasteur: yhbG
             RegulonDB: ECK120001623
-            EcoGene: EG11680
             ECOCYC: EG11680
             ASAP: ABE-0010512
             UniProt: P0A9V1
-STRUCTURE   PDB: 4P32 4P33 4P31 4QC2
+STRUCTURE   PDB: 4P32 4P33 6B8B 6MBN 6B89 4P31 4QC2 6MGF 6MHU 6MHZ 6MI7
+                 6MI8
 AASEQ       241
             MATLTAKNLAKAYKGRRVVEDVSLTVNSGEIVGLLGPNGAGKTTTFYMVVGIVPRDAGNI
             IIDDDDISLLPLHARARRGIGYLPQEASIFRRLSVYDNLMAVLQIRDDLSAEQREDRANE

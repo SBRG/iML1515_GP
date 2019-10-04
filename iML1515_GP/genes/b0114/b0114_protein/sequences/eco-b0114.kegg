@@ -1,6 +1,6 @@
 ENTRY       b0114             CDS       T00007
 NAME        aceE
-DEFINITION  (RefSeq) pyruvate dehydrogenase, decarboxylase component E1, thiamine triphosphate-binding
+DEFINITION  (RefSeq) pyruvate dehydrogenase E1 component
 ORTHOLOGY   K00163  pyruvate dehydrogenase E1 component [EC:1.2.4.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00010  Glycolysis / Gluconeogenesis
@@ -13,11 +13,8 @@ PATHWAY     eco00010  Glycolysis / Gluconeogenesis
             eco01200  Carbon metabolism
 MODULE      eco_M00307  Pyruvate oxidation, pyruvate => acetyl-CoA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b0114 (aceE)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
                 b0114 (aceE)
                00020 Citrate cycle (TCA cycle)
@@ -31,11 +28,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 1.2.4.1  pyruvate dehydrogenase (acetyl-transferring)
                  b0114 (aceE)
 POSITION    123017..125680
-MOTIF       Pfam: Transketolase_N Transketolase_C PFO_beta_C
-DBLINKS     NCBI-ProteinID: NP_414656
-            NCBI-GeneID: 944834
+MOTIF       Pfam: PDH_E1_M Transketolase_N Transketolase_C PFO_beta_C
+DBLINKS     NCBI-GeneID: 944834
+            NCBI-ProteinID: NP_414656
             Pasteur: aceE
-            EcoGene: EG10024
+            RegulonDB: ECK120000021
             ECOCYC: EG10024
             ASAP: ABE-0000397
             UniProt: P0AFG8

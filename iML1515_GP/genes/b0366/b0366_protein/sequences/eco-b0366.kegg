@@ -1,38 +1,40 @@
 ENTRY       b0366             CDS       T00007
 NAME        tauB
-DEFINITION  (RefSeq) taurine transporter subunit
-ORTHOLOGY   K10831  taurine transport system ATP-binding protein [EC:3.6.3.36]
+DEFINITION  (RefSeq) taurine ABC transporter ATP binding subunit
+ORTHOLOGY   K10831  taurine transport system ATP-binding protein [EC:7.6.2.7]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00920  Sulfur metabolism
             eco02010  ABC transporters
-MODULE      eco_M00435  Taurine transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00920 Sulfur metabolism
                 b0366 (tauB)
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b0366 (tauB)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0366 (tauB)
             Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.36  taurine-transporting ATPase
+             7. Translocases
+              7.6  Catalysing the translocation of other compounds
+               7.6.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.6.2.7  ABC-type taurine transporter
                  b0366 (tauB)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Mineral and organic ion transporters
-               Taurine transporter [MD:M00435] [OT]
+               Taurine transporter
                 b0366 (tauB)
 POSITION    386207..386974
-MOTIF       Pfam: ABC_tran AAA_21 RsgA_GTPase AAA_16 AAA_22 ATPase_2 AAA_28 AAA SMC_N ABC_ATPase AAA_30 AAA_23 NACHT SbcCD_C T2SSE Rad17 AAA_33 AAA_29 PduV-EutP AAA_25 AAA_14 AAA_24 AAA_5 AAA_18 RNA_helicase AAA_15
-DBLINKS     NCBI-ProteinID: NP_414900
-            NCBI-GeneID: 945027
+MOTIF       Pfam: ABC_tran AAA_21 RsgA_GTPase AAA_16 AAA_22 ATPase_2 AAA_28 AAA SMC_N ABC_ATPase Rad17 AAA_30 AAA_23 NACHT SbcCD_C T2SSE AAA_33 PduV-EutP AAA_29 AAA_25 AAA_14 AAA_24 AAA_5 AAA_15 RNA_helicase
+DBLINKS     NCBI-GeneID: 945027
+            NCBI-ProteinID: NP_414900
             Pasteur: tauB
             RegulonDB: ECK120002832
-            EcoGene: EG13299
             ECOCYC: G6218
             ASAP: ABE-0001259
             UniProt: Q47538

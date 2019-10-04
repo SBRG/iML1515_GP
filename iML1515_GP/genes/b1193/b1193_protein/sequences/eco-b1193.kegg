@@ -1,18 +1,33 @@
 ENTRY       b1193             CDS       T00007
 NAME        emtA
-DEFINITION  (RefSeq) lytic murein endotransglycosylase E
+DEFINITION  (RefSeq) lytic murein transglycosylase E
 ORTHOLOGY   K08308  membrane-bound lytic murein transglycosylase E [EC:4.2.2.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+                b1193 (emtA)
+            Enzymes [BR:eco01000]
+             4. Lyases
+              4.2  Carbon-oxygen lyases
+               4.2.2  Acting on polysaccharides
+                4.2.2.-  
+                 b1193 (emtA)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              Lytic transglycosylase
+               b1193 (emtA)
 POSITION    1243180..1243791
 MOTIF       Pfam: SLT Glucosaminidase SLT_2
-DBLINKS     NCBI-ProteinID: NP_415711
-            NCBI-GeneID: 945655
+DBLINKS     NCBI-GeneID: 945655
+            NCBI-ProteinID: NP_415711
             Pasteur: emtA
-            EcoGene: EG13897
+            RegulonDB: ECK120003217
             ECOCYC: G6622
             ASAP: ABE-0004006
             UniProt: P0C960
-STRUCTURE   PDB: 4HJZ 2Y8P 3T36 4HJV 4HJY
+STRUCTURE   PDB: 6GI4 6GI3 4HJZ 2Y8P 6GHY 3T36 4HJV 6GHZ 4HJY
 AASEQ       203
             MKLRWFAFLIVLLAGCSSKHDYTNPPWNAKVPVQRAMQWMPISQKAGAAWGVDPQLITAI
             IAIESGGNPNAVSKSNAIGLMQLKASTSGRDVYRRMGWSGEPTTSELKNPERNISMGAAY

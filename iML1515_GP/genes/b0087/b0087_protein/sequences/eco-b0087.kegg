@@ -1,19 +1,23 @@
 ENTRY       b0087             CDS       T00007
 NAME        mraY
-DEFINITION  (RefSeq) phospho-N-acetylmuramoyl-pentapeptide transferase
+DEFINITION  (RefSeq) phospho-N-acetylmuramoyl-pentapeptide-transferase
 ORTHOLOGY   K01000  phospho-N-acetylmuramoyl-pentapeptide-transferase [EC:2.7.8.13]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00550  Peptidoglycan biosynthesis
             eco01100  Metabolic pathways
             eco01502  Vancomycin resistance
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00550 Peptidoglycan biosynthesis
                 b0087 (mraY)
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01502 Vancomycin resistance
+                b0087 (mraY)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
                 b0087 (mraY)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -21,13 +25,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                2.7.8  Transferases for other substituted phosphate groups
                 2.7.8.13  phospho-N-acetylmuramoyl-pentapeptide-transferase
                  b0087 (mraY)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Precursor biosynthesis
+              Glycosyltransferase
+               b0087 (mraY)
 POSITION    96002..97084
 MOTIF       Pfam: Glycos_transf_4 MraY_sig1 Ndc1_Nup
-DBLINKS     NCBI-ProteinID: NP_414629
-            NCBI-GeneID: 944814
+DBLINKS     NCBI-GeneID: 944814
+            NCBI-ProteinID: NP_414629
             Pasteur: mraY
             RegulonDB: ECK120000597
-            EcoGene: EG10604
             ECOCYC: EG10604
             ASAP: ABE-0000316
             UniProt: P0A6W3

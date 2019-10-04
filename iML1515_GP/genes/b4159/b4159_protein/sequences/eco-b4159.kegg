@@ -1,17 +1,23 @@
 ENTRY       b4159             CDS       T00007
 NAME        mscM
-DEFINITION  (RefSeq) mechanosensitive channel protein, miniconductance
-ORTHOLOGY   K05802  potassium efflux system protein
+DEFINITION  (RefSeq) miniconductance mechanosensitive channel MscM
+ORTHOLOGY   K22051  miniconductance mechanosensitive channel
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b4159 (mscM)
+            Transporters [BR:eco02000]
+             Other transporters
               Pores ion channels [TC:1]
                b4159 (mscM)
 POSITION    complement(4386047..4389370)
-MOTIF       Pfam: MscS_TM MscS_porin MS_channel
-DBLINKS     NCBI-ProteinID: NP_418583
-            NCBI-GeneID: 948676
-            EcoGene: EG12478
+MOTIF       Pfam: MscS_TM MS_channel MscS_porin
+DBLINKS     NCBI-GeneID: 948676
+            NCBI-ProteinID: NP_418583
+            Pasteur: yjeP
+            RegulonDB: ECK120004336
             ECOCYC: G7840
             ASAP: ABE-0013621
             UniProt: P39285

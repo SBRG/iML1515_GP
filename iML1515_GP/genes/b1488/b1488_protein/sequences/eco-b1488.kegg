@@ -1,18 +1,27 @@
 ENTRY       b1488             CDS       T00007
 NAME        ddpX
-DEFINITION  (RefSeq) D-ala-D-ala dipeptidase, Zn-dependent
+DEFINITION  (RefSeq) D-alanyl-D-alanine dipeptidase
 ORTHOLOGY   K08641  zinc D-Ala-D-Ala dipeptidase [EC:3.4.13.22]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco01502  Vancomycin resistance
             eco02020  Two-component system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Signal transduction
+             09130 Environmental Information Processing
+              09132 Signal transduction
                02020 Two-component system
                 b1488 (ddpX)
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01502 Vancomycin resistance
+                b1488 (ddpX)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors [BR:eco01002]
+                b1488 (ddpX)
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+                b1488 (ddpX)
+              09183 Protein families: signaling and cellular processes
+               01504 Antimicrobial resistance genes [BR:eco01504]
                 b1488 (ddpX)
             Enzymes [BR:eco01000]
              3. Hydrolases
@@ -20,9 +29,13 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                3.4.13  Dipeptidases
                 3.4.13.22  D-Ala-D-Ala dipeptidase
                  b1488 (ddpX)
-            Peptidases [BR:eco01002]
-             Metallo Peptidases
+            Peptidases and inhibitors [BR:eco01002]
+             Metallo peptidases
               Family M15: zinc D-Ala-D-Ala carboxypeptidase family
+               b1488 (ddpX)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              Carboxypeptidase
                b1488 (ddpX)
             Antimicrobial resistance genes [BR:eco01504]
              Gene sets
@@ -31,10 +44,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 b1488 (ddpX)
 POSITION    complement(1562495..1563076)
 MOTIF       Pfam: Peptidase_M15 VanY Peptidase_M15_4
-DBLINKS     NCBI-ProteinID: NP_416005
-            NCBI-GeneID: 945532
+DBLINKS     NCBI-GeneID: 945532
+            NCBI-ProteinID: NP_416005
+            Pasteur: yddT
             RegulonDB: ECK120003371
-            EcoGene: EG13791
             ECOCYC: G6782
             ASAP: ABE-0004960
             UniProt: P77790

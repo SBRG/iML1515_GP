@@ -1,18 +1,19 @@
 ENTRY       b0783             CDS       T00007
 NAME        moaC
-DEFINITION  (RefSeq) molybdopterin biosynthesis, protein C
+DEFINITION  (RefSeq) cyclic pyranopterin monophosphate synthase
 ORTHOLOGY   K03637  cyclic pyranopterin monophosphate synthase [EC:4.6.1.17]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00790  Folate biosynthesis
             eco01100  Metabolic pathways
             eco04122  Sulfur relay system
+MODULE      eco_M00880  Molybdenum cofactor biosynthesis, GTP => molybdenum cofactor
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00790 Folate biosynthesis
                 b0783 (moaC)
-             Genetic Information Processing
-              Folding, sorting and degradation
+             09120 Genetic Information Processing
+              09123 Folding, sorting and degradation
                04122 Sulfur relay system
                 b0783 (moaC)
             Enzymes [BR:eco01000]
@@ -23,11 +24,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0783 (moaC)
 POSITION    818570..819055
 MOTIF       Pfam: MoaC
-DBLINKS     NCBI-ProteinID: NP_415304
-            NCBI-GeneID: 945397
+DBLINKS     NCBI-GeneID: 945397
+            NCBI-ProteinID: NP_415304
             Pasteur: moaC
             RegulonDB: ECK120001609
-            EcoGene: EG11666
             ECOCYC: EG11666
             ASAP: ABE-0002673
             UniProt: P0A738

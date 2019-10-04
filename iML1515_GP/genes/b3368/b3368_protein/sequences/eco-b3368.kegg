@@ -1,15 +1,16 @@
 ENTRY       b3368             CDS       T00007
 NAME        cysG
-DEFINITION  (RefSeq) fused siroheme synthase 1,3-dimethyluroporphyriongen III dehydrogenase and siroheme ferrochelatase/uroporphyrinogen methyltransferase
+DEFINITION  (RefSeq) siroheme synthase
 ORTHOLOGY   K02302  uroporphyrin-III C-methyltransferase / precorrin-2 dehydrogenase / sirohydrochlorin ferrochelatase [EC:2.1.1.107 1.3.1.76 4.99.1.4]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00860  Porphyrin and chlorophyll metabolism
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
-MODULE      eco_M00121  Heme biosynthesis, glutamate => protoheme/siroheme
+            eco01120  Microbial metabolism in diverse environments
+MODULE      eco_M00846  Siroheme biosynthesis, glutamate => siroheme
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00860 Porphyrin and chlorophyll metabolism
                 b3368 (cysG)
             Enzymes [BR:eco01000]
@@ -30,10 +31,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3368 (cysG)
 POSITION    3497828..3499201
 MOTIF       Pfam: TP_methylase NAD_binding_7 CysG_dimeriser Sirohm_synth_M Radical_SAM
-DBLINKS     NCBI-ProteinID: NP_417827
-            NCBI-GeneID: 947880
+DBLINKS     NCBI-GeneID: 947880
+            NCBI-ProteinID: NP_417827
             Pasteur: cysG
-            EcoGene: EG10188
+            RegulonDB: ECK120000183
             ECOCYC: EG10188
             ASAP: ABE-0011010
             UniProt: P0AEA8

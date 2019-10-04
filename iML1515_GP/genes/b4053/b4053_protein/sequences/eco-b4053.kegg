@@ -1,19 +1,23 @@
 ENTRY       b4053             CDS       T00007
 NAME        alr
-DEFINITION  (RefSeq) alanine racemase, biosynthetic, PLP-binding
+DEFINITION  (RefSeq) alanine racemase 1
 ORTHOLOGY   K01775  alanine racemase [EC:5.1.1.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00473  D-Alanine metabolism
             eco01100  Metabolic pathways
             eco01502  Vancomycin resistance
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of other amino acids
+             09100 Metabolism
+              09106 Metabolism of other amino acids
                00473 D-Alanine metabolism
                 b4053 (alr)
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01502 Vancomycin resistance
+                b4053 (alr)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
                 b4053 (alr)
             Enzymes [BR:eco01000]
              5. Isomerases
@@ -21,13 +25,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                5.1.1  Acting on amino acids and derivatives
                 5.1.1.1  alanine racemase
                  b4053 (alr)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Precursor biosynthesis
+              Racemase
+               b4053 (alr)
 POSITION    4265782..4266861
 MOTIF       Pfam: Ala_racemase_N Ala_racemase_C
-DBLINKS     NCBI-ProteinID: NP_418477
-            NCBI-GeneID: 948564
+DBLINKS     NCBI-GeneID: 948564
+            NCBI-ProteinID: NP_418477
             Pasteur: alr
             RegulonDB: ECK120000001
-            EcoGene: EG10001
             ECOCYC: EG10001
             ASAP: ABE-0013272
             UniProt: P0A6B4

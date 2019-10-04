@@ -1,44 +1,49 @@
 ENTRY       b3035             CDS       T00007
 NAME        tolC
-DEFINITION  (RefSeq) transport channel
+DEFINITION  (RefSeq) outer membrane channel TolC
 ORTHOLOGY   K12340  outer membrane protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco01501  beta-Lactam resistance
             eco01503  Cationic antimicrobial peptide (CAMP) resistance
             eco02020  Two-component system
             eco03070  Bacterial secretion system
-MODULE      eco_M00646  Multidrug resistance, efflux pump AcrAD-TolC
-            eco_M00647  Multidrug resistance, efflux pump AcrAB-TolC/SmeDEF
-            eco_M00696  Multidrug resistance, efflux pump AcrEF-TolC
+MODULE      eco_M00696  Multidrug resistance, efflux pump AcrEF-TolC
             eco_M00697  Multidrug resistance, efflux pump MdtEF-TolC
-            eco_M00709  Macrolide resistance, MacAB-TolC transporter
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                03070 Bacterial secretion system
                 b3035 (tolC)
-              Signal transduction
+              09132 Signal transduction
                02020 Two-component system
                 b3035 (tolC)
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01501 beta-Lactam resistance
                 b3035 (tolC)
                01503 Cationic antimicrobial peptide (CAMP) resistance
                 b3035 (tolC)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3035 (tolC)
+               02044 Secretion system [BR:eco02044]
+                b3035 (tolC)
+               01504 Antimicrobial resistance genes [BR:eco01504]
+                b3035 (tolC)
             Transporters [BR:eco02000]
-             Other Transporters
+             Other transporters
               Pores ion channels [TC:1]
                b3035 (tolC)
             Secretion system [BR:eco02044]
              Type I secretion system
-              alpha-Hemolysin/cyclolysin transporter [MD:M00325]
+              alpha-Hemolysin/cyclolysin transporter
                b3035 (tolC)
-              RTX toxin transporter [MD:M00326]
+              RTX toxin transporter
                b3035 (tolC)
-              RaxAB-RaxC type I secretion system protein [MD:M00339]
+              RaxAB-RaxC type I secretion system protein
                b3035 (tolC)
-              AlgE-type Mannuronan C-5-Epimerase transporter [MD:M00571]
+              AlgE-type Mannuronan C-5-Epimerase transporter
                b3035 (tolC)
             Antimicrobial resistance genes [BR:eco01504]
              Gene sets
@@ -49,14 +54,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 b3035 (tolC)
 POSITION    3178115..3179596
 MOTIF       Pfam: OEP
-DBLINKS     NCBI-ProteinID: NP_417507
-            NCBI-GeneID: 947521
+DBLINKS     NCBI-GeneID: 947521
+            NCBI-ProteinID: NP_417507
             Pasteur: tolC
-            EcoGene: EG11009
+            RegulonDB: ECK120000998
             ECOCYC: EG11009
             ASAP: ABE-0009965
             UniProt: P02930
-STRUCTURE   PDB: 1EK9 1TQQ 2XMN 2WMZ 2VDE 2VDD
+STRUCTURE   PDB: 1EK9 1TQQ 2XMN 2WMZ 2VDE 5NIK 2VDD 5NIL 5O66 5NG5 5V5S
 AASEQ       493
             MKKLLPILIGLSLSGFSSLSQAENLMQVYQQARLSNPELRKSAADRDAAFEKINEARSPL
             LPQLGLGADYTYSNGYRDANGINSNATSASLQLTQSIFDMSKWRALTLQEKAAGIQDVTY

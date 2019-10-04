@@ -1,14 +1,14 @@
 ENTRY       b0750             CDS       T00007
 NAME        nadA
-DEFINITION  (RefSeq) quinolinate synthase, subunit A
+DEFINITION  (RefSeq) quinolinate synthase
 ORTHOLOGY   K03517  quinolinate synthase [EC:2.5.1.72]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00760  Nicotinate and nicotinamide metabolism
             eco01100  Metabolic pathways
 MODULE      eco_M00115  NAD biosynthesis, aspartate => NAD
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00760 Nicotinate and nicotinamide metabolism
                 b0750 (nadA)
             Enzymes [BR:eco01000]
@@ -19,11 +19,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0750 (nadA)
 POSITION    782085..783128
 MOTIF       Pfam: NadA
-DBLINKS     NCBI-ProteinID: NP_415271
-            NCBI-GeneID: 945351
+DBLINKS     NCBI-GeneID: 945351
+            NCBI-ProteinID: NP_415271
             Pasteur: nadA
             RegulonDB: ECK120000623
-            EcoGene: EG10630
             ECOCYC: EG10630
             ASAP: ABE-0002541
             UniProt: P11458

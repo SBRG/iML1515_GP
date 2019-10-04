@@ -1,28 +1,28 @@
 ENTRY       b2279             CDS       T00007
 NAME        nuoK
-DEFINITION  (RefSeq) NADH:ubiquinone oxidoreductase, membrane subunit K
-ORTHOLOGY   K00340  NADH-quinone oxidoreductase subunit K [EC:1.6.5.3]
+DEFINITION  (RefSeq) NADH:quinone oxidoreductase subunit K
+ORTHOLOGY   K00340  NADH-quinone oxidoreductase subunit K [EC:7.1.1.2]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00190  Oxidative phosphorylation
             eco01100  Metabolic pathways
 MODULE      eco_M00144  NADH:quinone oxidoreductase, prokaryotes
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00190 Oxidative phosphorylation
                 b2279 (nuoK)
             Enzymes [BR:eco01000]
-             1. Oxidoreductases
-              1.6  Acting on NADH or NADPH
-               1.6.5  With a quinone or similar compound as acceptor
-                1.6.5.3  NADH:ubiquinone reductase (H+-translocating)
+             7. Translocases
+              7.1  Catalysing the translocation of hydrons
+               7.1.1  Linked to oxidoreductase reactions
+                7.1.1.2  NADH:ubiquinone reductase (H+-translocating)
                  b2279 (nuoK)
 POSITION    complement(2395043..2395345)
 MOTIF       Pfam: Oxidored_q2 ATP1G1_PLM_MAT8 DUF4481 DUF5392
-DBLINKS     NCBI-ProteinID: NP_416782
-            NCBI-GeneID: 947580
+DBLINKS     NCBI-GeneID: 947580
+            NCBI-ProteinID: NP_416782
             Pasteur: nuoK
-            EcoGene: EG12091
+            RegulonDB: ECK120001996
             ECOCYC: EG12091
             ASAP: ABE-0007534
             UniProt: P0AFE4

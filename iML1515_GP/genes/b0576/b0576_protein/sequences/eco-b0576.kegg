@@ -1,18 +1,23 @@
 ENTRY       b0576             CDS       T00007
 NAME        pheP
-DEFINITION  (RefSeq) phenylalanine transporter
+DEFINITION  (RefSeq) phenylalanine:H(+) symporter PheP
 ORTHOLOGY   K11732  phenylalanine-specific permease
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0576 (pheP)
+            Transporters [BR:eco02000]
+             Other transporters
               Electrochemical potential-driven transporters [TC:2]
                b0576 (pheP)
 POSITION    601959..603335
 MOTIF       Pfam: AA_permease AA_permease_2
-DBLINKS     NCBI-ProteinID: NP_415108
-            NCBI-GeneID: 945199
+DBLINKS     NCBI-GeneID: 945199
+            NCBI-ProteinID: NP_415108
             Pasteur: pheP
-            EcoGene: EG10708
+            RegulonDB: ECK120000700
             ECOCYC: EG10708
             ASAP: ABE-0001976
             UniProt: P24207

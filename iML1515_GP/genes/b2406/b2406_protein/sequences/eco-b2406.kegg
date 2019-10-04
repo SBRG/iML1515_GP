@@ -1,19 +1,24 @@
 ENTRY       b2406             CDS       T00007
 NAME        xapB
-DEFINITION  (RefSeq) xanthosine transporter
+DEFINITION  (RefSeq) xanthosine:H(+) symporter XapB
 ORTHOLOGY   K11537  MFS transporter, NHS family, xanthosine permease
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Major Facilitator Superfamily (MFS)
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2406 (xapB)
+            Transporters [BR:eco02000]
+             Major facilitator superfamily (MFS)
               Sugar transporters
                Nucleoside:H+ symporter (NHS) family [TC:2.A.1.10]
                 b2406 (xapB)
 POSITION    complement(2522729..2523985)
 MOTIF       Pfam: Nuc_H_symport MFS_1_like MFS_1 LacY_symp
-DBLINKS     NCBI-ProteinID: NP_416901
-            NCBI-GeneID: 946868
+DBLINKS     NCBI-GeneID: 946868
+            NCBI-ProteinID: NP_416901
             Pasteur: xapB
-            EcoGene: EG13159
+            RegulonDB: ECK120002428
             ECOCYC: EG13159
             ASAP: ABE-0007925
             UniProt: P45562

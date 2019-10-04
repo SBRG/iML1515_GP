@@ -1,6 +1,6 @@
 ENTRY       b1814             CDS       T00007
 NAME        sdaA
-DEFINITION  (RefSeq) L-serine dehydratase 1
+DEFINITION  (RefSeq) L-serine deaminase I
 ORTHOLOGY   K01752  L-serine dehydratase [EC:4.3.1.17]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00260  Glycine, serine and threonine metabolism
@@ -11,13 +11,8 @@ PATHWAY     eco00260  Glycine, serine and threonine metabolism
             eco01200  Carbon metabolism
             eco01230  Biosynthesis of amino acids
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b1814 (sdaA)
-               01230 Biosynthesis of amino acids
-                b1814 (sdaA)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00260 Glycine, serine and threonine metabolism
                 b1814 (sdaA)
                00270 Cysteine and methionine metabolism
@@ -30,11 +25,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1814 (sdaA)
 POSITION    1896932..1898296
 MOTIF       Pfam: SDH_alpha SDH_beta MmgE_PrpD
-DBLINKS     NCBI-ProteinID: NP_416328
-            NCBI-GeneID: 946331
+DBLINKS     NCBI-GeneID: 946331
+            NCBI-ProteinID: NP_416328
             Pasteur: sdaA
             RegulonDB: ECK120000919
-            EcoGene: EG10930
             ECOCYC: EG10930
             ASAP: ABE-0006039
             UniProt: P16095

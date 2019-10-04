@@ -1,12 +1,24 @@
 ENTRY       b4337             CDS       T00007
 NAME        mdtM
-DEFINITION  (RefSeq) multidrug efflux system protein
+DEFINITION  (RefSeq) multidrug efflux pump/bile salt:H(+) antiporter/Na(+):H(+) antiporter/K(+):H(+) antiporter
+ORTHOLOGY   K23241  MFS transporter, DHA1 family, multidrug resistance protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b4337 (mdtM)
+            Transporters [BR:eco02000]
+             Major facilitator superfamily (MFS)
+              Drug transporters
+               Drug:H+ antiporter-1 (12 spanner) (DHA1) family [TC:2.A.1.2]
+                b4337 (mdtM)
 POSITION    complement(4567287..4568519)
 MOTIF       Pfam: MFS_1 Sugar_tr
-DBLINKS     NCBI-ProteinID: NP_418757
-            NCBI-GeneID: 948861
-            EcoGene: EG12576
+DBLINKS     NCBI-GeneID: 948861
+            NCBI-ProteinID: NP_418757
+            Pasteur: yjiO
+            RegulonDB: ECK120002324
             ECOCYC: EG12576
             ASAP: ABE-0014221
             UniProt: P39386

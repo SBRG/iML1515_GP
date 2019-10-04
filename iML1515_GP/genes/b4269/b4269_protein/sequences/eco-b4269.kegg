@@ -1,9 +1,14 @@
 ENTRY       b4269             CDS       T00007
 NAME        ahr
-DEFINITION  (RefSeq) aldehyde reductase, NADPH-dependent, Zn-containing, broad specificity
+DEFINITION  (RefSeq) aldehyde reductase, NADPH-dependent
 ORTHOLOGY   K12957  uncharacterized zinc-type alcohol dehydrogenase-like protein [EC:1.-.-.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09191 Unclassified: metabolism
+               99980 Enzymes with EC numbers
+                b4269 (ahr)
+            Enzymes [BR:eco01000]
              1. Oxidoreductases
               1.-  
                1.-.-  
@@ -11,10 +16,10 @@ BRITE       Enzymes [BR:eco01000]
                  b4269 (ahr)
 POSITION    complement(4495190..4496209)
 MOTIF       Pfam: ADH_N ADH_zinc_N ADH_zinc_N_2 AlaDh_PNT_C 2-Hacid_dh_C NAD_binding_2 ThiF Oxidored_nitro Shikimate_DH Sacchrp_dh_NADP 3HCDH_N ETF ApbA PDT
-DBLINKS     NCBI-ProteinID: NP_418690
-            NCBI-GeneID: 948802
+DBLINKS     NCBI-GeneID: 948802
+            NCBI-ProteinID: NP_418690
             Pasteur: yjgB
-            EcoGene: EG11436
+            RegulonDB: ECK120001400
             ECOCYC: EG11436
             ASAP: ABE-0013982
             UniProt: P27250

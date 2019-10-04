@@ -1,18 +1,16 @@
 ENTRY       b2539             CDS       T00007
 NAME        hcaF
-DEFINITION  (RefSeq) 3-phenylpropionate dioxygenase, small (beta) subunit
+DEFINITION  (RefSeq) putative 3-phenylpropionate/cinnamate dioxygenase subunit beta
 ORTHOLOGY   K05709  3-phenylpropionate/trans-cinnamate dioxygenase subunit beta [EC:1.14.12.19]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00360  Phenylalanine metabolism
+            eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
             eco01220  Degradation of aromatic compounds
 MODULE      eco_M00545  Trans-cinnamate degradation, trans-cinnamate => acetyl-CoA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01220 Degradation of aromatic compounds
-                b2539 (hcaF)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00360 Phenylalanine metabolism
                 b2539 (hcaF)
             Enzymes [BR:eco01000]
@@ -23,10 +21,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2539 (hcaF)
 POSITION    2670390..2670908
 MOTIF       Pfam: Ring_hydroxyl_B
-DBLINKS     NCBI-ProteinID: NP_417034
-            NCBI-GeneID: 946997
+DBLINKS     NCBI-GeneID: 946997
+            NCBI-ProteinID: NP_417034
+            Pasteur: yfhV
             RegulonDB: ECK120004474
-            EcoGene: EG13457
             ECOCYC: M015
             ASAP: ABE-0008357
             UniProt: Q47140

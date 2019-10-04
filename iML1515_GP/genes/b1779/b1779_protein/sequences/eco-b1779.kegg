@@ -15,14 +15,16 @@ MODULE      eco_M00001  Glycolysis (Embden-Meyerhof pathway), glucose => pyruvat
             eco_M00003  Gluconeogenesis, oxaloacetate => fructose-6P
             eco_M00552  D-galactonate degradation, De Ley-Doudoroff pathway, D-galactonate => glycerate-3P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b1779 (gapA)
-               01230 Biosynthesis of amino acids
-                b1779 (gapA)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
+                b1779 (gapA)
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               04131 Membrane trafficking [BR:eco04131]
+                b1779 (gapA)
+              09183 Protein families: signaling and cellular processes
+               04147 Exosome [BR:eco04147]
                 b1779 (gapA)
             Enzymes [BR:eco01000]
              1. Oxidoreductases
@@ -30,21 +32,26 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                1.2.1  With NAD+ or NADP+ as acceptor
                 1.2.1.12  glyceraldehyde-3-phosphate dehydrogenase (phosphorylating)
                  b1779 (gapA)
+            Membrane trafficking [BR:eco04131]
+             Autophagy
+              Chaperone mediated autophagy (CMA)
+               Selective cargos
+                b1779 (gapA)
             Exosome [BR:eco04147]
              Exosomal proteins
               Proteins found in most exosomes
                b1779 (gapA)
 POSITION    1862771..1863766
 MOTIF       Pfam: Gp_dh_C Gp_dh_N DapB_N 2-Hacid_dh_C
-DBLINKS     NCBI-ProteinID: NP_416293
-            NCBI-GeneID: 947679
+DBLINKS     NCBI-GeneID: 947679
+            NCBI-ProteinID: NP_416293
             Pasteur: gapA
             RegulonDB: ECK120000360
-            EcoGene: EG10367
             ECOCYC: EG10367
             ASAP: ABE-0005920
             UniProt: P0A9B2
-STRUCTURE   PDB: 1GAD 1DC5 1DC6 1S7C 1GAE 2VYN 2VYV 1DC3 1DC4 4MVJ
+STRUCTURE   PDB: 1GAD 5ZA0 1DC5 1DC6 1S7C 1GAE 2VYN 6IOJ 2VYV 5O0V 1DC3
+                 1DC4 6IO6 4MVJ 6IO4
 AASEQ       331
             MTIKVGINGFGRIGRIVFRAAQKRSDIEIVAINDLLDADYMAYMLKYDSTHGRFDGTVEV
             KDGHLIVNGKKIRVTAERDPANLKWDEVGVDVVAEATGLFLTDETARKHITAGAKKVVMT

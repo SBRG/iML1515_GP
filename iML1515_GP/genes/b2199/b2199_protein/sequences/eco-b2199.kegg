@@ -1,27 +1,29 @@
 ENTRY       b2199             CDS       T00007
 NAME        ccmC
-DEFINITION  (RefSeq) heme exporter subunit
+DEFINITION  (RefSeq) heme trafficking system membrane protein CcmC
 ORTHOLOGY   K02195  heme exporter protein C
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00259  Heme transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b2199 (ccmC)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2199 (ccmC)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               ABC-2 type and other transporters
-               Heme transporter [MD:M00259] [OT]
+               Heme transporter
                 b2199 (ccmC)
 POSITION    complement(2295583..2296320)
 MOTIF       Pfam: Cytochrom_C_asm
-DBLINKS     NCBI-ProteinID: NP_416703
-            NCBI-GeneID: 946703
+DBLINKS     NCBI-GeneID: 946703
+            NCBI-ProteinID: NP_416703
             Pasteur: ccmC
             RegulonDB: ECK120001969
-            EcoGene: EG12057
             ECOCYC: EG12057
             ASAP: ABE-0007275
             UniProt: P0ABM1

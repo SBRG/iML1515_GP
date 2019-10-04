@@ -1,15 +1,19 @@
 ENTRY       b0096             CDS       T00007
 NAME        lpxC
-DEFINITION  (RefSeq) UDP-3-O-acyl N-acetylglucosamine deacetylase
+DEFINITION  (RefSeq) UDP-3-O-acyl-N-acetylglucosamine deacetylase
 ORTHOLOGY   K02535  UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [EC:3.5.1.108]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00540  Lipopolysaccharide biosynthesis
             eco01100  Metabolic pathways
-MODULE      eco_M00060  Lipopolysaccharide biosynthesis, KDO2-lipid A
+MODULE      eco_M00060  KDO2-lipid A biosynthesis, Raetz pathway, LpxL-LpxM type
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00540 Lipopolysaccharide biosynthesis
+                b0096 (lpxC)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
                 b0096 (lpxC)
             Enzymes [BR:eco01000]
              3. Hydrolases
@@ -22,10 +26,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
               b0096 (lpxC)
 POSITION    106557..107474
 MOTIF       Pfam: LpxC
-DBLINKS     NCBI-ProteinID: NP_414638
-            NCBI-GeneID: 944816
+DBLINKS     NCBI-GeneID: 944816
+            NCBI-ProteinID: NP_414638
             Pasteur: lpxC
-            EcoGene: EG10265
+            RegulonDB: ECK120000259
             ECOCYC: EG10265
             ASAP: ABE-0000336
             UniProt: P0A725

@@ -1,31 +1,34 @@
 ENTRY       b1513             CDS       T00007
 NAME        lsrA
-DEFINITION  (RefSeq) autoinducer 2 import ATP-binding protein
+DEFINITION  (RefSeq) Autoinducer-2 ABC transporter ATP binding subunit
 ORTHOLOGY   K10558  AI-2 transport system ATP-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
             eco02024  Quorum sensing
-MODULE      eco_M00219  AI-2 transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b1513 (lsrA)
-             Cellular Processes
-              Cellular community - prokaryotes
+             09140 Cellular Processes
+              09145 Cellular community - prokaryotes
                02024 Quorum sensing
                 b1513 (lsrA)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1513 (lsrA)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Saccharide, polyol, and lipid transporters
-               AI-2 transporter [MD:M00219] [OT]
+               AI-2 transporter
                 b1513 (lsrA)
 POSITION    1601490..1603025
 MOTIF       Pfam: ABC_tran AAA_21 RsgA_GTPase AAA_29 AAA_23 AAA_30 MukB AAA_27
-DBLINKS     NCBI-ProteinID: NP_416030
-            NCBI-GeneID: 945680
+DBLINKS     NCBI-GeneID: 945680
+            NCBI-ProteinID: NP_416030
+            Pasteur: ego
             RegulonDB: ECK120003389
-            EcoGene: EG13806
             ECOCYC: G6800
             ASAP: ABE-0005056
             UniProt: P77257

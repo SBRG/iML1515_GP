@@ -1,32 +1,34 @@
 ENTRY       b3544             CDS       T00007
 NAME        dppA
-DEFINITION  (RefSeq) dipeptide transporter
+DEFINITION  (RefSeq) dipeptide ABC transporter periplasmic binding protein
 ORTHOLOGY   K12368  dipeptide transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
             eco02030  Bacterial chemotaxis
-MODULE      eco_M00324  Dipeptide transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b3544 (dppA)
-             Cellular Processes
-              Cell motility
+             09140 Cellular Processes
+              09142 Cell motility
                02030 Bacterial chemotaxis
                 b3544 (dppA)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3544 (dppA)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Peptide and nickel transporters
-               Dipeptide transporter [MD:M00324] [OT]
+               Dipeptide transporter
                 b3544 (dppA)
 POSITION    complement(3706098..3707705)
 MOTIF       Pfam: SBP_bac_5 FKBP_C
-DBLINKS     NCBI-ProteinID: NP_418001
-            NCBI-GeneID: 948062
+DBLINKS     NCBI-GeneID: 948062
+            NCBI-ProteinID: NP_418001
             Pasteur: dppA
             RegulonDB: ECK120000242
-            EcoGene: EG10248
             ECOCYC: EG10248
             ASAP: ABE-0011576
             UniProt: P23847

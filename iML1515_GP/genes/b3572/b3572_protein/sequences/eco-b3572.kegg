@@ -1,6 +1,6 @@
 ENTRY       b3572             CDS       T00007
 NAME        avtA
-DEFINITION  (RefSeq) valine-pyruvate aminotransferase 1
+DEFINITION  (RefSeq) valine--pyruvate aminotransferase
 ORTHOLOGY   K00835  valine--pyruvate aminotransferase [EC:2.6.1.66]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00290  Valine, leucine and isoleucine biosynthesis
@@ -8,9 +8,13 @@ PATHWAY     eco00290  Valine, leucine and isoleucine biosynthesis
             eco01110  Biosynthesis of secondary metabolites
             eco01130  Biosynthesis of antibiotics
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00290 Valine, leucine and isoleucine biosynthesis
+                b3572 (avtA)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01007 Amino acid related enzymes [BR:eco01007]
                 b3572 (avtA)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -24,10 +28,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b3572 (avtA)
 POSITION    3739705..3740958
 MOTIF       Pfam: Aminotran_1_2 Beta_elim_lyase Aminotran_MocR Cys_Met_Meta_PP
-DBLINKS     NCBI-ProteinID: YP_026231
-            NCBI-GeneID: 948087
+DBLINKS     NCBI-GeneID: 948087
+            NCBI-ProteinID: YP_026231
             Pasteur: avtA
-            EcoGene: EG10107
+            RegulonDB: ECK120000103
             ECOCYC: EG10107
             ASAP: ABE-0011671
             UniProt: P09053

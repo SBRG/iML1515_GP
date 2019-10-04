@@ -1,17 +1,22 @@
 ENTRY       b3747             CDS       T00007
 NAME        kup
-DEFINITION  (RefSeq) potassium transporter
+DEFINITION  (RefSeq) K(+):H(+) symporter Kup
 ORTHOLOGY   K03549  KUP system potassium uptake protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3747 (kup)
+            Transporters [BR:eco02000]
+             Other transporters
               Electrochemical potential-driven transporters [TC:2]
                b3747 (kup)
 POSITION    3931316..3933184
 MOTIF       Pfam: K_trans
-DBLINKS     NCBI-ProteinID: YP_026244
-            NCBI-GeneID: 948255
-            EcoGene: EG11541
+DBLINKS     NCBI-GeneID: 948255
+            NCBI-ProteinID: YP_026244
+            RegulonDB: ECK120001495
             ECOCYC: EG11541
             ASAP: ABE-0012251
             UniProt: P63183

@@ -1,26 +1,29 @@
 ENTRY       b1486             CDS       T00007
 NAME        ddpB
-DEFINITION  (RefSeq) D-ala-D-ala transporter subunit
+DEFINITION  (RefSeq) putative D,D-dipeptide ABC transporter membrane subunit DdpB
 ORTHOLOGY   K02033  peptide/nickel transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02024  Quorum sensing
-MODULE      eco_M00239  Peptides/nickel transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Cellular Processes
-              Cellular community - prokaryotes
+             09140 Cellular Processes
+              09145 Cellular community - prokaryotes
                02024 Quorum sensing
                 b1486 (ddpB)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1486 (ddpB)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Peptide and nickel transporters
-               Peptides/nickel transporter [MD:M00239]
+               Peptides/nickel transporter
                 b1486 (ddpB)
 POSITION    complement(1559907..1560929)
 MOTIF       Pfam: BPD_transp_1
-DBLINKS     NCBI-ProteinID: NP_416003
-            NCBI-GeneID: 946044
+DBLINKS     NCBI-GeneID: 946044
+            NCBI-ProteinID: NP_416003
+            Pasteur: yddR
             RegulonDB: ECK120003369
-            EcoGene: EG13789
             ECOCYC: G6780
             ASAP: ABE-0004955
             UniProt: P77308

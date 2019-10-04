@@ -1,6 +1,6 @@
 ENTRY       b1386             CDS       T00007
 NAME        tynA
-DEFINITION  (RefSeq) tyramine oxidase, copper-requiring
+DEFINITION  (RefSeq) copper-containing amine oxidase
 ORTHOLOGY   K00276  primary-amine oxidase [EC:1.4.3.21]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00260  Glycine, serine and threonine metabolism
@@ -10,15 +10,15 @@ PATHWAY     eco00260  Glycine, serine and threonine metabolism
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00260 Glycine, serine and threonine metabolism
                 b1386 (tynA)
                00350 Tyrosine metabolism
                 b1386 (tynA)
                00360 Phenylalanine metabolism
                 b1386 (tynA)
-              Metabolism of other amino acids
+              09106 Metabolism of other amino acids
                00410 beta-Alanine metabolism
                 b1386 (tynA)
             Enzymes [BR:eco01000]
@@ -29,16 +29,15 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1386 (tynA)
 POSITION    complement(1449076..1451349)
 MOTIF       Pfam: Cu_amine_oxid Cu_amine_oxidN2 Cu_amine_oxidN3 Cu_amine_oxidN1
-DBLINKS     NCBI-ProteinID: NP_415904
-            NCBI-GeneID: 945939
+DBLINKS     NCBI-GeneID: 945939
+            NCBI-ProteinID: NP_415904
             Pasteur: tynA
             RegulonDB: ECK120002427
-            EcoGene: EG13140
             ECOCYC: EG13139
             ASAP: ABE-0004639
             UniProt: P46883
-STRUCTURE   PDB: 1QAK 1SPU 1OAC 1DYU 1D6Z 1JRQ 1QAL 1QAF 2WOF 1LVN 1D6Y
-                 1D6U 2W0Q 2WGQ 2WO0 2WOH
+STRUCTURE   PDB: 6GRR 6EZZ 1QAK 1SPU 1OAC 1DYU 1D6Z 1JRQ 1QAL 1QAF 2WOF
+                 1LVN 1D6Y 1D6U 2W0Q 2WGQ 2WO0 2WOH
 AASEQ       757
             MGSPSLYSARKTTLALAVALSFAWQAPVFAHGGEAHMVPMDKTLKEFGADVQWDDYAQLF
             TLIKDGAYVKVKPGAQTAIVNGQPLALQVPVVMKDNKAWVSDTFINDVFQSGLDQTFQVE

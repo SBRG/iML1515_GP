@@ -1,36 +1,25 @@
 ENTRY       b4079             CDS       T00007
 NAME        fdhF
-DEFINITION  (RefSeq) formate dehydrogenase-H, selenopolypeptide subunit
-ORTHOLOGY   K00123  formate dehydrogenase major subunit [EC:1.2.1.2]
+DEFINITION  (RefSeq) formate dehydrogenase H
+ORTHOLOGY   K22015  formate dehydrogenase (acceptor) [EC:1.17.99.7]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-PATHWAY     eco00630  Glyoxylate and dicarboxylate metabolism
-            eco00680  Methane metabolism
-            eco01100  Metabolic pathways
-            eco01120  Microbial metabolism in diverse environments
-            eco01200  Carbon metabolism
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b4079 (fdhF)
-              Carbohydrate metabolism
-               00630 Glyoxylate and dicarboxylate metabolism
-                b4079 (fdhF)
-              Energy metabolism
-               00680 Methane metabolism
+             09190 Not Included in Pathway or Brite
+              09191 Unclassified: metabolism
+               99980 Enzymes with EC numbers
                 b4079 (fdhF)
             Enzymes [BR:eco01000]
              1. Oxidoreductases
-              1.2  Acting on the aldehyde or oxo group of donors
-               1.2.1  With NAD+ or NADP+ as acceptor
-                1.2.1.2  formate dehydrogenase
+              1.17  Acting on CH or CH2 groups
+               1.17.99  With unknown physiological acceptors
+                1.17.99.7  formate dehydrogenase (acceptor)
                  b4079 (fdhF)
 POSITION    complement(4297219..4299366)
 MOTIF       Pfam: Molybdopterin Molydop_binding Molybdop_Fe4S4
-DBLINKS     NCBI-ProteinID: NP_418503
-            NCBI-GeneID: 948584
+DBLINKS     NCBI-GeneID: 948584
+            NCBI-ProteinID: NP_418503
             Pasteur: fdhF
-            EcoGene: EG10285
+            RegulonDB: ECK120000279
             ECOCYC: EG10285
             ASAP: ABE-0013363
             UniProt: P07658

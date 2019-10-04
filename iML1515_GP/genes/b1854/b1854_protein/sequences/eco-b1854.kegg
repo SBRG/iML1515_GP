@@ -17,19 +17,21 @@ MODULE      eco_M00001  Glycolysis (Embden-Meyerhof pathway), glucose => pyruvat
             eco_M00049  Adenine ribonucleotide biosynthesis, IMP => ADP,ATP
             eco_M00050  Guanine ribonucleotide biosynthesis IMP => GDP,GTP
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b1854 (pykA)
-               01230 Biosynthesis of amino acids
-                b1854 (pykA)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
                 b1854 (pykA)
                00620 Pyruvate metabolism
                 b1854 (pykA)
-              Nucleotide metabolism
+              09104 Nucleotide metabolism
                00230 Purine metabolism
+                b1854 (pykA)
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               04131 Membrane trafficking [BR:eco04131]
+                b1854 (pykA)
+              09183 Protein families: signaling and cellular processes
+               04147 Exosome [BR:eco04147]
                 b1854 (pykA)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -37,16 +39,21 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                2.7.1  Phosphotransferases with an alcohol group as acceptor
                 2.7.1.40  pyruvate kinase
                  b1854 (pykA)
+            Membrane trafficking [BR:eco04131]
+             Autophagy
+              Chaperone mediated autophagy (CMA)
+               Selective cargos
+                b1854 (pykA)
             Exosome [BR:eco04147]
              Exosomal proteins
               Proteins found in most exosomes
                b1854 (pykA)
 POSITION    1937649..1939091
 MOTIF       Pfam: PK PK_C
-DBLINKS     NCBI-ProteinID: NP_416368
-            NCBI-GeneID: 946527
+DBLINKS     NCBI-GeneID: 946527
+            NCBI-ProteinID: NP_416368
             Pasteur: pykA
-            EcoGene: EG10803
+            RegulonDB: ECK120000794
             ECOCYC: EG10803
             ASAP: ABE-0006182
             UniProt: P21599

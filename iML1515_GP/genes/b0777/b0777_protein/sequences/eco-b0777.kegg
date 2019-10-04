@@ -1,14 +1,14 @@
 ENTRY       b0777             CDS       T00007
 NAME        bioC
-DEFINITION  (RefSeq) malonyl-ACP O-methyltransferase, SAM-dependent
+DEFINITION  (RefSeq) malonyl-acyl carrier protein methyltransferase
 ORTHOLOGY   K02169  malonyl-CoA O-methyltransferase [EC:2.1.1.197]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00780  Biotin metabolism
             eco01100  Metabolic pathways
 MODULE      eco_M00572  Pimeloyl-ACP biosynthesis, BioC-BioH pathway, malonyl-ACP => pimeloyl-ACP
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00780 Biotin metabolism
                 b0777 (bioC)
             Enzymes [BR:eco01000]
@@ -19,10 +19,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0777 (bioC)
 POSITION    811522..812277
 MOTIF       Pfam: Methyltransf_11 Methyltransf_25 Methyltransf_31 Methyltransf_23 Methyltransf_12 Ubie_methyltran Methyltransf_8 MTS MetW Methyltransf_29 NodS CMAS DREV RrnaAD
-DBLINKS     NCBI-ProteinID: NP_415298
-            NCBI-GeneID: 945388
+DBLINKS     NCBI-GeneID: 945388
+            NCBI-ProteinID: NP_415298
             Pasteur: bioC
-            EcoGene: EG10119
+            RegulonDB: ECK120000115
             ECOCYC: EG10119
             ASAP: ABE-0002648
             UniProt: P12999

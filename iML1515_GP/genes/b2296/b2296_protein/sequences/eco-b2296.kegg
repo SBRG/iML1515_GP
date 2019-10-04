@@ -1,6 +1,6 @@
 ENTRY       b2296             CDS       T00007
 NAME        ackA
-DEFINITION  (RefSeq) acetate kinase A and propionate kinase 2
+DEFINITION  (RefSeq) acetate kinase
 ORTHOLOGY   K00925  acetate kinase [EC:2.7.2.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00430  Taurine and hypotaurine metabolism
@@ -12,19 +12,16 @@ PATHWAY     eco00430  Taurine and hypotaurine metabolism
             eco01200  Carbon metabolism
 MODULE      eco_M00579  Phosphate acetyltransferase-acetate kinase pathway, acetyl-CoA => acetate
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b2296 (ackA)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00620 Pyruvate metabolism
                 b2296 (ackA)
                00640 Propanoate metabolism
                 b2296 (ackA)
-              Energy metabolism
+              09102 Energy metabolism
                00680 Methane metabolism
                 b2296 (ackA)
-              Metabolism of other amino acids
+              09106 Metabolism of other amino acids
                00430 Taurine and hypotaurine metabolism
                 b2296 (ackA)
             Enzymes [BR:eco01000]
@@ -35,11 +32,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2296 (ackA)
 POSITION    2413470..2414672
 MOTIF       Pfam: Acetate_kinase BcrAD_BadFG
-DBLINKS     NCBI-ProteinID: NP_416799
-            NCBI-GeneID: 946775
+DBLINKS     NCBI-GeneID: 946775
+            NCBI-ProteinID: NP_416799
             Pasteur: ackA
             RegulonDB: ECK120000024
-            EcoGene: EG10027
             ECOCYC: EG10027
             ASAP: ABE-0007579
             UniProt: P0A6A3

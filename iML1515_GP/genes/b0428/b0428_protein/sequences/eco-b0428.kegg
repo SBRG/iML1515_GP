@@ -1,36 +1,48 @@
 ENTRY       b0428             CDS       T00007
 NAME        cyoE
-DEFINITION  (RefSeq) protoheme IX farnesyltransferase
-ORTHOLOGY   K02301  protoheme IX farnesyltransferase [EC:2.5.1.-]
+DEFINITION  (RefSeq) heme O synthase
+ORTHOLOGY   K02257  heme o synthase [EC:2.5.1.141]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00190  Oxidative phosphorylation
             eco00860  Porphyrin and chlorophyll metabolism
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00190 Oxidative phosphorylation
                 b0428 (cyoE)
-              Metabolism of cofactors and vitamins
+              09108 Metabolism of cofactors and vitamins
                00860 Porphyrin and chlorophyll metabolism
+                b0428 (cyoE)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01006 Prenyltransferases [BR:eco01006]
+                b0428 (cyoE)
+              09182 Protein families: genetic information processing
+               03029 Mitochondrial biogenesis [BR:eco03029]
                 b0428 (cyoE)
             Enzymes [BR:eco01000]
              2. Transferases
               2.5  Transferring alkyl or aryl groups, other than methyl groups
                2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
-                2.5.1.-  
+                2.5.1.141  heme o synthase
                  b0428 (cyoE)
             Prenyltransferases [BR:eco01006]
              Compound prenylation
               Protoheme farnesyltransferase
                b0428 (cyoE)
+            Mitochondrial biogenesis [BR:eco03029]
+             Mitochondrial quality control factors
+              Mitochondrial respiratory chain complex assembly factors
+               Complex-IV assembly factors
+                b0428 (cyoE)
 POSITION    complement(446815..447705)
 MOTIF       Pfam: UbiA DUF3040 Gly-zipper_OmpA COX14
-DBLINKS     NCBI-ProteinID: NP_414962
-            NCBI-GeneID: 945073
+DBLINKS     NCBI-GeneID: 945073
+            NCBI-ProteinID: NP_414962
             Pasteur: cyoE
-            EcoGene: EG10182
+            RegulonDB: ECK120000177
             ECOCYC: EG10182
             ASAP: ABE-0001484
             UniProt: P0AEA5

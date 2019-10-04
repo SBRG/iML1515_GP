@@ -1,13 +1,17 @@
 ENTRY       b2416             CDS       T00007
 NAME        ptsI
-DEFINITION  (RefSeq) PEP-protein phosphotransferase of PTS system (enzyme I)
+DEFINITION  (RefSeq) PTS enzyme I
 ORTHOLOGY   K08483  phosphotransferase system, enzyme I, PtsI [EC:2.7.3.9]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02060  Phosphotransferase system (PTS)
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02060 Phosphotransferase system (PTS)
+                b2416 (ptsI)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
                 b2416 (ptsI)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -16,16 +20,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 2.7.3.9  phosphoenolpyruvate---protein phosphotransferase
                  b2416 (ptsI)
             Transporters [BR:eco02000]
-             Phosphotransferase System (PTS)
+             Phosphotransferase system (PTS)
               Enzyme I and HPr
                Enzyme I [TC:8.A.7]
                 b2416 (ptsI)
 POSITION    2534066..2535793
 MOTIF       Pfam: PEP-utilizers_C PEP-utilisers_N PEP-utilizers HpcH_HpaI CHASE7
-DBLINKS     NCBI-ProteinID: NP_416911
-            NCBI-GeneID: 946879
+DBLINKS     NCBI-GeneID: 946879
+            NCBI-ProteinID: NP_416911
             Pasteur: ptsI
-            EcoGene: EG10789
+            RegulonDB: ECK120000780
             ECOCYC: EG10789
             ASAP: ABE-0007967
             UniProt: P08839

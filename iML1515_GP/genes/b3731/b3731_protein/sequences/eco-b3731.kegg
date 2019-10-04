@@ -1,15 +1,19 @@
 ENTRY       b3731             CDS       T00007
 NAME        atpC
-DEFINITION  (RefSeq) F1 sector of membrane-bound ATP synthase, epsilon subunit
+DEFINITION  (RefSeq) ATP synthase F1 complex subunit epsilon
 ORTHOLOGY   K02114  F-type H+-transporting ATPase subunit epsilon
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00190  Oxidative phosphorylation
             eco01100  Metabolic pathways
 MODULE      eco_M00157  F-type ATPase, prokaryotes and chloroplasts
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00190 Oxidative phosphorylation
+                b3731 (atpC)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               00194 Photosynthesis proteins [BR:eco00194]
                 b3731 (atpC)
             Photosynthesis proteins [BR:eco00194]
              Photosystem and electron transport system
@@ -17,11 +21,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b3731 (atpC)
 POSITION    complement(3915553..3915972)
 MOTIF       Pfam: ATP-synt_DE_N ATP-synt_DE
-DBLINKS     NCBI-ProteinID: NP_418187
-            NCBI-GeneID: 948245
+DBLINKS     NCBI-GeneID: 948245
+            NCBI-ProteinID: NP_418187
             Pasteur: atpC
             RegulonDB: ECK120000096
-            EcoGene: EG10100
             ECOCYC: EG10100
             ASAP: ABE-0012206
             UniProt: P0A6E6

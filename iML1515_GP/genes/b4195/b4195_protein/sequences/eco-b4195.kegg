@@ -1,22 +1,25 @@
 ENTRY       b4195             CDS       T00007
 NAME        ulaC
-DEFINITION  (RefSeq) L-ascorbate-specific enzyme IIA component of PTS
+DEFINITION  (RefSeq) L-ascorbate specific PTS enzyme IIA component
 ORTHOLOGY   K02821  PTS system, ascorbate-specific IIA component [EC:2.7.1.194]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00053  Ascorbate and aldarate metabolism
             eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
             eco02060  Phosphotransferase system (PTS)
-MODULE      eco_M00283  PTS system, ascorbate-specific II component
-            eco_M00550  Ascorbate degradation, ascorbate => D-xylulose-5P
+MODULE      eco_M00550  Ascorbate degradation, ascorbate => D-xylulose-5P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00053 Ascorbate and aldarate metabolism
                 b4195 (ulaC)
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02060 Phosphotransferase system (PTS)
+                b4195 (ulaC)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
                 b4195 (ulaC)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -25,15 +28,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 2.7.1.194  protein-Npi-phosphohistidine---L-ascorbate phosphotransferase
                  b4195 (ulaC)
             Transporters [BR:eco02000]
-             Phosphotransferase System (PTS)
+             Phosphotransferase system (PTS)
               Enzyme II [TC:4.A]
-               Ascorbate-specific II component [MD:M00283]
+               Ascorbate-specific II component
                 b4195 (ulaC)
 POSITION    4421708..4422172
 MOTIF       Pfam: PTS_EIIA_2
-DBLINKS     NCBI-ProteinID: NP_418616
-            NCBI-GeneID: 948715
-            EcoGene: EG12495
+DBLINKS     NCBI-GeneID: 948715
+            NCBI-ProteinID: NP_418616
+            Pasteur: sgaA
+            RegulonDB: ECK120002310
             ECOCYC: EG12495
             ASAP: ABE-0013727
             UniProt: P69820

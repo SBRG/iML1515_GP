@@ -1,0 +1,922 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1992-12-01" modified="2019-09-18" version="162">
+<accession>P28861</accession>
+<accession>P11007</accession>
+<accession>Q2M8M0</accession>
+<name>FENR_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName evidence="18">Flavodoxin/ferredoxin--NADP reductase</fullName>
+<ecNumber evidence="5 6 11">1.18.1.2</ecNumber>
+<ecNumber evidence="5 13">1.19.1.1</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="14">Ferredoxin (flavodoxin):NADP(+) oxidoreductase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="16">Ferredoxin--NADP reductase</fullName>
+<shortName evidence="16">FNR</shortName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="18">Flavodoxin--NADP reductase</fullName>
+<shortName evidence="17">FLDR</shortName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="15">Methyl viologen resistance protein A</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="16">dA1</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="16">fpr</name>
+<name type="synonym" evidence="15">mvrA</name>
+<name type="ordered locus">b3924</name>
+<name type="ordered locus">JW3895</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1993" name="J. Bacteriol." volume="175" first="1590" last="1595">
+<title>Escherichia coli ferredoxin NADP+ reductase: activation of E. coli anaerobic ribonucleotide reduction, cloning of the gene (fpr), and overexpression of the protein.</title>
+<authorList>
+<person name="Bianchi V."/>
+<person name="Reichard P."/>
+<person name="Eliasson R."/>
+<person name="Pontis E."/>
+<person name="Krook M."/>
+<person name="Joernvall H."/>
+<person name="Haggaard-Ljungquist E."/>
+</authorList>
+<dbReference type="PubMed" id="8449868"/>
+<dbReference type="DOI" id="10.1128/jb.175.6.1590-1595.1993"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>PROTEIN SEQUENCE OF 2-26</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>COFACTOR</scope>
+<source>
+<strain>K12 / C600 / ATCC 23724 / DSM 3925 / LMG 3041 / NCIB 10222</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1993" name="Nucleic Acids Res." volume="21" first="3391" last="3398">
+<title>Analysis of the Escherichia coli genome. III. DNA sequence of the region from 87.2 to 89.2 minutes.</title>
+<authorList>
+<person name="Plunkett G. III"/>
+<person name="Burland V."/>
+<person name="Daniels D.L."/>
+<person name="Blattner F.R."/>
+</authorList>
+<dbReference type="PubMed" id="8346018"/>
+<dbReference type="DOI" id="10.1093/nar/21.15.3391"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="5">
+<citation type="journal article" date="1992" name="J. Bacteriol." volume="174" first="6981" last="6991">
+<title>Molecular analysis of the glpFKX regions of Escherichia coli and Shigella flexneri.</title>
+<authorList>
+<person name="Truniger V."/>
+<person name="Boos W."/>
+<person name="Sweet G."/>
+</authorList>
+<dbReference type="PubMed" id="1400248"/>
+<dbReference type="DOI" id="10.1128/jb.174.21.6981-6991.1992"/>
+</citation>
+<scope>PRELIMINARY NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-135</scope>
+<source>
+<strain>K12 / MC4100 / ATCC 35695 / DSM 6574</strain>
+</source>
+</reference>
+<reference key="6">
+<citation type="journal article" date="1988" name="J. Bacteriol." volume="170" first="2136" last="2142">
+<title>Isolation and characterization of methyl viologen-sensitive mutants of Escherichia coli K-12.</title>
+<authorList>
+<person name="Morimyo M."/>
+</authorList>
+<dbReference type="PubMed" id="2834327"/>
+<dbReference type="DOI" id="10.1128/jb.170.5.2136-2142.1988"/>
+</citation>
+<scope>PRELIMINARY NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-129</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+<source>
+<strain>K12</strain>
+</source>
+</reference>
+<reference key="7">
+<citation type="journal article" date="1994" name="J. Biol. Chem." volume="269" first="27401" last="27408">
+<title>Flavodoxin and NADPH-flavodoxin reductase from Escherichia coli support bovine cytochrome P450c17 hydroxylase activities.</title>
+<authorList>
+<person name="Jenkins C.M."/>
+<person name="Waterman M.R."/>
+</authorList>
+<dbReference type="PubMed" id="7961651"/>
+</citation>
+<scope>PROTEIN SEQUENCE OF 2-14</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+</reference>
+<reference key="8">
+<citation type="journal article" date="1982" name="Eur. J. Biochem." volume="123" first="563" last="569">
+<title>Routes of flavodoxin and ferredoxin reduction in Escherichia coli. CoA-acylating pyruvate: flavodoxin and NADPH: flavodoxin oxidoreductases participating in the activation of pyruvate formate-lyase.</title>
+<authorList>
+<person name="Blaschkowski H.P."/>
+<person name="Neuer G."/>
+<person name="Ludwig-Festl M."/>
+<person name="Knappe J."/>
+</authorList>
+<dbReference type="PubMed" id="7042345"/>
+</citation>
+<scope>FUNCTION</scope>
+</reference>
+<reference key="9">
+<citation type="journal article" date="1993" name="Biochem. Biophys. Res. Commun." volume="197" first="792" last="797">
+<title>Flavodoxin is required for the activation of the anaerobic ribonucleotide reductase.</title>
+<authorList>
+<person name="Bianchi V."/>
+<person name="Eliasson R."/>
+<person name="Fontecave M."/>
+<person name="Mulliez E."/>
+<person name="Hoover D.M."/>
+<person name="Matthews R.G."/>
+<person name="Reichard P."/>
+</authorList>
+<dbReference type="PubMed" id="8267617"/>
+<dbReference type="DOI" id="10.1006/bbrc.1993.2548"/>
+</citation>
+<scope>FUNCTION</scope>
+</reference>
+<reference key="10">
+<citation type="journal article" date="1998" name="Eur. J. Biochem." volume="257" first="577" last="585">
+<title>Characterisation of flavodoxin NADP+ oxidoreductase and flavodoxin; key components of electron transfer in Escherichia coli.</title>
+<authorList>
+<person name="McIver L."/>
+<person name="Leadbeater C."/>
+<person name="Campopiano D.J."/>
+<person name="Baxter R.L."/>
+<person name="Daff S.N."/>
+<person name="Chapman S.K."/>
+<person name="Munro A.W."/>
+</authorList>
+<dbReference type="PubMed" id="9839946"/>
+<dbReference type="DOI" id="10.1046/j.1432-1327.1998.2570577.x"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+</reference>
+<reference key="11">
+<citation type="journal article" date="2000" name="Biochem. J." volume="352" first="257" last="266">
+<title>Probing the NADPH-binding site of Escherichia coli flavodoxin oxidoreductase.</title>
+<authorList>
+<person name="Leadbeater C."/>
+<person name="McIver L."/>
+<person name="Campopiano D.J."/>
+<person name="Webster S.P."/>
+<person name="Baxter R.L."/>
+<person name="Kelly S.M."/>
+<person name="Price N.C."/>
+<person name="Lysek D.A."/>
+<person name="Noble M.A."/>
+<person name="Chapman S.K."/>
+<person name="Munro A.W."/>
+</authorList>
+<dbReference type="PubMed" id="11085917"/>
+<dbReference type="DOI" id="10.1042/bj3520257"/>
+</citation>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>MUTAGENESIS OF ARG-144; ARG-174 AND ARG-184</scope>
+</reference>
+<reference key="12">
+<citation type="journal article" date="2002" name="Arch. Biochem. Biophys." volume="406" first="116" last="126">
+<title>Electron acceptor specificity of ferredoxin (flavodoxin):NADP+ oxidoreductase from Escherichia coli.</title>
+<authorList>
+<person name="Wan J.T."/>
+<person name="Jarrett J.T."/>
+</authorList>
+<dbReference type="PubMed" id="12234497"/>
+<dbReference type="DOI" id="10.1016/s0003-9861(02)00421-6"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>COFACTOR</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+</reference>
+<reference key="13" evidence="1">
+<citation type="journal article" date="1997" name="J. Mol. Biol." volume="268" first="147" last="157">
+<title>The three-dimensional structure of flavodoxin reductase from Escherichia coli at 1.7-A resolution.</title>
+<authorList>
+<person name="Ingelman M."/>
+<person name="Blanchi V."/>
+<person name="Eklund H."/>
+</authorList>
+<dbReference type="PubMed" id="9149148"/>
+<dbReference type="DOI" id="10.1006/jmbi.1997.0957"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.7 ANGSTROMS) IN COMPLEX WITH FAD</scope>
+<scope>SUBUNIT</scope>
+</reference>
+<reference key="14" evidence="2">
+<citation type="journal article" date="2011" name="Biochemistry" volume="50" first="2111" last="2122">
+<title>Swapping FAD binding motifs between plastidic and bacterial ferredoxin-NADP(H) reductases.</title>
+<authorList>
+<person name="Musumeci M.A."/>
+<person name="Botti H."/>
+<person name="Buschiazzo A."/>
+<person name="Ceccarelli E.A."/>
+</authorList>
+<dbReference type="PubMed" id="21306142"/>
+<dbReference type="DOI" id="10.1021/bi101772a"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.90 ANGSTROMS) OF 2-247 IN COMPLEX WITH FAD AND NADP</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+</reference>
+<comment type="function">
+<text evidence="5 6 8 10 11 13">Transports electrons between flavodoxin or ferredoxin and NADPH (PubMed:8449868, PubMed:9839946, PubMed:12234497, PubMed:21306142). Reduces flavodoxin 1, flavodoxin 2 and ferredoxin, ferredoxin being the kinetically and thermodynamically preferred partner (PubMed:12234497). Required for the activation of several enzymes such as pyruvate formate-lyase, anaerobic ribonucleotide reductase and cobalamin-dependent methionine synthase (PubMed:7042345, PubMed:8267617).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="5 6 11">
+<text>H(+) + NADP(+) + 2 reduced [2Fe-2S]-[ferredoxin] = NADPH + 2 oxidized [2Fe-2S]-[ferredoxin]</text>
+<dbReference type="Rhea" id="RHEA:20125"/>
+<dbReference type="Rhea" id="RHEA-COMP:10000"/>
+<dbReference type="Rhea" id="RHEA-COMP:10001"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:33737"/>
+<dbReference type="ChEBI" id="CHEBI:33738"/>
+<dbReference type="ChEBI" id="CHEBI:57783"/>
+<dbReference type="ChEBI" id="CHEBI:58349"/>
+<dbReference type="EC" id="1.18.1.2"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="5 13">
+<text>NADP(+) + reduced [flavodoxin] = 2 H(+) + NADPH + oxidized [flavodoxin]</text>
+<dbReference type="Rhea" id="RHEA:50756"/>
+<dbReference type="Rhea" id="RHEA-COMP:10622"/>
+<dbReference type="Rhea" id="RHEA-COMP:10623"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:57618"/>
+<dbReference type="ChEBI" id="CHEBI:57783"/>
+<dbReference type="ChEBI" id="CHEBI:58210"/>
+<dbReference type="ChEBI" id="CHEBI:58349"/>
+<dbReference type="EC" id="1.19.1.1"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="5 11">
+<name>FAD</name>
+<dbReference type="ChEBI" id="CHEBI:57692"/>
+</cofactor>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="13">3.85 uM for NADPH</KM>
+<KM evidence="4">3.9 uM for NADPH</KM>
+<KM evidence="4">2.04 mM for NADH</KM>
+<KM evidence="5">12.0 uM for ferredoxin</KM>
+<KM evidence="5">7.6 uM for flavodoxin 1</KM>
+<KM evidence="5">4.0 uM for flavodoxin 2</KM>
+<KM evidence="13">6.84 uM for flavodoxin</KM>
+<KM evidence="13">17.6 uM for cytochrome c</KM>
+<KM evidence="13">23.6 uM for potassium ferricyanide</KM>
+<text evidence="4 5">kcat is 338.9 min(-1) with NADPH as the donor. kcat is 33 min(-1) with NADP as the donor (PubMed:11085917). kcat is 0.15 sec(-1) with ferredoxin as substrate. kcat is 0.0042 sec(-1) with flavodoxin 1 as substrate. kcat is 0.0039 sec(-1) with flavodoxin 2 as substrate (PubMed:12234497).</text>
+</kinetics>
+</comment>
+<comment type="subunit">
+<text evidence="12">Monomer.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="9">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="disruption phenotype">
+<text evidence="7">Mutant is highly sensitive to methyl viologen.</text>
+</comment>
+<comment type="similarity">
+<text evidence="18">Belongs to the ferredoxin--NADP reductase type 1 family.</text>
+</comment>
+<comment type="caution">
+<text evidence="18">PubMed:2834327 authors incorrectly assigned the protein to be part of FPR, the C-terminal of GlpX.</text>
+</comment>
+<comment type="sequence caution" evidence="18">
+<conflict type="frameshift">
+<sequence resource="EMBL" id="Z11767"/>
+</conflict>
+<location>
+<position position="94"/>
+</location>
+<location>
+<position position="127"/>
+</location>
+</comment>
+<dbReference type="EC" id="1.18.1.2" evidence="5 6 11"/>
+<dbReference type="EC" id="1.19.1.1" evidence="5 13"/>
+<dbReference type="EMBL" id="L04757">
+<property type="protein sequence ID" value="AAA23805.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L19201">
+<property type="protein sequence ID" value="AAB03056.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC76906.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE77386.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="Z11767">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="M19644">
+<property type="protein sequence ID" value="AAA24189.1"/>
+<property type="status" value="ALT_SEQ"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="S40867">
+<property type="entry name" value="S40867"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_418359.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000796332.1">
+<property type="nucleotide sequence ID" value="NZ_SSZK01000014.1"/>
+</dbReference>
+<dbReference type="PDB" id="1FDR">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.70"/>
+<property type="chains" value="A=1-248"/>
+</dbReference>
+<dbReference type="PDB" id="2XNJ">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.90"/>
+<property type="chains" value="A/B=2-247"/>
+</dbReference>
+<dbReference type="PDBsum" id="1FDR"/>
+<dbReference type="PDBsum" id="2XNJ"/>
+<dbReference type="SMR" id="P28861"/>
+<dbReference type="BioGrid" id="4261115">
+<property type="interactions" value="4"/>
+</dbReference>
+<dbReference type="IntAct" id="P28861">
+<property type="interactions" value="6"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b3924"/>
+<dbReference type="DrugBank" id="DB03147">
+<property type="generic name" value="Flavin adenine dinucleotide"/>
+</dbReference>
+<dbReference type="EPD" id="P28861"/>
+<dbReference type="jPOST" id="P28861"/>
+<dbReference type="PaxDb" id="P28861"/>
+<dbReference type="PRIDE" id="P28861"/>
+<dbReference type="EnsemblBacteria" id="AAC76906">
+<property type="protein sequence ID" value="AAC76906"/>
+<property type="gene ID" value="b3924"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE77386">
+<property type="protein sequence ID" value="BAE77386"/>
+<property type="gene ID" value="BAE77386"/>
+</dbReference>
+<dbReference type="GeneID" id="948414"/>
+<dbReference type="KEGG" id="ecj:JW3895"/>
+<dbReference type="KEGG" id="eco:b3924"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.2781"/>
+<dbReference type="EchoBASE" id="EB1480"/>
+<dbReference type="EcoGene" id="EG11518">
+<property type="gene designation" value="fpr"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105DP0">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1018">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000265758"/>
+<dbReference type="InParanoid" id="P28861"/>
+<dbReference type="KO" id="K00528"/>
+<dbReference type="PhylomeDB" id="P28861"/>
+<dbReference type="BioCyc" id="EcoCyc:FLAVONADPREDUCT-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW3895-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:FLAVONADPREDUCT-MONOMER"/>
+<dbReference type="BRENDA" id="1.18.1.2">
+<property type="organism ID" value="2026"/>
+</dbReference>
+<dbReference type="EvolutionaryTrace" id="P28861"/>
+<dbReference type="PRO" id="PR:P28861"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071949">
+<property type="term" value="F:FAD binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004324">
+<property type="term" value="F:ferredoxin-NADP+ reductase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016491">
+<property type="term" value="F:oxidoreductase activity"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006001">
+<property type="term" value="P:fructose catabolic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016226">
+<property type="term" value="P:iron-sulfur cluster assembly"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042493">
+<property type="term" value="P:response to drug"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000303">
+<property type="term" value="P:response to superoxide"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="CDD" id="cd06195">
+<property type="entry name" value="FNR1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.80">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008333">
+<property type="entry name" value="Cbr1-like_FAD-bd_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017927">
+<property type="entry name" value="FAD-bd_FR_type"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR033892">
+<property type="entry name" value="FNR_bac"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR039261">
+<property type="entry name" value="FNR_nucleotide-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001433">
+<property type="entry name" value="OxRdtase_FAD/NAD-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017938">
+<property type="entry name" value="Riboflavin_synthase-like_b-brl"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00970">
+<property type="entry name" value="FAD_binding_6"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00175">
+<property type="entry name" value="NAD_binding_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52343">
+<property type="entry name" value="SSF52343"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF63380">
+<property type="entry name" value="SSF63380"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51384">
+<property type="entry name" value="FAD_FR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-0274">FAD</keyword>
+<keyword id="KW-0285">Flavoprotein</keyword>
+<keyword id="KW-0521">NADP</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-0560">Oxidoreductase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="initiator methionine" description="Removed" evidence="9 11">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="chain" description="Flavodoxin/ferredoxin--NADP reductase" id="PRO_0000167643">
+<location>
+<begin position="2"/>
+<end position="248"/>
+</location>
+</feature>
+<feature type="domain" description="FAD-binding FR-type" evidence="3">
+<location>
+<begin position="2"/>
+<end position="101"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="FAD" evidence="1 2 6 12">
+<location>
+<begin position="50"/>
+<end position="53"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="FAD" evidence="1 2 6 12">
+<location>
+<begin position="74"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="NADP" evidence="2 6">
+<location>
+<begin position="143"/>
+<end position="144"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="NADP" evidence="2 6">
+<location>
+<begin position="173"/>
+<end position="174"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="NADP" evidence="2 6">
+<location>
+<begin position="214"/>
+<end position="216"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="FAD" evidence="1 12">
+<location>
+<begin position="247"/>
+<end position="248"/>
+</location>
+</feature>
+<feature type="binding site" description="NADP" evidence="2 6">
+<location>
+<position position="17"/>
+</location>
+</feature>
+<feature type="binding site" description="FAD; via carbonyl oxygen" evidence="1 2 6 12">
+<location>
+<position position="66"/>
+</location>
+</feature>
+<feature type="binding site" description="FAD" evidence="1 12">
+<location>
+<position position="116"/>
+</location>
+</feature>
+<feature type="binding site" description="NADP" evidence="2 6">
+<location>
+<position position="184"/>
+</location>
+</feature>
+<feature type="binding site" description="NADP" evidence="2 6">
+<location>
+<position position="220"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Increases Km for NADPH. 2-fold decrease in catalytic efficiency." evidence="4">
+<original>R</original>
+<variation>A</variation>
+<location>
+<position position="144"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Increases Km for NADPH. 13-fold decrease in catalytic efficiency." evidence="4">
+<original>R</original>
+<variation>A</variation>
+<location>
+<position position="174"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Increases Km for NADPH. 15-fold decrease in catalytic efficiency." evidence="4">
+<original>R</original>
+<variation>A</variation>
+<location>
+<position position="184"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="4"/>
+<end position="14"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="16"/>
+<end position="25"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="36"/>
+<end position="41"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="48"/>
+<end position="53"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="61"/>
+<end position="68"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="76"/>
+<end position="80"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="87"/>
+<end position="93"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="100"/>
+<end position="102"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="107"/>
+<end position="114"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="115"/>
+<end position="118"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="119"/>
+<end position="127"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="135"/>
+<end position="145"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="146"/>
+<end position="148"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="152"/>
+<end position="161"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="162"/>
+<end position="164"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="165"/>
+<end position="175"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="180"/>
+<end position="183"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="185"/>
+<end position="190"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="193"/>
+<end position="198"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="204"/>
+<end position="206"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="207"/>
+<end position="213"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="215"/>
+<end position="229"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="236"/>
+<end position="238"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="241"/>
+<end position="246"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1FDR"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2XNJ"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00716"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="11085917"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12234497"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="21306142"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="2834327"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="7042345"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="7961651"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="8267617"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="8449868"/>
+</source>
+</evidence>
+<evidence key="12" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9149148"/>
+</source>
+</evidence>
+<evidence key="13" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9839946"/>
+</source>
+</evidence>
+<evidence key="14" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="12234497"/>
+</source>
+</evidence>
+<evidence key="15" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="2834327"/>
+</source>
+</evidence>
+<evidence key="16" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="8449868"/>
+</source>
+</evidence>
+<evidence key="17" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="9839946"/>
+</source>
+</evidence>
+<evidence key="18" type="ECO:0000305"/>
+<sequence length="248" mass="27751" checksum="CBF46435A95709E4" modified="2007-01-23" version="4">MADWVTGKVTKVQNWTDALFSLTVHAPVLPFTAGQFTKLGLEIDGERVQRAYSYVNSPDNPDLEFYLVTVPDGKLSPRLAALKPGDEVQVVSEAAGFFVLDEVPHCETLWMLATGTAIGPYLSILQLGKDLDRFKNLVLVHAARYAADLSYLPLMQELEKRYEGKLRIQTVVSRETAAGSLTGRIPALIESGELESTIGLPMNKETSHVMLCGNPQMVRDTQQLLKETRQMTKHLRRRPGHMTAEHYW</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

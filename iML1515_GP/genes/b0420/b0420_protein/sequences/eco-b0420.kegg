@@ -1,6 +1,6 @@
 ENTRY       b0420             CDS       T00007
 NAME        dxs
-DEFINITION  (RefSeq) 1-deoxyxylulose-5-phosphate synthase, thiamine triphosphate-binding, FAD-requiring
+DEFINITION  (RefSeq) 1-deoxy-D-xylulose-5-phosphate synthase
 ORTHOLOGY   K01662  1-deoxy-D-xylulose-5-phosphate synthase [EC:2.2.1.7]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00730  Thiamine metabolism
@@ -10,11 +10,11 @@ PATHWAY     eco00730  Thiamine metabolism
             eco01130  Biosynthesis of antibiotics
 MODULE      eco_M00096  C5 isoprenoid biosynthesis, non-mevalonate pathway
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00730 Thiamine metabolism
                 b0420 (dxs)
-              Metabolism of terpenoids and polyketides
+              09109 Metabolism of terpenoids and polyketides
                00900 Terpenoid backbone biosynthesis
                 b0420 (dxs)
             Enzymes [BR:eco01000]
@@ -25,10 +25,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0420 (dxs)
 POSITION    complement(438315..440177)
 MOTIF       Pfam: DXP_synthase_N Transket_pyr Transketolase_C E1_dh TPP_enzyme_C Transketolase_N
-DBLINKS     NCBI-ProteinID: NP_414954
-            NCBI-GeneID: 945060
+DBLINKS     NCBI-GeneID: 945060
+            NCBI-ProteinID: NP_414954
             Pasteur: dxs
-            EcoGene: EG13612
+            RegulonDB: ECK120002848
             ECOCYC: G6237
             ASAP: ABE-0001461
             UniProt: P77488

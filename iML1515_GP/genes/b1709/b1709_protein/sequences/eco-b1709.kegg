@@ -1,33 +1,35 @@
 ENTRY       b1709             CDS       T00007
 NAME        btuD
-DEFINITION  (RefSeq) vitamin B12 transporter subunit : ATP-binding component of ABC superfamily
-ORTHOLOGY   K06074  vitamin B12 transport system ATP-binding protein [EC:3.6.3.33]
+DEFINITION  (RefSeq) vitamin B12 ABC transporter ATP binding subunit
+ORTHOLOGY   K06074  vitamin B12 transport system ATP-binding protein [EC:7.6.2.8]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00241  Vitamin B12 transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b1709 (btuD)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1709 (btuD)
             Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.33  vitamin B12-transporting ATPase
+             7. Translocases
+              7.6  Catalysing the translocation of other compounds
+               7.6.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.6.2.8  ABC-type vitamin B12 transporter
                  b1709 (btuD)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Metallic cation, iron-siderophore and vitamin B12 transporters
-               Vitamin B12 transporter [MD:M00241] [OT]
+               Vitamin B12 transporter
                 b1709 (btuD)
 POSITION    complement(1792809..1793558)
-MOTIF       Pfam: ABC_tran AAA_21 SMC_N AAA_16 AAA_29 AAA_22 SbcCD_C RsgA_GTPase Sigma70_ECF AAA_25 DUF4245 AAA_23 AAA_33 SRP54 MMR_HSR1 AAA_5 AAA_PrkA AAA_30 AAA_15
-DBLINKS     NCBI-ProteinID: NP_416224
-            NCBI-GeneID: 945751
+MOTIF       Pfam: ABC_tran AAA_21 SMC_N AAA_16 AAA_22 SbcCD_C AAA_29 RsgA_GTPase Sigma70_ECF AAA_25 AAA_23 DUF4245 AAA_33 SRP54 MMR_HSR1 AAA_5 AAA_PrkA AAA_30 AAA_15
+DBLINKS     NCBI-GeneID: 945751
+            NCBI-ProteinID: NP_416224
             Pasteur: btuD
             RegulonDB: ECK120000124
-            EcoGene: EG10128
             ECOCYC: EG10128
             ASAP: ABE-0005707
             UniProt: P06611

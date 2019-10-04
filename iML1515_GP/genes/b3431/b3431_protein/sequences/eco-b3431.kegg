@@ -1,13 +1,14 @@
 ENTRY       b3431             CDS       T00007
 NAME        glgX
-DEFINITION  (RefSeq) glycogen debranching enzyme
+DEFINITION  (RefSeq) limit dextrin alpha-1,6-glucohydrolase
 ORTHOLOGY   K02438  glycogen debranching enzyme [EC:3.2.1.196]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00500  Starch and sucrose metabolism
             eco01100  Metabolic pathways
+MODULE      eco_M00855  Glycogen degradation, glycogen => glucose-6P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00500 Starch and sucrose metabolism
                 b3431 (glgX)
             Enzymes [BR:eco01000]
@@ -17,12 +18,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 3.2.1.196  limit dextrin alpha-1,6-maltotetraose-hydrolase
                  b3431 (glgX)
 POSITION    complement(3569346..3571319)
-MOTIF       Pfam: CBM_48 Alpha-amylase Glyco_hydro_70
-DBLINKS     NCBI-ProteinID: NP_417889
-            NCBI-GeneID: 947941
+MOTIF       Pfam: GlgX_C CBM_48 Alpha-amylase Glyco_hydro_70
+DBLINKS     NCBI-GeneID: 947941
+            NCBI-ProteinID: NP_417889
             Pasteur: glgX
             RegulonDB: ECK120000374
-            EcoGene: EG10381
             ECOCYC: EG10381
             ASAP: ABE-0011206
             UniProt: P15067

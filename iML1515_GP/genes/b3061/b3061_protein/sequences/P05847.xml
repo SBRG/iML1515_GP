@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1988-11-01" modified="2019-05-08" version="143">
+<accession>P05847</accession>
+<accession>P33130</accession>
+<accession>Q2M9E4</accession>
+<name>TTDA_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>L(+)-tartrate dehydratase subunit alpha</fullName>
+<shortName>L-TTD alpha</shortName>
+<ecNumber>4.2.1.32</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">ttdA</name>
+<name type="synonym">ygjA</name>
+<name type="ordered locus">b3061</name>
+<name type="ordered locus">JW3033</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1993" name="J. Gen. Microbiol." volume="139" first="1523" last="1530">
+<title>Identification of the L-tartrate dehydratase genes (ttdA and ttdB) of Escherichia coli and evolutionary relationship with the class I fumarase genes.</title>
+<authorList>
+<person name="Reaney S.K."/>
+<person name="Begg C."/>
+<person name="Bungard S.I."/>
+<person name="Guest J.R."/>
+</authorList>
+<dbReference type="PubMed" id="8371115"/>
+<dbReference type="DOI" id="10.1099/00221287-139-7-1523"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>SUBUNIT</scope>
+<scope>COFACTOR</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1987" name="Gene" volume="51" first="149" last="161">
+<title>Possible new genes as revealed by molecular analysis of a 5-kb Escherichia coli chromosomal region 5' to the rpsU-dnaG-rpoD macromolecular-synthesis operon.</title>
+<authorList>
+<person name="Nesin M."/>
+<person name="Lupski J.R."/>
+<person name="Svec P."/>
+<person name="Godson G.N."/>
+</authorList>
+<dbReference type="PubMed" id="3297921"/>
+<dbReference type="DOI" id="10.1016/0378-1119(87)90303-9"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2006" name="Microbiology" volume="152" first="2129" last="2135">
+<title>Functional identification of ygiP as a positive regulator of the ttdA-ttdB-ygjE operon.</title>
+<authorList>
+<person name="Oshima T."/>
+<person name="Biville F."/>
+</authorList>
+<dbReference type="PubMed" id="16804186"/>
+<dbReference type="DOI" id="10.1099/mic.0.28753-0"/>
+</citation>
+<scope>INDUCTION</scope>
+</reference>
+<comment type="catalytic activity">
+<reaction evidence="3">
+<text>(2R,3R)-tartrate = H2O + oxaloacetate</text>
+<dbReference type="Rhea" id="RHEA:15413"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:16452"/>
+<dbReference type="ChEBI" id="CHEBI:30924"/>
+<dbReference type="EC" id="4.2.1.32"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="3">
+<name>iron-sulfur cluster</name>
+<dbReference type="ChEBI" id="CHEBI:30408"/>
+</cofactor>
+</comment>
+<comment type="subunit">
+<text evidence="5">Tetramer of two alpha and two beta subunits.</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-1113137"/>
+<interactant intactId="EBI-1123685">
+<id>P0ACL0</id>
+<label>glpR</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>2</experiments>
+</comment>
+<comment type="induction">
+<text evidence="2">Induced by tartrate, via TtdR.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the class-I fumarase family.</text>
+</comment>
+<comment type="sequence caution" evidence="4">
+<conflict type="frameshift">
+<sequence resource="EMBL-CDS" id="AAA72573" version="1"/>
+</conflict>
+<location>
+<position position="198"/>
+</location>
+</comment>
+<dbReference type="EC" id="4.2.1.32"/>
+<dbReference type="EMBL" id="L14781">
+<property type="protein sequence ID" value="AAA03061.1"/>
+<property type="molecule type" value="Unassigned_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="M16194">
+<property type="protein sequence ID" value="AAA72573.1"/>
+<property type="status" value="ALT_FRAME"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U28379">
+<property type="protein sequence ID" value="AAA89141.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC76097.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE77112.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="C65094">
+<property type="entry name" value="QQECRT"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_417533.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000986797.1">
+<property type="nucleotide sequence ID" value="NZ_LN832404.1"/>
+</dbReference>
+<dbReference type="BioGrid" id="4263296">
+<property type="interactions" value="17"/>
+</dbReference>
+<dbReference type="IntAct" id="P05847">
+<property type="interactions" value="6"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b3061"/>
+<dbReference type="PaxDb" id="P05847"/>
+<dbReference type="PRIDE" id="P05847"/>
+<dbReference type="EnsemblBacteria" id="AAC76097">
+<property type="protein sequence ID" value="AAC76097"/>
+<property type="gene ID" value="b3061"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE77112">
+<property type="protein sequence ID" value="BAE77112"/>
+<property type="gene ID" value="BAE77112"/>
+</dbReference>
+<dbReference type="GeneID" id="947565"/>
+<dbReference type="KEGG" id="ecj:JW3033"/>
+<dbReference type="KEGG" id="eco:b3061"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.3670"/>
+<dbReference type="EchoBASE" id="EB1156"/>
+<dbReference type="EcoGene" id="EG11168">
+<property type="gene designation" value="ttdA"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4106DSS">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1951">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000225707"/>
+<dbReference type="InParanoid" id="P05847"/>
+<dbReference type="KO" id="K03779"/>
+<dbReference type="PhylomeDB" id="P05847"/>
+<dbReference type="BioCyc" id="EcoCyc:TTDA-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW3033-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:TTDA-MONOMER"/>
+<dbReference type="PRO" id="PR:P05847"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051539">
+<property type="term" value="F:4 iron, 4 sulfur cluster binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008730">
+<property type="term" value="F:L(+)-tartrate dehydratase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:1901275">
+<property type="term" value="P:tartrate metabolic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR004646">
+<property type="entry name" value="Fe-S_hydro-lyase_TtdA-typ_cat"/>
+</dbReference>
+<dbReference type="Pfam" id="PF05681">
+<property type="entry name" value="Fumerase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00722">
+<property type="entry name" value="ttdA_fumA_fumB"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0004">4Fe-4S</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0408">Iron</keyword>
+<keyword id="KW-0411">Iron-sulfur</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="L(+)-tartrate dehydratase subunit alpha" id="PRO_0000195663">
+<location>
+<begin position="1"/>
+<end position="303"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur" evidence="1">
+<location>
+<position position="71"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur" evidence="1">
+<location>
+<position position="190"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur" evidence="1">
+<location>
+<position position="277"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1 and 2." ref="1 2" evidence="4">
+<original>V</original>
+<variation>L</variation>
+<location>
+<position position="11"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1 and 2." ref="1 2" evidence="4">
+<original>EL</original>
+<variation>DV</variation>
+<location>
+<begin position="231"/>
+<end position="232"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="E9AE57"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16804186"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="8371115"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<evidence key="5" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="8371115"/>
+</source>
+</evidence>
+<sequence length="303" mass="32734" checksum="CBE29FEB6C47DB81" modified="2003-08-29" version="3">MMSESNKQQAVNKLTEIVANFTAMISTRMPDDVVDKLKQLKDAETSSMGKIIYHTMFDNMQKAIDLNRPACQDTGEIMFFVKVGSRFPLLGELQSILKQAVEEATVKAPLRHNAVEIFDEVNTGKNTGSGVPWVTWDIIPDNDDAEIEVYMAGGGCTLPGRSKVLMPSEGYEGVVKFVFENISTLAVNACPPVLVGVGIATSVETAAVLSRKAILRPIGSRHPNPKAAELELRLEEGLNRLGIGPQGLTGNSSVMGVHIESAARHPSTIGVAVSTGCWAHRRGTLLVHADLTFENLSHTRSAL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,19 +1,23 @@
 ENTRY       b1190             CDS       T00007
 NAME        dadX
-DEFINITION  (RefSeq) alanine racemase, catabolic, PLP-binding
+DEFINITION  (RefSeq) alanine racemase 2
 ORTHOLOGY   K01775  alanine racemase [EC:5.1.1.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00473  D-Alanine metabolism
             eco01100  Metabolic pathways
             eco01502  Vancomycin resistance
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of other amino acids
+             09100 Metabolism
+              09106 Metabolism of other amino acids
                00473 D-Alanine metabolism
                 b1190 (dadX)
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01502 Vancomycin resistance
+                b1190 (dadX)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
                 b1190 (dadX)
             Enzymes [BR:eco01000]
              5. Isomerases
@@ -21,12 +25,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                5.1.1  Acting on amino acids and derivatives
                 5.1.1.1  alanine racemase
                  b1190 (dadX)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Precursor biosynthesis
+              Racemase
+               b1190 (dadX)
 POSITION    1238879..1239949
 MOTIF       Pfam: Ala_racemase_N Ala_racemase_C
-DBLINKS     NCBI-ProteinID: NP_415708
-            NCBI-GeneID: 945754
+DBLINKS     NCBI-GeneID: 945754
+            NCBI-ProteinID: NP_415708
             Pasteur: dadX
-            EcoGene: EG11408
+            RegulonDB: ECK120001374
             ECOCYC: EG11408
             ASAP: ABE-0003997
             UniProt: P29012

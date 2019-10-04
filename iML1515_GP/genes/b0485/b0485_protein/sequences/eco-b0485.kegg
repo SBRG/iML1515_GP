@@ -7,15 +7,20 @@ PATHWAY     eco00220  Arginine biosynthesis
             eco00250  Alanine, aspartate and glutamate metabolism
             eco00471  D-Glutamine and D-glutamate metabolism
             eco01100  Metabolic pathways
+            eco02020  Two-component system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00250 Alanine, aspartate and glutamate metabolism
                 b0485 (glsA)
                00220 Arginine biosynthesis
                 b0485 (glsA)
-              Metabolism of other amino acids
+              09106 Metabolism of other amino acids
                00471 D-Glutamine and D-glutamate metabolism
+                b0485 (glsA)
+             09130 Environmental Information Processing
+              09132 Signal transduction
+               02020 Two-component system
                 b0485 (glsA)
             Enzymes [BR:eco01000]
              3. Hydrolases
@@ -25,10 +30,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0485 (glsA)
 POSITION    511641..512573
 MOTIF       Pfam: Glutaminase
-DBLINKS     NCBI-ProteinID: NP_415018
-            NCBI-GeneID: 946187
+DBLINKS     NCBI-GeneID: 946187
+            NCBI-ProteinID: NP_415018
+            Pasteur: ybaS
             RegulonDB: ECK120002869
-            EcoGene: EG13247
             ASAP: ABE-0001688
             UniProt: P77454
 STRUCTURE   PDB: 1U60

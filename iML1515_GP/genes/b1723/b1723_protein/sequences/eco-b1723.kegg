@@ -16,13 +16,8 @@ PATHWAY     eco00010  Glycolysis / Gluconeogenesis
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00001  Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b1723 (pfkB)
-               01230 Biosynthesis of amino acids
-                b1723 (pfkB)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
                 b1723 (pfkB)
                00030 Pentose phosphate pathway
@@ -31,7 +26,7 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 b1723 (pfkB)
                00052 Galactose metabolism
                 b1723 (pfkB)
-              Energy metabolism
+              09102 Energy metabolism
                00680 Methane metabolism
                 b1723 (pfkB)
             Enzymes [BR:eco01000]
@@ -42,10 +37,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1723 (pfkB)
 POSITION    1806370..1807299
 MOTIF       Pfam: PfkB Phos_pyr_kin DUF2617
-DBLINKS     NCBI-ProteinID: NP_416237
-            NCBI-GeneID: 946230
+DBLINKS     NCBI-GeneID: 946230
+            NCBI-ProteinID: NP_416237
             Pasteur: pfkB
-            EcoGene: EG10700
+            RegulonDB: ECK120000692
             ECOCYC: EG10700
             ASAP: ABE-0005748
             UniProt: P06999

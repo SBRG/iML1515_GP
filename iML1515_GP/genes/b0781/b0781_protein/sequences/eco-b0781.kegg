@@ -1,18 +1,19 @@
 ENTRY       b0781             CDS       T00007
 NAME        moaA
-DEFINITION  (RefSeq) molybdopterin biosynthesis protein A
+DEFINITION  (RefSeq) GTP 3',8'-cyclase
 ORTHOLOGY   K03639  GTP 3',8-cyclase [EC:4.1.99.22]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00790  Folate biosynthesis
             eco01100  Metabolic pathways
             eco04122  Sulfur relay system
+MODULE      eco_M00880  Molybdenum cofactor biosynthesis, GTP => molybdenum cofactor
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00790 Folate biosynthesis
                 b0781 (moaA)
-             Genetic Information Processing
-              Folding, sorting and degradation
+             09120 Genetic Information Processing
+              09123 Folding, sorting and degradation
                04122 Sulfur relay system
                 b0781 (moaA)
             Enzymes [BR:eco01000]
@@ -23,10 +24,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0781 (moaA)
 POSITION    817044..818033
 MOTIF       Pfam: Mob_synth_C Radical_SAM Fer4_12 Fer4_14
-DBLINKS     NCBI-ProteinID: NP_415302
-            NCBI-GeneID: 945392
+DBLINKS     NCBI-GeneID: 945392
+            NCBI-ProteinID: NP_415302
             Pasteur: moaA
-            EcoGene: EG11595
+            RegulonDB: ECK120001543
             ECOCYC: EG11595
             ASAP: ABE-0002669
             UniProt: P30745

@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Thu  3 Oct 2019 22:49:21
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b2563/b2563_protein/sequences/P24224_5xu7-B.needle
+#    -asequence asis::MAILGLGTDIVEIARIEAVIARSGDRLARRVLSDNEWAIWKTHHQPVRFLAKRFAVKEAAAKAFGTGIRNGLAFNQFEVFNDELGKPRLRLWGEALKLAEKLGVANMHVTLADERHYACATVIIES
+#    -bsequence asis::XAILGLGTDIVEIARIEAVIARSGDRLARRVLSDNEWAIWKTHHQPVRFLAKRFAVKEAAAKAFGXXXXXXLAFNQFEVFNDELGKPRLRLWGEALKLAEKLGVANMHVTLADERHYACATVIIES
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b2563/b2563_protein/sequences/P24224_5xu7-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 126
+# Identity:     119/126 (94.4%)
+# Similarity:   119/126 (94.4%)
+# Gaps:           0/126 ( 0.0%)
+# Score: 599.0
+# 
+#
+#=======================================
+
+asis               1 MAILGLGTDIVEIARIEAVIARSGDRLARRVLSDNEWAIWKTHHQPVRFL     50
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XAILGLGTDIVEIARIEAVIARSGDRLARRVLSDNEWAIWKTHHQPVRFL     50
+
+asis              51 AKRFAVKEAAAKAFGTGIRNGLAFNQFEVFNDELGKPRLRLWGEALKLAE    100
+                     |||||||||||||||......|||||||||||||||||||||||||||||
+asis              51 AKRFAVKEAAAKAFGXXXXXXLAFNQFEVFNDELGKPRLRLWGEALKLAE    100
+
+asis             101 KLGVANMHVTLADERHYACATVIIES    126
+                     ||||||||||||||||||||||||||
+asis             101 KLGVANMHVTLADERHYACATVIIES    126
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,26 +1,32 @@
 ENTRY       b3582             CDS       T00007
 NAME        sgbU
 DEFINITION  (RefSeq) putative L-xylulose 5-phosphate 3-epimerase
-ORTHOLOGY   K03082  hexulose-6-phosphate isomerase [EC:5.-.-.-]
+ORTHOLOGY   K03079  L-ribulose-5-phosphate 3-epimerase [EC:5.1.3.22]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00040  Pentose and glucuronate interconversions
+            eco00053  Ascorbate and aldarate metabolism
+            eco01100  Metabolic pathways
+            eco01120  Microbial metabolism in diverse environments
+MODULE      eco_M00550  Ascorbate degradation, ascorbate => D-xylulose-5P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00040 Pentose and glucuronate interconversions
+                b3582 (sgbU)
+               00053 Ascorbate and aldarate metabolism
                 b3582 (sgbU)
             Enzymes [BR:eco01000]
              5. Isomerases
-              5.-  
-               5.-.-  
-                5.-.-.-  
+              5.1  Racemases and epimerases
+               5.1.3  Acting on carbohydrates and derivatives
+                5.1.3.22  L-ribulose-5-phosphate 3-epimerase
                  b3582 (sgbU)
 POSITION    3749232..3750092
-MOTIF       Pfam: AP_endonuc_2 Glyco_hydro_114 UxuA PRMT5_TIM
-DBLINKS     NCBI-ProteinID: NP_418039
-            NCBI-GeneID: 948100
+MOTIF       Pfam: AP_endonuc_2 Glyco_hydro_114 UxuA PRMT5_TIM Methyltransf_11
+DBLINKS     NCBI-GeneID: 948100
+            NCBI-ProteinID: NP_418039
+            Pasteur: sgbU
             RegulonDB: ECK120002167
-            EcoGene: EG12286
             ECOCYC: EG12286
             ASAP: ABE-0011700
             UniProt: P37679

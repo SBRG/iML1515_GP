@@ -1,18 +1,23 @@
 ENTRY       b2393             CDS       T00007
 NAME        nupC
-DEFINITION  (RefSeq) nucleoside (except guanosine) transporter
+DEFINITION  (RefSeq) nucleoside:H(+) symporter NupC
 ORTHOLOGY   K11535  nucleoside transport protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2393 (nupC)
+            Transporters [BR:eco02000]
+             Other transporters
               Electrochemical potential-driven transporters [TC:2]
                b2393 (nupC)
 POSITION    2513042..2514244
 MOTIF       Pfam: Nucleos_tra2_C Nucleos_tra2_N Gate
-DBLINKS     NCBI-ProteinID: NP_416894
-            NCBI-GeneID: 946895
+DBLINKS     NCBI-GeneID: 946895
+            NCBI-ProteinID: NP_416894
             Pasteur: nupC
-            EcoGene: EG11971
+            RegulonDB: ECK120001896
             ECOCYC: EG11971
             ASAP: ABE-0007893
             UniProt: P0AFF2

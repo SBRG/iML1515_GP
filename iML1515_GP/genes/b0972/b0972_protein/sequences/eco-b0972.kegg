@@ -1,14 +1,19 @@
 ENTRY       b0972             CDS       T00007
 NAME        hyaA
-DEFINITION  (RefSeq) hydrogenase 1, small subunit
+DEFINITION  (RefSeq) hydrogenase 1 small subunit
 ORTHOLOGY   K06282  hydrogenase small subunit [EC:1.12.99.6]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00633  Nitrotoluene degradation
             eco01120  Microbial metabolism in diverse environments
+            eco02020  Two-component system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Xenobiotics biodegradation and metabolism
+             09100 Metabolism
+              09111 Xenobiotics biodegradation and metabolism
                00633 Nitrotoluene degradation
+                b0972 (hyaA)
+             09130 Environmental Information Processing
+              09132 Signal transduction
+               02020 Two-component system
                 b0972 (hyaA)
             Enzymes [BR:eco01000]
              1. Oxidoreductases
@@ -18,14 +23,15 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0972 (hyaA)
 POSITION    1032139..1033257
 MOTIF       Pfam: NiFe_hyd_SSU_C Oxidored_q6 TAT_signal
-DBLINKS     NCBI-ProteinID: NP_415491
-            NCBI-GeneID: 945579
+DBLINKS     NCBI-GeneID: 945579
+            NCBI-ProteinID: NP_415491
             Pasteur: hyaA
-            EcoGene: EG10468
+            RegulonDB: ECK120000461
             ECOCYC: EG10468
             ASAP: ABE-0003286
             UniProt: P69739
-STRUCTURE   PDB: 5ADU 5JRD 5A4I 5A4F 4UE3 3UQY 3USE 5A4M 3USC 4GD3
+STRUCTURE   PDB: 6FPO 5ADU 6G7R 5LMM 5JRD 5A4I 6GAL 5A4F 6FPW 5LRY 4UE3
+                 3UQY 6FPI 3USE 5A4M 3USC 6G94 4GD3
 AASEQ       372
             MNNEETFYQAMRRQGVTRRSFLKYCSLAATSLGLGAGMAPKIAWALENKPRIPVVWIHGL
             ECTCCTESFIRSAHPLAKDVILSLISLDYDDTLMAAAGTQAEEVFEDIITQYNGKYILAV

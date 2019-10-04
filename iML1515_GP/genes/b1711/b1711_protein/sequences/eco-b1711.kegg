@@ -1,26 +1,29 @@
 ENTRY       b1711             CDS       T00007
 NAME        btuC
-DEFINITION  (RefSeq) vitamin B12 transporter subunit: membrane component of ABC superfamily
+DEFINITION  (RefSeq) vitamin B12 ABC transporter membrane subunit
 ORTHOLOGY   K06073  vitamin B12 transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00241  Vitamin B12 transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b1711 (btuC)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1711 (btuC)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Metallic cation, iron-siderophore and vitamin B12 transporters
-               Vitamin B12 transporter [MD:M00241] [OT]
+               Vitamin B12 transporter
                 b1711 (btuC)
 POSITION    complement(1794172..1795152)
 MOTIF       Pfam: FecCD
-DBLINKS     NCBI-ProteinID: NP_416226
-            NCBI-GeneID: 945877
+DBLINKS     NCBI-GeneID: 945877
+            NCBI-ProteinID: NP_416226
             Pasteur: btuC
-            EcoGene: EG10127
+            RegulonDB: ECK120000123
             ECOCYC: EG10127
             ASAP: ABE-0005712
             UniProt: P06609

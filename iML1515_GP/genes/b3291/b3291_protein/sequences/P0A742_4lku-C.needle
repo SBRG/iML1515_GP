@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Thu  3 Oct 2019 22:58:46
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b3291/b3291_protein/sequences/P0A742_4lku-C.needle
+#    -asequence asis::MSIIKEFREFAMRGNVVDLAVGVIIGAAFGKIVSSLVADIIMPPLGLLIGGIDFKQFAVTLRDAQGDIPAVVMHYGVFIQNVFDFLIVAFAIFMAIKLINKLNRKKEEPAAAPAPTKEEVLLTEIRDLLKEQNNRS
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXPAPTKEEVLLTEIRDLLKEQNNRS
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b3291/b3291_protein/sequences/P0A742_4lku-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 245
+# Identity:      24/245 ( 9.8%)
+# Similarity:    24/245 ( 9.8%)
+# Gaps:         218/245 (89.0%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+asis               1 MSIIKEFREFAMRGNVVDLAVGVIIGAAFGKIVSSLVADIIMPPLGLLIG     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 GIDFKQFAVTLRDAQGDIPAVVMHYGVFIQNVFDFLIVAFAIFMAIKLIN    100
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis             101 KLNRKKEEP-----------------------------------------    109
+                                                                       
+asis               1 ---------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     41
+
+asis             109 --------------------------------------------------    109
+                                                                       
+asis              42 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     91
+
+asis             110 ------------------AAAPAPTKEEVLLTEIRDLLKEQNNRS    136
+                                       ...||||||||||||||||||||||||
+asis              92 XXXXXXXXXXXXXXXXXXXXXPAPTKEEVLLTEIRDLLKEQNNRS    136
+
+
+#---------------------------------------
+#---------------------------------------

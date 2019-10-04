@@ -1,12 +1,13 @@
 ENTRY       b2165             CDS       T00007
 NAME        psuG
-DEFINITION  (RefSeq) pseudouridine 5'-phosphate glycosidase
+DEFINITION  (RefSeq) pseudouridine-5'-phosphate glycosidase
 ORTHOLOGY   K16329  pseudouridylate synthase [EC:4.2.1.70]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00240  Pyrimidine metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00240 Pyrimidine metabolism
                 b2165 (psuG)
             Enzymes [BR:eco01000]
@@ -17,9 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2165 (psuG)
 POSITION    complement(2257429..2258367)
 MOTIF       Pfam: Indigoidine_A CbiC
-DBLINKS     NCBI-ProteinID: NP_416670
-            NCBI-GeneID: 946699
-            EcoGene: EG12033
+DBLINKS     NCBI-GeneID: 946699
+            NCBI-ProteinID: NP_416670
+            Pasteur: yeiN
+            RegulonDB: ECK120001950
             ECOCYC: EG12033
             ASAP: ABE-0007165
             UniProt: P33025

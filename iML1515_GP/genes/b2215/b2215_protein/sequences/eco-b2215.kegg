@@ -1,30 +1,33 @@
 ENTRY       b2215             CDS       T00007
 NAME        ompC
-DEFINITION  (RefSeq) outer membrane porin protein C
+DEFINITION  (RefSeq) outer membrane porin C
 ORTHOLOGY   K09475  outer membrane pore protein C
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco01501  beta-Lactam resistance
             eco02020  Two-component system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Signal transduction
+             09130 Environmental Information Processing
+              09132 Signal transduction
                02020 Two-component system
                 b2215 (ompC)
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01501 beta-Lactam resistance
                 b2215 (ompC)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2215 (ompC)
             Transporters [BR:eco02000]
-             Other Transporters
+             Other transporters
               Pores ion channels [TC:1]
                b2215 (ompC)
 POSITION    complement(2311646..2312749)
-MOTIF       Pfam: Porin_1 DUF4912 DUF4562
-DBLINKS     NCBI-ProteinID: NP_416719
-            NCBI-GeneID: 946716
+MOTIF       Pfam: Porin_1 DUF4562 DUF4912
+DBLINKS     NCBI-GeneID: 946716
+            NCBI-ProteinID: NP_416719
             Pasteur: ompC
             RegulonDB: ECK120000663
-            EcoGene: EG10670
             ECOCYC: EG10670
             ASAP: ABE-0007321
             UniProt: P06996

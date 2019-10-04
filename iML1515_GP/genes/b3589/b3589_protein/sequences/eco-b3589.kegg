@@ -1,6 +1,6 @@
 ENTRY       b3589             CDS       T00007
 NAME        yiaY
-DEFINITION  (RefSeq) putative Fe-containing alcohol dehydrogenase, Pfam00465 family
+DEFINITION  (RefSeq) L-threonine dehydrogenase
 ORTHOLOGY   K13954  alcohol dehydrogenase [EC:1.1.1.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00010  Glycolysis / Gluconeogenesis
@@ -14,20 +14,17 @@ PATHWAY     eco00010  Glycolysis / Gluconeogenesis
             eco01130  Biosynthesis of antibiotics
             eco01220  Degradation of aromatic compounds
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01220 Degradation of aromatic compounds
-                b3589 (yiaY)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
                 b3589 (yiaY)
-              Lipid metabolism
+              09103 Lipid metabolism
                00071 Fatty acid degradation
                 b3589 (yiaY)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00350 Tyrosine metabolism
                 b3589 (yiaY)
-              Xenobiotics biodegradation and metabolism
+              09111 Xenobiotics biodegradation and metabolism
                00625 Chloroalkane and chloroalkene degradation
                 b3589 (yiaY)
                00626 Naphthalene degradation
@@ -40,9 +37,9 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3589 (yiaY)
 POSITION    complement(3756676..3757827)
 MOTIF       Pfam: Fe-ADH Fe-ADH_2 Lamprin Inositol_P
-DBLINKS     NCBI-ProteinID: YP_026233
-            NCBI-GeneID: 948102
-            EcoGene: EG12293
+DBLINKS     NCBI-GeneID: 948102
+            NCBI-ProteinID: YP_026233
+            RegulonDB: ECK120002174
             ECOCYC: EG12293
             ASAP: ABE-0011725
             UniProt: P37686

@@ -1,12 +1,13 @@
 ENTRY       b0160             CDS       T00007
 NAME        dgt
-DEFINITION  (RefSeq) deoxyguanosine triphosphate triphosphohydrolase
+DEFINITION  (RefSeq) dGTP triphosphohydrolase
 ORTHOLOGY   K01129  dGTPase [EC:3.1.5.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00230  Purine metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00230 Purine metabolism
                 b0160 (dgt)
             Enzymes [BR:eco01000]
@@ -17,14 +18,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0160 (dgt)
 POSITION    179237..180754
 MOTIF       Pfam: HD HD_assoc
-DBLINKS     NCBI-ProteinID: NP_414702
-            NCBI-GeneID: 947177
+DBLINKS     NCBI-GeneID: 947177
+            NCBI-ProteinID: NP_414702
             Pasteur: dgt
-            EcoGene: EG10225
+            RegulonDB: ECK120000219
             ECOCYC: EG10225
             ASAP: ABE-0000548
             UniProt: P15723
-STRUCTURE   PDB: 4X9E 4XDS
+STRUCTURE   PDB: 6OI7 6OIV 4X9E 6OIX 6OIY 6OIW 4XDS
 AASEQ       505
             MAQIDFRKKINWHRRYRSPQGVKTEHEILRIFESDRGRIINSPAIRRLQQKTQVFPLERN
             AAVRTRLTHSMEVQQVGRYIAKEILSRLKELKLLEAYGLDELTGPFESIVEMSCLMHDIG

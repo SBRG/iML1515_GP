@@ -1,6 +1,6 @@
 ENTRY       b2463             CDS       T00007
 NAME        maeB
-DEFINITION  (RefSeq) malic enzyme: putative oxidoreductase/putative phosphotransacetylase
+DEFINITION  (RefSeq) malate dehydrogenase
 ORTHOLOGY   K00029  malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+) [EC:1.1.1.40]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00620  Pyruvate metabolism
@@ -8,11 +8,8 @@ PATHWAY     eco00620  Pyruvate metabolism
             eco01120  Microbial metabolism in diverse environments
             eco01200  Carbon metabolism
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b2463 (maeB)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00620 Pyruvate metabolism
                 b2463 (maeB)
             Enzymes [BR:eco01000]
@@ -23,10 +20,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2463 (maeB)
 POSITION    complement(2576098..2578377)
 MOTIF       Pfam: PTA_PTB malic Malic_M ELFV_dehydrog
-DBLINKS     NCBI-ProteinID: NP_416958
-            NCBI-GeneID: 946947
+DBLINKS     NCBI-GeneID: 946947
+            NCBI-ProteinID: NP_416958
             Pasteur: maeB
-            EcoGene: EG14193
+            RegulonDB: ECK120003867
             ECOCYC: G7293
             ASAP: ABE-0008111
             UniProt: P76558

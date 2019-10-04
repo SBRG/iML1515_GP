@@ -1,13 +1,18 @@
 ENTRY       b3650             CDS       T00007
 NAME        spoT
-DEFINITION  (RefSeq) bifunctional (p)ppGpp synthetase II/guanosine-3',5'-bis pyrophosphate 3'-pyrophosphohydrolase
+DEFINITION  (RefSeq) bifunctional (p)ppGpp synthase/hydrolase SpoT
 ORTHOLOGY   K01139  GTP diphosphokinase / guanosine-3',5'-bis(diphosphate) 3'-diphosphatase [EC:2.7.6.5 3.1.7.2]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00230  Purine metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00230 Purine metabolism
+                b3650 (spoT)
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               03009 Ribosome biogenesis [BR:eco03009]
                 b3650 (spoT)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -21,16 +26,15 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 3.1.7.2  guanosine-3',5'-bis(diphosphate) 3'-diphosphatase
                  b3650 (spoT)
             Ribosome biogenesis [BR:eco03009]
-             Prokaryotic Type
+             Prokaryotic type
               Other maturation factors
                b3650 (spoT)
 POSITION    3822400..3824508
-MOTIF       Pfam: HD_4 RelA_SpoT TGS ACT_4 HD TFIIS_M DUF2007 DUF106
-DBLINKS     NCBI-ProteinID: NP_418107
-            NCBI-GeneID: 948159
+MOTIF       Pfam: HD_4 RelA_SpoT TGS ACT_4 HD TFIIS_M DUF2007 EMC3_TMCO1
+DBLINKS     NCBI-GeneID: 948159
+            NCBI-ProteinID: NP_418107
             Pasteur: spoT
             RegulonDB: ECK120000955
-            EcoGene: EG10966
             ECOCYC: EG10966
             ASAP: ABE-0011935
             UniProt: P0AG24

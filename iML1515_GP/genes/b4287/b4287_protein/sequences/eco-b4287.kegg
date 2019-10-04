@@ -1,33 +1,35 @@
 ENTRY       b4287             CDS       T00007
 NAME        fecE
-DEFINITION  (RefSeq) iron-dicitrate transporter subunit
-ORTHOLOGY   K02013  iron complex transport system ATP-binding protein [EC:3.6.3.34]
+DEFINITION  (RefSeq) ferric citrate ABC transporter ATP binding subunit
+ORTHOLOGY   K23184  ferric citrate transport system ATP-binding protein [EC:7.2.2.18]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00240  Iron complex transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b4287 (fecE)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b4287 (fecE)
             Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.34  iron-chelate-transporting ATPase
+             7. Translocases
+              7.2  Catalysing the translocation of inorganic cations
+               7.2.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.2.2.18  ABC-type ferric citrate transporter
                  b4287 (fecE)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Metallic cation, iron-siderophore and vitamin B12 transporters
-               Iron complex transporter [MD:M00240]
+               Ferric citrate transporter
                 b4287 (fecE)
 POSITION    complement(4510690..4511457)
-MOTIF       Pfam: ABC_tran AAA_21 SMC_N AAA_29 AAA_15 AAA_23 AAA_16 RsgA_GTPase AAA_5 AAA_22 AAA_25 AAA_14 AAA_27 Adeno_IVa2 Rad17 DUF2813 AAA_33 Mg_chelatase MukB AAA_28 RNA_helicase NACHT ABC_ATPase ATPase_2
-DBLINKS     NCBI-ProteinID: NP_418707
-            NCBI-GeneID: 948819
+MOTIF       Pfam: ABC_tran AAA_21 SMC_N AAA_29 AAA_15 AAA_23 AAA_16 RsgA_GTPase AAA_5 AAA_22 AAA_25 Rad17 AAA_14 AAA_27 Adeno_IVa2 DUF2813 AAA_33 Mg_chelatase MukB AAA_28 RNA_helicase NACHT ABC_ATPase ATPase_2
+DBLINKS     NCBI-GeneID: 948819
+            NCBI-ProteinID: NP_418707
             Pasteur: fecE
             RegulonDB: ECK120000284
-            EcoGene: EG10290
             ECOCYC: EG10290
             ASAP: ABE-0014057
             UniProt: P15031

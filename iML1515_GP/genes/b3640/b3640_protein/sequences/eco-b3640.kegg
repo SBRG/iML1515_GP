@@ -1,15 +1,19 @@
 ENTRY       b3640             CDS       T00007
 NAME        dut
-DEFINITION  (RefSeq) deoxyuridinetriphosphatase
+DEFINITION  (RefSeq) deoxyuridine triphosphatase
 ORTHOLOGY   K01520  dUTP pyrophosphatase [EC:3.6.1.23]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00240  Pyrimidine metabolism
             eco01100  Metabolic pathways
 MODULE      eco_M00053  Pyrimidine deoxyribonuleotide biosynthesis, CDP/CTP => dCDP/dCTP,dTDP/dTTP
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00240 Pyrimidine metabolism
+                b3640 (dut)
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               03400 DNA repair and recombination proteins [BR:eco03400]
                 b3640 (dut)
             Enzymes [BR:eco01000]
              3. Hydrolases
@@ -18,22 +22,22 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 3.6.1.23  dUTP diphosphatase
                  b3640 (dut)
             DNA repair and recombination proteins [BR:eco03400]
-             Eukaryotic Type
+             Eukaryotic type
               Other factors with a suspected DNA repair function
                Modulation of nucleotide pools
                 b3640 (dut)
-             Prokaryotic Type
+             Prokaryotic type
                 b3640 (dut)
 POSITION    3813932..3814387
 MOTIF       Pfam: dUTPase
-DBLINKS     NCBI-ProteinID: NP_418097
-            NCBI-GeneID: 948607
+DBLINKS     NCBI-GeneID: 948607
+            NCBI-ProteinID: NP_418097
             Pasteur: dut
-            EcoGene: EG10251
+            RegulonDB: ECK120000245
             ECOCYC: EG10251
             ASAP: ABE-0011899
             UniProt: P06968
-STRUCTURE   PDB: 1EUW 1EU5 1SEH 2HRM 1RNJ 2HR6 1DUP 1RN8 1SYL 1DUD
+STRUCTURE   PDB: 1EUW 1EU5 1SEH 2HRM 1RNJ 6HDE 2HR6 1DUP 1RN8 1SYL 1DUD
 AASEQ       151
             MKKIDVKILDPRVGKEFPLPTYATSGSAGLDLRACLNDAVELAPGDTTLVPTGLAIHIAD
             PSLAAMMLPRSGLGHKHGIVLGNLVGLIDSDYQGQLMISVWNRGQDSFTIQPGERIAQMI

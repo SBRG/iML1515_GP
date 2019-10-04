@@ -1,12 +1,13 @@
 ENTRY       b4381             CDS       T00007
 NAME        deoC
-DEFINITION  (RefSeq) 2-deoxyribose-5-phosphate aldolase, NAD(P)-linked
+DEFINITION  (RefSeq) deoxyribose-phosphate aldolase
 ORTHOLOGY   K01619  deoxyribose-phosphate aldolase [EC:4.1.2.4]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00030  Pentose phosphate pathway
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00030 Pentose phosphate pathway
                 b4381 (deoC)
             Enzymes [BR:eco01000]
@@ -16,11 +17,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 4.1.2.4  deoxyribose-phosphate aldolase
                  b4381 (deoC)
 POSITION    4617323..4618102
-MOTIF       Pfam: DeoC His_biosynth
-DBLINKS     NCBI-ProteinID: NP_418798
-            NCBI-GeneID: 948902
+MOTIF       Pfam: DeoC His_biosynth DLP_helical
+DBLINKS     NCBI-GeneID: 948902
+            NCBI-ProteinID: NP_418798
             Pasteur: deoC
-            EcoGene: EG10221
+            RegulonDB: ECK120000215
             ECOCYC: EG10221
             ASAP: ABE-0014371
             UniProt: P0A6L0

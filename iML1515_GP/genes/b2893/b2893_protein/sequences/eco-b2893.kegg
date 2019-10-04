@@ -1,9 +1,17 @@
 ENTRY       b2893             CDS       T00007
 NAME        dsbC
-DEFINITION  (RefSeq) protein disulfide isomerase II
+DEFINITION  (RefSeq) protein disulfide isomerase DsbC
 ORTHOLOGY   K03981  thiol:disulfide interchange protein DsbC [EC:5.3.4.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               03110 Chaperones and folding catalysts [BR:eco03110]
+                b2893 (dsbC)
+              09183 Protein families: signaling and cellular processes
+               02044 Secretion system [BR:eco02044]
+                b2893 (dsbC)
+            Enzymes [BR:eco01000]
              5. Isomerases
               5.3  Intramolecular oxidoreductases
                5.3.4  Transposing S-S bonds
@@ -19,11 +27,10 @@ BRITE       Enzymes [BR:eco01000]
                b2893 (dsbC)
 POSITION    complement(3038112..3038822)
 MOTIF       Pfam: Thioredoxin_2 DsbC_N Thioredoxin_4 DSBA TraF HxlR
-DBLINKS     NCBI-ProteinID: NP_417369
-            NCBI-GeneID: 947363
+DBLINKS     NCBI-GeneID: 947363
+            NCBI-ProteinID: NP_417369
             Pasteur: dsbC
             RegulonDB: ECK120001059
-            EcoGene: EG11070
             ECOCYC: EG11070
             ASAP: ABE-0009494
             UniProt: P0AEG6

@@ -1,6 +1,6 @@
 ENTRY       b3919             CDS       T00007
 NAME        tpiA
-DEFINITION  (RefSeq) triosephosphate isomerase
+DEFINITION  (RefSeq) triose-phosphate isomerase
 ORTHOLOGY   K01803  triosephosphate isomerase (TIM) [EC:5.3.1.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00010  Glycolysis / Gluconeogenesis
@@ -16,18 +16,17 @@ MODULE      eco_M00001  Glycolysis (Embden-Meyerhof pathway), glucose => pyruvat
             eco_M00002  Glycolysis, core module involving three-carbon compounds
             eco_M00003  Gluconeogenesis, oxaloacetate => fructose-6P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b3919 (tpiA)
-               01230 Biosynthesis of amino acids
-                b3919 (tpiA)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
                 b3919 (tpiA)
                00051 Fructose and mannose metabolism
                 b3919 (tpiA)
                00562 Inositol phosphate metabolism
+                b3919 (tpiA)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               04147 Exosome [BR:eco04147]
                 b3919 (tpiA)
             Enzymes [BR:eco01000]
              5. Isomerases
@@ -45,10 +44,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b3919 (tpiA)
 POSITION    complement(4110740..4111507)
 MOTIF       Pfam: TIM
-DBLINKS     NCBI-ProteinID: NP_418354
-            NCBI-GeneID: 948409
+DBLINKS     NCBI-GeneID: 948409
+            NCBI-ProteinID: NP_418354
             Pasteur: tpiA
-            EcoGene: EG11015
+            RegulonDB: ECK120001004
             ECOCYC: EG11015
             ASAP: ABE-0012799
             UniProt: P0A858

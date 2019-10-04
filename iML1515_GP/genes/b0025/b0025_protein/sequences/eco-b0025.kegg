@@ -1,6 +1,6 @@
 ENTRY       b0025             CDS       T00007
 NAME        ribF
-DEFINITION  (RefSeq) bifunctional riboflavin kinase/FAD synthetase
+DEFINITION  (RefSeq) bifunctional riboflavin kinase/FMN adenylyltransferase
 ORTHOLOGY   K11753  riboflavin kinase / FMN adenylyltransferase [EC:2.7.1.26 2.7.7.2]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00740  Riboflavin metabolism
@@ -8,8 +8,8 @@ PATHWAY     eco00740  Riboflavin metabolism
             eco01110  Biosynthesis of secondary metabolites
 MODULE      eco_M00125  Riboflavin biosynthesis, GTP => riboflavin/FMN/FAD
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00740 Riboflavin metabolism
                 b0025 (ribF)
             Enzymes [BR:eco01000]
@@ -23,11 +23,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0025 (ribF)
 POSITION    21407..22348
 MOTIF       Pfam: FAD_syn Flavokinase CTP_transf_like
-DBLINKS     NCBI-ProteinID: NP_414566
-            NCBI-GeneID: 949129
+DBLINKS     NCBI-GeneID: 949129
+            NCBI-ProteinID: NP_414566
             Pasteur: ribF
             RegulonDB: ECK120001067
-            EcoGene: EG11079
             ECOCYC: EG11079
             ASAP: ABE-0000091
             UniProt: P0AG40

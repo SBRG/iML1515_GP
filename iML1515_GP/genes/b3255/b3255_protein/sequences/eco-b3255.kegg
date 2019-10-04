@@ -1,6 +1,6 @@
 ENTRY       b3255             CDS       T00007
 NAME        accB
-DEFINITION  (RefSeq) acetyl CoA carboxylase, BCCP subunit
+DEFINITION  (RefSeq) biotin carboxyl carrier protein
 ORTHOLOGY   K02160  acetyl-CoA carboxylase biotin carboxyl carrier protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00061  Fatty acid biosynthesis
@@ -14,26 +14,21 @@ PATHWAY     eco00061  Fatty acid biosynthesis
             eco01212  Fatty acid metabolism
 MODULE      eco_M00082  Fatty acid biosynthesis, initiation
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b3255 (accB)
-               01212 Fatty acid metabolism
-                b3255 (accB)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00620 Pyruvate metabolism
                 b3255 (accB)
                00640 Propanoate metabolism
                 b3255 (accB)
-              Lipid metabolism
+              09103 Lipid metabolism
                00061 Fatty acid biosynthesis
                 b3255 (accB)
 POSITION    3405436..3405906
-MOTIF       Pfam: Biotin_lipoyl Biotin_lipoyl_2 GCV_H RnfC_N
-DBLINKS     NCBI-ProteinID: NP_417721
-            NCBI-GeneID: 947758
+MOTIF       Pfam: Biotin_lipoyl Biotin_lipoyl_2 RnfC_N GCV_H Prot_ATP_OB_N
+DBLINKS     NCBI-GeneID: 947758
+            NCBI-ProteinID: NP_417721
             Pasteur: accB
-            EcoGene: EG10275
+            RegulonDB: ECK120000269
             ECOCYC: EG10275
             ASAP: ABE-0010675
             UniProt: P0ABD8

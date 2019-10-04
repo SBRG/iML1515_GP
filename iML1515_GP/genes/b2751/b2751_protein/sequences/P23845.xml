@@ -1,0 +1,421 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1991-11-01" modified="2019-09-18" version="163">
+<accession>P23845</accession>
+<accession>Q2MA78</accession>
+<name>CYSN_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>Sulfate adenylyltransferase subunit 1</fullName>
+<ecNumber>2.7.7.4</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>ATP-sulfurylase large subunit</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Sulfate adenylate transferase</fullName>
+<shortName>SAT</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">cysN</name>
+<name type="ordered locus">b2751</name>
+<name type="ordered locus">JW2721</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1992" name="J. Biol. Chem." volume="267" first="10405" last="10410">
+<title>The DNA sequence of the sulfate activation locus from Escherichia coli K-12.</title>
+<authorList>
+<person name="Leyh T.S."/>
+<person name="Vogt T.F."/>
+<person name="Suo Y."/>
+</authorList>
+<dbReference type="PubMed" id="1316900"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>PROTEIN SEQUENCE OF 1-5</scope>
+<source>
+<strain>K12</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="1988" name="J. Biol. Chem." volume="263" first="2409" last="2416">
+<title>The sulfate activation locus of Escherichia coli K12: cloning, genetic, and enzymatic characterization.</title>
+<authorList>
+<person name="Leyh T.S."/>
+<person name="Taylor J.C."/>
+<person name="Markham G.D."/>
+</authorList>
+<dbReference type="PubMed" id="2828368"/>
+</citation>
+<scope>CHARACTERIZATION</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="1997" name="Electrophoresis" volume="18" first="1243" last="1251">
+<title>Escherichia coli proteome analysis using the gene-protein database.</title>
+<authorList>
+<person name="VanBogelen R.A."/>
+<person name="Abshire K.Z."/>
+<person name="Moldover B."/>
+<person name="Olson E.R."/>
+<person name="Neidhardt F.C."/>
+</authorList>
+<dbReference type="PubMed" id="9298644"/>
+<dbReference type="DOI" id="10.1002/elps.1150180805"/>
+</citation>
+<scope>IDENTIFICATION BY 2D-GEL</scope>
+</reference>
+<comment type="function">
+<text>May be the GTPase, regulating ATP sulfurylase activity.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>ATP + H(+) + sulfate = adenosine 5'-phosphosulfate + diphosphate</text>
+<dbReference type="Rhea" id="RHEA:18133"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:16189"/>
+<dbReference type="ChEBI" id="CHEBI:30616"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:58243"/>
+<dbReference type="EC" id="2.7.7.4"/>
+</reaction>
+</comment>
+<comment type="activity regulation">
+<text>GTPase activity is coupled to stimulation of the rate of APS formation.</text>
+</comment>
+<comment type="pathway">
+<text>Sulfur metabolism; hydrogen sulfide biosynthesis; sulfite from sulfate: step 1/3.</text>
+</comment>
+<comment type="subunit">
+<text>Heterodimer composed of CysD, the smaller subunit, and CysN.</text>
+</comment>
+<comment type="similarity">
+<text evidence="2">Belongs to the TRAFAC class translation factor GTPase superfamily. Classic translation factor GTPase family. CysN/NodQ subfamily.</text>
+</comment>
+<dbReference type="EC" id="2.7.7.4"/>
+<dbReference type="EMBL" id="M74586">
+<property type="protein sequence ID" value="AAA23646.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U29579">
+<property type="protein sequence ID" value="AAA69261.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC75793.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE76828.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="JN0327">
+<property type="entry name" value="JN0327"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_417231.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_001090361.1">
+<property type="nucleotide sequence ID" value="NZ_SSZK01000017.1"/>
+</dbReference>
+<dbReference type="SMR" id="P23845"/>
+<dbReference type="BioGrid" id="4262932">
+<property type="interactions" value="28"/>
+</dbReference>
+<dbReference type="BioGrid" id="851551">
+<property type="interactions" value="1"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-513N"/>
+<dbReference type="IntAct" id="P23845">
+<property type="interactions" value="3"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b2751"/>
+<dbReference type="jPOST" id="P23845"/>
+<dbReference type="PaxDb" id="P23845"/>
+<dbReference type="PRIDE" id="P23845"/>
+<dbReference type="EnsemblBacteria" id="AAC75793">
+<property type="protein sequence ID" value="AAC75793"/>
+<property type="gene ID" value="b2751"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE76828">
+<property type="protein sequence ID" value="BAE76828"/>
+<property type="gene ID" value="BAE76828"/>
+</dbReference>
+<dbReference type="GeneID" id="947219"/>
+<dbReference type="KEGG" id="ecj:JW2721"/>
+<dbReference type="KEGG" id="eco:b2751"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.3989"/>
+<dbReference type="EchoBASE" id="EB0191"/>
+<dbReference type="EcoGene" id="EG10194">
+<property type="gene designation" value="cysN"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105C3T">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG2895">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000229289"/>
+<dbReference type="InParanoid" id="P23845"/>
+<dbReference type="KO" id="K00956"/>
+<dbReference type="PhylomeDB" id="P23845"/>
+<dbReference type="BioCyc" id="EcoCyc:CYSN-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW2721-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:CYSN-MONOMER"/>
+<dbReference type="SABIO-RK" id="P23845"/>
+<dbReference type="UniPathway" id="UPA00140">
+<property type="reaction ID" value="UER00204"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P23845"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005525">
+<property type="term" value="F:GTP binding"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003924">
+<property type="term" value="F:GTPase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004781">
+<property type="term" value="F:sulfate adenylyltransferase (ATP) activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0070814">
+<property type="term" value="P:hydrogen sulfide biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000103">
+<property type="term" value="P:sulfate assimilation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniRule"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006790">
+<property type="term" value="P:sulfur compound metabolic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="CDD" id="cd04166">
+<property type="entry name" value="CysN_ATPS"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00062">
+<property type="entry name" value="Sulf_adenylyltr_sub1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR041757">
+<property type="entry name" value="CysN_GTP-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR031157">
+<property type="entry name" value="G_TR_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027417">
+<property type="entry name" value="P-loop_NTPase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005225">
+<property type="entry name" value="Small_GTP-bd_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011779">
+<property type="entry name" value="SO4_adenylTrfase_lsu"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000795">
+<property type="entry name" value="TF_GTP-bd_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR009000">
+<property type="entry name" value="Transl_B-barrel_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR009001">
+<property type="entry name" value="Transl_elong_EF1A/Init_IF2_C"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00009">
+<property type="entry name" value="GTP_EFTU"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00315">
+<property type="entry name" value="ELONGATNFCT"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF50447">
+<property type="entry name" value="SSF50447"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF50465">
+<property type="entry name" value="SSF50465"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52540">
+<property type="entry name" value="SSF52540"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR02034">
+<property type="entry name" value="CysN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00231">
+<property type="entry name" value="small_GTP"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00301">
+<property type="entry name" value="G_TR_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51722">
+<property type="entry name" value="G_TR_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0067">ATP-binding</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-0342">GTP-binding</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-0548">Nucleotidyltransferase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<feature type="chain" description="Sulfate adenylyltransferase subunit 1" id="PRO_0000091522">
+<location>
+<begin position="1"/>
+<end position="475"/>
+</location>
+</feature>
+<feature type="domain" description="tr-type G">
+<location>
+<begin position="25"/>
+<end position="239"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="GTP" evidence="1">
+<location>
+<begin position="34"/>
+<end position="41"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="GTP" evidence="1">
+<location>
+<begin position="113"/>
+<end position="117"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="GTP" evidence="1">
+<location>
+<begin position="168"/>
+<end position="171"/>
+</location>
+</feature>
+<feature type="region of interest" description="G1" evidence="1">
+<location>
+<begin position="34"/>
+<end position="41"/>
+</location>
+</feature>
+<feature type="region of interest" description="G2" evidence="1">
+<location>
+<begin position="92"/>
+<end position="96"/>
+</location>
+</feature>
+<feature type="region of interest" description="G3" evidence="1">
+<location>
+<begin position="113"/>
+<end position="116"/>
+</location>
+</feature>
+<feature type="region of interest" description="G4" evidence="1">
+<location>
+<begin position="168"/>
+<end position="171"/>
+</location>
+</feature>
+<feature type="region of interest" description="G5" evidence="1">
+<location>
+<begin position="206"/>
+<end position="208"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000305"/>
+<sequence length="475" mass="52558" checksum="91E983E49732AA15" modified="1991-11-01" version="1">MNTALAQQIANEGGVEAWMIAQQHKSLLRFLTCGSVDDGKSTLIGRLLHDTRQIYEDQLSSLHNDSKRHGTQGEKLDLALLVDGLQAEREQGITIDVAYRYFSTEKRKFIIADTPGHEQYTRNMATGASTCELAILLIDARKGVLDQTRRHSFISTLLGIKHLVVAINKMDLVDYSEETFTRIREDYLTFAGQLPGNLDIRFVPLSALEGDNVASQSESMPWYSGPTLLEVLETVEIQRVVDAQPMRFPVQYVNRPNLDFRGYAGTLASGRVEVGQRVKVLPSGVESNVARIVTFDGDREEAFAGEAITLVLTDEIDISRGDLLLAADEALPAVQSASVDVVWMAEQPLSPGQSYDIKIAGKKTRARVDGIRYQVDINNLTQREVENLPLNGIGLVDLTFDEPLVLDRYQQNPVTGGLIFIDRLSNVTVGAGMVHEPVSQATAAPSEFSAFELELNALVRRHFPHWGARDLLGDK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

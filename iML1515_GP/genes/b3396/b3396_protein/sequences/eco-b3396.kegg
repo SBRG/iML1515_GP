@@ -1,19 +1,25 @@
 ENTRY       b3396             CDS       T00007
 NAME        mrcA
-DEFINITION  (RefSeq) fused penicillin-binding protein 1a: murein transglycosylase/murein transpeptidase
+DEFINITION  (RefSeq) peptidoglycan glycosyltransferase/peptidoglycan DD-transpeptidase MrcA
 ORTHOLOGY   K05366  penicillin-binding protein 1A [EC:2.4.1.129 3.4.16.4]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00550  Peptidoglycan biosynthesis
             eco01100  Metabolic pathways
             eco01501  beta-Lactam resistance
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00550 Peptidoglycan biosynthesis
                 b3396 (mrcA)
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01501 beta-Lactam resistance
+                b3396 (mrcA)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01003 Glycosyltransferases [BR:eco01003]
+                b3396 (mrcA)
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
                 b3396 (mrcA)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -30,13 +36,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
              Polysaccharide
               Bacterial polysaccharide
                b3396 (mrcA)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              Glycosyltransferase/DD-Transpeptidase (Class A PBP)
+               b3396 (mrcA)
 POSITION    3522871..3525423
-MOTIF       Pfam: Transgly PCB_OB Transpeptidase DUF3502
-DBLINKS     NCBI-ProteinID: NP_417855
-            NCBI-GeneID: 947907
+MOTIF       Pfam: Transgly PCB_OB Transpeptidase DUF3502 Tudor_4
+DBLINKS     NCBI-GeneID: 947907
+            NCBI-ProteinID: NP_417855
             Pasteur: mrcA
             RegulonDB: ECK120000739
-            EcoGene: EG10748
             ECOCYC: EG10748
             ASAP: ABE-0011082
             UniProt: P02918

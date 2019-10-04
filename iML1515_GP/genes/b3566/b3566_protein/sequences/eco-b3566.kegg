@@ -1,26 +1,29 @@
 ENTRY       b3566             CDS       T00007
 NAME        xylF
-DEFINITION  (RefSeq) D-xylose transporter subunit
+DEFINITION  (RefSeq) xylose ABC transporter periplasmic binding protein
 ORTHOLOGY   K10543  D-xylose transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00215  D-Xylose transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b3566 (xylF)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3566 (xylF)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Saccharide, polyol, and lipid transporters
-               D-Xylose transporter [MD:M00215] [OT]
+               D-Xylose transporter
                 b3566 (xylF)
 POSITION    3731131..3732123
 MOTIF       Pfam: Peripla_BP_4 Peripla_BP_1 Peripla_BP_3
-DBLINKS     NCBI-ProteinID: NP_418023
-            NCBI-GeneID: 948090
+DBLINKS     NCBI-GeneID: 948090
+            NCBI-ProteinID: NP_418023
             Pasteur: xylF
-            EcoGene: EG20252
+            RegulonDB: ECK120002448
             ECOCYC: EG20252
             ASAP: ABE-0011646
             UniProt: P37387

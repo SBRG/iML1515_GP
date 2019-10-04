@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-06-07" modified="2019-09-18" version="101">
+<accession>P0A8G3</accession>
+<accession>P42605</accession>
+<accession>P42606</accession>
+<accession>P42607</accession>
+<accession>P76662</accession>
+<accession>P76663</accession>
+<accession>P76664</accession>
+<accession>Q2M9B4</accession>
+<name>UXAC_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>Uronate isomerase</fullName>
+<ecNumber>5.3.1.12</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Glucuronate isomerase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Uronic isomerase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">uxaC</name>
+<name type="synonym">ygjX</name>
+<name type="synonym">ygjY</name>
+<name type="synonym">ygjZ</name>
+<name type="ordered locus">b3092</name>
+<name type="ordered locus">JW3063</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="1992-09" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Mizobuchi K."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2009" name="J. Bacteriol." volume="191" first="4562" last="4571">
+<title>Involvement of the leucine response transcription factor LeuO in regulation of the genes for sulfa drug efflux.</title>
+<authorList>
+<person name="Shimada T."/>
+<person name="Yamamoto K."/>
+<person name="Ishihama A."/>
+</authorList>
+<dbReference type="PubMed" id="19429622"/>
+<dbReference type="DOI" id="10.1128/jb.00108-09"/>
+</citation>
+<scope>OPERON STRUCTURE</scope>
+<scope>INDUCTION</scope>
+<source>
+<strain>K12 / BW25113</strain>
+</source>
+</reference>
+<comment type="catalytic activity">
+<reaction>
+<text>D-glucuronate = D-fructuronate</text>
+<dbReference type="Rhea" id="RHEA:13049"/>
+<dbReference type="ChEBI" id="CHEBI:58720"/>
+<dbReference type="ChEBI" id="CHEBI:59863"/>
+<dbReference type="EC" id="5.3.1.12"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>aldehydo-D-galacturonate = keto-D-tagaturonate</text>
+<dbReference type="Rhea" id="RHEA:27702"/>
+<dbReference type="ChEBI" id="CHEBI:12952"/>
+<dbReference type="ChEBI" id="CHEBI:17886"/>
+<dbReference type="EC" id="5.3.1.12"/>
+</reaction>
+</comment>
+<comment type="pathway">
+<text>Carbohydrate metabolism; pentose and glucuronate interconversion.</text>
+</comment>
+<comment type="induction">
+<text evidence="1">Repressed by LeuO and H-NS. Part of the uxaCA operon.</text>
+</comment>
+<comment type="similarity">
+<text evidence="2">Belongs to the metallo-dependent hydrolases superfamily. Uronate isomerase family.</text>
+</comment>
+<dbReference type="EC" id="5.3.1.12"/>
+<dbReference type="EMBL" id="D13328">
+<property type="protein sequence ID" value="BAA02587.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U18997">
+<property type="protein sequence ID" value="AAA57896.1"/>
+<property type="status" value="ALT_FRAME"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U18997">
+<property type="protein sequence ID" value="AAA57895.1"/>
+<property type="status" value="ALT_FRAME"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U18997">
+<property type="protein sequence ID" value="AAA57894.1"/>
+<property type="status" value="ALT_FRAME"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC76127.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE77142.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="A65098">
+<property type="entry name" value="A65098"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_417563.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000187442.1">
+<property type="nucleotide sequence ID" value="NZ_SSZK01000007.1"/>
+</dbReference>
+<dbReference type="SMR" id="P0A8G3"/>
+<dbReference type="BioGrid" id="4262408">
+<property type="interactions" value="28"/>
+</dbReference>
+<dbReference type="IntAct" id="P0A8G3">
+<property type="interactions" value="9"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b3092"/>
+<dbReference type="EPD" id="P0A8G3"/>
+<dbReference type="jPOST" id="P0A8G3"/>
+<dbReference type="PaxDb" id="P0A8G3"/>
+<dbReference type="PRIDE" id="P0A8G3"/>
+<dbReference type="EnsemblBacteria" id="AAC76127">
+<property type="protein sequence ID" value="AAC76127"/>
+<property type="gene ID" value="b3092"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE77142">
+<property type="protein sequence ID" value="BAE77142"/>
+<property type="gene ID" value="BAE77142"/>
+</dbReference>
+<dbReference type="GeneID" id="947599"/>
+<dbReference type="KEGG" id="ecj:JW3063"/>
+<dbReference type="KEGG" id="eco:b3092"/>
+<dbReference type="PATRIC" id="fig|511145.12.peg.3187"/>
+<dbReference type="EchoBASE" id="EB2593"/>
+<dbReference type="EcoGene" id="EG12737">
+<property type="gene designation" value="uxaC"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105D2H">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1904">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="InParanoid" id="P0A8G3"/>
+<dbReference type="KO" id="K01812"/>
+<dbReference type="PhylomeDB" id="P0A8G3"/>
+<dbReference type="BioCyc" id="EcoCyc:UXAC-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW3063-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:UXAC-MONOMER"/>
+<dbReference type="BRENDA" id="5.3.1.12">
+<property type="organism ID" value="2026"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00246"/>
+<dbReference type="PRO" id="PR:P0A8G3"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008880">
+<property type="term" value="F:glucuronate isomerase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniRule"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019698">
+<property type="term" value="P:D-galacturonate catabolic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042840">
+<property type="term" value="P:D-glucuronate catabolic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00675">
+<property type="entry name" value="UxaC"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032466">
+<property type="entry name" value="Metal_Hydrolase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003766">
+<property type="entry name" value="Uronate_isomerase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02614">
+<property type="entry name" value="UxaC"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51556">
+<property type="entry name" value="SSF51556"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0413">Isomerase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Uronate isomerase" id="PRO_0000172771">
+<location>
+<begin position="1"/>
+<end position="470"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="19429622"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000305"/>
+<sequence length="470" mass="53987" checksum="9E51AA7B88411281" modified="2005-06-07" version="1">MTPFMTEDFLLDTEFARRLYHDYAKDQPIFDYHCHLPPQQIAEDYRFKNLYDIWLKGDHYKWRAMRTNGVAERLCTGDASDREKFDAWAATVPHTIGNPLYHWTHLELRRPFGITGKLLSPSTADEIWNECNELLAQDNFSARGIMQQMNVKMVGTTDDPIDSLEHHAEIAKDGSFTIKVLPSWRPDKAFNIEQATFNDYMAKLGEVSDTDIRRFADLQTALTKRLDHFAAHGCKVSDHALDVVMFAEANEAELDSILARRLAGETLSEHEVAQFKTAVLVFLGAEYARRGWVQQYHIGALRNNNLRQFKLLGPDVGFDSINDRPMAEELSKLLSKQNEENLLPKTILYCLNPRDNEVLGTMIGNFQGEGMPGKMQFGSGWWFNDQKDGMERQMTQLAQLGLLSRFVGMLTDSRSFLSYTRHEYFRRILCQMIGRWVEAGEAPADINLLGEMVKNICFNNARDYFAIELN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

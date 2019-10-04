@@ -1,9 +1,14 @@
 ENTRY       b2033             CDS       T00007
 NAME        wbbJ
-DEFINITION  (RefSeq) putative lipopolysaccharide biosynthesis O-acetyl transferase
+DEFINITION  (RefSeq) putative acyl transferase
 ORTHOLOGY   K08280  lipopolysaccharide O-acetyltransferase [EC:2.3.1.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
+                b2033 (wbbJ)
+            Enzymes [BR:eco01000]
              2. Transferases
               2.3  Acyltransferases
                2.3.1  Transferring groups other than aminoacyl groups
@@ -14,11 +19,10 @@ BRITE       Enzymes [BR:eco01000]
               b2033 (wbbJ)
 POSITION    complement(2104494..2105084)
 MOTIF       Pfam: Hexapep Hexapep_2
-DBLINKS     NCBI-ProteinID: NP_416537
-            NCBI-GeneID: 946556
+DBLINKS     NCBI-GeneID: 946556
+            NCBI-ProteinID: NP_416537
             Pasteur: wbbJ
             RegulonDB: ECK120001909
-            EcoGene: EG11984
             ECOCYC: EG11984
             ASAP: ABE-0006749
             UniProt: P37750

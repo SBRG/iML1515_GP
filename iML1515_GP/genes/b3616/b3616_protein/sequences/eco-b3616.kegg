@@ -1,12 +1,13 @@
 ENTRY       b3616             CDS       T00007
 NAME        tdh
-DEFINITION  (RefSeq) L-threonine 3-dehydrogenase, NAD(P)-binding
+DEFINITION  (RefSeq) threonine dehydrogenase
 ORTHOLOGY   K00060  threonine 3-dehydrogenase [EC:1.1.1.103]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00260  Glycine, serine and threonine metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00260 Glycine, serine and threonine metabolism
                 b3616 (tdh)
             Enzymes [BR:eco01000]
@@ -16,11 +17,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 1.1.1.103  L-threonine 3-dehydrogenase
                  b3616 (tdh)
 POSITION    complement(3790320..3791345)
-MOTIF       Pfam: ADH_N ADH_zinc_N Glu_dehyd_C ADH_zinc_N_2 AlaDh_PNT_C HI0933_like FAD_binding_3 FAD_binding_2 FAD_oxidored Pyr_redox_3 Pyr_redox_2 Methyltransf_25 Methyltransf_16 MTS Pyr_redox UDPG_MGDP_dh_N
-DBLINKS     NCBI-ProteinID: NP_418073
-            NCBI-GeneID: 948139
+MOTIF       Pfam: ADH_N ADH_zinc_N Glu_dehyd_C ADH_zinc_N_2 AlaDh_PNT_C FAD_binding_3 HI0933_like FAD_binding_2 FAD_oxidored Pyr_redox_3 Pyr_redox_2 Methyltransf_25 Methyltransf_16 MTS Pyr_redox
+DBLINKS     NCBI-GeneID: 948139
+            NCBI-ProteinID: NP_418073
             Pasteur: tdh
-            EcoGene: EG10993
+            RegulonDB: ECK120000982
             ECOCYC: EG10993
             ASAP: ABE-0011830
             UniProt: P07913

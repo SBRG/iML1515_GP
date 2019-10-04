@@ -1,20 +1,24 @@
 ENTRY       b2255             CDS       T00007
 NAME        arnA
-DEFINITION  (RefSeq) fused UDP-L-Ara4N formyltransferase/UDP-GlcA C-4'-decarboxylase
+DEFINITION  (RefSeq) fused UDP-4-amino-4-deoxy-L-arabinose formyltransferase/UDP-glucuronate dehydrogenase
 ORTHOLOGY   K10011  UDP-4-amino-4-deoxy-L-arabinose formyltransferase / UDP-glucuronic acid dehydrogenase (UDP-4-keto-hexauronic acid decarboxylating) [EC:2.1.2.13 1.1.1.305]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00520  Amino sugar and nucleotide sugar metabolism
+            eco01100  Metabolic pathways
             eco01503  Cationic antimicrobial peptide (CAMP) resistance
-MODULE      eco_M00721  Cationic antimicrobial peptide (CAMP) resistance, arnBCADTEF operon
-            eco_M00761  Undecaprenylphosphate alpha-L-Ara4N biosynthesis, UDP-GlcA => undecaprenyl phosphate alpha-L-Ara4N
+MODULE      eco_M00761  Undecaprenylphosphate alpha-L-Ara4N biosynthesis, UDP-GlcA => undecaprenyl phosphate alpha-L-Ara4N
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00520 Amino sugar and nucleotide sugar metabolism
                 b2255 (arnA)
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01503 Cationic antimicrobial peptide (CAMP) resistance
+                b2255 (arnA)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
                 b2255 (arnA)
             Enzymes [BR:eco01000]
              1. Oxidoreductases
@@ -32,13 +36,15 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
               b2255 (arnA)
 POSITION    2368039..2370021
 MOTIF       Pfam: Epimerase GDP_Man_Dehyd Formyl_trans_N Formyl_trans_C 3Beta_HSD NAD_binding_10 NAD_binding_4 RmlD_sub_bind
-DBLINKS     NCBI-ProteinID: NP_416758
-            NCBI-GeneID: 947683
-            EcoGene: EG14091
+DBLINKS     NCBI-GeneID: 947683
+            NCBI-ProteinID: NP_416758
+            Pasteur: yfbG
+            RegulonDB: ECK120003744
             ECOCYC: G7168
             ASAP: ABE-0007460
             UniProt: P77398
-STRUCTURE   PDB: 1YRW 1Z7B 1Z75 1U9J 5J63 1Z73 4WKG 1Z74 1Z7E 2BLL 2BLN
+STRUCTURE   PDB: 1YRW 1Z7B 1Z75 1U9J 5J63 1Z73 4WKG 1Z74 1Z7E 6PIH 6PIK
+                 2BLL 2BLN
 AASEQ       660
             MKTVVFAYHDMGCLGIEALLAAGYEISAIFTHTDNPGEKAFYGSVARLAAERGIPVYAPD
             NVNHPLWVERIAQLSPDVIFSFYYRHLIYDEILQLAPAGAFNLHGSLLPKYRGRAPLNWV

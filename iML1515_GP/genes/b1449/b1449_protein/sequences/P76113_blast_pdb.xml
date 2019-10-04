@@ -4,7 +4,7 @@
   <BlastOutput_program>blastp</BlastOutput_program>
   <BlastOutput_version>blastp 2.2.18 [Mar-02-2008]</BlastOutput_version>
   <BlastOutput_reference>~Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, ~Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), ~&quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search~programs&quot;,  Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
-  <BlastOutput_db>/misc/pdb/pdbinabox/blast/pdb_polypeptide</BlastOutput_db>
+  <BlastOutput_db>/opt/pdb/pdbinabox/blast/pdb_polypeptide</BlastOutput_db>
   <BlastOutput_query-ID>lcl|1_0</BlastOutput_query-ID>
   <BlastOutput_query-def>UNKNOWN_SEQUENCE</BlastOutput_query-def>
   <BlastOutput_query-len>345</BlastOutput_query-len>
@@ -26,44 +26,70 @@
       <Iteration_hits>
         <Hit>
           <Hit_num>1</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|111313</Hit_id>
-          <Hit_def>4B7X:1:A,B,C,D,E,F,G,H,I,J,K,L|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>111313</Hit_accession>
-          <Hit_len>336</Hit_len>
+          <Hit_id>gnl|BL_ORD_ID|213966</Hit_id>
+          <Hit_def>5ZXU:1:A|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>213966</Hit_accession>
+          <Hit_len>337</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
-              <Hsp_bit-score>280.796</Hsp_bit-score>
-              <Hsp_score>717</Hsp_score>
-              <Hsp_evalue>1.95087e-75</Hsp_evalue>
-              <Hsp_query-from>6</Hsp_query-from>
-              <Hsp_query-to>341</Hsp_query-to>
-              <Hsp_hit-from>6</Hsp_hit-from>
-              <Hsp_hit-to>336</Hsp_hit-to>
+              <Hsp_bit-score>460.299</Hsp_bit-score>
+              <Hsp_score>1183</Hsp_score>
+              <Hsp_evalue>2.08947e-129</Hsp_evalue>
+              <Hsp_query-from>9</Hsp_query-from>
+              <Hsp_query-to>340</Hsp_query-to>
+              <Hsp_hit-from>2</Hsp_hit-from>
+              <Hsp_hit-to>333</Hsp_hit-to>
               <Hsp_query-frame>1</Hsp_query-frame>
               <Hsp_hit-frame>1</Hsp_hit-frame>
-              <Hsp_identity>149</Hsp_identity>
-              <Hsp_positive>196</Hsp_positive>
-              <Hsp_gaps>5</Hsp_gaps>
-              <Hsp_align-len>336</Hsp_align-len>
-              <Hsp_qseq>QRNRRWVLASRPHGAPVPENFRLEEDDVATPGEGQVLLRTVYLSLDPYMRGRMSDEPSYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYDISSGDDLVKLGDHPQNPSWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHADDFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRV</Hsp_qseq>
-              <Hsp_hseq>QINRQYQLAQRPSGLPGRDTFSFVETPLGEPAEGQILVKNEYLSLDPAMRGWMNDARSYIPPVGIGEVMRALGVGKVLVSKHPGFQAGDYVNGALGVQDYFIGEPKGFYKVDPSRAPLPRYLSALGMTGMTAYFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCRVVGIAGGAEKCRFLVEELGFDGAIDYKNEDLAAGLKRECPKGIDVFFDNVGGEILDTVLTRIAFKARIVLCGAISQYNNKEAVRGPAN----YLSLLVNRARMEGMVV-MDYAQRFPEGLKEMATWLAEGKLQSREDIVEGLETFPETLLKLFSGENFGKLVLKV</Hsp_hseq>
-              <Hsp_midline>Q NR++ LA RP G P  + F   E  +  P EGQ+L++  YLSLDP MRG M+D  SY PPV IG VM    V +V+ S HP +Q+GD+V G  G QDY I       K+          L  LGM G TAY  LLD+GQPK GE                QI +LKGCRVVG+AGGAEKCR   E LGFD  +D+  +D A  L + CPKGID++++NVGG++ D VL  +   ARI +CG +S YN  E   GP        ++L  R R++G ++  DY  R  E  +EM  W+ E K+  RE+I +GLE  P+T + L  G+NFGK+V++V</Hsp_midline>
+              <Hsp_identity>215</Hsp_identity>
+              <Hsp_positive>258</Hsp_positive>
+              <Hsp_align-len>332</Hsp_align-len>
+              <Hsp_qseq>RRWVLASRPHGAPVPENFRLEEDDVATPGEGQVLLRTVYLSLDPYMRGRMSDEPSYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYDISSGDDLVKLGDHPQNPSWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHADDFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIR</Hsp_qseq>
+              <Hsp_hseq>RQIVLASRPVGAPTAENFALTQSDIPTPAQGEMLLRSVYLSLDPYMRGRMSDAKSYAEPVGIDEVMVGGTVCQVEASNHAEFEVGEWVLAYTGWQDYAISDGEGLIKLGKQPSHPSYALGVMGMPGFTAYMGLLDIGQPKEGDTLVVAAATGAVGSMVGQIGKLKGCRVIGIAGGEEKCQFAKDTLGFDECIDHKAADFAEQLAKVCHNGIDIYFENVGGKVFDAVMPLLNTGARIPLCGLISQYNATSLPEGPDRMSMLMAQLLIKRIKMQGFIIFDDYGHRYGEFAADMTQWLAQGKIHYREHLVQGLENAPDAFIGLLEGKNFGKMVVQ</Hsp_hseq>
+              <Hsp_midline>R+ VLASRP GAP  ENF L + D+ TP +G++LLR+VYLSLDPYMRGRMSD  SY+ PV I  VMVGGTV +V  SNH +++ G+WVL Y+GWQDY IS G+ L+KLG  P +PS++LGV+GMPGFTAYMGLLDIGQPKEG+                QIGKLKGCRV+G+AGG EKC+ A + LGFD C+DH A DFAEQLAK C  GIDIY+ENVGGKVFDAV+PLLNT ARIP+CGL+S YNAT LP GPDR+ +LMA +L KRI++QGFII  DYGHR  EF  +M QW+ + KIHYRE +  GLENAP  FIGLL+GKNFGK+V++</Hsp_midline>
             </Hsp>
           </Hit_hsps>
         </Hit>
         <Hit>
           <Hit_num>2</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|111289</Hit_id>
-          <Hit_def>4B7C:1:A,B,C,D,E,F,G,H,I,J,K,L|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>111289</Hit_accession>
+          <Hit_id>gnl|BL_ORD_ID|213965</Hit_id>
+          <Hit_def>5ZXN:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>213965</Hit_accession>
+          <Hit_len>340</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>459.914</Hsp_bit-score>
+              <Hsp_score>1182</Hsp_score>
+              <Hsp_evalue>3.06707e-129</Hsp_evalue>
+              <Hsp_query-from>8</Hsp_query-from>
+              <Hsp_query-to>340</Hsp_query-to>
+              <Hsp_hit-from>3</Hsp_hit-from>
+              <Hsp_hit-to>335</Hsp_hit-to>
+              <Hsp_query-frame>1</Hsp_query-frame>
+              <Hsp_hit-frame>1</Hsp_hit-frame>
+              <Hsp_identity>214</Hsp_identity>
+              <Hsp_positive>259</Hsp_positive>
+              <Hsp_align-len>333</Hsp_align-len>
+              <Hsp_qseq>NRRWVLASRPHGAPVPENFRLEEDDVATPGEGQVLLRTVYLSLDPYMRGRMSDEPSYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYDISSGDDLVKLGDHPQNPSWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHADDFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIR</Hsp_qseq>
+              <Hsp_hseq>NRQIVLASRPVGAPTADNFALTQSDIPTPAQGEMLLRSVYLSLDPYMRGRMSDAKSYAEPVGIDEVMVGGTVCQVEASNHAEFEVGEWVLAYTGWQDYALSDGEGLIKLGKQPSHPSYALGVMGMPGFTAYMGLLDIGQPKEGDTLVVAAATGAVGSMVGQIGKLKGCRVIGIAGGEEKCQFAKDTLGFDECIDHKAADFAEQLAKVCHNGIDIYFENVGGKVFDAVMPLLNTGARIPLCGLISQYNATSLPEGPDRMSMLMAQLLIKRIKMQGFIIFDDYGHRYGEFAADMTQWLAQGKIHYREHLVQGLENAPDAFIGLLEGKNFGKMVVQ</Hsp_hseq>
+              <Hsp_midline>NR+ VLASRP GAP  +NF L + D+ TP +G++LLR+VYLSLDPYMRGRMSD  SY+ PV I  VMVGGTV +V  SNH +++ G+WVL Y+GWQDY +S G+ L+KLG  P +PS++LGV+GMPGFTAYMGLLDIGQPKEG+                QIGKLKGCRV+G+AGG EKC+ A + LGFD C+DH A DFAEQLAK C  GIDIY+ENVGGKVFDAV+PLLNT ARIP+CGL+S YNAT LP GPDR+ +LMA +L KRI++QGFII  DYGHR  EF  +M QW+ + KIHYRE +  GLENAP  FIGLL+GKNFGK+V++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|111203</Hit_id>
+          <Hit_def>4B7X:1:A,B,C,D,E,F,G,H,I,J,K,L|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>111203</Hit_accession>
           <Hit_len>336</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
               <Hsp_bit-score>280.796</Hsp_bit-score>
               <Hsp_score>717</Hsp_score>
-              <Hsp_evalue>1.95087e-75</Hsp_evalue>
+              <Hsp_evalue>2.61472e-75</Hsp_evalue>
               <Hsp_query-from>6</Hsp_query-from>
               <Hsp_query-to>341</Hsp_query-to>
               <Hsp_hit-from>6</Hsp_hit-from>
@@ -81,17 +107,45 @@
           </Hit_hsps>
         </Hit>
         <Hit>
-          <Hit_num>3</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|153928</Hit_id>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|111179</Hit_id>
+          <Hit_def>4B7C:1:A,B,C,D,E,F,G,H,I,J,K,L|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>111179</Hit_accession>
+          <Hit_len>336</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>280.796</Hsp_bit-score>
+              <Hsp_score>717</Hsp_score>
+              <Hsp_evalue>2.61472e-75</Hsp_evalue>
+              <Hsp_query-from>6</Hsp_query-from>
+              <Hsp_query-to>341</Hsp_query-to>
+              <Hsp_hit-from>6</Hsp_hit-from>
+              <Hsp_hit-to>336</Hsp_hit-to>
+              <Hsp_query-frame>1</Hsp_query-frame>
+              <Hsp_hit-frame>1</Hsp_hit-frame>
+              <Hsp_identity>149</Hsp_identity>
+              <Hsp_positive>196</Hsp_positive>
+              <Hsp_gaps>5</Hsp_gaps>
+              <Hsp_align-len>336</Hsp_align-len>
+              <Hsp_qseq>QRNRRWVLASRPHGAPVPENFRLEEDDVATPGEGQVLLRTVYLSLDPYMRGRMSDEPSYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYDISSGDDLVKLGDHPQNPSWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHADDFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRV</Hsp_qseq>
+              <Hsp_hseq>QINRQYQLAQRPSGLPGRDTFSFVETPLGEPAEGQILVKNEYLSLDPAMRGWMNDARSYIPPVGIGEVMRALGVGKVLVSKHPGFQAGDYVNGALGVQDYFIGEPKGFYKVDPSRAPLPRYLSALGMTGMTAYFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCRVVGIAGGAEKCRFLVEELGFDGAIDYKNEDLAAGLKRECPKGIDVFFDNVGGEILDTVLTRIAFKARIVLCGAISQYNNKEAVRGPAN----YLSLLVNRARMEGMVV-MDYAQRFPEGLKEMATWLAEGKLQSREDIVEGLETFPETLLKLFSGENFGKLVLKV</Hsp_hseq>
+              <Hsp_midline>Q NR++ LA RP G P  + F   E  +  P EGQ+L++  YLSLDP MRG M+D  SY PPV IG VM    V +V+ S HP +Q+GD+V G  G QDY I       K+          L  LGM G TAY  LLD+GQPK GE                QI +LKGCRVVG+AGGAEKCR   E LGFD  +D+  +D A  L + CPKGID++++NVGG++ D VL  +   ARI +CG +S YN  E   GP        ++L  R R++G ++  DY  R  E  +EM  W+ E K+  RE+I +GLE  P+T + L  G+NFGK+V++V</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|153754</Hit_id>
           <Hit_def>4WGG:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>153928</Hit_accession>
+          <Hit_accession>153754</Hit_accession>
           <Hit_len>352</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
               <Hsp_bit-score>220.705</Hsp_bit-score>
               <Hsp_score>561</Hsp_score>
-              <Hsp_evalue>2.06175e-57</Hsp_evalue>
+              <Hsp_evalue>2.76334e-57</Hsp_evalue>
               <Hsp_query-from>17</Hsp_query-from>
               <Hsp_query-to>342</Hsp_query-to>
               <Hsp_hit-from>15</Hsp_hit-from>
@@ -109,73 +163,17 @@
           </Hit_hsps>
         </Hit>
         <Hit>
-          <Hit_num>4</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|153692</Hit_id>
-          <Hit_def>4WE3:1:A,B,C,D|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>153692</Hit_accession>
-          <Hit_len>358</Hit_len>
-          <Hit_hsps>
-            <Hsp>
-              <Hsp_num>1</Hsp_num>
-              <Hsp_bit-score>220.705</Hsp_bit-score>
-              <Hsp_score>561</Hsp_score>
-              <Hsp_evalue>2.11401e-57</Hsp_evalue>
-              <Hsp_query-from>17</Hsp_query-from>
-              <Hsp_query-to>342</Hsp_query-to>
-              <Hsp_hit-from>21</Hsp_hit-from>
-              <Hsp_hit-to>348</Hsp_hit-to>
-              <Hsp_query-frame>1</Hsp_query-frame>
-              <Hsp_hit-frame>1</Hsp_hit-frame>
-              <Hsp_identity>135</Hsp_identity>
-              <Hsp_positive>185</Hsp_positive>
-              <Hsp_gaps>16</Hsp_gaps>
-              <Hsp_align-len>335</Hsp_align-len>
-              <Hsp_qseq>PHGAPVPENFRLEEDDV----ATPGEGQVLLRTVYLSLDPYMRGRMS--DEPSYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYD-ISSGDDLVKLGDHPQNP-SWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHAD-DFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
-              <Hsp_hseq>PEGAPKETDMELVTTGTIRLRVPEGSNAVLLKNLYLSCDPYMRMRMTKHEEASYVDDFVPGAPITGFGVGKVVDSSHPDFKTGDYVWGLIGWEEYSLITKPQGLFKI-HHTEIPLSYYTGILGMVGLTAYVGFYDICSPKKGERVFVSAAAGAVGQIVGQFAKQFGCYVVGSAGSDEKVNLLKTKFGFDEAFNYKKEPDLTKALKRYFPEGIDIYFENVGGPMLEAVLHNMRIKGRIAACGMISQYN-LEKPEGVHNLFLIVG----KRIRLEGFLVFDHYG-SYPEFEEKVVQLIKEEKIKYLEDIVEGLENAPAALIGLFEGRNVGKQVVVVS</Hsp_hseq>
-              <Hsp_midline>P GAP   +  L            G   VLL+ +YLS DPYMR RM+  +E SY      G  + G  V +VV+S+HPD+++GD+V G  GW++Y  I+    L K+  H + P S+  G+LGM G TAY+G  DI  PK+GE                Q  K  GC VVG AG  EK        GFD   ++  + D  + L +  P+GIDIY+ENVGG + +AVL  +    RI  CG++S YN  E P G   L L++     KRIRL+GF++   YG    EF+ ++ Q +KE+KI Y E+I +GLENAP   IGL +G+N GK V+ V+</Hsp_midline>
-            </Hsp>
-          </Hit_hsps>
-        </Hit>
-        <Hit>
-          <Hit_num>5</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|131658</Hit_id>
-          <Hit_def>4NH4:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>131658</Hit_accession>
-          <Hit_len>358</Hit_len>
-          <Hit_hsps>
-            <Hsp>
-              <Hsp_num>1</Hsp_num>
-              <Hsp_bit-score>220.705</Hsp_bit-score>
-              <Hsp_score>561</Hsp_score>
-              <Hsp_evalue>2.11401e-57</Hsp_evalue>
-              <Hsp_query-from>17</Hsp_query-from>
-              <Hsp_query-to>342</Hsp_query-to>
-              <Hsp_hit-from>21</Hsp_hit-from>
-              <Hsp_hit-to>348</Hsp_hit-to>
-              <Hsp_query-frame>1</Hsp_query-frame>
-              <Hsp_hit-frame>1</Hsp_hit-frame>
-              <Hsp_identity>135</Hsp_identity>
-              <Hsp_positive>185</Hsp_positive>
-              <Hsp_gaps>16</Hsp_gaps>
-              <Hsp_align-len>335</Hsp_align-len>
-              <Hsp_qseq>PHGAPVPENFRLEEDDV----ATPGEGQVLLRTVYLSLDPYMRGRMS--DEPSYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYD-ISSGDDLVKLGDHPQNP-SWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHAD-DFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
-              <Hsp_hseq>PEGAPKETDMELVTTGTIRLRVPEGSNAVLLKNLYLSCDPYMRMRMTKHEEASYVDDFVPGAPITGFGVGKVVDSSHPDFKTGDYVWGLIGWEEYSLITKPQGLFKI-HHTEIPLSYYTGILGMVGLTAYVGFYDICSPKKGERVFVSAAAGAVGQIVGQFAKQFGCYVVGSAGSDEKVNLLKTKFGFDEAFNYKKEPDLTKALKRYFPEGIDIYFENVGGPMLEAVLHNMRIKGRIAACGMISQYN-LEKPEGVHNLFLIVG----KRIRLEGFLVFDHYG-SYPEFEEKVVQLIKEEKIKYLEDIVEGLENAPAALIGLFEGRNVGKQVVVVS</Hsp_hseq>
-              <Hsp_midline>P GAP   +  L            G   VLL+ +YLS DPYMR RM+  +E SY      G  + G  V +VV+S+HPD+++GD+V G  GW++Y  I+    L K+  H + P S+  G+LGM G TAY+G  DI  PK+GE                Q  K  GC VVG AG  EK        GFD   ++  + D  + L +  P+GIDIY+ENVGG + +AVL  +    RI  CG++S YN  E P G   L L++     KRIRL+GF++   YG    EF+ ++ Q +KE+KI Y E+I +GLENAP   IGL +G+N GK V+ V+</Hsp_midline>
-            </Hsp>
-          </Hit_hsps>
-        </Hit>
-        <Hit>
           <Hit_num>6</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|130283</Hit_id>
-          <Hit_def>4MKR:1:A,B,C,D|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>130283</Hit_accession>
+          <Hit_id>gnl|BL_ORD_ID|153518</Hit_id>
+          <Hit_def>4WE3:1:A,B,C,D|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>153518</Hit_accession>
           <Hit_len>358</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
               <Hsp_bit-score>220.705</Hsp_bit-score>
               <Hsp_score>561</Hsp_score>
-              <Hsp_evalue>2.11401e-57</Hsp_evalue>
+              <Hsp_evalue>2.83338e-57</Hsp_evalue>
               <Hsp_query-from>17</Hsp_query-from>
               <Hsp_query-to>342</Hsp_query-to>
               <Hsp_hit-from>21</Hsp_hit-from>
@@ -194,100 +192,100 @@
         </Hit>
         <Hit>
           <Hit_num>7</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|43183</Hit_id>
-          <Hit_def>2DM6:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>43183</Hit_accession>
-          <Hit_len>333</Hit_len>
+          <Hit_id>gnl|BL_ORD_ID|131512</Hit_id>
+          <Hit_def>4NH4:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>131512</Hit_accession>
+          <Hit_len>358</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
-              <Hsp_bit-score>213.772</Hsp_bit-score>
-              <Hsp_score>543</Hsp_score>
-              <Hsp_evalue>2.97802e-55</Hsp_evalue>
-              <Hsp_query-from>7</Hsp_query-from>
-              <Hsp_query-to>339</Hsp_query-to>
-              <Hsp_hit-from>7</Hsp_hit-from>
-              <Hsp_hit-to>331</Hsp_hit-to>
+              <Hsp_bit-score>220.705</Hsp_bit-score>
+              <Hsp_score>561</Hsp_score>
+              <Hsp_evalue>2.83338e-57</Hsp_evalue>
+              <Hsp_query-from>17</Hsp_query-from>
+              <Hsp_query-to>342</Hsp_query-to>
+              <Hsp_hit-from>21</Hsp_hit-from>
+              <Hsp_hit-to>348</Hsp_hit-to>
               <Hsp_query-frame>1</Hsp_query-frame>
               <Hsp_hit-frame>1</Hsp_hit-frame>
-              <Hsp_identity>126</Hsp_identity>
-              <Hsp_positive>180</Hsp_positive>
-              <Hsp_gaps>18</Hsp_gaps>
-              <Hsp_align-len>338</Hsp_align-len>
-              <Hsp_qseq>RNRRWVLASRPHGAPVPENFRLEEDDVATPGEGQVLLRTVYLSLDPYMRGRMSDEPSYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYDISSGDDLVKL-GDHPQNP--SWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHA-DDFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYN-ATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVI</Hsp_qseq>
-              <Hsp_hseq>KAKSWTLKKHFQGKPTQSDFELKTVELPPLKNGEVLLEALFLSVDPYMR-------IASKRLKEGAVMMGQQVARVVESKNSAFPAGSIVLAQSGWTTHFISDGKGLEKLLTEWPDKLPLSLALGTIGMPGLTAYFGLLEVCGVKGGETVLVSAAAGAVGSVVGQIAKLKGCKVVGAAGSDEKIAYLKQI-GFDAAFNYKTVNSLEEALKKASPDGYDCYFDNVGGEFLNTVLSQMKDFGKIAICGAISVYNRMDQLPPGPSP-----ESIIYKQLRIEGFIVYRWQGDVREKALRDLMKWVLEGKIQYHEHVTKGFENMPAAFIEMLNGANLGKAVV</Hsp_hseq>
-              <Hsp_midline>+ + W L     G P   +F L+  ++     G+VLL  ++LS+DPYMR         S  +  G VM+G  V+RVVES +  + +G  VL  SGW  + IS G  L KL  + P     S +LG +GMPG TAY GLL++   K GE                QI KLKGC+VVG AG  EK  +  ++ GFD   ++   +   E L KA P G D Y++NVGG+  + VL  +    +I +CG +S YN   +LPPGP        +++ K++R++GFI+ +  G    +  R++ +WV E KI Y E +T G EN P  FI +L G N GK V+</Hsp_midline>
+              <Hsp_identity>135</Hsp_identity>
+              <Hsp_positive>185</Hsp_positive>
+              <Hsp_gaps>16</Hsp_gaps>
+              <Hsp_align-len>335</Hsp_align-len>
+              <Hsp_qseq>PHGAPVPENFRLEEDDV----ATPGEGQVLLRTVYLSLDPYMRGRMS--DEPSYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYD-ISSGDDLVKLGDHPQNP-SWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHAD-DFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
+              <Hsp_hseq>PEGAPKETDMELVTTGTIRLRVPEGSNAVLLKNLYLSCDPYMRMRMTKHEEASYVDDFVPGAPITGFGVGKVVDSSHPDFKTGDYVWGLIGWEEYSLITKPQGLFKI-HHTEIPLSYYTGILGMVGLTAYVGFYDICSPKKGERVFVSAAAGAVGQIVGQFAKQFGCYVVGSAGSDEKVNLLKTKFGFDEAFNYKKEPDLTKALKRYFPEGIDIYFENVGGPMLEAVLHNMRIKGRIAACGMISQYN-LEKPEGVHNLFLIVG----KRIRLEGFLVFDHYG-SYPEFEEKVVQLIKEEKIKYLEDIVEGLENAPAALIGLFEGRNVGKQVVVVS</Hsp_hseq>
+              <Hsp_midline>P GAP   +  L            G   VLL+ +YLS DPYMR RM+  +E SY      G  + G  V +VV+S+HPD+++GD+V G  GW++Y  I+    L K+  H + P S+  G+LGM G TAY+G  DI  PK+GE                Q  K  GC VVG AG  EK        GFD   ++  + D  + L +  P+GIDIY+ENVGG + +AVL  +    RI  CG++S YN  E P G   L L++     KRIRL+GF++   YG    EF+ ++ Q +KE+KI Y E+I +GLENAP   IGL +G+N GK V+ V+</Hsp_midline>
             </Hsp>
           </Hit_hsps>
         </Hit>
         <Hit>
           <Hit_num>8</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|30701</Hit_id>
-          <Hit_def>1V3V:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>30701</Hit_accession>
-          <Hit_len>333</Hit_len>
+          <Hit_id>gnl|BL_ORD_ID|130140</Hit_id>
+          <Hit_def>4MKR:1:A,B,C,D|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>130140</Hit_accession>
+          <Hit_len>358</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
-              <Hsp_bit-score>213.772</Hsp_bit-score>
-              <Hsp_score>543</Hsp_score>
-              <Hsp_evalue>2.97802e-55</Hsp_evalue>
-              <Hsp_query-from>7</Hsp_query-from>
-              <Hsp_query-to>339</Hsp_query-to>
-              <Hsp_hit-from>7</Hsp_hit-from>
-              <Hsp_hit-to>331</Hsp_hit-to>
+              <Hsp_bit-score>220.705</Hsp_bit-score>
+              <Hsp_score>561</Hsp_score>
+              <Hsp_evalue>2.83338e-57</Hsp_evalue>
+              <Hsp_query-from>17</Hsp_query-from>
+              <Hsp_query-to>342</Hsp_query-to>
+              <Hsp_hit-from>21</Hsp_hit-from>
+              <Hsp_hit-to>348</Hsp_hit-to>
               <Hsp_query-frame>1</Hsp_query-frame>
               <Hsp_hit-frame>1</Hsp_hit-frame>
-              <Hsp_identity>126</Hsp_identity>
-              <Hsp_positive>180</Hsp_positive>
-              <Hsp_gaps>18</Hsp_gaps>
-              <Hsp_align-len>338</Hsp_align-len>
-              <Hsp_qseq>RNRRWVLASRPHGAPVPENFRLEEDDVATPGEGQVLLRTVYLSLDPYMRGRMSDEPSYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYDISSGDDLVKL-GDHPQNP--SWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHA-DDFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYN-ATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVI</Hsp_qseq>
-              <Hsp_hseq>KAKSWTLKKHFQGKPTQSDFELKTVELPPLKNGEVLLEALFLSVDPYMR-------IASKRLKEGAVMMGQQVARVVESKNSAFPAGSIVLAQSGWTTHFISDGKGLEKLLTEWPDKLPLSLALGTIGMPGLTAYFGLLEVCGVKGGETVLVSAAAGAVGSVVGQIAKLKGCKVVGAAGSDEKIAYLKQI-GFDAAFNYKTVNSLEEALKKASPDGYDCYFDNVGGEFLNTVLSQMKDFGKIAICGAISVYNRMDQLPPGPSP-----ESIIYKQLRIEGFIVYRWQGDVREKALRDLMKWVLEGKIQYHEHVTKGFENMPAAFIEMLNGANLGKAVV</Hsp_hseq>
-              <Hsp_midline>+ + W L     G P   +F L+  ++     G+VLL  ++LS+DPYMR         S  +  G VM+G  V+RVVES +  + +G  VL  SGW  + IS G  L KL  + P     S +LG +GMPG TAY GLL++   K GE                QI KLKGC+VVG AG  EK  +  ++ GFD   ++   +   E L KA P G D Y++NVGG+  + VL  +    +I +CG +S YN   +LPPGP        +++ K++R++GFI+ +  G    +  R++ +WV E KI Y E +T G EN P  FI +L G N GK V+</Hsp_midline>
+              <Hsp_identity>135</Hsp_identity>
+              <Hsp_positive>185</Hsp_positive>
+              <Hsp_gaps>16</Hsp_gaps>
+              <Hsp_align-len>335</Hsp_align-len>
+              <Hsp_qseq>PHGAPVPENFRLEEDDV----ATPGEGQVLLRTVYLSLDPYMRGRMS--DEPSYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYD-ISSGDDLVKLGDHPQNP-SWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHAD-DFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
+              <Hsp_hseq>PEGAPKETDMELVTTGTIRLRVPEGSNAVLLKNLYLSCDPYMRMRMTKHEEASYVDDFVPGAPITGFGVGKVVDSSHPDFKTGDYVWGLIGWEEYSLITKPQGLFKI-HHTEIPLSYYTGILGMVGLTAYVGFYDICSPKKGERVFVSAAAGAVGQIVGQFAKQFGCYVVGSAGSDEKVNLLKTKFGFDEAFNYKKEPDLTKALKRYFPEGIDIYFENVGGPMLEAVLHNMRIKGRIAACGMISQYN-LEKPEGVHNLFLIVG----KRIRLEGFLVFDHYG-SYPEFEEKVVQLIKEEKIKYLEDIVEGLENAPAALIGLFEGRNVGKQVVVVS</Hsp_hseq>
+              <Hsp_midline>P GAP   +  L            G   VLL+ +YLS DPYMR RM+  +E SY      G  + G  V +VV+S+HPD+++GD+V G  GW++Y  I+    L K+  H + P S+  G+LGM G TAY+G  DI  PK+GE                Q  K  GC VVG AG  EK        GFD   ++  + D  + L +  P+GIDIY+ENVGG + +AVL  +    RI  CG++S YN  E P G   L L++     KRIRL+GF++   YG    EF+ ++ Q +KE+KI Y E+I +GLENAP   IGL +G+N GK V+ V+</Hsp_midline>
             </Hsp>
           </Hit_hsps>
         </Hit>
         <Hit>
           <Hit_num>9</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|30700</Hit_id>
-          <Hit_def>1V3U:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>30700</Hit_accession>
-          <Hit_len>333</Hit_len>
+          <Hit_id>gnl|BL_ORD_ID|224367</Hit_id>
+          <Hit_def>6EOW:1:A,B,C,D|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>224367</Hit_accession>
+          <Hit_len>368</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
-              <Hsp_bit-score>213.772</Hsp_bit-score>
-              <Hsp_score>543</Hsp_score>
-              <Hsp_evalue>2.97802e-55</Hsp_evalue>
-              <Hsp_query-from>7</Hsp_query-from>
-              <Hsp_query-to>339</Hsp_query-to>
-              <Hsp_hit-from>7</Hsp_hit-from>
-              <Hsp_hit-to>331</Hsp_hit-to>
+              <Hsp_bit-score>215.698</Hsp_bit-score>
+              <Hsp_score>548</Hsp_score>
+              <Hsp_evalue>8.88935e-56</Hsp_evalue>
+              <Hsp_query-from>2</Hsp_query-from>
+              <Hsp_query-to>342</Hsp_query-to>
+              <Hsp_hit-from>25</Hsp_hit-from>
+              <Hsp_hit-to>366</Hsp_hit-to>
               <Hsp_query-frame>1</Hsp_query-frame>
               <Hsp_hit-frame>1</Hsp_hit-frame>
-              <Hsp_identity>126</Hsp_identity>
-              <Hsp_positive>180</Hsp_positive>
-              <Hsp_gaps>18</Hsp_gaps>
-              <Hsp_align-len>338</Hsp_align-len>
-              <Hsp_qseq>RNRRWVLASRPHGAPVPENFRLEEDDVATPGEGQVLLRTVYLSLDPYMRGRMSDEPSYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYDISSGDDLVKL-GDHPQNP--SWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHA-DDFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYN-ATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVI</Hsp_qseq>
-              <Hsp_hseq>KAKSWTLKKHFQGKPTQSDFELKTVELPPLKNGEVLLEALFLSVDPYMR-------IASKRLKEGAVMMGQQVARVVESKNSAFPAGSIVLAQSGWTTHFISDGKGLEKLLTEWPDKLPLSLALGTIGMPGLTAYFGLLEVCGVKGGETVLVSAAAGAVGSVVGQIAKLKGCKVVGAAGSDEKIAYLKQI-GFDAAFNYKTVNSLEEALKKASPDGYDCYFDNVGGEFLNTVLSQMKDFGKIAICGAISVYNRMDQLPPGPSP-----ESIIYKQLRIEGFIVYRWQGDVREKALRDLMKWVLEGKIQYHEHVTKGFENMPAAFIEMLNGANLGKAVV</Hsp_hseq>
-              <Hsp_midline>+ + W L     G P   +F L+  ++     G+VLL  ++LS+DPYMR         S  +  G VM+G  V+RVVES +  + +G  VL  SGW  + IS G  L KL  + P     S +LG +GMPG TAY GLL++   K GE                QI KLKGC+VVG AG  EK  +  ++ GFD   ++   +   E L KA P G D Y++NVGG+  + VL  +    +I +CG +S YN   +LPPGP        +++ K++R++GFI+ +  G    +  R++ +WV E KI Y E +T G EN P  FI +L G N GK V+</Hsp_midline>
+              <Hsp_identity>127</Hsp_identity>
+              <Hsp_positive>189</Hsp_positive>
+              <Hsp_gaps>13</Hsp_gaps>
+              <Hsp_align-len>348</Hsp_align-len>
+              <Hsp_qseq>GQQKQRNRRWVLASRPHGAPVPENFRLEEDDVATP---GEGQVLLRTVYLSLDPYMRGRMSDEP--SYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYD-ISSGDDLVKLGDHPQNPSWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHAD-DFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
+              <Hsp_hseq>GEMQVSNKQVIFRDYVTGFPKESDMELTTRSITLKLPQGSTGLLLKNLYLSCDPYMRARMTNHHRLSYVDSFKPGSPIIGYGVARVLESGNPKFNPGDLVWGFTGWEEYSVITATESLFKIHNTDVPLSYYTGLLGMPGMTAYAGFYEICSPKKGETVYVSAASGAVGQLVGQFAKLTGCYVVGSAGSKEKVDLLKNKFGFDEAFNYKEEADLDAALRRYFPDGIDIYFENVGGKMLDAVLPNMRPKGRIAVCGMISQYNLEQ----PEGVRNLMALIVKQ-VRMEGFMVFS-YYHLYGKFLETVLPYIKQGKITYVEDVVDGLDNAPAALIGLYSGRNVGKQVVVVS</Hsp_hseq>
+              <Hsp_midline>G+ +  N++ +      G P   +  L    +      G   +LL+ +YLS DPYMR RM++    SY      G  ++G  V+RV+ES +P +  GD V G++GW++Y  I++ + L K+ +     S+  G+LGMPG TAY G  +I  PK+GE                Q  KL GC VVG AG  EK        GFD   ++  + D    L +  P GIDIY+ENVGGK+ DAVLP +    RI VCG++S YN  +    P+ +  LMA ++K+ +R++GF++   Y H   +F   +  ++K+ KI Y E++ DGL+NAP   IGL  G+N GK V+ V+</Hsp_midline>
             </Hsp>
           </Hit_hsps>
         </Hit>
         <Hit>
           <Hit_num>10</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|30699</Hit_id>
-          <Hit_def>1V3T:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>30699</Hit_accession>
+          <Hit_id>gnl|BL_ORD_ID|43126</Hit_id>
+          <Hit_def>2DM6:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>43126</Hit_accession>
           <Hit_len>333</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
               <Hsp_bit-score>213.772</Hsp_bit-score>
               <Hsp_score>543</Hsp_score>
-              <Hsp_evalue>2.97802e-55</Hsp_evalue>
+              <Hsp_evalue>3.99141e-55</Hsp_evalue>
               <Hsp_query-from>7</Hsp_query-from>
               <Hsp_query-to>339</Hsp_query-to>
               <Hsp_hit-from>7</Hsp_hit-from>
@@ -306,100 +304,100 @@
         </Hit>
         <Hit>
           <Hit_num>11</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|50601</Hit_id>
-          <Hit_def>2J3K:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>50601</Hit_accession>
-          <Hit_len>345</Hit_len>
+          <Hit_id>gnl|BL_ORD_ID|30666</Hit_id>
+          <Hit_def>1V3V:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>30666</Hit_accession>
+          <Hit_len>333</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
-              <Hsp_bit-score>209.149</Hsp_bit-score>
-              <Hsp_score>531</Hsp_score>
-              <Hsp_evalue>7.58406e-54</Hsp_evalue>
-              <Hsp_query-from>8</Hsp_query-from>
-              <Hsp_query-to>342</Hsp_query-to>
-              <Hsp_hit-from>5</Hsp_hit-from>
-              <Hsp_hit-to>343</Hsp_hit-to>
+              <Hsp_bit-score>213.772</Hsp_bit-score>
+              <Hsp_score>543</Hsp_score>
+              <Hsp_evalue>3.99141e-55</Hsp_evalue>
+              <Hsp_query-from>7</Hsp_query-from>
+              <Hsp_query-to>339</Hsp_query-to>
+              <Hsp_hit-from>7</Hsp_hit-from>
+              <Hsp_hit-to>331</Hsp_hit-to>
               <Hsp_query-frame>1</Hsp_query-frame>
               <Hsp_hit-frame>1</Hsp_hit-frame>
-              <Hsp_identity>130</Hsp_identity>
-              <Hsp_positive>181</Hsp_positive>
-              <Hsp_gaps>24</Hsp_gaps>
-              <Hsp_align-len>349</Hsp_align-len>
-              <Hsp_qseq>NRRWVLASRPHGAPVPENFRLEEDDV---ATPGEGQVLLRTVYLSLDPYMRGRMSD-EPS-------YSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYDISSGDDLVKLG-DHPQNP-SWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHAD-DFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
-              <Hsp_hseq>NKQVILKDYVSGFPTESDFDFTTTTVELRVPEGTNSVLVKNLYLSCDPYMRIRMGKPDPSTAALAQAYTP----GQPIQGYGVSRIIESGHPDYKKGDLLWGIVAWEEYSVITPMTHAHFKIQHTDVPLSYYTGLLGMPGMTAYAGFYEVCSPKEGETVYVSAASGAVGQLVGQLAKMMGCYVVGSAGSKEKVDLLKTKFGFDDAFNYKEESDLTAALKRCFPNGIDIYFENVGGKMLDAVLVNMNMHGRIAVCGMISQYN-LENQEGVHNL----SNIIYKRNRIQGFVVS-DFYDKYSKFLEFVLPHIREGKITYVEDVADGLEKAPEALVGLFHGKNVGKQVVVVA</Hsp_hseq>
-              <Hsp_midline>N++ +L     G P   +F      V      G   VL++ +YLS DPYMR RM   +PS       Y+P    G  + G  VSR++ES HPDY+ GD + G   W++Y + +          H   P S+  G+LGMPG TAY G  ++  PKEGE                Q+ K+ GC VVG AG  EK        GFD   ++  + D    L +  P GIDIY+ENVGGK+ DAVL  +N   RI VCG++S YN  E   G   L    + ++ KR R+QGF+++ D+  +  +F   +   ++E KI Y E++ DGLE AP+  +GL  GKN GK V+ VA</Hsp_midline>
+              <Hsp_identity>126</Hsp_identity>
+              <Hsp_positive>180</Hsp_positive>
+              <Hsp_gaps>18</Hsp_gaps>
+              <Hsp_align-len>338</Hsp_align-len>
+              <Hsp_qseq>RNRRWVLASRPHGAPVPENFRLEEDDVATPGEGQVLLRTVYLSLDPYMRGRMSDEPSYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYDISSGDDLVKL-GDHPQNP--SWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHA-DDFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYN-ATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVI</Hsp_qseq>
+              <Hsp_hseq>KAKSWTLKKHFQGKPTQSDFELKTVELPPLKNGEVLLEALFLSVDPYMR-------IASKRLKEGAVMMGQQVARVVESKNSAFPAGSIVLAQSGWTTHFISDGKGLEKLLTEWPDKLPLSLALGTIGMPGLTAYFGLLEVCGVKGGETVLVSAAAGAVGSVVGQIAKLKGCKVVGAAGSDEKIAYLKQI-GFDAAFNYKTVNSLEEALKKASPDGYDCYFDNVGGEFLNTVLSQMKDFGKIAICGAISVYNRMDQLPPGPSP-----ESIIYKQLRIEGFIVYRWQGDVREKALRDLMKWVLEGKIQYHEHVTKGFENMPAAFIEMLNGANLGKAVV</Hsp_hseq>
+              <Hsp_midline>+ + W L     G P   +F L+  ++     G+VLL  ++LS+DPYMR         S  +  G VM+G  V+RVVES +  + +G  VL  SGW  + IS G  L KL  + P     S +LG +GMPG TAY GLL++   K GE                QI KLKGC+VVG AG  EK  +  ++ GFD   ++   +   E L KA P G D Y++NVGG+  + VL  +    +I +CG +S YN   +LPPGP        +++ K++R++GFI+ +  G    +  R++ +WV E KI Y E +T G EN P  FI +L G N GK V+</Hsp_midline>
             </Hsp>
           </Hit_hsps>
         </Hit>
         <Hit>
           <Hit_num>12</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|50600</Hit_id>
-          <Hit_def>2J3J:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>50600</Hit_accession>
-          <Hit_len>345</Hit_len>
+          <Hit_id>gnl|BL_ORD_ID|30665</Hit_id>
+          <Hit_def>1V3U:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>30665</Hit_accession>
+          <Hit_len>333</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
-              <Hsp_bit-score>209.149</Hsp_bit-score>
-              <Hsp_score>531</Hsp_score>
-              <Hsp_evalue>7.58406e-54</Hsp_evalue>
-              <Hsp_query-from>8</Hsp_query-from>
-              <Hsp_query-to>342</Hsp_query-to>
-              <Hsp_hit-from>5</Hsp_hit-from>
-              <Hsp_hit-to>343</Hsp_hit-to>
+              <Hsp_bit-score>213.772</Hsp_bit-score>
+              <Hsp_score>543</Hsp_score>
+              <Hsp_evalue>3.99141e-55</Hsp_evalue>
+              <Hsp_query-from>7</Hsp_query-from>
+              <Hsp_query-to>339</Hsp_query-to>
+              <Hsp_hit-from>7</Hsp_hit-from>
+              <Hsp_hit-to>331</Hsp_hit-to>
               <Hsp_query-frame>1</Hsp_query-frame>
               <Hsp_hit-frame>1</Hsp_hit-frame>
-              <Hsp_identity>130</Hsp_identity>
-              <Hsp_positive>181</Hsp_positive>
-              <Hsp_gaps>24</Hsp_gaps>
-              <Hsp_align-len>349</Hsp_align-len>
-              <Hsp_qseq>NRRWVLASRPHGAPVPENFRLEEDDV---ATPGEGQVLLRTVYLSLDPYMRGRMSD-EPS-------YSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYDISSGDDLVKLG-DHPQNP-SWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHAD-DFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
-              <Hsp_hseq>NKQVILKDYVSGFPTESDFDFTTTTVELRVPEGTNSVLVKNLYLSCDPYMRIRMGKPDPSTAALAQAYTP----GQPIQGYGVSRIIESGHPDYKKGDLLWGIVAWEEYSVITPMTHAHFKIQHTDVPLSYYTGLLGMPGMTAYAGFYEVCSPKEGETVYVSAASGAVGQLVGQLAKMMGCYVVGSAGSKEKVDLLKTKFGFDDAFNYKEESDLTAALKRCFPNGIDIYFENVGGKMLDAVLVNMNMHGRIAVCGMISQYN-LENQEGVHNL----SNIIYKRNRIQGFVVS-DFYDKYSKFLEFVLPHIREGKITYVEDVADGLEKAPEALVGLFHGKNVGKQVVVVA</Hsp_hseq>
-              <Hsp_midline>N++ +L     G P   +F      V      G   VL++ +YLS DPYMR RM   +PS       Y+P    G  + G  VSR++ES HPDY+ GD + G   W++Y + +          H   P S+  G+LGMPG TAY G  ++  PKEGE                Q+ K+ GC VVG AG  EK        GFD   ++  + D    L +  P GIDIY+ENVGGK+ DAVL  +N   RI VCG++S YN  E   G   L    + ++ KR R+QGF+++ D+  +  +F   +   ++E KI Y E++ DGLE AP+  +GL  GKN GK V+ VA</Hsp_midline>
+              <Hsp_identity>126</Hsp_identity>
+              <Hsp_positive>180</Hsp_positive>
+              <Hsp_gaps>18</Hsp_gaps>
+              <Hsp_align-len>338</Hsp_align-len>
+              <Hsp_qseq>RNRRWVLASRPHGAPVPENFRLEEDDVATPGEGQVLLRTVYLSLDPYMRGRMSDEPSYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYDISSGDDLVKL-GDHPQNP--SWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHA-DDFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYN-ATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVI</Hsp_qseq>
+              <Hsp_hseq>KAKSWTLKKHFQGKPTQSDFELKTVELPPLKNGEVLLEALFLSVDPYMR-------IASKRLKEGAVMMGQQVARVVESKNSAFPAGSIVLAQSGWTTHFISDGKGLEKLLTEWPDKLPLSLALGTIGMPGLTAYFGLLEVCGVKGGETVLVSAAAGAVGSVVGQIAKLKGCKVVGAAGSDEKIAYLKQI-GFDAAFNYKTVNSLEEALKKASPDGYDCYFDNVGGEFLNTVLSQMKDFGKIAICGAISVYNRMDQLPPGPSP-----ESIIYKQLRIEGFIVYRWQGDVREKALRDLMKWVLEGKIQYHEHVTKGFENMPAAFIEMLNGANLGKAVV</Hsp_hseq>
+              <Hsp_midline>+ + W L     G P   +F L+  ++     G+VLL  ++LS+DPYMR         S  +  G VM+G  V+RVVES +  + +G  VL  SGW  + IS G  L KL  + P     S +LG +GMPG TAY GLL++   K GE                QI KLKGC+VVG AG  EK  +  ++ GFD   ++   +   E L KA P G D Y++NVGG+  + VL  +    +I +CG +S YN   +LPPGP        +++ K++R++GFI+ +  G    +  R++ +WV E KI Y E +T G EN P  FI +L G N GK V+</Hsp_midline>
             </Hsp>
           </Hit_hsps>
         </Hit>
         <Hit>
           <Hit_num>13</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|50599</Hit_id>
-          <Hit_def>2J3I:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>50599</Hit_accession>
-          <Hit_len>345</Hit_len>
+          <Hit_id>gnl|BL_ORD_ID|30664</Hit_id>
+          <Hit_def>1V3T:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>30664</Hit_accession>
+          <Hit_len>333</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
-              <Hsp_bit-score>209.149</Hsp_bit-score>
-              <Hsp_score>531</Hsp_score>
-              <Hsp_evalue>7.58406e-54</Hsp_evalue>
-              <Hsp_query-from>8</Hsp_query-from>
-              <Hsp_query-to>342</Hsp_query-to>
-              <Hsp_hit-from>5</Hsp_hit-from>
-              <Hsp_hit-to>343</Hsp_hit-to>
+              <Hsp_bit-score>213.772</Hsp_bit-score>
+              <Hsp_score>543</Hsp_score>
+              <Hsp_evalue>3.99141e-55</Hsp_evalue>
+              <Hsp_query-from>7</Hsp_query-from>
+              <Hsp_query-to>339</Hsp_query-to>
+              <Hsp_hit-from>7</Hsp_hit-from>
+              <Hsp_hit-to>331</Hsp_hit-to>
               <Hsp_query-frame>1</Hsp_query-frame>
               <Hsp_hit-frame>1</Hsp_hit-frame>
-              <Hsp_identity>130</Hsp_identity>
-              <Hsp_positive>181</Hsp_positive>
-              <Hsp_gaps>24</Hsp_gaps>
-              <Hsp_align-len>349</Hsp_align-len>
-              <Hsp_qseq>NRRWVLASRPHGAPVPENFRLEEDDV---ATPGEGQVLLRTVYLSLDPYMRGRMSD-EPS-------YSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYDISSGDDLVKLG-DHPQNP-SWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHAD-DFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
-              <Hsp_hseq>NKQVILKDYVSGFPTESDFDFTTTTVELRVPEGTNSVLVKNLYLSCDPYMRIRMGKPDPSTAALAQAYTP----GQPIQGYGVSRIIESGHPDYKKGDLLWGIVAWEEYSVITPMTHAHFKIQHTDVPLSYYTGLLGMPGMTAYAGFYEVCSPKEGETVYVSAASGAVGQLVGQLAKMMGCYVVGSAGSKEKVDLLKTKFGFDDAFNYKEESDLTAALKRCFPNGIDIYFENVGGKMLDAVLVNMNMHGRIAVCGMISQYN-LENQEGVHNL----SNIIYKRNRIQGFVVS-DFYDKYSKFLEFVLPHIREGKITYVEDVADGLEKAPEALVGLFHGKNVGKQVVVVA</Hsp_hseq>
-              <Hsp_midline>N++ +L     G P   +F      V      G   VL++ +YLS DPYMR RM   +PS       Y+P    G  + G  VSR++ES HPDY+ GD + G   W++Y + +          H   P S+  G+LGMPG TAY G  ++  PKEGE                Q+ K+ GC VVG AG  EK        GFD   ++  + D    L +  P GIDIY+ENVGGK+ DAVL  +N   RI VCG++S YN  E   G   L    + ++ KR R+QGF+++ D+  +  +F   +   ++E KI Y E++ DGLE AP+  +GL  GKN GK V+ VA</Hsp_midline>
+              <Hsp_identity>126</Hsp_identity>
+              <Hsp_positive>180</Hsp_positive>
+              <Hsp_gaps>18</Hsp_gaps>
+              <Hsp_align-len>338</Hsp_align-len>
+              <Hsp_qseq>RNRRWVLASRPHGAPVPENFRLEEDDVATPGEGQVLLRTVYLSLDPYMRGRMSDEPSYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYDISSGDDLVKL-GDHPQNP--SWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHA-DDFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYN-ATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVI</Hsp_qseq>
+              <Hsp_hseq>KAKSWTLKKHFQGKPTQSDFELKTVELPPLKNGEVLLEALFLSVDPYMR-------IASKRLKEGAVMMGQQVARVVESKNSAFPAGSIVLAQSGWTTHFISDGKGLEKLLTEWPDKLPLSLALGTIGMPGLTAYFGLLEVCGVKGGETVLVSAAAGAVGSVVGQIAKLKGCKVVGAAGSDEKIAYLKQI-GFDAAFNYKTVNSLEEALKKASPDGYDCYFDNVGGEFLNTVLSQMKDFGKIAICGAISVYNRMDQLPPGPSP-----ESIIYKQLRIEGFIVYRWQGDVREKALRDLMKWVLEGKIQYHEHVTKGFENMPAAFIEMLNGANLGKAVV</Hsp_hseq>
+              <Hsp_midline>+ + W L     G P   +F L+  ++     G+VLL  ++LS+DPYMR         S  +  G VM+G  V+RVVES +  + +G  VL  SGW  + IS G  L KL  + P     S +LG +GMPG TAY GLL++   K GE                QI KLKGC+VVG AG  EK  +  ++ GFD   ++   +   E L KA P G D Y++NVGG+  + VL  +    +I +CG +S YN   +LPPGP        +++ K++R++GFI+ +  G    +  R++ +WV E KI Y E +T G EN P  FI +L G N GK V+</Hsp_midline>
             </Hsp>
           </Hit_hsps>
         </Hit>
         <Hit>
           <Hit_num>14</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|50598</Hit_id>
-          <Hit_def>2J3H:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>50598</Hit_accession>
+          <Hit_id>gnl|BL_ORD_ID|50545</Hit_id>
+          <Hit_def>2J3K:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>50545</Hit_accession>
           <Hit_len>345</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
               <Hsp_bit-score>209.149</Hsp_bit-score>
               <Hsp_score>531</Hsp_score>
-              <Hsp_evalue>7.58406e-54</Hsp_evalue>
+              <Hsp_evalue>1.01648e-53</Hsp_evalue>
               <Hsp_query-from>8</Hsp_query-from>
               <Hsp_query-to>342</Hsp_query-to>
               <Hsp_hit-from>5</Hsp_hit-from>
@@ -418,104 +416,104 @@
         </Hit>
         <Hit>
           <Hit_num>15</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|64697</Hit_id>
-          <Hit_def>2W98:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>64697</Hit_accession>
-          <Hit_len>357</Hit_len>
+          <Hit_id>gnl|BL_ORD_ID|50544</Hit_id>
+          <Hit_def>2J3J:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>50544</Hit_accession>
+          <Hit_len>345</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
-              <Hsp_bit-score>203.756</Hsp_bit-score>
-              <Hsp_score>517</Hsp_score>
-              <Hsp_evalue>2.81151e-52</Hsp_evalue>
-              <Hsp_query-from>9</Hsp_query-from>
+              <Hsp_bit-score>209.149</Hsp_bit-score>
+              <Hsp_score>531</Hsp_score>
+              <Hsp_evalue>1.01648e-53</Hsp_evalue>
+              <Hsp_query-from>8</Hsp_query-from>
               <Hsp_query-to>342</Hsp_query-to>
               <Hsp_hit-from>5</Hsp_hit-from>
-              <Hsp_hit-to>347</Hsp_hit-to>
+              <Hsp_hit-to>343</Hsp_hit-to>
               <Hsp_query-frame>1</Hsp_query-frame>
               <Hsp_hit-frame>1</Hsp_hit-frame>
-              <Hsp_identity>127</Hsp_identity>
-              <Hsp_positive>191</Hsp_positive>
-              <Hsp_gaps>21</Hsp_gaps>
+              <Hsp_identity>130</Hsp_identity>
+              <Hsp_positive>181</Hsp_positive>
+              <Hsp_gaps>24</Hsp_gaps>
               <Hsp_align-len>349</Hsp_align-len>
-              <Hsp_qseq>RRWVLASRP--HGAPVPENFRLEEDDVATP---GEGQVLLRTVYLSLDPYMRGRMSDEP--SYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLG-YSGWQDYDISSGDDLVKLGDHPQ----NPSWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXX--XXXXQIGKLKGC-RVVGVAGGAEKCRHATEVLGFDVCLDHHADDFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
-              <Hsp_hseq>QRVVLNSRPGKNGNPVAENFRMEE--VYLPDNINEGQVQVRTLYLSVDPYMRCRMNEDTGTDYITPWQLSQVVDGGGIGIIEESKHTNLTKGDFVTSFYWPWQTKVILDGNSLEKV--DPQLVDGHLSYFLGAIGMPGLTSLIGIQEKGHITAGSNKTMVVSGAAGACGSVAGQIGHFLGCSRVVGICGTHEKCILLTSELGFDAAINYKKDNVAEQLRESCPAGVDVYFDNVGGNISDTVISQMNENSHIILCGQISQYN-KDVPYPPPLSPAIEAIQKERNITRERFLVL-NYKDKFEPGILQLSQWFKEGKLKIKETVINGLENMGAAFQSMMTGGNIGKQIVCIS</Hsp_hseq>
-              <Hsp_midline>+R VL SRP  +G PV ENFR+EE  V  P    EGQV +RT+YLS+DPYMR RM+++    Y  P  +  V+ GG +  + ES H +   GD+V   Y  WQ   I  G+ L K+   PQ    + S+ LG +GMPG T+ +G+ + G    G                   QIG   GC RVVG+ G  EKC   T  LGFD  +++  D+ AEQL ++CP G+D+Y++NVGG + D V+  +N ++ I +CG +S YN  ++P  P   P + A   ++ I  + F++  +Y  +      ++ QW KE K+  +E + +GLEN    F  ++ G N GK ++ ++</Hsp_midline>
+              <Hsp_qseq>NRRWVLASRPHGAPVPENFRLEEDDV---ATPGEGQVLLRTVYLSLDPYMRGRMSD-EPS-------YSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYDISSGDDLVKLG-DHPQNP-SWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHAD-DFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
+              <Hsp_hseq>NKQVILKDYVSGFPTESDFDFTTTTVELRVPEGTNSVLVKNLYLSCDPYMRIRMGKPDPSTAALAQAYTP----GQPIQGYGVSRIIESGHPDYKKGDLLWGIVAWEEYSVITPMTHAHFKIQHTDVPLSYYTGLLGMPGMTAYAGFYEVCSPKEGETVYVSAASGAVGQLVGQLAKMMGCYVVGSAGSKEKVDLLKTKFGFDDAFNYKEESDLTAALKRCFPNGIDIYFENVGGKMLDAVLVNMNMHGRIAVCGMISQYN-LENQEGVHNL----SNIIYKRNRIQGFVVS-DFYDKYSKFLEFVLPHIREGKITYVEDVADGLEKAPEALVGLFHGKNVGKQVVVVA</Hsp_hseq>
+              <Hsp_midline>N++ +L     G P   +F      V      G   VL++ +YLS DPYMR RM   +PS       Y+P    G  + G  VSR++ES HPDY+ GD + G   W++Y + +          H   P S+  G+LGMPG TAY G  ++  PKEGE                Q+ K+ GC VVG AG  EK        GFD   ++  + D    L +  P GIDIY+ENVGGK+ DAVL  +N   RI VCG++S YN  E   G   L    + ++ KR R+QGF+++ D+  +  +F   +   ++E KI Y E++ DGLE AP+  +GL  GKN GK V+ VA</Hsp_midline>
             </Hsp>
           </Hit_hsps>
         </Hit>
         <Hit>
           <Hit_num>16</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|64491</Hit_id>
-          <Hit_def>2W4Q:1:A|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>64491</Hit_accession>
-          <Hit_len>357</Hit_len>
+          <Hit_id>gnl|BL_ORD_ID|50543</Hit_id>
+          <Hit_def>2J3I:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>50543</Hit_accession>
+          <Hit_len>345</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
-              <Hsp_bit-score>203.756</Hsp_bit-score>
-              <Hsp_score>517</Hsp_score>
-              <Hsp_evalue>2.81151e-52</Hsp_evalue>
-              <Hsp_query-from>9</Hsp_query-from>
+              <Hsp_bit-score>209.149</Hsp_bit-score>
+              <Hsp_score>531</Hsp_score>
+              <Hsp_evalue>1.01648e-53</Hsp_evalue>
+              <Hsp_query-from>8</Hsp_query-from>
               <Hsp_query-to>342</Hsp_query-to>
               <Hsp_hit-from>5</Hsp_hit-from>
-              <Hsp_hit-to>347</Hsp_hit-to>
+              <Hsp_hit-to>343</Hsp_hit-to>
               <Hsp_query-frame>1</Hsp_query-frame>
               <Hsp_hit-frame>1</Hsp_hit-frame>
-              <Hsp_identity>127</Hsp_identity>
-              <Hsp_positive>191</Hsp_positive>
-              <Hsp_gaps>21</Hsp_gaps>
+              <Hsp_identity>130</Hsp_identity>
+              <Hsp_positive>181</Hsp_positive>
+              <Hsp_gaps>24</Hsp_gaps>
               <Hsp_align-len>349</Hsp_align-len>
-              <Hsp_qseq>RRWVLASRP--HGAPVPENFRLEEDDVATP---GEGQVLLRTVYLSLDPYMRGRMSDEP--SYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLG-YSGWQDYDISSGDDLVKLGDHPQ----NPSWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXX--XXXXQIGKLKGC-RVVGVAGGAEKCRHATEVLGFDVCLDHHADDFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
-              <Hsp_hseq>QRVVLNSRPGKNGNPVAENFRMEE--VYLPDNINEGQVQVRTLYLSVDPYMRCRMNEDTGTDYITPWQLSQVVDGGGIGIIEESKHTNLTKGDFVTSFYWPWQTKVILDGNSLEKV--DPQLVDGHLSYFLGAIGMPGLTSLIGIQEKGHITAGSNKTMVVSGAAGACGSVAGQIGHFLGCSRVVGICGTHEKCILLTSELGFDAAINYKKDNVAEQLRESCPAGVDVYFDNVGGNISDTVISQMNENSHIILCGQISQYN-KDVPYPPPLSPAIEAIQKERNITRERFLVL-NYKDKFEPGILQLSQWFKEGKLKIKETVINGLENMGAAFQSMMTGGNIGKQIVCIS</Hsp_hseq>
-              <Hsp_midline>+R VL SRP  +G PV ENFR+EE  V  P    EGQV +RT+YLS+DPYMR RM+++    Y  P  +  V+ GG +  + ES H +   GD+V   Y  WQ   I  G+ L K+   PQ    + S+ LG +GMPG T+ +G+ + G    G                   QIG   GC RVVG+ G  EKC   T  LGFD  +++  D+ AEQL ++CP G+D+Y++NVGG + D V+  +N ++ I +CG +S YN  ++P  P   P + A   ++ I  + F++  +Y  +      ++ QW KE K+  +E + +GLEN    F  ++ G N GK ++ ++</Hsp_midline>
+              <Hsp_qseq>NRRWVLASRPHGAPVPENFRLEEDDV---ATPGEGQVLLRTVYLSLDPYMRGRMSD-EPS-------YSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYDISSGDDLVKLG-DHPQNP-SWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHAD-DFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
+              <Hsp_hseq>NKQVILKDYVSGFPTESDFDFTTTTVELRVPEGTNSVLVKNLYLSCDPYMRIRMGKPDPSTAALAQAYTP----GQPIQGYGVSRIIESGHPDYKKGDLLWGIVAWEEYSVITPMTHAHFKIQHTDVPLSYYTGLLGMPGMTAYAGFYEVCSPKEGETVYVSAASGAVGQLVGQLAKMMGCYVVGSAGSKEKVDLLKTKFGFDDAFNYKEESDLTAALKRCFPNGIDIYFENVGGKMLDAVLVNMNMHGRIAVCGMISQYN-LENQEGVHNL----SNIIYKRNRIQGFVVS-DFYDKYSKFLEFVLPHIREGKITYVEDVADGLEKAPEALVGLFHGKNVGKQVVVVA</Hsp_hseq>
+              <Hsp_midline>N++ +L     G P   +F      V      G   VL++ +YLS DPYMR RM   +PS       Y+P    G  + G  VSR++ES HPDY+ GD + G   W++Y + +          H   P S+  G+LGMPG TAY G  ++  PKEGE                Q+ K+ GC VVG AG  EK        GFD   ++  + D    L +  P GIDIY+ENVGGK+ DAVL  +N   RI VCG++S YN  E   G   L    + ++ KR R+QGF+++ D+  +  +F   +   ++E KI Y E++ DGLE AP+  +GL  GKN GK V+ VA</Hsp_midline>
             </Hsp>
           </Hit_hsps>
         </Hit>
         <Hit>
           <Hit_num>17</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|63707</Hit_id>
-          <Hit_def>2VNA:1:A|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>63707</Hit_accession>
+          <Hit_id>gnl|BL_ORD_ID|50542</Hit_id>
+          <Hit_def>2J3H:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>50542</Hit_accession>
+          <Hit_len>345</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>209.149</Hsp_bit-score>
+              <Hsp_score>531</Hsp_score>
+              <Hsp_evalue>1.01648e-53</Hsp_evalue>
+              <Hsp_query-from>8</Hsp_query-from>
+              <Hsp_query-to>342</Hsp_query-to>
+              <Hsp_hit-from>5</Hsp_hit-from>
+              <Hsp_hit-to>343</Hsp_hit-to>
+              <Hsp_query-frame>1</Hsp_query-frame>
+              <Hsp_hit-frame>1</Hsp_hit-frame>
+              <Hsp_identity>130</Hsp_identity>
+              <Hsp_positive>181</Hsp_positive>
+              <Hsp_gaps>24</Hsp_gaps>
+              <Hsp_align-len>349</Hsp_align-len>
+              <Hsp_qseq>NRRWVLASRPHGAPVPENFRLEEDDV---ATPGEGQVLLRTVYLSLDPYMRGRMSD-EPS-------YSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYDISSGDDLVKLG-DHPQNP-SWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHAD-DFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
+              <Hsp_hseq>NKQVILKDYVSGFPTESDFDFTTTTVELRVPEGTNSVLVKNLYLSCDPYMRIRMGKPDPSTAALAQAYTP----GQPIQGYGVSRIIESGHPDYKKGDLLWGIVAWEEYSVITPMTHAHFKIQHTDVPLSYYTGLLGMPGMTAYAGFYEVCSPKEGETVYVSAASGAVGQLVGQLAKMMGCYVVGSAGSKEKVDLLKTKFGFDDAFNYKEESDLTAALKRCFPNGIDIYFENVGGKMLDAVLVNMNMHGRIAVCGMISQYN-LENQEGVHNL----SNIIYKRNRIQGFVVS-DFYDKYSKFLEFVLPHIREGKITYVEDVADGLEKAPEALVGLFHGKNVGKQVVVVA</Hsp_hseq>
+              <Hsp_midline>N++ +L     G P   +F      V      G   VL++ +YLS DPYMR RM   +PS       Y+P    G  + G  VSR++ES HPDY+ GD + G   W++Y + +          H   P S+  G+LGMPG TAY G  ++  PKEGE                Q+ K+ GC VVG AG  EK        GFD   ++  + D    L +  P GIDIY+ENVGGK+ DAVL  +N   RI VCG++S YN  E   G   L    + ++ KR R+QGF+++ D+  +  +F   +   ++E KI Y E++ DGLE AP+  +GL  GKN GK V+ VA</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>18</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|64648</Hit_id>
+          <Hit_def>2W98:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>64648</Hit_accession>
           <Hit_len>357</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
               <Hsp_bit-score>203.756</Hsp_bit-score>
               <Hsp_score>517</Hsp_score>
-              <Hsp_evalue>2.81151e-52</Hsp_evalue>
+              <Hsp_evalue>3.76824e-52</Hsp_evalue>
               <Hsp_query-from>9</Hsp_query-from>
               <Hsp_query-to>342</Hsp_query-to>
               <Hsp_hit-from>5</Hsp_hit-from>
               <Hsp_hit-to>347</Hsp_hit-to>
-              <Hsp_query-frame>1</Hsp_query-frame>
-              <Hsp_hit-frame>1</Hsp_hit-frame>
-              <Hsp_identity>127</Hsp_identity>
-              <Hsp_positive>191</Hsp_positive>
-              <Hsp_gaps>21</Hsp_gaps>
-              <Hsp_align-len>349</Hsp_align-len>
-              <Hsp_qseq>RRWVLASRP--HGAPVPENFRLEEDDVATP---GEGQVLLRTVYLSLDPYMRGRMSDEP--SYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLG-YSGWQDYDISSGDDLVKLGDHPQ----NPSWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXX--XXXXQIGKLKGC-RVVGVAGGAEKCRHATEVLGFDVCLDHHADDFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
-              <Hsp_hseq>QRVVLNSRPGKNGNPVAENFRMEE--VYLPDNINEGQVQVRTLYLSVDPYMRCRMNEDTGTDYITPWQLSQVVDGGGIGIIEESKHTNLTKGDFVTSFYWPWQTKVILDGNSLEKV--DPQLVDGHLSYFLGAIGMPGLTSLIGIQEKGHITAGSNKTMVVSGAAGACGSVAGQIGHFLGCSRVVGICGTHEKCILLTSELGFDAAINYKKDNVAEQLRESCPAGVDVYFDNVGGNISDTVISQMNENSHIILCGQISQYN-KDVPYPPPLSPAIEAIQKERNITRERFLVL-NYKDKFEPGILQLSQWFKEGKLKIKETVINGLENMGAAFQSMMTGGNIGKQIVCIS</Hsp_hseq>
-              <Hsp_midline>+R VL SRP  +G PV ENFR+EE  V  P    EGQV +RT+YLS+DPYMR RM+++    Y  P  +  V+ GG +  + ES H +   GD+V   Y  WQ   I  G+ L K+   PQ    + S+ LG +GMPG T+ +G+ + G    G                   QIG   GC RVVG+ G  EKC   T  LGFD  +++  D+ AEQL ++CP G+D+Y++NVGG + D V+  +N ++ I +CG +S YN  ++P  P   P + A   ++ I  + F++  +Y  +      ++ QW KE K+  +E + +GLEN    F  ++ G N GK ++ ++</Hsp_midline>
-            </Hsp>
-          </Hit_hsps>
-        </Hit>
-        <Hit>
-          <Hit_num>18</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|69198</Hit_id>
-          <Hit_def>2ZB8:1:A|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>69198</Hit_accession>
-          <Hit_len>357</Hit_len>
-          <Hit_hsps>
-            <Hsp>
-              <Hsp_num>1</Hsp_num>
-              <Hsp_bit-score>203.371</Hsp_bit-score>
-              <Hsp_score>516</Hsp_score>
-              <Hsp_evalue>3.86046e-52</Hsp_evalue>
-              <Hsp_query-from>9</Hsp_query-from>
-              <Hsp_query-to>342</Hsp_query-to>
-              <Hsp_hit-from>10</Hsp_hit-from>
-              <Hsp_hit-to>352</Hsp_hit-to>
               <Hsp_query-frame>1</Hsp_query-frame>
               <Hsp_hit-frame>1</Hsp_hit-frame>
               <Hsp_identity>127</Hsp_identity>
@@ -530,20 +528,20 @@
         </Hit>
         <Hit>
           <Hit_num>19</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|69197</Hit_id>
-          <Hit_def>2ZB7:1:A|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>69197</Hit_accession>
+          <Hit_id>gnl|BL_ORD_ID|64442</Hit_id>
+          <Hit_def>2W4Q:1:A|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>64442</Hit_accession>
           <Hit_len>357</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
-              <Hsp_bit-score>203.371</Hsp_bit-score>
-              <Hsp_score>516</Hsp_score>
-              <Hsp_evalue>3.86046e-52</Hsp_evalue>
+              <Hsp_bit-score>203.756</Hsp_bit-score>
+              <Hsp_score>517</Hsp_score>
+              <Hsp_evalue>3.76824e-52</Hsp_evalue>
               <Hsp_query-from>9</Hsp_query-from>
               <Hsp_query-to>342</Hsp_query-to>
-              <Hsp_hit-from>10</Hsp_hit-from>
-              <Hsp_hit-to>352</Hsp_hit-to>
+              <Hsp_hit-from>5</Hsp_hit-from>
+              <Hsp_hit-to>347</Hsp_hit-to>
               <Hsp_query-frame>1</Hsp_query-frame>
               <Hsp_hit-frame>1</Hsp_hit-frame>
               <Hsp_identity>127</Hsp_identity>
@@ -558,16 +556,44 @@
         </Hit>
         <Hit>
           <Hit_num>20</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|69194</Hit_id>
-          <Hit_def>2ZB4:1:A|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>69194</Hit_accession>
+          <Hit_id>gnl|BL_ORD_ID|63658</Hit_id>
+          <Hit_def>2VNA:1:A|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>63658</Hit_accession>
+          <Hit_len>357</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>203.756</Hsp_bit-score>
+              <Hsp_score>517</Hsp_score>
+              <Hsp_evalue>3.76824e-52</Hsp_evalue>
+              <Hsp_query-from>9</Hsp_query-from>
+              <Hsp_query-to>342</Hsp_query-to>
+              <Hsp_hit-from>5</Hsp_hit-from>
+              <Hsp_hit-to>347</Hsp_hit-to>
+              <Hsp_query-frame>1</Hsp_query-frame>
+              <Hsp_hit-frame>1</Hsp_hit-frame>
+              <Hsp_identity>127</Hsp_identity>
+              <Hsp_positive>191</Hsp_positive>
+              <Hsp_gaps>21</Hsp_gaps>
+              <Hsp_align-len>349</Hsp_align-len>
+              <Hsp_qseq>RRWVLASRP--HGAPVPENFRLEEDDVATP---GEGQVLLRTVYLSLDPYMRGRMSDEP--SYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLG-YSGWQDYDISSGDDLVKLGDHPQ----NPSWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXX--XXXXQIGKLKGC-RVVGVAGGAEKCRHATEVLGFDVCLDHHADDFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
+              <Hsp_hseq>QRVVLNSRPGKNGNPVAENFRMEE--VYLPDNINEGQVQVRTLYLSVDPYMRCRMNEDTGTDYITPWQLSQVVDGGGIGIIEESKHTNLTKGDFVTSFYWPWQTKVILDGNSLEKV--DPQLVDGHLSYFLGAIGMPGLTSLIGIQEKGHITAGSNKTMVVSGAAGACGSVAGQIGHFLGCSRVVGICGTHEKCILLTSELGFDAAINYKKDNVAEQLRESCPAGVDVYFDNVGGNISDTVISQMNENSHIILCGQISQYN-KDVPYPPPLSPAIEAIQKERNITRERFLVL-NYKDKFEPGILQLSQWFKEGKLKIKETVINGLENMGAAFQSMMTGGNIGKQIVCIS</Hsp_hseq>
+              <Hsp_midline>+R VL SRP  +G PV ENFR+EE  V  P    EGQV +RT+YLS+DPYMR RM+++    Y  P  +  V+ GG +  + ES H +   GD+V   Y  WQ   I  G+ L K+   PQ    + S+ LG +GMPG T+ +G+ + G    G                   QIG   GC RVVG+ G  EKC   T  LGFD  +++  D+ AEQL ++CP G+D+Y++NVGG + D V+  +N ++ I +CG +S YN  ++P  P   P + A   ++ I  + F++  +Y  +      ++ QW KE K+  +E + +GLEN    F  ++ G N GK ++ ++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>21</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|69147</Hit_id>
+          <Hit_def>2ZB8:1:A|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>69147</Hit_accession>
           <Hit_len>357</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
               <Hsp_bit-score>203.371</Hsp_bit-score>
               <Hsp_score>516</Hsp_score>
-              <Hsp_evalue>3.86046e-52</Hsp_evalue>
+              <Hsp_evalue>5.17412e-52</Hsp_evalue>
               <Hsp_query-from>9</Hsp_query-from>
               <Hsp_query-to>342</Hsp_query-to>
               <Hsp_hit-from>10</Hsp_hit-from>
@@ -585,73 +611,73 @@
           </Hit_hsps>
         </Hit>
         <Hit>
-          <Hit_num>21</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|121417</Hit_id>
-          <Hit_def>4HFN:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>121417</Hit_accession>
-          <Hit_len>351</Hit_len>
-          <Hit_hsps>
-            <Hsp>
-              <Hsp_num>1</Hsp_num>
-              <Hsp_bit-score>201.83</Hsp_bit-score>
-              <Hsp_score>512</Hsp_score>
-              <Hsp_evalue>1.11389e-51</Hsp_evalue>
-              <Hsp_query-from>8</Hsp_query-from>
-              <Hsp_query-to>342</Hsp_query-to>
-              <Hsp_hit-from>7</Hsp_hit-from>
-              <Hsp_hit-to>341</Hsp_hit-to>
-              <Hsp_query-frame>1</Hsp_query-frame>
-              <Hsp_hit-frame>1</Hsp_hit-frame>
-              <Hsp_identity>123</Hsp_identity>
-              <Hsp_positive>178</Hsp_positive>
-              <Hsp_gaps>12</Hsp_gaps>
-              <Hsp_align-len>341</Hsp_align-len>
-              <Hsp_qseq>NRRWVLASRPHGAPVPENFRLEEDDV---ATPGEGQVLLRTVYLSLDPYMRGRMSD-EPSYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYDI-SSGDDLVKLGDHPQNPSWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHAD-DFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
-              <Hsp_hseq>NKQVILKNYVTGYPKESDMEIKNVTIKLKVPEGSNDVVVKNLYLSCDPYMRSRMRKIEGSYVESFAPGSPITGYGVAKVLESGDPKFQKGDLVWGMTGWEEYSIITPTQTLFKIHDKDVPLSYYTGILGMPGMTAYAGFHEVCSPKKGETVFVSAASGAVGQLVGQFAKMLGCYVVGSAGSKEKVDLLKSKFGFDEAFNYKEEQDLSAALKRYFPDGIDIYFENVGGKMLDAVLVNMKLYGRIAVCGMISQYN-LEQTEGVHNLFCLIT----KRIRMEGFLVF-DYYHLYPKYLEMVIPQIKAGKVVYVEDVAHGLESAPTALVGLFSGRNIGKQVVMVS</Hsp_hseq>
-              <Hsp_midline>N++ +L +   G P   +  ++   +      G   V+++ +YLS DPYMR RM   E SY      G  + G  V++V+ES  P +Q GD V G +GW++Y I +    L K+ D     S+  G+LGMPG TAY G  ++  PK+GE                Q  K+ GC VVG AG  EK        GFD   ++  + D +  L +  P GIDIY+ENVGGK+ DAVL  +    RI VCG++S YN  E   G   L  L+     KRIR++GF++  DY H   ++   +   +K  K+ Y E++  GLE+AP   +GL  G+N GK V+ V+</Hsp_midline>
-            </Hsp>
-          </Hit_hsps>
-        </Hit>
-        <Hit>
           <Hit_num>22</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|121416</Hit_id>
-          <Hit_def>4HFM:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>121416</Hit_accession>
-          <Hit_len>351</Hit_len>
+          <Hit_id>gnl|BL_ORD_ID|69146</Hit_id>
+          <Hit_def>2ZB7:1:A|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>69146</Hit_accession>
+          <Hit_len>357</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
-              <Hsp_bit-score>201.83</Hsp_bit-score>
-              <Hsp_score>512</Hsp_score>
-              <Hsp_evalue>1.11389e-51</Hsp_evalue>
-              <Hsp_query-from>8</Hsp_query-from>
+              <Hsp_bit-score>203.371</Hsp_bit-score>
+              <Hsp_score>516</Hsp_score>
+              <Hsp_evalue>5.17412e-52</Hsp_evalue>
+              <Hsp_query-from>9</Hsp_query-from>
               <Hsp_query-to>342</Hsp_query-to>
-              <Hsp_hit-from>7</Hsp_hit-from>
-              <Hsp_hit-to>341</Hsp_hit-to>
+              <Hsp_hit-from>10</Hsp_hit-from>
+              <Hsp_hit-to>352</Hsp_hit-to>
               <Hsp_query-frame>1</Hsp_query-frame>
               <Hsp_hit-frame>1</Hsp_hit-frame>
-              <Hsp_identity>123</Hsp_identity>
-              <Hsp_positive>178</Hsp_positive>
-              <Hsp_gaps>12</Hsp_gaps>
-              <Hsp_align-len>341</Hsp_align-len>
-              <Hsp_qseq>NRRWVLASRPHGAPVPENFRLEEDDV---ATPGEGQVLLRTVYLSLDPYMRGRMSD-EPSYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYDI-SSGDDLVKLGDHPQNPSWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHAD-DFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
-              <Hsp_hseq>NKQVILKNYVTGYPKESDMEIKNVTIKLKVPEGSNDVVVKNLYLSCDPYMRSRMRKIEGSYVESFAPGSPITGYGVAKVLESGDPKFQKGDLVWGMTGWEEYSIITPTQTLFKIHDKDVPLSYYTGILGMPGMTAYAGFHEVCSPKKGETVFVSAASGAVGQLVGQFAKMLGCYVVGSAGSKEKVDLLKSKFGFDEAFNYKEEQDLSAALKRYFPDGIDIYFENVGGKMLDAVLVNMKLYGRIAVCGMISQYN-LEQTEGVHNLFCLIT----KRIRMEGFLVF-DYYHLYPKYLEMVIPQIKAGKVVYVEDVAHGLESAPTALVGLFSGRNIGKQVVMVS</Hsp_hseq>
-              <Hsp_midline>N++ +L +   G P   +  ++   +      G   V+++ +YLS DPYMR RM   E SY      G  + G  V++V+ES  P +Q GD V G +GW++Y I +    L K+ D     S+  G+LGMPG TAY G  ++  PK+GE                Q  K+ GC VVG AG  EK        GFD   ++  + D +  L +  P GIDIY+ENVGGK+ DAVL  +    RI VCG++S YN  E   G   L  L+     KRIR++GF++  DY H   ++   +   +K  K+ Y E++  GLE+AP   +GL  G+N GK V+ V+</Hsp_midline>
+              <Hsp_identity>127</Hsp_identity>
+              <Hsp_positive>191</Hsp_positive>
+              <Hsp_gaps>21</Hsp_gaps>
+              <Hsp_align-len>349</Hsp_align-len>
+              <Hsp_qseq>RRWVLASRP--HGAPVPENFRLEEDDVATP---GEGQVLLRTVYLSLDPYMRGRMSDEP--SYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLG-YSGWQDYDISSGDDLVKLGDHPQ----NPSWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXX--XXXXQIGKLKGC-RVVGVAGGAEKCRHATEVLGFDVCLDHHADDFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
+              <Hsp_hseq>QRVVLNSRPGKNGNPVAENFRMEE--VYLPDNINEGQVQVRTLYLSVDPYMRCRMNEDTGTDYITPWQLSQVVDGGGIGIIEESKHTNLTKGDFVTSFYWPWQTKVILDGNSLEKV--DPQLVDGHLSYFLGAIGMPGLTSLIGIQEKGHITAGSNKTMVVSGAAGACGSVAGQIGHFLGCSRVVGICGTHEKCILLTSELGFDAAINYKKDNVAEQLRESCPAGVDVYFDNVGGNISDTVISQMNENSHIILCGQISQYN-KDVPYPPPLSPAIEAIQKERNITRERFLVL-NYKDKFEPGILQLSQWFKEGKLKIKETVINGLENMGAAFQSMMTGGNIGKQIVCIS</Hsp_hseq>
+              <Hsp_midline>+R VL SRP  +G PV ENFR+EE  V  P    EGQV +RT+YLS+DPYMR RM+++    Y  P  +  V+ GG +  + ES H +   GD+V   Y  WQ   I  G+ L K+   PQ    + S+ LG +GMPG T+ +G+ + G    G                   QIG   GC RVVG+ G  EKC   T  LGFD  +++  D+ AEQL ++CP G+D+Y++NVGG + D V+  +N ++ I +CG +S YN  ++P  P   P + A   ++ I  + F++  +Y  +      ++ QW KE K+  +E + +GLEN    F  ++ G N GK ++ ++</Hsp_midline>
             </Hsp>
           </Hit_hsps>
         </Hit>
         <Hit>
           <Hit_num>23</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|121412</Hit_id>
-          <Hit_def>4HFJ:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>121412</Hit_accession>
+          <Hit_id>gnl|BL_ORD_ID|69143</Hit_id>
+          <Hit_def>2ZB4:1:A|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>69143</Hit_accession>
+          <Hit_len>357</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>203.371</Hsp_bit-score>
+              <Hsp_score>516</Hsp_score>
+              <Hsp_evalue>5.17412e-52</Hsp_evalue>
+              <Hsp_query-from>9</Hsp_query-from>
+              <Hsp_query-to>342</Hsp_query-to>
+              <Hsp_hit-from>10</Hsp_hit-from>
+              <Hsp_hit-to>352</Hsp_hit-to>
+              <Hsp_query-frame>1</Hsp_query-frame>
+              <Hsp_hit-frame>1</Hsp_hit-frame>
+              <Hsp_identity>127</Hsp_identity>
+              <Hsp_positive>191</Hsp_positive>
+              <Hsp_gaps>21</Hsp_gaps>
+              <Hsp_align-len>349</Hsp_align-len>
+              <Hsp_qseq>RRWVLASRP--HGAPVPENFRLEEDDVATP---GEGQVLLRTVYLSLDPYMRGRMSDEP--SYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLG-YSGWQDYDISSGDDLVKLGDHPQ----NPSWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXX--XXXXQIGKLKGC-RVVGVAGGAEKCRHATEVLGFDVCLDHHADDFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
+              <Hsp_hseq>QRVVLNSRPGKNGNPVAENFRMEE--VYLPDNINEGQVQVRTLYLSVDPYMRCRMNEDTGTDYITPWQLSQVVDGGGIGIIEESKHTNLTKGDFVTSFYWPWQTKVILDGNSLEKV--DPQLVDGHLSYFLGAIGMPGLTSLIGIQEKGHITAGSNKTMVVSGAAGACGSVAGQIGHFLGCSRVVGICGTHEKCILLTSELGFDAAINYKKDNVAEQLRESCPAGVDVYFDNVGGNISDTVISQMNENSHIILCGQISQYN-KDVPYPPPLSPAIEAIQKERNITRERFLVL-NYKDKFEPGILQLSQWFKEGKLKIKETVINGLENMGAAFQSMMTGGNIGKQIVCIS</Hsp_hseq>
+              <Hsp_midline>+R VL SRP  +G PV ENFR+EE  V  P    EGQV +RT+YLS+DPYMR RM+++    Y  P  +  V+ GG +  + ES H +   GD+V   Y  WQ   I  G+ L K+   PQ    + S+ LG +GMPG T+ +G+ + G    G                   QIG   GC RVVG+ G  EKC   T  LGFD  +++  D+ AEQL ++CP G+D+Y++NVGG + D V+  +N ++ I +CG +S YN  ++P  P   P + A   ++ I  + F++  +Y  +      ++ QW KE K+  +E + +GLEN    F  ++ G N GK ++ ++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>24</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|121288</Hit_id>
+          <Hit_def>4HFN:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>121288</Hit_accession>
           <Hit_len>351</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
               <Hsp_bit-score>201.83</Hsp_bit-score>
               <Hsp_score>512</Hsp_score>
-              <Hsp_evalue>1.11389e-51</Hsp_evalue>
+              <Hsp_evalue>1.49293e-51</Hsp_evalue>
               <Hsp_query-from>8</Hsp_query-from>
               <Hsp_query-to>342</Hsp_query-to>
               <Hsp_hit-from>7</Hsp_hit-from>
@@ -669,17 +695,73 @@
           </Hit_hsps>
         </Hit>
         <Hit>
-          <Hit_num>24</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|37866</Hit_id>
+          <Hit_num>25</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|121287</Hit_id>
+          <Hit_def>4HFM:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>121287</Hit_accession>
+          <Hit_len>351</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>201.83</Hsp_bit-score>
+              <Hsp_score>512</Hsp_score>
+              <Hsp_evalue>1.49293e-51</Hsp_evalue>
+              <Hsp_query-from>8</Hsp_query-from>
+              <Hsp_query-to>342</Hsp_query-to>
+              <Hsp_hit-from>7</Hsp_hit-from>
+              <Hsp_hit-to>341</Hsp_hit-to>
+              <Hsp_query-frame>1</Hsp_query-frame>
+              <Hsp_hit-frame>1</Hsp_hit-frame>
+              <Hsp_identity>123</Hsp_identity>
+              <Hsp_positive>178</Hsp_positive>
+              <Hsp_gaps>12</Hsp_gaps>
+              <Hsp_align-len>341</Hsp_align-len>
+              <Hsp_qseq>NRRWVLASRPHGAPVPENFRLEEDDV---ATPGEGQVLLRTVYLSLDPYMRGRMSD-EPSYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYDI-SSGDDLVKLGDHPQNPSWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHAD-DFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
+              <Hsp_hseq>NKQVILKNYVTGYPKESDMEIKNVTIKLKVPEGSNDVVVKNLYLSCDPYMRSRMRKIEGSYVESFAPGSPITGYGVAKVLESGDPKFQKGDLVWGMTGWEEYSIITPTQTLFKIHDKDVPLSYYTGILGMPGMTAYAGFHEVCSPKKGETVFVSAASGAVGQLVGQFAKMLGCYVVGSAGSKEKVDLLKSKFGFDEAFNYKEEQDLSAALKRYFPDGIDIYFENVGGKMLDAVLVNMKLYGRIAVCGMISQYN-LEQTEGVHNLFCLIT----KRIRMEGFLVF-DYYHLYPKYLEMVIPQIKAGKVVYVEDVAHGLESAPTALVGLFSGRNIGKQVVMVS</Hsp_hseq>
+              <Hsp_midline>N++ +L +   G P   +  ++   +      G   V+++ +YLS DPYMR RM   E SY      G  + G  V++V+ES  P +Q GD V G +GW++Y I +    L K+ D     S+  G+LGMPG TAY G  ++  PK+GE                Q  K+ GC VVG AG  EK        GFD   ++  + D +  L +  P GIDIY+ENVGGK+ DAVL  +    RI VCG++S YN  E   G   L  L+     KRIR++GF++  DY H   ++   +   +K  K+ Y E++  GLE+AP   +GL  G+N GK V+ V+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>26</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|121283</Hit_id>
+          <Hit_def>4HFJ:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
+          <Hit_accession>121283</Hit_accession>
+          <Hit_len>351</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>201.83</Hsp_bit-score>
+              <Hsp_score>512</Hsp_score>
+              <Hsp_evalue>1.49293e-51</Hsp_evalue>
+              <Hsp_query-from>8</Hsp_query-from>
+              <Hsp_query-to>342</Hsp_query-to>
+              <Hsp_hit-from>7</Hsp_hit-from>
+              <Hsp_hit-to>341</Hsp_hit-to>
+              <Hsp_query-frame>1</Hsp_query-frame>
+              <Hsp_hit-frame>1</Hsp_hit-frame>
+              <Hsp_identity>123</Hsp_identity>
+              <Hsp_positive>178</Hsp_positive>
+              <Hsp_gaps>12</Hsp_gaps>
+              <Hsp_align-len>341</Hsp_align-len>
+              <Hsp_qseq>NRRWVLASRPHGAPVPENFRLEEDDV---ATPGEGQVLLRTVYLSLDPYMRGRMSD-EPSYSPPVDIGGVMVGGTVSRVVESNHPDYQSGDWVLGYSGWQDYDI-SSGDDLVKLGDHPQNPSWSLGVLGMPGFTAYMGLLDIGQPKEGEXXXXXXXXXXXXXXXXQIGKLKGCRVVGVAGGAEKCRHATEVLGFDVCLDHHAD-DFAEQLAKACPKGIDIYYENVGGKVFDAVLPLLNTSARIPVCGLVSSYNATELPPGPDRLPLLMATVLKKRIRLQGFIIAQDYGHRIHEFQREMGQWVKEDKIHYREEITDGLENAPQTFIGLLKGKNFGKVVIRVA</Hsp_qseq>
+              <Hsp_hseq>NKQVILKNYVTGYPKESDMEIKNVTIKLKVPEGSNDVVVKNLYLSCDPYMRSRMRKIEGSYVESFAPGSPITGYGVAKVLESGDPKFQKGDLVWGMTGWEEYSIITPTQTLFKIHDKDVPLSYYTGILGMPGMTAYAGFHEVCSPKKGETVFVSAASGAVGQLVGQFAKMLGCYVVGSAGSKEKVDLLKSKFGFDEAFNYKEEQDLSAALKRYFPDGIDIYFENVGGKMLDAVLVNMKLYGRIAVCGMISQYN-LEQTEGVHNLFCLIT----KRIRMEGFLVF-DYYHLYPKYLEMVIPQIKAGKVVYVEDVAHGLESAPTALVGLFSGRNIGKQVVMVS</Hsp_hseq>
+              <Hsp_midline>N++ +L +   G P   +  ++   +      G   V+++ +YLS DPYMR RM   E SY      G  + G  V++V+ES  P +Q GD V G +GW++Y I +    L K+ D     S+  G+LGMPG TAY G  ++  PK+GE                Q  K+ GC VVG AG  EK        GFD   ++  + D +  L +  P GIDIY+ENVGGK+ DAVL  +    RI VCG++S YN  E   G   L  L+     KRIR++GF++  DY H   ++   +   +K  K+ Y E++  GLE+AP   +GL  G+N GK V+ V+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>27</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|37818</Hit_id>
           <Hit_def>1ZSV:1:A,B,C,D|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>37866</Hit_accession>
+          <Hit_accession>37818</Hit_accession>
           <Hit_len>349</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
               <Hsp_bit-score>196.438</Hsp_bit-score>
               <Hsp_score>498</Hsp_score>
-              <Hsp_evalue>5.21605e-50</Hsp_evalue>
+              <Hsp_evalue>6.99101e-50</Hsp_evalue>
               <Hsp_query-from>9</Hsp_query-from>
               <Hsp_query-to>340</Hsp_query-to>
               <Hsp_hit-from>25</Hsp_hit-from>
@@ -697,17 +779,17 @@
           </Hit_hsps>
         </Hit>
         <Hit>
-          <Hit_num>25</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|67366</Hit_id>
+          <Hit_num>28</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|67315</Hit_id>
           <Hit_def>2Y05:1:A,B,C,D|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>67366</Hit_accession>
+          <Hit_accession>67315</Hit_accession>
           <Hit_len>328</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
               <Hsp_bit-score>196.438</Hsp_bit-score>
               <Hsp_score>498</Hsp_score>
-              <Hsp_evalue>5.25975e-50</Hsp_evalue>
+              <Hsp_evalue>7.04958e-50</Hsp_evalue>
               <Hsp_query-from>9</Hsp_query-from>
               <Hsp_query-to>340</Hsp_query-to>
               <Hsp_hit-from>4</Hsp_hit-from>
@@ -725,17 +807,17 @@
           </Hit_hsps>
         </Hit>
         <Hit>
-          <Hit_num>26</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|31313</Hit_id>
+          <Hit_num>29</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|31277</Hit_id>
           <Hit_def>1VJ1:1:A|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>31313</Hit_accession>
+          <Hit_accession>31277</Hit_accession>
           <Hit_len>363</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
               <Hsp_bit-score>188.734</Hsp_bit-score>
               <Hsp_score>478</Hsp_score>
-              <Hsp_evalue>9.67705e-48</Hsp_evalue>
+              <Hsp_evalue>1.297e-47</Hsp_evalue>
               <Hsp_query-from>9</Hsp_query-from>
               <Hsp_query-to>344</Hsp_query-to>
               <Hsp_hit-from>16</Hsp_hit-from>
@@ -753,17 +835,17 @@
           </Hit_hsps>
         </Hit>
         <Hit>
-          <Hit_num>27</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|69193</Hit_id>
+          <Hit_num>30</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|69142</Hit_id>
           <Hit_def>2ZB3:1:A|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>69193</Hit_accession>
+          <Hit_accession>69142</Hit_accession>
           <Hit_len>353</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
               <Hsp_bit-score>185.267</Hsp_bit-score>
               <Hsp_score>469</Hsp_score>
-              <Hsp_evalue>1.22273e-46</Hsp_evalue>
+              <Hsp_evalue>1.63881e-46</Hsp_evalue>
               <Hsp_query-from>9</Hsp_query-from>
               <Hsp_query-to>344</Hsp_query-to>
               <Hsp_hit-from>6</Hsp_hit-from>
@@ -781,17 +863,17 @@
           </Hit_hsps>
         </Hit>
         <Hit>
-          <Hit_num>28</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|65981</Hit_id>
+          <Hit_num>31</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|65932</Hit_id>
           <Hit_def>2X1H:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>65981</Hit_accession>
+          <Hit_accession>65932</Hit_accession>
           <Hit_len>362</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
               <Hsp_bit-score>84.7297</Hsp_bit-score>
               <Hsp_score>208</Hsp_score>
-              <Hsp_evalue>2.00115e-16</Hsp_evalue>
+              <Hsp_evalue>2.68212e-16</Hsp_evalue>
               <Hsp_query-from>33</Hsp_query-from>
               <Hsp_query-to>341</Hsp_query-to>
               <Hsp_hit-from>48</Hsp_hit-from>
@@ -809,17 +891,17 @@
           </Hit_hsps>
         </Hit>
         <Hit>
-          <Hit_num>29</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|41036</Hit_id>
+          <Hit_num>32</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|40981</Hit_id>
           <Hit_def>2C0C:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>41036</Hit_accession>
+          <Hit_accession>40981</Hit_accession>
           <Hit_len>362</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
               <Hsp_bit-score>84.7297</Hsp_bit-score>
               <Hsp_score>208</Hsp_score>
-              <Hsp_evalue>2.00115e-16</Hsp_evalue>
+              <Hsp_evalue>2.68212e-16</Hsp_evalue>
               <Hsp_query-from>33</Hsp_query-from>
               <Hsp_query-to>341</Hsp_query-to>
               <Hsp_hit-from>48</Hsp_hit-from>
@@ -837,17 +919,17 @@
           </Hit_hsps>
         </Hit>
         <Hit>
-          <Hit_num>30</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|64936</Hit_id>
+          <Hit_num>33</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|64887</Hit_id>
           <Hit_def>2WEK:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>64936</Hit_accession>
+          <Hit_accession>64887</Hit_accession>
           <Hit_len>341</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
               <Hsp_bit-score>84.7297</Hsp_bit-score>
               <Hsp_score>208</Hsp_score>
-              <Hsp_evalue>2.05187e-16</Hsp_evalue>
+              <Hsp_evalue>2.7501e-16</Hsp_evalue>
               <Hsp_query-from>33</Hsp_query-from>
               <Hsp_query-to>341</Hsp_query-to>
               <Hsp_hit-from>27</Hsp_hit-from>
@@ -865,17 +947,17 @@
           </Hit_hsps>
         </Hit>
         <Hit>
-          <Hit_num>31</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|66220</Hit_id>
+          <Hit_num>34</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|66171</Hit_id>
           <Hit_def>2X7H:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>66220</Hit_accession>
+          <Hit_accession>66171</Hit_accession>
           <Hit_len>370</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
               <Hsp_bit-score>84.7297</Hsp_bit-score>
               <Hsp_score>208</Hsp_score>
-              <Hsp_evalue>2.21189e-16</Hsp_evalue>
+              <Hsp_evalue>2.96457e-16</Hsp_evalue>
               <Hsp_query-from>33</Hsp_query-from>
               <Hsp_query-to>341</Hsp_query-to>
               <Hsp_hit-from>56</Hsp_hit-from>
@@ -893,17 +975,17 @@
           </Hit_hsps>
         </Hit>
         <Hit>
-          <Hit_num>32</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|35623</Hit_id>
+          <Hit_num>35</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|35584</Hit_id>
           <Hit_def>1YB5:1:A,B|pdbid|entity|chain(s)|sequence</Hit_def>
-          <Hit_accession>35623</Hit_accession>
+          <Hit_accession>35584</Hit_accession>
           <Hit_len>351</Hit_len>
           <Hit_hsps>
             <Hsp>
               <Hsp_num>1</Hsp_num>
               <Hsp_bit-score>60.4622</Hsp_bit-score>
               <Hsp_score>145</Hsp_score>
-              <Hsp_evalue>4.10955e-09</Hsp_evalue>
+              <Hsp_evalue>5.50798e-09</Hsp_evalue>
               <Hsp_query-from>23</Hsp_query-from>
               <Hsp_query-to>248</Hsp_query-to>
               <Hsp_hit-from>41</Hsp_hit-from>
@@ -923,10 +1005,10 @@
       </Iteration_hits>
       <Iteration_stat>
         <Statistics>
-          <Statistics_db-num>192574</Statistics_db-num>
-          <Statistics_db-len>47352320</Statistics_db-len>
-          <Statistics_hsp-len>107</Statistics_hsp-len>
-          <Statistics_eff-space>6.36576e+09</Statistics_eff-space>
+          <Statistics_db-num>252398</Statistics_db-num>
+          <Statistics_db-len>63663746</Statistics_db-len>
+          <Statistics_hsp-len>109</Statistics_hsp-len>
+          <Statistics_eff-space>8.53196e+09</Statistics_eff-space>
           <Statistics_kappa>0.041</Statistics_kappa>
           <Statistics_lambda>0.267</Statistics_lambda>
           <Statistics_entropy>0.14</Statistics_entropy>

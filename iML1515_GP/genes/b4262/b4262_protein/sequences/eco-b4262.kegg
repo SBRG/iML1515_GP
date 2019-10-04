@@ -1,31 +1,36 @@
 ENTRY       b4262             CDS       T00007
 NAME        lptG
-DEFINITION  (RefSeq) lipopolysaccharide export ABC permease of the LptBFGC export complex
+DEFINITION  (RefSeq) lipopolysaccharide transport system protein LptG
 ORTHOLOGY   K11720  lipopolysaccharide export system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00320  Lipopolysaccharide export system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b4262 (lptG)
-            Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
-              ABC-2 type and other transporters
-               Lipopolysaccharide transporter [MD:M00320]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
                 b4262 (lptG)
-             Other Transporters
+            Transporters [BR:eco02000]
+             ABC transporters, prokaryotic type
+              ABC-2 type and other transporters
+               Lipopolysaccharide transporter
+                b4262 (lptG)
+             Other transporters
               Pores ion channels [TC:1]
                b4262 (lptG)
 POSITION    4487318..4488400
-MOTIF       Pfam: YjgP_YjgQ
-DBLINKS     NCBI-ProteinID: NP_418683
-            NCBI-GeneID: 945324
-            EcoGene: EG12536
+MOTIF       Pfam: LptF_LptG
+DBLINKS     NCBI-GeneID: 945324
+            NCBI-ProteinID: NP_418683
+            Pasteur: yjgQ
+            RegulonDB: ECK120004384
             ECOCYC: G7889
             ASAP: ABE-0013960
             UniProt: P0ADC6
+STRUCTURE   PDB: 6MHU 6MHZ 6MI7 6MI8
 AASEQ       360
             MQPFGVLDRYIGKTIFTTIMMTLFMLVSLSGIIKFVDQLKKAGQGSYDALGAGMYTLLSV
             PKDVQIFFPMAALLGALLGLGMLAQRSELVVMQASGFTRMQVALSVMKTAIPLVLLTMAI

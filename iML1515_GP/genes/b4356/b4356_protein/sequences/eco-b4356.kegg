@@ -1,14 +1,24 @@
 ENTRY       b4356             CDS       T00007
-NAME        yjjL
-DEFINITION  (RefSeq) L-galactonate transporter
+NAME        lgoT
+DEFINITION  (RefSeq) galactonate:H(+) symporter
+ORTHOLOGY   K23016  MFS transporter, ACS family, L-galactonate transporter
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b4356 (lgoT)
+            Transporters [BR:eco02000]
+             Major facilitator superfamily (MFS)
+              Organic acid transporters
+               Anion:cation symporter (ACS) family [TC:2.A.1.14]
+                b4356 (lgoT)
 POSITION    complement(4593361..4594722)
 MOTIF       Pfam: MFS_1 OATP
-DBLINKS     NCBI-ProteinID: NP_418776
-            NCBI-GeneID: 948879
+DBLINKS     NCBI-GeneID: 948879
+            NCBI-ProteinID: NP_418776
             Pasteur: yjjL
             RegulonDB: ECK120002325
-            EcoGene: EG12588
             ECOCYC: EG12587
             ASAP: ABE-0014284
             UniProt: P39398

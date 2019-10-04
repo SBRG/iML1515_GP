@@ -1,29 +1,31 @@
 ENTRY       b2307             CDS       T00007
 NAME        hisM
-DEFINITION  (RefSeq) histidine/lysine/arginine/ornithine transporter subunit
+DEFINITION  (RefSeq) lysine/arginine/ornithine ABC transporter/histidine ABC transporter, membrane subunit HisM
 ORTHOLOGY   K10015  histidine transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00225  Lysine/arginine/ornithine transport system
-            eco_M00226  Histidine transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b2307 (hisM)
-            Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
-              Phosphate and amino acid transporters
-               Lysine/arginine/ornithine transporter [MD:M00225]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
                 b2307 (hisM)
-               Histidine transporter [MD:M00226] [OT]
+            Transporters [BR:eco02000]
+             ABC transporters, prokaryotic type
+              Phosphate and amino acid transporters
+               Lysine/arginine/ornithine transporter
+                b2307 (hisM)
+               Histidine transporter
                 b2307 (hisM)
 POSITION    complement(2424517..2425233)
 MOTIF       Pfam: BPD_transp_1 Stevor FtsX
-DBLINKS     NCBI-ProteinID: NP_416810
-            NCBI-GeneID: 946790
+DBLINKS     NCBI-GeneID: 946790
+            NCBI-ProteinID: NP_416810
             Pasteur: hisM
-            EcoGene: EG10007
+            RegulonDB: ECK120000006
             ECOCYC: EG10007
             ASAP: ABE-0007613
             UniProt: P0AEU3

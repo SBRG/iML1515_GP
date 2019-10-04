@@ -1,14 +1,14 @@
 ENTRY       b2315             CDS       T00007
 NAME        folC
-DEFINITION  (RefSeq) bifunctional folylpolyglutamate synthase/dihydrofolate synthase
+DEFINITION  (RefSeq) bifunctional folylpolyglutamate synthetase/dihydrofolate synthetase
 ORTHOLOGY   K11754  dihydrofolate synthase / folylpolyglutamate synthase [EC:6.3.2.12 6.3.2.17]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00790  Folate biosynthesis
             eco01100  Metabolic pathways
 MODULE      eco_M00126  Tetrahydrofolate biosynthesis, GTP => THF
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00790 Folate biosynthesis
                 b2315 (folC)
             Enzymes [BR:eco01000]
@@ -21,10 +21,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2315 (folC)
 POSITION    complement(2431674..2432942)
 MOTIF       Pfam: Mur_ligase_M Mur_ligase_C
-DBLINKS     NCBI-ProteinID: NP_416818
-            NCBI-GeneID: 945451
+DBLINKS     NCBI-GeneID: 945451
+            NCBI-ProteinID: NP_416818
             Pasteur: folC
-            EcoGene: EG10327
+            RegulonDB: ECK120000321
             ECOCYC: EG10327
             ASAP: ABE-0007645
             UniProt: P08192

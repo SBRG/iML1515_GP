@@ -1,14 +1,14 @@
 ENTRY       b4117             CDS       T00007
 NAME        adiA
-DEFINITION  (RefSeq) arginine decarboxylase
+DEFINITION  (RefSeq) arginine decarboxylase, degradative
 ORTHOLOGY   K01584  arginine decarboxylase [EC:4.1.1.19]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00330  Arginine and proline metabolism
             eco01100  Metabolic pathways
 MODULE      eco_M00133  Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00330 Arginine and proline metabolism
                 b4117 (adiA)
             Enzymes [BR:eco01000]
@@ -19,9 +19,9 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b4117 (adiA)
 POSITION    complement(4338254..4340521)
 MOTIF       Pfam: OKR_DC_1 OKR_DC_1_C OKR_DC_1_N Pyridoxal_deC Aminotran_1_2 Late_protein_L1
-DBLINKS     NCBI-ProteinID: NP_418541
-            NCBI-GeneID: 948638
-            EcoGene: EG11501
+DBLINKS     NCBI-GeneID: 948638
+            NCBI-ProteinID: NP_418541
+            RegulonDB: ECK120001457
             ECOCYC: EG11501
             ASAP: ABE-0013483
             UniProt: P28629

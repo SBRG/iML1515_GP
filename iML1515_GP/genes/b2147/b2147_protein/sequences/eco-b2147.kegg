@@ -1,6 +1,6 @@
 ENTRY       b2147             CDS       T00007
 NAME        preA
-DEFINITION  (RefSeq) dihydropyrimidine dehydrogenase, NADH-dependent, subunit C
+DEFINITION  (RefSeq) NAD-dependent dihydropyrimidine dehydrogenase subunit PreA
 ORTHOLOGY   K17723  dihydropyrimidine dehydrogenase (NAD+) subunit PreA [EC:1.3.1.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00240  Pyrimidine metabolism
@@ -8,14 +8,14 @@ PATHWAY     eco00240  Pyrimidine metabolism
             eco00770  Pantothenate and CoA biosynthesis
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00240 Pyrimidine metabolism
                 b2147 (preA)
-              Metabolism of other amino acids
+              09106 Metabolism of other amino acids
                00410 beta-Alanine metabolism
                 b2147 (preA)
-              Metabolism of cofactors and vitamins
+              09108 Metabolism of cofactors and vitamins
                00770 Pantothenate and CoA biosynthesis
                 b2147 (preA)
             Enzymes [BR:eco01000]
@@ -26,10 +26,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2147 (preA)
 POSITION    2235265..2236500
 MOTIF       Pfam: DHO_dh Fer4_21 Dus Fer4 Fer4_6 Fer4_7 Fer4_10 Fer4_9 Fer4_2 Fer4_22 Fer4_4 MR_MLE_C Ligase_CoA NMO
-DBLINKS     NCBI-ProteinID: NP_416652
-            NCBI-GeneID: 949037
+DBLINKS     NCBI-GeneID: 949037
+            NCBI-ProteinID: NP_416652
+            Pasteur: yeiA
             RegulonDB: ECK120001262
-            EcoGene: EG11289
             ECOCYC: EG11289
             ASAP: ABE-0007098
             UniProt: P25889

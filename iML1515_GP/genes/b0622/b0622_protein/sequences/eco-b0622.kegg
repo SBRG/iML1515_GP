@@ -1,14 +1,22 @@
 ENTRY       b0622             CDS       T00007
 NAME        pagP
-DEFINITION  (RefSeq) phospholipid:lipid A palmitoyltransferase
+DEFINITION  (RefSeq) Lipid IVA palmitoyltransferase
 ORTHOLOGY   K12973  lipid IVA palmitoyltransferase [EC:2.3.1.251]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-PATHWAY     eco01503  Cationic antimicrobial peptide (CAMP) resistance
-MODULE      eco_M00724  Cationic antimicrobial peptide (CAMP) resistance, palmitoyl transferase PagP
+PATHWAY     eco00540  Lipopolysaccharide biosynthesis
+            eco01503  Cationic antimicrobial peptide (CAMP) resistance
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Human Diseases
-              Drug resistance
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
+               00540 Lipopolysaccharide biosynthesis
+                b0622 (pagP)
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01503 Cationic antimicrobial peptide (CAMP) resistance
+                b0622 (pagP)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
                 b0622 (pagP)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -21,10 +29,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
               b0622 (pagP)
 POSITION    656557..657117
 MOTIF       Pfam: PagP
-DBLINKS     NCBI-ProteinID: NP_415155
-            NCBI-GeneID: 946360
+DBLINKS     NCBI-GeneID: 946360
+            NCBI-ProteinID: NP_415155
+            Pasteur: crcA
             RegulonDB: ECK120002073
-            EcoGene: EG12180
             ECOCYC: EG12180
             ASAP: ABE-0002139
             UniProt: P37001

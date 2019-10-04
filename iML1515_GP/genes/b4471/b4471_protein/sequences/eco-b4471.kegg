@@ -1,6 +1,6 @@
 ENTRY       b4471             CDS       T00007
 NAME        tdcG
-DEFINITION  (RefSeq) L-serine dehydratase 3, anaerobic
+DEFINITION  (RefSeq) L-serine deaminase III
 ORTHOLOGY   K01752  L-serine dehydratase [EC:4.3.1.17]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00260  Glycine, serine and threonine metabolism
@@ -11,13 +11,8 @@ PATHWAY     eco00260  Glycine, serine and threonine metabolism
             eco01200  Carbon metabolism
             eco01230  Biosynthesis of amino acids
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b4471 (tdcG)
-               01230 Biosynthesis of amino acids
-                b4471 (tdcG)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00260 Glycine, serine and threonine metabolism
                 b4471 (tdcG)
                00270 Cysteine and methionine metabolism
@@ -30,9 +25,9 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b4471 (tdcG)
 POSITION    complement(3258285..3259649)
 MOTIF       Pfam: SDH_alpha SDH_beta MmgE_PrpD
-DBLINKS     NCBI-ProteinID: YP_026204
-            NCBI-GeneID: 2847724
-            EcoGene: EG12756
+DBLINKS     NCBI-GeneID: 2847724
+            NCBI-ProteinID: YP_026204
+            RegulonDB: ECK120004176
             ECOCYC: G7624
             ASAP: ABE-0174101
             UniProt: P42630

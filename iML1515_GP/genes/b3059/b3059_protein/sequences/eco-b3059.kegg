@@ -1,24 +1,28 @@
 ENTRY       b3059             CDS       T00007
 NAME        plsY
 DEFINITION  (RefSeq) putative glycerol-3-phosphate acyltransferase
-ORTHOLOGY   K08591  glycerol-3-phosphate acyltransferase PlsY [EC:2.3.1.15]
+ORTHOLOGY   K08591  acyl phosphate:glycerol-3-phosphate acyltransferase [EC:2.3.1.275]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00561  Glycerolipid metabolism
             eco00564  Glycerophospholipid metabolism
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Lipid metabolism
+             09100 Metabolism
+              09103 Lipid metabolism
                00561 Glycerolipid metabolism
                 b3059 (plsY)
                00564 Glycerophospholipid metabolism
+                b3059 (plsY)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01004 Lipid biosynthesis proteins [BR:eco01004]
                 b3059 (plsY)
             Enzymes [BR:eco01000]
              2. Transferases
               2.3  Acyltransferases
                2.3.1  Transferring groups other than aminoacyl groups
-                2.3.1.15  glycerol-3-phosphate 1-O-acyltransferase
+                2.3.1.275  acyl phosphate:glycerol-3-phosphate acyltransferase
                  b3059 (plsY)
             Lipid biosynthesis proteins [BR:eco01004]
              Phospholipid acyltransferase
@@ -26,10 +30,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b3059 (plsY)
 POSITION    3204694..3205311
 MOTIF       Pfam: G3P_acyltransf
-DBLINKS     NCBI-ProteinID: NP_417531
-            NCBI-GeneID: 947561
+DBLINKS     NCBI-GeneID: 947561
+            NCBI-ProteinID: NP_417531
+            Pasteur: ygiH
             RegulonDB: ECK120001617
-            EcoGene: EG11674
             ASAP: ABE-0010042
             UniProt: P60782
 AASEQ       205

@@ -1,13 +1,27 @@
 ENTRY       b4297             CDS       T00007
 NAME        yjhG
-DEFINITION  (RefSeq) putative dehydratase
+DEFINITION  (RefSeq) KpLE2 phage-like element; D-xylonate dehydratase
+ORTHOLOGY   K22396  xylonate dehydratase [EC:4.2.1.82]
 ORGANISM    eco  Escherichia coli K-12 MG1655
+PATHWAY     eco00040  Pentose and glucuronate interconversions
+            eco01100  Metabolic pathways
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00040 Pentose and glucuronate interconversions
+                b4297 (yjhG)
+            Enzymes [BR:eco01000]
+             4. Lyases
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.82  xylonate dehydratase
+                 b4297 (yjhG)
 POSITION    complement(4522127..4524094)
 MOTIF       Pfam: ILVD_EDD
-DBLINKS     NCBI-ProteinID: NP_418717
-            NCBI-GeneID: 946829
+DBLINKS     NCBI-GeneID: 946829
+            NCBI-ProteinID: NP_418717
             Pasteur: yjhG
-            EcoGene: EG12549
+            RegulonDB: ECK120004405
             ECOCYC: G7910
             ASAP: ABE-0014087
             UniProt: P39358

@@ -1,12 +1,13 @@
 ENTRY       b3708             CDS       T00007
 NAME        tnaA
-DEFINITION  (RefSeq) tryptophanase/L-cysteine desulfhydrase, PLP-dependent
+DEFINITION  (RefSeq) tryptophanase
 ORTHOLOGY   K01667  tryptophanase [EC:4.1.99.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00380  Tryptophan metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00380 Tryptophan metabolism
                 b3708 (tnaA)
             Enzymes [BR:eco01000]
@@ -17,14 +18,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3708 (tnaA)
 POSITION    3888730..3890145
 MOTIF       Pfam: Beta_elim_lyase Aminotran_1_2 SepSecS
-DBLINKS     NCBI-ProteinID: NP_418164
-            NCBI-GeneID: 948221
+DBLINKS     NCBI-GeneID: 948221
+            NCBI-ProteinID: NP_418164
             Pasteur: tnaA
-            EcoGene: EG11005
+            RegulonDB: ECK120000994
             ECOCYC: EG11005
             ASAP: ABE-0012133
             UniProt: P0A853
-STRUCTURE   PDB: 5D8G 2OQX 4UP2 2C44 4W4H 4W1Y 2V1P 2V0Y
+STRUCTURE   PDB: 5D8G 2V1P 2OQX 2V0Y 4UP2 2C44 4W4H 4W1Y
 AASEQ       471
             MENFKHLPEPFRIRVIEPVKRTTRAYREEAIIKSGMNPFLLDSEDVFIDLLTDSGTGAVT
             QSMQAAMMRGDEAYSGSRSYYALAESVKNIFGYQYTIPTHQGRGAEQIYIPVLIKKREQE

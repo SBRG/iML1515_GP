@@ -1,26 +1,29 @@
 ENTRY       b2309             CDS       T00007
 NAME        hisJ
-DEFINITION  (RefSeq) histidine/lysine/arginine/ornithine transporter subunit
+DEFINITION  (RefSeq) histidine ABC transporter periplasmic binding protein
 ORTHOLOGY   K10014  histidine transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00226  Histidine transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b2309 (hisJ)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2309 (hisJ)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Phosphate and amino acid transporters
-               Histidine transporter [MD:M00226] [OT]
+               Histidine transporter
                 b2309 (hisJ)
 POSITION    complement(2426006..2426788)
-MOTIF       Pfam: SBP_bac_3 Lig_chan-Glu_bd NMT1
-DBLINKS     NCBI-ProteinID: NP_416812
-            NCBI-GeneID: 945309
+MOTIF       Pfam: SBP_bac_3 Lig_chan-Glu_bd NMT1 YhfZ_C
+DBLINKS     NCBI-GeneID: 945309
+            NCBI-ProteinID: NP_416812
             Pasteur: hisJ
-            EcoGene: EG12124
+            RegulonDB: ECK120002027
             ECOCYC: EG12124
             ASAP: ABE-0007617
             UniProt: P0AEU0

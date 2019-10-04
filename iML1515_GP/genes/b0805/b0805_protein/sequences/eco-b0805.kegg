@@ -1,21 +1,27 @@
 ENTRY       b0805             CDS       T00007
 NAME        fiu
-DEFINITION  (RefSeq) catecholate siderophore receptor Fiu
+DEFINITION  (RefSeq) putative iron siderophore outer membrane transporter
 ORTHOLOGY   K16090  catecholate siderophore receptor
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0805 (fiu)
+            Transporters [BR:eco02000]
+             Other transporters
               Pores ion channels [TC:1]
                b0805 (fiu)
 POSITION    complement(839249..841531)
 MOTIF       Pfam: TonB_dep_Rec Plug
-DBLINKS     NCBI-ProteinID: NP_415326
-            NCBI-GeneID: 946246
+DBLINKS     NCBI-GeneID: 946246
+            NCBI-ProteinID: NP_415326
+            Pasteur: ybiL
             RegulonDB: ECK120003014
-            EcoGene: EG13317
             ECOCYC: G6414
             ASAP: ABE-0002749
             UniProt: P75780
+STRUCTURE   PDB: 6BPN 6BPM 6BPO
 AASEQ       760
             MENNRNFPARQFHSLTFFAGLCIGITPVAQALAAEGQTNADDTLVVEASTPSLYAPQQSA
             DPKFSRPVADTTRTMTVISEQVIKDQGATNLTDALKNVPGVGAFFAGENGNSTTGDAIYM

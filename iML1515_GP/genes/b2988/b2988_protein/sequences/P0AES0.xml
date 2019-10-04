@@ -1,0 +1,1307 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-12-20" modified="2019-09-18" version="110">
+<accession>P0AES0</accession>
+<accession>P43675</accession>
+<accession>Q2M9K7</accession>
+<name>GSP_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>Bifunctional glutathionylspermidine synthetase/amidase</fullName>
+<shortName>GspSA</shortName>
+</recommendedName>
+<domain>
+<recommendedName>
+<fullName>Glutathionylspermidine amidase</fullName>
+<shortName>Gsp amidase</shortName>
+<ecNumber evidence="7 8 9 10">3.5.1.78</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Glutathionylspermidine amidohydrolase [spermidine-forming]</fullName>
+</alternativeName>
+</domain>
+<domain>
+<recommendedName>
+<fullName>Glutathionylspermidine synthetase</fullName>
+<shortName>Gsp synthetase</shortName>
+<ecNumber evidence="7 8 9 10">6.3.1.8</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Glutathione:spermidine ligase [ADP-forming]</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Gsp synthase</fullName>
+</alternativeName>
+</domain>
+</protein>
+<gene>
+<name type="primary">gss</name>
+<name type="synonym">gsp</name>
+<name type="ordered locus">b2988</name>
+<name type="ordered locus">JW2956</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1995" name="J. Biol. Chem." volume="270" first="14031" last="14041">
+<title>Glutathionylspermidine metabolism in Escherichia coli. Purification, cloning, overproduction, and characterization of a bifunctional glutathionylspermidine synthetase/amidase.</title>
+<authorList>
+<person name="Bollinger J.M. Jr."/>
+<person name="Kwon D.S."/>
+<person name="Huisman G.W."/>
+<person name="Kolter R."/>
+<person name="Walsh C.T."/>
+</authorList>
+<dbReference type="PubMed" id="7775463"/>
+<dbReference type="DOI" id="10.1074/jbc.270.23.14031"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>PROTEIN SEQUENCE OF 2-7</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>SUBUNIT</scope>
+<source>
+<strain>B</strain>
+<strain>K12</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="1997" name="Biochemistry" volume="36" first="14930" last="14938">
+<title>Evidence for a glutathionyl-enzyme intermediate in the amidase activity of the bifunctional glutathionylspermidine synthetase/amidase from Escherichia coli.</title>
+<authorList>
+<person name="Lin C.H."/>
+<person name="Kwon D.S."/>
+<person name="Bollinger J.M. Jr."/>
+<person name="Walsh C.T."/>
+</authorList>
+<dbReference type="PubMed" id="9398217"/>
+<dbReference type="DOI" id="10.1021/bi9714464"/>
+</citation>
+<scope>REACTION MECHANISM OF AMIDASE ACTIVITY</scope>
+<scope>ACTIVE SITE AT CYS-59</scope>
+<scope>ACTIVITY REGULATION</scope>
+<scope>MUTAGENESIS OF CYS-59 AND CYS-173</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="1997" name="J. Biol. Chem." volume="272" first="2429" last="2436">
+<title>Dissection of glutathionylspermidine synthetase/amidase from Escherichia coli into autonomously folding and functional synthetase and amidase domains.</title>
+<authorList>
+<person name="Kwon D.S."/>
+<person name="Lin C.H."/>
+<person name="Chen S."/>
+<person name="Coward J.K."/>
+<person name="Walsh C.T."/>
+<person name="Bollinger J.M. Jr."/>
+</authorList>
+<dbReference type="PubMed" id="8999955"/>
+<dbReference type="DOI" id="10.1074/jbc.272.4.2429"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>DOMAIN</scope>
+<scope>SUBSTRATE SPECIFICITY</scope>
+<scope>ACTIVITY REGULATION</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2012" name="Int. J. Biochem. Mol. Biol." volume="3" first="302" last="312">
+<title>Comparison of the functions of glutathionylspermidine synthetase/amidase from E. coli and its predicted homologues YgiC and YjfC.</title>
+<authorList>
+<person name="Sui L."/>
+<person name="Warren J.C."/>
+<person name="Russell J.P."/>
+<person name="Stourman N.V."/>
+</authorList>
+<dbReference type="PubMed" id="23097746"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+<source>
+<strain>K12</strain>
+</source>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2006" name="EMBO J." volume="25" first="5970" last="5982">
+<title>Dual binding sites for translocation catalysis by Escherichia coli glutathionylspermidine synthetase.</title>
+<authorList>
+<person name="Pai C.H."/>
+<person name="Chiang B.Y."/>
+<person name="Ko T.P."/>
+<person name="Chou C.C."/>
+<person name="Chong C.M."/>
+<person name="Yen F.J."/>
+<person name="Chen S."/>
+<person name="Coward J.K."/>
+<person name="Wang A.H."/>
+<person name="Lin C.H."/>
+</authorList>
+<dbReference type="PubMed" id="17124497"/>
+<dbReference type="DOI" id="10.1038/sj.emboj.7601440"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.10 ANGSTROMS) OF APOENZYME AND IN COMPLEXES WITH SUBSTRATE; PRODUCT AND INHIBITOR</scope>
+<scope>DOMAIN BOUNDARIES</scope>
+<scope>SUBUNIT</scope>
+<scope>REACTION MECHANISM OF SYNTHETASE ACTIVITY</scope>
+<scope>KINETIC PARAMETERS</scope>
+<scope>SITE AT ARG-316</scope>
+<scope>MUTAGENESIS OF SER-335; SER-337; CYS-338; GLU-391; GLU-392; THR-441; ARG-538 AND ARG-598</scope>
+</reference>
+<reference key="8">
+<citation type="journal article" date="2010" name="J. Biol. Chem." volume="285" first="25345" last="25353">
+<title>Protein S-thiolation by glutathionylspermidine (Gsp): the role of Escherichia coli Gsp synthetase/amidase in redox regulation.</title>
+<authorList>
+<person name="Chiang B.Y."/>
+<person name="Chen T.C."/>
+<person name="Pai C.H."/>
+<person name="Chou C.C."/>
+<person name="Chen H.H."/>
+<person name="Ko T.P."/>
+<person name="Hsu W.H."/>
+<person name="Chang C.Y."/>
+<person name="Wu W.F."/>
+<person name="Wang A.H."/>
+<person name="Lin C.H."/>
+</authorList>
+<dbReference type="PubMed" id="20530482"/>
+<dbReference type="DOI" id="10.1074/jbc.m110.133363"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.50 ANGSTROMS) OF 1-197</scope>
+<scope>FUNCTION</scope>
+<scope>ROLE IN REDOX REGULATION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>ACTIVITY REGULATION</scope>
+<scope>OXIDATION AT CYS-59</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+</reference>
+<reference key="9">
+<citation type="journal article" date="2011" name="Protein Sci." volume="20" first="557" last="566">
+<title>Structure and mechanism of Escherichia coli glutathionylspermidine amidase belonging to the family of cysteine; histidine-dependent amidohydrolases/peptidases.</title>
+<authorList>
+<person name="Pai C.H."/>
+<person name="Wu H.J."/>
+<person name="Lin C.H."/>
+<person name="Wang A.H."/>
+</authorList>
+<dbReference type="PubMed" id="21226054"/>
+<dbReference type="DOI" id="10.1002/pro.589"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.95 ANGSTROMS) OF MUTANT ALA-59 IN COMPLEXES WITH ADP; GLUTATHIONYLSPERMIDINE AND MAGNESIUM</scope>
+<scope>ACTIVE SITES</scope>
+<scope>CATALYTIC MECHANISM OF AMIDASE ACTIVITY</scope>
+</reference>
+<comment type="function">
+<text evidence="7 8 9 10">Catalyzes the formation of an amide bond between glutathione (GSH) and spermidine coupled with hydrolysis of ATP; also catalyzes the opposing reaction, i.e. the hydrolysis of glutathionylspermidine (Gsp) back to glutathione and spermidine. The amidase active site can also hydrolyze Gsp-disulfide (Gsp-S-S-Gsp) to Gsp-SG and Gsp S-thiolated proteins (GspSSPs) to GSH S-thiolated protein (GSSPs). Likely acts synergistically with glutaredoxin to regulate the redox environment of E.coli and defend against oxidative damage. In vitro, the amidase active site also catalyzes hydrolysis of amide and ester derivatives of glutathione (e.g. glutathione ethyl ester and glutathione amide) but lacks activity toward acetylspermidine (N1 and N8) and acetylspermine (N1).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="7 8 9 10">
+<text>ATP + glutathione + spermidine = ADP + glutathionylspermidine + H(+) + phosphate</text>
+<dbReference type="Rhea" id="RHEA:21272"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:30616"/>
+<dbReference type="ChEBI" id="CHEBI:43474"/>
+<dbReference type="ChEBI" id="CHEBI:57834"/>
+<dbReference type="ChEBI" id="CHEBI:57835"/>
+<dbReference type="ChEBI" id="CHEBI:57925"/>
+<dbReference type="ChEBI" id="CHEBI:456216"/>
+<dbReference type="EC" id="6.3.1.8"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="7 8 9 10">
+<text>glutathionylspermidine + H2O = glutathione + spermidine</text>
+<dbReference type="Rhea" id="RHEA:17173"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:57834"/>
+<dbReference type="ChEBI" id="CHEBI:57835"/>
+<dbReference type="ChEBI" id="CHEBI:57925"/>
+<dbReference type="EC" id="3.5.1.78"/>
+</reaction>
+</comment>
+<comment type="activity regulation">
+<text evidence="7 10 11">When exposed to oxidative stress, Gsp amidase activity is transiently inhibited in vivo by oxidation of the catalytic Cys-59 thiol to sulfenic acid; this modification does not affect Gsp synthetase activity. Gsp amidase activity is negatively autoregulated by the Gsp synthetase domain, and is activated by the Gsp synthetase substrates, GSH and ATP-Mg(2+); the occupancy of the synthetase active site may initiate communication through the protein as manifest by the release of inhibition of the amidase activity. A tetrahedral phosphonate analog of glutathionylspermidine, designed as a mimic of the proposed tetrahedral intermediate for either reaction, inhibits the synthetase activity (Ki of 10 uM) but does not inhibit the amidase activity. Amidase activity is inhibited by iodoacetamide in vitro.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="6 9">100 uM for ATP (at pH 6.8)</KM>
+<KM evidence="6 9">800 uM for glutathione (at pH 6.8)</KM>
+<KM evidence="6 9">218 uM for glutathione</KM>
+<KM evidence="6 9">60 uM for spermidine (at pH 6.8)</KM>
+<KM evidence="6 9">20 uM for spermidine (at pH 7.5)</KM>
+<KM evidence="6 9">76 uM for spermidine</KM>
+<KM evidence="6 9">900 uM for glutathionylspermidine (at pH 7.5)</KM>
+<text evidence="9">kcat is 7 sec(-1) for Gsp synthetase activity at pH 6.8 and 2.1 sec(-1) for Gsp amidase activity at pH 7.5.</text>
+</kinetics>
+<phDependence>
+<text evidence="9">Optimum pH is around 6.8 for Gsp synthetase activity.</text>
+</phDependence>
+</comment>
+<comment type="pathway">
+<text>Sulfur metabolism; glutathione metabolism.</text>
+</comment>
+<comment type="pathway">
+<text>Amine and polyamine metabolism; spermidine metabolism.</text>
+</comment>
+<comment type="subunit">
+<text evidence="6 9">Homodimer.</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-557080"/>
+<interactant intactId="EBI-554030">
+<id>P31574</id>
+<label>fixB</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>2</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-557080"/>
+<interactant intactId="EBI-545468">
+<id>P0AG30</id>
+<label>rho</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>5</experiments>
+</comment>
+<comment type="induction">
+<text>Expression level is unaffected by H(2)O(2); however Gsp rapidly accumulates in E.coli in the presence of H(2)O(2).</text>
+</comment>
+<comment type="domain">
+<text evidence="6 10">The two activities reside in distinct domains (N-terminal amidase and C-terminal synthetase). The two domains expressed independently are folded and functional; liberation of the amidase domain from the synthetase domain highly activates the amidase activity.</text>
+</comment>
+<comment type="PTM">
+<text evidence="7">Oxidation of Cys-59 to sulfenic acid during oxidative stress selectively inhibits the amidase activity which leads to a rapid increase in the amounts of intracellular Gsp and Gsp S-thiolated proteins (GspSSPs).</text>
+</comment>
+<comment type="disruption phenotype">
+<text evidence="7 8">Cells lacking this gene do not produce Gsp under anaerobic conditions. Cells lacking both this gene and glutaredoxin (grxA or grxB) become hypersensitive to H(2)O(2); they are even more susceptible to oxidative damage than the single mutant lacking glutaredoxin only.</text>
+</comment>
+<comment type="miscellaneous">
+<text evidence="14">Gsp forms mixed disulfides with the thiols of a variety of E.coli proteins. These mixed disulfides represent a previously uncharacterized type of post-translational modification. The level of these proteins is increased by oxidative stress, which implies that Gsp might protect protein thiols against irreversible oxidation (PubMed:20530482).</text>
+</comment>
+<comment type="miscellaneous">
+<text evidence="15">No metal ion is required for the amidase activity.</text>
+</comment>
+<comment type="miscellaneous">
+<text evidence="13 16">Gsp hydrolysis to GSH and spermidine proceeds with formation of a glutathionyl acyl-enzyme intermediate, utilizing a cysteine residue as the catalytic nucleophile (PubMed:9398217). For Gsp synthesis, GSH is likely phosphorylated at one of two GSH-binding sites to form an acylphosphate intermediate that then translocates to the other site for subsequent nucleophilic addition of spermidine (PubMed:17124497).</text>
+</comment>
+<comment type="similarity">
+<text evidence="12">In the C-terminal section; belongs to the glutathionylspermidine synthase preATP-grasp family.</text>
+</comment>
+<dbReference type="EC" id="3.5.1.78" evidence="7 8 9 10"/>
+<dbReference type="EC" id="6.3.1.8" evidence="7 8 9 10"/>
+<dbReference type="EMBL" id="U23148">
+<property type="protein sequence ID" value="AAC43339.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U28377">
+<property type="protein sequence ID" value="AAA69155.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC76024.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE77049.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="A57538">
+<property type="entry name" value="A57538"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_417462.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_001297309.1">
+<property type="nucleotide sequence ID" value="NZ_SSZK01000023.1"/>
+</dbReference>
+<dbReference type="PDB" id="2IO7">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.70"/>
+<property type="chains" value="A/B=1-619"/>
+</dbReference>
+<dbReference type="PDB" id="2IO8">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.10"/>
+<property type="chains" value="A/B=1-619"/>
+</dbReference>
+<dbReference type="PDB" id="2IO9">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.20"/>
+<property type="chains" value="A/B=1-619"/>
+</dbReference>
+<dbReference type="PDB" id="2IOA">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.80"/>
+<property type="chains" value="A/B=1-619"/>
+</dbReference>
+<dbReference type="PDB" id="2IOB">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.20"/>
+<property type="chains" value="A/B=1-619"/>
+</dbReference>
+<dbReference type="PDB" id="3A2Y">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.95"/>
+<property type="chains" value="A=1-197"/>
+</dbReference>
+<dbReference type="PDB" id="3A2Z">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.50"/>
+<property type="chains" value="A=1-197"/>
+</dbReference>
+<dbReference type="PDB" id="3A30">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.20"/>
+<property type="chains" value="A=1-197"/>
+</dbReference>
+<dbReference type="PDB" id="3O98">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.80"/>
+<property type="chains" value="A/B=1-619"/>
+</dbReference>
+<dbReference type="PDBsum" id="2IO7"/>
+<dbReference type="PDBsum" id="2IO8"/>
+<dbReference type="PDBsum" id="2IO9"/>
+<dbReference type="PDBsum" id="2IOA"/>
+<dbReference type="PDBsum" id="2IOB"/>
+<dbReference type="PDBsum" id="3A2Y"/>
+<dbReference type="PDBsum" id="3A2Z"/>
+<dbReference type="PDBsum" id="3A30"/>
+<dbReference type="PDBsum" id="3O98"/>
+<dbReference type="SMR" id="P0AES0"/>
+<dbReference type="BioGrid" id="4261180">
+<property type="interactions" value="18"/>
+</dbReference>
+<dbReference type="BioGrid" id="851792">
+<property type="interactions" value="4"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-36018N"/>
+<dbReference type="IntAct" id="P0AES0">
+<property type="interactions" value="14"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b2988"/>
+<dbReference type="MEROPS" id="C51.A01"/>
+<dbReference type="jPOST" id="P0AES0"/>
+<dbReference type="PaxDb" id="P0AES0"/>
+<dbReference type="PRIDE" id="P0AES0"/>
+<dbReference type="EnsemblBacteria" id="AAC76024">
+<property type="protein sequence ID" value="AAC76024"/>
+<property type="gene ID" value="b2988"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE77049">
+<property type="protein sequence ID" value="BAE77049"/>
+<property type="gene ID" value="BAE77049"/>
+</dbReference>
+<dbReference type="GeneID" id="947474"/>
+<dbReference type="KEGG" id="ecj:JW2956"/>
+<dbReference type="KEGG" id="eco:b2988"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.3741"/>
+<dbReference type="EchoBASE" id="EB2720"/>
+<dbReference type="EcoGene" id="EG12882">
+<property type="gene designation" value="gss"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4106032">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0754">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000124980"/>
+<dbReference type="InParanoid" id="P0AES0"/>
+<dbReference type="KO" id="K01460"/>
+<dbReference type="BioCyc" id="EcoCyc:GSP-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW2956-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:GSP-MONOMER"/>
+<dbReference type="BRENDA" id="3.5.1.78">
+<property type="organism ID" value="2026"/>
+</dbReference>
+<dbReference type="BRENDA" id="6.3.1.8">
+<property type="organism ID" value="2026"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00204"/>
+<dbReference type="UniPathway" id="UPA00819"/>
+<dbReference type="EvolutionaryTrace" id="P0AES0"/>
+<dbReference type="PRO" id="PR:P0AES0"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008884">
+<property type="term" value="F:glutathionylspermidine amidase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008885">
+<property type="term" value="F:glutathionylspermidine synthase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006749">
+<property type="term" value="P:glutathione metabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008216">
+<property type="term" value="P:spermidine metabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR007921">
+<property type="entry name" value="CHAP_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005494">
+<property type="entry name" value="GSPS_pre-ATP-grasp-like_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR038765">
+<property type="entry name" value="Papain-like_cys_pep_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016185">
+<property type="entry name" value="PreATP-grasp_dom_sf"/>
+</dbReference>
+<dbReference type="Pfam" id="PF05257">
+<property type="entry name" value="CHAP"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03738">
+<property type="entry name" value="GSP_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52440">
+<property type="entry name" value="SSF52440"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF54001">
+<property type="entry name" value="SSF54001"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50911">
+<property type="entry name" value="CHAP"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0067">ATP-binding</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0436">Ligase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0511">Multifunctional enzyme</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-0558">Oxidation</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="initiator methionine" description="Removed" evidence="9">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="chain" description="Bifunctional glutathionylspermidine synthetase/amidase" id="PRO_0000070443">
+<location>
+<begin position="2"/>
+<end position="619"/>
+</location>
+</feature>
+<feature type="domain" description="Peptidase C51" evidence="5">
+<location>
+<begin position="34"/>
+<end position="176"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="ATP">
+<location>
+<begin position="316"/>
+<end position="318"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="ATP">
+<location>
+<begin position="539"/>
+<end position="540"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="ATP">
+<location>
+<begin position="568"/>
+<end position="571"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="ATP">
+<location>
+<begin position="603"/>
+<end position="605"/>
+</location>
+</feature>
+<feature type="region of interest" description="Gsp amidase">
+<location>
+<begin position="2"/>
+<end position="195"/>
+</location>
+</feature>
+<feature type="region of interest" description="Gsp binding">
+<location>
+<begin position="78"/>
+<end position="81"/>
+</location>
+</feature>
+<feature type="region of interest" description="Linker">
+<location>
+<begin position="196"/>
+<end position="205"/>
+</location>
+</feature>
+<feature type="region of interest" description="Gsp synthetase">
+<location>
+<begin position="206"/>
+<end position="619"/>
+</location>
+</feature>
+<feature type="active site" description="S-(gamma-glutamyl-cysteinyl-glycyl)-cysteine intermediate" evidence="11">
+<location>
+<position position="59"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1">
+<location>
+<position position="318"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1">
+<location>
+<position position="330"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2">
+<location>
+<position position="330"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2">
+<location>
+<position position="332"/>
+</location>
+</feature>
+<feature type="binding site" description="Gsp">
+<location>
+<position position="58"/>
+</location>
+</feature>
+<feature type="binding site" description="Gsp">
+<location>
+<position position="64"/>
+</location>
+</feature>
+<feature type="binding site" description="Gsp">
+<location>
+<position position="149"/>
+</location>
+</feature>
+<feature type="binding site" description="Glutathione">
+<location>
+<position position="316"/>
+</location>
+</feature>
+<feature type="binding site" description="Glutathione">
+<location>
+<position position="335"/>
+</location>
+</feature>
+<feature type="binding site" description="Spermidine">
+<location>
+<position position="391"/>
+</location>
+</feature>
+<feature type="binding site" description="Glutathione">
+<location>
+<position position="392"/>
+</location>
+</feature>
+<feature type="binding site" description="Glutathione">
+<location>
+<position position="446"/>
+</location>
+</feature>
+<feature type="binding site" description="ATP">
+<location>
+<position position="498"/>
+</location>
+</feature>
+<feature type="binding site" description="ATP">
+<location>
+<position position="533"/>
+</location>
+</feature>
+<feature type="binding site" description="ATP">
+<location>
+<position position="582"/>
+</location>
+</feature>
+<feature type="binding site" description="Spermidine">
+<location>
+<position position="610"/>
+</location>
+</feature>
+<feature type="site" description="Increases nucleophilicity of active site Cys; for amidase activity">
+<location>
+<position position="131"/>
+</location>
+</feature>
+<feature type="site" description="Transition state stabilizer; for synthetase activity">
+<location>
+<position position="316"/>
+</location>
+</feature>
+<feature type="modified residue" description="Cysteine sulfenic acid (-SOH); transient" evidence="7">
+<location>
+<position position="59"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of amidase activity." evidence="11">
+<original>C</original>
+<variation>A</variation>
+<location>
+<position position="59"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="No effect on amidase activity." evidence="11">
+<original>C</original>
+<variation>A</variation>
+<location>
+<position position="173"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of synthetase activity.">
+<original>R</original>
+<variation>E</variation>
+<location>
+<position position="316"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="3.6-fold decrease in GSH affinity, 1.6-fold decrease in spermidine activity, and 1.3-fold decrease in synthetase activity." evidence="6">
+<original>S</original>
+<variation>A</variation>
+<location>
+<position position="335"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="No effect on GSH and spermidine affinity, but 2-fold decrease in synthetase activity." evidence="6">
+<original>S</original>
+<variation>A</variation>
+<location>
+<position position="337"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="10-fold decrease in GSH affinity, 5-fold decrease in spermidine activity, but no effect on synthetase activity." evidence="6">
+<original>C</original>
+<variation>A</variation>
+<location>
+<position position="338"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="2-fold decrease in GSH affinity, 60-fold decrease in spermidine activity, and 10-fold decrease in synthetase activity." evidence="6">
+<original>E</original>
+<variation>A</variation>
+<location>
+<position position="391"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="33-fold decrease in GSH affinity, 13-fold decrease in spermidine activity, and 6-fold decrease in synthetase activity." evidence="6">
+<original>E</original>
+<variation>A</variation>
+<location>
+<position position="392"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="3-fold decrease in GSH affinity, 21-fold decrease in spermidine activity, and 17-fold decrease in synthetase activity." evidence="6">
+<original>T</original>
+<variation>A</variation>
+<location>
+<position position="441"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="6-fold decrease in GSH affinity, 2.4-fold decrease in spermidine activity, and 4-fold decrease in synthetase activity." evidence="6">
+<original>R</original>
+<variation>A</variation>
+<location>
+<position position="538"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="10-fold increase in GSH affinity, 9-fold decrease in spermidine activity, and 15-fold decrease in synthetase activity." evidence="6">
+<original>R</original>
+<variation>A</variation>
+<location>
+<position position="598"/>
+</location>
+</feature>
+<feature type="strand" evidence="4">
+<location>
+<begin position="15"/>
+<end position="19"/>
+</location>
+</feature>
+<feature type="turn" evidence="4">
+<location>
+<begin position="20"/>
+<end position="22"/>
+</location>
+</feature>
+<feature type="strand" evidence="4">
+<location>
+<begin position="23"/>
+<end position="26"/>
+</location>
+</feature>
+<feature type="helix" evidence="4">
+<location>
+<begin position="35"/>
+<end position="40"/>
+</location>
+</feature>
+<feature type="helix" evidence="4">
+<location>
+<begin position="42"/>
+<end position="44"/>
+</location>
+</feature>
+<feature type="strand" evidence="4">
+<location>
+<begin position="45"/>
+<end position="48"/>
+</location>
+</feature>
+<feature type="strand" evidence="4">
+<location>
+<begin position="51"/>
+<end position="55"/>
+</location>
+</feature>
+<feature type="helix" evidence="4">
+<location>
+<begin position="59"/>
+<end position="71"/>
+</location>
+</feature>
+<feature type="strand" evidence="4">
+<location>
+<begin position="72"/>
+<end position="74"/>
+</location>
+</feature>
+<feature type="helix" evidence="4">
+<location>
+<begin position="81"/>
+<end position="86"/>
+</location>
+</feature>
+<feature type="strand" evidence="4">
+<location>
+<begin position="89"/>
+<end position="92"/>
+</location>
+</feature>
+<feature type="turn" evidence="4">
+<location>
+<begin position="93"/>
+<end position="95"/>
+</location>
+</feature>
+<feature type="strand" evidence="4">
+<location>
+<begin position="98"/>
+<end position="100"/>
+</location>
+</feature>
+<feature type="strand" evidence="4">
+<location>
+<begin position="102"/>
+<end position="105"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="108"/>
+<end position="110"/>
+</location>
+</feature>
+<feature type="strand" evidence="4">
+<location>
+<begin position="117"/>
+<end position="120"/>
+</location>
+</feature>
+<feature type="helix" evidence="4">
+<location>
+<begin position="124"/>
+<end position="126"/>
+</location>
+</feature>
+<feature type="turn" evidence="4">
+<location>
+<begin position="127"/>
+<end position="129"/>
+</location>
+</feature>
+<feature type="strand" evidence="4">
+<location>
+<begin position="131"/>
+<end position="138"/>
+</location>
+</feature>
+<feature type="strand" evidence="4">
+<location>
+<begin position="140"/>
+<end position="146"/>
+</location>
+</feature>
+<feature type="strand" evidence="4">
+<location>
+<begin position="148"/>
+<end position="150"/>
+</location>
+</feature>
+<feature type="strand" evidence="4">
+<location>
+<begin position="162"/>
+<end position="170"/>
+</location>
+</feature>
+<feature type="strand" evidence="4">
+<location>
+<begin position="173"/>
+<end position="177"/>
+</location>
+</feature>
+<feature type="strand" evidence="4">
+<location>
+<begin position="179"/>
+<end position="182"/>
+</location>
+</feature>
+<feature type="strand" evidence="4">
+<location>
+<begin position="185"/>
+<end position="192"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="206"/>
+<end position="209"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="212"/>
+<end position="215"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="229"/>
+<end position="231"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="232"/>
+<end position="241"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="245"/>
+<end position="247"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="251"/>
+<end position="256"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="257"/>
+<end position="283"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="285"/>
+<end position="288"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="289"/>
+<end position="291"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="295"/>
+<end position="297"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="298"/>
+<end position="307"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="309"/>
+<end position="311"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="314"/>
+<end position="322"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="325"/>
+<end position="332"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="339"/>
+<end position="343"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="345"/>
+<end position="353"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="361"/>
+<end position="364"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="365"/>
+<end position="374"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="380"/>
+<end position="386"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="390"/>
+<end position="405"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="409"/>
+<end position="416"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="423"/>
+<end position="425"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="437"/>
+<end position="442"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="444"/>
+<end position="453"/>
+</location>
+</feature>
+<feature type="turn" evidence="3">
+<location>
+<begin position="456"/>
+<end position="458"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="459"/>
+<end position="461"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="475"/>
+<end position="479"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="485"/>
+<end position="488"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="490"/>
+<end position="493"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="494"/>
+<end position="496"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="500"/>
+<end position="507"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="517"/>
+<end position="520"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="523"/>
+<end position="528"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="530"/>
+<end position="534"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="539"/>
+<end position="542"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="544"/>
+<end position="546"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="552"/>
+<end position="555"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="559"/>
+<end position="562"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="565"/>
+<end position="569"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="579"/>
+<end position="588"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="591"/>
+<end position="604"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="609"/>
+<end position="612"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="614"/>
+<end position="617"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2IO8"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2IOA"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2IOB"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="3A2Z"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00048"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="17124497"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="20530482"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="23097746"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="7775463"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="8999955"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9398217"/>
+</source>
+</evidence>
+<evidence key="12" type="ECO:0000305"/>
+<evidence key="13" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="17124497"/>
+</source>
+</evidence>
+<evidence key="14" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="20530482"/>
+</source>
+</evidence>
+<evidence key="15" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="8999955"/>
+</source>
+</evidence>
+<evidence key="16" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="9398217"/>
+</source>
+</evidence>
+<sequence length="619" mass="70532" checksum="07FB43D8A0B2933C" modified="2005-12-20" version="1">MSKGTTSQDAPFGTLLGYAPGGVAIYSSDYSSLDPQEYEDDAVFRSYIDDEYMGHKWQCVEFARRFLFLNYGVVFTDVGMAWEIFSLRFLREVVNDNILPLQAFPNGSPRAPVAGALLIWDKGGEFKDTGHVAIITQLHGNKVRIAEQNVIHSPLPQGQQWTRELEMVVENGCYTLKDTFDDTTILGWMIQTEDTEYSLPQPEIAGELLKISGARLENKGQFDGKWLDEKDPLQNAYVQANGQVINQDPYHYYTITESAEQELIKATNELHLMYLHATDKVLKDDNLLALFDIPKILWPRLRLSWQRRRHHMITGRMDFCMDERGLKVYEYNADSASCHTEAGLILERWAEQGYKGNGFNPAEGLINELAGAWKHSRARPFVHIMQDKDIEENYHAQFMEQALHQAGFETRILRGLDELGWDAAGQLIDGEGRLVNCVWKTWAWETAFDQIREVSDREFAAVPIRTGHPQNEVRLIDVLLRPEVLVFEPLWTVIPGNKAILPILWSLFPHHRYLLDTDFTVNDELVKTGYAVKPIAGRCGSNIDLVSHHEEVLDKTSGKFAEQKNIYQQLWCLPKVDGKYIQVCTFTVGGNYGGTCLRGDESLVIKKESDIEPLIVVKK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

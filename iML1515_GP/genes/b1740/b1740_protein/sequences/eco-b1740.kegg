@@ -1,14 +1,14 @@
 ENTRY       b1740             CDS       T00007
 NAME        nadE
-DEFINITION  (RefSeq) NAD synthetase, NH3/glutamine-dependent
+DEFINITION  (RefSeq) NAD synthetase, NH3-dependent
 ORTHOLOGY   K01916  NAD+ synthase [EC:6.3.1.5]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00760  Nicotinate and nicotinamide metabolism
             eco01100  Metabolic pathways
 MODULE      eco_M00115  NAD biosynthesis, aspartate => NAD
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00760 Nicotinate and nicotinamide metabolism
                 b1740 (nadE)
             Enzymes [BR:eco01000]
@@ -19,10 +19,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1740 (nadE)
 POSITION    1822458..1823285
 MOTIF       Pfam: NAD_synthase
-DBLINKS     NCBI-ProteinID: NP_416254
-            NCBI-GeneID: 946946
+DBLINKS     NCBI-GeneID: 946946
+            NCBI-ProteinID: NP_416254
             Pasteur: nadE
-            EcoGene: EG10663
+            RegulonDB: ECK120000656
             ECOCYC: EG10663
             ASAP: ABE-0005803
             UniProt: P18843

@@ -1,13 +1,19 @@
 ENTRY       b3182             CDS       T00007
 NAME        dacB
-DEFINITION  (RefSeq) D-alanyl-D-alanine carboxypeptidase
+DEFINITION  (RefSeq) peptidoglycan DD-endopeptidase DacB
 ORTHOLOGY   K07259  serine-type D-Ala-D-Ala carboxypeptidase/endopeptidase (penicillin-binding protein 4) [EC:3.4.16.4 3.4.21.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00550  Peptidoglycan biosynthesis
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00550 Peptidoglycan biosynthesis
+                b3182 (dacB)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors [BR:eco01002]
+                b3182 (dacB)
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
                 b3182 (dacB)
             Enzymes [BR:eco01000]
              3. Hydrolases
@@ -18,17 +24,20 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                3.4.21  Serine endopeptidases
                 3.4.21.-  
                  b3182 (dacB)
-            Peptidases [BR:eco01002]
-             Serine Peptidases
+            Peptidases and inhibitors [BR:eco01002]
+             Serine peptidases
               Family S13: D-Ala-D-Ala peptidase C family
+               b3182 (dacB)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              DD-Carboxypeptidase/DD-Endopeptidase (Low molecular weight PBP)
                b3182 (dacB)
 POSITION    3328963..3330396
 MOTIF       Pfam: Peptidase_S13 Beta-lactamase2 Transpeptidase TrbL
-DBLINKS     NCBI-ProteinID: NP_417649
-            NCBI-GeneID: 947693
+DBLINKS     NCBI-GeneID: 947693
+            NCBI-ProteinID: NP_417649
             Pasteur: dacB
             RegulonDB: ECK120000196
-            EcoGene: EG10202
             ECOCYC: EG10202
             ASAP: ABE-0010458
             UniProt: P24228

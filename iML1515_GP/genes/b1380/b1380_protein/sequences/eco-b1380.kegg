@@ -1,13 +1,14 @@
 ENTRY       b1380             CDS       T00007
 NAME        ldhA
-DEFINITION  (RefSeq) fermentative D-lactate dehydrogenase, NAD-dependent
+DEFINITION  (RefSeq) D-lactate dehydrogenase
 ORTHOLOGY   K03778  D-lactate dehydrogenase [EC:1.1.1.28]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00620  Pyruvate metabolism
+            eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00620 Pyruvate metabolism
                 b1380 (ldhA)
             Enzymes [BR:eco01000]
@@ -18,15 +19,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1380 (ldhA)
 POSITION    complement(1441854..1442843)
 MOTIF       Pfam: 2-Hacid_dh_C 2-Hacid_dh NAD_binding_2 XdhC_C AdoHcyase_NAD CoA_binding_2
-DBLINKS     NCBI-ProteinID: NP_415898
-            NCBI-GeneID: 946315
+DBLINKS     NCBI-GeneID: 946315
+            NCBI-ProteinID: NP_415898
             Pasteur: ldhA
             RegulonDB: ECK120002700
-            EcoGene: EG13186
             ECOCYC: G592
             ASAP: ABE-0004619
             UniProt: P52643
-STRUCTURE   PDB: 3WX0
+STRUCTURE   PDB: 5Z1Z 3WX0
 AASEQ       329
             MKLAVYSTKQYDKKYLQQVNESFGFELEFFDFLLTEKTAKTANGCEAVCIFVNDDGSRPV
             LEELKKHGVKYIALRCAGFNNVDLDAAKELGLKVVRVPAYDPEAVAEHAIGMMMTLNRRI

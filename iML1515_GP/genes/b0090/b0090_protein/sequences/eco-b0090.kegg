@@ -7,13 +7,17 @@ PATHWAY     eco00550  Peptidoglycan biosynthesis
             eco01100  Metabolic pathways
             eco01502  Vancomycin resistance
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00550 Peptidoglycan biosynthesis
                 b0090 (murG)
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01502 Vancomycin resistance
+                b0090 (murG)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
                 b0090 (murG)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -21,12 +25,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                2.4.1  Hexosyltransferases
                 2.4.1.227  undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase
                  b0090 (murG)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Precursor biosynthesis
+              Glycosyltransferase
+               b0090 (murG)
 POSITION    99644..100711
 MOTIF       Pfam: Glyco_transf_28 Glyco_tran_28_C Glyco_transf_4 Glyco_trans_1_4 Glyco_trans_4_4
-DBLINKS     NCBI-ProteinID: NP_414632
-            NCBI-GeneID: 946321
+DBLINKS     NCBI-GeneID: 946321
+            NCBI-ProteinID: NP_414632
             Pasteur: murG
-            EcoGene: EG10623
+            RegulonDB: ECK120000616
             ECOCYC: EG10623
             ASAP: ABE-0000322
             UniProt: P17443

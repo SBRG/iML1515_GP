@@ -1,6 +1,6 @@
 ENTRY       b1236             CDS       T00007
 NAME        galU
-DEFINITION  (RefSeq) glucose-1-phosphate uridylyltransferase
+DEFINITION  (RefSeq) UTP--glucose-1-phosphate uridylyltransferase
 ORTHOLOGY   K00963  UTP--glucose-1-phosphate uridylyltransferase [EC:2.7.7.9]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00040  Pentose and glucuronate interconversions
@@ -9,11 +9,11 @@ PATHWAY     eco00040  Pentose and glucuronate interconversions
             eco00520  Amino sugar and nucleotide sugar metabolism
             eco01100  Metabolic pathways
             eco01130  Biosynthesis of antibiotics
-MODULE      eco_M00362  Nucleotide sugar biosynthesis, prokaryotes
-            eco_M00549  Nucleotide sugar biosynthesis, glucose => UDP-glucose
+MODULE      eco_M00549  Nucleotide sugar biosynthesis, glucose => UDP-glucose
+            eco_M00854  Glycogen biosynthesis, glucose-1P => glycogen/starch
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00040 Pentose and glucuronate interconversions
                 b1236 (galU)
                00052 Galactose metabolism
@@ -30,11 +30,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1236 (galU)
 POSITION    1291457..1292365
 MOTIF       Pfam: NTP_transferase NTP_transf_3 IspD CTP_transf_3
-DBLINKS     NCBI-ProteinID: NP_415752
-            NCBI-GeneID: 945730
+DBLINKS     NCBI-GeneID: 945730
+            NCBI-ProteinID: NP_415752
             Pasteur: galU
             RegulonDB: ECK120001290
-            EcoGene: EG11319
             ECOCYC: EG11319
             ASAP: ABE-0004150
             UniProt: P0AEP3

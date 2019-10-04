@@ -1,7 +1,7 @@
 ENTRY       b2023             CDS       T00007
 NAME        hisH
-DEFINITION  (RefSeq) imidazole glycerol phosphate synthase, glutamine amidotransferase subunit with HisF
-ORTHOLOGY   K02501  glutamine amidotransferase [EC:2.4.2.-]
+DEFINITION  (RefSeq) imidazole glycerol phosphate synthase subunit HisH
+ORTHOLOGY   K02501  imidazole glycerol-phosphate synthase subunit HisH [EC:4.3.2.10]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00340  Histidine metabolism
             eco01100  Metabolic pathways
@@ -9,25 +9,22 @@ PATHWAY     eco00340  Histidine metabolism
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00026  Histidine biosynthesis, PRPP => histidine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b2023 (hisH)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00340 Histidine metabolism
                 b2023 (hisH)
             Enzymes [BR:eco01000]
-             2. Transferases
-              2.4  Glycosyltransferases
-               2.4.2  Pentosyltransferases
-                2.4.2.-  
+             4. Lyases
+              4.3  Carbon-nitrogen lyases
+               4.3.2  Amidine-lyases
+                4.3.2.10  imidazole glycerol-phosphate synthase
                  b2023 (hisH)
 POSITION    2094535..2095125
 MOTIF       Pfam: GATase SNO Peptidase_C26 GATase_3
-DBLINKS     NCBI-ProteinID: NP_416527
-            NCBI-GeneID: 946544
+DBLINKS     NCBI-GeneID: 946544
+            NCBI-ProteinID: NP_416527
             Pasteur: hisH
-            EcoGene: EG10450
+            RegulonDB: ECK120000443
             ECOCYC: EG10450
             ASAP: ABE-0006722
             UniProt: P60595

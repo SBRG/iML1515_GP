@@ -1,18 +1,23 @@
 ENTRY       b0046             CDS       T00007
 NAME        kefF
-DEFINITION  (RefSeq) potassium-efflux system ancillary protein for KefC, glutathione-regulated; quinone oxidoreductase, FMN-dependent
+DEFINITION  (RefSeq) regulator of KefC-mediated potassium transport and quinone oxidoreductase
 ORTHOLOGY   K11746  glutathione-regulated potassium-efflux system ancillary protein KefF
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0046 (kefF)
+            Transporters [BR:eco02000]
+             Other transporters
               Electrochemical potential-driven transporters [TC:2]
                b0046 (kefF)
 POSITION    47246..47776
 MOTIF       Pfam: Flavodoxin_2 FMN_red
-DBLINKS     NCBI-ProteinID: NP_414588
-            NCBI-GeneID: 944767
+DBLINKS     NCBI-GeneID: 944767
+            NCBI-ProteinID: NP_414588
+            Pasteur: yabF
             RegulonDB: ECK120001520
-            EcoGene: EG11568
             ECOCYC: EG11568
             ASAP: ABE-0000159
             UniProt: P0A754

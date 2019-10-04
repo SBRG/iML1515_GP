@@ -1,19 +1,25 @@
 ENTRY       b1489             CDS       T00007
 NAME        dosP
-DEFINITION  (RefSeq) oxygen sensor, c-di-GMP phosphodiesterase, heme-regulated; cold- and stationary phase-induced bioflim regulator
+DEFINITION  (RefSeq) oxygen-sensing c-di-GMP phosphodiesterase DosP
 ORTHOLOGY   K13243  c-di-GMP-specific phosphodiesterase [EC:3.1.4.52]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09191 Unclassified: metabolism
+               99980 Enzymes with EC numbers
+                b1489 (dosP)
+            Enzymes [BR:eco01000]
              3. Hydrolases
               3.1  Acting on ester bonds
                3.1.4  Phosphoric-diester hydrolases
                 3.1.4.52  cyclic-guanylate-specific phosphodiesterase
                  b1489 (dosP)
 POSITION    complement(1563334..1565733)
-MOTIF       Pfam: EAL PAS_9 GGDEF PAS PAS_4 PAS_8 PAS_3 PAS_7 PAS_10
-DBLINKS     NCBI-ProteinID: NP_416006
-            NCBI-GeneID: 945815
-            EcoGene: EG13792
+MOTIF       Pfam: EAL PAS_9 GGDEF PAS PAS_4 PAS_8 PAS_3 PAS_7 PAS_10 DUF5566
+DBLINKS     NCBI-GeneID: 945815
+            NCBI-ProteinID: NP_416006
+            Pasteur: yddU
+            RegulonDB: ECK120003372
             ECOCYC: G6783
             ASAP: ABE-0004963
             UniProt: P76129

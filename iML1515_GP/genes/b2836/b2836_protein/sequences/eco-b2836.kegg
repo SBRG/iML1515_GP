@@ -1,13 +1,13 @@
 ENTRY       b2836             CDS       T00007
 NAME        aas
-DEFINITION  (RefSeq) fused 2-acylglycerophospho-ethanolamine acyl transferase/acyl-acyl carrier protein synthetase
+DEFINITION  (RefSeq) acyltransferase
 ORTHOLOGY   K05939  acyl-[acyl-carrier-protein]-phospholipid O-acyltransferase / long-chain-fatty-acid--[acyl-carrier-protein] ligase [EC:2.3.1.40 6.2.1.20]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00071  Fatty acid degradation
             eco00564  Glycerophospholipid metabolism
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Lipid metabolism
+             09100 Metabolism
+              09103 Lipid metabolism
                00071 Fatty acid degradation
                 b2836 (aas)
                00564 Glycerophospholipid metabolism
@@ -25,10 +25,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2836 (aas)
 POSITION    complement(2973855..2976014)
 MOTIF       Pfam: AMP-binding Acyltransferase AMP-binding_C
-DBLINKS     NCBI-ProteinID: NP_417313
-            NCBI-GeneID: 947315
+DBLINKS     NCBI-GeneID: 947315
+            NCBI-ProteinID: NP_417313
             Pasteur: aas
-            EcoGene: EG11679
+            RegulonDB: ECK120001622
             ECOCYC: EG11679
             ASAP: ABE-0009302
             UniProt: P31119

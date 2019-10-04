@@ -1,26 +1,29 @@
 ENTRY       b1124             CDS       T00007
 NAME        potC
-DEFINITION  (RefSeq) polyamine transporter subunit
+DEFINITION  (RefSeq) spermidine preferential ABC transporter membrane subunit PotC
 ORTHOLOGY   K11070  spermidine/putrescine transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00299  Spermidine/putrescine transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b1124 (potC)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1124 (potC)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Mineral and organic ion transporters
-               Spermidine/putrescine transporter [MD:M00299] [OT]
+               Spermidine/putrescine transporter
                 b1124 (potC)
 POSITION    complement(1182826..1183620)
 MOTIF       Pfam: BPD_transp_1 DUF3341
-DBLINKS     NCBI-ProteinID: NP_415642
-            NCBI-GeneID: 945691
+DBLINKS     NCBI-GeneID: 945691
+            NCBI-ProteinID: NP_415642
             Pasteur: potC
-            EcoGene: EG10751
+            RegulonDB: ECK120000742
             ECOCYC: EG10751
             ASAP: ABE-0003791
             UniProt: P0AFK6

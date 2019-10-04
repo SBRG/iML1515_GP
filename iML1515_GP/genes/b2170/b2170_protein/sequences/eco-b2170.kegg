@@ -1,19 +1,24 @@
 ENTRY       b2170             CDS       T00007
 NAME        setB
-DEFINITION  (RefSeq) lactose/glucose efflux system
+DEFINITION  (RefSeq) sugar exporter SetB
 ORTHOLOGY   K03291  MFS transporter, SET family, sugar efflux transporter
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Major Facilitator Superfamily (MFS)
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2170 (setB)
+            Transporters [BR:eco02000]
+             Major facilitator superfamily (MFS)
               Sugar transporters
                Sugar efflux transporter (SET) [TC:2.A.1.20]
                 b2170 (setB)
 POSITION    2263863..2265044
 MOTIF       Pfam: MFS_1 MFS_1_like MFS_2
-DBLINKS     NCBI-ProteinID: NP_416675
-            NCBI-GeneID: 946673
+DBLINKS     NCBI-GeneID: 946673
+            NCBI-ProteinID: NP_416675
+            Pasteur: yeiO
             RegulonDB: ECK120001951
-            EcoGene: EG12034
             ECOCYC: EG12034
             ASAP: ABE-0007184
             UniProt: P33026

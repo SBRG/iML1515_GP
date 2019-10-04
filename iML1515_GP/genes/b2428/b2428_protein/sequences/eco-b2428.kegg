@@ -1,13 +1,13 @@
 ENTRY       b2428             CDS       T00007
 NAME        murQ
-DEFINITION  (RefSeq) N-acetylmuramic acid 6-phosphate (MurNAc-6-P) etherase
+DEFINITION  (RefSeq) N-acetylmuramic acid 6-phosphate etherase
 ORTHOLOGY   K07106  N-acetylmuramic acid 6-phosphate etherase [EC:4.2.1.126]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00520  Amino sugar and nucleotide sugar metabolism
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00520 Amino sugar and nucleotide sugar metabolism
                 b2428 (murQ)
             Enzymes [BR:eco01000]
@@ -18,9 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2428 (murQ)
 POSITION    2545773..2546669
 MOTIF       Pfam: SIS SIS_2 BAF250_C
-DBLINKS     NCBI-ProteinID: NP_416923
-            NCBI-GeneID: 946893
-            EcoGene: EG14162
+DBLINKS     NCBI-GeneID: 946893
+            NCBI-ProteinID: NP_416923
+            Pasteur: yfeU
+            RegulonDB: ECK120003837
             ECOCYC: G7263
             ASAP: ABE-0008007
             UniProt: P76535

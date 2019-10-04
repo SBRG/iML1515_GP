@@ -1,20 +1,24 @@
 ENTRY       b2587             CDS       T00007
 NAME        kgtP
-DEFINITION  (RefSeq) alpha-ketoglutarate transporter
+DEFINITION  (RefSeq) alpha-ketoglutarate:H(+) symporter
 ORTHOLOGY   K03761  MFS transporter, MHS family, alpha-ketoglutarate permease
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Major Facilitator Superfamily (MFS)
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2587 (kgtP)
+            Transporters [BR:eco02000]
+             Major facilitator superfamily (MFS)
               Organic acid transporters
                Metabolite:H+ symporter (MHS) family [TC:2.A.1.6]
                 b2587 (kgtP)
 POSITION    complement(2724448..2725746)
 MOTIF       Pfam: Sugar_tr MFS_1 MFS_2 MFS_1_like
-DBLINKS     NCBI-ProteinID: NP_417082
-            NCBI-GeneID: 947069
+DBLINKS     NCBI-GeneID: 947069
+            NCBI-ProteinID: NP_417082
             Pasteur: kgtP
             RegulonDB: ECK120000515
-            EcoGene: EG10522
             ECOCYC: EG10522
             ASAP: ABE-0008515
             UniProt: P0AEX3

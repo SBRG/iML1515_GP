@@ -1,32 +1,35 @@
 ENTRY       b4106             CDS       T00007
 NAME        phnC
-DEFINITION  (RefSeq) phosphonate ABC transporter ATP-binding subunit
-ORTHOLOGY   K02041  phosphonate transport system ATP-binding protein [EC:3.6.3.28]
+DEFINITION  (RefSeq) phosphonate ABC transporter ATP binding subunit
+ORTHOLOGY   K02041  phosphonate transport system ATP-binding protein [EC:7.3.2.2]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b4106 (phnC)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b4106 (phnC)
             Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.28  phosphonate-transporting ATPase
+             7. Translocases
+              7.3  Catalysing the translocation of inorganic anions and their chelates
+               7.3.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.3.2.2  ABC-type phosphonate transporter
                  b4106 (phnC)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Phosphate and amino acid transporters
-               Phosphonate transporter [MD:M00223] [OT]
+               Phosphonate transporter
                 b4106 (phnC)
 POSITION    complement(4324377..4325165)
-MOTIF       Pfam: ABC_tran AAA_21 AAA_29 AAA_16 RsgA_GTPase SMC_N AAA_23 AAA_30 AAA_22 MMR_HSR1 Mg_chelatase AAA_25 AAA_5 NACHT AAA_18 AAA_33 AAA_28 SbcCD_C PhoH PRK AAA_19 AAA_24 G-alpha TsaE Rad17 cobW RNA_helicase
-DBLINKS     NCBI-ProteinID: NP_418530
-            NCBI-GeneID: 948623
+MOTIF       Pfam: ABC_tran AAA_21 AAA_16 AAA_29 RsgA_GTPase SMC_N AAA_23 AAA_30 AAA_22 MMR_HSR1 Mg_chelatase AAA_25 AAA_5 NACHT AAA_18 AAA_33 AAA_28 SbcCD_C AAA_7 PhoH PRK Rad17 AAA_19 AAA_24 G-alpha TsaE cobW RNA_helicase
+DBLINKS     NCBI-GeneID: 948623
+            NCBI-ProteinID: NP_418530
             Pasteur: phnC
             RegulonDB: ECK120000705
-            EcoGene: EG10713
             ECOCYC: EG10713
             ASAP: ABE-0013444
             UniProt: P16677

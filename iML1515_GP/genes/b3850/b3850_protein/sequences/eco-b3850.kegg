@@ -1,15 +1,15 @@
 ENTRY       b3850             CDS       T00007
 NAME        hemG
-DEFINITION  (RefSeq) protoporphyrin oxidase, flavoprotein
+DEFINITION  (RefSeq) protoporphyrinogen oxidase
 ORTHOLOGY   K00230  menaquinone-dependent protoporphyrinogen oxidase [EC:1.3.5.3]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00860  Porphyrin and chlorophyll metabolism
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
-MODULE      eco_M00121  Heme biosynthesis, glutamate => protoheme/siroheme
+MODULE      eco_M00121  Heme biosynthesis, plants and bacteria, glutamate => heme
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00860 Porphyrin and chlorophyll metabolism
                 b3850 (hemG)
             Enzymes [BR:eco01000]
@@ -20,11 +20,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3850 (hemG)
 POSITION    4034608..4035153
 MOTIF       Pfam: Flavodoxin_5 Flavodoxin_1 Flavodoxin_3 SBP_bac_5 DUF2194 PTS_IIB FMN_red
-DBLINKS     NCBI-ProteinID: NP_418292
-            NCBI-GeneID: 948331
+DBLINKS     NCBI-GeneID: 948331
+            NCBI-ProteinID: NP_418292
             Pasteur: hemG
             RegulonDB: ECK120001441
-            EcoGene: EG11485
             ECOCYC: EG11485
             ASAP: ABE-0012577
             UniProt: P0ACB4

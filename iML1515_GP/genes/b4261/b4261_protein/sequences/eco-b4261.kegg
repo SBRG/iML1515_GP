@@ -1,29 +1,33 @@
 ENTRY       b4261             CDS       T00007
 NAME        lptF
-DEFINITION  (RefSeq) lipopolysaccharide export ABC permease of the LptBFGC export complex
+DEFINITION  (RefSeq) lipopolysaccharide transport system protein LptF
 ORTHOLOGY   K07091  lipopolysaccharide export system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00320  Lipopolysaccharide export system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b4261 (lptF)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b4261 (lptF)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               ABC-2 type and other transporters
-               Lipopolysaccharide transporter [MD:M00320]
+               Lipopolysaccharide transporter
                 b4261 (lptF)
 POSITION    4486218..4487318
-MOTIF       Pfam: YjgP_YjgQ HemY_N
-DBLINKS     NCBI-ProteinID: NP_418682
-            NCBI-GeneID: 948795
+MOTIF       Pfam: LptF_LptG HemY_N
+DBLINKS     NCBI-GeneID: 948795
+            NCBI-ProteinID: NP_418682
+            Pasteur: yjgP
             RegulonDB: ECK120004383
-            EcoGene: EG12535
             ECOCYC: G7888
             ASAP: ABE-0013958
             UniProt: P0AF98
+STRUCTURE   PDB: 6MHU 6MHZ 6MI7 6MI8
 AASEQ       366
             MIIIRYLVRETLKSQLAILFILLLIFFCQKLVRILGAAVDGDIPANLVLSLLGLGVPEMA
             QLILPLSLFLGLLMTLGKLYTESEITVMHACGLSKAVLVKAAMILAVFTAIVAAVNVMWA

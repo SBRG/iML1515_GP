@@ -1,14 +1,15 @@
 ENTRY       b3425             CDS       T00007
 NAME        glpE
-DEFINITION  (RefSeq) thiosulfate:cyanide sulfurtransferase (rhodanese)
+DEFINITION  (RefSeq) thiosulfate sulfurtransferase GlpE
 ORTHOLOGY   K02439  thiosulfate sulfurtransferase [EC:2.8.1.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00920  Sulfur metabolism
+            eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
             eco01120  Microbial metabolism in diverse environments
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00920 Sulfur metabolism
                 b3425 (glpE)
             Enzymes [BR:eco01000]
@@ -19,15 +20,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3425 (glpE)
 POSITION    complement(3561497..3561823)
 MOTIF       Pfam: Rhodanese
-DBLINKS     NCBI-ProteinID: NP_417883
-            NCBI-GeneID: 947935
+DBLINKS     NCBI-GeneID: 947935
+            NCBI-ProteinID: NP_417883
             Pasteur: glpE
             RegulonDB: ECK120000388
-            EcoGene: EG10395
             ECOCYC: EG10395
             ASAP: ABE-0011182
             UniProt: P0A6V5
-STRUCTURE   PDB: 1GN0 1GMX
+STRUCTURE   PDB: 1GMX 1GN0
 AASEQ       108
             MDQFECINVADAHQKLQEKEAVLVDIRDPQSFAMGHAVQAFHLTNDTLGAFMRDNDFDTP
             VMVMCYHGNSSKGAAQYLLQQGYDVVYSIDGGFEAWQRQFPAEVAYGA

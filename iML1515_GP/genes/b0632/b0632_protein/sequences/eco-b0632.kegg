@@ -1,14 +1,20 @@
 ENTRY       b0632             CDS       T00007
 NAME        dacA
-DEFINITION  (RefSeq) D-alanyl-D-alanine carboxypeptidase (penicillin-binding protein 5)
+DEFINITION  (RefSeq) D-alanyl-D-alanine carboxypeptidase DacA
 ORTHOLOGY   K07258  serine-type D-Ala-D-Ala carboxypeptidase (penicillin-binding protein 5/6) [EC:3.4.16.4]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00550  Peptidoglycan biosynthesis
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00550 Peptidoglycan biosynthesis
+                b0632 (dacA)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors [BR:eco01002]
+                b0632 (dacA)
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
                 b0632 (dacA)
             Enzymes [BR:eco01000]
              3. Hydrolases
@@ -16,21 +22,25 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                3.4.16  Serine-type carboxypeptidases
                 3.4.16.4  serine-type D-Ala-D-Ala carboxypeptidase
                  b0632 (dacA)
-            Peptidases [BR:eco01002]
-             Serine Peptidases
+            Peptidases and inhibitors [BR:eco01002]
+             Serine peptidases
               Family S11: D-Ala-D-Ala carboxypeptidase A family
+               b0632 (dacA)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              DD-Carboxypeptidase/DD-Endopeptidase (Low molecular weight PBP)
                b0632 (dacA)
 POSITION    complement(662752..663963)
 MOTIF       Pfam: Peptidase_S11 PBP5_C Beta-lactamase2
-DBLINKS     NCBI-ProteinID: NP_415165
-            NCBI-GeneID: 945222
+DBLINKS     NCBI-GeneID: 945222
+            NCBI-ProteinID: NP_415165
             Pasteur: dacA
-            EcoGene: EG10201
+            RegulonDB: ECK120000195
             ECOCYC: EG10201
             ASAP: ABE-0002168
             UniProt: P0AEB2
-STRUCTURE   PDB: 3MZF 3BEC 1Z6F 1NZO 3MZD 1NJ4 3BEB 1NZU 3MZE 1SDN 5J8X
-                 1HD8
+STRUCTURE   PDB: 3MZF 3BEC 1Z6F 1NZO 3MZD 1NJ4 3BEB 1NZU 3MZE 6NTZ 1SDN
+                 5J8X 1HD8
 AASEQ       403
             MNTIFSARIMKRLALTTALCTAFISAAHADDLNIKTMIPGVPQIDAESYILIDYNSGKVL
             AEQNADVRRDPASLTKMMTSYVIGQAMKAGKFKETDLVTIGNDAWATGNPVFKGSSLMFL

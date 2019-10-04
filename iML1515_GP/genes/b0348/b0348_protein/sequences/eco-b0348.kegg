@@ -1,18 +1,16 @@
 ENTRY       b0348             CDS       T00007
 NAME        mhpB
-DEFINITION  (RefSeq) 2,3-dihydroxyphenylpropionate 1,2-dioxygenase
+DEFINITION  (RefSeq) 3-carboxyethylcatechol 2,3-dioxygenase
 ORTHOLOGY   K05713  2,3-dihydroxyphenylpropionate 1,2-dioxygenase [EC:1.13.11.16]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00360  Phenylalanine metabolism
+            eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
             eco01220  Degradation of aromatic compounds
 MODULE      eco_M00545  Trans-cinnamate degradation, trans-cinnamate => acetyl-CoA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01220 Degradation of aromatic compounds
-                b0348 (mhpB)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00360 Phenylalanine metabolism
                 b0348 (mhpB)
             Enzymes [BR:eco01000]
@@ -23,11 +21,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0348 (mhpB)
 POSITION    370277..371221
 MOTIF       Pfam: LigB
-DBLINKS     NCBI-ProteinID: NP_414882
-            NCBI-GeneID: 945047
+DBLINKS     NCBI-GeneID: 945047
+            NCBI-ProteinID: NP_414882
             Pasteur: mhpB
             RegulonDB: ECK120004470
-            EcoGene: EG20274
             ECOCYC: M011
             ASAP: ABE-0001198
             UniProt: P0ABR9

@@ -1,20 +1,25 @@
 ENTRY       b4064             CDS       T00007
-NAME        yjcD
-DEFINITION  (RefSeq) inner membrane putative guanine permease
+NAME        ghxP
+DEFINITION  (RefSeq) guanine/hypoxanthine transporter GhxP
 ORTHOLOGY   K06901  putative MFS transporter, AGZA family, xanthine/uracil permease
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Major Facilitator Superfamily (MFS)
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b4064 (ghxP)
+            Transporters [BR:eco02000]
+             Major facilitator superfamily (MFS)
               Sugar transporters
                Purine transporter (AzgA) family [TC:2.A.1.40]
-                b4064 (yjcD)
+                b4064 (ghxP)
 POSITION    4278479..4279828
-MOTIF       Pfam: Xan_ur_permease
-DBLINKS     NCBI-ProteinID: NP_418488
-            NCBI-GeneID: 948565
+MOTIF       Pfam: Xan_ur_permease MFS_MOT1 AcrZ
+DBLINKS     NCBI-GeneID: 948565
+            NCBI-ProteinID: NP_418488
             Pasteur: yjcD
             RegulonDB: ECK120001867
-            EcoGene: EG11939
+            ECOCYC: EG11939
             ASAP: ABE-0013319
             UniProt: P0AF52
 AASEQ       449

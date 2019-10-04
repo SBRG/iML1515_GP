@@ -1,16 +1,22 @@
 ENTRY       b0369             CDS       T00007
 NAME        hemB
-DEFINITION  (RefSeq) 5-aminolevulinate dehydratase (porphobilinogen synthase)
+DEFINITION  (RefSeq) porphobilinogen synthase
 ORTHOLOGY   K01698  porphobilinogen synthase [EC:4.2.1.24]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00860  Porphyrin and chlorophyll metabolism
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
-MODULE      eco_M00121  Heme biosynthesis, glutamate => protoheme/siroheme
+            eco01120  Microbial metabolism in diverse environments
+MODULE      eco_M00121  Heme biosynthesis, plants and bacteria, glutamate => heme
+            eco_M00846  Siroheme biosynthesis, glutamate => siroheme
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00860 Porphyrin and chlorophyll metabolism
+                b0369 (hemB)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               04147 Exosome [BR:eco04147]
                 b0369 (hemB)
             Enzymes [BR:eco01000]
              4. Lyases
@@ -24,10 +30,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b0369 (hemB)
 POSITION    complement(388753..389727)
 MOTIF       Pfam: ALAD ComA
-DBLINKS     NCBI-ProteinID: NP_414903
-            NCBI-GeneID: 945017
+DBLINKS     NCBI-GeneID: 945017
+            NCBI-ProteinID: NP_414903
             Pasteur: hemB
-            EcoGene: EG10428
+            RegulonDB: ECK120000421
             ECOCYC: EG10428
             ASAP: ABE-0001266
             UniProt: P0ACB2

@@ -1,17 +1,22 @@
 ENTRY       b3058             CDS       T00007
 NAME        folB
-DEFINITION  (RefSeq) bifunctional dihydroneopterin aldolase/dihydroneopterin triphosphate 2'-epimerase
-ORTHOLOGY   K01633  dihydroneopterin aldolase / 7,8-dihydroneopterin epimerase [EC:4.1.2.25 5.1.99.8]
+DEFINITION  (RefSeq) dihydroneopterin aldolase
+ORTHOLOGY   K01633  7,8-dihydroneopterin aldolase/epimerase/oxygenase [EC:4.1.2.25 5.1.99.8 1.13.11.81]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00790  Folate biosynthesis
             eco01100  Metabolic pathways
 MODULE      eco_M00126  Tetrahydrofolate biosynthesis, GTP => THF
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00790 Folate biosynthesis
                 b3058 (folB)
             Enzymes [BR:eco01000]
+             1. Oxidoreductases
+              1.13  Acting on single donors with incorporation of molecular oxygen (oxygenases)
+               1.13.11  With incorporation of two atoms of oxygen
+                1.13.11.81  7,8-dihydroneopterin oxygenase
+                 b3058 (folB)
              4. Lyases
               4.1  Carbon-carbon lyases
                4.1.2  Aldehyde-lyases
@@ -24,10 +29,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3058 (folB)
 POSITION    complement(3204221..3204589)
 MOTIF       Pfam: FolB DUF2866
-DBLINKS     NCBI-ProteinID: NP_417530
-            NCBI-GeneID: 947544
+DBLINKS     NCBI-GeneID: 947544
+            NCBI-ProteinID: NP_417530
             Pasteur: folB
-            EcoGene: EG11673
+            RegulonDB: ECK120001616
             ECOCYC: EG11673
             ASAP: ABE-0010036
             UniProt: P0AC16

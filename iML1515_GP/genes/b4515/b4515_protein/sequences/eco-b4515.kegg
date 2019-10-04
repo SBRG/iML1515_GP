@@ -1,13 +1,31 @@
 ENTRY       b4515             CDS       T00007
 NAME        cydX
-DEFINITION  (RefSeq) cytochrome d (bd-I) ubiquinol oxidase subunit X
+DEFINITION  (RefSeq) cytochrome bd-I ubiquinol oxidase subunit CydX
+ORTHOLOGY   K00424  cytochrome bd-I ubiquinol oxidase subunit X [EC:7.1.1.7]
 ORGANISM    eco  Escherichia coli K-12 MG1655
+PATHWAY     eco00190  Oxidative phosphorylation
+            eco02020  Two-component system
+MODULE      eco_M00153  Cytochrome bd ubiquinol oxidase
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09100 Metabolism
+              09102 Energy metabolism
+               00190 Oxidative phosphorylation
+                b4515 (cydX)
+             09130 Environmental Information Processing
+              09132 Signal transduction
+               02020 Two-component system
+                b4515 (cydX)
+            Enzymes [BR:eco01000]
+             7. Translocases
+              7.1  Catalysing the translocation of hydrons
+               7.1.1  Linked to oxidoreductase reactions
+                7.1.1.7  ubiquinol oxidase (electrogenic, proton-motive force generating)
+                 b4515 (cydX)
 POSITION    774196..774309
 MOTIF       Pfam: YbgT_YccB
-DBLINKS     NCBI-ProteinID: YP_588444
-            NCBI-GeneID: 1450246
-            Pasteur: ybgT
-            EcoGene: EG14329
+DBLINKS     NCBI-GeneID: 1450246
+            NCBI-ProteinID: YP_588444
+            RegulonDB: ECK120016293
             ECOCYC: G0-10441
             ASAP: ABE-0285036
             UniProt: P56100

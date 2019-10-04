@@ -1,14 +1,14 @@
 ENTRY       b1301             CDS       T00007
 NAME        puuB
-DEFINITION  (RefSeq) gamma-glutamylputrescine oxidoreductase
+DEFINITION  (RefSeq) gamma-glutamylputrescine oxidase
 ORTHOLOGY   K09471  gamma-glutamylputrescine oxidase [EC:1.4.3.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00330  Arginine and proline metabolism
             eco01100  Metabolic pathways
 MODULE      eco_M00136  GABA biosynthesis, prokaryotes, putrescine => GABA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00330 Arginine and proline metabolism
                 b1301 (puuB)
             Enzymes [BR:eco01000]
@@ -18,10 +18,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 1.4.3.-  
                  b1301 (puuB)
 POSITION    1364232..1365512
-MOTIF       Pfam: DAO Thi4 NAD_binding_8 FAD_binding_3 Pyr_redox_3 FAD_binding_2 Pyr_redox_2 Amino_oxidase GIDA UDPG_MGDP_dh_N FAD_oxidored HI0933_like Pyr_redox NAD_binding_7 Lycopene_cycl Trp_halogenase 3HCDH_N NAD_binding_9
-DBLINKS     NCBI-ProteinID: NP_415817
-            NCBI-GeneID: 945072
-            EcoGene: EG11822
+MOTIF       Pfam: DAO Thi4 NAD_binding_8 FAD_binding_3 Pyr_redox_3 FAD_binding_2 Amino_oxidase Pyr_redox_2 GIDA UDPG_MGDP_dh_N FAD_oxidored HI0933_like Pyr_redox NAD_binding_7 Lycopene_cycl Trp_halogenase 3HCDH_N NAD_binding_9
+DBLINKS     NCBI-GeneID: 945072
+            NCBI-ProteinID: NP_415817
+            Pasteur: ordL
+            RegulonDB: ECK120001754
             ECOCYC: EG11822
             ASAP: ABE-0004378
             UniProt: P37906

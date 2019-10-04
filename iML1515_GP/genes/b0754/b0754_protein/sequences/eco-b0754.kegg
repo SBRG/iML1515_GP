@@ -1,6 +1,6 @@
 ENTRY       b0754             CDS       T00007
 NAME        aroG
-DEFINITION  (RefSeq) 3-deoxy-D-arabino-heptulosonate-7-phosphate synthase, phenylalanine repressible
+DEFINITION  (RefSeq) 3-deoxy-7-phosphoheptulonate synthase, Phe-sensitive
 ORTHOLOGY   K01626  3-deoxy-7-phosphoheptulonate synthase [EC:2.5.1.54]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00400  Phenylalanine, tyrosine and tryptophan biosynthesis
@@ -11,15 +11,12 @@ PATHWAY     eco00400  Phenylalanine, tyrosine and tryptophan biosynthesis
             eco02024  Quorum sensing
 MODULE      eco_M00022  Shikimate pathway, phosphoenolpyruvate + erythrose-4P => chorismate
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b0754 (aroG)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00400 Phenylalanine, tyrosine and tryptophan biosynthesis
                 b0754 (aroG)
-             Cellular Processes
-              Cellular community - prokaryotes
+             09140 Cellular Processes
+              09145 Cellular community - prokaryotes
                02024 Quorum sensing
                 b0754 (aroG)
             Enzymes [BR:eco01000]
@@ -30,10 +27,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0754 (aroG)
 POSITION    785633..786685
 MOTIF       Pfam: DAHP_synth_1
-DBLINKS     NCBI-ProteinID: NP_415275
-            NCBI-GeneID: 945605
+DBLINKS     NCBI-GeneID: 945605
+            NCBI-ProteinID: NP_415275
             Pasteur: aroG
-            EcoGene: EG10079
+            RegulonDB: ECK120000075
             ECOCYC: EG10079
             ASAP: ABE-0002560
             UniProt: P0AB91

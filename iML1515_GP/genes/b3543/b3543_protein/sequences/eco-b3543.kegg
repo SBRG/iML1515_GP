@@ -1,27 +1,29 @@
 ENTRY       b3543             CDS       T00007
 NAME        dppB
-DEFINITION  (RefSeq) dipeptide/heme transporter
+DEFINITION  (RefSeq) dipeptide ABC transporter membrane subunit DppB
 ORTHOLOGY   K12369  dipeptide transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00324  Dipeptide transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b3543 (dppB)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3543 (dppB)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Peptide and nickel transporters
-               Dipeptide transporter [MD:M00324] [OT]
+               Dipeptide transporter
                 b3543 (dppB)
 POSITION    complement(3704771..3705790)
 MOTIF       Pfam: BPD_transp_1
-DBLINKS     NCBI-ProteinID: NP_418000
-            NCBI-GeneID: 948063
+DBLINKS     NCBI-GeneID: 948063
+            NCBI-ProteinID: NP_418000
             Pasteur: dppB
             RegulonDB: ECK120002337
-            EcoGene: EG12625
             ECOCYC: EG12625
             ASAP: ABE-0011572
             UniProt: P0AEF8

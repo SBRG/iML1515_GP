@@ -1,21 +1,27 @@
 ENTRY       b3199             CDS       T00007
 NAME        lptC
-DEFINITION  (RefSeq) lipopolysaccharide export, IM-tethered periplasmic protein of the LptBFGC export complex
+DEFINITION  (RefSeq) lipopolysaccharide transport system protein LptC
 ORTHOLOGY   K11719  lipopolysaccharide export system protein LptC
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3199 (lptC)
+            Transporters [BR:eco02000]
+             Other transporters
               Pores ion channels [TC:1]
                b3199 (lptC)
 POSITION    3342836..3343411
 MOTIF       Pfam: LptC
-DBLINKS     NCBI-ProteinID: NP_417666
-            NCBI-GeneID: 947722
-            EcoGene: EG12806
+DBLINKS     NCBI-GeneID: 947722
+            NCBI-ProteinID: NP_417666
+            Pasteur: yrbK
+            RegulonDB: ECK120004212
             ECOCYC: G7664
             ASAP: ABE-0010508
             UniProt: P0ADV9
-STRUCTURE   PDB: 3MY2 4B54
+STRUCTURE   PDB: 3MY2 4B54 6MI7
 AASEQ       191
             MSKARRWVIIVLSLAVLVMIGINMAEKDDTAQVVVNNNDPTYKSEHTDTLVYNPEGALSY
             RLIAQHVEYYSDQAVSWFTQPVLTTFDKDKIPTWSVKADKAKLTNDRMLYLYGHVEVNAL

@@ -1,6 +1,6 @@
 ENTRY       b0722             CDS       T00007
 NAME        sdhD
-DEFINITION  (RefSeq) succinate dehydrogenase, membrane subunit, binds cytochrome b556
+DEFINITION  (RefSeq) succinate:quinone oxidoreductase, membrane protein SdhD
 ORTHOLOGY   K00242  succinate dehydrogenase / fumarate reductase, membrane anchor subunit
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00020  Citrate cycle (TCA cycle)
@@ -15,25 +15,21 @@ MODULE      eco_M00009  Citrate cycle (TCA cycle, Krebs cycle)
             eco_M00011  Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate
             eco_M00149  Succinate dehydrogenase, prokaryotes
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b0722 (sdhD)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00020 Citrate cycle (TCA cycle)
                 b0722 (sdhD)
                00650 Butanoate metabolism
                 b0722 (sdhD)
-              Energy metabolism
+              09102 Energy metabolism
                00190 Oxidative phosphorylation
                 b0722 (sdhD)
 POSITION    755560..755907
 MOTIF       Pfam: Sdh_cyt CybS
-DBLINKS     NCBI-ProteinID: NP_415250
-            NCBI-GeneID: 945322
+DBLINKS     NCBI-GeneID: 945322
+            NCBI-ProteinID: NP_415250
             Pasteur: sdhD
             RegulonDB: ECK120000923
-            EcoGene: EG10934
             ECOCYC: EG10934
             ASAP: ABE-0002464
             UniProt: P0AC44

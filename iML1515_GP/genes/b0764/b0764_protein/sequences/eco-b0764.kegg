@@ -1,26 +1,29 @@
 ENTRY       b0764             CDS       T00007
 NAME        modB
-DEFINITION  (RefSeq) molybdate transporter subunit
+DEFINITION  (RefSeq) molybdate ABC transporter membrane subunit
 ORTHOLOGY   K02018  molybdate transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00189  Molybdate transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b0764 (modB)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0764 (modB)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Mineral and organic ion transporters
-               Molybdate transporter [MD:M00189] [OT]
+               Molybdate transporter
                 b0764 (modB)
 POSITION    795862..796551
 MOTIF       Pfam: BPD_transp_1
-DBLINKS     NCBI-ProteinID: NP_415285
-            NCBI-GeneID: 945361
+DBLINKS     NCBI-GeneID: 945361
+            NCBI-ProteinID: NP_415285
             Pasteur: modB
-            EcoGene: EG10002
+            RegulonDB: ECK120000002
             ECOCYC: EG10002
             ASAP: ABE-0002603
             UniProt: P0AF01

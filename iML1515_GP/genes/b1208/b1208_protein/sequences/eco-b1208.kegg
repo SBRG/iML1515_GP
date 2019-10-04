@@ -1,6 +1,6 @@
 ENTRY       b1208             CDS       T00007
 NAME        ispE
-DEFINITION  (RefSeq) 4-diphosphocytidyl-2-C-methylerythritol kinase
+DEFINITION  (RefSeq) 4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase
 ORTHOLOGY   K00919  4-diphosphocytidyl-2-C-methyl-D-erythritol kinase [EC:2.7.1.148]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00900  Terpenoid backbone biosynthesis
@@ -9,8 +9,8 @@ PATHWAY     eco00900  Terpenoid backbone biosynthesis
             eco01130  Biosynthesis of antibiotics
 MODULE      eco_M00096  C5 isoprenoid biosynthesis, non-mevalonate pathway
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of terpenoids and polyketides
+             09100 Metabolism
+              09109 Metabolism of terpenoids and polyketides
                00900 Terpenoid backbone biosynthesis
                 b1208 (ispE)
             Enzymes [BR:eco01000]
@@ -20,10 +20,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 2.7.1.148  4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase
                  b1208 (ispE)
 POSITION    complement(1262026..1262877)
-MOTIF       Pfam: GHMP_kinases_N GHMP_kinases_C
-DBLINKS     NCBI-ProteinID: NP_415726
-            NCBI-GeneID: 945774
-            EcoGene: EG11294
+MOTIF       Pfam: GHMP_kinases_N GHMP_kinases_C Get5_C
+DBLINKS     NCBI-GeneID: 945774
+            NCBI-ProteinID: NP_415726
+            Pasteur: ychB
+            RegulonDB: ECK120001267
             ECOCYC: EG11294
             ASAP: ABE-0004056
             UniProt: P62615

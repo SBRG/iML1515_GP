@@ -1,6 +1,6 @@
 ENTRY       b4040             CDS       T00007
 NAME        ubiA
-DEFINITION  (RefSeq) p-hydroxybenzoate octaprenyltransferase
+DEFINITION  (RefSeq) 4-hydroxybenzoate octaprenyltransferase
 ORTHOLOGY   K03179  4-hydroxybenzoate polyprenyltransferase [EC:2.5.1.39]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00130  Ubiquinone and other terpenoid-quinone biosynthesis
@@ -8,9 +8,13 @@ PATHWAY     eco00130  Ubiquinone and other terpenoid-quinone biosynthesis
             eco01110  Biosynthesis of secondary metabolites
 MODULE      eco_M00117  Ubiquinone biosynthesis, prokaryotes, chorismate => ubiquinone
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00130 Ubiquinone and other terpenoid-quinone biosynthesis
+                b4040 (ubiA)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01006 Prenyltransferases [BR:eco01006]
                 b4040 (ubiA)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -24,11 +28,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b4040 (ubiA)
 POSITION    4253016..4253888
 MOTIF       Pfam: UbiA
-DBLINKS     NCBI-ProteinID: NP_418464
-            NCBI-GeneID: 948540
+DBLINKS     NCBI-GeneID: 948540
+            NCBI-ProteinID: NP_418464
             Pasteur: ubiA
             RegulonDB: ECK120001338
-            EcoGene: EG11370
             ECOCYC: EG11370
             ASAP: ABE-0013229
             UniProt: P0AGK1

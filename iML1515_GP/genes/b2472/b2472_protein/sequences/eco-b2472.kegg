@@ -1,6 +1,6 @@
 ENTRY       b2472             CDS       T00007
 NAME        dapE
-DEFINITION  (RefSeq) N-succinyl-diaminopimelate deacylase
+DEFINITION  (RefSeq) succinyl-diaminopimelate desuccinylase
 ORTHOLOGY   K01439  succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00300  Lysine biosynthesis
@@ -9,11 +9,8 @@ PATHWAY     eco00300  Lysine biosynthesis
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00016  Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b2472 (dapE)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00300 Lysine biosynthesis
                 b2472 (dapE)
             Enzymes [BR:eco01000]
@@ -24,11 +21,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2472 (dapE)
 POSITION    2591607..2592734
 MOTIF       Pfam: Peptidase_M20 M20_dimer Peptidase_M28 Peptidase_M18
-DBLINKS     NCBI-ProteinID: NP_416967
-            NCBI-GeneID: 948313
+DBLINKS     NCBI-GeneID: 948313
+            NCBI-ProteinID: NP_416967
             Pasteur: dapE
             RegulonDB: ECK120000202
-            EcoGene: EG10208
             ECOCYC: EG10208
             ASAP: ABE-0008142
             UniProt: P0AED7

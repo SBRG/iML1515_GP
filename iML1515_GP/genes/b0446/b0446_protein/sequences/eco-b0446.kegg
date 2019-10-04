@@ -1,9 +1,14 @@
 ENTRY       b0446             CDS       T00007
 NAME        cof
-DEFINITION  (RefSeq) thiamine pyrimidine pyrophosphate hydrolase; HMP-PP phosphatase
+DEFINITION  (RefSeq) HMP-PP phosphatase
 ORTHOLOGY   K11938  HMP-PP phosphatase [EC:3.6.1.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09191 Unclassified: metabolism
+               99980 Enzymes with EC numbers
+                b0446 (cof)
+            Enzymes [BR:eco01000]
              3. Hydrolases
               3.6  Acting on acid anhydrides
                3.6.1  In phosphorus-containing anhydrides
@@ -11,11 +16,10 @@ BRITE       Enzymes [BR:eco01000]
                  b0446 (cof)
 POSITION    467412..468230
 MOTIF       Pfam: Hydrolase_3 S6PP Hydrolase Trehalose_PPase Hydrolase_6
-DBLINKS     NCBI-ProteinID: NP_414980
-            NCBI-GeneID: 945089
+DBLINKS     NCBI-GeneID: 945089
+            NCBI-ProteinID: NP_414980
             Pasteur: cof
             RegulonDB: ECK120002857
-            EcoGene: EG13216
             ECOCYC: G6246
             ASAP: ABE-0001548
             UniProt: P46891

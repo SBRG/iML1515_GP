@@ -1,12 +1,12 @@
 ENTRY       b0826             CDS       T00007
 NAME        moeB
-DEFINITION  (RefSeq) molybdopterin synthase sulfurylase
+DEFINITION  (RefSeq) molybdopterin-synthase adenylyltransferase
 ORTHOLOGY   K21029  molybdopterin-synthase adenylyltransferase [EC:2.7.7.80]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco04122  Sulfur relay system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Genetic Information Processing
-              Folding, sorting and degradation
+             09120 Genetic Information Processing
+              09123 Folding, sorting and degradation
                04122 Sulfur relay system
                 b0826 (moeB)
             Enzymes [BR:eco01000]
@@ -20,12 +20,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
               UBL-activating enzymes
                b0826 (moeB)
 POSITION    complement(864380..865129)
-MOTIF       Pfam: ThiF Sacchrp_dh_NADP NAD_binding_7 Shikimate_DH FAD_binding_3
-DBLINKS     NCBI-ProteinID: NP_415347
-            NCBI-GeneID: 945452
+MOTIF       Pfam: ThiF Sacchrp_dh_NADP NAD_binding_7 FAD_binding_3 Shikimate_DH
+DBLINKS     NCBI-GeneID: 945452
+            NCBI-ProteinID: NP_415347
             Pasteur: moeB
             RegulonDB: ECK120000150
-            EcoGene: EG10154
             ECOCYC: EG10154
             ASAP: ABE-0002820
             UniProt: P12282

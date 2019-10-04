@@ -1,23 +1,35 @@
 ENTRY       b1856             CDS       T00007
 NAME        mepM
-DEFINITION  (RefSeq) murein DD-endopeptidase, space-maker hydrolase, septation protein
+DEFINITION  (RefSeq) peptidoglycan DD-endopeptidase MepM
 ORTHOLOGY   K19304  murein DD-endopeptidase [EC:3.4.24.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors [BR:eco01002]
+                b1856 (mepM)
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+                b1856 (mepM)
+            Enzymes [BR:eco01000]
              3. Hydrolases
               3.4  Acting on peptide bonds (peptidases)
                3.4.24  Metalloendopeptidases
                 3.4.24.-  
                  b1856 (mepM)
-            Peptidases [BR:eco01002]
-             Metallo Peptidases
+            Peptidases and inhibitors [BR:eco01002]
+             Metallo peptidases
               Family M23
                b1856 (mepM)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              Endopeptidase
+               b1856 (mepM)
 POSITION    complement(1940313..1941635)
-MOTIF       Pfam: Peptidase_M23 OapA OapA_N LysM Biotin_lipoyl_2
-DBLINKS     NCBI-ProteinID: NP_416370
-            NCBI-GeneID: 946376
-            EcoGene: EG10013
+MOTIF       Pfam: Peptidase_M23 OapA OapA_N LysM
+DBLINKS     NCBI-GeneID: 946376
+            NCBI-ProteinID: NP_416370
+            Pasteur: yebA
+            RegulonDB: ECK120000011
             ECOCYC: EG10013
             ASAP: ABE-0006189
             UniProt: P0AFS9

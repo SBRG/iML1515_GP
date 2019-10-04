@@ -1,9 +1,16 @@
 ENTRY       b3857             CDS       T00007
 NAME        mobA
-DEFINITION  (RefSeq) molybdopterin-guanine dinucleotide synthase
-ORTHOLOGY   K03752  molybdopterin-guanine dinucleotide biosynthesis protein A [EC:2.7.7.77]
+DEFINITION  (RefSeq) molybdenum cofactor guanylyltransferase
+ORTHOLOGY   K03752  molybdenum cofactor guanylyltransferase [EC:2.7.7.77]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+PATHWAY     eco00790  Folate biosynthesis
+            eco01100  Metabolic pathways
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
+               00790 Folate biosynthesis
+                b3857 (mobA)
+            Enzymes [BR:eco01000]
              2. Transferases
               2.7  Transferring phosphorus-containing groups
                2.7.7  Nucleotidyltransferases
@@ -11,11 +18,10 @@ BRITE       Enzymes [BR:eco01000]
                  b3857 (mobA)
 POSITION    complement(4041415..4041999)
 MOTIF       Pfam: NTP_transf_3 IspD Abhydrolase_4
-DBLINKS     NCBI-ProteinID: NP_418294
-            NCBI-GeneID: 948349
+DBLINKS     NCBI-GeneID: 948349
+            NCBI-ProteinID: NP_418294
             Pasteur: mobA
             RegulonDB: ECK120001761
-            EcoGene: EG11829
             ECOCYC: EG11829
             ASAP: ABE-0012593
             UniProt: P32173

@@ -1,6 +1,6 @@
 ENTRY       b2827             CDS       T00007
 NAME        thyA
-DEFINITION  (RefSeq) thymidylate synthetase
+DEFINITION  (RefSeq) thymidylate synthase
 ORTHOLOGY   K00560  thymidylate synthase [EC:2.1.1.45]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00240  Pyrimidine metabolism
@@ -8,11 +8,11 @@ PATHWAY     eco00240  Pyrimidine metabolism
             eco01100  Metabolic pathways
 MODULE      eco_M00053  Pyrimidine deoxyribonuleotide biosynthesis, CDP/CTP => dCDP/dCTP,dTDP/dTTP
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00240 Pyrimidine metabolism
                 b2827 (thyA)
-              Metabolism of cofactors and vitamins
+              09108 Metabolism of cofactors and vitamins
                00670 One carbon pool by folate
                 b2827 (thyA)
             Enzymes [BR:eco01000]
@@ -23,20 +23,19 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2827 (thyA)
 POSITION    complement(2964361..2965155)
 MOTIF       Pfam: Thymidylat_synt
-DBLINKS     NCBI-ProteinID: NP_417304
-            NCBI-GeneID: 949035
+DBLINKS     NCBI-GeneID: 949035
+            NCBI-ProteinID: NP_417304
             Pasteur: thyA
             RegulonDB: ECK120000991
-            EcoGene: EG11002
             ECOCYC: EG11002
             ASAP: ABE-0009268
             UniProt: P0A884
-STRUCTURE   PDB: 4KNZ 4GEV 3BHL 1QQQ 2FTN 2A9W 1EV5 1EVF 1AXW 4ISK 1KZI
+STRUCTURE   PDB: 6NNR 4GEV 3BHL 1QQQ 2FTN 2A9W 1EV5 1EVF 1AXW 4ISK 1KZI
                  1F4B 1F4G 1TYS 2FTQ 2G8X 3BHR 1F4E 1TRG 3BGX 1TSD 2TSC
                  2FTO 1JG0 1F4C 1F4F 1EVG 1KCE 1SYN 1AOB 1BDU 1DDU 1TDU
-                 1TLC 3TMS 1F4D 3BFI 1JTU 1FWM 1BQ2 1DNA 1BID 1TJS 2KCE
-                 1AIQ 1TSN 1BJG 2BBQ 1AJM 4LRR 3B9H 1JTQ 1BQ1 1ZPR 1KZJ
-                 1EV8 1AN5 1TLS 3B5B 1JUT 1FFL 2VF0 2VET
+                 1TLC 3TMS 1F4D 3BFI 2VET 1JTU 1FWM 1BQ2 1DNA 1BID 1TJS
+                 2KCE 1AIQ 1TSN 1BJG 2BBQ 6CDZ 1AJM 4LRR 3B9H 1JTQ 1BQ1
+                 1ZPR 1KZJ 1EV8 1AN5 1TLS 3B5B 1JUT 1FFL 2VF0
 AASEQ       264
             MKQYLELMQKVLDEGTQKNDRTGTGTLSIFGHQMRFNLQDGFPLVTTKRCHLRSIIHELL
             WFLQGDTNIAYLHENNVTIWDEWADENGDLGPVYGKQWRAWPTPDGRHIDQITTVLNQLK

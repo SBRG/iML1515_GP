@@ -1,13 +1,14 @@
 ENTRY       b2036             CDS       T00007
 NAME        glf
-DEFINITION  (RefSeq) UDP-galactopyranose mutase, FAD/NAD(P)-binding
+DEFINITION  (RefSeq) UDP-galactopyranose mutase
 ORTHOLOGY   K01854  UDP-galactopyranose mutase [EC:5.4.99.9]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00052  Galactose metabolism
             eco00520  Amino sugar and nucleotide sugar metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00052 Galactose metabolism
                 b2036 (glf)
                00520 Amino sugar and nucleotide sugar metabolism
@@ -20,10 +21,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2036 (glf)
 POSITION    complement(2107226..2108329)
 MOTIF       Pfam: GLF NAD_binding_8 Amino_oxidase Pyr_redox FAD_oxidored FAD_binding_2 Pyr_redox_2 DAO HI0933_like TrkA_N Pyr_redox_3 FAD_binding_3 Thi4
-DBLINKS     NCBI-ProteinID: NP_416540
-            NCBI-GeneID: 945235
+DBLINKS     NCBI-GeneID: 945235
+            NCBI-ProteinID: NP_416540
             Pasteur: glf
-            EcoGene: EG11981
+            RegulonDB: ECK120001906
             ECOCYC: EG11981
             ASAP: ABE-0006755
             UniProt: P37747

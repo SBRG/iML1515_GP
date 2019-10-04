@@ -1,13 +1,13 @@
 ENTRY       b1002             CDS       T00007
 NAME        agp
-DEFINITION  (RefSeq) glucose-1-phosphatase/inositol phosphatase
+DEFINITION  (RefSeq) glucose-1-phosphatase
 ORTHOLOGY   K01085  glucose-1-phosphatase [EC:3.1.3.10]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00010  Glycolysis / Gluconeogenesis
             eco01120  Microbial metabolism in diverse environments
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
                 b1002 (agp)
             Enzymes [BR:eco01000]
@@ -18,11 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1002 (agp)
 POSITION    1065585..1066826
 MOTIF       Pfam: His_Phos_2
-DBLINKS     NCBI-ProteinID: NP_415522
-            NCBI-GeneID: 945773
+DBLINKS     NCBI-GeneID: 945773
+            NCBI-ProteinID: NP_415522
             Pasteur: agp
             RegulonDB: ECK120000030
-            EcoGene: EG10033
             ECOCYC: EG10033
             ASAP: ABE-0003388
             UniProt: P19926

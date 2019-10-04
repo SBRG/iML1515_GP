@@ -1,27 +1,29 @@
 ENTRY       b2148             CDS       T00007
 NAME        mglC
-DEFINITION  (RefSeq) methyl-galactoside transporter subunit
+DEFINITION  (RefSeq) D-galactose/methyl-galactoside ABC transporter membrane subunit
 ORTHOLOGY   K10541  methyl-galactoside transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00214  Methyl-galactoside transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b2148 (mglC)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2148 (mglC)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Saccharide, polyol, and lipid transporters
-               Methyl-galactoside transporter [MD:M00214] [OT]
+               Methyl-galactoside transporter
                 b2148 (mglC)
 POSITION    complement(2236743..2237753)
 MOTIF       Pfam: BPD_transp_2
-DBLINKS     NCBI-ProteinID: NP_416653
-            NCBI-GeneID: 949039
+DBLINKS     NCBI-GeneID: 949039
+            NCBI-ProteinID: NP_416653
             Pasteur: mglC
             RegulonDB: ECK120000587
-            EcoGene: EG10594
             ECOCYC: EG10594
             ASAP: ABE-0007101
             UniProt: P23200

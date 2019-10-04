@@ -1,6 +1,6 @@
 ENTRY       b3386             CDS       T00007
 NAME        rpe
-DEFINITION  (RefSeq) D-ribulose-5-phosphate 3-epimerase
+DEFINITION  (RefSeq) ribulose-phosphate 3-epimerase
 ORTHOLOGY   K01783  ribulose-phosphate 3-epimerase [EC:5.1.3.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00030  Pentose phosphate pathway
@@ -14,13 +14,8 @@ PATHWAY     eco00030  Pentose phosphate pathway
 MODULE      eco_M00004  Pentose phosphate pathway (Pentose phosphate cycle)
             eco_M00007  Pentose phosphate pathway, non-oxidative phase, fructose 6P => ribose 5P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b3386 (rpe)
-               01230 Biosynthesis of amino acids
-                b3386 (rpe)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00030 Pentose phosphate pathway
                 b3386 (rpe)
                00040 Pentose and glucuronate interconversions
@@ -32,12 +27,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 5.1.3.1  ribulose-phosphate 3-epimerase
                  b3386 (rpe)
 POSITION    complement(3514382..3515059)
-MOTIF       Pfam: Ribul_P_3_epim QRPTase_C His_biosynth TMP-TENI PGM_PMM_II DUF4516
-DBLINKS     NCBI-ProteinID: NP_417845
-            NCBI-GeneID: 947896
+MOTIF       Pfam: Ribul_P_3_epim QRPTase_C His_biosynth TMP-TENI DUF4516
+DBLINKS     NCBI-GeneID: 947896
+            NCBI-ProteinID: NP_417845
             Pasteur: rpe
             RegulonDB: ECK120004466
-            EcoGene: EG11960
             ECOCYC: M004
             ASAP: ABE-0011061
             UniProt: P0AG07

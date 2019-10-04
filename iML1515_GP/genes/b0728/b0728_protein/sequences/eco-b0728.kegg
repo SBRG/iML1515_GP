@@ -1,6 +1,6 @@
 ENTRY       b0728             CDS       T00007
 NAME        sucC
-DEFINITION  (RefSeq) succinyl-CoA synthetase, beta subunit
+DEFINITION  (RefSeq) succinyl-CoA synthetase subunit beta
 ORTHOLOGY   K01903  succinyl-CoA synthetase beta subunit [EC:6.2.1.5]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00020  Citrate cycle (TCA cycle)
@@ -14,11 +14,8 @@ PATHWAY     eco00020  Citrate cycle (TCA cycle)
 MODULE      eco_M00009  Citrate cycle (TCA cycle, Krebs cycle)
             eco_M00011  Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b0728 (sucC)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00020 Citrate cycle (TCA cycle)
                 b0728 (sucC)
                00640 Propanoate metabolism
@@ -33,10 +30,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0728 (sucC)
 POSITION    763014..764180
 MOTIF       Pfam: ATP-grasp_2 Ligase_CoA ATP-grasp_5 GARS_A
-DBLINKS     NCBI-ProteinID: NP_415256
-            NCBI-GeneID: 945312
+DBLINKS     NCBI-GeneID: 945312
+            NCBI-ProteinID: NP_415256
             Pasteur: sucC
-            EcoGene: EG10981
+            RegulonDB: ECK120000970
             ECOCYC: EG10981
             ASAP: ABE-0002483
             UniProt: P0A836

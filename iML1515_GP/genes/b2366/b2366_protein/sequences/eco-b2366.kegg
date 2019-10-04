@@ -1,12 +1,13 @@
 ENTRY       b2366             CDS       T00007
 NAME        dsdA
-DEFINITION  (RefSeq) D-serine dehydratase
+DEFINITION  (RefSeq) D-serine ammonia-lyase
 ORTHOLOGY   K01753  D-serine dehydratase [EC:4.3.1.18]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00260  Glycine, serine and threonine metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00260 Glycine, serine and threonine metabolism
                 b2366 (dsdA)
             Enzymes [BR:eco01000]
@@ -17,10 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2366 (dsdA)
 POSITION    2479202..2480530
 MOTIF       Pfam: PALP NmrA
-DBLINKS     NCBI-ProteinID: NP_416867
-            NCBI-GeneID: 946837
+DBLINKS     NCBI-GeneID: 946837
+            NCBI-ProteinID: NP_416867
             Pasteur: dsdA
-            EcoGene: EG10249
+            RegulonDB: ECK120000243
             ECOCYC: EG10249
             ASAP: ABE-0007804
             UniProt: P00926

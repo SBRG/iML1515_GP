@@ -1,29 +1,28 @@
 ENTRY       b2277             CDS       T00007
 NAME        nuoM
-DEFINITION  (RefSeq) NADH:ubiquinone oxidoreductase, membrane subunit M
-ORTHOLOGY   K00342  NADH-quinone oxidoreductase subunit M [EC:1.6.5.3]
+DEFINITION  (RefSeq) NADH:quinone oxidoreductase subunit M
+ORTHOLOGY   K00342  NADH-quinone oxidoreductase subunit M [EC:7.1.1.2]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00190  Oxidative phosphorylation
             eco01100  Metabolic pathways
 MODULE      eco_M00144  NADH:quinone oxidoreductase, prokaryotes
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00190 Oxidative phosphorylation
                 b2277 (nuoM)
             Enzymes [BR:eco01000]
-             1. Oxidoreductases
-              1.6  Acting on NADH or NADPH
-               1.6.5  With a quinone or similar compound as acceptor
-                1.6.5.3  NADH:ubiquinone reductase (H+-translocating)
+             7. Translocases
+              7.1  Catalysing the translocation of hydrons
+               7.1.1  Linked to oxidoreductase reactions
+                7.1.1.2  NADH:ubiquinone reductase (H+-translocating)
                  b2277 (nuoM)
 POSITION    complement(2391512..2393041)
 MOTIF       Pfam: Proton_antipo_M Proton_antipo_N
-DBLINKS     NCBI-ProteinID: NP_416780
-            NCBI-GeneID: 947731
+DBLINKS     NCBI-GeneID: 947731
+            NCBI-ProteinID: NP_416780
             Pasteur: nuoM
             RegulonDB: ECK120001707
-            EcoGene: EG11773
             ECOCYC: EG11773
             ASAP: ABE-0007529
             UniProt: P0AFE8

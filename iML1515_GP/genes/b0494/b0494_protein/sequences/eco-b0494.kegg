@@ -1,21 +1,29 @@
 ENTRY       b0494             CDS       T00007
 NAME        tesA
-DEFINITION  (RefSeq) multifunctional acyl-CoA thioesterase 1; protease I; lysophospholipase L1
-ORTHOLOGY   K10804  acyl-CoA thioesterase I [EC:3.1.2.- 3.1.1.5]
+DEFINITION  (RefSeq) multifunctional acyl-CoA thioesterase I and protease I and lysophospholipase L1
+ORTHOLOGY   K10804  acyl-CoA thioesterase I [EC:3.1.2.- 3.1.2.2 3.1.1.2 3.1.1.5]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco01040  Biosynthesis of unsaturated fatty acids
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Lipid metabolism
+             09100 Metabolism
+              09103 Lipid metabolism
                01040 Biosynthesis of unsaturated fatty acids
+                b0494 (tesA)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01004 Lipid biosynthesis proteins [BR:eco01004]
                 b0494 (tesA)
             Enzymes [BR:eco01000]
              3. Hydrolases
               3.1  Acting on ester bonds
                3.1.1  Carboxylic-ester hydrolases
+                3.1.1.2  arylesterase
+                 b0494 (tesA)
                 3.1.1.5  lysophospholipase
                  b0494 (tesA)
                3.1.2  Thioester hydrolases
+                3.1.2.2  palmitoyl-CoA hydrolase
+                 b0494 (tesA)
                 3.1.2.-  
                  b0494 (tesA)
             Lipid biosynthesis proteins [BR:eco01004]
@@ -24,15 +32,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b0494 (tesA)
 POSITION    complement(519139..519765)
 MOTIF       Pfam: Lipase_GDSL_2 Lipase_GDSL OSK
-DBLINKS     NCBI-ProteinID: NP_415027
-            NCBI-GeneID: 945127
+DBLINKS     NCBI-GeneID: 945127
+            NCBI-ProteinID: NP_415027
             Pasteur: tesA
             RegulonDB: ECK120001496
-            EcoGene: EG11542
             ECOCYC: EG11542
             ASAP: ABE-0001713
             UniProt: P0ADA1
-STRUCTURE   PDB: 1IVN 1JRL 1V2G 1J00 1U8U
+STRUCTURE   PDB: 5TIF 5TIE 5TID 5TIC 1IVN 1JRL 1V2G 1J00 1U8U
 AASEQ       208
             MMNFNNVFRWHLPFLFLVLLTFRAAAADTLLILGDSLSAGYRMSASAAWPALLNDKWQSK
             TSVVNASISGDTSQQGLARLPALLKQHQPRWVLVELGGNDGLRGFQPQQTEQTLRQILQD

@@ -1,9 +1,19 @@
 ENTRY       b2378             CDS       T00007
 NAME        lpxP
-DEFINITION  (RefSeq) palmitoleoyl-acyl carrier protein (ACP)-dependent acyltransferase
+DEFINITION  (RefSeq) palmitoleoyl acyltransferase
 ORTHOLOGY   K12974  KDO2-lipid IV(A) palmitoleoyltransferase [EC:2.3.1.242]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+PATHWAY     eco00540  Lipopolysaccharide biosynthesis
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
+               00540 Lipopolysaccharide biosynthesis
+                b2378 (lpxP)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
+                b2378 (lpxP)
+            Enzymes [BR:eco01000]
              2. Transferases
               2.3  Acyltransferases
                2.3.1  Transferring groups other than aminoacyl groups
@@ -14,10 +24,10 @@ BRITE       Enzymes [BR:eco01000]
               b2378 (lpxP)
 POSITION    2495645..2496565
 MOTIF       Pfam: Lip_A_acyltrans ESSS
-DBLINKS     NCBI-ProteinID: NP_416879
-            NCBI-GeneID: 946847
+DBLINKS     NCBI-GeneID: 946847
+            NCBI-ProteinID: NP_416879
+            Pasteur: ddg
             RegulonDB: ECK120003816
-            EcoGene: EG12901
             ECOCYC: G7241
             ASAP: ABE-0007848
             UniProt: P0ACV2

@@ -1,6 +1,6 @@
 ENTRY       b0908             CDS       T00007
 NAME        aroA
-DEFINITION  (RefSeq) 5-enolpyruvylshikimate-3-phosphate synthetase
+DEFINITION  (RefSeq) 3-phosphoshikimate 1-carboxyvinyltransferase
 ORTHOLOGY   K00800  3-phosphoshikimate 1-carboxyvinyltransferase [EC:2.5.1.19]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00400  Phenylalanine, tyrosine and tryptophan biosynthesis
@@ -10,11 +10,8 @@ PATHWAY     eco00400  Phenylalanine, tyrosine and tryptophan biosynthesis
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00022  Shikimate pathway, phosphoenolpyruvate + erythrose-4P => chorismate
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b0908 (aroA)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00400 Phenylalanine, tyrosine and tryptophan biosynthesis
                 b0908 (aroA)
             Enzymes [BR:eco01000]
@@ -25,10 +22,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0908 (aroA)
 POSITION    958812..960095
 MOTIF       Pfam: EPSP_synthase
-DBLINKS     NCBI-ProteinID: NP_415428
-            NCBI-GeneID: 945528
+DBLINKS     NCBI-GeneID: 945528
+            NCBI-ProteinID: NP_415428
             Pasteur: aroA
-            EcoGene: EG10073
+            RegulonDB: ECK120000069
             ECOCYC: EG10073
             ASAP: ABE-0003095
             UniProt: P0A6D3

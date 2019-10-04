@@ -1,12 +1,13 @@
 ENTRY       b3600             CDS       T00007
 NAME        mtlD
-DEFINITION  (RefSeq) mannitol-1-phosphate dehydrogenase, NAD-dependent
+DEFINITION  (RefSeq) mannitol-1-phosphate 5-dehydrogenase
 ORTHOLOGY   K00009  mannitol-1-phosphate 5-dehydrogenase [EC:1.1.1.17]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00051  Fructose and mannose metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00051 Fructose and mannose metabolism
                 b3600 (mtlD)
             Enzymes [BR:eco01000]
@@ -17,11 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3600 (mtlD)
 POSITION    3774424..3775572
 MOTIF       Pfam: Mannitol_dh_C Mannitol_dh 3HCDH_N AfaD
-DBLINKS     NCBI-ProteinID: NP_418057
-            NCBI-GeneID: 948117
+DBLINKS     NCBI-GeneID: 948117
+            NCBI-ProteinID: NP_418057
             Pasteur: mtlD
             RegulonDB: ECK120000609
-            EcoGene: EG10616
             ECOCYC: EG10616
             ASAP: ABE-0011767
             UniProt: P09424

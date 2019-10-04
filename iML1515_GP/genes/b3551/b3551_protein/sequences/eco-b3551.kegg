@@ -6,9 +6,13 @@ ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00780  Biotin metabolism
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00780 Biotin metabolism
+                b3551 (bisC)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
                 b3551 (bisC)
             Enzymes [BR:eco01000]
              1. Oxidoreductases
@@ -17,15 +21,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 1.-.-.-  
                  b3551 (bisC)
             Transporters [BR:eco02000]
-             Other Transporters
+             Other transporters
               Transmembrane electron carriers [TC:5]
                b3551 (bisC)
 POSITION    complement(3714061..3716394)
-MOTIF       Pfam: Molybdopterin Molydop_binding
-DBLINKS     NCBI-ProteinID: NP_418007
-            NCBI-GeneID: 946915
+MOTIF       Pfam: Molybdopterin Molydop_binding Molybdopterin_N
+DBLINKS     NCBI-GeneID: 946915
+            NCBI-ProteinID: NP_418007
             RegulonDB: ECK120000120
-            EcoGene: EG10124
             ECOCYC: EG10124
             ASAP: ABE-0011597
             UniProt: P20099

@@ -4,11 +4,16 @@ DEFINITION  (RefSeq) allantoate amidohydrolase
 ORTHOLOGY   K02083  allantoate deiminase [EC:3.5.3.9]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00230  Purine metabolism
+            eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00230 Purine metabolism
+                b0516 (allC)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors [BR:eco01002]
                 b0516 (allC)
             Enzymes [BR:eco01000]
              3. Hydrolases
@@ -16,16 +21,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                3.5.3  In linear amidines
                 3.5.3.9  allantoate deiminase
                  b0516 (allC)
-            Peptidases [BR:eco01002]
-             Metallo Peptidases
+            Peptidases and inhibitors [BR:eco01002]
+             Metallo peptidases
               Family M20
                b0516 (allC)
 POSITION    complement(544057..545292)
 MOTIF       Pfam: Peptidase_M20 Peptidase_M42 Peptidase_M28 M20_dimer
-DBLINKS     NCBI-ProteinID: NP_415049
-            NCBI-GeneID: 945150
+DBLINKS     NCBI-GeneID: 945150
+            NCBI-ProteinID: NP_415049
+            Pasteur: ylbB
             RegulonDB: ECK120002893
-            EcoGene: EG13623
             ECOCYC: G6285
             ASAP: ABE-0001777
             UniProt: P77425

@@ -1,19 +1,25 @@
 ENTRY       b1759             CDS       T00007
 NAME        nudG
-DEFINITION  (RefSeq) CTP pyrophosphohydrolase; also hydrolyzes 2-hydroxy-dATP, 8-hydroxy-dGTP, 5-hydroxy-CTP, dCTP and 5-methyl-dCTP
+DEFINITION  (RefSeq) 5-hydroxy-CTP diphosphatase
 ORTHOLOGY   K08320  (d)CTP diphosphatase [EC:3.6.1.65]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09191 Unclassified: metabolism
+               99980 Enzymes with EC numbers
+                b1759 (nudG)
+            Enzymes [BR:eco01000]
              3. Hydrolases
               3.6  Acting on acid anhydrides
                3.6.1  In phosphorus-containing anhydrides
                 3.6.1.65  (d)CTP diphosphatase
                  b1759 (nudG)
 POSITION    1841490..1841897
-MOTIF       Pfam: NUDIX NUDIX_4 NUDIX_2
-DBLINKS     NCBI-ProteinID: NP_416273
-            NCBI-GeneID: 946277
-            EcoGene: EG14009
+MOTIF       Pfam: NUDIX NUDIX_4 NUDIX_2 T6SS_TssG
+DBLINKS     NCBI-GeneID: 946277
+            NCBI-ProteinID: NP_416273
+            Pasteur: ynjG
+            RegulonDB: ECK120003542
             ECOCYC: G6954
             ASAP: ABE-0005855
             UniProt: P77788

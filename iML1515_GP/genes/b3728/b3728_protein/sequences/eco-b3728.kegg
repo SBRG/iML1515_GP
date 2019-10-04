@@ -1,31 +1,33 @@
 ENTRY       b3728             CDS       T00007
 NAME        pstS
-DEFINITION  (RefSeq) periplasmic phosphate binding protein, high-affinity
+DEFINITION  (RefSeq) phosphate ABC transporter periplasmic binding protein
 ORTHOLOGY   K02040  phosphate transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
             eco02020  Two-component system
-MODULE      eco_M00222  Phosphate transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b3728 (pstS)
-              Signal transduction
+              09132 Signal transduction
                02020 Two-component system
                 b3728 (pstS)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3728 (pstS)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Phosphate and amino acid transporters
-               Phosphate transporter [MD:M00222] [OT]
+               Phosphate transporter
                 b3728 (pstS)
 POSITION    complement(3910485..3911525)
 MOTIF       Pfam: PBP_like_2 PBP_like SBP_bac_11
-DBLINKS     NCBI-ProteinID: NP_418184
-            NCBI-GeneID: 948237
+DBLINKS     NCBI-GeneID: 948237
+            NCBI-ProteinID: NP_418184
             Pasteur: pstS
             RegulonDB: ECK120000725
-            EcoGene: EG10734
             ECOCYC: EG10734
             ASAP: ABE-0012190
             UniProt: P0AG82

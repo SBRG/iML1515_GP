@@ -1,24 +1,44 @@
 ENTRY       b0828             CDS       T00007
 NAME        iaaA
-DEFINITION  (RefSeq) Isoaspartyl peptidase
-ORTHOLOGY   K13051  beta-aspartyl-peptidase (threonine type) [EC:3.4.19.5]
+DEFINITION  (RefSeq) isoaspartyl dipeptidase proenzyme
+ORTHOLOGY   K13051  L-asparaginase / beta-aspartyl-peptidase [EC:3.5.1.1 3.4.19.5]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+PATHWAY     eco00250  Alanine, aspartate and glutamate metabolism
+            eco00460  Cyanoamino acid metabolism
+            eco01100  Metabolic pathways
+            eco01110  Biosynthesis of secondary metabolites
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09100 Metabolism
+              09105 Amino acid metabolism
+               00250 Alanine, aspartate and glutamate metabolism
+                b0828 (iaaA)
+              09106 Metabolism of other amino acids
+               00460 Cyanoamino acid metabolism
+                b0828 (iaaA)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors [BR:eco01002]
+                b0828 (iaaA)
+            Enzymes [BR:eco01000]
              3. Hydrolases
               3.4  Acting on peptide bonds (peptidases)
                3.4.19  Omega peptidases
                 3.4.19.5  beta-aspartyl-peptidase
                  b0828 (iaaA)
-            Peptidases [BR:eco01002]
-             Threonine Peptidases
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.1  In linear amides
+                3.5.1.1  asparaginase
+                 b0828 (iaaA)
+            Peptidases and inhibitors [BR:eco01002]
+             Threonine peptidases
               Family T2
                b0828 (iaaA)
 POSITION    866568..867533
 MOTIF       Pfam: Asparaginase_2
-DBLINKS     NCBI-ProteinID: NP_415349
-            NCBI-GeneID: 945456
+DBLINKS     NCBI-GeneID: 945456
+            NCBI-ProteinID: NP_415349
+            Pasteur: ybiK
             RegulonDB: ECK120002269
-            EcoGene: EG12407
             ECOCYC: EG12407
             ASAP: ABE-0002828
             UniProt: P37595

@@ -1,6 +1,6 @@
 ENTRY       b1395             CDS       T00007
 NAME        paaH
-DEFINITION  (RefSeq) 3-hydroxyadipyl-CoA dehydrogenase, NAD+-dependent
+DEFINITION  (RefSeq) 3-hydroxyadipyl-CoA dehydrogenase
 ORTHOLOGY   K00074  3-hydroxybutyryl-CoA dehydrogenase [EC:1.1.1.157]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00360  Phenylalanine metabolism
@@ -8,15 +8,17 @@ PATHWAY     eco00360  Phenylalanine metabolism
             eco00650  Butanoate metabolism
             eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
+            eco01200  Carbon metabolism
+MODULE      eco_M00878  Phenylacetate degradation, phenylaxetate => acetyl-CoA/succinyl-CoA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00650 Butanoate metabolism
                 b1395 (paaH)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00360 Phenylalanine metabolism
                 b1395 (paaH)
-              Xenobiotics biodegradation and metabolism
+              09111 Xenobiotics biodegradation and metabolism
                00362 Benzoate degradation
                 b1395 (paaH)
             Enzymes [BR:eco01000]
@@ -26,12 +28,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 1.1.1.157  3-hydroxybutyryl-CoA dehydrogenase
                  b1395 (paaH)
 POSITION    1459054..1460481
-MOTIF       Pfam: 3HCDH_N 3HCDH NAD_binding_2 NAD_Gly3P_dh_N Sacchrp_dh_NADP 2-Hacid_dh_C UDPG_MGDP_dh_N AlaDh_PNT_C F420_oxidored DFP CbiA Pyr_redox_2 Pyr_redox NAD_binding_8
-DBLINKS     NCBI-ProteinID: NP_415913
-            NCBI-GeneID: 945940
+MOTIF       Pfam: 3HCDH_N 3HCDH 3HCDH_RFF NAD_binding_2 NAD_Gly3P_dh_N Sacchrp_dh_NADP 2-Hacid_dh_C UDPG_MGDP_dh_N AlaDh_PNT_C F420_oxidored DFP CbiA Pyr_redox_2 NAD_binding_8 Pyr_redox
+DBLINKS     NCBI-GeneID: 945940
+            NCBI-ProteinID: NP_415913
             Pasteur: paaH
             RegulonDB: ECK120003310
-            EcoGene: EG13742
             ECOCYC: G6716
             ASAP: ABE-0004663
             UniProt: P76083

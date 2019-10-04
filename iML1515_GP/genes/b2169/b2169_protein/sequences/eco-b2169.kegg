@@ -1,6 +1,6 @@
 ENTRY       b2169             CDS       T00007
 NAME        fruB
-DEFINITION  (RefSeq) fused fructose-specific PTS enzymes: IIA component/HPr component
+DEFINITION  (RefSeq) fructose-specific PTS multiphosphoryl transfer protein FruB
 ORTHOLOGY   K02768  PTS system, fructose-specific IIA component [EC:2.7.1.202]
             K11183  phosphocarrier protein FPr
 ORGANISM    eco  Escherichia coli K-12 MG1655
@@ -8,15 +8,18 @@ PATHWAY     eco00051  Fructose and mannose metabolism
             eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
             eco02060  Phosphotransferase system (PTS)
-MODULE      eco_M00273  PTS system, fructose-specific II component
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00051 Fructose and mannose metabolism
                 b2169 (fruB)
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02060 Phosphotransferase system (PTS)
+                b2169 (fruB)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
                 b2169 (fruB)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -25,19 +28,19 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 2.7.1.202  protein-Npi-phosphohistidine---D-fructose phosphotransferase
                  b2169 (fruB)
             Transporters [BR:eco02000]
-             Phosphotransferase System (PTS)
+             Phosphotransferase system (PTS)
               Enzyme I and HPr
                Phosphocarrier protein HPr [TC:8.A.8 4.A.2]
                 b2169 (fruB)
               Enzyme II [TC:4.A]
-               Fructose-specific II component [MD:M00273]
+               Fructose-specific II component
                 b2169 (fruB)
 POSITION    complement(2262365..2263495)
 MOTIF       Pfam: PTS_EIIA_2 PTS-HPr Nif11
-DBLINKS     NCBI-ProteinID: NP_416674
-            NCBI-GeneID: 946677
+DBLINKS     NCBI-GeneID: 946677
+            NCBI-ProteinID: NP_416674
             Pasteur: fruB
-            EcoGene: EG10005
+            RegulonDB: ECK120004449
             ECOCYC: G7990
             ASAP: ABE-0007180
             UniProt: P69811

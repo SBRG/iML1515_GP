@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1998-07-15" modified="2019-09-18" version="132">
+<accession>Q46806</accession>
+<accession>Q2M9W7</accession>
+<name>PHYDA_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName>D-phenylhydantoinase</fullName>
+<ecNumber evidence="2">3.5.2.-</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Hydantoin-utilizing enzyme HyuA</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">hyuA</name>
+<name type="synonym">ygeZ</name>
+<name type="ordered locus">b2873</name>
+<name type="ordered locus">JW2841</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2000" name="J. Bacteriol." volume="182" first="7021" last="7028">
+<title>Functional expression and characterization of the two cyclic amidohydrolase enzymes, allantoinase and a novel phenylhydantoinase, from Escherichia coli.</title>
+<authorList>
+<person name="Kim G.J."/>
+<person name="Lee D.E."/>
+<person name="Kim H.-S."/>
+</authorList>
+<dbReference type="PubMed" id="11092864"/>
+<dbReference type="DOI" id="10.1128/jb.182.24.7021-7028.2000"/>
+</citation>
+<scope>PROTEIN SEQUENCE OF 1-16</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>COFACTOR</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>SUBUNIT</scope>
+</reference>
+<comment type="function">
+<text evidence="2">Catalyzes the stereospecific hydrolysis of the cyclic amide bond of D-hydantoin derivatives with an aromatic side chains at the 5'-position. Has no activity on dihydropyrimidines. The physiological function is unknown.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>D-5-phenylhydantoin + H2O = H(+) + N-carbamoyl-D-phenylglycine</text>
+<dbReference type="Rhea" id="RHEA:51664"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:140750"/>
+<dbReference type="ChEBI" id="CHEBI:140758"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="2 3">
+<name>Zn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29105"/>
+</cofactor>
+<cofactor evidence="2 3">
+<name>Ni(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:49786"/>
+</cofactor>
+<cofactor evidence="2 3">
+<name>Co(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:48828"/>
+</cofactor>
+<cofactor evidence="2 3">
+<name>Mn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29035"/>
+</cofactor>
+<text evidence="2 3">Binds 2 divalent metal cations per subunit. Can use zinc, nickel, cobalt or manganese.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="2">7.8 mM for phenylhydantoin</KM>
+<KM evidence="2">32.8 mM for hydroxyphenylhydantoin</KM>
+<KM evidence="2">138 mM for hydantoin</KM>
+<Vmax evidence="2">12.6 umol/min/mg enzyme with hydroxyphenylhydantoin as substrate</Vmax>
+<Vmax evidence="2">3.3 umol/min/mg enzyme with phenylhydantoin as substrate</Vmax>
+<Vmax evidence="2">0.15 umol/min/mg enzyme with hydantoin as substrate</Vmax>
+<text>Hydantoin derivatives with an aliphatic or no side chain at their 5'-position results in a much lower level of activity than those with aromatic side chains at the 5'-position.</text>
+</kinetics>
+<phDependence>
+<text evidence="2">Optimum pH is 8-8.5.</text>
+</phDependence>
+<temperatureDependence>
+<text evidence="2">Optimum temperature is 45-50 degrees Celsius.</text>
+</temperatureDependence>
+</comment>
+<comment type="subunit">
+<text evidence="2">Homotetramer.</text>
+</comment>
+<comment type="PTM">
+<text evidence="1">Carbamylation allows a single lysine to coordinate two divalent metal cations.</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the metallo-dependent hydrolases superfamily. Hydantoinase/dihydropyrimidinase family.</text>
+</comment>
+<comment type="sequence caution" evidence="3">
+<conflict type="erroneous initiation">
+<sequence resource="EMBL-CDS" id="AAA83054" version="1"/>
+</conflict>
+<text>Translation N-terminally shortened.</text>
+</comment>
+<dbReference type="EC" id="3.5.2.-" evidence="2"/>
+<dbReference type="EMBL" id="U28375">
+<property type="protein sequence ID" value="AAA83054.1"/>
+<property type="status" value="ALT_INIT"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC75911.2"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE76939.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="A65071">
+<property type="entry name" value="A65071"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_417349.4">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_001264442.1">
+<property type="nucleotide sequence ID" value="NZ_LN832404.1"/>
+</dbReference>
+<dbReference type="SMR" id="Q46806"/>
+<dbReference type="BioGrid" id="4261249">
+<property type="interactions" value="13"/>
+</dbReference>
+<dbReference type="IntAct" id="Q46806">
+<property type="interactions" value="2"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b2873"/>
+<dbReference type="PaxDb" id="Q46806"/>
+<dbReference type="PRIDE" id="Q46806"/>
+<dbReference type="EnsemblBacteria" id="AAC75911">
+<property type="protein sequence ID" value="AAC75911"/>
+<property type="gene ID" value="b2873"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE76939">
+<property type="protein sequence ID" value="BAE76939"/>
+<property type="gene ID" value="BAE76939"/>
+</dbReference>
+<dbReference type="GeneID" id="947359"/>
+<dbReference type="KEGG" id="ecj:JW2841"/>
+<dbReference type="KEGG" id="eco:b2873"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.3861"/>
+<dbReference type="EchoBASE" id="EB2868"/>
+<dbReference type="EcoGene" id="EG13056">
+<property type="gene designation" value="hyuA"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105CD3">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0044">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000219145"/>
+<dbReference type="InParanoid" id="Q46806"/>
+<dbReference type="KO" id="K01464"/>
+<dbReference type="PhylomeDB" id="Q46806"/>
+<dbReference type="BioCyc" id="EcoCyc:G7492-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW2841-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:G7492-MONOMER"/>
+<dbReference type="SABIO-RK" id="Q46806"/>
+<dbReference type="PRO" id="PR:Q46806"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016812">
+<property type="term" value="F:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amides"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoliWiki"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042802">
+<property type="term" value="F:identical protein binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006208">
+<property type="term" value="P:pyrimidine nucleobase catabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="CDD" id="cd01314">
+<property type="entry name" value="D-HYD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.30.40.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_01644">
+<property type="entry name" value="D_hydantoinase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006680">
+<property type="entry name" value="Amidohydro-rel"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR023766">
+<property type="entry name" value="D_phenylhydantoinase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011778">
+<property type="entry name" value="Hydantoinase/dihydroPyrase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011059">
+<property type="entry name" value="Metal-dep_hydrolase_composite"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032466">
+<property type="entry name" value="Metal_Hydrolase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01979">
+<property type="entry name" value="Amidohydro_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51338">
+<property type="entry name" value="SSF51338"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51556">
+<property type="entry name" value="SSF51556"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR02033">
+<property type="entry name" value="D-hydantoinase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="D-phenylhydantoinase" id="PRO_0000165937">
+<location>
+<begin position="1"/>
+<end position="461"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Divalent metal cation 1" evidence="1">
+<location>
+<position position="59"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Divalent metal cation 1" evidence="1">
+<location>
+<position position="61"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Divalent metal cation 1; via carbamate group" evidence="1">
+<location>
+<position position="151"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Divalent metal cation 2; via carbamate group" evidence="1">
+<location>
+<position position="151"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Divalent metal cation 2" evidence="1">
+<location>
+<position position="182"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Divalent metal cation 2" evidence="1">
+<location>
+<position position="239"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Divalent metal cation 1" evidence="1">
+<location>
+<position position="313"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="156"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate; via amide nitrogen and carbonyl oxygen" evidence="1">
+<location>
+<position position="286"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate; via carbonyl oxygen" evidence="1">
+<location>
+<position position="335"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-carboxylysine" evidence="1">
+<location>
+<position position="151"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="11092864"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="461" mass="51025" checksum="5525E62DB7F8DB5B" modified="2001-11-16" version="2">MRVLIKNGTVVNADGQAKQDLLIESGIVRQLGNNISPQLPYEEIDATGCYVFPGGVDVHTHFNIDVGIARSCDDFFTGTRAAACGGTTTIIDHMGFGPNGCRLRHQLEVYRGYAAHKAVIDYSFHGVIQHINHAILDEIPMIVEEGLSSFKLYLTYQYKLNDDEVLQALRRLHESGALTTVHPENDAAIASKRAEFIAAGLTAPRYHALSRPLECEAEAIARMINLAQIAGNAPLYIVHLSNGLGLDYLRLARANHQPVWVETCPQYLLLDERSYDTEDGMKFILSPPLRNVREQDKLWCGISDGAIDVVATDHCTFSMAQRLQISKGDFSRCPNGLPGVENRMQLLFSSGVMTGRITPERFVELTSAMPARLFGLWPQKGLLAPGSDGDVVIIDPRQSQQIQHRHLHDNADYSPWEGFTCQGAIVRTLSRGETIFCDGTFTGKAGRGRFLRRKPFVPPVL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

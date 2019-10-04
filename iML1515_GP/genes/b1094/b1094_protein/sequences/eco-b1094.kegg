@@ -1,24 +1,30 @@
 ENTRY       b1094             CDS       T00007
 NAME        acpP
-DEFINITION  (RefSeq) acyl carrier protein (ACP)
+DEFINITION  (RefSeq) acyl carrier protein
 ORTHOLOGY   K02078  acyl carrier protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
+PATHWAY     eco01100  Metabolic pathways
+            eco01130  Biosynthesis of antibiotics
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Lipid metabolism
+             09100 Metabolism
+              09103 Lipid metabolism
                00061 Fatty acid biosynthesis
                 b1094 (acpP)
+              09110 Biosynthesis of other secondary metabolites
+               00998 Biosynthesis of secondary metabolites - other antibiotics
+                b1094 (acpP)
 POSITION    1151615..1151851
-MOTIF       Pfam: PP-binding PP-binding_2 Ribosomal_L50 DUF1896 HLH DUF1493
-DBLINKS     NCBI-ProteinID: NP_415612
-            NCBI-GeneID: 944805
+MOTIF       Pfam: PP-binding PP-binding_2 DUF1896 DUF1493 Ribosomal_L50 HLH
+DBLINKS     NCBI-GeneID: 944805
+            NCBI-ProteinID: NP_415612
             Pasteur: acpP
-            EcoGene: EG50003
+            RegulonDB: ECK120002562
             ECOCYC: EG50003
             ASAP: ABE-0003703
             UniProt: P0A6A8
 STRUCTURE   PDB: 1T8K 1L0I 2FAE 2FAD 2FAC 4KEH 3NY7 3EJB 1L0H 4IHF 3EJD
-                 3EJE 4IHH 2FHS 4IHG 2K92 2K93 2K94 1ACP
+                 3EJE 4IHH 6DFL 5KOF 6N3P 2FHS 5WGB 4IHG 5USR 5WKP 6NZU
+                 5WLW 5VCB 2K92 2K93 2K94 1ACP
 AASEQ       78
             MSTIEERVKKIIGEQLGVKQEEVTNNASFVEDLGADSLDTVELVMALEEEFDTEIPDEEA
             EKITTVQAAIDYINGHQA

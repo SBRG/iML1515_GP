@@ -1,14 +1,18 @@
 ENTRY       b2794             CDS       T00007
 NAME        queF
-DEFINITION  (RefSeq) 7-cyano-7-deazaguanine reductase (NADPH-dependent)
+DEFINITION  (RefSeq) 7-cyano-7-deazaguanine reductase
 ORTHOLOGY   K06879  7-cyano-7-deazaguanine reductase [EC:1.7.1.13]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00790  Folate biosynthesis
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00790 Folate biosynthesis
+                b2794 (queF)
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               03016 Transfer RNA biogenesis [BR:eco03016]
                 b2794 (queF)
             Enzymes [BR:eco01000]
              1. Oxidoreductases
@@ -17,15 +21,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 1.7.1.13  preQ1 synthase
                  b2794 (queF)
             Transfer RNA biogenesis [BR:eco03016]
-             Prokaryotic Type
+             Prokaryotic type
               tRNA modification factors
                Other tRNA modification factors
                 b2794 (queF)
 POSITION    2925348..2926196
 MOTIF       Pfam: QueF_N QueF
-DBLINKS     NCBI-ProteinID: NP_417274
-            NCBI-GeneID: 947270
-            EcoGene: EG13173
+DBLINKS     NCBI-GeneID: 947270
+            NCBI-ProteinID: NP_417274
+            Pasteur: yqcD
+            RegulonDB: ECK120004015
             ECOCYC: G7452
             ASAP: ABE-0009162
             UniProt: Q46920

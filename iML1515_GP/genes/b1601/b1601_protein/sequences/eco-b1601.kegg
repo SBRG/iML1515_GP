@@ -1,13 +1,19 @@
 ENTRY       b1601             CDS       T00007
 NAME        tqsA
-DEFINITION  (RefSeq) pheromone AI-2 transporter
+DEFINITION  (RefSeq) autoinducer 2 exporter
 ORTHOLOGY   K11744  AI-2 transport protein TqsA
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09193 Unclassified: signaling and cellular processes
+               99992 Structural proteins
+                b1601 (tqsA)
 POSITION    1673913..1674947
-MOTIF       Pfam: AI-2E_transport
-DBLINKS     NCBI-ProteinID: NP_416118
-            NCBI-GeneID: 946142
-            EcoGene: EG13928
+MOTIF       Pfam: AI-2E_transport DUF2067
+DBLINKS     NCBI-GeneID: 946142
+            NCBI-ProteinID: NP_416118
+            Pasteur: ydgG
+            RegulonDB: ECK120003448
             ECOCYC: G6859
             ASAP: ABE-0005350
             UniProt: P0AFS5

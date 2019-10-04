@@ -1,26 +1,34 @@
 ENTRY       b1069             CDS       T00007
 NAME        murJ
-DEFINITION  (RefSeq) putative peptidoglycan lipid II flippase
+DEFINITION  (RefSeq) putative lipid II flippase MurJ
 ORTHOLOGY   K03980  putative peptidoglycan lipid II flippase
 ORGANISM    eco  Escherichia coli K-12 MG1655
-PATHWAY     eco00550  Peptidoglycan biosynthesis
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
-               00550 Peptidoglycan biosynthesis
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
                 b1069 (murJ)
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1069 (murJ)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Precursor biosynthesis
+              Flippase
+               b1069 (murJ)
             Transporters [BR:eco02000]
-             Other Transporters
+             Other transporters
               Electrochemical potential-driven transporters [TC:2]
                b1069 (murJ)
 POSITION    1127839..1129374
-MOTIF       Pfam: MVIN Polysacc_synt_C
-DBLINKS     NCBI-ProteinID: NP_415587
-            NCBI-GeneID: 945487
-            EcoGene: EG13880
+MOTIF       Pfam: MurJ Polysacc_synt_C
+DBLINKS     NCBI-GeneID: 945487
+            NCBI-ProteinID: NP_415587
+            Pasteur: mviN
+            RegulonDB: ECK120003157
             ECOCYC: G6561
             ASAP: ABE-0003630
             UniProt: P0AF16
+STRUCTURE   PDB: 6CC4
 AASEQ       511
             MNLLKSLAAVSSMTMFSRVLGFARDAIVARIFGAGMATDAFFVAFKLPNLLRRIFAEGAF
             SQAFVPILAEYKSKQGEDATRVFVSYVSGLLTLALAVVTVAGMLAAPWVIMVTAPGFADT

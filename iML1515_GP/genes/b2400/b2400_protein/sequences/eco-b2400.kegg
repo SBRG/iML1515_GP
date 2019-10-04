@@ -1,22 +1,33 @@
 ENTRY       b2400             CDS       T00007
 NAME        gltX
-DEFINITION  (RefSeq) glutamyl-tRNA synthetase
+DEFINITION  (RefSeq) glutamate--tRNA ligase
 ORTHOLOGY   K01885  glutamyl-tRNA synthetase [EC:6.1.1.17]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00860  Porphyrin and chlorophyll metabolism
             eco00970  Aminoacyl-tRNA biosynthesis
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
-MODULE      eco_M00121  Heme biosynthesis, glutamate => protoheme/siroheme
-            eco_M00360  Aminoacyl-tRNA biosynthesis, prokaryotes
+            eco01120  Microbial metabolism in diverse environments
+MODULE      eco_M00121  Heme biosynthesis, plants and bacteria, glutamate => heme
+            eco_M00846  Siroheme biosynthesis, glutamate => siroheme
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00860 Porphyrin and chlorophyll metabolism
                 b2400 (gltX)
-             Genetic Information Processing
-              Translation
+             09120 Genetic Information Processing
+              09122 Translation
                00970 Aminoacyl-tRNA biosynthesis
+                b2400 (gltX)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01007 Amino acid related enzymes [BR:eco01007]
+                b2400 (gltX)
+              09182 Protein families: genetic information processing
+               03016 Transfer RNA biogenesis [BR:eco03016]
+                b2400 (gltX)
+              09183 Protein families: signaling and cellular processes
+               02048 Prokaryotic defense system [BR:eco02048]
                 b2400 (gltX)
             Enzymes [BR:eco01000]
              6. Ligases
@@ -29,11 +40,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
               Class I (A)
                b2400 (gltX)
             Transfer RNA biogenesis [BR:eco03016]
-             Eukaryotic Type
+             Eukaryotic type
               Aminoacyl-tRNA synthetases (AARSs)
                Multi-aminoacyl-tRNA synthetase complex (MSC)
                 b2400 (gltX)
-             Prokaryotic Type
+             Prokaryotic type
                Other AARSs
                 b2400 (gltX)
             Prokaryotic defense system [BR:eco02048]
@@ -43,11 +54,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 b2400 (gltX)
 POSITION    complement(2519257..2520672)
 MOTIF       Pfam: tRNA-synt_1c HTH_15
-DBLINKS     NCBI-ProteinID: NP_416899
-            NCBI-GeneID: 946906
+DBLINKS     NCBI-GeneID: 946906
+            NCBI-ProteinID: NP_416899
             Pasteur: gltX
             RegulonDB: ECK120000400
-            EcoGene: EG10407
             ECOCYC: EG10407
             ASAP: ABE-0007911
             UniProt: P04805

@@ -1,13 +1,19 @@
 ENTRY       b3581             CDS       T00007
 NAME        sgbH
-DEFINITION  (RefSeq) 3-keto-L-gulonate 6-phosphate decarboxylase
-ORTHOLOGY   K03081  3-dehydro-L-gulonate-6-phosphate decarboxylase [EC:4.1.1.85]
+DEFINITION  (RefSeq) 3-keto-L-gulonate-6-phosphate decarboxylase SgbH
+ORTHOLOGY   K03078  3-dehydro-L-gulonate-6-phosphate decarboxylase [EC:4.1.1.85]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00040  Pentose and glucuronate interconversions
+            eco00053  Ascorbate and aldarate metabolism
+            eco01100  Metabolic pathways
+            eco01120  Microbial metabolism in diverse environments
+MODULE      eco_M00550  Ascorbate degradation, ascorbate => D-xylulose-5P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00040 Pentose and glucuronate interconversions
+                b3581 (sgbH)
+               00053 Ascorbate and aldarate metabolism
                 b3581 (sgbH)
             Enzymes [BR:eco01000]
              4. Lyases
@@ -17,9 +23,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3581 (sgbH)
 POSITION    3748577..3749239
 MOTIF       Pfam: OMPdecase
-DBLINKS     NCBI-ProteinID: NP_418038
-            NCBI-GeneID: 948098
-            EcoGene: EG12285
+DBLINKS     NCBI-GeneID: 948098
+            NCBI-ProteinID: NP_418038
+            Pasteur: sgbH
+            RegulonDB: ECK120002166
             ECOCYC: EG12285
             ASAP: ABE-0011698
             UniProt: P37678

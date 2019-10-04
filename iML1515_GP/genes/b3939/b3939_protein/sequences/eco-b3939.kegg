@@ -1,6 +1,6 @@
 ENTRY       b3939             CDS       T00007
 NAME        metB
-DEFINITION  (RefSeq) cystathionine gamma-synthase, PLP-dependent
+DEFINITION  (RefSeq) O-succinylhomoserine(thiol)-lyase/O-succinylhomoserine lyase
 ORTHOLOGY   K01739  cystathionine gamma-synthase [EC:2.5.1.48]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00270  Cysteine and methionine metabolism
@@ -12,17 +12,14 @@ PATHWAY     eco00270  Cysteine and methionine metabolism
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00017  Methionine biosynthesis, apartate => homoserine => methionine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b3939 (metB)
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00920 Sulfur metabolism
                 b3939 (metB)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00270 Cysteine and methionine metabolism
                 b3939 (metB)
-              Metabolism of other amino acids
+              09106 Metabolism of other amino acids
                00450 Selenocompound metabolism
                 b3939 (metB)
             Enzymes [BR:eco01000]
@@ -33,11 +30,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3939 (metB)
 POSITION    4128672..4129832
 MOTIF       Pfam: Cys_Met_Meta_PP Aminotran_1_2 Aminotran_5
-DBLINKS     NCBI-ProteinID: NP_418374
-            NCBI-GeneID: 948434
+DBLINKS     NCBI-GeneID: 948434
+            NCBI-ProteinID: NP_418374
             Pasteur: metB
             RegulonDB: ECK120000575
-            EcoGene: EG10582
             ECOCYC: EG10582
             ASAP: ABE-0012887
             UniProt: P00935

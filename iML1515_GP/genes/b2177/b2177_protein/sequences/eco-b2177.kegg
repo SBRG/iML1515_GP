@@ -1,26 +1,29 @@
 ENTRY       b2177             CDS       T00007
 NAME        yejA
-DEFINITION  (RefSeq) microcin C transporter YejABEF, periplasmic binding protein; ABC family
+DEFINITION  (RefSeq) putative oligopeptide ABC transporter periplasmic binding protein
 ORTHOLOGY   K13893  microcin C transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00349  Microcin C transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b2177 (yejA)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2177 (yejA)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Peptide and nickel transporters
-               Microcin C transporter [MD:M00349] [OT]
+               Microcin C transporter
                 b2177 (yejA)
 POSITION    2272364..2274178
 MOTIF       Pfam: SBP_bac_5
-DBLINKS     NCBI-ProteinID: NP_416682
-            NCBI-GeneID: 946675
+DBLINKS     NCBI-GeneID: 946675
+            NCBI-ProteinID: NP_416682
             Pasteur: yejA
-            EcoGene: EG12037
+            RegulonDB: ECK120001954
             ECOCYC: EG12037
             ASAP: ABE-0007206
             UniProt: P33913

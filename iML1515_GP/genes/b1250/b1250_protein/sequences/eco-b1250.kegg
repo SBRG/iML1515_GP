@@ -1,19 +1,23 @@
 ENTRY       b1250             CDS       T00007
 NAME        kch
-DEFINITION  (RefSeq) voltage-gated potassium channel
+DEFINITION  (RefSeq) K(+) channel Kch
 ORTHOLOGY   K10716  voltage-gated potassium channel
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1250 (kch)
+            Transporters [BR:eco02000]
+             Other transporters
               Pores ion channels [TC:1]
                b1250 (kch)
 POSITION    complement(1309016..1310269)
-MOTIF       Pfam: TrkA_N Ion_trans_2 Ion_trans IRK DUF202 NAD_binding_7
-DBLINKS     NCBI-ProteinID: NP_415766
-            NCBI-GeneID: 945841
+MOTIF       Pfam: TrkA_N Ion_trans_2 Ion_trans DUF202 IRK NAD_binding_7
+DBLINKS     NCBI-GeneID: 945841
+            NCBI-ProteinID: NP_415766
             Pasteur: kch
             RegulonDB: ECK120001554
-            EcoGene: EG11606
             ECOCYC: EG11606
             ASAP: ABE-0004189
             UniProt: P31069

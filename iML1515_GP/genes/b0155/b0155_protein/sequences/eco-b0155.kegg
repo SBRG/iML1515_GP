@@ -1,20 +1,27 @@
 ENTRY       b0155             CDS       T00007
 NAME        clcA
-DEFINITION  (RefSeq) H(+)/Cl(-) exchange transporter
+DEFINITION  (RefSeq) chloride:H(+) antiporter ClcA
 ORTHOLOGY   K03281  chloride channel protein, CIC family
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09193 Unclassified: signaling and cellular processes
+               99977 Transport
+                b0155 (clcA)
 POSITION    175107..176528
-MOTIF       Pfam: Voltage_CLC DUF3341 DUF3772
-DBLINKS     NCBI-ProteinID: NP_414697
-            NCBI-GeneID: 946715
-            EcoGene: EG12331
+MOTIF       Pfam: Voltage_CLC DUF3772 DUF3341
+DBLINKS     NCBI-GeneID: 946715
+            NCBI-ProteinID: NP_414697
+            Pasteur: yadQ
+            RegulonDB: ECK120002206
             ECOCYC: EG12331
             ASAP: ABE-0000533
             UniProt: P37019
-STRUCTURE   PDB: 4ENE 1OTS 3DET 4KKL 4KK8 4KJQ 3EJZ 4LOU 4KK9 4KKA 1OTT
-                 4KKB 4FG6 4KJW 3NMO 2R9H 2H2P 2H2S 2EXY 5HD8 4KK5 4KK6
-                 4KKC 4KJP 3EJY 2HT4 2FEE 2EXW 4FTP 2HT3 2HLF 1OTU 2HT2
-                 2FED 2HTL 2HTK 1KPK 4MQX 2EZ0 2FEC
+STRUCTURE   PDB: 4ENE 1OTS 6ADB 3DET 4KKL 4KK8 4KJQ 3EJZ 6AD7 4LOU 4KK9
+                 4KKA 1OTT 6K5I 4KKB 4FG6 4KJW 6ADC 3NMO 2R9H 2H2P 2H2S
+                 2EXY 6ADA 5HD8 6K5A 4KK5 4KK6 4KKC 6K5D 6K5F 4KJP 3EJY
+                 2HT4 2FEE 2EXW 4FTP 6AD8 2HT3 2HLF 1OTU 2HT2 2FED 2HTL
+                 2HTK 1KPK 4MQX 2EZ0 2FEC
 AASEQ       473
             MKTDTPSLETPQAARLRRRQLIRQLLERDKTPLAILFMAAVVGTLVGLAAVAFDKGVAWL
             QNQRMGALVHTADNYPLLLTVAFLCSAVLAMFGYFLVRKYAPEAGGSGIPEIEGALEDQR

@@ -1,6 +1,6 @@
 ENTRY       b3517             CDS       T00007
 NAME        gadA
-DEFINITION  (RefSeq) glutamate decarboxylase A, PLP-dependent
+DEFINITION  (RefSeq) glutamate decarboxylase A
 ORTHOLOGY   K01580  glutamate decarboxylase [EC:4.1.1.15]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00250  Alanine, aspartate and glutamate metabolism
@@ -13,20 +13,20 @@ PATHWAY     eco00250  Alanine, aspartate and glutamate metabolism
             eco02024  Quorum sensing
 MODULE      eco_M00027  GABA (gamma-Aminobutyrate) shunt
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00650 Butanoate metabolism
                 b3517 (gadA)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00250 Alanine, aspartate and glutamate metabolism
                 b3517 (gadA)
-              Metabolism of other amino acids
+              09106 Metabolism of other amino acids
                00410 beta-Alanine metabolism
                 b3517 (gadA)
                00430 Taurine and hypotaurine metabolism
                 b3517 (gadA)
-             Cellular Processes
-              Cellular community - prokaryotes
+             09140 Cellular Processes
+              09145 Cellular community - prokaryotes
                02024 Quorum sensing
                 b3517 (gadA)
             Enzymes [BR:eco01000]
@@ -37,11 +37,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3517 (gadA)
 POSITION    complement(3666180..3667580)
 MOTIF       Pfam: Pyridoxal_deC Aminotran_5
-DBLINKS     NCBI-ProteinID: NP_417974
-            NCBI-GeneID: 948027
+DBLINKS     NCBI-GeneID: 948027
+            NCBI-ProteinID: NP_417974
             Pasteur: gadA
             RegulonDB: ECK120002568
-            EcoGene: EG50009
             ECOCYC: EG50009
             ASAP: ABE-0011490
             UniProt: P69908

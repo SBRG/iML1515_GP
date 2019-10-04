@@ -1,33 +1,35 @@
 ENTRY       b0809             CDS       T00007
 NAME        glnQ
-DEFINITION  (RefSeq) glutamine transporter subunit
-ORTHOLOGY   K10038  glutamine transport system ATP-binding protein [EC:3.6.3.-]
+DEFINITION  (RefSeq) L-glutamine ABC transporter ATP binding subunit
+ORTHOLOGY   K10038  glutamine transport system ATP-binding protein [EC:7.4.2.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00227  Glutamine transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b0809 (glnQ)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0809 (glnQ)
             Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.-  
+             7. Translocases
+              7.4  Catalysing the translocation of amino acids and peptides
+               7.4.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.4.2.1  ABC-type polar-amino-acid transporter
                  b0809 (glnQ)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Phosphate and amino acid transporters
-               Glutamine transporter [MD:M00227] [OT]
+               Glutamine transporter
                 b0809 (glnQ)
 POSITION    complement(845741..846463)
-MOTIF       Pfam: ABC_tran AAA_21 SMC_N AAA_16 AAA_23 AAA_29 AAA_22 ABC_ATPase AAA_15 RsgA_GTPase AAA_18 AAA_30 AAA_33 RNA12 CobU AAA_25 ATPase_2 TniB cobW IstB_IS21 NB-ARC NACHT Mg_chelatase NTPase_1 AAA_28 SbcCD_C AAA_27 AAA_24 AAA_19 T2SSE Rad17 AAA_14 MMR_HSR1 Adeno_IVa2 Sigma54_activat CPT
-DBLINKS     NCBI-ProteinID: NP_415330
-            NCBI-GeneID: 945435
+MOTIF       Pfam: ABC_tran AAA_21 SMC_N AAA_16 AAA_23 AAA_29 AAA_22 ABC_ATPase AAA_15 RsgA_GTPase TniB AAA_18 AAA_30 AAA_33 RNA12 CobU AAA_25 ATPase_2 cobW IstB_IS21 Rad17 NACHT Mg_chelatase NB-ARC NTPase_1 SbcCD_C AAA_28 AAA_27 AAA_24 AAA_19 T2SSE AAA_14 MMR_HSR1 Adeno_IVa2 Sigma54_activat CPT AAA_7
+DBLINKS     NCBI-GeneID: 945435
+            NCBI-ProteinID: NP_415330
             Pasteur: glnQ
             RegulonDB: ECK120000382
-            EcoGene: EG10389
             ECOCYC: EG10389
             ASAP: ABE-0002764
             UniProt: P10346

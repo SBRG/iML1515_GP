@@ -1,6 +1,6 @@
 ENTRY       b4024             CDS       T00007
 NAME        lysC
-DEFINITION  (RefSeq) lysine-sensitive aspartokinase 3
+DEFINITION  (RefSeq) aspartate kinase III
 ORTHOLOGY   K00928  aspartate kinase [EC:2.7.2.4]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00260  Glycine, serine and threonine metabolism
@@ -17,20 +17,15 @@ MODULE      eco_M00016  Lysine biosynthesis, succinyl-DAP pathway, aspartate => 
             eco_M00017  Methionine biosynthesis, apartate => homoserine => methionine
             eco_M00018  Threonine biosynthesis, aspartate => homoserine => threonine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01210 2-Oxocarboxylic acid metabolism
-                b4024 (lysC)
-               01230 Biosynthesis of amino acids
-                b4024 (lysC)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00260 Glycine, serine and threonine metabolism
                 b4024 (lysC)
                00270 Cysteine and methionine metabolism
                 b4024 (lysC)
                00300 Lysine biosynthesis
                 b4024 (lysC)
-              Biosynthesis of other secondary metabolites
+              09110 Biosynthesis of other secondary metabolites
                00261 Monobactam biosynthesis
                 b4024 (lysC)
             Enzymes [BR:eco01000]
@@ -41,11 +36,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b4024 (lysC)
 POSITION    complement(4231884..4233233)
 MOTIF       Pfam: AA_kinase ACT ACT_7
-DBLINKS     NCBI-ProteinID: NP_418448
-            NCBI-GeneID: 948531
+DBLINKS     NCBI-GeneID: 948531
+            NCBI-ProteinID: NP_418448
             Pasteur: lysC
             RegulonDB: ECK120000543
-            EcoGene: EG10550
             ECOCYC: EG10550
             ASAP: ABE-0013156
             UniProt: P08660

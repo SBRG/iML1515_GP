@@ -1,13 +1,19 @@
 ENTRY       b0149             CDS       T00007
 NAME        mrcB
-DEFINITION  (RefSeq) fused glycosyl transferase and transpeptidase
+DEFINITION  (RefSeq) peptidoglycan glycosyltransferase/peptidoglycan DD-transpeptidase MrcB
 ORTHOLOGY   K05365  penicillin-binding protein 1B [EC:2.4.1.129 3.4.16.4]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00550  Peptidoglycan biosynthesis
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00550 Peptidoglycan biosynthesis
+                b0149 (mrcB)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01003 Glycosyltransferases [BR:eco01003]
+                b0149 (mrcB)
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
                 b0149 (mrcB)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -24,16 +30,20 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
              Polysaccharide
               Bacterial polysaccharide
                b0149 (mrcB)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              Glycosyltransferase/DD-Transpeptidase (Class A PBP)
+               b0149 (mrcB)
 POSITION    164730..167264
-MOTIF       Pfam: Transgly UB2H PBP1_TM Transpeptidase DUF3484
-DBLINKS     NCBI-ProteinID: NP_414691
-            NCBI-GeneID: 944843
+MOTIF       Pfam: Transgly UB2H PBP1_TM Transpeptidase UvrB_inter DUF3484
+DBLINKS     NCBI-GeneID: 944843
+            NCBI-ProteinID: NP_414691
             Pasteur: mrcB
-            EcoGene: EG10605
+            RegulonDB: ECK120000598
             ECOCYC: EG10605
             ASAP: ABE-0000516
             UniProt: P02919
-STRUCTURE   PDB: 3VMA 5HLD 5HLA 5HLB 5HL9 5FGZ 3FWL
+STRUCTURE   PDB: 3VMA 5HLD 5HLA 5HLB 5HL9 5FGZ 3FWL 6G5R 6FZK
 AASEQ       844
             MAGNDREPIGRKGKPTRPVKQKVSRRRYEDDDDYDDYDDYEDEEPMPRKGKGKGKGRKPR
             GKRGWLWLLLKLAIVFAVLIAIYGVYLDQKIRSRIDGKVWQLPAAVYGRMVNLEPDMTIS

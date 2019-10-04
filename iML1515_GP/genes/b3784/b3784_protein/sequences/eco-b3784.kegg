@@ -1,29 +1,37 @@
 ENTRY       b3784             CDS       T00007
-NAME        wecA
-DEFINITION  (RefSeq) UDP-GlcNAc:undecaprenylphosphate GlcNAc-1-phosphate transferase
+NAME        rfe
+DEFINITION  (RefSeq) UDP-N-acetylglucosamine--undecaprenyl-phosphate N-acetylglucosaminephosphotransferase
 ORTHOLOGY   K02851  UDP-GlcNAc:undecaprenyl-phosphate/decaprenyl-phosphate GlcNAc-1-phosphate transferase [EC:2.7.8.33 2.7.8.35]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+PATHWAY     eco01100  Metabolic pathways
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01003 Glycosyltransferases [BR:eco01003]
+                b3784 (rfe)
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
+                b3784 (rfe)
+            Enzymes [BR:eco01000]
              2. Transferases
               2.7  Transferring phosphorus-containing groups
                2.7.8  Transferases for other substituted phosphate groups
                 2.7.8.33  UDP-N-acetylglucosamine---undecaprenyl-phosphate N-acetylglucosaminephosphotransferase
-                 b3784 (wecA)
+                 b3784 (rfe)
                 2.7.8.35  UDP-N-acetylglucosamine---decaprenyl-phosphate N-acetylglucosaminephosphotransferase
-                 b3784 (wecA)
+                 b3784 (rfe)
             Glycosyltransferases [BR:eco01003]
              Polysaccharide
               Bacterial polysaccharide
-               b3784 (wecA)
+               b3784 (rfe)
             Lipopolysaccharide biosynthesis proteins [BR:eco01005]
              O-antigen
-              b3784 (wecA)
+              b3784 (rfe)
 POSITION    3967916..3969019
 MOTIF       Pfam: Glycos_transf_4 Cu TMEM100
-DBLINKS     NCBI-ProteinID: NP_418231
-            NCBI-GeneID: 948789
+DBLINKS     NCBI-GeneID: 948789
+            NCBI-ProteinID: NP_418231
+            Pasteur: rfe
             RegulonDB: ECK120000831
-            EcoGene: EG10840
             ASAP: ABE-0012366
             UniProt: P0AC78
 AASEQ       367

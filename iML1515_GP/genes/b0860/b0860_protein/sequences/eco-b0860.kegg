@@ -1,26 +1,29 @@
 ENTRY       b0860             CDS       T00007
 NAME        artJ
-DEFINITION  (RefSeq) arginine binding protein, periplasmic
+DEFINITION  (RefSeq) L-arginine ABC transporter periplasmic binding protein
 ORTHOLOGY   K09996  arginine transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00229  Arginine transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b0860 (artJ)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0860 (artJ)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Phosphate and amino acid transporters
-               Arginine transporter [MD:M00229] [OT]
+               Arginine transporter
                 b0860 (artJ)
 POSITION    complement(899844..900575)
-MOTIF       Pfam: SBP_bac_3 Lig_chan-Glu_bd NMT1 Phosphonate-bd NMT1_3 YhfZ_C
-DBLINKS     NCBI-ProteinID: NP_415381
-            NCBI-GeneID: 948981
+MOTIF       Pfam: SBP_bac_3 Lig_chan-Glu_bd NMT1 NMT1_3 Phosphonate-bd
+DBLINKS     NCBI-GeneID: 948981
+            NCBI-ProteinID: NP_415381
             Pasteur: artJ
-            EcoGene: EG11628
+            RegulonDB: ECK120001576
             ECOCYC: EG11628
             ASAP: ABE-0002927
             UniProt: P30860

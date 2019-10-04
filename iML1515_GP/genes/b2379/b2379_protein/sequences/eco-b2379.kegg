@@ -1,9 +1,14 @@
 ENTRY       b2379             CDS       T00007
 NAME        alaC
-DEFINITION  (RefSeq) valine-pyruvate aminotransferase 3
+DEFINITION  (RefSeq) glutamate--pyruvate aminotransferase AlaC
 ORTHOLOGY   K14261  alanine-synthesizing transaminase [EC:2.6.1.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01007 Amino acid related enzymes [BR:eco01007]
+                b2379 (alaC)
+            Enzymes [BR:eco01000]
              2. Transferases
               2.6  Transferring nitrogenous groups
                2.6.1  Transaminases
@@ -15,9 +20,10 @@ BRITE       Enzymes [BR:eco01000]
                b2379 (alaC)
 POSITION    complement(2497057..2498295)
 MOTIF       Pfam: Aminotran_1_2 Beta_elim_lyase Alliinase_C
-DBLINKS     NCBI-ProteinID: NP_416880
-            NCBI-GeneID: 946850
-            EcoGene: EG14198
+DBLINKS     NCBI-GeneID: 946850
+            NCBI-ProteinID: NP_416880
+            Pasteur: yfdZ
+            RegulonDB: ECK120003817
             ECOCYC: G7242
             ASAP: ABE-0007850
             UniProt: P77434

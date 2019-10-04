@@ -1,7 +1,7 @@
 ENTRY       b4005             CDS       T00007
 NAME        purD
-DEFINITION  (RefSeq) phosphoribosylglycinamide synthetase phosphoribosylamine-glycine ligase
-ORTHOLOGY   K01945  phosphoribosylamine--glycine ligase [EC:6.3.4.13]
+DEFINITION  (RefSeq) phosphoribosylamine--glycine ligase
+ORTHOLOGY   K01945  phosphoribosylamine---glycine ligase [EC:6.3.4.13]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00230  Purine metabolism
             eco01100  Metabolic pathways
@@ -9,8 +9,8 @@ PATHWAY     eco00230  Purine metabolism
             eco01130  Biosynthesis of antibiotics
 MODULE      eco_M00048  Inosine monophosphate biosynthesis, PRPP + glutamine => IMP
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00230 Purine metabolism
                 b4005 (purD)
             Enzymes [BR:eco01000]
@@ -20,12 +20,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 6.3.4.13  phosphoribosylamine---glycine ligase
                  b4005 (purD)
 POSITION    complement(4204642..4205931)
-MOTIF       Pfam: GARS_A GARS_N GARS_C ATP-grasp_3 ATPgrasp_Ter CPSase_L_D2 ATP-grasp ATP-grasp_4 RimK ATP-grasp_2
-DBLINKS     NCBI-ProteinID: NP_418433
-            NCBI-GeneID: 948504
+MOTIF       Pfam: GARS_A GARS_N GARS_C ATP-grasp_3 CPSase_L_D2 ATP-grasp ATP-grasp_4 RimK ATP-grasp_2
+DBLINKS     NCBI-GeneID: 948504
+            NCBI-ProteinID: NP_418433
             Pasteur: purD
             RegulonDB: ECK120000783
-            EcoGene: EG10792
             ECOCYC: EG10792
             ASAP: ABE-0013095
             UniProt: P15640

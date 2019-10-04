@@ -1,6 +1,6 @@
 ENTRY       b1851             CDS       T00007
 NAME        edd
-DEFINITION  (RefSeq) 6-phosphogluconate dehydratase
+DEFINITION  (RefSeq) phosphogluconate dehydratase
 ORTHOLOGY   K01690  phosphogluconate dehydratase [EC:4.2.1.12]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00030  Pentose phosphate pathway
@@ -9,11 +9,8 @@ PATHWAY     eco00030  Pentose phosphate pathway
             eco01200  Carbon metabolism
 MODULE      eco_M00008  Entner-Doudoroff pathway, glucose-6P => glyceraldehyde-3P + pyruvate
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b1851 (edd)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00030 Pentose phosphate pathway
                 b1851 (edd)
             Enzymes [BR:eco01000]
@@ -24,10 +21,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1851 (edd)
 POSITION    complement(1932793..1934604)
 MOTIF       Pfam: ILVD_EDD zf-A20
-DBLINKS     NCBI-ProteinID: NP_416365
-            NCBI-GeneID: 946362
+DBLINKS     NCBI-GeneID: 946362
+            NCBI-ProteinID: NP_416365
             Pasteur: edd
-            EcoGene: EG10257
+            RegulonDB: ECK120000251
             ECOCYC: EG10257
             ASAP: ABE-0006166
             UniProt: P0ADF6

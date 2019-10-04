@@ -1,32 +1,35 @@
 ENTRY       b3917             CDS       T00007
 NAME        sbp
-DEFINITION  (RefSeq) sulfate transporter subunit
-ORTHOLOGY   K02048  sulfate transport system substrate-binding protein
+DEFINITION  (RefSeq) sulfate/thiosulfate ABC transporter periplasmic binding protein Sbp
+ORTHOLOGY   K23163  sulfate/thiosulfate transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00920  Sulfur metabolism
             eco02010  ABC transporters
-MODULE      eco_M00185  Sulfate transport system
-            eco_M00616  Sulfate-sulfur assimilation
+MODULE      eco_M00616  Sulfate-sulfur assimilation
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00920 Sulfur metabolism
                 b3917 (sbp)
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b3917 (sbp)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3917 (sbp)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Mineral and organic ion transporters
-               Sulfate transporter [MD:M00185] [OT]
+               Sulfate/thiosulfate transporter
                 b3917 (sbp)
 POSITION    4108834..4109823
 MOTIF       Pfam: SBP_bac_11 SBP_bac_1 SBP_bac_6 SBP_bac_8 PBP_like DUF3105
-DBLINKS     NCBI-ProteinID: NP_418352
-            NCBI-GeneID: 948411
+DBLINKS     NCBI-GeneID: 948411
+            NCBI-ProteinID: NP_418352
             Pasteur: sbp
-            EcoGene: EG10929
+            RegulonDB: ECK120000918
             ECOCYC: EG10929
             ASAP: ABE-0012794
             UniProt: P0AG78

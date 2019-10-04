@@ -1,5 +1,5 @@
 ENTRY       b3052             CDS       T00007
-NAME        hldE
+NAME        rfaE
 DEFINITION  (RefSeq) fused heptose 7-phosphate kinase/heptose 1-phosphate adenyltransferase
 ORTHOLOGY   K03272  D-beta-D-heptose 7-phosphate kinase / D-beta-D-heptose 1-phosphate adenosyltransferase [EC:2.7.1.167 2.7.7.70]
 ORGANISM    eco  Escherichia coli K-12 MG1655
@@ -7,27 +7,32 @@ PATHWAY     eco00540  Lipopolysaccharide biosynthesis
             eco01100  Metabolic pathways
 MODULE      eco_M00064  ADP-L-glycero-D-manno-heptose biosynthesis
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00540 Lipopolysaccharide biosynthesis
-                b3052 (hldE)
+                b3052 (rfaE)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
+                b3052 (rfaE)
             Enzymes [BR:eco01000]
              2. Transferases
               2.7  Transferring phosphorus-containing groups
                2.7.1  Phosphotransferases with an alcohol group as acceptor
                 2.7.1.167  D-glycero-beta-D-manno-heptose-7-phosphate kinase
-                 b3052 (hldE)
+                 b3052 (rfaE)
                2.7.7  Nucleotidyltransferases
                 2.7.7.70  D-glycero-beta-D-manno-heptose 1-phosphate adenylyltransferase
-                 b3052 (hldE)
+                 b3052 (rfaE)
             Lipopolysaccharide biosynthesis proteins [BR:eco01005]
              Unusual sugar
-              b3052 (hldE)
+              b3052 (rfaE)
 POSITION    complement(3195320..3196753)
 MOTIF       Pfam: PfkB CTP_transf_like Phos_pyr_kin Carb_kinase FAD_syn Pantoate_ligase SPDY
-DBLINKS     NCBI-ProteinID: NP_417524
-            NCBI-GeneID: 947548
-            EcoGene: EG13416
+DBLINKS     NCBI-GeneID: 947548
+            NCBI-ProteinID: NP_417524
+            Pasteur: rfaE
+            RegulonDB: ECK120004146
             ASAP: ABE-0010015
             UniProt: P76658
 AASEQ       477

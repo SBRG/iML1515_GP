@@ -1,14 +1,18 @@
 ENTRY       b0335             CDS       T00007
 NAME        prpE
-DEFINITION  (RefSeq) propionate--CoA ligase
+DEFINITION  (RefSeq) propionyl-CoA synthetase
 ORTHOLOGY   K01908  propionyl-CoA synthetase [EC:6.2.1.17]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00640  Propanoate metabolism
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00640 Propanoate metabolism
+                b0335 (prpE)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01004 Lipid biosynthesis proteins [BR:eco01004]
                 b0335 (prpE)
             Enzymes [BR:eco01000]
              6. Ligases
@@ -22,10 +26,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b0335 (prpE)
 POSITION    352706..354592
 MOTIF       Pfam: AMP-binding AMP-binding_C ACAS_N
-DBLINKS     NCBI-ProteinID: NP_414869
-            NCBI-GeneID: 946891
+DBLINKS     NCBI-GeneID: 946891
+            NCBI-ProteinID: NP_414869
             Pasteur: prpE
-            EcoGene: EG13604
+            RegulonDB: ECK120002817
             ECOCYC: G6200
             ASAP: ABE-0001154
             UniProt: P77495

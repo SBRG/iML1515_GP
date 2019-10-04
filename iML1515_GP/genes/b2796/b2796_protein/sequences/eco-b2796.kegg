@@ -1,18 +1,23 @@
 ENTRY       b2796             CDS       T00007
 NAME        sdaC
-DEFINITION  (RefSeq) putative serine transporter
+DEFINITION  (RefSeq) serine:H(+) symporter SdaC
 ORTHOLOGY   K03837  serine transporter
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2796 (sdaC)
+            Transporters [BR:eco02000]
+             Other transporters
               Electrochemical potential-driven transporters [TC:2]
                b2796 (sdaC)
 POSITION    2928229..2929518
-MOTIF       Pfam: ELK
-DBLINKS     NCBI-ProteinID: NP_417276
-            NCBI-GeneID: 947264
+MOTIF       Pfam: DUF3961 ELK
+DBLINKS     NCBI-GeneID: 947264
+            NCBI-ProteinID: NP_417276
             Pasteur: sdaC
-            EcoGene: EG12142
+            RegulonDB: ECK120002043
             ECOCYC: EG12142
             ASAP: ABE-0009169
             UniProt: P0AAD6

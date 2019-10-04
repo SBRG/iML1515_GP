@@ -1,15 +1,19 @@
 ENTRY       b0524             CDS       T00007
 NAME        lpxH
-DEFINITION  (RefSeq) UDP-2,3-diacylglucosamine pyrophosphohydrolase
+DEFINITION  (RefSeq) UDP-2,3-diacylglucosamine diphosphatase
 ORTHOLOGY   K03269  UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00540  Lipopolysaccharide biosynthesis
             eco01100  Metabolic pathways
-MODULE      eco_M00060  Lipopolysaccharide biosynthesis, KDO2-lipid A
+MODULE      eco_M00060  KDO2-lipid A biosynthesis, Raetz pathway, LpxL-LpxM type
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00540 Lipopolysaccharide biosynthesis
+                b0524 (lpxH)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
                 b0524 (lpxH)
             Enzymes [BR:eco01000]
              3. Hydrolases
@@ -22,12 +26,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
               b0524 (lpxH)
 POSITION    complement(553218..553940)
 MOTIF       Pfam: Metallophos_2 Metallophos
-DBLINKS     NCBI-ProteinID: NP_415057
-            NCBI-GeneID: 949053
-            EcoGene: EG12666
+DBLINKS     NCBI-GeneID: 949053
+            NCBI-ProteinID: NP_415057
+            Pasteur: ybbF
+            RegulonDB: ECK120002352
             ECOCYC: EG12666
             ASAP: ABE-0001804
             UniProt: P43341
+STRUCTURE   PDB: 5WLY
 AASEQ       240
             MATLFIADLHLCVEEPAITAGFLRFLAGEARKADALYILGDLFEAWIGDDDPNPLHRKMA
             AAIKAVSDSGVPCYFIHGNRDFLLGKRFARESGMTLLPEEKVLELYGRRVLIMHGDTLCT

@@ -1,25 +1,29 @@
 ENTRY       b0433             CDS       T00007
 NAME        ampG
-DEFINITION  (RefSeq) muropeptide transporter
+DEFINITION  (RefSeq) muropeptide:H(+) symporter
 ORTHOLOGY   K08218  MFS transporter, PAT family, beta-lactamase induction signal transducer AmpG
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco01501  beta-Lactam resistance
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01501 beta-Lactam resistance
                 b0433 (ampG)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0433 (ampG)
             Transporters [BR:eco02000]
-             Major Facilitator Superfamily (MFS)
+             Major facilitator superfamily (MFS)
               Protein transporters
                Peptide-acetyl-CoA transporter (PAT) [TC:2.A.1.25]
                 b0433 (ampG)
 POSITION    complement(452070..453545)
 MOTIF       Pfam: MFS_1 Acatn
-DBLINKS     NCBI-ProteinID: NP_414967
-            NCBI-GeneID: 946438
+DBLINKS     NCBI-GeneID: 946438
+            NCBI-ProteinID: NP_414967
             Pasteur: ampG
-            EcoGene: EG12183
+            RegulonDB: ECK120002076
             ECOCYC: EG12183
             ASAP: ABE-0001501
             UniProt: P0AE16

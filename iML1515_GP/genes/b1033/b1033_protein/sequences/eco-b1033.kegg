@@ -1,7 +1,7 @@
 ENTRY       b1033             CDS       T00007
 NAME        ghrA
 DEFINITION  (RefSeq) glyoxylate/hydroxypyruvate reductase A
-ORTHOLOGY   K12972  glyoxylate/hydroxypyruvate reductase A [EC:1.1.1.79 1.1.1.81]
+ORTHOLOGY   K12972  glyoxylate/hydroxypyruvate reductase [EC:1.1.1.79 1.1.1.81]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00260  Glycine, serine and threonine metabolism
             eco00620  Pyruvate metabolism
@@ -10,13 +10,13 @@ PATHWAY     eco00260  Glycine, serine and threonine metabolism
             eco01110  Biosynthesis of secondary metabolites
             eco01120  Microbial metabolism in diverse environments
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00620 Pyruvate metabolism
                 b1033 (ghrA)
                00630 Glyoxylate and dicarboxylate metabolism
                 b1033 (ghrA)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00260 Glycine, serine and threonine metabolism
                 b1033 (ghrA)
             Enzymes [BR:eco01000]
@@ -29,10 +29,9 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1033 (ghrA)
 POSITION    1097886..1098824
 MOTIF       Pfam: 2-Hacid_dh_C NAD_binding_2 DUF551
-DBLINKS     NCBI-ProteinID: NP_415551
-            NCBI-GeneID: 946431
+DBLINKS     NCBI-GeneID: 946431
+            NCBI-ProteinID: NP_415551
             RegulonDB: ECK120003135
-            EcoGene: EG13869
             ECOCYC: G6539
             ASAP: ABE-0003503
             UniProt: P75913

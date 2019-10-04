@@ -1,16 +1,15 @@
 ENTRY       b0759             CDS       T00007
 NAME        galE
-DEFINITION  (RefSeq) UDP-galactose-4-epimerase
+DEFINITION  (RefSeq) UDP-glucose 4-epimerase
 ORTHOLOGY   K01784  UDP-glucose 4-epimerase [EC:5.1.3.2]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00052  Galactose metabolism
             eco00520  Amino sugar and nucleotide sugar metabolism
             eco01100  Metabolic pathways
-MODULE      eco_M00362  Nucleotide sugar biosynthesis, prokaryotes
-            eco_M00632  Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P
+MODULE      eco_M00632  Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00052 Galactose metabolism
                 b0759 (galE)
                00520 Amino sugar and nucleotide sugar metabolism
@@ -23,10 +22,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0759 (galE)
 POSITION    complement(791039..792055)
 MOTIF       Pfam: GDP_Man_Dehyd Epimerase 3Beta_HSD Polysacc_synt_2 RmlD_sub_bind NmrA NAD_binding_10 KR NAD_binding_4 adh_short UDPG_MGDP_dh_N adh_short_C2
-DBLINKS     NCBI-ProteinID: NP_415280
-            NCBI-GeneID: 945354
+DBLINKS     NCBI-GeneID: 945354
+            NCBI-ProteinID: NP_415280
             Pasteur: galE
-            EcoGene: EG10362
+            RegulonDB: ECK120000355
             ECOCYC: EG10362
             ASAP: ABE-0002575
             UniProt: P09147

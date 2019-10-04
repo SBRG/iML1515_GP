@@ -1,27 +1,29 @@
 ENTRY       b4086             CDS       T00007
 NAME        alsC
-DEFINITION  (RefSeq) D-allose transporter subunit
+DEFINITION  (RefSeq) D-allose ABC transporter membrane subunit
 ORTHOLOGY   K10550  D-allose transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00217  D-Allose transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b4086 (alsC)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b4086 (alsC)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Saccharide, polyol, and lipid transporters
-               D-Allose transporter [MD:M00217] [OT]
+               D-Allose transporter
                 b4086 (alsC)
 POSITION    complement(4308489..4309469)
 MOTIF       Pfam: BPD_transp_2 DUF3671
-DBLINKS     NCBI-ProteinID: NP_418510
-            NCBI-GeneID: 948594
+DBLINKS     NCBI-GeneID: 948594
+            NCBI-ProteinID: NP_418510
             Pasteur: alsC
             RegulonDB: ECK120001885
-            EcoGene: EG11958
             ECOCYC: EG11958
             ASAP: ABE-0013392
             UniProt: P32720

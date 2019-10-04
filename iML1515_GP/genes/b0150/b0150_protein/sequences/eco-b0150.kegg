@@ -1,23 +1,27 @@
 ENTRY       b0150             CDS       T00007
 NAME        fhuA
-DEFINITION  (RefSeq) ferrichrome outer membrane transporter
+DEFINITION  (RefSeq) ferrichrome outer membrane transporter/phage receptor
 ORTHOLOGY   K02014  iron complex outermembrane recepter protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0150 (fhuA)
+            Transporters [BR:eco02000]
+             Other transporters
               Pores ion channels [TC:1]
                b0150 (fhuA)
 POSITION    167484..169727
 MOTIF       Pfam: TonB_dep_Rec Plug
-DBLINKS     NCBI-ProteinID: NP_414692
-            NCBI-GeneID: 944856
+DBLINKS     NCBI-GeneID: 944856
+            NCBI-ProteinID: NP_414692
             Pasteur: fhuA
             RegulonDB: ECK120000296
-            EcoGene: EG10302
             ECOCYC: EG10302
             ASAP: ABE-0000520
             UniProt: P06971
-STRUCTURE   PDB: 4CU4 1QFG 2FCP 1BY5 1QFF 1FCP 1BY3 1FI1 1QJQ 2GRX 1QKC
+STRUCTURE   PDB: 4CU4 1QFG 2FCP 1BY5 1QFF 1FCP 1BY3 1FI1 1QJQ 1QKC 2GRX
 AASEQ       747
             MARSKTAQPKHSLRKIAVVVATAVSGMSVYAQAAVEPKEDTITVTAAPAPQESAWGPAAT
             IAARQSATGTKTDTPIQKVPQSISVVTAEEMALHQPKSVKEALSYTPGVSVGTRGASNTY

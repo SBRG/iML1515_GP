@@ -1,29 +1,33 @@
 ENTRY       b0198             CDS       T00007
 NAME        metI
-DEFINITION  (RefSeq) DL-methionine transporter subunit
+DEFINITION  (RefSeq) L-methionine/D-methionine ABC transporter membrane subunit
 ORTHOLOGY   K02072  D-methionine transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00238  D-Methionine transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b0198 (metI)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0198 (metI)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Phosphate and amino acid transporters
-               D-Methionine transporter [MD:M00238] [OT]
+               D-Methionine transporter
                 b0198 (metI)
 POSITION    complement(220968..221621)
 MOTIF       Pfam: BPD_transp_1
-DBLINKS     NCBI-ProteinID: NP_414740
-            NCBI-GeneID: 944894
-            EcoGene: EG11737
+DBLINKS     NCBI-GeneID: 944894
+            NCBI-ProteinID: NP_414740
+            Pasteur: yaeE
+            RegulonDB: ECK120001676
             ECOCYC: EG11737
             ASAP: ABE-0000668
             UniProt: P31547
-STRUCTURE   PDB: 3TUI 3TUZ 3DHW 3TUJ
+STRUCTURE   PDB: 3TUI 6CVL 3TUZ 3DHW 3TUJ
 AASEQ       217
             MSEPMMWLLVRGVWETLAMTFVSGFFGFVIGLPVGVLLYVTRPGQIIANAKLYRTVSAIV
             NIFRSIPFIILLVWMIPFTRVIVGTSIGLQAAIVPLTVGAAPFIARMVENALLEIPTGLI

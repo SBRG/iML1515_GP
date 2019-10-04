@@ -1,14 +1,20 @@
 ENTRY       b4130             CDS       T00007
 NAME        dtpC
-DEFINITION  (RefSeq) dipeptide and tripeptide permease
+DEFINITION  (RefSeq) dipeptide/tripeptide:H(+) symporter DtpC
 ORTHOLOGY   K03305  proton-dependent oligopeptide transporter, POT family
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09193 Unclassified: signaling and cellular processes
+               99977 Transport
+                b4130 (dtpC)
 POSITION    complement(4354954..4356411)
 MOTIF       Pfam: PTR2 MFS_1
-DBLINKS     NCBI-ProteinID: NP_418554
-            NCBI-GeneID: 948644
+DBLINKS     NCBI-GeneID: 948644
+            NCBI-ProteinID: NP_418554
+            Pasteur: yjdL
             RegulonDB: ECK120002307
-            EcoGene: EG12469
+            ECOCYC: EG12469
             ASAP: ABE-0013524
             UniProt: P39276
 AASEQ       485

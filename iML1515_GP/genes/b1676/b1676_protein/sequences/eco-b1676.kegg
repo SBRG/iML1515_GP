@@ -17,19 +17,21 @@ MODULE      eco_M00001  Glycolysis (Embden-Meyerhof pathway), glucose => pyruvat
             eco_M00049  Adenine ribonucleotide biosynthesis, IMP => ADP,ATP
             eco_M00050  Guanine ribonucleotide biosynthesis IMP => GDP,GTP
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b1676 (pykF)
-               01230 Biosynthesis of amino acids
-                b1676 (pykF)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
                 b1676 (pykF)
                00620 Pyruvate metabolism
                 b1676 (pykF)
-              Nucleotide metabolism
+              09104 Nucleotide metabolism
                00230 Purine metabolism
+                b1676 (pykF)
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               04131 Membrane trafficking [BR:eco04131]
+                b1676 (pykF)
+              09183 Protein families: signaling and cellular processes
+               04147 Exosome [BR:eco04147]
                 b1676 (pykF)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -37,17 +39,21 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                2.7.1  Phosphotransferases with an alcohol group as acceptor
                 2.7.1.40  pyruvate kinase
                  b1676 (pykF)
+            Membrane trafficking [BR:eco04131]
+             Autophagy
+              Chaperone mediated autophagy (CMA)
+               Selective cargos
+                b1676 (pykF)
             Exosome [BR:eco04147]
              Exosomal proteins
               Proteins found in most exosomes
                b1676 (pykF)
 POSITION    1755698..1757110
 MOTIF       Pfam: PK PK_C HpcH_HpaI DUF4115 DUF4651
-DBLINKS     NCBI-ProteinID: NP_416191
-            NCBI-GeneID: 946179
+DBLINKS     NCBI-GeneID: 946179
+            NCBI-ProteinID: NP_416191
             Pasteur: pykF
             RegulonDB: ECK120000795
-            EcoGene: EG10804
             ECOCYC: EG10804
             ASAP: ABE-0005600
             UniProt: P0AD61

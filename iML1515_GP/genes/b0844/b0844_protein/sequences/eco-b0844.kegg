@@ -1,6 +1,6 @@
 ENTRY       b0844             CDS       T00007
 NAME        ybjI
-DEFINITION  (RefSeq) 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase; pyrimidine phosphatase; riboflavin synthesis
+DEFINITION  (RefSeq) 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase
 ORTHOLOGY   K20861  FMN hydrolase / 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.102 3.1.3.104]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00740  Riboflavin metabolism
@@ -8,8 +8,8 @@ PATHWAY     eco00740  Riboflavin metabolism
             eco01110  Biosynthesis of secondary metabolites
 MODULE      eco_M00125  Riboflavin biosynthesis, GTP => riboflavin/FMN/FAD
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00740 Riboflavin metabolism
                 b0844 (ybjI)
             Enzymes [BR:eco01000]
@@ -22,10 +22,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0844 (ybjI)
 POSITION    complement(885316..886131)
 MOTIF       Pfam: Hydrolase_3 S6PP Hydrolase HAD HAD_2
-DBLINKS     NCBI-ProteinID: NP_415365
-            NCBI-GeneID: 945470
+DBLINKS     NCBI-GeneID: 945470
+            NCBI-ProteinID: NP_415365
             Pasteur: ybjI
-            EcoGene: EG13678
+            RegulonDB: ECK120003042
             ECOCYC: G6442
             ASAP: ABE-0002877
             UniProt: P75809

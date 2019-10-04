@@ -1,13 +1,14 @@
 ENTRY       b0515             CDS       T00007
 NAME        allE
-DEFINITION  (RefSeq) S-ureidoglycine aminohydrolase
+DEFINITION  (RefSeq) (S)-ureidoglycine aminohydrolase
 ORTHOLOGY   K14977  (S)-ureidoglycine aminohydrolase [EC:3.5.3.26]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00230  Purine metabolism
+            eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Nucleotide metabolism
+             09100 Metabolism
+              09104 Nucleotide metabolism
                00230 Purine metabolism
                 b0515 (allE)
             Enzymes [BR:eco01000]
@@ -18,10 +19,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0515 (allE)
 POSITION    complement(543261..544046)
 MOTIF       Pfam: Cupin_3 Cupin_2 AraC_binding CENP-C_C
-DBLINKS     NCBI-ProteinID: NP_415048
-            NCBI-GeneID: 945149
+DBLINKS     NCBI-GeneID: 945149
+            NCBI-ProteinID: NP_415048
             Pasteur: ylbA
-            EcoGene: EG13622
+            RegulonDB: ECK120002892
             ECOCYC: G6284
             ASAP: ABE-0001775
             UniProt: P75713

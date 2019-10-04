@@ -1,26 +1,29 @@
 ENTRY       b3666             CDS       T00007
 NAME        uhpT
-DEFINITION  (RefSeq) hexose phosphate transporter
+DEFINITION  (RefSeq) hexose-6-phosphate:phosphate antiporter
 ORTHOLOGY   K07784  MFS transporter, OPA family, hexose phosphate transport protein UhpT
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02020  Two-component system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Signal transduction
+             09130 Environmental Information Processing
+              09132 Signal transduction
                02020 Two-component system
                 b3666 (uhpT)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3666 (uhpT)
             Transporters [BR:eco02000]
-             Major Facilitator Superfamily (MFS)
+             Major facilitator superfamily (MFS)
               Phosphate and organophosphate transporters
                Organophosphate:Pi antiporter (OPA) family [TC:2.A.1.4]
                 b3666 (uhpT)
 POSITION    complement(3845776..3847167)
-MOTIF       Pfam: MFS_1 PMT_4TMC
-DBLINKS     NCBI-ProteinID: NP_418122
-            NCBI-GeneID: 948201
+MOTIF       Pfam: MFS_1
+DBLINKS     NCBI-GeneID: 948201
+            NCBI-ProteinID: NP_418122
             Pasteur: uhpT
             RegulonDB: ECK120001043
-            EcoGene: EG11054
             ECOCYC: EG11054
             ASAP: ABE-0011981
             UniProt: P0AGC0

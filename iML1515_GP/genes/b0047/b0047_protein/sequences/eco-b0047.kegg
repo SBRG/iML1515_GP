@@ -1,18 +1,23 @@
 ENTRY       b0047             CDS       T00007
 NAME        kefC
-DEFINITION  (RefSeq) potassium:proton antiporter
+DEFINITION  (RefSeq) K(+) : H(+) antiporter KefC
 ORTHOLOGY   K11745  glutathione-regulated potassium-efflux system ancillary protein KefC
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0047 (kefC)
+            Transporters [BR:eco02000]
+             Other transporters
               Electrochemical potential-driven transporters [TC:2]
                b0047 (kefC)
 POSITION    47769..49631
-MOTIF       Pfam: Na_H_Exchanger TrkA_N NAD_binding_7 ApbA FAD_binding_3 2-Hacid_dh_C ADH_zinc_N Shikimate_DH UDPG_MGDP_dh_N
-DBLINKS     NCBI-ProteinID: NP_414589
-            NCBI-GeneID: 944773
+MOTIF       Pfam: Na_H_Exchanger TrkA_N NAD_binding_7 ApbA FAD_binding_3 ADH_zinc_N 2-Hacid_dh_C Shikimate_DH UDPG_MGDP_dh_N
+DBLINKS     NCBI-GeneID: 944773
+            NCBI-ProteinID: NP_414589
             Pasteur: kefC
-            EcoGene: EG10521
+            RegulonDB: ECK120000514
             ECOCYC: EG10521
             ASAP: ABE-0000161
             UniProt: P03819

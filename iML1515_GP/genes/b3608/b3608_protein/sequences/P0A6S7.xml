@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-03-29" modified="2019-09-18" version="125">
+<accession>P0A6S7</accession>
+<accession>P37606</accession>
+<accession>Q2M7S2</accession>
+<name>GPDA_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Glycerol-3-phosphate dehydrogenase [NAD(P)+]</fullName>
+<ecNumber evidence="1">1.1.1.94</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="1">NAD(P)H-dependent glycerol-3-phosphate dehydrogenase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="1">gpsA</name>
+<name type="ordered locus">b3608</name>
+<name type="ordered locus">JW3583</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1994" name="Nucleic Acids Res." volume="22" first="2576" last="2586">
+<title>Analysis of the Escherichia coli genome. V. DNA sequence of the region from 76.0 to 81.5 minutes.</title>
+<authorList>
+<person name="Sofia H.J."/>
+<person name="Burland V."/>
+<person name="Daniels D.L."/>
+<person name="Plunkett G. III"/>
+<person name="Blattner F.R."/>
+</authorList>
+<dbReference type="PubMed" id="8041620"/>
+<dbReference type="DOI" id="10.1093/nar/22.13.2576"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<comment type="catalytic activity">
+<reaction evidence="1">
+<text>NAD(+) + sn-glycerol 3-phosphate = dihydroxyacetone phosphate + H(+) + NADH</text>
+<dbReference type="Rhea" id="RHEA:11092"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:57540"/>
+<dbReference type="ChEBI" id="CHEBI:57597"/>
+<dbReference type="ChEBI" id="CHEBI:57642"/>
+<dbReference type="ChEBI" id="CHEBI:57945"/>
+<dbReference type="EC" id="1.1.1.94"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="1">
+<text>NADP(+) + sn-glycerol 3-phosphate = dihydroxyacetone phosphate + H(+) + NADPH</text>
+<dbReference type="Rhea" id="RHEA:11096"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:57597"/>
+<dbReference type="ChEBI" id="CHEBI:57642"/>
+<dbReference type="ChEBI" id="CHEBI:57783"/>
+<dbReference type="ChEBI" id="CHEBI:58349"/>
+<dbReference type="EC" id="1.1.1.94"/>
+</reaction>
+</comment>
+<comment type="pathway" evidence="1">
+<text>Membrane lipid metabolism; glycerophospholipid metabolism.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the NAD-dependent glycerol-3-phosphate dehydrogenase family.</text>
+</comment>
+<dbReference type="EC" id="1.1.1.94" evidence="1"/>
+<dbReference type="EMBL" id="U00039">
+<property type="protein sequence ID" value="AAB18585.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC76632.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE77684.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="S47829">
+<property type="entry name" value="S47829"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_418065.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_001076194.1">
+<property type="nucleotide sequence ID" value="NZ_STEB01000024.1"/>
+</dbReference>
+<dbReference type="SMR" id="P0A6S7"/>
+<dbReference type="BioGrid" id="4261595">
+<property type="interactions" value="169"/>
+</dbReference>
+<dbReference type="BioGrid" id="852432">
+<property type="interactions" value="2"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-48003N"/>
+<dbReference type="IntAct" id="P0A6S7">
+<property type="interactions" value="6"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b3608"/>
+<dbReference type="EPD" id="P0A6S7"/>
+<dbReference type="jPOST" id="P0A6S7"/>
+<dbReference type="PaxDb" id="P0A6S7"/>
+<dbReference type="PRIDE" id="P0A6S7"/>
+<dbReference type="EnsemblBacteria" id="AAC76632">
+<property type="protein sequence ID" value="AAC76632"/>
+<property type="gene ID" value="b3608"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE77684">
+<property type="protein sequence ID" value="BAE77684"/>
+<property type="gene ID" value="BAE77684"/>
+</dbReference>
+<dbReference type="GeneID" id="948125"/>
+<dbReference type="KEGG" id="ecj:JW3583"/>
+<dbReference type="KEGG" id="eco:b3608"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.3098"/>
+<dbReference type="EchoBASE" id="EB4142"/>
+<dbReference type="EcoGene" id="EG20091">
+<property type="gene designation" value="gpsA"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4105CSF">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0240">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000246854"/>
+<dbReference type="InParanoid" id="P0A6S7"/>
+<dbReference type="KO" id="K00057"/>
+<dbReference type="PhylomeDB" id="P0A6S7"/>
+<dbReference type="BioCyc" id="EcoCyc:GLYC3PDEHYDROGBIOSYN-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW3583-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:GLYC3PDEHYDROGBIOSYN-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00940"/>
+<dbReference type="PRO" id="PR:P0A6S7"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009331">
+<property type="term" value="C:glycerol-3-phosphate dehydrogenase complex"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0047952">
+<property type="term" value="F:glycerol-3-phosphate dehydrogenase [NAD(P)+] activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004367">
+<property type="term" value="F:glycerol-3-phosphate dehydrogenase [NAD+] activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051287">
+<property type="term" value="F:NAD binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005975">
+<property type="term" value="P:carbohydrate metabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046167">
+<property type="term" value="P:glycerol-3-phosphate biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniRule"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046168">
+<property type="term" value="P:glycerol-3-phosphate catabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046474">
+<property type="term" value="P:glycerophospholipid biosynthetic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.1040.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00394">
+<property type="entry name" value="NAD_Glyc3P_dehydrog"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008927">
+<property type="entry name" value="6-PGluconate_DH-like_C_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013328">
+<property type="entry name" value="6PGD_dom2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006168">
+<property type="entry name" value="G3P_DH_NAD-dep"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006109">
+<property type="entry name" value="G3P_DH_NAD-dep_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011128">
+<property type="entry name" value="G3P_DH_NAD-dep_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036291">
+<property type="entry name" value="NAD(P)-bd_dom_sf"/>
+</dbReference>
+<dbReference type="Pfam" id="PF07479">
+<property type="entry name" value="NAD_Gly3P_dh_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01210">
+<property type="entry name" value="NAD_Gly3P_dh_N"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF000114">
+<property type="entry name" value="Glycerol-3-P_dh"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00077">
+<property type="entry name" value="GPDHDRGNASE"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48179">
+<property type="entry name" value="SSF48179"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51735">
+<property type="entry name" value="SSF51735"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00957">
+<property type="entry name" value="NAD_G3PDH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0444">Lipid biosynthesis</keyword>
+<keyword id="KW-0443">Lipid metabolism</keyword>
+<keyword id="KW-0520">NAD</keyword>
+<keyword id="KW-0560">Oxidoreductase</keyword>
+<keyword id="KW-0594">Phospholipid biosynthesis</keyword>
+<keyword id="KW-1208">Phospholipid metabolism</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Glycerol-3-phosphate dehydrogenase [NAD(P)+]" id="PRO_0000137957">
+<location>
+<begin position="1"/>
+<end position="339"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="NAD" evidence="1">
+<location>
+<begin position="12"/>
+<end position="17"/>
+</location>
+</feature>
+<feature type="region of interest" description="Substrate binding" evidence="1">
+<location>
+<begin position="259"/>
+<end position="260"/>
+</location>
+</feature>
+<feature type="active site" description="Proton acceptor" evidence="1">
+<location>
+<position position="195"/>
+</location>
+</feature>
+<feature type="binding site" description="NAD; via amide nitrogen" evidence="1">
+<location>
+<position position="110"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="1">
+<location>
+<position position="110"/>
+</location>
+</feature>
+<feature type="binding site" description="NAD; via amide nitrogen" evidence="1">
+<location>
+<position position="143"/>
+</location>
+</feature>
+<feature type="binding site" description="NAD" evidence="1">
+<location>
+<position position="259"/>
+</location>
+</feature>
+<feature type="binding site" description="NAD" evidence="1">
+<location>
+<position position="285"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_00394"/>
+</source>
+</evidence>
+<sequence length="339" mass="36362" checksum="DF95F674204276BE" modified="2005-03-29" version="1">MNQRNASMTVIGAGSYGTALAITLARNGHEVVLWGHDPEHIATLERDRCNAAFLPDVPFPDTLHLESDLATALAASRNILVVVPSHVFGEVLRQIKPLMRPDARLVWATKGLEAETGRLLQDVAREALGDQIPLAVISGPTFAKELAAGLPTAISLASTDQTFADDLQQLLHCGKSFRVYSNPDFIGVQLGGAVKNVIAIGAGMSDGIGFGANARTALITRGLAEMSRLGAALGADPATFMGMAGLGDLVLTCTDNQSRNRRFGMMLGQGMDVQSAQEKIGQVVEGYRNTKEVRELAHRFGVEMPITEEIYQVLYCGKNAREAALTLLGRARKDERSSH</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

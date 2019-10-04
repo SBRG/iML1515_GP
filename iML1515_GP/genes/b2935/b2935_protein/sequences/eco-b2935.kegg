@@ -1,6 +1,6 @@
 ENTRY       b2935             CDS       T00007
 NAME        tktA
-DEFINITION  (RefSeq) transketolase 1, thiamine triphosphate-binding
+DEFINITION  (RefSeq) transketolase 1
 ORTHOLOGY   K00615  transketolase [EC:2.2.1.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00030  Pentose phosphate pathway
@@ -13,16 +13,11 @@ PATHWAY     eco00030  Pentose phosphate pathway
 MODULE      eco_M00004  Pentose phosphate pathway (Pentose phosphate cycle)
             eco_M00007  Pentose phosphate pathway, non-oxidative phase, fructose 6P => ribose 5P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b2935 (tktA)
-               01230 Biosynthesis of amino acids
-                b2935 (tktA)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00030 Pentose phosphate pathway
                 b2935 (tktA)
-              Metabolism of terpenoids and polyketides
+              09109 Metabolism of terpenoids and polyketides
                01051 Biosynthesis of ansamycins
                 b2935 (tktA)
             Enzymes [BR:eco01000]
@@ -33,15 +28,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2935 (tktA)
 POSITION    complement(3079644..3081635)
 MOTIF       Pfam: Transketolase_N Transket_pyr Transketolase_C DXP_synthase_N E1_dh TPP_enzyme_C
-DBLINKS     NCBI-ProteinID: YP_026188
-            NCBI-GeneID: 947420
+DBLINKS     NCBI-GeneID: 947420
+            NCBI-ProteinID: YP_026188
             Pasteur: tktA
             RegulonDB: ECK120001391
-            EcoGene: EG11427
             ECOCYC: EG11427
             ASAP: ABE-0009625
             UniProt: P27302
-STRUCTURE   PDB: 2R8O 5HHT 2R5N 2R8P 1QGD
+STRUCTURE   PDB: 6RJC 2R8O 5HHT 2R5N 2R8P 1QGD
 AASEQ       663
             MSSRKELANAIRALSMDAVQKAKSGHPGAPMGMADIAEVLWRDFLKHNPQNPSWADRDRF
             VLSNGHGSMLIYSLLHLTGYDLPMEELKNFRQLHSKTPGHPEVGYTAGVETTTGPLGQGI

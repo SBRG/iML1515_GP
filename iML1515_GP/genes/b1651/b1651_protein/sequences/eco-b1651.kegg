@@ -1,12 +1,13 @@
 ENTRY       b1651             CDS       T00007
 NAME        gloA
-DEFINITION  (RefSeq) glyoxalase I, Ni-dependent
+DEFINITION  (RefSeq) glyoxalase I
 ORTHOLOGY   K01759  lactoylglutathione lyase [EC:4.4.1.5]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00620  Pyruvate metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00620 Pyruvate metabolism
                 b1651 (gloA)
             Enzymes [BR:eco01000]
@@ -16,11 +17,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 4.4.1.5  lactoylglutathione lyase
                  b1651 (gloA)
 POSITION    1727837..1728244
-MOTIF       Pfam: Glyoxalase Glyoxalase_4 Glyoxalase_2 CppA_N
-DBLINKS     NCBI-ProteinID: NP_416168
-            NCBI-GeneID: 946161
+MOTIF       Pfam: Glyoxalase Glyoxalase_4 Glyoxalase_6 Glyoxalase_2 CppA_N
+DBLINKS     NCBI-GeneID: 946161
+            NCBI-ProteinID: NP_416168
             Pasteur: gloA
-            EcoGene: EG13421
+            RegulonDB: ECK120003480
             ECOCYC: G6891
             ASAP: ABE-0005520
             UniProt: P0AC81

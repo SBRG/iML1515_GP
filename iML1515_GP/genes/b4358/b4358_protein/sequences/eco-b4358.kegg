@@ -1,13 +1,26 @@
 ENTRY       b4358             CDS       T00007
-NAME        yjjN
+NAME        lgoD
 DEFINITION  (RefSeq) L-galactonate oxidoreductase
+ORTHOLOGY   K23007  L-galactonate 5-dehydrogenase [EC:1.1.1.414]
 ORGANISM    eco  Escherichia coli K-12 MG1655
+PATHWAY     eco00053  Ascorbate and aldarate metabolism
+            eco01100  Metabolic pathways
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00053 Ascorbate and aldarate metabolism
+                b4358 (lgoD)
+            Enzymes [BR:eco01000]
+             1. Oxidoreductases
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.414  L-galactonate 5-dehydrogenase
+                 b4358 (lgoD)
 POSITION    4595990..4597012
-MOTIF       Pfam: ADH_N ADH_zinc_N Glu_dehyd_C ADH_zinc_N_2 AlaDh_PNT_C 3HCDH_N AdoHcyase_NAD 2-Hacid_dh_C Pyr_redox_2 HI0933_like Sacchrp_dh_NADP Pyr_redox_3 FAD_binding_3 NAD_binding_7 TrkA_N Pyr_redox FAD_binding_2 NAD_binding_8 Shikimate_DH GIDA UDPG_MGDP_dh_N Thi4 FAD_oxidored
-DBLINKS     NCBI-ProteinID: NP_418778
-            NCBI-GeneID: 948883
+MOTIF       Pfam: ADH_N ADH_zinc_N Glu_dehyd_C ADH_zinc_N_2 AlaDh_PNT_C 3HCDH_N AdoHcyase_NAD 2-Hacid_dh_C Pyr_redox_2 HI0933_like Sacchrp_dh_NADP Pyr_redox_3 FAD_binding_3 NAD_binding_7 TrkA_N Pyr_redox NAD_binding_8 FAD_binding_2 Shikimate_DH GIDA UDPG_MGDP_dh_N Thi4 FAD_oxidored
+DBLINKS     NCBI-GeneID: 948883
+            NCBI-ProteinID: NP_418778
             RegulonDB: ECK120004438
-            EcoGene: EG12590
             ECOCYC: G7945
             ASAP: ABE-0014294
             UniProt: P39400

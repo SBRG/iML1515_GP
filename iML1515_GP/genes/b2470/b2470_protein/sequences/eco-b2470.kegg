@@ -1,26 +1,28 @@
 ENTRY       b2470             CDS       T00007
 NAME        acrD
-DEFINITION  (RefSeq) aminoglycoside/multidrug efflux system
+DEFINITION  (RefSeq) multidrug efflux pump RND permease AcrD
 ORTHOLOGY   K18324  multidrug efflux pump
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02020  Two-component system
-MODULE      eco_M00646  Multidrug resistance, efflux pump AcrAD-TolC
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Signal transduction
+             09130 Environmental Information Processing
+              09132 Signal transduction
                02020 Two-component system
                 b2470 (acrD)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2470 (acrD)
             Transporters [BR:eco02000]
-             Other Transporters
+             Other transporters
               Electrochemical potential-driven transporters [TC:2]
                b2470 (acrD)
 POSITION    2587595..2590708
 MOTIF       Pfam: ACR_tran MMPL SecD_SecF
-DBLINKS     NCBI-ProteinID: NP_416965
-            NCBI-GeneID: 945464
+DBLINKS     NCBI-GeneID: 945464
+            NCBI-ProteinID: NP_416965
             Pasteur: acrD
             RegulonDB: ECK120000012
-            EcoGene: EG10014
             ECOCYC: EG10014
             ASAP: ABE-0008136
             UniProt: P24177

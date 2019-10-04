@@ -1,31 +1,34 @@
 ENTRY       b0367             CDS       T00007
 NAME        tauC
-DEFINITION  (RefSeq) taurine transporter subunit
+DEFINITION  (RefSeq) taurine ABC transporter membrane subunit
 ORTHOLOGY   K15552  taurine transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00920  Sulfur metabolism
             eco02010  ABC transporters
-MODULE      eco_M00435  Taurine transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00920 Sulfur metabolism
                 b0367 (tauC)
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b0367 (tauC)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0367 (tauC)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Mineral and organic ion transporters
-               Taurine transporter [MD:M00435] [OT]
+               Taurine transporter
                 b0367 (tauC)
 POSITION    386971..387798
 MOTIF       Pfam: BPD_transp_1
-DBLINKS     NCBI-ProteinID: NP_414901
-            NCBI-GeneID: 945026
+DBLINKS     NCBI-GeneID: 945026
+            NCBI-ProteinID: NP_414901
             Pasteur: tauC
-            EcoGene: EG13301
+            RegulonDB: ECK120002833
             ECOCYC: G6219
             ASAP: ABE-0001261
             UniProt: Q47539

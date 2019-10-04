@@ -6,10 +6,15 @@ ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00250  Alanine, aspartate and glutamate metabolism
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
+            eco01230  Biosynthesis of amino acids
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00250 Alanine, aspartate and glutamate metabolism
+                b0674 (asnB)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors [BR:eco01002]
                 b0674 (asnB)
             Enzymes [BR:eco01000]
              6. Ligases
@@ -17,17 +22,16 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                6.3.5  Carbon-nitrogen ligases with glutamine as amido-N-donor
                 6.3.5.4  asparagine synthase (glutamine-hydrolysing)
                  b0674 (asnB)
-            Peptidases [BR:eco01002]
-             Cysteine Peptidases
+            Peptidases and inhibitors [BR:eco01002]
+             Cysteine peptidases
               Family C44
                b0674 (asnB)
 POSITION    complement(697513..699177)
 MOTIF       Pfam: Asn_synthase GATase_7 GATase_6 DUF3700 NAD_synthase tRNA_Me_trans
-DBLINKS     NCBI-ProteinID: NP_415200
-            NCBI-GeneID: 945281
+DBLINKS     NCBI-GeneID: 945281
+            NCBI-ProteinID: NP_415200
             Pasteur: asnB
             RegulonDB: ECK120000088
-            EcoGene: EG10092
             ECOCYC: EG10092
             ASAP: ABE-0002292
             UniProt: P22106

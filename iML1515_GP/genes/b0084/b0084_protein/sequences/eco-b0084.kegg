@@ -1,18 +1,25 @@
 ENTRY       b0084             CDS       T00007
 NAME        ftsI
-DEFINITION  (RefSeq) transpeptidase involved in septal peptidoglycan synthesis (penicillin-binding protein 3)
+DEFINITION  (RefSeq) peptidoglycan DD-transpeptidase FtsI
 ORTHOLOGY   K03587  cell division protein FtsI (penicillin-binding protein 3) [EC:3.4.16.4]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00550  Peptidoglycan biosynthesis
             eco01501  beta-Lactam resistance
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00550 Peptidoglycan biosynthesis
                 b0084 (ftsI)
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01501 beta-Lactam resistance
+                b0084 (ftsI)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+                b0084 (ftsI)
+              09182 Protein families: genetic information processing
+               03036 Chromosome and associated proteins [BR:eco03036]
                 b0084 (ftsI)
             Enzymes [BR:eco01000]
              3. Hydrolases
@@ -20,17 +27,21 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                3.4.16  Serine-type carboxypeptidases
                 3.4.16.4  serine-type D-Ala-D-Ala carboxypeptidase
                  b0084 (ftsI)
-            Chromosome [BR:eco03036]
-             Prokaryotic Type
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              DD-Transpeptidase (Class B PBP)
+               b0084 (ftsI)
+            Chromosome and associated proteins [BR:eco03036]
+             Prokaryotic type
               Chromosome partitioning proteins
                Divisome proteins
                 b0084 (ftsI)
 POSITION    91413..93179
 MOTIF       Pfam: Transpeptidase PBP_dimer DUF1616
-DBLINKS     NCBI-ProteinID: NP_414626
-            NCBI-GeneID: 944799
+DBLINKS     NCBI-GeneID: 944799
+            NCBI-ProteinID: NP_414626
             Pasteur: ftsI
-            EcoGene: EG10341
+            RegulonDB: ECK120000335
             ECOCYC: EG10341
             ASAP: ABE-0000309
             UniProt: P0AD68

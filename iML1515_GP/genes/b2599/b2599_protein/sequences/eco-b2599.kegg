@@ -1,6 +1,6 @@
 ENTRY       b2599             CDS       T00007
 NAME        pheA
-DEFINITION  (RefSeq) chorismate mutase and prephenate dehydratase, P-protein
+DEFINITION  (RefSeq) fused chorismate mutase/prephenate dehydratase
 ORTHOLOGY   K14170  chorismate mutase / prephenate dehydratase [EC:5.4.99.5 4.2.1.51]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00400  Phenylalanine, tyrosine and tryptophan biosynthesis
@@ -11,11 +11,8 @@ PATHWAY     eco00400  Phenylalanine, tyrosine and tryptophan biosynthesis
 MODULE      eco_M00024  Phenylalanine biosynthesis, chorismate => phenylalanine
             eco_M00025  Tyrosine biosynthesis, chorismate => tyrosine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b2599 (pheA)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00400 Phenylalanine, tyrosine and tryptophan biosynthesis
                 b2599 (pheA)
             Enzymes [BR:eco01000]
@@ -31,11 +28,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2599 (pheA)
 POSITION    2737745..2738905
 MOTIF       Pfam: PDT CM_2 WWE
-DBLINKS     NCBI-ProteinID: NP_417090
-            NCBI-GeneID: 947081
+DBLINKS     NCBI-GeneID: 947081
+            NCBI-ProteinID: NP_417090
             Pasteur: pheA
             RegulonDB: ECK120000699
-            EcoGene: EG10707
             ECOCYC: EG10707
             ASAP: ABE-0008545
             UniProt: P0A9J8

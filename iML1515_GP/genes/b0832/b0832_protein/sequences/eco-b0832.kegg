@@ -1,25 +1,29 @@
 ENTRY       b0832             CDS       T00007
 NAME        gsiD
-DEFINITION  (RefSeq) glutathione transporter, permease component, ABC superfamily
+DEFINITION  (RefSeq) glutathione ABC transporter membrane subunit GsiD
 ORTHOLOGY   K13891  glutathione transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00348  Glutathione transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b0832 (gsiD)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0832 (gsiD)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Peptide and nickel transporters
-               Glutathione transporter [MD:M00348] [OT]
+               Glutathione transporter
                 b0832 (gsiD)
 POSITION    871890..872801
 MOTIF       Pfam: BPD_transp_1 OppC_N
-DBLINKS     NCBI-ProteinID: NP_415353
-            NCBI-GeneID: 945461
-            EcoGene: EG13475
+DBLINKS     NCBI-GeneID: 945461
+            NCBI-ProteinID: NP_415353
+            Pasteur: yliD
+            RegulonDB: ECK120003032
             ECOCYC: G6432
             ASAP: ABE-0002836
             UniProt: P75799

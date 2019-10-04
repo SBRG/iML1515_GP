@@ -1,15 +1,15 @@
 ENTRY       b3867             CDS       T00007
 NAME        hemN
-DEFINITION  (RefSeq) coproporphyrinogen III oxidase, SAM and NAD(P)H dependent, oxygen-independent
+DEFINITION  (RefSeq) coproporphyrinogen III dehydrogenase
 ORTHOLOGY   K02495  oxygen-independent coproporphyrinogen III oxidase [EC:1.3.98.3]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00860  Porphyrin and chlorophyll metabolism
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
-MODULE      eco_M00121  Heme biosynthesis, glutamate => protoheme/siroheme
+MODULE      eco_M00121  Heme biosynthesis, plants and bacteria, glutamate => heme
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00860 Porphyrin and chlorophyll metabolism
                 b3867 (hemN)
             Enzymes [BR:eco01000]
@@ -20,11 +20,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3867 (hemN)
 POSITION    4052045..4053418
 MOTIF       Pfam: Radical_SAM HemN_C
-DBLINKS     NCBI-ProteinID: NP_418303
-            NCBI-GeneID: 948362
+DBLINKS     NCBI-GeneID: 948362
+            NCBI-ProteinID: NP_418303
             Pasteur: hemN
             RegulonDB: ECK120001767
-            EcoGene: EG11836
             ECOCYC: EG11836
             ASAP: ABE-0012629
             UniProt: P32131

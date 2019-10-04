@@ -7,13 +7,14 @@ PATHWAY     eco00500  Starch and sucrose metabolism
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
             eco02026  Biofilm formation - Escherichia coli
+MODULE      eco_M00855  Glycogen degradation, glycogen => glucose-6P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00500 Starch and sucrose metabolism
                 b3417 (malP)
-             Cellular Processes
-              Cellular community - prokaryotes
+             09140 Cellular Processes
+              09145 Cellular community - prokaryotes
                02026 Biofilm formation - Escherichia coli
                 b3417 (malP)
             Enzymes [BR:eco01000]
@@ -24,15 +25,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3417 (malP)
 POSITION    complement(3550080..3552473)
 MOTIF       Pfam: Phosphorylase
-DBLINKS     NCBI-ProteinID: YP_026218
-            NCBI-GeneID: 947922
+DBLINKS     NCBI-GeneID: 947922
+            NCBI-ProteinID: YP_026218
             Pasteur: malP
             RegulonDB: ECK120000553
-            EcoGene: EG10560
             ECOCYC: EG10560
             ASAP: ABE-0011154
             UniProt: P00490
-STRUCTURE   PDB: 1L5W 2ASV 1L5V 2AV6 2AZD 2AW3 1L6I 2ECP 1AHP 1E4O 1QM5
+STRUCTURE   PDB: 1L5W 2ASV 1L5V 1QM5 2AV6 2AZD 2AW3 1L6I 1E4O 2ECP 1AHP
 AASEQ       797
             MSQPIFNDKQFQEALSRQWQRYGLNSAAEMTPRQWWLAVSEALAEMLRAQPFAKPVANQR
             HVNYISMEFLIGRLTGNNLLNLGWYQDVQDSLKAYDINLTDLLEEEIDPALGNGGLGRLA

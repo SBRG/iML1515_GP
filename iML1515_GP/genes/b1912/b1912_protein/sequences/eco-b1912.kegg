@@ -1,13 +1,13 @@
 ENTRY       b1912             CDS       T00007
 NAME        pgsA
-DEFINITION  (RefSeq) phosphatidylglycerophosphate synthetase
-ORTHOLOGY   K00995  CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase [EC:2.7.8.5]
+DEFINITION  (RefSeq) phosphatidylglycerophosphate synthase
+ORTHOLOGY   K00995  CDP-diacylglycerol---glycerol-3-phosphate 3-phosphatidyltransferase [EC:2.7.8.5]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00564  Glycerophospholipid metabolism
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Lipid metabolism
+             09100 Metabolism
+              09103 Lipid metabolism
                00564 Glycerophospholipid metabolism
                 b1912 (pgsA)
             Enzymes [BR:eco01000]
@@ -18,10 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b1912 (pgsA)
 POSITION    complement(1992269..1992817)
 MOTIF       Pfam: CDP-OH_P_transf
-DBLINKS     NCBI-ProteinID: NP_416422
-            NCBI-GeneID: 945791
+DBLINKS     NCBI-GeneID: 945791
+            NCBI-ProteinID: NP_416422
             Pasteur: pgsA
-            EcoGene: EG10706
+            RegulonDB: ECK120000698
             ECOCYC: EG10706
             ASAP: ABE-0006367
             UniProt: P0ABF8

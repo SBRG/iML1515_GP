@@ -1,15 +1,19 @@
 ENTRY       b0586             CDS       T00007
 NAME        entF
-DEFINITION  (RefSeq) enterobactin synthase multienzyme complex component, ATP-dependent
+DEFINITION  (RefSeq) apo-serine activating enzyme
 ORTHOLOGY   K02364  enterobactin synthetase component F [EC:6.3.2.14]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco01053  Biosynthesis of siderophore group nonribosomal peptides
             eco01110  Biosynthesis of secondary metabolites
             eco01130  Biosynthesis of antibiotics
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of terpenoids and polyketides
+             09100 Metabolism
+              09109 Metabolism of terpenoids and polyketides
                01053 Biosynthesis of siderophore group nonribosomal peptides
+                b0586 (entF)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01008 Polyketide biosynthesis proteins [BR:eco01008]
                 b0586 (entF)
             Enzymes [BR:eco01000]
              6. Ligases
@@ -23,12 +27,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                Enterobactin synthetase
                 b0586 (entF)
 POSITION    614157..618038
-MOTIF       Pfam: Condensation AMP-binding Thioesterase PP-binding AMP-binding_C Prot_ATP_ID_OB Lipase_3 Abhydrolase_1
-DBLINKS     NCBI-ProteinID: NP_415118
-            NCBI-GeneID: 945184
+MOTIF       Pfam: Condensation AMP-binding Thioesterase PP-binding AMP-binding_C Abhydrolase_6 Abhydrolase_1 Lipase_3 Hydrolase_4
+DBLINKS     NCBI-GeneID: 945184
+            NCBI-ProteinID: NP_415118
             Pasteur: entF
             RegulonDB: ECK120000258
-            EcoGene: EG10264
             ECOCYC: EG10264
             ASAP: ABE-0002021
             UniProt: P11454

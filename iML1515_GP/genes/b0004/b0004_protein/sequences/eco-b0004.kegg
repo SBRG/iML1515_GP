@@ -1,6 +1,6 @@
 ENTRY       b0004             CDS       T00007
 NAME        thrC
-DEFINITION  (RefSeq) L-threonine synthase
+DEFINITION  (RefSeq) threonine synthase
 ORTHOLOGY   K01733  threonine synthase [EC:4.2.3.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00260  Glycine, serine and threonine metabolism
@@ -11,14 +11,11 @@ PATHWAY     eco00260  Glycine, serine and threonine metabolism
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00018  Threonine biosynthesis, aspartate => homoserine => threonine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b0004 (thrC)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00260 Glycine, serine and threonine metabolism
                 b0004 (thrC)
-              Metabolism of cofactors and vitamins
+              09108 Metabolism of cofactors and vitamins
                00750 Vitamin B6 metabolism
                 b0004 (thrC)
             Enzymes [BR:eco01000]
@@ -29,11 +26,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0004 (thrC)
 POSITION    3734..5020
 MOTIF       Pfam: PALP Thr_synth_N
-DBLINKS     NCBI-ProteinID: NP_414545
-            NCBI-GeneID: 945198
+DBLINKS     NCBI-GeneID: 945198
+            NCBI-ProteinID: NP_414545
             Pasteur: thrC
             RegulonDB: ECK120000989
-            EcoGene: EG11000
             ECOCYC: EG11000
             ASAP: ABE-0000012
             UniProt: P00934

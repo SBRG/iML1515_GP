@@ -1,6 +1,6 @@
 ENTRY       b2711             CDS       T00007
 NAME        norW
-DEFINITION  (RefSeq) NADH:flavorubredoxin oxidoreductase
+DEFINITION  (RefSeq) NADH:flavorubredoxin reductase
 ORTHOLOGY   K12265  nitric oxide reductase FlRd-NAD(+) reductase [EC:1.18.1.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 BRITE       Enzymes [BR:eco01000]
@@ -10,10 +10,11 @@ BRITE       Enzymes [BR:eco01000]
                 1.18.1.-  
                  b2711 (norW)
 POSITION    2833912..2835045
-MOTIF       Pfam: Pyr_redox_2 Pyr_redox Pyr_redox_3 K_oxygenase DAO HI0933_like NAD_binding_7 NAD_binding_9 3HCDH_N TrkA_N ThiF GIDA FAD_binding_3 NAD_binding_8 ApbA
-DBLINKS     NCBI-ProteinID: NP_417191
-            NCBI-GeneID: 947088
-            EcoGene: EG12450
+MOTIF       Pfam: Pyr_redox_2 Rbx_binding Pyr_redox Pyr_redox_3 K_oxygenase DAO HI0933_like NAD_binding_7 NAD_binding_9 3HCDH_N TrkA_N FAD_binding_3 ThiF GIDA NAD_binding_8 ApbA
+DBLINKS     NCBI-GeneID: 947088
+            NCBI-ProteinID: NP_417191
+            Pasteur: ygbD
+            RegulonDB: ECK120002302
             ECOCYC: EG12450
             ASAP: ABE-0008912
             UniProt: P37596

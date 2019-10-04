@@ -1,6 +1,6 @@
 ENTRY       b4054             CDS       T00007
 NAME        tyrB
-DEFINITION  (RefSeq) tyrosine aminotransferase, tyrosine-repressible, PLP-dependent
+DEFINITION  (RefSeq) tyrosine aminotransferase
 ORTHOLOGY   K00832  aromatic-amino-acid transaminase [EC:2.6.1.57]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00270  Cysteine and methionine metabolism
@@ -15,11 +15,8 @@ PATHWAY     eco00270  Cysteine and methionine metabolism
 MODULE      eco_M00024  Phenylalanine biosynthesis, chorismate => phenylalanine
             eco_M00025  Tyrosine biosynthesis, chorismate => tyrosine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b4054 (tyrB)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00270 Cysteine and methionine metabolism
                 b4054 (tyrB)
                00350 Tyrosine metabolism
@@ -28,8 +25,12 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 b4054 (tyrB)
                00400 Phenylalanine, tyrosine and tryptophan biosynthesis
                 b4054 (tyrB)
-              Biosynthesis of other secondary metabolites
+              09110 Biosynthesis of other secondary metabolites
                00401 Novobiocin biosynthesis
+                b4054 (tyrB)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01007 Amino acid related enzymes [BR:eco01007]
                 b4054 (tyrB)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -43,11 +44,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b4054 (tyrB)
 POSITION    4267114..4268307
 MOTIF       Pfam: Aminotran_1_2
-DBLINKS     NCBI-ProteinID: NP_418478
-            NCBI-GeneID: 948563
+DBLINKS     NCBI-GeneID: 948563
+            NCBI-ProteinID: NP_418478
             Pasteur: tyrB
             RegulonDB: ECK120001029
-            EcoGene: EG11040
             ECOCYC: EG11040
             ASAP: ABE-0013278
             UniProt: P04693

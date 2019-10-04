@@ -1,9 +1,17 @@
 ENTRY       b2035             CDS       T00007
 NAME        wbbH
-DEFINITION  (RefSeq) O-antigen polymerase
+DEFINITION  (RefSeq) putative O-antigen polymerase
 ORTHOLOGY   K13008  O-antigen polymerase [EC:2.4.1.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
+                b2035 (wbbH)
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2035 (wbbH)
+            Enzymes [BR:eco01000]
              2. Transferases
               2.4  Glycosyltransferases
                2.4.1  Hexosyltransferases
@@ -13,14 +21,14 @@ BRITE       Enzymes [BR:eco01000]
              O-antigen
               b2035 (wbbH)
             Transporters [BR:eco02000]
-             Other Transporters
+             Other transporters
               Others
                b2035 (wbbH)
 POSITION    complement(2106060..2107226)
-DBLINKS     NCBI-ProteinID: NP_416539
-            NCBI-GeneID: 945179
+DBLINKS     NCBI-GeneID: 945179
+            NCBI-ProteinID: NP_416539
+            Pasteur: rfc
             RegulonDB: ECK120001907
-            EcoGene: EG11982
             ECOCYC: EG11982
             ASAP: ABE-0006753
             UniProt: P37748

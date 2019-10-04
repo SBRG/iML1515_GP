@@ -6,10 +6,12 @@ ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00860  Porphyrin and chlorophyll metabolism
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
-MODULE      eco_M00121  Heme biosynthesis, glutamate => protoheme/siroheme
+            eco01120  Microbial metabolism in diverse environments
+MODULE      eco_M00121  Heme biosynthesis, plants and bacteria, glutamate => heme
+            eco_M00846  Siroheme biosynthesis, glutamate => siroheme
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of cofactors and vitamins
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
                00860 Porphyrin and chlorophyll metabolism
                 b3805 (hemC)
             Enzymes [BR:eco01000]
@@ -20,11 +22,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3805 (hemC)
 POSITION    complement(3989825..3990766)
 MOTIF       Pfam: Porphobil_deam Porphobil_deamC
-DBLINKS     NCBI-ProteinID: YP_026260
-            NCBI-GeneID: 947759
+DBLINKS     NCBI-GeneID: 947759
+            NCBI-ProteinID: YP_026260
             Pasteur: hemC
             RegulonDB: ECK120000422
-            EcoGene: EG10429
             ECOCYC: EG10429
             ASAP: ABE-0012427
             UniProt: P06983

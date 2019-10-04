@@ -1,13 +1,13 @@
 ENTRY       b2091             CDS       T00007
 NAME        gatD
-DEFINITION  (RefSeq) galactitol-1-phosphate dehydrogenase, Zn-dependent and NAD(P)-binding
+DEFINITION  (RefSeq) galactitol-1-phosphate 5-dehydrogenase
 ORTHOLOGY   K00094  galactitol-1-phosphate 5-dehydrogenase [EC:1.1.1.251]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00052  Galactose metabolism
             eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00052 Galactose metabolism
                 b2091 (gatD)
             Enzymes [BR:eco01000]
@@ -18,11 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2091 (gatD)
 POSITION    complement(2171833..2172873)
 MOTIF       Pfam: ADH_N ADH_zinc_N AlaDh_PNT_C Glu_dehyd_C ADH_zinc_N_2 3HCDH_N 2-Hacid_dh_C Shikimate_DH UDPG_MGDP_dh_N Methyltransf_25 PrmA ELFV_dehydrog FAD_binding_2 TrkA_N MTS
-DBLINKS     NCBI-ProteinID: NP_416594
-            NCBI-GeneID: 946598
+DBLINKS     NCBI-GeneID: 946598
+            NCBI-ProteinID: NP_416594
             Pasteur: gatD
             RegulonDB: ECK120002277
-            EcoGene: EG12417
             ECOCYC: EG12417
             ASAP: ABE-0006924
             UniProt: P0A9S3

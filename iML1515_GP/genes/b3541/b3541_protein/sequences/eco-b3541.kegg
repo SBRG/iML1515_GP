@@ -1,27 +1,29 @@
 ENTRY       b3541             CDS       T00007
 NAME        dppD
-DEFINITION  (RefSeq) dipeptide/heme transporter
+DEFINITION  (RefSeq) dipeptide ABC transporter ATP binding subunit DppD
 ORTHOLOGY   K12371  dipeptide transport system ATP-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00324  Dipeptide transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b3541 (dppD)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3541 (dppD)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Peptide and nickel transporters
-               Dipeptide transporter [MD:M00324] [OT]
+               Dipeptide transporter
                 b3541 (dppD)
 POSITION    complement(3702865..3703848)
-MOTIF       Pfam: ABC_tran oligo_HPY SMC_N AAA_21 ABC_ATPase AAA_29 Herpes_ori_bp
-DBLINKS     NCBI-ProteinID: NP_417998
-            NCBI-GeneID: 948065
+MOTIF       Pfam: ABC_tran oligo_HPY SMC_N AAA_21 ABC_ATPase Herpes_ori_bp AAA_29
+DBLINKS     NCBI-GeneID: 948065
+            NCBI-ProteinID: NP_417998
             Pasteur: dppD
             RegulonDB: ECK120002339
-            EcoGene: EG12627
             ECOCYC: EG12627
             ASAP: ABE-0011566
             UniProt: P0AAG0

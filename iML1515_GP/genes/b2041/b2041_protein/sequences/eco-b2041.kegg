@@ -1,21 +1,22 @@
 ENTRY       b2041             CDS       T00007
 NAME        rfbB
-DEFINITION  (RefSeq) dTDP-glucose 4,6 dehydratase, NAD(P)-binding
+DEFINITION  (RefSeq) dTDP-glucose 4,6-dehydratase 1
 ORTHOLOGY   K01710  dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00521  Streptomycin biosynthesis
             eco00523  Polyketide sugar unit biosynthesis
             eco00525  Acarbose and validamycin biosynthesis
+            eco01100  Metabolic pathways
             eco01130  Biosynthesis of antibiotics
 MODULE      eco_M00793  dTDP-L-rhamnose biosynthesis
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of terpenoids and polyketides
+             09100 Metabolism
+              09109 Metabolism of terpenoids and polyketides
                00523 Polyketide sugar unit biosynthesis
                 b2041 (rfbB)
                01055 Biosynthesis of vancomycin group antibiotics
                 b2041 (rfbB)
-              Biosynthesis of other secondary metabolites
+              09110 Biosynthesis of other secondary metabolites
                00521 Streptomycin biosynthesis
                 b2041 (rfbB)
                00525 Acarbose and validamycin biosynthesis
@@ -28,11 +29,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2041 (rfbB)
 POSITION    complement(2111976..2113061)
 MOTIF       Pfam: GDP_Man_Dehyd Epimerase 3Beta_HSD Polysacc_synt_2 RmlD_sub_bind NAD_binding_4 adh_short KR Sacchrp_dh_NADP NAD_binding_10
-DBLINKS     NCBI-ProteinID: NP_416545
-            NCBI-GeneID: 945276
+DBLINKS     NCBI-GeneID: 945276
+            NCBI-ProteinID: NP_416545
             Pasteur: rfbB
             RegulonDB: ECK120002273
-            EcoGene: EG12412
             ECOCYC: EG12412
             ASAP: ABE-0006766
             UniProt: P37759

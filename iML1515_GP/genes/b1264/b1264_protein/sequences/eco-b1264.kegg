@@ -1,6 +1,6 @@
 ENTRY       b1264             CDS       T00007
 NAME        trpE
-DEFINITION  (RefSeq) component I of anthranilate synthase
+DEFINITION  (RefSeq) anthranilate synthase subunit TrpE
 ORTHOLOGY   K01657  anthranilate synthase component I [EC:4.1.3.27]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00400  Phenylalanine, tyrosine and tryptophan biosynthesis
@@ -11,15 +11,15 @@ PATHWAY     eco00400  Phenylalanine, tyrosine and tryptophan biosynthesis
             eco02024  Quorum sensing
 MODULE      eco_M00023  Tryptophan biosynthesis, chorismate => tryptophan
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b1264 (trpE)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00400 Phenylalanine, tyrosine and tryptophan biosynthesis
                 b1264 (trpE)
-             Cellular Processes
-              Cellular community - prokaryotes
+              09110 Biosynthesis of other secondary metabolites
+               00405 Phenazine biosynthesis
+                b1264 (trpE)
+             09140 Cellular Processes
+              09145 Cellular community - prokaryotes
                02024 Quorum sensing
                 b1264 (trpE)
             Enzymes [BR:eco01000]
@@ -29,12 +29,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 4.1.3.27  anthranilate synthase
                  b1264 (trpE)
 POSITION    complement(1321384..1322946)
-MOTIF       Pfam: Chorismate_bind Anth_synt_I_N Flg_hook
-DBLINKS     NCBI-ProteinID: NP_415780
-            NCBI-GeneID: 945846
+MOTIF       Pfam: Chorismate_bind Anth_synt_I_N HalX Flg_hook
+DBLINKS     NCBI-GeneID: 945846
+            NCBI-ProteinID: NP_415780
             Pasteur: trpE
             RegulonDB: ECK120001017
-            EcoGene: EG11028
             ECOCYC: EG11028
             ASAP: ABE-0004244
             UniProt: P00895

@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-11-08" modified="2019-07-31" version="112">
+<accession>P0ABZ4</accession>
+<accession>P45396</accession>
+<accession>P45398</accession>
+<accession>Q2M914</accession>
+<name>KDSC_ECOLI</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">3-deoxy-D-manno-octulosonate 8-phosphate phosphatase KdsC</fullName>
+<ecNumber evidence="1">3.1.3.45</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="1">KDO 8-P phosphatase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="4">kdsC</name>
+<name type="synonym">yrbI</name>
+<name type="synonym">yrbJ</name>
+<name type="ordered locus">b3198</name>
+<name type="ordered locus">JW3165</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli (strain K12)</name>
+<dbReference type="NCBI Taxonomy" id="83333"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1997" name="Science" volume="277" first="1453" last="1462">
+<title>The complete genome sequence of Escherichia coli K-12.</title>
+<authorList>
+<person name="Blattner F.R."/>
+<person name="Plunkett G. III"/>
+<person name="Bloch C.A."/>
+<person name="Perna N.T."/>
+<person name="Burland V."/>
+<person name="Riley M."/>
+<person name="Collado-Vides J."/>
+<person name="Glasner J.D."/>
+<person name="Rode C.K."/>
+<person name="Mayhew G.F."/>
+<person name="Gregor J."/>
+<person name="Davis N.W."/>
+<person name="Kirkpatrick H.A."/>
+<person name="Goeden M.A."/>
+<person name="Rose D.J."/>
+<person name="Mau B."/>
+<person name="Shao Y."/>
+</authorList>
+<dbReference type="PubMed" id="9278503"/>
+<dbReference type="DOI" id="10.1126/science.277.5331.1453"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / MG1655 / ATCC 47076</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2006" name="Mol. Syst. Biol." volume="2" first="E1" last="E5">
+<title>Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.</title>
+<authorList>
+<person name="Hayashi K."/>
+<person name="Morooka N."/>
+<person name="Yamamoto Y."/>
+<person name="Fujita K."/>
+<person name="Isono K."/>
+<person name="Choi S."/>
+<person name="Ohtsubo E."/>
+<person name="Baba T."/>
+<person name="Wanner B.L."/>
+<person name="Mori H."/>
+<person name="Horiuchi T."/>
+</authorList>
+<dbReference type="PubMed" id="16738553"/>
+<dbReference type="DOI" id="10.1038/msb4100049"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>K12 / W3110 / ATCC 27325 / DSM 5911</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2006" name="Res. Microbiol." volume="157" first="547" last="558">
+<title>Non-essential KDO biosynthesis and new essential cell envelope biogenesis genes in the Escherichia coli yrbG-yhbG locus.</title>
+<authorList>
+<person name="Sperandeo P."/>
+<person name="Pozzi C."/>
+<person name="Deho G."/>
+<person name="Polissi A."/>
+</authorList>
+<dbReference type="PubMed" id="16765569"/>
+<dbReference type="DOI" id="10.1016/j.resmic.2005.11.014"/>
+</citation>
+<scope>DISRUPTION PHENOTYPE</scope>
+</reference>
+<comment type="function">
+<text evidence="1">Catalyzes the hydrolysis of 3-deoxy-D-manno-octulosonate 8-phosphate (KDO 8-P) to 3-deoxy-D-manno-octulosonate (KDO) and inorganic phosphate.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="1">
+<text>3-deoxy-alpha-D-manno-2-octulosonate-8-phosphate + H2O = 3-deoxy-alpha-D-manno-oct-2-ulosonate + phosphate</text>
+<dbReference type="Rhea" id="RHEA:11500"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:43474"/>
+<dbReference type="ChEBI" id="CHEBI:85985"/>
+<dbReference type="ChEBI" id="CHEBI:85986"/>
+<dbReference type="EC" id="3.1.3.45"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="pathway" evidence="1">
+<text>Carbohydrate biosynthesis; 3-deoxy-D-manno-octulosonate biosynthesis; 3-deoxy-D-manno-octulosonate from D-ribulose 5-phosphate: step 3/3.</text>
+</comment>
+<comment type="pathway" evidence="1">
+<text>Bacterial outer membrane biogenesis; lipopolysaccharide biosynthesis.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1">Homotetramer.</text>
+</comment>
+<comment type="disruption phenotype">
+<text evidence="3">Not essential for growth.</text>
+</comment>
+<comment type="similarity">
+<text evidence="5">Belongs to the KdsC family.</text>
+</comment>
+<comment type="sequence caution" evidence="5">
+<conflict type="frameshift">
+<sequence resource="EMBL-CDS" id="AAA57999" version="1"/>
+</conflict>
+<location>
+<position position="116"/>
+</location>
+</comment>
+<comment type="sequence caution" evidence="5">
+<conflict type="erroneous initiation">
+<sequence resource="EMBL-CDS" id="AAA58000" version="1"/>
+</conflict>
+<text>Translation N-terminally extended.</text>
+</comment>
+<comment type="sequence caution" evidence="5">
+<conflict type="frameshift">
+<sequence resource="EMBL-CDS" id="AAA58000" version="1"/>
+</conflict>
+<location>
+<position position="116"/>
+</location>
+</comment>
+<dbReference type="EC" id="3.1.3.45" evidence="1"/>
+<dbReference type="EMBL" id="U18997">
+<property type="protein sequence ID" value="AAA57999.1"/>
+<property type="status" value="ALT_FRAME"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U18997">
+<property type="protein sequence ID" value="AAA58000.1"/>
+<property type="status" value="ALT_SEQ"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00096">
+<property type="protein sequence ID" value="AAC76230.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP009048">
+<property type="protein sequence ID" value="BAE77242.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="H65110">
+<property type="entry name" value="H65110"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_417665.1">
+<property type="nucleotide sequence ID" value="NC_000913.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000030005.1">
+<property type="nucleotide sequence ID" value="NZ_SSZK01000007.1"/>
+</dbReference>
+<dbReference type="SMR" id="P0ABZ4"/>
+<dbReference type="BioGrid" id="4261882">
+<property type="interactions" value="248"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-48034N"/>
+<dbReference type="IntAct" id="P0ABZ4">
+<property type="interactions" value="2"/>
+</dbReference>
+<dbReference type="STRING" id="511145.b3198"/>
+<dbReference type="jPOST" id="P0ABZ4"/>
+<dbReference type="PaxDb" id="P0ABZ4"/>
+<dbReference type="PRIDE" id="P0ABZ4"/>
+<dbReference type="EnsemblBacteria" id="AAC76230">
+<property type="protein sequence ID" value="AAC76230"/>
+<property type="gene ID" value="b3198"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAE77242">
+<property type="protein sequence ID" value="BAE77242"/>
+<property type="gene ID" value="BAE77242"/>
+</dbReference>
+<dbReference type="GeneID" id="947717"/>
+<dbReference type="KEGG" id="ecj:JW3165"/>
+<dbReference type="KEGG" id="eco:b3198"/>
+<dbReference type="PATRIC" id="fig|1411691.4.peg.3533"/>
+<dbReference type="EchoBASE" id="EB2656"/>
+<dbReference type="EcoGene" id="EG12804">
+<property type="gene designation" value="kdsC"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4108Z4R">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1778">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="HOGENOM" id="HOG000264740"/>
+<dbReference type="InParanoid" id="P0ABZ4"/>
+<dbReference type="KO" id="K03270"/>
+<dbReference type="PhylomeDB" id="P0ABZ4"/>
+<dbReference type="BioCyc" id="EcoCyc:G7663-MONOMER"/>
+<dbReference type="BioCyc" id="ECOL316407:JW3165-MONOMER"/>
+<dbReference type="UniPathway" id="UPA00030"/>
+<dbReference type="UniPathway" id="UPA00357">
+<property type="reaction ID" value="UER00475"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P0ABZ4"/>
+<dbReference type="Proteomes" id="UP000000318">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000000625">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="EcoCyc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019143">
+<property type="term" value="F:3-deoxy-manno-octulosonate-8-phosphatase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009103">
+<property type="term" value="P:lipopolysaccharide biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1000">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036412">
+<property type="entry name" value="HAD-like_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR023214">
+<property type="entry name" value="HAD_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR010023">
+<property type="entry name" value="KdsC_fam"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF006118">
+<property type="entry name" value="KDO8-P_Ptase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SFLD" id="SFLDG01138">
+<property type="entry name" value="C1.6.2:_Deoxy-d-mannose-octulo"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF56784">
+<property type="entry name" value="SSF56784"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01670">
+<property type="entry name" value="KdsC-phosphatas"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0448">Lipopolysaccharide biosynthesis</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="initiator methionine" description="Removed" evidence="1">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="chain" description="3-deoxy-D-manno-octulosonate 8-phosphate phosphatase KdsC" id="PRO_0000201696">
+<location>
+<begin position="2"/>
+<end position="188"/>
+</location>
+</feature>
+<feature type="region of interest" description="Substrate binding" evidence="2">
+<location>
+<begin position="55"/>
+<end position="59"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="2">
+<location>
+<position position="32"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium; via carbonyl oxygen" evidence="2">
+<location>
+<position position="34"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="2">
+<location>
+<position position="125"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="2">
+<location>
+<position position="34"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="2">
+<location>
+<position position="63"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="2">
+<location>
+<position position="78"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="2">
+<location>
+<position position="86"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="2">
+<location>
+<position position="102"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="A0A140N5J7"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P67653"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16765569"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="16765569"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000305"/>
+<sequence length="188" mass="19997" checksum="75AF512CF4E5E6E2" modified="2005-11-08" version="1">MSKAGASLATCYGPVSADVIAKAENIRLLILDVDGVLSDGLIYMGNNGEELKAFNVRDGYGIRCALTSDIEVAIITGRKAKLVEDRCATLGITHLYQGQSNKLIAFSDLLEKLAIAPENVAYVGDDLIDWPVMEKVGLSVAVADAHPLLIPRADYVTRIAGGRGAVREVCDLLLLAQGKLDEAKGQSI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

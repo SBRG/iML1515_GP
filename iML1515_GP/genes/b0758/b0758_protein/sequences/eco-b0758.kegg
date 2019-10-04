@@ -6,12 +6,11 @@ ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00052  Galactose metabolism
             eco00520  Amino sugar and nucleotide sugar metabolism
             eco01100  Metabolic pathways
-MODULE      eco_M00362  Nucleotide sugar biosynthesis, prokaryotes
-            eco_M00554  Nucleotide sugar biosynthesis, galactose => UDP-galactose
+MODULE      eco_M00554  Nucleotide sugar biosynthesis, galactose => UDP-galactose
             eco_M00632  Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00052 Galactose metabolism
                 b0758 (galT)
                00520 Amino sugar and nucleotide sugar metabolism
@@ -24,10 +23,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0758 (galT)
 POSITION    complement(789983..791029)
 MOTIF       Pfam: GalP_UDP_tr_C GalP_UDP_transf HIT DUF4921
-DBLINKS     NCBI-ProteinID: NP_415279
-            NCBI-GeneID: 945357
+DBLINKS     NCBI-GeneID: 945357
+            NCBI-ProteinID: NP_415279
             Pasteur: galT
-            EcoGene: EG10366
+            RegulonDB: ECK120000359
             ECOCYC: EG10366
             ASAP: ABE-0002573
             UniProt: P09148

@@ -1,20 +1,40 @@
 ENTRY       b2430             CDS       T00007
 NAME        yfeW
-DEFINITION  (RefSeq) penicillin binding protein PBP4B; weak DD-carboxypeptidase activity
+DEFINITION  (RefSeq) penicillin binding protein 4B
 ORTHOLOGY   K21469  serine-type D-Ala-D-Ala carboxypeptidase [EC:3.4.16.4]
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Enzymes [BR:eco01000]
+PATHWAY     eco00550  Peptidoglycan biosynthesis
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
+               00550 Peptidoglycan biosynthesis
+                b2430 (yfeW)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors [BR:eco01002]
+                b2430 (yfeW)
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+                b2430 (yfeW)
+            Enzymes [BR:eco01000]
              3. Hydrolases
               3.4  Acting on peptide bonds (peptidases)
                3.4.16  Serine-type carboxypeptidases
                 3.4.16.4  serine-type D-Ala-D-Ala carboxypeptidase
                  b2430 (yfeW)
+            Peptidases and inhibitors [BR:eco01002]
+             Serine peptidases
+              Family S12: D-Ala-D-Ala carboxypeptidase B family
+               b2430 (yfeW)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              DD-Carboxypeptidase/DD-Endopeptidase (Low molecular weight PBP)
+               b2430 (yfeW)
 POSITION    2548102..2549406
 MOTIF       Pfam: Beta-lactamase
-DBLINKS     NCBI-ProteinID: NP_416925
-            NCBI-GeneID: 946907
+DBLINKS     NCBI-GeneID: 946907
+            NCBI-ProteinID: NP_416925
             Pasteur: yfeW
-            EcoGene: EG14164
+            RegulonDB: ECK120003839
             ECOCYC: G7265
             ASAP: ABE-0008012
             UniProt: P77619

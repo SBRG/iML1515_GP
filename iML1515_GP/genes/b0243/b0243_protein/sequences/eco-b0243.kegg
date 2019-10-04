@@ -1,6 +1,6 @@
 ENTRY       b0243             CDS       T00007
 NAME        proA
-DEFINITION  (RefSeq) gamma-glutamylphosphate reductase
+DEFINITION  (RefSeq) glutamate-5-semialdehyde dehydrogenase
 ORTHOLOGY   K00147  glutamate-5-semialdehyde dehydrogenase [EC:1.2.1.41]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00330  Arginine and proline metabolism
@@ -11,14 +11,11 @@ PATHWAY     eco00330  Arginine and proline metabolism
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00015  Proline biosynthesis, glutamate => proline
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b0243 (proA)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00330 Arginine and proline metabolism
                 b0243 (proA)
-              Biosynthesis of other secondary metabolites
+              09110 Biosynthesis of other secondary metabolites
                00332 Carbapenem biosynthesis
                 b0243 (proA)
             Enzymes [BR:eco01000]
@@ -29,10 +26,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0243 (proA)
 POSITION    261503..262756
 MOTIF       Pfam: Aldedh DUF1487
-DBLINKS     NCBI-ProteinID: NP_414778
-            NCBI-GeneID: 946680
+DBLINKS     NCBI-GeneID: 946680
+            NCBI-ProteinID: NP_414778
             Pasteur: proA
-            EcoGene: EG10767
+            RegulonDB: ECK120000758
             ECOCYC: EG10767
             ASAP: ABE-0000832
             UniProt: P07004

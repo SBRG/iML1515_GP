@@ -1,6 +1,6 @@
 ENTRY       b0124             CDS       T00007
 NAME        gcd
-DEFINITION  (RefSeq) glucose dehydrogenase
+DEFINITION  (RefSeq) quinoprotein glucose dehydrogenase
 ORTHOLOGY   K00117  quinoprotein glucose dehydrogenase [EC:1.1.5.2]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00030  Pentose phosphate pathway
@@ -8,8 +8,8 @@ PATHWAY     eco00030  Pentose phosphate pathway
             eco01110  Biosynthesis of secondary metabolites
             eco01130  Biosynthesis of antibiotics
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00030 Pentose phosphate pathway
                 b0124 (gcd)
             Enzymes [BR:eco01000]
@@ -20,11 +20,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0124 (gcd)
 POSITION    complement(138835..141225)
 MOTIF       Pfam: PQQ PQQ_2
-DBLINKS     NCBI-ProteinID: NP_414666
-            NCBI-GeneID: 944830
+DBLINKS     NCBI-GeneID: 944830
+            NCBI-ProteinID: NP_414666
             Pasteur: gcd
             RegulonDB: ECK120000362
-            EcoGene: EG10369
             ECOCYC: EG10369
             ASAP: ABE-0000433
             UniProt: P15877

@@ -1,15 +1,29 @@
 ENTRY       b0211             CDS       T00007
 NAME        mltD
-DEFINITION  (RefSeq) putative membrane-bound lytic murein transglycosylase D
+DEFINITION  (RefSeq) membrane-bound lytic murein transglycosylase D
 ORTHOLOGY   K08307  membrane-bound lytic murein transglycosylase D [EC:4.2.2.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+                b0211 (mltD)
+            Enzymes [BR:eco01000]
+             4. Lyases
+              4.2  Carbon-oxygen lyases
+               4.2.2  Acting on polysaccharides
+                4.2.2.-  
+                 b0211 (mltD)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              Lytic transglycosylase
+               b0211 (mltD)
 POSITION    complement(232597..233955)
 MOTIF       Pfam: SLT LysM HTH_Tnp_1 OapA DUF3071 MLTD_N
-DBLINKS     NCBI-ProteinID: NP_414747
-            NCBI-GeneID: 945694
+DBLINKS     NCBI-GeneID: 945694
+            NCBI-ProteinID: NP_414747
             Pasteur: mltD
             RegulonDB: ECK120000240
-            EcoGene: EG10246
             ECOCYC: EG10246
             ASAP: ABE-0000704
             UniProt: P0AEZ7

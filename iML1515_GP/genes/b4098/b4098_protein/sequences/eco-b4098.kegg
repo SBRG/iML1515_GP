@@ -1,12 +1,13 @@
 ENTRY       b4098             CDS       T00007
 NAME        phnJ
-DEFINITION  (RefSeq) carbon-phosphorus lyase, SAM-dependent
+DEFINITION  (RefSeq) carbon-phosphorus lyase core complex subunit PhnJ
 ORTHOLOGY   K06163  alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase [EC:4.7.1.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00440  Phosphonate and phosphinate metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Metabolism of other amino acids
+             09100 Metabolism
+              09106 Metabolism of other amino acids
                00440 Phosphonate and phosphinate metabolism
                 b4098 (phnJ)
             Enzymes [BR:eco01000]
@@ -17,11 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b4098 (phnJ)
 POSITION    complement(4318761..4319606)
 MOTIF       Pfam: PhnJ
-DBLINKS     NCBI-ProteinID: NP_418522
-            NCBI-GeneID: 948606
+DBLINKS     NCBI-GeneID: 948606
+            NCBI-ProteinID: NP_418522
             Pasteur: phnJ
             RegulonDB: ECK120000711
-            EcoGene: EG10719
             ECOCYC: EG10719
             ASAP: ABE-0013426
             UniProt: P16688

@@ -16,20 +16,15 @@ PATHWAY     eco00010  Glycolysis / Gluconeogenesis
 MODULE      eco_M00001  Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate
             eco_M00003  Gluconeogenesis, oxaloacetate => fructose-6P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b2097 (fbaB)
-               01230 Biosynthesis of amino acids
-                b2097 (fbaB)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
                 b2097 (fbaB)
                00030 Pentose phosphate pathway
                 b2097 (fbaB)
                00051 Fructose and mannose metabolism
                 b2097 (fbaB)
-              Energy metabolism
+              09102 Energy metabolism
                00680 Methane metabolism
                 b2097 (fbaB)
             Enzymes [BR:eco01000]
@@ -40,11 +35,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2097 (fbaB)
 POSITION    complement(2177512..2178564)
 MOTIF       Pfam: DeoC
-DBLINKS     NCBI-ProteinID: NP_416600
-            NCBI-GeneID: 946632
+DBLINKS     NCBI-GeneID: 946632
+            NCBI-ProteinID: NP_416600
             Pasteur: fbaB
             RegulonDB: ECK120003712
-            EcoGene: EG14062
             ECOCYC: G7129
             ASAP: ABE-0006941
             UniProt: P0A991

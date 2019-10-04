@@ -1,18 +1,23 @@
 ENTRY       b3653             CDS       T00007
 NAME        gltS
-DEFINITION  (RefSeq) glutamate transporter
+DEFINITION  (RefSeq) glutamate:sodium symporter
 ORTHOLOGY   K03312  glutamate:Na+ symporter, ESS family
 ORGANISM    eco  Escherichia coli K-12 MG1655
-BRITE       Transporters [BR:eco02000]
-             Other Transporters
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3653 (gltS)
+            Transporters [BR:eco02000]
+             Other transporters
               Electrochemical potential-driven transporters [TC:2]
                b3653 (gltS)
 POSITION    complement(3827460..3828665)
 MOTIF       Pfam: Glt_symporter
-DBLINKS     NCBI-ProteinID: NP_418110
-            NCBI-GeneID: 948166
+DBLINKS     NCBI-GeneID: 948166
+            NCBI-ProteinID: NP_418110
             Pasteur: gltS
-            EcoGene: EG10406
+            RegulonDB: ECK120000399
             ECOCYC: EG10406
             ASAP: ABE-0011941
             UniProt: P0AER8

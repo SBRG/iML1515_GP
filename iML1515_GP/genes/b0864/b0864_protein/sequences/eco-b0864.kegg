@@ -1,32 +1,35 @@
 ENTRY       b0864             CDS       T00007
 NAME        artP
-DEFINITION  (RefSeq) arginine transporter subunit
-ORTHOLOGY   K10000  arginine transport system ATP-binding protein [EC:3.6.3.-]
+DEFINITION  (RefSeq) L-arginine ABC transporter ATP binding subunit
+ORTHOLOGY   K10000  arginine transport system ATP-binding protein [EC:7.4.2.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00229  Arginine transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b0864 (artP)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b0864 (artP)
             Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.-  
+             7. Translocases
+              7.4  Catalysing the translocation of amino acids and peptides
+               7.4.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.4.2.1  ABC-type polar-amino-acid transporter
                  b0864 (artP)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Phosphate and amino acid transporters
-               Arginine transporter [MD:M00229] [OT]
+               Arginine transporter
                 b0864 (artP)
 POSITION    complement(903006..903734)
-MOTIF       Pfam: ABC_tran AAA_21 SMC_N AAA_15 RsgA_GTPase AAA_16 AAA_13 AAA_29 AAA_22 AAA_23 AAA_18 IstB_IS21 MMR_HSR1
-DBLINKS     NCBI-ProteinID: NP_415385
-            NCBI-GeneID: 945489
+MOTIF       Pfam: ABC_tran AAA_21 SMC_N AAA_15 RsgA_GTPase AAA_16 AAA_13 AAA_29 AAA_23 AAA_22 AAA_18 MMR_HSR1
+DBLINKS     NCBI-GeneID: 945489
+            NCBI-ProteinID: NP_415385
             Pasteur: artP
-            EcoGene: EG11624
+            RegulonDB: ECK120001572
             ECOCYC: EG11624
             ASAP: ABE-0002939
             UniProt: P0AAF6

@@ -1,32 +1,34 @@
 ENTRY       b3454             CDS       T00007
 NAME        livF
-DEFINITION  (RefSeq) leucine/isoleucine/valine transporter subunit
+DEFINITION  (RefSeq) branched chain amino acid/phenylalanine ABC transporter ATP binding subunit LivF
 ORTHOLOGY   K01996  branched-chain amino acid transport system ATP-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
             eco02024  Quorum sensing
-MODULE      eco_M00237  Branched-chain amino acid transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b3454 (livF)
-             Cellular Processes
-              Cellular community - prokaryotes
+             09140 Cellular Processes
+              09145 Cellular community - prokaryotes
                02024 Quorum sensing
                 b3454 (livF)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3454 (livF)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Phosphate and amino acid transporters
-               Branched-chain amino acid transporter [MD:M00237] [OT]
+               Branched-chain amino acid transporter
                 b3454 (livF)
 POSITION    complement(3592724..3593437)
-MOTIF       Pfam: ABC_tran AAA_21 AAA_29 RsgA_GTPase AAA_16 Septin BCA_ABC_TP_C AAA_23 MMR_HSR1 AAA_15 AAA_25 AAA_33 SbcCD_C cobW AAA_13 AAA_14 NACHT KilA-N AAA_22 TsaE AAA_28
-DBLINKS     NCBI-ProteinID: NP_417911
-            NCBI-GeneID: 947961
+MOTIF       Pfam: ABC_tran AAA_21 AAA_29 RsgA_GTPase AAA_16 BCA_ABC_TP_C AAA_23 MMR_HSR1 AAA_15 Septin AAA_25 AAA_33 SbcCD_C cobW AAA_13 AAA_14 NACHT TsaE AAA_28
+DBLINKS     NCBI-GeneID: 947961
+            NCBI-ProteinID: NP_417911
             Pasteur: livF
             RegulonDB: ECK120000529
-            EcoGene: EG10536
             ECOCYC: EG10536
             ASAP: ABE-0011282
             UniProt: P22731

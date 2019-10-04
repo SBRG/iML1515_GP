@@ -1,27 +1,29 @@
 ENTRY       b3727             CDS       T00007
 NAME        pstC
-DEFINITION  (RefSeq) phosphate transporter subunit
+DEFINITION  (RefSeq) phosphate ABC transporter membrane subunit PstC
 ORTHOLOGY   K02037  phosphate transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00222  Phosphate transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b3727 (pstC)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3727 (pstC)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Phosphate and amino acid transporters
-               Phosphate transporter [MD:M00222] [OT]
+               Phosphate transporter
                 b3727 (pstC)
 POSITION    complement(3909439..3910398)
 MOTIF       Pfam: BPD_transp_1 DUF1158
-DBLINKS     NCBI-ProteinID: NP_418183
-            NCBI-GeneID: 948238
+DBLINKS     NCBI-GeneID: 948238
+            NCBI-ProteinID: NP_418183
             Pasteur: pstC
             RegulonDB: ECK120000775
-            EcoGene: EG10784
             ECOCYC: EG10784
             ASAP: ABE-0012186
             UniProt: P0AGH8

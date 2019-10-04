@@ -1,6 +1,6 @@
 ENTRY       b1525             CDS       T00007
 NAME        sad
-DEFINITION  (RefSeq) succinate semialdehyde dehydrogenase, NAD(P)+-dependent
+DEFINITION  (RefSeq) NAD(+)-dependent succinate semialdehyde dehydrogenase
 ORTHOLOGY   K08324  succinate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.24]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00250  Alanine, aspartate and glutamate metabolism
@@ -9,14 +9,14 @@ PATHWAY     eco00250  Alanine, aspartate and glutamate metabolism
             eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00650 Butanoate metabolism
                 b1525 (sad)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00250 Alanine, aspartate and glutamate metabolism
                 b1525 (sad)
-              Metabolism of cofactors and vitamins
+              09108 Metabolism of cofactors and vitamins
                00760 Nicotinate and nicotinamide metabolism
                 b1525 (sad)
             Enzymes [BR:eco01000]
@@ -28,10 +28,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 1.2.1.24  succinate-semialdehyde dehydrogenase (NAD+)
                  b1525 (sad)
 POSITION    complement(1613315..1614703)
-MOTIF       Pfam: Aldedh
-DBLINKS     NCBI-ProteinID: NP_416042
-            NCBI-GeneID: 947440
-            EcoGene: EG13817
+MOTIF       Pfam: Aldedh baeRF_family2
+DBLINKS     NCBI-GeneID: 947440
+            NCBI-ProteinID: NP_416042
+            Pasteur: yneI
+            RegulonDB: ECK120003400
             ECOCYC: G6811
             ASAP: ABE-0005092
             UniProt: P76149

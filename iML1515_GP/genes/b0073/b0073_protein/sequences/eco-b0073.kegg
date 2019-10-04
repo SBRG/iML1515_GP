@@ -1,6 +1,6 @@
 ENTRY       b0073             CDS       T00007
 NAME        leuB
-DEFINITION  (RefSeq) 3-isopropylmalate dehydrogenase, NAD(+)-dependent
+DEFINITION  (RefSeq) 3-isopropylmalate dehydrogenase
 ORTHOLOGY   K00052  3-isopropylmalate dehydrogenase [EC:1.1.1.85]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00290  Valine, leucine and isoleucine biosynthesis
@@ -11,16 +11,11 @@ PATHWAY     eco00290  Valine, leucine and isoleucine biosynthesis
             eco01230  Biosynthesis of amino acids
 MODULE      eco_M00432  Leucine biosynthesis, 2-oxoisovalerate => 2-oxoisocaproate
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01210 2-Oxocarboxylic acid metabolism
-                b0073 (leuB)
-               01230 Biosynthesis of amino acids
-                b0073 (leuB)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00660 C5-Branched dibasic acid metabolism
                 b0073 (leuB)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00290 Valine, leucine and isoleucine biosynthesis
                 b0073 (leuB)
             Enzymes [BR:eco01000]
@@ -31,9 +26,9 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0073 (leuB)
 POSITION    complement(80867..81958)
 MOTIF       Pfam: Iso_dh
-DBLINKS     NCBI-ProteinID: NP_414615
-            NCBI-GeneID: 944798
-            EcoGene: EG11577
+DBLINKS     NCBI-GeneID: 944798
+            NCBI-ProteinID: NP_414615
+            RegulonDB: ECK120001529
             ECOCYC: EG11577
             ASAP: ABE-0000265
             UniProt: P30125

@@ -1,21 +1,29 @@
 ENTRY       b3734             CDS       T00007
 NAME        atpA
-DEFINITION  (RefSeq) F1 sector of membrane-bound ATP synthase, alpha subunit
-ORTHOLOGY   K02111  F-type H+-transporting ATPase subunit alpha [EC:3.6.3.14]
+DEFINITION  (RefSeq) ATP synthase F1 complex subunit alpha
+ORTHOLOGY   K02111  F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00190  Oxidative phosphorylation
             eco01100  Metabolic pathways
 MODULE      eco_M00157  F-type ATPase, prokaryotes and chloroplasts
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00190 Oxidative phosphorylation
                 b3734 (atpA)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               00194 Photosynthesis proteins [BR:eco00194]
+                b3734 (atpA)
             Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.14  H+-transporting two-sector ATPase
+             7. Translocases
+              7.1  Catalysing the translocation of hydrons
+               7.1.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.1.2.2  H+-transporting two-sector ATPase
+                 b3734 (atpA)
+              7.2  Catalysing the translocation of inorganic cations
+               7.2.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.2.2.1  Na+-transporting two-sector ATPase
                  b3734 (atpA)
             Photosynthesis proteins [BR:eco00194]
              Photosystem and electron transport system
@@ -23,11 +31,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b3734 (atpA)
 POSITION    complement(3918316..3919857)
 MOTIF       Pfam: ATP-synt_ab ATP-synt_ab_C ATP-synt_ab_N ATPase ATPase_2 HAS-barrel
-DBLINKS     NCBI-ProteinID: NP_418190
-            NCBI-GeneID: 948242
+DBLINKS     NCBI-GeneID: 948242
+            NCBI-ProteinID: NP_418190
             Pasteur: atpA
             RegulonDB: ECK120000094
-            EcoGene: EG10098
             ECOCYC: EG10098
             ASAP: ABE-0012213
             UniProt: P0ABB0

@@ -1,7 +1,7 @@
 ENTRY       b3821             CDS       T00007
 NAME        pldA
 DEFINITION  (RefSeq) outer membrane phospholipase A
-ORTHOLOGY   K01058  phospholipase A1 [EC:3.1.1.32 3.1.1.4]
+ORTHOLOGY   K01058  phospholipase A1/A2 [EC:3.1.1.32 3.1.1.4]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00564  Glycerophospholipid metabolism
             eco00565  Ether lipid metabolism
@@ -10,8 +10,8 @@ PATHWAY     eco00564  Glycerophospholipid metabolism
             eco01100  Metabolic pathways
             eco01110  Biosynthesis of secondary metabolites
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Lipid metabolism
+             09100 Metabolism
+              09103 Lipid metabolism
                00564 Glycerophospholipid metabolism
                 b3821 (pldA)
                00565 Ether lipid metabolism
@@ -32,11 +32,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3821 (pldA)
 POSITION    4004862..4005731
 MOTIF       Pfam: PLA1
-DBLINKS     NCBI-ProteinID: NP_418265
-            NCBI-GeneID: 948307
+DBLINKS     NCBI-GeneID: 948307
+            NCBI-ProteinID: NP_418265
             Pasteur: pldA
             RegulonDB: ECK120000729
-            EcoGene: EG10738
             ECOCYC: EG10738
             ASAP: ABE-0012479
             UniProt: P0A921

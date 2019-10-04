@@ -1,15 +1,19 @@
 ENTRY       b3197             CDS       T00007
 NAME        kdsD
-DEFINITION  (RefSeq) D-arabinose 5-phosphate isomerase
+DEFINITION  (RefSeq) D-arabinose 5-phosphate isomerase KdsD
 ORTHOLOGY   K06041  arabinose-5-phosphate isomerase [EC:5.3.1.13]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00540  Lipopolysaccharide biosynthesis
             eco01100  Metabolic pathways
 MODULE      eco_M00063  CMP-KDO biosynthesis
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00540 Lipopolysaccharide biosynthesis
+                b3197 (kdsD)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
                 b3197 (kdsD)
             Enzymes [BR:eco01000]
              5. Isomerases
@@ -22,9 +26,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
               b3197 (kdsD)
 POSITION    3341266..3342252
 MOTIF       Pfam: SIS CBS SIS_2 DUF2529
-DBLINKS     NCBI-ProteinID: NP_417664
-            NCBI-GeneID: 947734
-            EcoGene: EG12803
+DBLINKS     NCBI-GeneID: 947734
+            NCBI-ProteinID: NP_417664
+            Pasteur: yrbH
+            RegulonDB: ECK120004210
             ECOCYC: G7662
             ASAP: ABE-0010504
             UniProt: P45395

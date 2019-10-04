@@ -1,26 +1,29 @@
 ENTRY       b3542             CDS       T00007
 NAME        dppC
-DEFINITION  (RefSeq) dipeptide/heme transporter
+DEFINITION  (RefSeq) dipeptide ABC transporter membrane subunit DppC
 ORTHOLOGY   K12370  dipeptide transport system permease protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00324  Dipeptide transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b3542 (dppC)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b3542 (dppC)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Peptide and nickel transporters
-               Dipeptide transporter [MD:M00324] [OT]
+               Dipeptide transporter
                 b3542 (dppC)
 POSITION    complement(3703859..3704761)
 MOTIF       Pfam: BPD_transp_1 OppC_N DUF624
-DBLINKS     NCBI-ProteinID: NP_417999
-            NCBI-GeneID: 948064
+DBLINKS     NCBI-GeneID: 948064
+            NCBI-ProteinID: NP_417999
             Pasteur: dppC
-            EcoGene: EG12626
+            RegulonDB: ECK120002338
             ECOCYC: EG12626
             ASAP: ABE-0011570
             UniProt: P0AEG1

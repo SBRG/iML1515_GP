@@ -1,20 +1,24 @@
 ENTRY       b2254             CDS       T00007
 NAME        arnC
-DEFINITION  (RefSeq) undecaprenyl phosphate-L-Ara4FN transferase
+DEFINITION  (RefSeq) undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase
 ORTHOLOGY   K10012  undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase [EC:2.4.2.53]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00520  Amino sugar and nucleotide sugar metabolism
+            eco01100  Metabolic pathways
             eco01503  Cationic antimicrobial peptide (CAMP) resistance
-MODULE      eco_M00721  Cationic antimicrobial peptide (CAMP) resistance, arnBCADTEF operon
-            eco_M00761  Undecaprenylphosphate alpha-L-Ara4N biosynthesis, UDP-GlcA => undecaprenyl phosphate alpha-L-Ara4N
+MODULE      eco_M00761  Undecaprenylphosphate alpha-L-Ara4N biosynthesis, UDP-GlcA => undecaprenyl phosphate alpha-L-Ara4N
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00520 Amino sugar and nucleotide sugar metabolism
                 b2254 (arnC)
-             Human Diseases
-              Drug resistance
+             09160 Human Diseases
+              09175 Drug resistance: antimicrobial
                01503 Cationic antimicrobial peptide (CAMP) resistance
+                b2254 (arnC)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
                 b2254 (arnC)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -25,16 +29,12 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
             Lipopolysaccharide biosynthesis proteins [BR:eco01005]
              Unusual sugar
               b2254 (arnC)
-            Transporters [BR:eco02000]
-             Other Transporters
-              Others
-               b2254 (arnC)
 POSITION    2367071..2368039
 MOTIF       Pfam: Glycos_transf_2 Glyco_tranf_2_3 Glyco_tranf_2_2 Glyco_tranf_2_4 RcsD_ABL DUF3325
-DBLINKS     NCBI-ProteinID: NP_416757
-            NCBI-GeneID: 945275
+DBLINKS     NCBI-GeneID: 945275
+            NCBI-ProteinID: NP_416757
+            Pasteur: yfbF
             RegulonDB: ECK120003743
-            EcoGene: EG14090
             ECOCYC: G7167
             ASAP: ABE-0007458
             UniProt: P77757

@@ -1,12 +1,13 @@
 ENTRY       b2705             CDS       T00007
 NAME        srlD
-DEFINITION  (RefSeq) sorbitol-6-phosphate dehydrogenase
+DEFINITION  (RefSeq) sorbitol-6-phosphate 2-dehydrogenase
 ORTHOLOGY   K00068  sorbitol-6-phosphate 2-dehydrogenase [EC:1.1.1.140]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00051  Fructose and mannose metabolism
+            eco01100  Metabolic pathways
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00051 Fructose and mannose metabolism
                 b2705 (srlD)
             Enzymes [BR:eco01000]
@@ -17,10 +18,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2705 (srlD)
 POSITION    2827737..2828516
 MOTIF       Pfam: adh_short adh_short_C2 KR 3HCDH_N Epimerase
-DBLINKS     NCBI-ProteinID: NP_417185
-            NCBI-GeneID: 948937
+DBLINKS     NCBI-GeneID: 948937
+            NCBI-ProteinID: NP_417185
             Pasteur: srlD
-            EcoGene: EG10971
+            RegulonDB: ECK120000960
             ECOCYC: EG10971
             ASAP: ABE-0008896
             UniProt: P05707

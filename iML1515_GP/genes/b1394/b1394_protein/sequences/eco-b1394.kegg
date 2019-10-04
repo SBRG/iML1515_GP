@@ -1,13 +1,15 @@
 ENTRY       b1394             CDS       T00007
 NAME        paaG
-DEFINITION  (RefSeq) 1,2-epoxyphenylacetyl-CoA isomerase, oxepin-CoA-forming
+DEFINITION  (RefSeq) putative ring 1,2-epoxyphenylacetyl-CoA isomerase (oxepin-CoA forming)
 ORTHOLOGY   K15866  2-(1,2-epoxy-1,2-dihydrophenyl)acetyl-CoA isomerase [EC:5.3.3.18]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00360  Phenylalanine metabolism
+            eco01100  Metabolic pathways
             eco01120  Microbial metabolism in diverse environments
+MODULE      eco_M00878  Phenylacetate degradation, phenylaxetate => acetyl-CoA/succinyl-CoA
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00360 Phenylalanine metabolism
                 b1394 (paaG)
             Enzymes [BR:eco01000]
@@ -17,11 +19,11 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 5.3.3.18  2-(1,2-epoxy-1,2-dihydrophenyl)acetyl-CoA isomerase
                  b1394 (paaG)
 POSITION    1458264..1459052
-MOTIF       Pfam: ECH_1 ECH_2 Phage_TTP_13
-DBLINKS     NCBI-ProteinID: NP_415912
-            NCBI-GeneID: 946263
+MOTIF       Pfam: ECH_1 ECH_2 GGDEF_2 Phage_TTP_13
+DBLINKS     NCBI-GeneID: 946263
+            NCBI-ProteinID: NP_415912
             Pasteur: paaG
-            EcoGene: EG13741
+            RegulonDB: ECK120003309
             ECOCYC: G6715
             ASAP: ABE-0004661
             UniProt: P77467

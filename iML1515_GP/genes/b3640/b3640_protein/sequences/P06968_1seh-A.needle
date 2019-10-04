@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Thu  3 Oct 2019 22:55:17
+# Commandline: needle
+#    -outfile ./iML1515_GP/genes/b3640/b3640_protein/sequences/P06968_1seh-A.needle
+#    -asequence asis::MMKKIDVKILDPRVGKEFPLPTYATSGSAGLDLRACLNDAVELAPGDTTLVPTGLAIHIADPSLAAMMLPRSGLGHKHGIVLGNLVGLIDSDYQGQLMISVWNRGQDSFTIQPGERIAQMIFVPVVQAEFNLVEDFDATDRGEGGFGHSGRQ
+#    -bsequence asis::MMKKIDVKILDPRVGKEFPLPTYATSGSAGLDLRACLNDAVELAPGDTTLVPTGLAIHIADPSLAAMMLPRSGLGHKHGIVLGNLVGLIDSDYQGQLMISVWNRGQDSFTIQPGERIAQMIFVPVVQAEFNLVEDFDATXR
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./iML1515_GP/genes/b3640/b3640_protein/sequences/P06968_1seh-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 152
+# Identity:     140/152 (92.1%)
+# Similarity:   140/152 (92.1%)
+# Gaps:          11/152 ( 7.2%)
+# Score: 717.0
+# 
+#
+#=======================================
+
+asis               1 MMKKIDVKILDPRVGKEFPLPTYATSGSAGLDLRACLNDAVELAPGDTTL     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 MMKKIDVKILDPRVGKEFPLPTYATSGSAGLDLRACLNDAVELAPGDTTL     50
+
+asis              51 VPTGLAIHIADPSLAAMMLPRSGLGHKHGIVLGNLVGLIDSDYQGQLMIS    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 VPTGLAIHIADPSLAAMMLPRSGLGHKHGIVLGNLVGLIDSDYQGQLMIS    100
+
+asis             101 VWNRGQDSFTIQPGERIAQMIFVPVVQAEFNLVEDFDATDRGEGGFGHSG    150
+                     |||||||||||||||||||||||||||||||||||||||.|         
+asis             101 VWNRGQDSFTIQPGERIAQMIFVPVVQAEFNLVEDFDATXR---------    141
+
+asis             151 RQ    152
+                       
+asis             141 --    141
+
+
+#---------------------------------------
+#---------------------------------------

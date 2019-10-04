@@ -1,15 +1,21 @@
 ENTRY       b0182             CDS       T00007
 NAME        lpxB
-DEFINITION  (RefSeq) tetraacyldisaccharide-1-P synthase
+DEFINITION  (RefSeq) lipid A disaccharide synthase
 ORTHOLOGY   K00748  lipid-A-disaccharide synthase [EC:2.4.1.182]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00540  Lipopolysaccharide biosynthesis
             eco01100  Metabolic pathways
-MODULE      eco_M00060  Lipopolysaccharide biosynthesis, KDO2-lipid A
+MODULE      eco_M00060  KDO2-lipid A biosynthesis, Raetz pathway, LpxL-LpxM type
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Glycan biosynthesis and metabolism
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
                00540 Lipopolysaccharide biosynthesis
+                b0182 (lpxB)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01003 Glycosyltransferases [BR:eco01003]
+                b0182 (lpxB)
+               01005 Lipopolysaccharide biosynthesis proteins [BR:eco01005]
                 b0182 (lpxB)
             Enzymes [BR:eco01000]
              2. Transferases
@@ -26,14 +32,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
               b0182 (lpxB)
 POSITION    203348..204496
 MOTIF       Pfam: LpxB
-DBLINKS     NCBI-ProteinID: NP_414724
-            NCBI-GeneID: 944838
+DBLINKS     NCBI-GeneID: 944838
+            NCBI-ProteinID: NP_414724
             Pasteur: lpxB
             RegulonDB: ECK120000539
-            EcoGene: EG10546
             ECOCYC: EG10546
             ASAP: ABE-0000620
             UniProt: P10441
+STRUCTURE   PDB: 5W8X 5W8N 5W8S
 AASEQ       382
             MTEQRPLTIALVAGETSGDILGAGLIRALKEHVPNARFVGVAGPRMQAEGCEAWYEMEEL
             AVMGIVEVLGRLRRLLHIRADLTKRFGELKPDVFVGIDAPDFNITLEGNLKKQGIKTIHY

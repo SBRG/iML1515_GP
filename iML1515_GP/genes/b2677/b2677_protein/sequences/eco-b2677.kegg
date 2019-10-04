@@ -1,32 +1,35 @@
 ENTRY       b2677             CDS       T00007
 NAME        proV
-DEFINITION  (RefSeq) glycine betaine transporter subunit
-ORTHOLOGY   K02000  glycine betaine/proline transport system ATP-binding protein [EC:3.6.3.32]
+DEFINITION  (RefSeq) glycine betaine ABC transporter ATP binding subunit ProV
+ORTHOLOGY   K02000  glycine betaine/proline transport system ATP-binding protein [EC:7.6.2.9]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02010  ABC transporters
-MODULE      eco_M00208  Glycine betaine/proline transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Environmental Information Processing
-              Membrane transport
+             09130 Environmental Information Processing
+              09131 Membrane transport
                02010 ABC transporters
                 b2677 (proV)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b2677 (proV)
             Enzymes [BR:eco01000]
-             3. Hydrolases
-              3.6  Acting on acid anhydrides
-               3.6.3  Acting on acid anhydrides to catalyse transmembrane movement of substances
-                3.6.3.32  quaternary-amine-transporting ATPase
+             7. Translocases
+              7.6  Catalysing the translocation of other compounds
+               7.6.2  Linked to the hydrolysis of a nucleoside triphosphate
+                7.6.2.9  ABC-type quaternary amine transporter
                  b2677 (proV)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Mineral and organic ion transporters
-               Glycine betaine/proline transporter [MD:M00208] [OT]
+               Glycine betaine/proline transporter
                 b2677 (proV)
 POSITION    2804815..2806017
 MOTIF       Pfam: ABC_tran CBS AAA_16 AAA_21 ABC_ATPase AAA_29 AAA_30 AAA_22 SMC_N AAA RsgA_GTPase AAA_18 DUF2802 BCA_ABC_TP_C AAA_33 APS_kinase DUF87 SbcCD_C
-DBLINKS     NCBI-ProteinID: NP_417163
-            NCBI-GeneID: 947148
+DBLINKS     NCBI-GeneID: 947148
+            NCBI-ProteinID: NP_417163
             Pasteur: proV
-            EcoGene: EG10771
+            RegulonDB: ECK120000762
             ECOCYC: EG10771
             ASAP: ABE-0008814
             UniProt: P14175

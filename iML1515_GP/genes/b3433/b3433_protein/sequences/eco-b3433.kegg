@@ -1,6 +1,6 @@
 ENTRY       b3433             CDS       T00007
 NAME        asd
-DEFINITION  (RefSeq) aspartate-semialdehyde dehydrogenase, NAD(P)-binding
+DEFINITION  (RefSeq) aspartate-semialdehyde dehydrogenase
 ORTHOLOGY   K00133  aspartate-semialdehyde dehydrogenase [EC:1.2.1.11]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00260  Glycine, serine and threonine metabolism
@@ -17,20 +17,15 @@ MODULE      eco_M00016  Lysine biosynthesis, succinyl-DAP pathway, aspartate => 
             eco_M00017  Methionine biosynthesis, apartate => homoserine => methionine
             eco_M00018  Threonine biosynthesis, aspartate => homoserine => threonine
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01210 2-Oxocarboxylic acid metabolism
-                b3433 (asd)
-               01230 Biosynthesis of amino acids
-                b3433 (asd)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00260 Glycine, serine and threonine metabolism
                 b3433 (asd)
                00270 Cysteine and methionine metabolism
                 b3433 (asd)
                00300 Lysine biosynthesis
                 b3433 (asd)
-              Biosynthesis of other secondary metabolites
+              09110 Biosynthesis of other secondary metabolites
                00261 Monobactam biosynthesis
                 b3433 (asd)
             Enzymes [BR:eco01000]
@@ -41,11 +36,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3433 (asd)
 POSITION    complement(3573775..3574878)
 MOTIF       Pfam: Semialdhyde_dhC Semialdhyde_dh
-DBLINKS     NCBI-ProteinID: NP_417891
-            NCBI-GeneID: 947939
+DBLINKS     NCBI-GeneID: 947939
+            NCBI-ProteinID: NP_417891
             Pasteur: asd
             RegulonDB: ECK120000084
-            EcoGene: EG10088
             ECOCYC: EG10088
             ASAP: ABE-0011211
             UniProt: P0A9Q9

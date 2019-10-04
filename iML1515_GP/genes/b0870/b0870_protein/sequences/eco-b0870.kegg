@@ -1,6 +1,6 @@
 ENTRY       b0870             CDS       T00007
 NAME        ltaE
-DEFINITION  (RefSeq) L-allo-threonine aldolase, PLP-dependent
+DEFINITION  (RefSeq) low-specificity L-threonine aldolase
 ORTHOLOGY   K01620  threonine aldolase [EC:4.1.2.48]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00260  Glycine, serine and threonine metabolism
@@ -10,11 +10,8 @@ PATHWAY     eco00260  Glycine, serine and threonine metabolism
             eco01130  Biosynthesis of antibiotics
             eco01230  Biosynthesis of amino acids
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01230 Biosynthesis of amino acids
-                b0870 (ltaE)
-              Amino acid metabolism
+             09100 Metabolism
+              09105 Amino acid metabolism
                00260 Glycine, serine and threonine metabolism
                 b0870 (ltaE)
             Enzymes [BR:eco01000]
@@ -25,11 +22,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b0870 (ltaE)
 POSITION    complement(908293..909294)
 MOTIF       Pfam: Beta_elim_lyase Aminotran_1_2 Cys_Met_Meta_PP DegT_DnrJ_EryC1 CheD
-DBLINKS     NCBI-ProteinID: NP_415391
-            NCBI-GeneID: 944955
+DBLINKS     NCBI-GeneID: 944955
+            NCBI-ProteinID: NP_415391
             Pasteur: ltaE
             RegulonDB: ECK120003055
-            EcoGene: EG13690
             ECOCYC: G6455
             ASAP: ABE-0002954
             UniProt: P75823

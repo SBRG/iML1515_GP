@@ -1,6 +1,6 @@
 ENTRY       b3236             CDS       T00007
 NAME        mdh
-DEFINITION  (RefSeq) malate dehydrogenase, NAD(P)-binding
+DEFINITION  (RefSeq) malate dehydrogenase
 ORTHOLOGY   K00024  malate dehydrogenase [EC:1.1.1.37]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00020  Citrate cycle (TCA cycle)
@@ -18,21 +18,18 @@ MODULE      eco_M00009  Citrate cycle (TCA cycle, Krebs cycle)
             eco_M00012  Glyoxylate cycle
             eco_M00168  CAM (Crassulacean acid metabolism), dark
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b3236 (mdh)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00020 Citrate cycle (TCA cycle)
                 b3236 (mdh)
                00620 Pyruvate metabolism
                 b3236 (mdh)
                00630 Glyoxylate and dicarboxylate metabolism
                 b3236 (mdh)
-              Energy metabolism
+              09102 Energy metabolism
                00680 Methane metabolism
                 b3236 (mdh)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00270 Cysteine and methionine metabolism
                 b3236 (mdh)
             Enzymes [BR:eco01000]
@@ -43,15 +40,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b3236 (mdh)
 POSITION    complement(3383330..3384268)
 MOTIF       Pfam: Ldh_1_C Ldh_1_N Semialdhyde_dh
-DBLINKS     NCBI-ProteinID: NP_417703
-            NCBI-GeneID: 947854
+DBLINKS     NCBI-GeneID: 947854
+            NCBI-ProteinID: NP_417703
             Pasteur: mdh
             RegulonDB: ECK120000569
-            EcoGene: EG10576
             ECOCYC: EG10576
             ASAP: ABE-0010613
             UniProt: P61889
-STRUCTURE   PDB: 3HHP 5KKA 2CMD 1EMD 1IB6 2PWZ 1IE3
+STRUCTURE   PDB: 3HHP 5KKA 2CMD 1EMD 1IB6 2PWZ 5Z3W 1IE3
 AASEQ       312
             MKVAVLGAAGGIGQALALLLKTQLPSGSELSLYDIAPVTPGVAVDLSHIPTAVKIKGFSG
             EDATPALEGADVVLISAGVARKPGMDRSDLFNVNAGIVKNLVQQVAKTCPKACIGIITNP

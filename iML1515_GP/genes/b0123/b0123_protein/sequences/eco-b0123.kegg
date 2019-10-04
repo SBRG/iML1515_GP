@@ -1,20 +1,26 @@
 ENTRY       b0123             CDS       T00007
 NAME        cueO
-DEFINITION  (RefSeq) multicopper oxidase (laccase)
+DEFINITION  (RefSeq) cuprous oxidase/multicopper oxidase with role in copper homeostasis
 ORTHOLOGY   K14588  blue copper oxidase
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09190 Not Included in Pathway or Brite
+              09191 Unclassified: metabolism
+               99988 Secondary metabolism
+                b0123 (cueO)
 POSITION    137083..138633
 MOTIF       Pfam: Cu-oxidase_3 Cu-oxidase_2 Cu-oxidase TAT_signal
-DBLINKS     NCBI-ProteinID: NP_414665
-            NCBI-GeneID: 947736
-            EcoGene: EG12318
+DBLINKS     NCBI-GeneID: 947736
+            NCBI-ProteinID: NP_414665
+            Pasteur: yacK
+            RegulonDB: ECK120002194
             ECOCYC: EG12318
             ASAP: ABE-0000430
             UniProt: P36649
 STRUCTURE   PDB: 4E9S 3UAD 3OD3 4E9Q 4E9R 4E9T 3UAB 3UAC 3UAE 4HAK 4HAL
-                 1KV7 5B7E 5B7F 3PAV 3QQX 3NSC 2YXW 1PF3 4NER 3UAA 1N68
-                 5B7M 3NT0 2YXV 4EF3 2FQE 3PAU 3NSD 3NSF 2FQF 3NSY 2FQG
-                 2FQD
+                 1KV7 5B7E 5B7F 3PAV 5YS1 3QQX 3NSC 2YXW 1PF3 4NER 3UAA
+                 1N68 5B7M 3NT0 2YXV 4EF3 2FQE 3PAU 3NSD 3NSF 2FQF 3NSY
+                 5YS5 2FQG 2FQD
 AASEQ       516
             MQRRDFLKYSVALGVASALPLWSRAVFAAERPTLPIPDLLTTDARNRIQLTIGAGQSTFG
             GKTATTWGYNGNLLGPAVKLQRGKAVTVDIYNQLTEETTLHWHGLEVPGEVDGGPQGIIP

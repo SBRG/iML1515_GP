@@ -1,6 +1,6 @@
 ENTRY       b2222             CDS       T00007
 NAME        atoA
-DEFINITION  (RefSeq) acetyl-CoA:acetoacetyl-CoA transferase, beta subunit
+DEFINITION  (RefSeq) acetyl-CoA:acetoacetyl-CoA transferase subunit beta
 ORTHOLOGY   K01035  acetate CoA/acetoacetate CoA-transferase beta subunit [EC:2.8.3.8 2.8.3.9]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00310  Lysine degradation
@@ -11,20 +11,20 @@ PATHWAY     eco00310  Lysine degradation
             eco01120  Microbial metabolism in diverse environments
             eco02020  Two-component system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00640 Propanoate metabolism
                 b2222 (atoA)
                00650 Butanoate metabolism
                 b2222 (atoA)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00310 Lysine degradation
                 b2222 (atoA)
-              Xenobiotics biodegradation and metabolism
+              09111 Xenobiotics biodegradation and metabolism
                00627 Aminobenzoate degradation
                 b2222 (atoA)
-             Environmental Information Processing
-              Signal transduction
+             09130 Environmental Information Processing
+              09132 Signal transduction
                02020 Two-component system
                 b2222 (atoA)
             Enzymes [BR:eco01000]
@@ -37,11 +37,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2222 (atoA)
 POSITION    2324109..2324759
 MOTIF       Pfam: CoA_trans AcetylCoA_hyd_C DeoRC
-DBLINKS     NCBI-ProteinID: NP_416726
-            NCBI-GeneID: 946719
+DBLINKS     NCBI-GeneID: 946719
+            NCBI-ProteinID: NP_416726
             Pasteur: atoA
             RegulonDB: ECK120001613
-            EcoGene: EG11670
             ECOCYC: EG11670
             ASAP: ABE-0007349
             UniProt: P76459

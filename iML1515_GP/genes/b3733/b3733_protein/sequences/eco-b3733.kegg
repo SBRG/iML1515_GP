@@ -1,15 +1,19 @@
 ENTRY       b3733             CDS       T00007
 NAME        atpG
-DEFINITION  (RefSeq) F1 sector of membrane-bound ATP synthase, gamma subunit
+DEFINITION  (RefSeq) ATP synthase F1 complex subunit gamma
 ORTHOLOGY   K02115  F-type H+-transporting ATPase subunit gamma
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00190  Oxidative phosphorylation
             eco01100  Metabolic pathways
 MODULE      eco_M00157  F-type ATPase, prokaryotes and chloroplasts
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Energy metabolism
+             09100 Metabolism
+              09102 Energy metabolism
                00190 Oxidative phosphorylation
+                b3733 (atpG)
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               00194 Photosynthesis proteins [BR:eco00194]
                 b3733 (atpG)
             Photosynthesis proteins [BR:eco00194]
              Photosystem and electron transport system
@@ -17,11 +21,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b3733 (atpG)
 POSITION    complement(3917402..3918265)
 MOTIF       Pfam: ATP-synt
-DBLINKS     NCBI-ProteinID: NP_418189
-            NCBI-GeneID: 948243
+DBLINKS     NCBI-GeneID: 948243
+            NCBI-ProteinID: NP_418189
             Pasteur: atpG
             RegulonDB: ECK120000100
-            EcoGene: EG10104
             ECOCYC: EG10104
             ASAP: ABE-0012211
             UniProt: P0ABA6

@@ -1,13 +1,28 @@
 ENTRY       b2558             CDS       T00007
 NAME        mltF
-DEFINITION  (RefSeq) membrane-bound lytic transglycosylase F, murein hydrolase
+DEFINITION  (RefSeq) membrane-bound lytic murein transglycosylase F
 ORTHOLOGY   K18691  membrane-bound lytic murein transglycosylase F [EC:4.2.2.-]
 ORGANISM    eco  Escherichia coli K-12 MG1655
+BRITE       KEGG Orthology (KO) [BR:eco00001]
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01011 Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+                b2558 (mltF)
+            Enzymes [BR:eco01000]
+             4. Lyases
+              4.2  Carbon-oxygen lyases
+               4.2.2  Acting on polysaccharides
+                4.2.2.-  
+                 b2558 (mltF)
+            Peptidoglycan biosynthesis and degradation proteins [BR:eco01011]
+             Peptidoglycan biosynthesis and degradation
+              Lytic transglycosylase
+               b2558 (mltF)
 POSITION    2695801..2697357
 MOTIF       Pfam: SBP_bac_3 SLT Lysozyme_like
-DBLINKS     NCBI-ProteinID: NP_417053
-            NCBI-GeneID: 947028
-            EcoGene: EG11373
+DBLINKS     NCBI-GeneID: 947028
+            NCBI-ProteinID: NP_417053
+            RegulonDB: ECK120001341
             ECOCYC: EG11373
             ASAP: ABE-0008417
             UniProt: P0AGC5

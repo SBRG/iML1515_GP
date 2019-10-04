@@ -15,23 +15,24 @@ PATHWAY     eco00010  Glycolysis / Gluconeogenesis
 MODULE      eco_M00001  Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate
             eco_M00002  Glycolysis, core module involving three-carbon compounds
             eco_M00003  Gluconeogenesis, oxaloacetate => fructose-6P
-            eco_M00394  RNA degradosome
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b2779 (eno)
-               01230 Biosynthesis of amino acids
-                b2779 (eno)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00010 Glycolysis / Gluconeogenesis
                 b2779 (eno)
-              Energy metabolism
+              09102 Energy metabolism
                00680 Methane metabolism
                 b2779 (eno)
-             Genetic Information Processing
-              Folding, sorting and degradation
+             09120 Genetic Information Processing
+              09123 Folding, sorting and degradation
                03018 RNA degradation
+                b2779 (eno)
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               03019 Messenger RNA biogenesis [BR:eco03019]
+                b2779 (eno)
+              09183 Protein families: signaling and cellular processes
+               04147 Exosome [BR:eco04147]
                 b2779 (eno)
             Enzymes [BR:eco01000]
              4. Lyases
@@ -40,7 +41,7 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                 4.2.1.11  phosphopyruvate hydratase
                  b2779 (eno)
             Messenger RNA biogenesis [BR:eco03019]
-             Prokaryotic Type
+             Prokaryotic type
               Bacterial mRNA degradation factors
                RNA degradosome components
                 Other RNA degradosome components
@@ -51,15 +52,14 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                b2779 (eno)
 POSITION    complement(2906643..2907941)
 MOTIF       Pfam: Enolase_C Enolase_N MR_MLE_C MAAL_C
-DBLINKS     NCBI-ProteinID: NP_417259
-            NCBI-GeneID: 945032
+DBLINKS     NCBI-GeneID: 945032
+            NCBI-ProteinID: NP_417259
             Pasteur: eno
             RegulonDB: ECK120000252
-            EcoGene: EG10258
             ECOCYC: EG10258
             ASAP: ABE-0009110
             UniProt: P0A6P9
-STRUCTURE   PDB: 2FYM 3H8A 1E9I
+STRUCTURE   PDB: 2FYM 6BFY 3H8A 5OHG 6BFZ 1E9I
 AASEQ       432
             MSKIVKIIGREIIDSRGNPTVEAEVHLEGGFVGMAAAPSGASTGSREALELRDGDKSRFL
             GKGVTKAVAAVNGPIAQALIGKDAKDQAGIDKIMIDLDGTENKSKFGANAILAVSLANAK

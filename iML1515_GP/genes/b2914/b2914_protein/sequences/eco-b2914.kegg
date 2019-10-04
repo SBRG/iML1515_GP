@@ -1,6 +1,6 @@
 ENTRY       b2914             CDS       T00007
 NAME        rpiA
-DEFINITION  (RefSeq) ribose 5-phosphate isomerase, constitutive
+DEFINITION  (RefSeq) ribose-5-phosphate isomerase A
 ORTHOLOGY   K01807  ribose 5-phosphate isomerase A [EC:5.3.1.6]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00030  Pentose phosphate pathway
@@ -13,13 +13,8 @@ PATHWAY     eco00030  Pentose phosphate pathway
 MODULE      eco_M00004  Pentose phosphate pathway (Pentose phosphate cycle)
             eco_M00007  Pentose phosphate pathway, non-oxidative phase, fructose 6P => ribose 5P
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Overview
-               01200 Carbon metabolism
-                b2914 (rpiA)
-               01230 Biosynthesis of amino acids
-                b2914 (rpiA)
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00030 Pentose phosphate pathway
                 b2914 (rpiA)
             Enzymes [BR:eco01000]
@@ -30,11 +25,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2914 (rpiA)
 POSITION    complement(3058666..3059325)
 MOTIF       Pfam: Rib_5-P_isom_A DeoRC
-DBLINKS     NCBI-ProteinID: NP_417389
-            NCBI-GeneID: 947407
+DBLINKS     NCBI-GeneID: 947407
+            NCBI-ProteinID: NP_417389
             Pasteur: rpiA
             RegulonDB: ECK120001407
-            EcoGene: EG11443
             ECOCYC: EG11443
             ASAP: ABE-0009567
             UniProt: P0A7Z0

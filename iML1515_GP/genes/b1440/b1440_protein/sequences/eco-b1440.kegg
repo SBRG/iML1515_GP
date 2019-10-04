@@ -1,29 +1,33 @@
 ENTRY       b1440             CDS       T00007
 NAME        ydcS
-DEFINITION  (RefSeq) polyhydroxybutyrate (PHB) synthase, ABC transporter periplasmic binding protein homolog
+DEFINITION  (RefSeq) putative ABC transporter periplasmic binding protein/polyhydroxybutyrate synthase
 ORTHOLOGY   K02055  putative spermidine/putrescine transport system substrate-binding protein
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco02024  Quorum sensing
-MODULE      eco_M00193  Putative spermidine/putrescine transport system
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Cellular Processes
-              Cellular community - prokaryotes
+             09140 Cellular Processes
+              09145 Cellular community - prokaryotes
                02024 Quorum sensing
                 b1440 (ydcS)
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               02000 Transporters [BR:eco02000]
+                b1440 (ydcS)
             Transporters [BR:eco02000]
-             ABC Transporters, Prokaryotic Type
+             ABC transporters, prokaryotic type
               Mineral and organic ion transporters
-               Putative spermidine/putrescine transporter [MD:M00193]
+               Putative spermidine/putrescine transporter
                 b1440 (ydcS)
 POSITION    1511654..1512799
 MOTIF       Pfam: SBP_bac_8 SBP_bac_1 SBP_bac_6 Glyco_hydro_62 Phosphonate-bd Ral
-DBLINKS     NCBI-ProteinID: NP_415957
-            NCBI-GeneID: 946005
+DBLINKS     NCBI-GeneID: 946005
+            NCBI-ProteinID: NP_415957
             Pasteur: ydcS
-            EcoGene: EG13762
+            RegulonDB: ECK120003340
             ECOCYC: G6751
             ASAP: ABE-0004803
             UniProt: P76108
+STRUCTURE   PDB: 6NLP
 AASEQ       381
             MSKTFARSSLCALSMTIMTAHAAEPPTNLDKPEGRLDIIAWPGYIERGQTDKQYDWVTQF
             EKETGCAVNVKTAATSDEMVSLMTKGGYDLVTASGDASLRLIMGKRVQPINTALIPNWKT

@@ -1,6 +1,6 @@
 ENTRY       b2661             CDS       T00007
 NAME        gabD
-DEFINITION  (RefSeq) succinate-semialdehyde dehydrogenase I, NADP-dependent
+DEFINITION  (RefSeq) NADP(+)-dependent succinate-semialdehyde dehydrogenase
 ORTHOLOGY   K00135  succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.79 1.2.1.20]
 ORGANISM    eco  Escherichia coli K-12 MG1655
 PATHWAY     eco00250  Alanine, aspartate and glutamate metabolism
@@ -12,18 +12,18 @@ PATHWAY     eco00250  Alanine, aspartate and glutamate metabolism
             eco01120  Microbial metabolism in diverse environments
 MODULE      eco_M00027  GABA (gamma-Aminobutyrate) shunt
 BRITE       KEGG Orthology (KO) [BR:eco00001]
-             Metabolism
-              Carbohydrate metabolism
+             09100 Metabolism
+              09101 Carbohydrate metabolism
                00650 Butanoate metabolism
                 b2661 (gabD)
-              Amino acid metabolism
+              09105 Amino acid metabolism
                00250 Alanine, aspartate and glutamate metabolism
                 b2661 (gabD)
                00310 Lysine degradation
                 b2661 (gabD)
                00350 Tyrosine metabolism
                 b2661 (gabD)
-              Metabolism of cofactors and vitamins
+              09108 Metabolism of cofactors and vitamins
                00760 Nicotinate and nicotinamide metabolism
                 b2661 (gabD)
             Enzymes [BR:eco01000]
@@ -38,11 +38,10 @@ BRITE       KEGG Orthology (KO) [BR:eco00001]
                  b2661 (gabD)
 POSITION    2791273..2792721
 MOTIF       Pfam: Aldedh
-DBLINKS     NCBI-ProteinID: NP_417147
-            NCBI-GeneID: 948060
+DBLINKS     NCBI-GeneID: 948060
+            NCBI-ProteinID: NP_417147
             Pasteur: gabD
             RegulonDB: ECK120001300
-            EcoGene: EG11329
             ECOCYC: EG11329
             ASAP: ABE-0008758
             UniProt: P25526
