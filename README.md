@@ -5,7 +5,7 @@ GEM-PRO for the *E. coli* *i*ML1515 metabolic model.
 ### Instructions
 
 **Requirements**
-- Jupyter notebook installation and Python 2/3
+- Jupyter notebook installation and Python 3
 - [ssbio](https://github.com/SBRG/ssbio)
 
 **Installing ssbio**
